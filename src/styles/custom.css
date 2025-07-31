@@ -1,0 +1,16 @@
+/* Add any custom utility classes here */
+.gold-leaf {
+  background-image: url('/golden-leaves.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.premium-border {
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, var(--gold), #E8C252, var(--gold)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
