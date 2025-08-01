@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "services": "Services",
+    "insights": "Insights",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Global Luxury Real Estate",
+    "title": "Exclusive Properties for Discerning Clients",
+    "subtitle": "With over 20 years of experience, we connect international buyers with the finest properties across the world's most desirable locations.",
+    "viewProperties": "View Properties",
+    "contactUs": "Contact Us",
+    "scrollDown": "Scroll Down"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "billionInSales": "Billion in Sales",
+    "countriesServed": "Countries Served",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Discover our expert perspectives on luxury real estate markets worldwide.",
+    "date": "June 15, 2023",
+    "articleTitle": "The Future of Luxury: Emerging Markets to Watch in 2024",
+    "excerpt": "As global wealth patterns shift, we analyze the rising stars in luxury real estate that savvy investors should have on their radar for the coming year.",
+    "readArticle": "Read Article",
+    "exploreMore": "Explore More Insights"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive real estate solutions tailored to your unique needs.",
+    "propertyAcquisition": {
+      "title": "Property Acquisition",
+      "description": "Our global network and market expertise ensures you find the perfect property that meets all your requirements."
+    },
+    "investmentAdvisory": {
+      "title": "Investment Advisory",
+      "description": "Strategic guidance to maximize returns on your real estate investments with our data-driven approach."
+    },
+    "relocationServices": {
+      "title": "Relocation Services",
+      "description": "Comprehensive support for international clients moving to new countries, including legal and logistical assistance."
+    }
+  },
+  "cta": {
+    "title": "Ready to Find Your Dream Property?",
+    "text": "Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property.",
+    "button": "Schedule Consultation"
+  },
+  "footer": {
+    "about": "With over two decades of experience, Prestige Estates is a leading global real estate consultancy specializing in luxury properties and bespoke relocation services.",
+    "quickLinks": "Quick Links",
+    "locations": "Locations",
+    "contact": "Contact",
+    "services": "Services",
+    "insights": "Insights",
+    "northAmerica": "North America",
+    "europe": "Europe",
+    "asia": "Asia",
+    "middleEast": "Middle East",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2023 Prestige Estates. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}

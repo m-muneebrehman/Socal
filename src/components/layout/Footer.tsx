@@ -1,7 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 const Footer = () => {
+  const t = useTranslations('footer');
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -10,7 +13,7 @@ const Footer = () => {
             <div className="footer-logo-icon">P</div>
             Prestige Estates
           </div>
-          <p className="footer-about">With over two decades of experience, Prestige Estates is a leading global real estate consultancy specializing in luxury properties and bespoke relocation services.</p>
+          <p className="footer-about">{t('about')}</p>
           <div className="footer-social">
             <div className="social-icon">f</div>
             <div className="social-icon">in</div>
@@ -19,36 +22,36 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-col">
-          <h3 className="footer-heading">Quick Links</h3>
+          <h3 className="footer-heading">{t('quickLinks')}</h3>
           <ul className="footer-links">
-            <li className="footer-link"><Link href="#services">Services</Link></li>
-            <li className="footer-link"><Link href="#blog">Insights</Link></li>
-            <li className="footer-link"><Link href="#about">About Us</Link></li>
-            <li className="footer-link"><Link href="#contact">Contact</Link></li>
+            <li className="footer-link"><Link href="#services">{t('services')}</Link></li>
+            <li className="footer-link"><Link href="#blog">{t('insights')}</Link></li>
+            <li className="footer-link"><Link href="#about">{t('about')}</Link></li>
+            <li className="footer-link"><Link href="#contact">{t('contact')}</Link></li>
           </ul>
         </div>
         <div className="footer-col">
-          <h3 className="footer-heading">Locations</h3>
+          <h3 className="footer-heading">{t('locations')}</h3>
           <ul className="footer-links">
-            <li className="footer-link"><Link href="#">North America</Link></li>
-            <li className="footer-link"><Link href="#">Europe</Link></li>
-            <li className="footer-link"><Link href="#">Asia</Link></li>
-            <li className="footer-link"><Link href="#">Middle East</Link></li>
+            <li className="footer-link"><Link href="#">{t('northAmerica')}</Link></li>
+            <li className="footer-link"><Link href="#">{t('europe')}</Link></li>
+            <li className="footer-link"><Link href="#">{t('asia')}</Link></li>
+            <li className="footer-link"><Link href="#">{t('middleEast')}</Link></li>
           </ul>
         </div>
         <div className="footer-col">
-          <h3 className="footer-heading">Contact</h3>
+          <h3 className="footer-heading">{t('contact')}</h3>
           <ul className="footer-links">
-            <li className="footer-link"><Link href="tel:+18005551234">+1 (800) 555-1234</Link></li>
-            <li className="footer-link"><Link href="mailto:info@prestigeestates.com">info@prestigeestates.com</Link></li>
-            <li className="footer-link">123 Luxury Avenue<br />Beverly Hills, CA 90210</li>
+            <li className="footer-link"><Link href="tel:+18005551234">{t('phone')}</Link></li>
+            <li className="footer-link"><Link href="mailto:info@prestigeestates.com">{t('email')}</Link></li>
+            <li className="footer-link" dangerouslySetInnerHTML={{ __html: t('address') }}></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <div>© 2023 Prestige Estates. All rights reserved.</div>
+        <div>{t('copyright')}</div>
         <div>
-          <Link href="#">Privacy Policy</Link> | <Link href="#">Terms of Service</Link>
+          <Link href="#">{t('privacyPolicy')}</Link> | <Link href="#">{t('termsOfService')}</Link>
         </div>
       </div>
     </footer>

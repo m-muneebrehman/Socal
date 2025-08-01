@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "services": "Servicios",
+    "insights": "Perspectivas",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Bienes Raíces de Lujo Global",
+    "title": "Propiedades Exclusivas para Clientes Exigentes",
+    "subtitle": "Con más de 20 años de experiencia, conectamos compradores internacionales con las mejores propiedades en las ubicaciones más deseables del mundo.",
+    "viewProperties": "Ver Propiedades",
+    "contactUs": "Contáctanos",
+    "scrollDown": "Desplazarse hacia abajo"
+  },
+  "stats": {
+    "yearsExperience": "Años de Experiencia",
+    "billionInSales": "Mil millones en Ventas",
+    "countriesServed": "Países Atendidos",
+    "clientSatisfaction": "Satisfacción del Cliente"
+  },
+  "blog": {
+    "title": "Últimas Perspectivas",
+    "subtitle": "Descubre nuestras perspectivas expertas sobre mercados inmobiliarios de lujo en todo el mundo.",
+    "date": "15 de junio de 2023",
+    "articleTitle": "El Futuro del Lujo: Mercados Emergentes a Observar en 2024",
+    "excerpt": "A medida que cambian los patrones de riqueza global, analizamos las estrellas emergentes en bienes raíces de lujo que los inversores astutos deberían tener en su radar para el próximo año.",
+    "readArticle": "Leer Artículo",
+    "exploreMore": "Explorar Más Perspectivas"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones inmobiliarias integrales adaptadas a sus necesidades únicas.",
+    "propertyAcquisition": {
+      "title": "Adquisición de Propiedades",
+      "description": "Nuestra red global y experiencia de mercado garantiza que encuentre la propiedad perfecta que cumple con todos sus requisitos."
+    },
+    "investmentAdvisory": {
+      "title": "Asesoría de Inversión",
+      "description": "Orientación estratégica para maximizar los retornos de sus inversiones inmobiliarias con nuestro enfoque basado en datos."
+    },
+    "relocationServices": {
+      "title": "Servicios de Reubicación",
+      "description": "Apoyo integral para clientes internacionales que se mudan a nuevos países, incluyendo asistencia legal y logística."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Encontrar tu Propiedad de Ensueño?",
+    "text": "Contacta a nuestro equipo de expertos hoy para una consulta personalizada y comienza tu viaje para encontrar la casa o propiedad de inversión perfecta.",
+    "button": "Programar Consulta"
+  },
+  "footer": {
+    "about": "Con más de dos décadas de experiencia, Prestige Estates es una consultora inmobiliaria global líder especializada en propiedades de lujo y servicios de reubicación a medida.",
+    "quickLinks": "Enlaces Rápidos",
+    "locations": "Ubicaciones",
+    "contact": "Contacto",
+    "services": "Servicios",
+    "insights": "Perspectivas",
+    "northAmerica": "América del Norte",
+    "europe": "Europa",
+    "asia": "Asia",
+    "middleEast": "Medio Oriente",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2023 Prestige Estates. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  }
+}

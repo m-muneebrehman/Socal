@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "services": "服务",
+    "insights": "洞察",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "badge": "全球豪华房地产",
+    "title": "为挑剔客户提供的专属房产",
+    "subtitle": "凭借超过20年的经验，我们为国际买家连接世界各地最理想地段的精品房产。",
+    "viewProperties": "查看房产",
+    "contactUs": "联系我们",
+    "scrollDown": "向下滚动"
+  },
+  "stats": {
+    "yearsExperience": "年经验",
+    "billionInSales": "销售额十亿",
+    "countriesServed": "服务国家",
+    "clientSatisfaction": "客户满意度"
+  },
+  "blog": {
+    "title": "最新洞察",
+    "subtitle": "探索我们对全球豪华房地产市场的专业观点。",
+    "date": "2023年6月15日",
+    "articleTitle": "豪华的未来：2024年值得关注的新兴市场",
+    "excerpt": "随着全球财富格局的变化，我们分析了精明投资者应该在来年关注的豪华房地产新兴明星。",
+    "readArticle": "阅读文章",
+    "exploreMore": "探索更多洞察"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您的独特需求量身定制的综合房地产解决方案。",
+    "propertyAcquisition": {
+      "title": "房产收购",
+      "description": "我们的全球网络和市场专业知识确保您找到满足所有要求的完美房产。"
+    },
+    "investmentAdvisory": {
+      "title": "投资咨询",
+      "description": "通过我们数据驱动的方法，为您的房地产投资提供战略指导，实现回报最大化。"
+    },
+    "relocationServices": {
+      "title": "搬迁服务",
+      "description": "为移居新国家的国际客户提供全面支持，包括法律和后勤协助。"
+    }
+  },
+  "cta": {
+    "title": "准备寻找您的梦想房产？",
+    "text": "今天就联系我们的专家团队进行个性化咨询，开始您寻找完美住宅或投资房产的旅程。",
+    "button": "安排咨询"
+  },
+  "footer": {
+    "about": "凭借超过二十年的经验，Prestige Estates是一家领先的全球房地产咨询公司，专门从事豪华房产和定制搬迁服务。",
+    "quickLinks": "快速链接",
+    "locations": "地点",
+    "contact": "联系我们",
+    "services": "服务",
+    "insights": "洞察",
+    "northAmerica": "北美",
+    "europe": "欧洲",
+    "asia": "亚洲",
+    "middleEast": "中东",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2023 Prestige Estates. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  }
+}

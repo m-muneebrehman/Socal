@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "services": "Services",
+    "insights": "Perspectives",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Immobilier de Luxe Mondial",
+    "title": "Propriétés Exclusives pour Clients Exigeants",
+    "subtitle": "Avec plus de 20 ans d'expérience, nous connectons les acheteurs internationaux avec les plus belles propriétés dans les emplacements les plus désirables du monde.",
+    "viewProperties": "Voir les Propriétés",
+    "contactUs": "Nous Contacter",
+    "scrollDown": "Faire défiler"
+  },
+  "stats": {
+    "yearsExperience": "Années d'Expérience",
+    "billionInSales": "Milliards de Ventes",
+    "countriesServed": "Pays Servis",
+    "clientSatisfaction": "Satisfaction Client"
+  },
+  "blog": {
+    "title": "Dernières Perspectives",
+    "subtitle": "Découvrez nos perspectives d'experts sur les marchés immobiliers de luxe dans le monde.",
+    "date": "15 juin 2023",
+    "articleTitle": "L'Avenir du Luxe : Marchés Émergents à Surveiller en 2024",
+    "excerpt": "Alors que les modèles de richesse mondiale évoluent, nous analysons les étoiles montantes de l'immobilier de luxe que les investisseurs avisés devraient avoir à l'horizon pour l'année à venir.",
+    "readArticle": "Lire l'Article",
+    "exploreMore": "Explorer Plus de Perspectives"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions immobilières complètes adaptées à vos besoins uniques.",
+    "propertyAcquisition": {
+      "title": "Acquisition de Propriétés",
+      "description": "Notre réseau mondial et notre expertise du marché garantissent que vous trouviez la propriété parfaite qui répond à tous vos besoins."
+    },
+    "investmentAdvisory": {
+      "title": "Conseil en Investissement",
+      "description": "Conseils stratégiques pour maximiser les rendements de vos investissements immobiliers avec notre approche basée sur les données."
+    },
+    "relocationServices": {
+      "title": "Services de Relocalisation",
+      "description": "Support complet pour les clients internationaux déménageant vers de nouveaux pays, incluant l'assistance légale et logistique."
+    }
+  },
+  "cta": {
+    "title": "Prêt à Trouver Votre Propriété de Rêve ?",
+    "text": "Contactez notre équipe d'experts aujourd'hui pour une consultation personnalisée et commencez votre voyage vers la maison ou propriété d'investissement parfaite.",
+    "button": "Planifier une Consultation"
+  },
+  "footer": {
+    "about": "Avec plus de deux décennies d'expérience, Prestige Estates est un cabinet de conseil immobilier mondial de premier plan spécialisé dans les propriétés de luxe et les services de relocalisation sur mesure.",
+    "quickLinks": "Liens Rapides",
+    "locations": "Emplacements",
+    "contact": "Contact",
+    "services": "Services",
+    "insights": "Perspectives",
+    "northAmerica": "Amérique du Nord",
+    "europe": "Europe",
+    "asia": "Asie",
+    "middleEast": "Moyen-Orient",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2023 Prestige Estates. Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions de Service"
+  }
+}

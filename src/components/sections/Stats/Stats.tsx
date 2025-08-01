@@ -1,8 +1,11 @@
 'use client'
 
 import React, { useEffect } from 'react'
+import { useTranslations } from 'next-intl'
 
 const Stats = () => {
+  const t = useTranslations('stats');
+  
   useEffect(() => {
     const animateStats = () => {
       const statNumbers = document.querySelectorAll('.stat-number');
@@ -47,19 +50,19 @@ const Stats = () => {
       <div className="stats-container">
         <div className="stat-card">
           <div className="stat-number" data-target="25">0</div>
-          <div className="stat-label">Years Experience</div>
+          <div className="stat-label">{t('yearsExperience')}</div>
         </div>
         <div className="stat-card">
           <div className="stat-number" data-target="4.2">0</div>
-          <div className="stat-label">Billion in Sales</div>
+          <div className="stat-label">{t('billionInSales')}</div>
         </div>
         <div className="stat-card">
           <div className="stat-number" data-target="50">0</div>
-          <div className="stat-label">Countries Served</div>
+          <div className="stat-label">{t('countriesServed')}</div>
         </div>
         <div className="stat-card">
           <div className="stat-number" data-target="100">0</div>
-          <div className="stat-label">Client Satisfaction</div>
+          <div className="stat-label">{t('clientSatisfaction')}</div>
         </div>
       </div>
     </section>

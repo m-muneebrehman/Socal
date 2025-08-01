@@ -1,8 +1,11 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import LanguageSelector from '../common/LanguageSelector';
 
 const Navigation = () => {
+  const t = useTranslations('navigation');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -22,15 +25,13 @@ const Navigation = () => {
         </div>
         
         <ul className="nav-menu">
-          <li><Link href="#services" className="nav-link">Services</Link></li>
-          <li><Link href="#blog" className="nav-link">Insights</Link></li>
-          <li><Link href="#about" className="nav-link">About</Link></li>
-          <li><Link href="#contact" className="nav-link">Contact</Link></li>
+          <li><Link href="#services" className="nav-link">{t('services')}</Link></li>
+          <li><Link href="#blog" className="nav-link">{t('insights')}</Link></li>
+          <li><Link href="#about" className="nav-link">{t('about')}</Link></li>
+          <li><Link href="#contact" className="nav-link">{t('contact')}</Link></li>
         </ul>
 
-        <div className="language-dropdown">
-          <button className="language-btn">EN</button>
-        </div>
+        <LanguageSelector />
       </div>
     </nav>
   );
