@@ -1,6 +1,5 @@
 'use client'
 import React, { useState, useRef, useEffect } from 'react'
-import { useRouter, usePathname } from '@/i18n/navigation'
 import { useLocale } from 'next-intl'
 
 const languages = [
@@ -15,8 +14,6 @@ const languages = [
 const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
-  const router = useRouter()
-  const pathname = usePathname()
   const locale = useLocale()
 
   const currentLanguage = languages.find(lang => lang.code === locale) || languages[0]
@@ -33,7 +30,29 @@ const LanguageSelector = () => {
   }, [])
 
   const handleLanguageChange = (languageCode: string) => {
-    router.replace(pathname, { locale: languageCode })
+    // Get current pathname
+    const currentPath = window.location.pathname
+    
+    // Remove current locale from pathname
+    let pathWithoutLocale = currentPath
+    for (const lang of languages) {
+      if (currentPath.startsWith(`/${lang.code}/`)) {
+        pathWithoutLocale = currentPath.replace(`/${lang.code}`, '')
+        break
+      } else if (currentPath === `/${lang.code}`) {
+        pathWithoutLocale = '/'
+        break
+      }
+    }
+    
+    // Ensure pathWithoutLocale starts with /
+    if (!pathWithoutLocale.startsWith('/')) {
+      pathWithoutLocale = '/' + pathWithoutLocale
+    }
+    
+    // Navigate to new locale
+    const newPath = `/${languageCode}${pathWithoutLocale}`
+    window.location.href = newPath
     setIsOpen(false)
   }
 
