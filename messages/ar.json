@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "المدن",
     "services": "الخدمات",
     "insights": "الرؤى",
     "about": "من نحن",
@@ -18,6 +19,30 @@
     "billionInSales": "مليارات المبيعات",
     "countriesServed": "الدول المخدومة",
     "clientSatisfaction": "رضا العملاء"
+  },
+  "cities": {
+    "title": "استكشف مدن كاليفورنيا",
+    "subtitle": "اكتشف أكثر المواقع المرغوبة في الولاية الذهبية، كل منها يقدم فرص نمط حياة فريدة وإمكانات استثمارية.",
+    "population": "السكان",
+    "avgHomePrice": "متوسط سعر المنزل",
+    "hero": {
+      "title": "مرحباً بك في {cityName}",
+      "subtitle": "اكتشف السحر الفريد والفرص في هذه المدينة النابضة بالحياة في كاليفورنيا",
+      "exploreProperties": "استكشف العقارات",
+      "contactAgent": "اتصل بالوكيل"
+    },
+    "highlights": {
+      "title": "أبرز معالم المدينة",
+      "subtitle": "ما يجعل {cityName} مميزة"
+    },
+    "faqs": {
+      "title": "الأسئلة الشائعة",
+      "subtitle": "كل ما تحتاج معرفته عن {cityName}"
+    },
+    "clients": {
+      "title": "عملاؤنا في {cityName}",
+      "subtitle": "المجتمع المتنوع من المهنيين والعائلات الذين نخدمهم"
+    }
   },
   "blog": {
     "title": "أحدث الرؤى",

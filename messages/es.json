@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "Ciudades",
     "services": "Servicios",
     "insights": "Perspectivas",
     "about": "Acerca de",
@@ -18,6 +19,30 @@
     "billionInSales": "Mil millones en Ventas",
     "countriesServed": "Países Atendidos",
     "clientSatisfaction": "Satisfacción del Cliente"
+  },
+  "cities": {
+    "title": "Explora Ciudades de California",
+    "subtitle": "Descubre las ubicaciones más deseables en el Estado Dorado, cada una ofreciendo oportunidades de estilo de vida únicas y potencial de inversión.",
+    "population": "Población",
+    "avgHomePrice": "Precio Promedio de Casa",
+    "hero": {
+      "title": "Bienvenido a {cityName}",
+      "subtitle": "Descubre el encanto único y las oportunidades de esta vibrante ciudad de California",
+      "exploreProperties": "Explorar Propiedades",
+      "contactAgent": "Contactar Agente"
+    },
+    "highlights": {
+      "title": "Destacados de la Ciudad",
+      "subtitle": "Lo que hace especial a {cityName}"
+    },
+    "faqs": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber sobre {cityName}"
+    },
+    "clients": {
+      "title": "Nuestros Clientes en {cityName}",
+      "subtitle": "La diversa comunidad de profesionales y familias que servimos"
+    }
   },
   "blog": {
     "title": "Últimas Perspectivas",

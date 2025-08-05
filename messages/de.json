@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "Städte",
     "services": "Dienstleistungen",
     "insights": "Einblicke",
     "about": "Über uns",
@@ -18,6 +19,30 @@
     "billionInSales": "Milliarden Umsatz",
     "countriesServed": "Länder bedient",
     "clientSatisfaction": "Kundenzufriedenheit"
+  },
+  "cities": {
+    "title": "Kalifornische Städte erkunden",
+    "subtitle": "Entdecken Sie die begehrtesten Standorte im Golden State, jeder bietet einzigartige Lebensstil-Möglichkeiten und Investitionspotenzial.",
+    "population": "Bevölkerung",
+    "avgHomePrice": "Durchschnittlicher Hauspreis",
+    "hero": {
+      "title": "Willkommen in {cityName}",
+      "subtitle": "Entdecken Sie den einzigartigen Charme und die Möglichkeiten dieser lebendigen kalifornischen Stadt",
+      "exploreProperties": "Immobilien erkunden",
+      "contactAgent": "Agent kontaktieren"
+    },
+    "highlights": {
+      "title": "Stadt-Highlights",
+      "subtitle": "Was {cityName} besonders macht"
+    },
+    "faqs": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über {cityName} wissen müssen"
+    },
+    "clients": {
+      "title": "Unsere Kunden in {cityName}",
+      "subtitle": "Die vielfältige Gemeinschaft von Fachleuten und Familien, die wir betreuen"
+    }
   },
   "blog": {
     "title": "Neueste Einblicke",

@@ -25,6 +25,7 @@ const Navigation = () => {
         </div>
         
         <ul className="nav-menu">
+          <li><Link href="#cities" className="nav-link">{t('cities')}</Link></li>
           <li><Link href="#services" className="nav-link">{t('services')}</Link></li>
           <li><Link href="#blog" className="nav-link">{t('insights')}</Link></li>
           <li><Link href="#about" className="nav-link">{t('about')}</Link></li>

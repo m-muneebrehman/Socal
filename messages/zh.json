@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "城市",
     "services": "服务",
     "insights": "洞察",
     "about": "关于我们",
@@ -18,6 +19,30 @@
     "billionInSales": "销售额十亿",
     "countriesServed": "服务国家",
     "clientSatisfaction": "客户满意度"
+  },
+  "cities": {
+    "title": "探索加利福尼亚城市",
+    "subtitle": "发现金州最理想的地点，每个都提供独特的生活方式机会和投资潜力。",
+    "population": "人口",
+    "avgHomePrice": "平均房价",
+    "hero": {
+      "title": "欢迎来到{cityName}",
+      "subtitle": "发现这个充满活力的加利福尼亚城市的独特魅力和机遇",
+      "exploreProperties": "探索房产",
+      "contactAgent": "联系经纪人"
+    },
+    "highlights": {
+      "title": "城市亮点",
+      "subtitle": "让{cityName}与众不同的原因"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "subtitle": "关于{cityName}您需要了解的一切"
+    },
+    "clients": {
+      "title": "我们在{cityName}的客户",
+      "subtitle": "我们服务的专业人士和家庭的多元化社区"
+    }
   },
   "blog": {
     "title": "最新洞察",
