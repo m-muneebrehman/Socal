@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Estates | Luxury Real Estate Consultancy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --charcoal: #1A1A1A;
+            --white: #FFFFFF;
+            --gold: #D4AF37;
+            --blue: #3A7CA5;
+            --light-gray: #F5F5F5;
+            --dark-gray: #2A2A2A;
+            --cream: #F8F4E9;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--white);
+            color: var(--charcoal);
+            line-height: 1.6;
+        }
+
+        /* Loading Screen (Kept as requested) */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--charcoal);
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: fadeOut 1s ease-out 2.5s forwards;
+        }
+
+        .loading-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 300;
+            color: var(--gold);
+            letter-spacing: 4px;
+            margin-bottom: 30px;
+            opacity: 0;
+            animation: elegantFadeIn 1.5s ease-out 0.5s forwards;
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 1px;
+            background: rgba(212, 175, 55, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loading-progress {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            animation: progressLoad 2s ease-out forwards;
+        }
+
+        /* Premium Navigation */
+        .navigation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 0;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.4s ease;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, var(--gold), #E8C252);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--charcoal);
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 22px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .logo-icon:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            font-weight: 500;
+            color: var(--white);
+            letter-spacing: 1.5px;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 50px;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .nav-link {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 12px 0;
+            opacity: 0.9;
+        }
+
+        .nav-link:hover {
+            opacity: 1;
+            color: var(--gold);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--gold), #E8C252);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .language-dropdown {
+            position: relative;
+            margin-left: 40px;
+        }
+
+        .language-btn {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--gold);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+
+        .language-btn:hover {
+            background: rgba(212, 175, 55, 0.2);
+            border-color: var(--gold);
+        }
+
+        .language-btn::after {
+            content: '▼';
+            font-size: 8px;
+            margin-top: 1px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            height: 100vh;
+            min-height: 800px;
+            background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
+                        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            color: var(--white);
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px solid var(--gold);
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--gold);
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 500;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            max-width: 700px;
+        }
+
+        .hero-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 40px;
+            max-width: 600px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Swipe Down Button */
+        .swipe-down-btn {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: transparent;
+            border: none;
+            color: var(--white);
+            cursor: pointer;
+            padding: 20px;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .swipe-down-btn:hover {
+            transform: translateX(-50%) translateY(5px);
+        }
+
+        .swipe-arrow {
+            width: 2px;
+            height: 30px;
+            background: var(--gold);
+            position: relative;
+            margin: 0 auto 10px;
+            animation: swipeDown 2s ease-in-out infinite;
+        }
+
+        .swipe-arrow::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid var(--gold);
+        }
+
+        .swipe-text {
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            opacity: 0.8;
+            animation: fadeInOut 2s ease-in-out infinite;
+        }
+
+        @keyframes swipeDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(10px);
+            }
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 0.4;
+            }
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--charcoal);
+            padding: 18px 40px;
+            border: none;
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .btn-primary:hover {
+            background: #E8C252;
+            transform: translateY(-2px);
+        }
+
+        /* CTA Button - Premium Style */
+        .cta-btn {
+            background: transparent;
+            color: var(--white);
+            padding: 20px 45px;
+            border: 2px solid var(--gold);
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--gold);
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+
+        .cta-btn:hover {
+            color: var(--charcoal);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+        }
+
+        .cta-btn:hover::before {
+            left: 0;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 18px 40px;
+            border: 1px solid var(--white);
+            border-radius: 2px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Stats Section - Updated */
+        .stats-section {
+            padding: 120px 40px;
+            background: var(--cream);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stats-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to bottom, rgba(26, 26, 26, 0.1), var(--cream));
+            z-index: 1;
+        }
+
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 50px 20px;
+            background: var(--white);
+            border-radius: 4px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gold);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card:hover::after {
+            transform: scaleX(1);
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 500;
+            color: var(--gold);
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--charcoal);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
+
+        /* Blog Section - New */
+        .blog-section {
+            padding: 100px 40px;
+            background: var(--white);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: rgba(26, 26, 26, 0.7);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .blog-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .blog-card {
+            max-width: 800px;
+            background: var(--cream);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+            transition: all 0.4s ease;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-image {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .blog-content {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .blog-date {
+            font-size: 12px;
+            color: var(--gold);
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .blog-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .blog-excerpt {
+            font-size: 15px;
+            line-height: 1.8;
+            color: rgba(26, 26, 26, 0.8);
+            margin-bottom: 30px;
+        }
+
+        .blog-link {
+            color: var(--charcoal);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .blog-link:hover {
+            color: var(--gold);
+        }
+
+        .blog-link::after {
+            content: '→';
+            transition: transform 0.3s ease;
+        }
+
+        .blog-link:hover::after {
+            transform: translateX(5px);
+        }
+
+        .see-more {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .see-more-link {
+            color: var(--charcoal);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+        }
+
+        .see-more-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: var(--charcoal);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease;
+        }
+
+        .see-more-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+/* Services Section - Premium Redesign */
+.services-section {
+    padding: 100px 40px;
+    background: var(--white);
+}
+
+.services-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.service-card {
+    padding: 50px 35px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.02) 0%, rgba(255, 255, 255, 0) 50%, rgba(212, 175, 55, 0.02) 100%);
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+/* Premium Leaves Animation for Services - FIXED VERSION */
+.service-premium-leaves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.service-leaf-top-right {
+    position: absolute;
+    top: 0;  /* At the very top edge */
+    right: 0;  /* At the very right edge */
+    width: 200px;  /* Larger size for more prominence */
+    height: 140px;
+    background: url('golden-leaves.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* Transform origin at top-right corner where the root should attach */
+    transform-origin: 100% 0%; /* Top-right corner of the element */
+    /* Initial state: rotated so root is at corner, scaled to 0 */
+    transform: scale(0) rotate(-45deg); /* Rotate so stem points to top-right corner */
+    opacity: 0;
+    transition: all 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 2;
+}
+
+/* On hover: leaf grows from corner toward center */
+.service-card:hover .service-leaf-top-right {
+    transform: scale(1) rotate(-45deg); /* Keep the rotation, just scale up */
+    opacity: 0.8;
+}
+
+/* Alternative version if you want the leaf to curve more toward center */
+.service-leaf-top-right-curved {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 160px;
+    height: 100px;
+    background: url('golden-leaves.png') no-repeat;
+    background-position: right top;
+    background-size: contain;
+    transform-origin: 90% 10%; /* Root point of the leaf */
+    transform: scale(0) rotate(10deg);
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: 1;
+}
+
+.service-card:hover .service-leaf-top-right-curved {
+    transform: scale(1.1) rotate(-25deg) translate(-30px, 15px);
+    opacity: 0.9;
+}
+
+/* Enhanced service card hover effects */
+.service-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(212, 175, 55, 0.15);
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+/* Premium border animation for services */
+.service-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--gold), #E8C252, var(--gold)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.service-card:hover::after {
+    opacity: 1;
+}
+
+.service-icon {
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: var(--gold);
+    transition: all 0.4s ease;
+}
+
+.service-card:hover .service-icon {
+    transform: scale(1.1);
+    color: var(--gold);
+}
+
+.service-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: var(--charcoal);
+    transition: all 0.4s ease;
+}
+
+.service-card:hover .service-title {
+    color: var(--charcoal);
+}
+
+.service-description {
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(26, 26, 26, 0.7);
+    transition: all 0.4s ease;
+}
+
+.service-card:hover .service-description {
+    color: rgba(26, 26, 26, 0.8);
+}
+
+
+        /* CTA Section - Premium Redesign */
+        .cta-section {
+            padding: 120px 40px;
+            background: var(--charcoal);
+            color: var(--white);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, rgba(26, 26, 26, 0) 50%, rgba(212, 175, 55, 0.05) 100%);
+            z-index: 1;
+        }
+
+        .cta-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            color: var(--white);
+        }
+
+        .cta-text {
+            font-size: 18px;
+            margin-bottom: 50px;
+            opacity: 0.8;
+            line-height: 1.8;
+            color: var(--white);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--charcoal);
+            color: var(--white);
+            padding: 80px 40px 40px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-logo-icon {
+            width: 30px;
+            height: 30px;
+            background: var(--gold);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--charcoal);
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .footer-about {
+            font-size: 14px;
+            line-height: 1.8;
+            opacity: 0.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--dark-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .social-icon:hover {
+            background: var(--gold);
+            color: var(--charcoal);
+        }
+
+        .footer-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-link {
+            margin-bottom: 12px;
+        }
+
+        .footer-link a {
+            color: var(--white);
+            text-decoration: none;
+            font-size: 14px;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .footer-link a:hover {
+            opacity: 1;
+            color: var(--gold);
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 1024px) {
+            .hero-title {
+                font-size: 56px;
+            }
+            
+            .blog-card {
+                grid-template-columns: 1fr;
+            }
+            
+            .blog-image {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                padding: 0 20px;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .hero-section {
+                padding: 0 20px;
+                min-height: 700px;
+            }
+
+            .hero-title {
+                font-size: 42px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .stats-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 36px;
+            }
+
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+        }
+
+        /* Animations */
+        @keyframes elegantFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        @keyframes progressLoad {
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-logo">PRESTIGE ESTATES</div>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo-icon">P</div>
+                <div class="logo-text">Prestige Estates</div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#blog" class="nav-link">Insights</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="language-dropdown">
+                <button class="language-btn">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge">Global Luxury Real Estate</div>
+            <h1 class="hero-title">Exclusive Properties for Discerning Clients</h1>
+            <p class="hero-subtitle">With over 20 years of experience, we connect international buyers with the finest properties across the world's most desirable locations.</p>
+            <div class="hero-cta">
+                <button class="btn-primary">View Properties</button>
+                <button class="btn-secondary">Contact Us</button>
+            </div>
+        </div>
+        <button class="swipe-down-btn" onclick="scrollToStats()">
+            <div class="swipe-arrow"></div>
+            <div class="swipe-text">Scroll Down</div>
+        </button>
+    </section>
+
+    <!-- Stats Section - Updated -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number" data-target="25">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="4.2">0</div>
+                <div class="stat-label">Billion in Sales</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">Countries Served</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="100">0</div>
+                <div class="stat-label">Client Satisfaction</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section - New -->
+    <section class="blog-section" id="blog">
+        <div class="section-header">
+            <h2 class="section-title">Latest Insights</h2>
+            <p class="section-subtitle">Discover our expert perspectives on luxury real estate markets worldwide.</p>
+        </div>
+        <div class="blog-container">
+            <div class="blog-card">
+                <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');"></div>
+                <div class="blog-content">
+                    <div class="blog-date">June 15, 2023</div>
+                    <h3 class="blog-title">The Future of Luxury: Emerging Markets to Watch in 2024</h3>
+                    <p class="blog-excerpt">As global wealth patterns shift, we analyze the rising stars in luxury real estate that savvy investors should have on their radar for the coming year.</p>
+                    <a href="#" class="blog-link">Read Article</a>
+                </div>
+            </div>
+        </div>
+        <div class="see-more">
+            <a href="#" class="see-more-link">Explore More Insights</a>
+        </div>
+    </section>
+
+    <!-- Services Section - Premium Redesign -->
+    <section class="services-section" id="services">
+        <div class="section-header">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive real estate solutions tailored to your unique needs.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-premium-leaves">
+                    <div class="service-leaf-top-right"></div>
+                </div>
+                <div class="service-icon">🏡</div>
+                <h3 class="service-title">Property Acquisition</h3>
+                <p class="service-description">Our global network and market expertise ensures you find the perfect property that meets all your requirements.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-premium-leaves">
+                    <div class="service-leaf-top-right"></div>
+                </div>
+                <div class="service-icon">💰</div>
+                <h3 class="service-title">Investment Advisory</h3>
+                <p class="service-description">Strategic guidance to maximize returns on your real estate investments with our data-driven approach.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-premium-leaves">
+                    <div class="service-leaf-top-right"></div>
+                </div>
+                <div class="service-icon">🌎</div>
+                <h3 class="service-title">Relocation Services</h3>
+                <p class="service-description">Comprehensive support for international clients moving to new countries, including legal and logistical assistance.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Section - Premium Redesign -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title">Ready to Find Your Dream Property?</h2>
+            <p class="cta-text">Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property.</p>
+            <button class="cta-btn">Schedule Consultation</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">P</div>
+                    Prestige Estates
+                </div>
+                <p class="footer-about">With over two decades of experience, Prestige Estates is a leading global real estate consultancy specializing in luxury properties and bespoke relocation services.</p>
+                <div class="footer-social">
+                    <div class="social-icon">f</div>
+                    <div class="social-icon">in</div>
+                    <div class="social-icon">ig</div>
+                    <div class="social-icon">tw</div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#services">Services</a></li>
+                    <li class="footer-link"><a href="#blog">Insights</a></li>
+                    <li class="footer-link"><a href="#about">About Us</a></li>
+                    <li class="footer-link"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-heading">Locations</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#">North America</a></li>
+                    <li class="footer-link"><a href="#">Europe</a></li>
+                    <li class="footer-link"><a href="#">Asia</a></li>
+                    <li class="footer-link"><a href="#">Middle East</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-heading">Contact</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="tel:+18005551234">+1 (800) 555-1234</a></li>
+                    <li class="footer-link"><a href="mailto:info@prestigeestates.com">info@prestigeestates.com</a></li>
+                    <li class="footer-link">123 Luxury Avenue<br>Beverly Hills, CA 90210</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2023 Prestige Estates. All rights reserved.</div>
+            <div>
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Remove loading screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const loadingScreen = document.querySelector('.loading-screen');
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 1000);
+            }, 2500);
+            
+            // Animate stats numbers
+            animateStats();
+        });
+
+        // Sticky navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navigation');
+            if (window.scrollY > 50) {
+                nav.style.padding = '15px 0';
+                nav.style.background = 'rgba(26, 26, 26, 0.98)';
+                nav.style.backdropFilter = 'blur(15px)';
+            } else {
+                nav.style.padding = '20px 0';
+                nav.style.background = 'rgba(26, 26, 26, 0.95)';
+                nav.style.backdropFilter = 'blur(10px)';
+            }
+        });
+
+        // Animate stats numbers
+        function animateStats() {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            const speed = 200; // lower = faster
+            
+            statNumbers.forEach(stat => {
+                const target = +stat.getAttribute('data-target');
+                const count = +stat.innerText;
+                const increment = target / speed;
+                
+                if (count < target) {
+                    stat.innerText = Math.ceil(count + increment);
+                    setTimeout(animateStats, 1);
+                } else {
+                    stat.innerText = target;
+                    // Add plus sign for years experience
+                    if (stat.getAttribute('data-target') === '25') {
+                        stat.innerText += '+';
+                    }
+                    // Add percent sign for satisfaction
+                    if (stat.getAttribute('data-target') === '100') {
+                        stat.innerText += '%';
+                    }
+                    // Add B for billion
+                    if (stat.getAttribute('data-target') === '4.2') {
+                        stat.innerText += 'B';
+                    }
+                    // Add plus for countries
+                    if (stat.getAttribute('data-target') === '50') {
+                        stat.innerText += '+';
+                    }
+                }
+            });
+        }
+
+        // Mobile menu toggle would go here
+
+        // Smooth scroll to stats section
+        function scrollToStats() {
+            const statsSection = document.querySelector('.stats-section');
+            statsSection.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    </script>
+</body>
+</html>

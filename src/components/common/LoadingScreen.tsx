@@ -1,16 +1,24 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
 const LoadingScreen = () => {
   const [isVisible, setIsVisible] = useState(true)
+  const pathname = usePathname()
 
   useEffect(() => {
+    // Only show loading screen on home page (root path)
+    if (pathname !== '/' && pathname !== '/en' && pathname !== '/de' && pathname !== '/fr' && pathname !== '/zh' && pathname !== '/ar' && pathname !== '/es') {
+      setIsVisible(false)
+      return
+    }
+
     const timer = setTimeout(() => {
       setIsVisible(false)
     }, 2500)
 
     return () => clearTimeout(timer)
-  }, [])
+  }, [pathname])
 
   if (!isVisible) return null
 

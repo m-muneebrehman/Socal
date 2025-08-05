@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "Villes",
     "services": "Services",
     "insights": "Perspectives",
     "about": "À propos",
@@ -18,6 +19,30 @@
     "billionInSales": "Milliards de Ventes",
     "countriesServed": "Pays Servis",
     "clientSatisfaction": "Satisfaction Client"
+  },
+  "cities": {
+    "title": "Explorez les Villes de Californie",
+    "subtitle": "Découvrez les emplacements les plus désirables de l'État d'Or, chacun offrant des opportunités de style de vie uniques et un potentiel d'investissement.",
+    "population": "Population",
+    "avgHomePrice": "Prix Moyen des Maisons",
+    "hero": {
+      "title": "Bienvenue à {cityName}",
+      "subtitle": "Découvrez le charme unique et les opportunités de cette ville vibrante de Californie",
+      "exploreProperties": "Explorer les Propriétés",
+      "contactAgent": "Contacter l'Agent"
+    },
+    "highlights": {
+      "title": "Points Forts de la Ville",
+      "subtitle": "Ce qui rend {cityName} spéciale"
+    },
+    "faqs": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Tout ce que vous devez savoir sur {cityName}"
+    },
+    "clients": {
+      "title": "Nos Clients à {cityName}",
+      "subtitle": "La communauté diverse de professionnels et familles que nous servons"
+    }
   },
   "blog": {
     "title": "Dernières Perspectives",

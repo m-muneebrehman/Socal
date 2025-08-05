@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 const Blog = () => {
   const t = useTranslations('blog');
@@ -17,12 +18,12 @@ const Blog = () => {
             <div className="blog-date">{t('date')}</div>
             <h3 className="blog-title">{t('articleTitle')}</h3>
             <p className="blog-excerpt">{t('excerpt')}</p>
-            <a href="#" className="blog-link">{t('readArticle')}</a>
+            <Link href="/blog" className="blog-link">{t('readArticle')}</Link>
           </div>
         </div>
       </div>
       <div className="see-more">
-        <a href="#" className="see-more-link">{t('exploreMore')}</a>
+        <Link href="/blog" className="see-more-link">{t('exploreMore')}</Link>
       </div>
     </section>
   )

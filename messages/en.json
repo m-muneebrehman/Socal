@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "cities": "Cities",
     "services": "Services",
     "insights": "Insights",
     "about": "About",
@@ -19,6 +20,30 @@
     "countriesServed": "Countries Served",
     "clientSatisfaction": "Client Satisfaction"
   },
+  "cities": {
+    "title": "Explore California Cities",
+    "subtitle": "Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.",
+    "population": "Population",
+    "avgHomePrice": "Avg Home Price",
+    "hero": {
+      "title": "Welcome to {cityName}",
+      "subtitle": "Discover the unique charm and opportunities of this vibrant California city",
+      "exploreProperties": "Explore Properties",
+      "contactAgent": "Contact Agent"
+    },
+    "highlights": {
+      "title": "City Highlights",
+      "subtitle": "What makes {cityName} special"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about {cityName}"
+    },
+    "clients": {
+      "title": "Our Clients in {cityName}",
+      "subtitle": "The diverse community of professionals and families we serve"
+    }
+  },
   "blog": {
     "title": "Latest Insights",
     "subtitle": "Discover our expert perspectives on luxury real estate markets worldwide.",
@@ -26,7 +51,13 @@
     "articleTitle": "The Future of Luxury: Emerging Markets to Watch in 2024",
     "excerpt": "As global wealth patterns shift, we analyze the rising stars in luxury real estate that savvy investors should have on their radar for the coming year.",
     "readArticle": "Read Article",
-    "exploreMore": "Explore More Insights"
+    "exploreMore": "Explore More Insights",
+    "meta": {
+      "title": "Luxury Real Estate Insights & News | Prestige Estates",
+      "description": "Stay informed with expert analysis, market trends, and exclusive insights from the world of luxury real estate investments."
+    },
+    "featured": "Featured",
+    "by": "By"
   },
   "services": {
     "title": "Our Services",
@@ -68,3 +99,4 @@
     "termsOfService": "Terms of Service"
   }
 }
+
