@@ -6,11 +6,13 @@ import { AdminHeader } from "@/components/admin/admin-header"
 import { HeroContentManager } from "@/components/admin/hero-content-manager"
 import { BlogManager } from "@/components/admin/blog-manager"
 import { UserManager } from "@/components/admin/user-manager"
+import { CityManager } from "@/components/admin/city-manager"
 
 const NAV_ITEMS = [
   { key: "users", label: "Users" },
   { key: "hero", label: "Hero Content" },
   { key: "blogs", label: "Blogs" },
+  { key: "cities", label: "Cities" },
 ]
 
 export default function AdminDashboard() {
@@ -77,6 +79,7 @@ export default function AdminDashboard() {
           {activeSection === "users" && <UserManager />}
           {activeSection === "hero" && <HeroContentManager />}
           {activeSection === "blogs" && <BlogManager />}
+          {activeSection === "cities" && <CityManager />}
         </main>
       </div>
     </div>
