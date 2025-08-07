@@ -1,15 +1,27 @@
 [
   {
+    "id": "689416abd030dedaafd97825",
     "slug": "los-angeles",
     "name": "Los Angeles",
     "state": "California",
     "shortDescription": "The entertainment capital of the world, offering diverse neighborhoods, cultural attractions, and endless opportunities.",
+    "fullDescription": "Los Angeles is a sprawling Southern California city and the center of the nation's film and television industry. Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities' hand- and footprints, the Walk of Fame honors thousands of luminaries and vendors sell maps to stars' homes.",
     "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "4M+",
     "avgHomePrice": "$1.2M",
-    "tags": ["Entertainment", "Diversity", "Culture"],
-    "neighborhoods": ["Hollywood", "Beverly Hills", "Santa Monica", "Venice", "Downtown LA", "West Hollywood"],
-    "fullDescription": "Los Angeles is a sprawling Southern California city and the center of the nation's film and television industry. Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities' hand- and footprints, the Walk of Fame honors thousands of luminaries and vendors sell maps to stars' homes.",
+    "tags": [
+      "Entertainment",
+      "Diversity",
+      "Culture"
+    ],
+    "neighborhoods": [
+      "Hollywood",
+      "Beverly Hills",
+      "Santa Monica",
+      "Venice",
+      "Downtown LA",
+      "West Hollywood"
+    ],
     "highlights": [
       {
         "title": "Hollywood & Entertainment",
@@ -90,16 +102,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97826",
     "slug": "san-francisco",
     "name": "San Francisco",
     "state": "California",
     "shortDescription": "The tech hub of the world, known for its iconic Golden Gate Bridge, diverse culture, and innovative spirit.",
+    "fullDescription": "San Francisco is a cultural, commercial, and financial center in Northern California. The city is known for its cool summers, fog, steep rolling hills, eclectic mix of architecture, and landmarks, including the Golden Gate Bridge, cable cars, Alcatraz, and Chinatown.",
     "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "873K+",
     "avgHomePrice": "$1.8M",
-    "tags": ["Technology", "Innovation", "Culture"],
-    "neighborhoods": ["SOMA", "Mission District", "Pacific Heights", "Nob Hill", "Castro", "Chinatown"],
-    "fullDescription": "San Francisco is a cultural, commercial, and financial center in Northern California. The city is known for its cool summers, fog, steep rolling hills, eclectic mix of architecture, and landmarks, including the Golden Gate Bridge, cable cars, Alcatraz, and Chinatown.",
+    "tags": [
+      "Technology",
+      "Innovation",
+      "Culture"
+    ],
+    "neighborhoods": [
+      "SOMA",
+      "Mission District",
+      "Pacific Heights",
+      "Nob Hill",
+      "Castro",
+      "Chinatown"
+    ],
     "highlights": [
       {
         "title": "Tech Innovation Hub",
@@ -180,16 +204,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97827",
     "slug": "san-diego",
     "name": "San Diego",
     "state": "California",
     "shortDescription": "America's Finest City, offering perfect weather, beautiful beaches, and a laid-back lifestyle with world-class amenities.",
+    "fullDescription": "San Diego is a city on the Pacific coast of California known for its beaches, parks and warm climate. Immense Balboa Park is the site of the renowned San Diego Zoo, as well as numerous art galleries, artist studios, museums and gardens.",
     "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "1.4M+",
     "avgHomePrice": "$950K",
-    "tags": ["Beaches", "Weather", "Lifestyle"],
-    "neighborhoods": ["La Jolla", "Del Mar", "Coronado", "Gaslamp Quarter", "Mission Beach", "Hillcrest"],
-    "fullDescription": "San Diego is a city on the Pacific coast of California known for its beaches, parks and warm climate. Immense Balboa Park is the site of the renowned San Diego Zoo, as well as numerous art galleries, artist studios, museums and gardens.",
+    "tags": [
+      "Beaches",
+      "Weather",
+      "Lifestyle"
+    ],
+    "neighborhoods": [
+      "La Jolla",
+      "Del Mar",
+      "Coronado",
+      "Gaslamp Quarter",
+      "Mission Beach",
+      "Hillcrest"
+    ],
     "highlights": [
       {
         "title": "Perfect Weather",
@@ -270,16 +306,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97828",
     "slug": "beverly-hills",
     "name": "Beverly Hills",
     "state": "California",
     "shortDescription": "The epitome of luxury living, featuring world-class shopping, fine dining, and some of the most prestigious real estate in the world.",
+    "fullDescription": "Beverly Hills is a city in Los Angeles County, California, United States. It is known for its luxury shopping, fine dining, and the famous Rodeo Drive shopping district. The city is home to many celebrities and is one of the most prestigious addresses in the world.",
     "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "32K+",
     "avgHomePrice": "$4.2M",
-    "tags": ["Luxury", "Shopping", "Celebrities"],
-    "neighborhoods": ["Beverly Hills Flats", "Beverly Hills Post Office", "Trousdale Estates", "Beverly Park", "Holmby Hills", "Bel Air"],
-    "fullDescription": "Beverly Hills is a city in Los Angeles County, California, United States. It is known for its luxury shopping, fine dining, and the famous Rodeo Drive shopping district. The city is home to many celebrities and is one of the most prestigious addresses in the world.",
+    "tags": [
+      "Luxury",
+      "Shopping",
+      "Celebrities"
+    ],
+    "neighborhoods": [
+      "Beverly Hills Flats",
+      "Beverly Hills Post Office",
+      "Trousdale Estates",
+      "Beverly Park",
+      "Holmby Hills",
+      "Bel Air"
+    ],
     "highlights": [
       {
         "title": "Rodeo Drive Shopping",
@@ -360,16 +408,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97829",
     "slug": "malibu",
     "name": "Malibu",
     "state": "California",
     "shortDescription": "A pristine coastal paradise offering stunning ocean views, celebrity homes, and the ultimate California beach lifestyle.",
+    "fullDescription": "Malibu is a beach city in Los Angeles County, California, situated 30 miles west of Downtown Los Angeles. Known for its 21-mile strip of beaches, celebrity homes, and laid-back lifestyle, Malibu is one of the most exclusive and desirable coastal communities in the world.",
     "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "12K+",
     "avgHomePrice": "$3.8M",
-    "tags": ["Beach", "Privacy", "Celebrities"],
-    "neighborhoods": ["The Colony", "Point Dume", "Broad Beach", "Malibu West", "Carbon Beach", "Ramirez Canyon"],
-    "fullDescription": "Malibu is a beach city in Los Angeles County, California, situated 30 miles west of Downtown Los Angeles. Known for its 21-mile strip of beaches, celebrity homes, and laid-back lifestyle, Malibu is one of the most exclusive and desirable coastal communities in the world.",
+    "tags": [
+      "Beach",
+      "Privacy",
+      "Celebrities"
+    ],
+    "neighborhoods": [
+      "The Colony",
+      "Point Dume",
+      "Broad Beach",
+      "Malibu West",
+      "Carbon Beach",
+      "Ramirez Canyon"
+    ],
     "highlights": [
       {
         "title": "Pristine Beaches",
@@ -450,16 +510,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782a",
     "slug": "palo-alto",
     "name": "Palo Alto",
     "state": "California",
     "shortDescription": "The heart of Silicon Valley, combining world-class education, technological innovation, and upscale suburban living.",
+    "fullDescription": "Palo Alto is a charter city in the northwestern corner of Santa Clara County, California, in the San Francisco Bay Area. Home to Stanford University and headquarters of many high-tech companies, Palo Alto is one of the most expensive cities in the United States and its residents are among the highest educated.",
     "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "68K+",
     "avgHomePrice": "$3.5M",
-    "tags": ["Technology", "Education", "Innovation"],
-    "neighborhoods": ["Old Palo Alto", "Professorville", "Crescent Park", "Barron Park", "Downtown Palo Alto", "College Terrace"],
-    "fullDescription": "Palo Alto is a charter city in the northwestern corner of Santa Clara County, California, in the San Francisco Bay Area. Home to Stanford University and headquarters of many high-tech companies, Palo Alto is one of the most expensive cities in the United States and its residents are among the highest educated.",
+    "tags": [
+      "Technology",
+      "Education",
+      "Innovation"
+    ],
+    "neighborhoods": [
+      "Old Palo Alto",
+      "Professorville",
+      "Crescent Park",
+      "Barron Park",
+      "Downtown Palo Alto",
+      "College Terrace"
+    ],
     "highlights": [
       {
         "title": "Silicon Valley Hub",
@@ -540,16 +612,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782b",
     "slug": "santa-barbara",
     "name": "Santa Barbara",
     "state": "California",
     "shortDescription": "The American Riviera, offering Mediterranean charm, stunning coastline, and a relaxed yet sophisticated lifestyle.",
+    "fullDescription": "Santa Barbara is a city on the central California coast, with the Santa Ynez Mountains as dramatic backdrop. Downtown features Mediterranean-style white stucco buildings with red-tile roofs, a legacy of the city's Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line State Street.",
     "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "90K+",
     "avgHomePrice": "$2.1M",
-    "tags": ["Coastal", "Luxury", "Wine Country"],
-    "neighborhoods": ["Montecito", "Hope Ranch", "Downtown", "Mission Canyon", "Riviera", "Goleta"],
-    "fullDescription": "Santa Barbara is a city on the central California coast, with the Santa Ynez Mountains as dramatic backdrop. Downtown features Mediterranean-style white stucco buildings with red-tile roofs, a legacy of the city's Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line State Street.",
+    "tags": [
+      "Coastal",
+      "Luxury",
+      "Wine Country"
+    ],
+    "neighborhoods": [
+      "Montecito",
+      "Hope Ranch",
+      "Downtown",
+      "Mission Canyon",
+      "Riviera",
+      "Goleta"
+    ],
     "highlights": [
       {
         "title": "Mediterranean Climate",
@@ -630,16 +714,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782c",
     "slug": "newport-beach",
     "name": "Newport Beach",
     "state": "California",
     "shortDescription": "An upscale coastal city known for its harbor, beaches, and luxury lifestyle, offering premier waterfront living.",
+    "fullDescription": "Newport Beach is a coastal city in Orange County, California, known for its large harbor and upscale lifestyle. The city includes Balboa Peninsula with the historic Balboa Pavilion and Newport Pier, as well as the upscale communities of Corona del Mar and Newport Coast.",
     "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "86K+",
     "avgHomePrice": "$3.2M",
-    "tags": ["Waterfront", "Luxury", "Boating"],
-    "neighborhoods": ["Balboa Peninsula", "Corona del Mar", "Newport Coast", "Lido Isle", "Harbor View", "Crystal Cove"],
-    "fullDescription": "Newport Beach is a coastal city in Orange County, California, known for its large harbor and upscale lifestyle. The city includes Balboa Peninsula with the historic Balboa Pavilion and Newport Pier, as well as the upscale communities of Corona del Mar and Newport Coast.",
+    "tags": [
+      "Waterfront",
+      "Luxury",
+      "Boating"
+    ],
+    "neighborhoods": [
+      "Balboa Peninsula",
+      "Corona del Mar",
+      "Newport Coast",
+      "Lido Isle",
+      "Harbor View",
+      "Crystal Cove"
+    ],
     "highlights": [
       {
         "title": "Waterfront Living",
@@ -720,16 +816,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782d",
     "slug": "carmel-by-the-sea",
     "name": "Carmel-by-the-Sea",
     "state": "California",
     "shortDescription": "A storybook coastal village known for its fairytale cottages, white sand beaches, and artistic heritage.",
+    "fullDescription": "Carmel-by-the-Sea is a small beach city on California's Monterey Peninsula known for its fairytale cottages, artistic heritage, and scenic beauty. The town's downtown area, centered around Ocean Avenue, is filled with art galleries, boutique shops, and fine dining restaurants, all within walking distance of the famous white sand Carmel Beach.",
     "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "3K+",
     "avgHomePrice": "$2.8M",
-    "tags": ["Artsy", "Coastal", "Charming"],
-    "neighborhoods": ["Downtown Village", "North Carmel", "Carmel Point", "Carmel Woods", "Scenic Road", "Carmel Highlands"],
-    "fullDescription": "Carmel-by-the-Sea is a small beach city on California's Monterey Peninsula known for its fairytale cottages, artistic heritage, and scenic beauty. The town's downtown area, centered around Ocean Avenue, is filled with art galleries, boutique shops, and fine dining restaurants, all within walking distance of the famous white sand Carmel Beach.",
+    "tags": [
+      "Artsy",
+      "Coastal",
+      "Charming"
+    ],
+    "neighborhoods": [
+      "Downtown Village",
+      "North Carmel",
+      "Carmel Point",
+      "Carmel Woods",
+      "Scenic Road",
+      "Carmel Highlands"
+    ],
     "highlights": [
       {
         "title": "Storybook Charm",
@@ -810,16 +918,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782e",
     "slug": "napa",
     "name": "Napa",
     "state": "California",
     "shortDescription": "The heart of California wine country, offering world-class vineyards, gourmet dining, and a relaxed upscale lifestyle.",
+    "fullDescription": "Napa is the largest city in California's Wine Country, located in Napa County. It's known for its hundreds of hillside vineyards in the surrounding Napa Valley region. The downtown area features the Napa River waterfront with upscale restaurants and tasting rooms, plus the Oxbow Public Market for gourmet foods.",
     "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "78K+",
     "avgHomePrice": "$1.1M",
-    "tags": ["Wine Country", "Culinary", "Vineyards"],
-    "neighborhoods": ["Downtown Napa", "Silverado", "Carneros", "Browns Valley", "Westwood", "Alta Heights"],
-    "fullDescription": "Napa is the largest city in California's Wine Country, located in Napa County. It's known for its hundreds of hillside vineyards in the surrounding Napa Valley region. The downtown area features the Napa River waterfront with upscale restaurants and tasting rooms, plus the Oxbow Public Market for gourmet foods.",
+    "tags": [
+      "Wine Country",
+      "Culinary",
+      "Vineyards"
+    ],
+    "neighborhoods": [
+      "Downtown Napa",
+      "Silverado",
+      "Carneros",
+      "Browns Valley",
+      "Westwood",
+      "Alta Heights"
+    ],
     "highlights": [
       {
         "title": "Wine Country Living",
@@ -900,16 +1020,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd9782f",
     "slug": "santa-monica",
     "name": "Santa Monica",
     "state": "California",
     "shortDescription": "A vibrant beach city offering perfect weather, a walkable downtown, and the iconic Santa Monica Pier.",
+    "fullDescription": "Santa Monica is a coastal city west of downtown Los Angeles known for its iconic pier featuring a small amusement park and the Pacific Park Ferris wheel. The beachfront pathway, Palisades Park, has ocean views and the upscale open-air shopping area Third Street Promenade offers retail stores, restaurants and street performers.",
     "heroImage": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "93K+",
     "avgHomePrice": "$1.8M",
-    "tags": ["Beach", "Walkable", "Urban"],
-    "neighborhoods": ["North of Montana", "Ocean Park", "Mid-City", "Downtown", "Sunset Park", "Wilshire/Montana"],
-    "fullDescription": "Santa Monica is a coastal city west of downtown Los Angeles known for its iconic pier featuring a small amusement park and the Pacific Park Ferris wheel. The beachfront pathway, Palisades Park, has ocean views and the upscale open-air shopping area Third Street Promenade offers retail stores, restaurants and street performers.",
+    "tags": [
+      "Beach",
+      "Walkable",
+      "Urban"
+    ],
+    "neighborhoods": [
+      "North of Montana",
+      "Ocean Park",
+      "Mid-City",
+      "Downtown",
+      "Sunset Park",
+      "Wilshire/Montana"
+    ],
     "highlights": [
       {
         "title": "Beachfront Living",
@@ -990,16 +1122,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97830",
     "slug": "paso-robles",
     "name": "Paso Robles",
     "state": "California",
     "shortDescription": "A charming wine country town known for its hot springs, olive oil, and over 200 wineries in the surrounding hills.",
+    "fullDescription": "Paso Robles is a city in California's Central Coast region known for its hot springs, olive oil production, and over 200 wineries specializing in Rhône and Bordeaux-style wines. The downtown area features historic buildings housing tasting rooms, restaurants, and boutique shops, while the surrounding countryside offers rolling vineyards and oak-studded hills.",
     "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "32K+",
     "avgHomePrice": "$750K",
-    "tags": ["Wine Country", "Rural", "Hot Springs"],
-    "neighborhoods": ["Downtown", "Vineyard Estates", "Westside", "Creston", "Templeton", "Adelaida"],
-    "fullDescription": "Paso Robles is a city in California's Central Coast region known for its hot springs, olive oil production, and over 200 wineries specializing in Rhône and Bordeaux-style wines. The downtown area features historic buildings housing tasting rooms, restaurants, and boutique shops, while the surrounding countryside offers rolling vineyards and oak-studded hills.",
+    "tags": [
+      "Wine Country",
+      "Rural",
+      "Hot Springs"
+    ],
+    "neighborhoods": [
+      "Downtown",
+      "Vineyard Estates",
+      "Westside",
+      "Creston",
+      "Templeton",
+      "Adelaida"
+    ],
     "highlights": [
       {
         "title": "Wine Country Value",
@@ -1080,16 +1224,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97831",
     "slug": "laguna-beach",
     "name": "Laguna Beach",
     "state": "California",
     "shortDescription": "A picturesque coastal enclave known for its artist colony heritage, coves, and vibrant arts scene.",
+    "fullDescription": "Laguna Beach is a small coastal city in Orange County known for its artist community, beautiful coves, and art festivals. The city has over 20 beaches and coves along its 7 miles of coastline, including Main Beach at the center of town and Thousand Steps Beach with its dramatic cliffs. Downtown features art galleries, boutique shops, and restaurants along Pacific Coast Highway.",
     "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "23K+",
     "avgHomePrice": "$3.5M",
-    "tags": ["Artsy", "Coastal", "Luxury"],
-    "neighborhoods": ["North Laguna", "Three Arch Bay", "Laguna Village", "Arch Beach Heights", "Mystic Hills", "Victoria Beach"],
-    "fullDescription": "Laguna Beach is a small coastal city in Orange County known for its artist community, beautiful coves, and art festivals. The city has over 20 beaches and coves along its 7 miles of coastline, including Main Beach at the center of town and Thousand Steps Beach with its dramatic cliffs. Downtown features art galleries, boutique shops, and restaurants along Pacific Coast Highway.",
+    "tags": [
+      "Artsy",
+      "Coastal",
+      "Luxury"
+    ],
+    "neighborhoods": [
+      "North Laguna",
+      "Three Arch Bay",
+      "Laguna Village",
+      "Arch Beach Heights",
+      "Mystic Hills",
+      "Victoria Beach"
+    ],
     "highlights": [
       {
         "title": "Artist Colony",
@@ -1170,16 +1326,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97832",
     "slug": "sonoma",
     "name": "Sonoma",
     "state": "California",
     "shortDescription": "The historic heart of Wine Country, offering a charming plaza, world-class wineries, and a relaxed pace of life.",
+    "fullDescription": "Sonoma is a city in California's Wine Country, known for its historic Spanish mission and sprawling plaza surrounded by 19th-century adobe buildings. The city is home to numerous tasting rooms, upscale restaurants, and boutique shops, while the surrounding countryside features vineyards, olive groves, and rolling hills.",
     "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "11K+",
     "avgHomePrice": "$1.3M",
-    "tags": ["Wine Country", "Historic", "Charming"],
-    "neighborhoods": ["Sonoma Plaza", "Bennett Valley", "Glen Ellen", "Boyes Hot Springs", "Agua Caliente", "Vineyard Estates"],
-    "fullDescription": "Sonoma is a city in California's Wine Country, known for its historic Spanish mission and sprawling plaza surrounded by 19th-century adobe buildings. The city is home to numerous tasting rooms, upscale restaurants, and boutique shops, while the surrounding countryside features vineyards, olive groves, and rolling hills.",
+    "tags": [
+      "Wine Country",
+      "Historic",
+      "Charming"
+    ],
+    "neighborhoods": [
+      "Sonoma Plaza",
+      "Bennett Valley",
+      "Glen Ellen",
+      "Boyes Hot Springs",
+      "Agua Caliente",
+      "Vineyard Estates"
+    ],
     "highlights": [
       {
         "title": "Historic Plaza",
@@ -1260,16 +1428,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97833",
     "slug": "san-jose",
     "name": "San Jose",
     "state": "California",
     "shortDescription": "The capital of Silicon Valley, offering tech-driven prosperity, diverse neighborhoods, and access to world-class innovation.",
+    "fullDescription": "San Jose is a large city in Silicon Valley, a global technology center in California's Bay Area. Architectural landmarks include the 1883 Italianate-style Oddfellows building and the 1892 Romanesque Revival Cathedral Basilica of St. Joseph. The downtown area is home to the Tech Museum of Innovation, devoted to the exploration of science and technology.",
     "heroImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "1M+",
     "avgHomePrice": "$1.4M",
-    "tags": ["Technology", "Diversity", "Innovation"],
-    "neighborhoods": ["Willow Glen", "Almaden Valley", "Santana Row", "Downtown", "Evergreen", "Campbell"],
-    "fullDescription": "San Jose is a large city in Silicon Valley, a global technology center in California's Bay Area. Architectural landmarks include the 1883 Italianate-style Oddfellows building and the 1892 Romanesque Revival Cathedral Basilica of St. Joseph. The downtown area is home to the Tech Museum of Innovation, devoted to the exploration of science and technology.",
+    "tags": [
+      "Technology",
+      "Diversity",
+      "Innovation"
+    ],
+    "neighborhoods": [
+      "Willow Glen",
+      "Almaden Valley",
+      "Santana Row",
+      "Downtown",
+      "Evergreen",
+      "Campbell"
+    ],
     "highlights": [
       {
         "title": "Tech Hub",
@@ -1308,11 +1488,6 @@
         "category": "Employment"
       },
       {
-        "question": "How are the schools in San Jose?",
-        "answer": "San Jose has excellent public and private schools, particularly in neighborhoods like Almaden Valley and Willow Glen.",
-        "category": "Education"
-      },
-      {
         "question": "What is there to do in San Jose?",
         "answer": "Tech museums, Santana Row shopping, wineries in the Santa Cruz Mountains, and easy access to San Francisco and the coast.",
         "category": "Lifestyle"
@@ -1334,13 +1509,6 @@
         "review": "Modern condo near Santana Row. Walkable to shopping and restaurants - perfect for my busy lifestyle."
       },
       {
-        "name": "Michael Chen",
-        "description": "Startup Founder",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Great downtown loft near the tech scene. The location helps me network and recruit talent."
-      },
-      {
         "name": "Sophia Rodriguez",
         "description": "Family",
         "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
@@ -1350,16 +1518,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97834",
     "slug": "sausalito",
     "name": "Sausalito",
     "state": "California",
     "shortDescription": "A picturesque waterfront town with Mediterranean charm, houseboat communities, and stunning San Francisco views.",
+    "fullDescription": "Sausalito is a charming waterfront town in Marin County, just north of San Francisco across the Golden Gate Bridge. Known for its Mediterranean-style architecture, houseboat communities, and stunning bay views, Sausalito offers a relaxed yet sophisticated lifestyle with easy access to the city.",
     "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "7K+",
     "avgHomePrice": "$2.2M",
-    "tags": ["Waterfront", "Artsy", "Views"],
-    "neighborhoods": ["Downtown", "Hillside", "Marinship", "Houseboat Communities", "Wolfback Ridge", "Hurricane Gulch"],
-    "fullDescription": "Sausalito is a charming waterfront town in Marin County, just north of San Francisco across the Golden Gate Bridge. Known for its Mediterranean-style architecture, houseboat communities, and stunning bay views, Sausalito offers a relaxed yet sophisticated lifestyle with easy access to the city.",
+    "tags": [
+      "Waterfront",
+      "Artsy",
+      "Views"
+    ],
+    "neighborhoods": [
+      "Downtown",
+      "Hillside",
+      "Marinship",
+      "Houseboat Communities",
+      "Wolfback Ridge",
+      "Hurricane Gulch"
+    ],
     "highlights": [
       {
         "title": "Waterfront Living",
@@ -1440,16 +1620,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97835",
     "slug": "tahoe",
     "name": "Lake Tahoe",
     "state": "California",
     "shortDescription": "A stunning alpine lake offering year-round outdoor recreation, from world-class skiing to summer water sports.",
+    "fullDescription": "Lake Tahoe is a large freshwater lake in the Sierra Nevada mountains, straddling the border of California and Nevada. Known for its clear blue water and surrounding ski resorts, Tahoe offers year-round recreation from world-class skiing in winter to hiking, boating and beach-going in summer.",
     "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "Varies",
     "avgHomePrice": "$1.5M",
-    "tags": ["Mountain", "Lake", "Outdoors"],
-    "neighborhoods": ["Tahoe City", "Incline Village", "South Lake Tahoe", "Alpine Meadows", "Homewood", "Kings Beach"],
-    "fullDescription": "Lake Tahoe is a large freshwater lake in the Sierra Nevada mountains, straddling the border of California and Nevada. Known for its clear blue water and surrounding ski resorts, Tahoe offers year-round recreation from world-class skiing in winter to hiking, boating and beach-going in summer.",
+    "tags": [
+      "Mountain",
+      "Lake",
+      "Outdoors"
+    ],
+    "neighborhoods": [
+      "Tahoe City",
+      "Incline Village",
+      "South Lake Tahoe",
+      "Alpine Meadows",
+      "Homewood",
+      "Kings Beach"
+    ],
     "highlights": [
       {
         "title": "Year-Round Recreation",
@@ -1530,16 +1722,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97836",
     "slug": "monterey",
     "name": "Monterey",
     "state": "California",
     "shortDescription": "A historic coastal city known for its world-class aquarium, Cannery Row, and stunning Pacific Ocean views.",
+    "fullDescription": "Monterey is a city on California's rugged central coast known for its historic Cannery Row waterfront district, the world-class Monterey Bay Aquarium, and scenic 17-Mile Drive through Pebble Beach. The city's historic downtown features adobe buildings from the 1800s, while the coastline offers dramatic views of the Pacific Ocean.",
     "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "30K+",
     "avgHomePrice": "$1.2M",
-    "tags": ["Coastal", "Historic", "Marine Life"],
-    "neighborhoods": ["Old Town", "New Monterey", "Pacific Grove", "Pebble Beach", "Del Monte", "Lighthouse District"],
-    "fullDescription": "Monterey is a city on California's rugged central coast known for its historic Cannery Row waterfront district, the world-class Monterey Bay Aquarium, and scenic 17-Mile Drive through Pebble Beach. The city's historic downtown features adobe buildings from the 1800s, while the coastline offers dramatic views of the Pacific Ocean.",
+    "tags": [
+      "Coastal",
+      "Historic",
+      "Marine Life"
+    ],
+    "neighborhoods": [
+      "Old Town",
+      "New Monterey",
+      "Pacific Grove",
+      "Pebble Beach",
+      "Del Monte",
+      "Lighthouse District"
+    ],
     "highlights": [
       {
         "title": "Marine Wonderland",
@@ -1620,16 +1824,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97837",
     "slug": "healdsburg",
     "name": "Healdsburg",
     "state": "California",
     "shortDescription": "A charming Wine Country town offering world-class wineries, a historic plaza, and relaxed sophistication.",
+    "fullDescription": "Healdsburg is a charming town in Sonoma County's Wine Country known for its historic plaza surrounded by 19th-century buildings that now house boutique shops, wine tasting rooms and restaurants. The surrounding countryside features vineyards producing world-class Zinfandel, Cabernet Sauvignon and Chardonnay.",
     "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "12K+",
     "avgHomePrice": "$1.4M",
-    "tags": ["Wine Country", "Charming", "Culinary"],
-    "neighborhoods": ["Downtown Plaza", "Dry Creek Valley", "Alexander Valley", "Fitch Mountain", "Westside", "Mill District"],
-    "fullDescription": "Healdsburg is a charming town in Sonoma County's Wine Country known for its historic plaza surrounded by 19th-century buildings that now house boutique shops, wine tasting rooms and restaurants. The surrounding countryside features vineyards producing world-class Zinfandel, Cabernet Sauvignon and Chardonnay.",
+    "tags": [
+      "Wine Country",
+      "Charming",
+      "Culinary"
+    ],
+    "neighborhoods": [
+      "Downtown Plaza",
+      "Dry Creek Valley",
+      "Alexander Valley",
+      "Fitch Mountain",
+      "Westside",
+      "Mill District"
+    ],
     "highlights": [
       {
         "title": "Wine Country Hub",
@@ -1710,16 +1926,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97838",
     "slug": "coronado",
     "name": "Coronado",
     "state": "California",
     "shortDescription": "An idyllic island community known for its pristine beaches, historic Hotel del Coronado, and small-town charm.",
+    "fullDescription": "Coronado is a resort city on a peninsula connected to San Diego by the Coronado Bridge. Known for its long, flat Coronado Beach, it's home to the historic Hotel del Coronado, built in 1888. The city's main street, Orange Avenue, is lined with shops and restaurants, while the neighborhoods feature charming cottages and luxury waterfront homes.",
     "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "20K+",
     "avgHomePrice": "$2.9M",
-    "tags": ["Island", "Beach", "Historic"],
-    "neighborhoods": ["Coronado Village", "Coronado Cays", "Country Club", "Bayview", "Glorietta", "Shoreline"],
-    "fullDescription": "Coronado is a resort city on a peninsula connected to San Diego by the Coronado Bridge. Known for its long, flat Coronado Beach, it's home to the historic Hotel del Coronado, built in 1888. The city's main street, Orange Avenue, is lined with shops and restaurants, while the neighborhoods feature charming cottages and luxury waterfront homes.",
+    "tags": [
+      "Island",
+      "Beach",
+      "Historic"
+    ],
+    "neighborhoods": [
+      "Coronado Village",
+      "Coronado Cays",
+      "Country Club",
+      "Bayview",
+      "Glorietta",
+      "Shoreline"
+    ],
     "highlights": [
       {
         "title": "Pristine Beaches",
@@ -1800,16 +2028,28 @@
     ]
   },
   {
+    "id": "689416abd030dedaafd97839",
     "slug": "menlo-park",
     "name": "Menlo Park",
     "state": "California",
     "shortDescription": "An affluent Silicon Valley community known for top schools, tech headquarters, and tree-lined neighborhoods.",
+    "fullDescription": "Menlo Park is an affluent city in San Mateo County in the heart of Silicon Valley. Home to Facebook's headquarters and near Stanford University, Menlo Park features tree-lined streets, excellent schools, and a charming downtown with restaurants and shops along Santa Cruz Avenue.",
     "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
     "population": "35K+",
     "avgHomePrice": "$3.2M",
-    "tags": ["Technology", "Education", "Suburban"],
-    "neighborhoods": ["Sharon Heights", "West Menlo", "Downtown", "Allied Arts", "Felton Gables", "Stanford Hills"],
-    "fullDescription": "Menlo Park is an affluent city in San Mateo County in the heart of Silicon Valley. Home to Facebook's headquarters and near Stanford University, Menlo Park features tree-lined streets, excellent schools, and a charming downtown with restaurants and shops along Santa Cruz Avenue.",
+    "tags": [
+      "Technology",
+      "Education",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      "Sharon Heights",
+      "West Menlo",
+      "Downtown",
+      "Allied Arts",
+      "Felton Gables",
+      "Stanford Hills"
+    ],
     "highlights": [
       {
         "title": "Tech Hub",

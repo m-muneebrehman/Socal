@@ -3,7 +3,20 @@
 import React, { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 
-const Stats = () => {
+interface StatsProps {
+  statsData?: {
+    yearsExperience: string
+    yearsExperienceLabel: string
+    billionInSales: string
+    billionInSalesLabel: string
+    countriesServed: string
+    countriesServedLabel: string
+    clientSatisfaction: string
+    clientSatisfactionLabel: string
+  }
+}
+
+const Stats = ({ statsData }: StatsProps) => {
   const t = useTranslations('stats');
   
   useEffect(() => {
@@ -45,24 +58,34 @@ const Stats = () => {
     setTimeout(animateStats, 1000);
   }, []);
 
+  // Use API data if available, otherwise fall back to translations
+  const yearsExperience = statsData?.yearsExperience || "25+"
+  const yearsExperienceLabel = statsData?.yearsExperienceLabel || t('yearsExperience')
+  const billionInSales = statsData?.billionInSales || "4.2B"
+  const billionInSalesLabel = statsData?.billionInSalesLabel || t('billionInSales')
+  const countriesServed = statsData?.countriesServed || "50+"
+  const countriesServedLabel = statsData?.countriesServedLabel || t('countriesServed')
+  const clientSatisfaction = statsData?.clientSatisfaction || "100%"
+  const clientSatisfactionLabel = statsData?.clientSatisfactionLabel || t('clientSatisfaction')
+
   return (
     <section className="stats-section">
       <div className="stats-container">
         <div className="stat-card">
-          <div className="stat-number" data-target="25">0</div>
-          <div className="stat-label">{t('yearsExperience')}</div>
+          <div className="stat-number" data-target={yearsExperience.replace(/[^0-9.]/g, '')}>0</div>
+          <div className="stat-label">{yearsExperienceLabel}</div>
         </div>
         <div className="stat-card">
-          <div className="stat-number" data-target="4.2">0</div>
-          <div className="stat-label">{t('billionInSales')}</div>
+          <div className="stat-number" data-target={billionInSales.replace(/[^0-9.]/g, '')}>0</div>
+          <div className="stat-label">{billionInSalesLabel}</div>
         </div>
         <div className="stat-card">
-          <div className="stat-number" data-target="50">0</div>
-          <div className="stat-label">{t('countriesServed')}</div>
+          <div className="stat-number" data-target={countriesServed.replace(/[^0-9.]/g, '')}>0</div>
+          <div className="stat-label">{countriesServedLabel}</div>
         </div>
         <div className="stat-card">
-          <div className="stat-number" data-target="100">0</div>
-          <div className="stat-label">{t('clientSatisfaction')}</div>
+          <div className="stat-number" data-target={clientSatisfaction.replace(/[^0-9.]/g, '')}>0</div>
+          <div className="stat-label">{clientSatisfactionLabel}</div>
         </div>
       </div>
     </section>
