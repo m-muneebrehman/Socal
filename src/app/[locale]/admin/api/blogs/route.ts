@@ -1,60 +1,91 @@
-import { NextRequest, NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
-import { ObjectId } from "mongodb";
-
-const COLLECTION = "blogs";
+import { NextRequest, NextResponse } from 'next/server'
+import { connectToDatabase } from '@/lib/mongodb'
+import { updateBlogsJsonFile } from '@/lib/json-updater'
+import { ObjectId } from 'mongodb'
 
 export async function GET() {
-  const client = await clientPromise;
-  const db = client.db();
-  const blogs = await db.collection(COLLECTION).find({}).sort({ date: -1 }).toArray();
-  return NextResponse.json(blogs);
+  try {
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs').find({}).toArray()
+    return NextResponse.json(blogs)
+  } catch (error) {
+    console.error('Error fetching blogs:', error)
+    return NextResponse.json({ error: 'Failed to fetch blogs' }, { status: 500 })
+  }
 }
 
-export async function POST(req: NextRequest) {
-  const data = await req.json();
-  if (!data.slug || !data.title || !data.category || !data.author || !data.date || !data.status || !data.content || !data.content.lead) {
-    return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json()
+    const { db } = await connectToDatabase()
+    
+    const result = await db.collection('blogs').insertOne({
+      ...body,
+      createdAt: new Date(),
+      updatedAt: new Date()
+    })
+
+    // Update the JSON file after successful database insertion
+    await updateBlogsJsonFile()
+
+    return NextResponse.json({ 
+      message: 'Blog created successfully', 
+      _id: result.insertedId 
+    })
+  } catch (error) {
+    console.error('Error creating blog:', error)
+    return NextResponse.json({ error: 'Failed to create blog' }, { status: 500 })
   }
-  const client = await clientPromise;
-  const db = client.db();
-  // Ensure unique slug
-  const existing = await db.collection(COLLECTION).findOne({ slug: data.slug });
-  if (existing) {
-    return NextResponse.json({ error: "Slug already exists" }, { status: 409 });
-  }
-  const now = new Date();
-  const result = await db.collection(COLLECTION).insertOne({
-    ...data,
-    createdAt: now,
-    updatedAt: now,
-  });
-  return NextResponse.json({ _id: result.insertedId, ...data });
 }
 
-export async function PUT(req: NextRequest) {
-  const data = await req.json();
-  if (!data._id) return NextResponse.json({ error: "Blog ID required" }, { status: 400 });
-  const client = await clientPromise;
-  const db = client.db();
-  const { _id, ...update } = data;
-  update.updatedAt = new Date();
-  // Prevent slug collision
-  if (update.slug) {
-    const existing = await db.collection(COLLECTION).findOne({ slug: update.slug, _id: { $ne: new ObjectId(_id) } });
-    if (existing) {
-      return NextResponse.json({ error: "Slug already exists" }, { status: 409 });
+export async function PUT(request: NextRequest) {
+  try {
+    const body = await request.json()
+    const { _id, ...updateData } = body
+    const { db } = await connectToDatabase()
+    
+    const result = await db.collection('blogs').updateOne(
+      { _id: new ObjectId(_id) },
+      { 
+        $set: {
+          ...updateData,
+          updatedAt: new Date()
+        }
+      }
+    )
+
+    if (result.matchedCount === 0) {
+      return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
     }
+
+    // Update the JSON file after successful database update
+    await updateBlogsJsonFile()
+
+    return NextResponse.json({ message: 'Blog updated successfully' })
+  } catch (error) {
+    console.error('Error updating blog:', error)
+    return NextResponse.json({ error: 'Failed to update blog' }, { status: 500 })
   }
-  await db.collection(COLLECTION).updateOne({ _id: new ObjectId(_id) }, { $set: update });
-  return NextResponse.json({ success: true });
 }
 
-export async function DELETE(req: NextRequest) {
-  const { _id } = await req.json();
-  if (!_id) return NextResponse.json({ error: "Blog ID required" }, { status: 400 });
-  const client = await clientPromise;
-  const db = client.db();
-  await db.collection(COLLECTION).deleteOne({ _id: new ObjectId(_id) });
-  return NextResponse.json({ success: true });
+export async function DELETE(request: NextRequest) {
+  try {
+    const body = await request.json()
+    const { _id } = body
+    const { db } = await connectToDatabase()
+    
+    const result = await db.collection('blogs').deleteOne({ _id: new ObjectId(_id) })
+
+    if (result.deletedCount === 0) {
+      return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
+    }
+
+    // Update the JSON file after successful database deletion
+    await updateBlogsJsonFile()
+
+    return NextResponse.json({ message: 'Blog deleted successfully' })
+  } catch (error) {
+    console.error('Error deleting blog:', error)
+    return NextResponse.json({ error: 'Failed to delete blog' }, { status: 500 })
+  }
 }
