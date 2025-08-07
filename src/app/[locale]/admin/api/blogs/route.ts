@@ -19,8 +19,14 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     console.log('📝 Creating blog with data:', JSON.stringify(body, null, 2))
     
-    // Validate required fields
-    const requiredFields = ['slug', 'title', 'category', 'author', 'status']
+    // Validate required fields according to new schema
+    const requiredFields = [
+      'slug', 'title', 'category', 'author', 'date', 'readTime', 'featured',
+      'heroImage', 'heroImageAlt', 'canonicalUrl', 'language', 'city', 'topic',
+      'keyword', 'group_id', 'seo', 'hreflang_tags', 'internal_links',
+      'images', 'word_count', 'ctaSection', 'content'
+    ]
+    
     for (const field of requiredFields) {
       if (!body[field]) {
         return NextResponse.json({ 
@@ -29,12 +35,45 @@ export async function POST(request: NextRequest) {
       }
     }
     
+    // Validate author object structure
+    if (!body.author.name || !body.author.title || !body.author.avatar || !body.author.bio) {
+      return NextResponse.json({ 
+        error: 'Author object must include name, title, avatar, and bio' 
+      }, { status: 400 })
+    }
+    
+    // Validate content structure
+    if (!body.content.lead || !body.content.sections || body.content.sections.length === 0) {
+      return NextResponse.json({ 
+        error: 'Content must include lead and at least one section' 
+      }, { status: 400 })
+    }
+    
+    // Validate SEO object
+    if (!body.seo.metaTitle || !body.seo.metaDescription) {
+      return NextResponse.json({ 
+        error: 'SEO object must include metaTitle and metaDescription' 
+      }, { status: 400 })
+    }
+    
+    // Validate CTA section
+    if (!body.ctaSection.title || !body.ctaSection.ctaText || !body.ctaSection.ctaLink) {
+      return NextResponse.json({ 
+        error: 'CTA section must include title, ctaText, and ctaLink' 
+      }, { status: 400 })
+    }
+    
     console.log('📡 Connecting to database...')
     const { db } = await connectToDatabase()
     console.log('📡 Connected to database:', db.databaseName)
     
+    // Prepare blog data with defaults for optional fields
     const blogData = {
       ...body,
+      // Set defaults for optional fields if not provided
+      status: body.status || 'Draft',
+      views: body.views || 0,
+      likes: body.likes || 0,
       createdAt: new Date(),
       updatedAt: new Date()
     }

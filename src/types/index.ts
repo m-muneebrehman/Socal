@@ -11,21 +11,80 @@ export interface User {
 
 export interface Blog {
   _id?: string
-  id?: string
-  groupId?: string
   slug: string
   title: string
   subtitle?: string
   category: string
-  author: string | { name: string; avatar?: string; bio?: string }
+  author: {
+    name: string
+    title: string
+    avatar: string
+    bio: string
+    url?: string
+  }
   date: string
-  status: string
-  featured?: boolean
+  readTime: string
+  featured: boolean
+  heroImage: string
+  heroImageAlt: string
+  canonicalUrl: string
+  language: string
+  city: string
+  topic: string
+  keyword: string
+  group_id: number
+  seo: {
+    metaTitle: string
+    metaDescription: string
+    keywords?: string
+    ogTitle?: string
+    ogDescription?: string
+    ogImage?: string
+    twitterCard?: string
+  }
+  hreflang_tags: Array<{
+    hreflang: string
+    href: string
+  }>
+  internal_links: Array<{
+    href: string
+    anchor: string
+    context?: string
+  }>
+  schema_markup?: object
+  images: Array<{
+    url: string
+    alt: string
+    local_path: string
+  }>
+  word_count: number
+  ctaSection: {
+    title: string
+    subtitle?: string
+    ctaText: string
+    ctaLink: string
+  }
   content: {
     lead: string
+    sections: Array<{
+      title: string
+      content: string
+      quote?: {
+        text: string
+        author: string
+      }
+      additional?: string
+      subsections?: Array<{
+        title: string
+        content: string
+      }>
+    }>
   }
+  status?: string
   views?: number
   likes?: number
+  createdAt?: Date
+  updatedAt?: Date
 }
 
 export interface City {

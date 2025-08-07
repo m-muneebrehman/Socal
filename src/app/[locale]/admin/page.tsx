@@ -125,21 +125,58 @@ export default function AdminDashboard() {
   // Blog form state
   const emptyBlog: Blog = {
     _id: '',
-    groupId: '',
     slug: '',
     title: '',
     subtitle: '',
     category: 'Marketing',
-    author: '',
+    author: {
+      name: '',
+      title: '',
+      avatar: '',
+      bio: '',
+      url: ''
+    },
     date: '',
-    status: 'Draft',
+    readTime: '5 min read',
     featured: false,
-    content: { lead: '' },
+    heroImage: '',
+    heroImageAlt: '',
+    canonicalUrl: '',
+    language: 'en',
+    city: '',
+    topic: '',
+    keyword: '',
+    group_id: 1,
+    seo: {
+      metaTitle: '',
+      metaDescription: '',
+      keywords: '',
+      ogTitle: '',
+      ogDescription: '',
+      ogImage: '',
+      twitterCard: ''
+    },
+    hreflang_tags: [],
+    internal_links: [],
+    schema_markup: {},
+    images: [],
+    word_count: 0,
+    ctaSection: {
+      title: '',
+      subtitle: '',
+      ctaText: '',
+      ctaLink: ''
+    },
+    content: {
+      lead: '',
+      sections: []
+    },
+    status: 'Draft',
     views: 0,
     likes: 0
   }
   const [blogForm, setBlogForm] = useState<Blog>(emptyBlog)
-  const [cityForm, setCityForm] = useState({
+  const [cityForm, setCityForm] = useState<City>({
     _id: '',
     slug: '',
     name: '',
@@ -148,7 +185,7 @@ export default function AdminDashboard() {
     avgHomePrice: '',
     heroImage: '',
     shortDescription: '',
-    tags: '',
+    tags: [],
     neighborhoods: [''],
     highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
     faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
@@ -258,7 +295,7 @@ export default function AdminDashboard() {
       avgHomePrice: '',
       heroImage: '',
       shortDescription: '',
-      tags: '',
+      tags: [],
       neighborhoods: [''],
       highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
       faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
@@ -346,7 +383,7 @@ export default function AdminDashboard() {
         body: JSON.stringify({
           ...blogDataWithoutId,
           date: new Date().toISOString(),
-          featured: blogData.featured === 'Yes',
+          featured: blogData.featured,
           author: blogData.author // Keep as string for new blogs
         })
       })
@@ -380,13 +417,8 @@ export default function AdminDashboard() {
         c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
       ) || []
 
-      // Process tags safely
-      let processedTags = []
-      if (typeof cityData.tags === 'string' && cityData.tags.trim() !== '') {
-        processedTags = cityData.tags.split(',').map((tag: string) => tag.trim()).filter((tag: string) => tag !== '')
-      } else if (Array.isArray(cityData.tags)) {
-        processedTags = cityData.tags.filter((tag: string) => tag.trim() !== '')
-      }
+      // Process tags safely - now tags is always an array
+      const processedTags = cityData.tags.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
 
       const cityPayload = {
         slug: cityData.slug,
@@ -426,7 +458,7 @@ export default function AdminDashboard() {
           avgHomePrice: '',
           heroImage: '',
           shortDescription: '',
-          tags: '',
+          tags: [],
           neighborhoods: [''],
           highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
@@ -554,7 +586,7 @@ export default function AdminDashboard() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...blogData,
-          featured: blogData.featured === 'Yes',
+          featured: blogData.featured,
           author: blogData.author
         })
       })
@@ -589,13 +621,8 @@ export default function AdminDashboard() {
         c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
       ) || []
 
-      // Process tags safely
-      let processedTags = []
-      if (typeof cityData.tags === 'string' && cityData.tags.trim() !== '') {
-        processedTags = cityData.tags.split(',').map((tag: string) => tag.trim()).filter((tag: string) => tag !== '')
-      } else if (Array.isArray(cityData.tags)) {
-        processedTags = cityData.tags.filter((tag: string) => tag.trim() !== '')
-      }
+      // Process tags safely - now tags is always an array
+      const processedTags = cityData.tags.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
 
       const cityPayload = {
         _id: cityData._id,
@@ -637,7 +664,7 @@ export default function AdminDashboard() {
           avgHomePrice: '',
           heroImage: '',
           shortDescription: '',
-          tags: '',
+          tags: [],
           neighborhoods: [''],
           highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
@@ -952,6 +979,31 @@ export default function AdminDashboard() {
                     />
                   </div>
                   <div className="form-group">
+                    <label className="form-label">Canonical URL</label>
+                    <input 
+                      type="url" 
+                      className="form-input" 
+                      placeholder="https://example.com/blog-post"
+                                      value={blogForm.canonicalUrl}
+                onChange={(e) => setBlogForm({...blogForm, canonicalUrl: e.target.value})}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Language</label>
+                    <select 
+                      className="form-select"
+                      value={blogForm.language}
+                      onChange={(e) => setBlogForm({...blogForm, language: e.target.value})}
+                    >
+                      <option value="en">English</option>
+                      <option value="es">Spanish</option>
+                      <option value="fr">French</option>
+                      <option value="de">German</option>
+                      <option value="zh">Chinese</option>
+                      <option value="ar">Arabic</option>
+                    </select>
+                  </div>
+                  <div className="form-group">
                     <label className="form-label">Category <span className="required">*</span></label>
                     <select 
                       className="form-select"
@@ -963,17 +1015,106 @@ export default function AdminDashboard() {
                       <option>Technology</option>
                       <option>Business</option>
                       <option>Lifestyle</option>
+                      <option>Luxury Real Estate</option>
                     </select>
                   </div>
                   <div className="form-group">
-                    <label className="form-label">Author <span className="required">*</span></label>
+                    <label className="form-label">Author Name <span className="required">*</span></label>
                     <input 
                       type="text" 
                       className="form-input" 
                       placeholder="John Doe"
                       value={typeof blogForm.author === 'string' ? blogForm.author : (blogForm.author?.name || '')}
-                      onChange={(e) => setBlogForm({ ...blogForm, author: e.target.value })}
+                      onChange={(e) => setBlogForm({ 
+                        ...blogForm, 
+                        author: {
+                          name: e.target.value,
+                          title: blogForm.author?.title || '',
+                          avatar: blogForm.author?.avatar || '',
+                          bio: blogForm.author?.bio || '',
+                          url: blogForm.author?.url || ''
+                        }
+                      })}
                       required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Author Title <span className="required">*</span></label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Senior Writer"
+                      value={typeof blogForm.author === 'string' ? '' : (blogForm.author?.title || '')}
+                      onChange={(e) => setBlogForm({ 
+                        ...blogForm, 
+                        author: {
+                          name: blogForm.author?.name || '',
+                          title: e.target.value,
+                          avatar: blogForm.author?.avatar || '',
+                          bio: blogForm.author?.bio || '',
+                          url: blogForm.author?.url || ''
+                        }
+                      })}
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Author Avatar <span className="required">*</span></label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="JD"
+                      value={typeof blogForm.author === 'string' ? '' : (blogForm.author?.avatar || '')}
+                      onChange={(e) => setBlogForm({ 
+                        ...blogForm, 
+                        author: {
+                          name: blogForm.author?.name || '',
+                          title: blogForm.author?.title || '',
+                          avatar: e.target.value,
+                          bio: blogForm.author?.bio || '',
+                          url: blogForm.author?.url || ''
+                        }
+                      })}
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Author Bio <span className="required">*</span></label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="Author biography..."
+                      value={typeof blogForm.author === 'string' ? '' : (blogForm.author?.bio || '')}
+                      onChange={(e) => setBlogForm({ 
+                        ...blogForm, 
+                        author: {
+                          name: blogForm.author?.name || '',
+                          title: blogForm.author?.title || '',
+                          avatar: blogForm.author?.avatar || '',
+                          bio: e.target.value,
+                          url: blogForm.author?.url || ''
+                        }
+                      })}
+                      required
+                    ></textarea>
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Read Time</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="5 min read"
+                      value={blogForm.readTime}
+                      onChange={(e) => setBlogForm({...blogForm, readTime: e.target.value})}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Word Count</label>
+                    <input 
+                      type="number" 
+                      className="form-input" 
+                      placeholder="0"
+                                      value={blogForm.word_count}
+                onChange={(e) => setBlogForm({...blogForm, word_count: parseInt(e.target.value) || 0})}
                     />
                   </div>
                   <div className="form-group">
@@ -1002,24 +1143,266 @@ export default function AdminDashboard() {
                   <div className="form-group">
                     <label className="form-label">Group ID <span className="required">*</span></label>
                     <input 
+                      type="number" 
+                      className="form-input" 
+                      placeholder="Enter group ID (e.g. 1)"
+                      value={blogForm.group_id}
+                      onChange={(e) => setBlogForm({...blogForm, group_id: parseInt(e.target.value) || 1})}
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Hero Image URL</label>
+                    <input 
+                      type="url" 
+                      className="form-input" 
+                      placeholder="https://images.unsplash.com/photo-..."
+                      value={blogForm.heroImage}
+                      onChange={(e) => setBlogForm({...blogForm, heroImage: e.target.value})}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Image Alt Text</label>
+                    <input 
                       type="text" 
                       className="form-input" 
-                      placeholder="Enter group ID (e.g. group-1)"
-                      value={blogForm.groupId}
-                      onChange={(e) => setBlogForm({...blogForm, groupId: e.target.value})}
-                      required
+                      placeholder="Description of the hero image"
+                      value={blogForm.heroImageAlt}
+                      onChange={(e) => setBlogForm({...blogForm, heroImageAlt: e.target.value})}
                     />
                   </div>
                 </div>
                 <div className="form-group">
-                  <label className="form-label">Content <span className="required">*</span></label>
+                  <label className="form-label">Content Lead <span className="required">*</span></label>
                   <textarea 
                     className="form-textarea" 
-                    placeholder="Write your blog content here..."
+                    placeholder="Write your blog content lead here..."
                     value={blogForm.content.lead}
-                    onChange={(e) => setBlogForm({...blogForm, content: { lead: e.target.value }})}
+                    onChange={(e) => setBlogForm({...blogForm, content: { ...blogForm.content, lead: e.target.value }})}
                     required
                   ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Content Sections (JSON) <span className="required">*</span></label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder='[{"title": "Section Title", "content": "Section content...", "quote": {"text": "Quote text", "author": "Author name"}, "additional": "Additional content", "subsections": [{"title": "Subsection title", "content": "Subsection content"}]}]'
+                    value={JSON.stringify(blogForm.content.sections, null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setBlogForm({...blogForm, content: { ...blogForm.content, sections: parsed }});
+                      } catch (error) {
+                        // Keep the current value if JSON is invalid
+                      }
+                    }}
+                    required
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO Meta Title</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="SEO optimized title"
+                    value={blogForm.seo.metaTitle}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, metaTitle: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO Meta Description</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder="SEO meta description..."
+                    value={blogForm.seo.metaDescription}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, metaDescription: e.target.value }})}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">City <span className="required">*</span></label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Los Angeles"
+                    value={blogForm.city}
+                    onChange={(e) => setBlogForm({...blogForm, city: e.target.value})}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Topic <span className="required">*</span></label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Real Estate Investment"
+                    value={blogForm.topic}
+                    onChange={(e) => setBlogForm({...blogForm, topic: e.target.value})}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Keyword <span className="required">*</span></label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="luxury real estate"
+                    value={blogForm.keyword}
+                    onChange={(e) => setBlogForm({...blogForm, keyword: e.target.value})}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO Keywords</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="keyword1, keyword2, keyword3"
+                    value={blogForm.seo.keywords}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, keywords: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO OG Title</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Open Graph title"
+                    value={blogForm.seo.ogTitle}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, ogTitle: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO OG Description</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder="Open Graph description"
+                    value={blogForm.seo.ogDescription}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, ogDescription: e.target.value }})}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO OG Image</label>
+                  <input 
+                    type="url" 
+                    className="form-input" 
+                    placeholder="https://example.com/og-image.jpg"
+                    value={blogForm.seo.ogImage}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, ogImage: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">SEO Twitter Card</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="summary_large_image"
+                    value={blogForm.seo.twitterCard}
+                    onChange={(e) => setBlogForm({...blogForm, seo: { ...blogForm.seo, twitterCard: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Hreflang Tags (JSON)</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder='[{"hreflang": "en", "href": "https://example.com/en/blog"}, {"hreflang": "es", "href": "https://example.com/es/blog"}]'
+                    value={JSON.stringify(blogForm.hreflang_tags, null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setBlogForm({...blogForm, hreflang_tags: parsed});
+                      } catch (error) {
+                        // Keep the current value if JSON is invalid
+                      }
+                    }}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Internal Links (JSON)</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder='[{"href": "/cities/los-angeles", "anchor": "Los Angeles Real Estate", "context": "Related city page"}]'
+                    value={JSON.stringify(blogForm.internal_links, null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setBlogForm({...blogForm, internal_links: parsed});
+                      } catch (error) {
+                        // Keep the current value if JSON is invalid
+                      }
+                    }}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Images (JSON)</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder='[{"url": "https://example.com/image1.jpg", "alt": "Image description", "local_path": "/images/blog/image1.jpg"}]'
+                    value={JSON.stringify(blogForm.images, null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setBlogForm({...blogForm, images: parsed});
+                      } catch (error) {
+                        // Keep the current value if JSON is invalid
+                      }
+                    }}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">Schema Markup (JSON)</label>
+                  <textarea 
+                    className="form-textarea" 
+                    placeholder='{"@context": "https://schema.org", "@type": "Article", "headline": "Blog Title"}'
+                    value={JSON.stringify(blogForm.schema_markup, null, 2)}
+                    onChange={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        setBlogForm({...blogForm, schema_markup: parsed});
+                      } catch (error) {
+                        // Keep the current value if JSON is invalid
+                      }
+                    }}
+                  ></textarea>
+                </div>
+                <div className="form-group">
+                  <label className="form-label">CTA Section Title</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Ready To Make A Move?"
+                    value={blogForm.ctaSection.title}
+                    onChange={(e) => setBlogForm({...blogForm, ctaSection: { ...blogForm.ctaSection, title: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">CTA Section Subtitle</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Connect with our specialists today"
+                    value={blogForm.ctaSection.subtitle}
+                    onChange={(e) => setBlogForm({...blogForm, ctaSection: { ...blogForm.ctaSection, subtitle: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">CTA Button Text</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="Schedule Consultation"
+                    value={blogForm.ctaSection.ctaText}
+                    onChange={(e) => setBlogForm({...blogForm, ctaSection: { ...blogForm.ctaSection, ctaText: e.target.value }})}
+                  />
+                </div>
+                <div className="form-group">
+                  <label className="form-label">CTA Button Link</label>
+                  <input 
+                    type="text" 
+                    className="form-input" 
+                    placeholder="/contact/specialists"
+                    value={blogForm.ctaSection.ctaLink}
+                    onChange={(e) => setBlogForm({...blogForm, ctaSection: { ...blogForm.ctaSection, ctaLink: e.target.value }})}
+                  />
                 </div>
               </form>
             </div>
@@ -1059,7 +1442,7 @@ export default function AdminDashboard() {
                   avgHomePrice: '',
                   heroImage: '',
                   shortDescription: '',
-                  tags: '',
+                  tags: [],
                   neighborhoods: [''],
                   highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],

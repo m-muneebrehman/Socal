@@ -1,6 +1,6 @@
 "use client"
 
-import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart } from "lucide-react"
+import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart, FileText, Image } from "lucide-react"
 import { Blog as BlogType } from "@/types"
 
 interface BlogManagerProps {
@@ -35,52 +35,83 @@ export default function BlogManager({
         </button>
       </div>
 
-                          <div className="content-grid two-cols">
-         {blogs.map((blog) => (
-           <div key={blog._id || blog.id || `blog-${Math.random()}`} className="card">
+      <div className="content-grid two-cols">
+        {blogs.map((blog) => (
+          <div key={blog._id || blog.id || `blog-${Math.random()}`} className="card">
             <div className="card-header">
               <div className="blog-badges">
                 <span className={`badge ${blog.status.toLowerCase()}`}>{blog.status}</span>
                 {blog.featured && <span className="badge featured">Featured</span>}
+                {blog.language && <span className="badge language">{blog.language.toUpperCase()}</span>}
               </div>
               <div className="card-actions">
-                                 <button 
-                   className="action-btn edit"
-                   onClick={() => {
-                     // Use groupId for editing, fallback to _id for existing blogs
-                     const blogId = blog.groupId || blog._id || blog.id || ''
-                     setEditingBlog(blogId)
-                     setBlogForm({
-                       _id: blog._id || blog.id || '',
-                       groupId: blog.groupId || blog._id || blog.id || '',
-                       slug: blog.slug,
-                       title: blog.title,
-                       subtitle: blog.subtitle || '',
-                       category: blog.category,
-                       author: typeof blog.author === 'string' ? blog.author : blog.author?.name || '',
-                       date: blog.date || '',
-                       status: blog.status,
-                       featured: blog.featured || false,
-                       content: { lead: blog.content?.lead || '' },
-                       views: blog.views || 0,
-                       likes: blog.likes || 0
-                     })
-                     setShowBlogModal(true)
-                   }}
-                 >
+                <button 
+                  className="action-btn edit"
+                  onClick={() => {
+                    // Use groupId for editing, fallback to _id for existing blogs
+                    const blogId = blog.groupId || blog._id || blog.id || ''
+                    setEditingBlog(blogId)
+                    setBlogForm({
+                      _id: blog._id || blog.id || '',
+                      groupId: blog.groupId || blog._id || blog.id || '',
+                      slug: blog.slug,
+                      title: blog.title,
+                      subtitle: blog.subtitle || '',
+                      canonicalurl: blog.canonicalurl || '',
+                      language: blog.language || 'en',
+                      category: blog.category,
+                      author: typeof blog.author === 'string' ? blog.author : blog.author?.name || '',
+                      date: blog.date || '',
+                      readTime: blog.readTime || '5 min read',
+                      wordcount: blog.wordcount || 0,
+                      status: blog.status,
+                      featured: blog.featured || false,
+                      heroImage: blog.heroImage || '',
+                      imagealt: blog.imagealt || '',
+                      content: { 
+                        lead: blog.content?.lead || '',
+                        sections: blog.content?.sections || []
+                      },
+                      ctaSection: blog.ctaSection || {
+                        title: '',
+                        subtitle: '',
+                        ctaText: '',
+                        ctaLink: ''
+                      },
+                      seo: blog.seo || {
+                        metaTitle: '',
+                        metaDescription: '',
+                        keywords: ''
+                      },
+                      views: blog.views || 0,
+                      likes: blog.likes || 0
+                    })
+                    setShowBlogModal(true)
+                  }}
+                >
                   <Edit2 size={16} />
                 </button>
-                                 <button className="action-btn delete" onClick={() => {
-                   // Use _id for deletion as it's the actual database ID
-                   const blogId = blog._id || blog.id || ''
-                   if (blogId) {
-                     deleteBlog(blogId)
-                   }
-                 }}>
-                   <Trash2 size={16} />
+                <button className="action-btn delete" onClick={() => {
+                  // Use _id for deletion as it's the actual database ID
+                  const blogId = blog._id || blog.id || ''
+                  if (blogId) {
+                    deleteBlog(blogId)
+                  }
+                }}>
+                  <Trash2 size={16} />
                 </button>
               </div>
             </div>
+
+            {blog.heroImage && (
+              <div className="blog-hero-image">
+                <img 
+                  src={blog.heroImage} 
+                  alt={blog.imagealt || blog.title}
+                  className="w-full h-32 object-cover rounded"
+                />
+              </div>
+            )}
 
             <h3 className="card-title">{blog.title}</h3>
             <p className="card-subtitle">{blog.subtitle || 'No subtitle'}</p>
@@ -96,16 +127,31 @@ export default function BlogManager({
               </span>
               <span>
                 <Clock size={16} />
-                4 min read
+                {blog.readTime || '5 min read'}
               </span>
+              {blog.wordcount && (
+                <span>
+                  <FileText size={16} />
+                  {blog.wordcount} words
+                </span>
+              )}
             </div>
 
             <div className="card-meta">
               <span>Slug: {blog.slug}</span>
               <span>Category: {blog.category}</span>
+              {blog.language && <span>Language: {blog.language.toUpperCase()}</span>}
             </div>
 
             <p className="blog-content">{blog.content?.lead || 'No content available...'}</p>
+
+            {blog.content?.sections && blog.content.sections.length > 0 && (
+              <div className="blog-sections-info">
+                <span className="text-sm text-gray-600">
+                  {blog.content.sections.length} section{blog.content.sections.length !== 1 ? 's' : ''}
+                </span>
+              </div>
+            )}
 
             <div className="blog-stats">
               <span>
