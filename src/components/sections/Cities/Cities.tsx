@@ -3,21 +3,32 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
-import citiesData from '@/data/cities.json'
+import citiesList from '@/data/cities.json'
 
-const Cities = () => {
+interface CitiesProps {
+  citiesData?: {
+    title: string
+    subtitle: string
+  }
+}
+
+const Cities = ({ citiesData }: CitiesProps) => {
   const t = useTranslations('cities');
   
-  // Show only first 3 cities
-  const displayedCities = citiesData.slice(0, 3);
+  // Use API data if available, otherwise fall back to translations
+  const title = citiesData?.title || t('title')
+  const subtitle = citiesData?.subtitle || t('subtitle')
+  
+  // Show only first 3 cities from the imported cities data
+  const displayedCities = citiesList.slice(0, 3);
 
   return (
     <section className="cities-section-beautiful" id="cities">
       <div className="cities-container-beautiful">
         <div className="section-header-beautiful">
           <span className="section-eyebrow-beautiful">Destinations</span>
-          <h2 className="section-title-beautiful">{t('title') || 'Discover Your Perfect City'}</h2>
-          <p className="section-subtitle-beautiful">{t('subtitle') || 'Explore premium locations across California\'s most desirable cities'}</p>
+          <h2 className="section-title-beautiful">{title}</h2>
+          <p className="section-subtitle-beautiful">{subtitle}</p>
         </div>
         
         <div className="cities-grid-beautiful">

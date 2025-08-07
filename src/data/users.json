@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "68933f58e106c3e58bd06f4b",
+    "email": "umuhammadmuneeb@gmail.com",
+    "role": "User",
+    "status": "Active",
+    "createdAt": "2025-08-06T11:41:12.920Z"
+  },
+  {
+    "id": "689446ffc55a423c79b3e6c8",
+    "email": "bakhat123@gmail.com",
+    "role": "Admin",
+    "status": "Active",
+    "createdAt": "2025-08-07T06:26:07.692Z",
+    "updatedAt": "2025-08-07T06:26:07.692Z"
+  }
+]

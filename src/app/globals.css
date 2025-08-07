@@ -2388,7 +2388,7 @@ body {
 }
 
 .cities-page-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -2440,7 +2440,7 @@ body {
 }
 
 .city-search-container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -4441,6 +4441,98 @@ body {
 
 /* ===== ADMIN DASHBOARD STYLES ===== */
 
+/* Admin Panel Button Styles */
+.admin-dashboard .btn-remove {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-dashboard .btn-remove:hover {
+  background: linear-gradient(135deg, #ff5252, #d32f2f);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+  transform: translateY(-2px);
+}
+
+.admin-dashboard .btn-add {
+  background: linear-gradient(135deg, #4ecdc4, #44a08d);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.admin-dashboard .btn-add:hover {
+  background: linear-gradient(135deg, #26a69a, #00897b);
+  box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+  transform: translateY(-2px);
+}
+
+.admin-dashboard .btn-add::before {
+  content: "+";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Different colors for different sections */
+.admin-dashboard .btn-add-neighborhood {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.admin-dashboard .btn-add-neighborhood:hover {
+  background: linear-gradient(135deg, #5a6fd8, #6a4c93);
+}
+
+.admin-dashboard .btn-add-highlight {
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.admin-dashboard .btn-add-highlight:hover {
+  background: linear-gradient(135deg, #e91e63, #c2185b);
+}
+
+.admin-dashboard .btn-add-faq {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.admin-dashboard .btn-add-faq:hover {
+  background: linear-gradient(135deg, #2196f3, #00bcd4);
+}
+
+.admin-dashboard .btn-add-client {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+.admin-dashboard .btn-add-client:hover {
+  background: linear-gradient(135deg, #4caf50, #009688);
+}
+
 .admin-dashboard {
   background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #e0e7ff 100%);
   min-height: 100vh;
@@ -4493,6 +4585,21 @@ body {
 
 .admin-sidebar.collapsed .sidebar-content {
   opacity: 0;
+}
+
+.admin-sidebar.collapsed .toggle-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 .admin-dashboard .logo-icon {
@@ -4580,10 +4687,20 @@ body {
 .admin-main-content {
   margin-left: 288px;
   transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .admin-main-content.collapsed {
   margin-left: 80px;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
 }
 
 /* Header */
@@ -4615,11 +4732,11 @@ body {
   gap: 16px;
 }
 
-.search-container {
+.admin-search-container {
   position: relative;
 }
 
-.search-input {
+.admin-search-input {
   padding: 8px 16px 8px 40px;
   background-color: #f9fafb;
   border: 1px solid #e5e7eb;
@@ -4629,12 +4746,12 @@ body {
   width: 200px;
 }
 
-.search-input:focus {
+.admin-search-input:focus {
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-.search-icon {
+.admin-search-icon {
   position: absolute;
   left: 12px;
   top: 50%;
@@ -5181,7 +5298,7 @@ body {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  z-index: 100;
+  z-index: 9999;
   display: none;
   align-items: center;
   justify-content: center;
@@ -5353,6 +5470,182 @@ body {
   display: none !important;
 }
 
+/* Home Section Styles */
+.home-section-card {
+  border: 2px dashed #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.home-section-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+.edit-form {
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.image-upload-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.image-preview {
+  margin-top: 0.5rem;
+}
+
+.preview-image {
+  max-width: 200px;
+  max-height: 120px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.section-preview {
+  padding: 1rem;
+}
+
+.background-preview {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.background-preview .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.background-preview h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.background-preview p {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.stats-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1rem;
+  background: #f1f5f9;
+  border-radius: 0.5rem;
+  border: 2px dashed #cbd5e1;
+}
+
+.stat-edit-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Action button styles */
+.action-btn.save {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
+.action-btn.save:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+}
+
+.action-btn.cancel {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.action-btn.cancel:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+/* Orange badge for home sections */
+.count-badge.orange {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+}
+
+/* Service edit item styles */
+.service-edit-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #f8fafc;
+}
+
+.service-edit-item input,
+.service-edit-item textarea {
+  margin-bottom: 0.5rem;
+}
+
+.service-edit-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Services preview styles */
+.services-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.service-item {
+  text-align: center;
+  padding: 1rem;
+  background: #f1f5f9;
+  border-radius: 0.5rem;
+  border: 2px dashed #cbd5e1;
+}
+
+.service-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.service-item h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.service-item p {
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .admin-sidebar {
@@ -5393,7 +5686,28 @@ body {
     gap: 8px;
   }
 
-  .search-input {
+  .admin-search-input {
     width: 150px;
+  }
+
+  /* Admin Navbar Mobile Styles */
+  .admin-navbar-desktop {
+    display: none !important;
+  }
+
+  .admin-navbar-mobile-toggle {
+    display: flex !important;
+  }
+
+  .admin-navbar-container {
+    padding: 0 16px !important;
+  }
+
+  .admin-navbar-logo h1 {
+    font-size: 16px !important;
+  }
+
+  .admin-navbar-logo p {
+    font-size: 10px !important;
   }
 }

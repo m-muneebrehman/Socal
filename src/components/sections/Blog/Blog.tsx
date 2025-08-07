@@ -2,14 +2,25 @@ import React from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 
-const Blog = () => {
+interface BlogProps {
+  blogData?: {
+    title: string
+    subtitle: string
+  }
+}
+
+const Blog = ({ blogData }: BlogProps) => {
   const t = useTranslations('blog');
+
+  // Use API data if available, otherwise fall back to translations
+  const title = blogData?.title || t('title')
+  const subtitle = blogData?.subtitle || t('subtitle')
 
   return (
     <section className="blog-section" id="blog">
       <div className="section-header">
-        <h2 className="section-title">{t('title')}</h2>
-        <p className="section-subtitle">{t('subtitle')}</p>
+        <h2 className="section-title">{title}</h2>
+        <p className="section-subtitle">{subtitle}</p>
       </div>
       <div className="blog-container">
         <div className="blog-card">

@@ -71,18 +71,45 @@ export async function updateBlogsJsonFile() {
 // Function to update users.json file
 export async function updateUsersJsonFile() {
   try {
+    console.log('🔄 Starting updateUsersJsonFile...')
     const { db } = await connectToDatabase()
+    console.log('📡 Connected to database')
+    
     const users = await db.collection('users').find({}).toArray()
+    console.log('📊 Raw users from MongoDB:', JSON.stringify(users, null, 2))
+    
+    if (!users || users.length === 0) {
+      console.log('⚠️ No users found in MongoDB')
+      // Write empty array to JSON file
+      const jsonPath = path.join(process.cwd(), 'src', 'data', 'users.json')
+      fs.writeFileSync(jsonPath, JSON.stringify([], null, 2))
+      console.log('✅ users.json updated with empty array')
+      return
+    }
     
     // Transform the data to match the expected format
-    const transformedUsers = users.map(user => ({
-      id: user._id.toString(),
-      email: user.email,
-      role: user.role || 'User',
-      status: user.status || 'Active',
-      createdAt: user.createdAt,
-      updatedAt: user.updatedAt
-    }))
+    const transformedUsers = users.map(user => {
+      console.log('🔄 Processing user:', user)
+      
+      if (!user._id) {
+        console.error('❌ User missing _id:', user)
+        return null
+      }
+      
+      const transformedUser = {
+        id: user._id.toString(),
+        email: user.email,
+        role: user.role || 'User',
+        status: user.status || 'Active',
+        createdAt: user.createdAt,
+        updatedAt: user.updatedAt
+      }
+      
+      console.log('✅ Transformed user:', transformedUser)
+      return transformedUser
+    }).filter(user => user !== null) // Remove any null entries
+
+    console.log('📝 Final transformed users for JSON:', JSON.stringify(transformedUsers, null, 2))
 
     // Write to users.json file
     const jsonPath = path.join(process.cwd(), 'src', 'data', 'users.json')
@@ -91,6 +118,23 @@ export async function updateUsersJsonFile() {
     console.log('✅ users.json updated successfully')
   } catch (error) {
     console.error('❌ Error updating users.json:', error)
+    console.error('❌ Error details:', error instanceof Error ? error.message : 'Unknown error')
+    console.error('❌ Error stack:', error instanceof Error ? error.stack : 'No stack trace')
+  }
+}
+
+// Function to update home.json file
+export async function updateHomeJsonFile(homeData: any) {
+  try {
+    console.log('🔄 Starting updateHomeJsonFile...')
+    
+    // Write to home.json file
+    const jsonPath = path.join(process.cwd(), 'src', 'data', 'home.json')
+    fs.writeFileSync(jsonPath, JSON.stringify(homeData, null, 2))
+    
+    console.log('✅ home.json updated successfully')
+  } catch (error) {
+    console.error('❌ Error updating home.json:', error)
   }
 }
 

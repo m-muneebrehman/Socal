@@ -1,249 +1,56 @@
 [
-    {
-      "id": "the-art-of-staging-presentation-luxury-listings",
-      "slug": "the-art-of-staging-presentation-luxury-listings",
-      "title": "The Art of Staging: How Presentation Can Add Millions to Luxury Listings",
-      "subtitle": "Professional staging techniques that transform high-end properties and significantly increase their market value and appeal. Discover the secrets behind creating irresistible luxury presentations.",
-      "category": "Marketing",
-      "author": {
-        "name": "Sophie Laurent",
-        "title": "Luxury Staging Expert",
-        "avatar": "SL",
-        "bio": "Sophie Laurent is a renowned luxury staging expert with over 15 years of experience transforming high-end properties worldwide. Her work has been featured in Architectural Digest and Luxury Home Magazine."
-      },
-      "date": "April 28, 2023",
-      "readTime": "4 min read",
-      "views": "2.4k views",
-      "featured": true,
-      "heroImage": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      "content": {
-        "lead": "In the world of luxury real estate, first impressions aren't just important—they're everything. The difference between a property that languishes on the market and one that commands top dollar often comes down to a single factor: presentation.",
-        "sections": [
-          {
-            "title": "The Psychology Behind Luxury Staging",
-            "content": "Understanding the mindset of luxury buyers is crucial to effective staging. These clients often have multiple properties and extensive experience with high-end real estate. They're looking for properties that not only meet their functional needs but also inspire and captivate them emotionally.",
-            "quote": {
-              "text": "Luxury staging isn't about showing what a space is—it's about revealing what it could become. We're selling dreams, aspirations, and the promise of an elevated lifestyle.",
-              "author": "Michael Harrison, Interior Designer"
-            },
-            "additional": "Research shows that staged luxury properties sell 73% faster than their unstaged counterparts and can command prices 6-10% higher than comparable unstaged properties. In the luxury market, this percentage difference can translate to hundreds of thousands or even millions of dollars."
+  {
+    "id": "68936f1e27f87207aa190261",
+    "slug": "my-first-blog",
+    "title": "My First Blog1",
+    "subtitle": "A short description",
+    "category": "Marketing",
+    "author": {
+      "name": "John Doe",
+      "title": "Editor",
+      "avatar": "JD",
+      "bio": "A passionate writer."
+    },
+    "date": "2024-05-01T00:00:00.000Z",
+    "status": "draft",
+    "featured": true,
+    "content": {
+      "lead": "This is the opening paragraph.",
+      "sections": [
+        {
+          "title": "Section 1",
+          "content": "Section 1 content",
+          "quote": {
+            "text": "A great quote.",
+            "author": "Famous Person"
           },
-          {
-            "title": "Key Elements of Luxury Staging",
-            "subsections": [
-              {
-                "title": "Space and Flow",
-                "content": "Luxury staging prioritizes spaciousness and natural flow. This means carefully selecting furniture that emphasizes the scale of rooms rather than filling them. Every piece should serve a purpose while maintaining the sense of grandeur that luxury buyers expect."
-              },
-              {
-                "title": "Quality Over Quantity",
-                "content": "In luxury staging, less is always more—but what remains must be exceptional. A single museum-quality piece can have more impact than an entire room of mediocre furnishings. Investment in high-end staging pieces pays dividends in final sale price."
-              },
-              {
-                "title": "Lifestyle Integration",
-                "content": "Modern luxury staging goes beyond beautiful rooms to create lifestyle scenarios. A perfectly appointed home office suggests productivity and success. A spa-like master bathroom implies daily luxury and self-care. Each space should tell a story about the life the buyer could lead."
-              }
-            ]
-          },
-          {
-            "title": "Technology and Modern Staging",
-            "content": "Today's luxury staging incorporates cutting-edge technology seamlessly into the design. Smart home features should be subtly highlighted, lighting should be programmable and atmospheric, and entertainment systems should be integrated without dominating the aesthetic. Virtual staging and 3D visualization tools are also revolutionizing the industry, allowing potential buyers to see multiple design possibilities and helping international clients experience properties remotely."
-          },
-          {
-            "title": "The ROI of Professional Staging",
-            "content": "While luxury staging requires significant upfront investment—often $50,000 to $200,000 for high-end properties—the return is typically substantial. Properties staged by top professionals often see:",
-            "list": [
-              "Reduced time on market by 40-60%",
-              "Price increases of 6-15% over unstaged comparables",
-              "Higher quality buyer interest and fewer contingencies",
-              "Stronger emotional connections leading to full-price offers"
-            ]
-          },
-          {
-            "title": "Future Trends in Luxury Staging",
-            "content": "The luxury staging industry continues to evolve with changing buyer preferences. Sustainability is becoming increasingly important, with eco-luxury staging incorporating sustainable materials and energy-efficient features. Wellness-focused design, with emphasis on natural light, air quality, and biophilic elements, is also gaining prominence. As the luxury market becomes more competitive, staging will only become more crucial in differentiating properties and maximizing value. The investment in professional staging isn't just about selling a property—it's about transforming a space into an irresistible vision of luxury living."
-          }
-        ]
-      }
+          "additional": "Some extra info",
+          "subsections": [
+            {
+              "title": "Subsection 1",
+              "content": "Subsection content"
+            }
+          ]
+        }
+      ]
     },
-    {
-      "id": "future-luxury-emerging-markets-2024",
-      "slug": "future-luxury-emerging-markets-2024",
-      "title": "The Future of Luxury: Emerging Markets to Watch in 2024",
-      "subtitle": "As global wealth patterns shift, we analyze the rising stars in luxury real estate that savvy investors should have on their radar for the coming year.",
-      "category": "Market Analysis",
-      "author": {
-        "name": "Sarah Johnson",
-        "title": "Market Analyst",
-        "avatar": "SJ"
-      },
-      "date": "June 15, 2023",
-      "readTime": "5 min read",
-      "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+    "views": 0,
+    "likes": 0
+  },
+  {
+    "id": "",
+    "slug": "sgsfdg",
+    "title": "asgsg",
+    "subtitle": "sgsa",
+    "category": "Marketing",
+    "author": "sgfas",
+    "date": "2025-08-07T03:34:35.026Z",
+    "status": "Draft",
+    "featured": false,
+    "content": {
+      "lead": "safgs"
     },
-    {
-      "id": "sustainable-luxury-green-buildings-premium-real-estate",
-      "slug": "sustainable-luxury-green-buildings-premium-real-estate",
-      "title": "Sustainable Luxury: How Green Buildings Are Redefining Premium Real Estate",
-      "subtitle": "Environmental consciousness meets luxury living as sustainable design becomes a key differentiator in high-end property markets worldwide.",
-      "category": "Luxury Trends",
-      "author": {
-        "name": "Michael Chen",
-        "title": "Sustainability Expert",
-        "avatar": "MC"
-      },
-      "date": "June 10, 2023",
-      "readTime": "4 min read",
-      "heroImage": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "investment-strategies-luxury-real-estate-post-pandemic",
-      "slug": "investment-strategies-luxury-real-estate-post-pandemic",
-      "title": "Investment Strategies for Luxury Real Estate in Post-Pandemic Markets",
-      "subtitle": "How COVID-19 reshaped luxury real estate priorities and what investors need to know about emerging trends and opportunities.",
-      "category": "Investment",
-      "author": {
-        "name": "Elena Rodriguez",
-        "title": "Investment Strategist",
-        "avatar": "ER"
-      },
-      "date": "June 5, 2023",
-      "readTime": "6 min read",
-      "heroImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "dubai-luxury-real-estate-boom-opportunities-challenges",
-      "slug": "dubai-luxury-real-estate-boom-opportunities-challenges",
-      "title": "Dubai's Luxury Real Estate Boom: Opportunities and Challenges",
-      "subtitle": "An in-depth analysis of Dubai's red-hot luxury property market, examining the factors driving growth and potential risks for investors.",
-      "category": "Global Markets",
-      "author": {
-        "name": "Oliver Thompson",
-        "title": "Global Markets Analyst",
-        "avatar": "OT"
-      },
-      "date": "May 15, 2023",
-      "readTime": "6 min read",
-      "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rise-luxury-co-living-investment-frontier",
-      "slug": "rise-luxury-co-living-investment-frontier",
-      "title": "The Rise of Luxury Co-living: A New Investment Frontier",
-      "subtitle": "Exploring how upscale co-living spaces are creating new opportunities for real estate investors and reshaping urban living concepts.",
-      "category": "Investment",
-      "author": {
-        "name": "Jessica Park",
-        "title": "Urban Development Expert",
-        "avatar": "JP"
-      },
-      "date": "May 20, 2023",
-      "readTime": "5 min read",
-      "heroImage": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "european-luxury-markets-brexit-beyond",
-      "slug": "european-luxury-markets-brexit-beyond",
-      "title": "European Luxury Markets: Navigating Brexit and Beyond",
-      "subtitle": "How Brexit continues to impact European luxury real estate markets and what investors should consider when expanding their European portfolios.",
-      "category": "Global Markets",
-      "author": {
-        "name": "Ahmed Al-Rashid",
-        "title": "European Markets Specialist",
-        "avatar": "AA"
-      },
-      "date": "May 28, 2023",
-      "readTime": "7 min read",
-      "heroImage": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "luxury-vacation-rentals-airbnb-high-end-markets",
-      "slug": "luxury-vacation-rentals-airbnb-high-end-markets",
-      "title": "Luxury Vacation Rentals: The Airbnb Revolution in High-End Markets",
-      "subtitle": "How luxury vacation rentals are transforming the hospitality industry and creating new revenue streams for property investors.",
-      "category": "Investment",
-      "author": {
-        "name": "Maria Santos",
-        "title": "Hospitality Investment Expert",
-        "avatar": "MS"
-      },
-      "date": "May 10, 2023",
-      "readTime": "4 min read",
-      "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "smart-home-technology-luxury-real-estate-beyond-basics",
-      "slug": "smart-home-technology-luxury-real-estate-beyond-basics",
-      "title": "Smart Home Technology in Luxury Real Estate: Beyond the Basics",
-      "subtitle": "Exploring cutting-edge smart home technologies that are becoming essential features in luxury properties worldwide.",
-      "category": "Luxury Trends",
-      "author": {
-        "name": "David Kim",
-        "title": "Technology Integration Specialist",
-        "avatar": "DK"
-      },
-      "date": "May 5, 2023",
-      "readTime": "5 min read",
-      "heroImage": "https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "asian-luxury-markets-comparison",
-      "slug": "asian-luxury-markets-comparison",
-      "title": "Asian Luxury Markets: Comparing Singapore, Hong Kong, and Tokyo",
-      "subtitle": "A comparative analysis of Asia's premier luxury real estate markets and their unique investment characteristics.",
-      "category": "Global Markets",
-      "author": {
-        "name": "Wei Zhang",
-        "title": "Asian Markets Analyst",
-        "avatar": "WZ"
-      },
-      "date": "April 22, 2023",
-      "readTime": "6 min read",
-      "heroImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "privacy-security-luxury-home-buyers",
-      "slug": "privacy-security-luxury-home-buyers",
-      "title": "Privacy and Security: The New Must-Haves for Luxury Home Buyers",
-      "subtitle": "How demand for advanced security and privacy features is reshaping luxury home design and technology integration.",
-      "category": "Luxury Trends",
-      "author": {
-        "name": "James Wilson",
-        "title": "Security Systems Expert",
-        "avatar": "JW"
-      },
-      "date": "April 15, 2023",
-      "readTime": "5 min read",
-      "heroImage": "https://images.unsplash.com/photo-1600566752225-3f2fe3c8f2a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "psychology-luxury-high-net-worth-buyers",
-      "slug": "psychology-luxury-high-net-worth-buyers",
-      "title": "The Psychology of Luxury: What Truly Drives High-Net-Worth Buyers",
-      "subtitle": "Understanding the emotional and psychological factors that influence purchasing decisions in the luxury real estate market.",
-      "category": "Market Analysis",
-      "author": {
-        "name": "Dr. Olivia Bennett",
-        "title": "Consumer Psychology Researcher",
-        "avatar": "OB"
-      },
-      "date": "April 10, 2023",
-      "readTime": "7 min read",
-      "heroImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "waterfront-properties-luxury-coastal-investments",
-      "slug": "waterfront-properties-luxury-coastal-investments",
-      "title": "Waterfront Properties: Navigating the Unique Challenges of Luxury Coastal Investments",
-      "subtitle": "Special considerations for investing in high-end waterfront real estate, from climate risks to premium amenities.",
-      "category": "Investment",
-      "author": {
-        "name": "Carlos Mendez",
-        "title": "Coastal Property Specialist",
-        "avatar": "CM"
-      },
-      "date": "March 30, 2023",
-      "readTime": "5 min read",
-      "heroImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
-    }
-  ] 
+    "views": 0,
+    "likes": 0
+  }
+]

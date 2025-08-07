@@ -7,7 +7,20 @@ export async function GET() {
   try {
     const { db } = await connectToDatabase()
     const users = await db.collection('users').find({}).toArray()
-    return NextResponse.json(users)
+    
+    // Transform the data to include both _id and id fields for compatibility
+    const transformedUsers = users.map(user => ({
+      _id: user._id.toString(),
+      id: user._id.toString(),
+      email: user.email,
+      role: user.role || 'User',
+      status: user.status || 'Active',
+      createdAt: user.createdAt,
+      updatedAt: user.updatedAt
+    }))
+    
+    console.log('API returning users:', transformedUsers)
+    return NextResponse.json(transformedUsers)
   } catch (error) {
     console.error('Error fetching users:', error)
     return NextResponse.json({ error: 'Failed to fetch users' }, { status: 500 })
@@ -16,24 +29,45 @@ export async function GET() {
 
 export async function POST(request: NextRequest) {
   try {
+    console.log('🔄 Starting user creation...')
     const body = await request.json()
-    const { db } = await connectToDatabase()
+    console.log('📝 Request body:', body)
     
-    const result = await db.collection('users').insertOne({
+    const { db } = await connectToDatabase()
+    console.log('📡 Connected to database')
+    
+    const userData = {
       ...body,
       createdAt: new Date(),
       updatedAt: new Date()
-    })
+    }
+    console.log('📊 User data to insert:', userData)
+    
+    const result = await db.collection('users').insertOne(userData)
+    console.log('✅ User inserted with ID:', result.insertedId)
+    console.log('✅ Inserted ID type:', typeof result.insertedId)
+    console.log('✅ Inserted ID value:', result.insertedId)
+
+    // Add a small delay to ensure MongoDB has committed the transaction
+    await new Promise(resolve => setTimeout(resolve, 100))
 
     // Update the JSON file after successful database insertion
+    console.log('🔄 Updating JSON file...')
     await updateUsersJsonFile()
+    console.log('✅ JSON file updated')
 
-    return NextResponse.json({ 
+    const insertedId = result.insertedId ? result.insertedId.toString() : ''
+    const response = { 
       message: 'User created successfully', 
-      _id: result.insertedId 
-    })
+      _id: insertedId,
+      id: insertedId
+    }
+    console.log('📤 Returning response:', response)
+    
+    return NextResponse.json(response)
   } catch (error) {
-    console.error('Error creating user:', error)
+    console.error('❌ Error creating user:', error)
+    console.error('❌ Error details:', error instanceof Error ? error.message : 'Unknown error')
     return NextResponse.json({ error: 'Failed to create user' }, { status: 500 })
   }
 }
@@ -41,11 +75,17 @@ export async function POST(request: NextRequest) {
 export async function PUT(request: NextRequest) {
   try {
     const body = await request.json()
-    const { _id, ...updateData } = body
+    const { _id, id, ...updateData } = body
+    const userId = _id || id
+    
+    if (!userId) {
+      return NextResponse.json({ error: 'User ID is required' }, { status: 400 })
+    }
+    
     const { db } = await connectToDatabase()
     
     const result = await db.collection('users').updateOne(
-      { _id: new ObjectId(_id) },
+      { _id: new ObjectId(userId) },
       { 
         $set: {
           ...updateData,
@@ -57,6 +97,9 @@ export async function PUT(request: NextRequest) {
     if (result.matchedCount === 0) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 })
     }
+
+    // Add a small delay to ensure MongoDB has committed the transaction
+    await new Promise(resolve => setTimeout(resolve, 100))
 
     // Update the JSON file after successful database update
     await updateUsersJsonFile()
@@ -71,14 +114,23 @@ export async function PUT(request: NextRequest) {
 export async function DELETE(request: NextRequest) {
   try {
     const body = await request.json()
-    const { _id } = body
+    const { _id, id } = body
+    const userId = _id || id
+    
+    if (!userId) {
+      return NextResponse.json({ error: 'User ID is required' }, { status: 400 })
+    }
+    
     const { db } = await connectToDatabase()
     
-    const result = await db.collection('users').deleteOne({ _id: new ObjectId(_id) })
+    const result = await db.collection('users').deleteOne({ _id: new ObjectId(userId) })
 
     if (result.deletedCount === 0) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 })
     }
+
+    // Add a small delay to ensure MongoDB has committed the transaction
+    await new Promise(resolve => setTimeout(resolve, 100))
 
     // Update the JSON file after successful database deletion
     await updateUsersJsonFile()
