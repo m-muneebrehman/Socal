@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
 import { updateUsersJsonFile } from '@/lib/json-updater'
 import { ObjectId } from 'mongodb'
+import bcrypt from 'bcryptjs'
 
 export async function GET() {
   try {
@@ -36,11 +37,13 @@ export async function POST(request: NextRequest) {
     const { db } = await connectToDatabase()
     console.log('📡 Connected to database')
     
-    const userData = {
-      ...body,
-      createdAt: new Date(),
-      updatedAt: new Date()
+    // Hash the password if present
+    const userData = { ...body }
+    if (userData.password) {
+      userData.password = await bcrypt.hash(userData.password, 10)
     }
+    userData.createdAt = new Date()
+    userData.updatedAt = new Date()
     console.log('📊 User data to insert:', userData)
     
     const result = await db.collection('users').insertOne(userData)

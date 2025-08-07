@@ -12,6 +12,7 @@ export interface User {
 export interface Blog {
   _id?: string
   id?: string
+  groupId?: string
   slug: string
   title: string
   subtitle?: string

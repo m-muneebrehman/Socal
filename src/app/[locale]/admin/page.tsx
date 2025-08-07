@@ -122,22 +122,23 @@ export default function AdminDashboard() {
   
   // Form states
   const [userForm, setUserForm] = useState({ _id: '', email: '', password: '', role: '', status: '' })
-  const [blogForm, setBlogForm] = useState({ 
+  // Blog form state
+  const emptyBlog: Blog = {
     _id: '',
-    slug: '', 
-    title: '', 
-    subtitle: '', 
-    category: 'Marketing', 
-    author: '', 
-    status: 'Draft', 
-    featured: 'No',
-    content: { lead: '' }
-  })
-
-  // Debug userForm changes
-  useEffect(() => {
-    console.log('📝 userForm changed:', userForm)
-  }, [userForm])
+    groupId: '',
+    slug: '',
+    title: '',
+    subtitle: '',
+    category: 'Marketing',
+    author: '',
+    date: '',
+    status: 'Draft',
+    featured: false,
+    content: { lead: '' },
+    views: 0,
+    likes: 0
+  }
+  const [blogForm, setBlogForm] = useState<Blog>(emptyBlog)
   const [cityForm, setCityForm] = useState({
     _id: '',
     slug: '',
@@ -270,17 +271,7 @@ export default function AdminDashboard() {
   // Function to handle adding new blog
   const handleAddBlog = () => {
     setEditingBlog(null)
-    setBlogForm({ 
-      _id: '',
-      slug: '', 
-      title: '', 
-      subtitle: '', 
-      category: 'Marketing', 
-      author: '', 
-      status: 'Draft', 
-      featured: 'No',
-      content: { lead: '' }
-    })
+    setBlogForm(emptyBlog)
     setShowBlogModal(true)
   }
 
@@ -314,7 +305,7 @@ export default function AdminDashboard() {
     }
   }
 
-  const createUser = async (userData: any) => {
+  const createUser = async (userData: User) => {
     try {
       // Remove _id for new user creation to let MongoDB generate it
       const { _id, ...userDataWithoutId } = userData
@@ -344,13 +335,16 @@ export default function AdminDashboard() {
     }
   }
 
-  const createBlog = async (blogData: any) => {
+  const createBlog = async (blogData: Blog) => {
     try {
+      // Remove _id for new blog creation to let MongoDB generate it
+      const { _id, ...blogDataWithoutId } = blogData
+      
       const response = await fetch('/admin/api/blogs', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ...blogData,
+          ...blogDataWithoutId,
           date: new Date().toISOString(),
           featured: blogData.featured === 'Yes',
           author: blogData.author // Keep as string for new blogs
@@ -359,17 +353,7 @@ export default function AdminDashboard() {
       if (response.ok) {
         await fetchBlogs()
         setShowBlogModal(false)
-        setBlogForm({ 
-          _id: '',
-          slug: '', 
-          title: '', 
-          subtitle: '', 
-          category: 'Marketing', 
-          author: '', 
-          status: 'Draft', 
-          featured: 'No',
-          content: { lead: '' }
-        })
+        setBlogForm(emptyBlog)
         addToast('success', 'Blog created successfully!')
       } else {
         const error = await response.json()
@@ -381,18 +365,18 @@ export default function AdminDashboard() {
     }
   }
 
-  const createCity = async (cityData: any) => {
+  const createCity = async (cityData: City) => {
     try {
       // Filter out empty values from arrays
       const filteredNeighborhoods = cityData.neighborhoods.filter((n: string) => n.trim() !== '')
-      const filteredHighlights = cityData.highlights.filter((h: any) => 
+      const filteredHighlights = cityData.highlights.filter((h: { title: string; description: string; icon: string; bgImage: string }) => 
         h && h.title && h.description && h.title.trim() !== '' && h.description.trim() !== ''
       )
-      const filteredFaqs = cityData.faqs.filter((f: any) => 
+      const filteredFaqs = cityData.faqs.filter((f: { question: string; answer: string; category: string }) => 
         f && f.question && f.answer && 
         f.question.trim() !== '' && f.answer.trim() !== ''
       )
-      const filteredClients = cityData.clients?.filter((c: any) => 
+      const filteredClients = cityData.clients?.filter((c: { name: string; description: string; image: string; rating: number; review: string }) => 
         c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
       ) || []
 
@@ -538,7 +522,7 @@ export default function AdminDashboard() {
     }
   }
 
-  const updateUser = async (userData: any) => {
+  const updateUser = async (userData: User) => {
     try {
       console.log('Updating user with data:', userData)
       const response = await fetch('/admin/api/users', {
@@ -563,7 +547,7 @@ export default function AdminDashboard() {
     }
   }
 
-  const updateBlog = async (blogData: any) => {
+  const updateBlog = async (blogData: Blog) => {
     try {
       const response = await fetch('/admin/api/blogs', {
         method: 'PUT',
@@ -578,17 +562,7 @@ export default function AdminDashboard() {
         await fetchBlogs()
         setShowBlogModal(false)
         setEditingBlog(null)
-        setBlogForm({ 
-          _id: '',
-          slug: '', 
-          title: '', 
-          subtitle: '', 
-          category: 'Marketing', 
-          author: '', 
-          status: 'Draft', 
-          featured: 'No',
-          content: { lead: '' }
-        })
+        setBlogForm(emptyBlog)
         addToast('success', 'Blog updated successfully!')
       } else {
         const error = await response.json()
@@ -600,18 +574,18 @@ export default function AdminDashboard() {
     }
   }
 
-  const updateCity = async (cityData: any) => {
+  const updateCity = async (cityData: City) => {
     try {
       // Filter out empty values from arrays
       const filteredNeighborhoods = cityData.neighborhoods.filter((n: string) => n.trim() !== '')
-      const filteredHighlights = cityData.highlights.filter((h: any) => 
+      const filteredHighlights = cityData.highlights.filter((h: { title: string; description: string; icon: string; bgImage: string }) => 
         h && h.title && h.description && h.title.trim() !== '' && h.description.trim() !== ''
       )
-      const filteredFaqs = cityData.faqs.filter((f: any) => 
+      const filteredFaqs = cityData.faqs.filter((f: { question: string; answer: string; category: string }) => 
         f && f.question && f.answer && 
         f.question.trim() !== '' && f.answer.trim() !== ''
       )
-      const filteredClients = cityData.clients?.filter((c: any) => 
+      const filteredClients = cityData.clients?.filter((c: { name: string; description: string; image: string; rating: number; review: string }) => 
         c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
       ) || []
 
@@ -891,7 +865,7 @@ export default function AdminDashboard() {
               blogs={blogs}
               setShowBlogModal={setShowBlogModal}
               setEditingBlog={setEditingBlog}
-              setBlogForm={setBlogForm}
+              setBlogForm={(form: Blog) => setBlogForm(form)}
               deleteBlog={deleteBlog}
               handleAddBlog={handleAddBlog}
             />
@@ -930,17 +904,7 @@ export default function AdminDashboard() {
               <button onClick={() => {
                 setShowBlogModal(false)
                 setEditingBlog(null)
-                setBlogForm({ 
-                  _id: '',
-                  slug: '', 
-                  title: '', 
-                  subtitle: '', 
-                  category: 'Marketing', 
-                  author: '', 
-                  status: 'Draft', 
-                  featured: 'No',
-                  content: { lead: '' }
-                })
+                setBlogForm(emptyBlog)
               }} className="close-btn">
                 <X size={20} />
               </button>
@@ -1007,8 +971,8 @@ export default function AdminDashboard() {
                       type="text" 
                       className="form-input" 
                       placeholder="John Doe"
-                      value={blogForm.author}
-                      onChange={(e) => setBlogForm({...blogForm, author: e.target.value})}
+                      value={typeof blogForm.author === 'string' ? blogForm.author : (blogForm.author?.name || '')}
+                      onChange={(e) => setBlogForm({ ...blogForm, author: e.target.value })}
                       required
                     />
                   </div>
@@ -1028,12 +992,23 @@ export default function AdminDashboard() {
                     <label className="form-label">Featured</label>
                     <select 
                       className="form-select"
-                      value={blogForm.featured}
-                      onChange={(e) => setBlogForm({...blogForm, featured: e.target.value})}
+                      value={blogForm.featured ? 'Yes' : 'No'}
+                      onChange={(e) => setBlogForm({ ...blogForm, featured: e.target.value === 'Yes' })}
                     >
                       <option>No</option>
                       <option>Yes</option>
                     </select>
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Group ID <span className="required">*</span></label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Enter group ID (e.g. group-1)"
+                      value={blogForm.groupId}
+                      onChange={(e) => setBlogForm({...blogForm, groupId: e.target.value})}
+                      required
+                    />
                   </div>
                 </div>
                 <div className="form-group">
@@ -1052,17 +1027,7 @@ export default function AdminDashboard() {
               <button type="button" onClick={() => {
                 setShowBlogModal(false)
                 setEditingBlog(null)
-                setBlogForm({ 
-                  _id: '',
-                  slug: '', 
-                  title: '', 
-                  subtitle: '', 
-                  category: 'Marketing', 
-                  author: '', 
-                  status: 'Draft', 
-                  featured: 'No',
-                  content: { lead: '' }
-                })
+                setBlogForm(emptyBlog)
               }} className="btn btn-secondary">Cancel</button>
               <button type="button" onClick={() => {
                 if (editingBlog) {
@@ -1211,8 +1176,8 @@ export default function AdminDashboard() {
                     type="text" 
                     className="form-input" 
                     placeholder="Entertainment, Beach, Culture, Hollywood (comma separated)"
-                    value={cityForm.tags}
-                    onChange={(e) => setCityForm({...cityForm, tags: e.target.value})}
+                    value={Array.isArray(cityForm.tags) ? cityForm.tags.join(', ') : cityForm.tags}
+                    onChange={(e) => setCityForm({ ...cityForm, tags: e.target.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '') })}
                     required
                   />
                 </div>
@@ -1556,12 +1521,12 @@ export default function AdminDashboard() {
                   avgHomePrice: '',
                   heroImage: '',
                   shortDescription: '',
-                  tags: '',
+                  tags: [],
                   neighborhoods: [''],
                   highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
-                  faqs: [{ question: '', answer: '', category: 'Travel' }],
-                  clients: [{ name: '', description: '', image: '', rating: 5, review: '' }],
-                  fullDescription: ''
+                  faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
+                  fullDescription: '',
+                  clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
                 })
               }} className="btn btn-secondary">Cancel</button>
               <button type="button" onClick={() => {

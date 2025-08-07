@@ -7,7 +7,7 @@ interface BlogManagerProps {
   blogs: BlogType[]
   setShowBlogModal: (show: boolean) => void
   setEditingBlog: (id: string | null) => void
-  setBlogForm: (form: any) => void
+  setBlogForm: (form: BlogType) => void
   deleteBlog: (id: string) => void
   handleAddBlog: () => void
 }
@@ -35,9 +35,9 @@ export default function BlogManager({
         </button>
       </div>
 
-             <div className="content-grid two-cols">
+                          <div className="content-grid two-cols">
          {blogs.map((blog) => (
-           <div key={blog._id || blog.id || Math.random()} className="card">
+           <div key={blog._id || blog.id || `blog-${Math.random()}`} className="card">
             <div className="card-header">
               <div className="blog-badges">
                 <span className={`badge ${blog.status.toLowerCase()}`}>{blog.status}</span>
@@ -47,18 +47,23 @@ export default function BlogManager({
                                  <button 
                    className="action-btn edit"
                    onClick={() => {
-                     const blogId = blog._id || blog.id || ''
+                     // Use groupId for editing, fallback to _id for existing blogs
+                     const blogId = blog.groupId || blog._id || blog.id || ''
                      setEditingBlog(blogId)
                      setBlogForm({
-                       _id: blogId,
+                       _id: blog._id || blog.id || '',
+                       groupId: blog.groupId || blog._id || blog.id || '',
                        slug: blog.slug,
                        title: blog.title,
                        subtitle: blog.subtitle || '',
                        category: blog.category,
                        author: typeof blog.author === 'string' ? blog.author : blog.author?.name || '',
+                       date: blog.date || '',
                        status: blog.status,
-                       featured: blog.featured ? 'Yes' : 'No',
-                       content: { lead: blog.content?.lead || '' }
+                       featured: blog.featured || false,
+                       content: { lead: blog.content?.lead || '' },
+                       views: blog.views || 0,
+                       likes: blog.likes || 0
                      })
                      setShowBlogModal(true)
                    }}
@@ -66,13 +71,14 @@ export default function BlogManager({
                   <Edit2 size={16} />
                 </button>
                                  <button className="action-btn delete" onClick={() => {
+                   // Use _id for deletion as it's the actual database ID
                    const blogId = blog._id || blog.id || ''
                    if (blogId) {
                      deleteBlog(blogId)
                    }
                  }}>
                    <Trash2 size={16} />
-                 </button>
+                </button>
               </div>
             </div>
 

@@ -1,54 +1,16 @@
 [
   {
-    "id": "68936f1e27f87207aa190261",
-    "slug": "my-first-blog",
-    "title": "My First Blog1",
-    "subtitle": "A short description",
-    "category": "Marketing",
-    "author": {
-      "name": "John Doe",
-      "title": "Editor",
-      "avatar": "JD",
-      "bio": "A passionate writer."
-    },
-    "date": "2024-05-01T00:00:00.000Z",
-    "status": "draft",
-    "featured": true,
-    "content": {
-      "lead": "This is the opening paragraph.",
-      "sections": [
-        {
-          "title": "Section 1",
-          "content": "Section 1 content",
-          "quote": {
-            "text": "A great quote.",
-            "author": "Famous Person"
-          },
-          "additional": "Some extra info",
-          "subsections": [
-            {
-              "title": "Subsection 1",
-              "content": "Subsection content"
-            }
-          ]
-        }
-      ]
-    },
-    "views": 0,
-    "likes": 0
-  },
-  {
-    "id": "",
-    "slug": "sgsfdg",
-    "title": "asgsg",
-    "subtitle": "sgsa",
-    "category": "Marketing",
-    "author": "sgfas",
-    "date": "2025-08-07T03:34:35.026Z",
+    "id": "689491208d712cdd46747c5a",
+    "slug": "t",
+    "title": "t",
+    "subtitle": "t",
+    "category": "Technology",
+    "author": "t",
+    "date": "2025-08-07T11:42:24.411Z",
     "status": "Draft",
     "featured": false,
     "content": {
-      "lead": "safgs"
+      "lead": "t"
     },
     "views": 0,
     "likes": 0
