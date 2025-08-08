@@ -122,7 +122,7 @@ export default function BlogManager({
     const newStatus = currentStatus === 'Published' ? 'Draft' : 'Published'
     
     try {
-      const response = await fetch('/api/blogs', {
+      const response = await fetch('/admin/api/blogs', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
