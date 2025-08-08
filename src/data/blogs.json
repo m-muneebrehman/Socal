@@ -1,21 +1,5 @@
 [
   {
-    "id": "689491208d712cdd46747c5a",
-    "slug": "t",
-    "title": "t",
-    "subtitle": "t",
-    "category": "Technology",
-    "author": "t",
-    "date": "2025-08-07T11:42:24.411Z",
-    "status": "Draft",
-    "featured": false,
-    "content": {
-      "lead": "t"
-    },
-    "views": 0,
-    "likes": 0
-  },
-  {
     "id": "6895021214fcc93bb157b99d",
     "slug": "luxury-oceanfront-estates-newport-beach-2025",
     "title": "Luxury Oceanfront Estates Newport Beach: Ultimate Investment Guide 2025",
@@ -29,7 +13,7 @@
       "url": "https://example.com/authors/victoria-sterling"
     },
     "date": "2025-08-07",
-    "status": "Draft",
+    "status": "Published",
     "featured": true,
     "content": {
       "lead": "Newport Beach luxury oceanfront estates represent the pinnacle of Southern California's coastal real estate market, commanding premium prices that reflect their exclusive beachfront locations and unparalleled ocean access. With median oceanfront estate prices exceeding $18.5 million in 2025, these prestigious waterfront properties offer international investors access to one of America's most desirable luxury coastal markets. From Balboa Island's intimate waterfront compounds to the Wedge's architectural masterpieces, luxury oceanfront estates in Newport Beach continue attracting ultra-high-net-worth individuals seeking privacy, prestige, and exceptional investment returns in Orange County's crown jewel destination.",

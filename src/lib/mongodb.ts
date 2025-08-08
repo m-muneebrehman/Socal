@@ -5,6 +5,9 @@ if (!uri) {
   throw new Error("Please define the DATABASE_URI environment variable inside .env.local");
 }
 
+// Get database name from environment variable, default to 'socal-frontend'
+const dbName = process.env.MONGODB_DB || 'socal-frontend';
+
 let client: MongoClient;
 let clientPromise: Promise<MongoClient>;
 
@@ -26,6 +29,6 @@ export default clientPromise;
 
 export async function connectToDatabase() {
   const client = await clientPromise;
-  const db = client.db();
+  const db = client.db(dbName);
   return { client, db };
 }
