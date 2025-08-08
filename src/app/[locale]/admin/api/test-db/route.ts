@@ -5,16 +5,20 @@ export async function GET() {
   try {
     console.log('🧪 Testing database connection...')
     console.log('📡 DATABASE_URI:', process.env.DATABASE_URI ? 'Set' : 'Not set')
-    console.log('📡 MONGODB_DB:', process.env.MONGODB_DB || 'Not set')
+    console.log('📡 MONGODB_DB:', process.env.MONGODB_DB || 'Not set (using default: socal-frontend)')
+    console.log('📡 NODE_ENV:', process.env.NODE_ENV)
     
     const { db } = await connectToDatabase()
     console.log('✅ Connected to database:', db.databaseName)
+    console.log('✅ Database admin info:', await db.admin().listDatabases())
     
     // Test inserting a simple document
     const testDoc = {
       test: true,
       timestamp: new Date(),
-      message: 'Database connection test'
+      message: 'Database connection test',
+      developer: 'test',
+      database: db.databaseName
     }
     
     const result = await db.collection('test').insertOne(testDoc)
@@ -32,13 +36,23 @@ export async function GET() {
       success: true, 
       database: db.databaseName,
       testId: result.insertedId.toString(),
-      message: 'Database connection working properly'
+      message: 'Database connection working properly',
+      environment: {
+        nodeEnv: process.env.NODE_ENV,
+        mongodbDb: process.env.MONGODB_DB || 'socal-frontend (default)',
+        databaseUri: process.env.DATABASE_URI ? 'Set' : 'Not set'
+      }
     })
   } catch (error) {
     console.error('❌ Database test failed:', error)
     return NextResponse.json({ 
       success: false, 
-      error: error instanceof Error ? error.message : 'Unknown error'
+      error: error instanceof Error ? error.message : 'Unknown error',
+      environment: {
+        nodeEnv: process.env.NODE_ENV,
+        mongodbDb: process.env.MONGODB_DB || 'socal-frontend (default)',
+        databaseUri: process.env.DATABASE_URI ? 'Set' : 'Not set'
+      }
     }, { status: 500 })
   }
 } 

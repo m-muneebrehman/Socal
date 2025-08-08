@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Database Configuration
+
+To ensure all developers connect to the same database, you need to set up environment variables:
+
+1. Create a `.env.local` file in the root directory
+2. Add the following variables:
+
+```bash
+# Database Configuration
+DATABASE_URI=mongodb+srv://username:password@cluster.mongodb.net/socal-frontend?retryWrites=true&w=majority
+MONGODB_DB=socal-frontend
+```
+
+**Important**: 
+- Both developers must use the same `MONGODB_DB` value to ensure they connect to the same database
+- The database name defaults to `socal-frontend` if `MONGODB_DB` is not set
+- Make sure your MongoDB Atlas cluster allows connections from both developers' IP addresses
+
 ## Getting Started
 
 First, run the development server:
