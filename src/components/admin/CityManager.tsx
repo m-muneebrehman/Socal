@@ -57,13 +57,52 @@ export default function CityManager({
                       population: city.population,
                       avgHomePrice: city.avgHomePrice,
                       heroImage: city.heroImage || '',
+                      heroImageAlt: city.heroImageAlt || '',
                       shortDescription: city.shortDescription,
                       fullDescription: city.fullDescription || '',
+                      canonicalUrl: city.canonicalUrl || '',
                       tags: city.tags?.join(', ') || '',
                       neighborhoods: city.neighborhoods?.length > 0 ? city.neighborhoods : [''],
-                      highlights: city.highlights?.length > 0 ? city.highlights : [{ title: '', description: '', icon: '', bgImage: '' }],
-                      faqs: city.faqs?.length > 0 ? city.faqs : [{ question: '', answer: '', category: 'Neighborhoods' }],
-                      clients: city.clients && city.clients.length > 0 ? city.clients : [{ name: '', description: '', image: '', rating: 5, review: '' }]
+                      highlights: city.highlights?.length > 0 ? city.highlights : [{ 
+                        title: '', 
+                        description: '', 
+                        icon: '', 
+                        bgImage: '',
+                        bgImageAlt: ''
+                      }],
+                      faqs: city.faqs?.length > 0 ? city.faqs : [{ 
+                        question: '', 
+                        answer: '', 
+                        category: 'Neighborhoods' 
+                      }],
+                      clients: city.clients && city.clients.length > 0 ? city.clients : [{ 
+                        name: '', 
+                        description: '', 
+                        image: '', 
+                        imageAlt: '',
+                        rating: 5, 
+                        review: '' 
+                      }],
+                      hreflang_tags: city.hreflang_tags?.length > 0 ? city.hreflang_tags : [{ 
+                        hreflang: 'en', 
+                        href: '' 
+                      }],
+                      seo: city.seo || {
+                        metaTitle: '',
+                        metaDescription: '',
+                        keywords: '',
+                        ogTitle: '',
+                        ogDescription: '',
+                        ogImage: '',
+                        ogImageAlt: '',
+                        twitterCard: 'summary_large_image'
+                      },
+                      schema_markup: city.schema_markup?.length > 0 ? city.schema_markup : [],
+                      internal_links: city.internal_links?.length > 0 ? city.internal_links : [{ 
+                        href: '', 
+                        anchor: '', 
+                        context: '' 
+                      }]
                     })
                     setShowCityModal(true)
                   }}

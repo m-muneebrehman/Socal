@@ -96,6 +96,7 @@ export interface City {
   shortDescription: string
   fullDescription?: string
   heroImage?: string
+  heroImageAlt?: string
   population: string
   avgHomePrice: string
   tags: string[]
@@ -105,6 +106,7 @@ export interface City {
     description: string
     icon: string
     bgImage: string
+    bgImageAlt?: string
   }[]
   faqs: {
     question: string
@@ -115,9 +117,31 @@ export interface City {
     name: string
     description: string
     image: string
+    imageAlt?: string
     rating: number
     review: string
   }[]
+  canonicalUrl?: string
+  hreflang_tags?: Array<{
+    hreflang: string
+    href: string
+  }>
+  seo?: {
+    metaTitle: string
+    metaDescription: string
+    keywords?: string
+    ogTitle?: string
+    ogDescription?: string
+    ogImage?: string
+    ogImageAlt?: string
+    twitterCard?: string
+  }
+  schema_markup?: object[]
+  internal_links?: Array<{
+    href: string
+    anchor: string
+    context?: string
+  }>
 }
 
 export interface DashboardStats {

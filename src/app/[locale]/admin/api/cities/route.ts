@@ -42,12 +42,107 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     console.log('Received city data:', body)
     
-    // Validate required fields
-    const requiredFields = ['slug', 'name', 'state', 'population', 'avgHomePrice', 'shortDescription']
+    // Validate required fields according to new comprehensive schema
+    const requiredFields = [
+      'slug', 'name', 'state', 'population', 'avgHomePrice', 'shortDescription',
+      'fullDescription', 'heroImage', 'heroImageAlt', 'canonicalUrl', 'tags',
+      'neighborhoods', 'highlights', 'faqs', 'clients', 'hreflang_tags', 'seo',
+      'schema_markup', 'internal_links'
+    ]
+    
     for (const field of requiredFields) {
-      if (!body[field] || body[field].trim() === '') {
+      if (!body[field]) {
         return NextResponse.json({ 
           error: `Missing required field: ${field}` 
+        }, { status: 400 })
+      }
+    }
+    
+    // Validate highlights structure
+    if (!Array.isArray(body.highlights) || body.highlights.length === 0) {
+      return NextResponse.json({ 
+        error: 'Highlights must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    for (const highlight of body.highlights) {
+      if (!highlight.title || !highlight.description || !highlight.icon || !highlight.bgImage) {
+        return NextResponse.json({ 
+          error: 'Each highlight must include title, description, icon, and bgImage' 
+        }, { status: 400 })
+      }
+    }
+    
+    // Validate FAQs structure
+    if (!Array.isArray(body.faqs) || body.faqs.length === 0) {
+      return NextResponse.json({ 
+        error: 'FAQs must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    for (const faq of body.faqs) {
+      if (!faq.question || !faq.answer || !faq.category) {
+        return NextResponse.json({ 
+          error: 'Each FAQ must include question, answer, and category' 
+        }, { status: 400 })
+      }
+    }
+    
+    // Validate clients structure
+    if (!Array.isArray(body.clients) || body.clients.length === 0) {
+      return NextResponse.json({ 
+        error: 'Clients must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    for (const client of body.clients) {
+      if (!client.name || !client.description || !client.image || !client.review) {
+        return NextResponse.json({ 
+          error: 'Each client must include name, description, image, and review' 
+        }, { status: 400 })
+      }
+    }
+    
+    // Validate SEO object
+    if (!body.seo.metaTitle || !body.seo.metaDescription) {
+      return NextResponse.json({ 
+        error: 'SEO object must include metaTitle and metaDescription' 
+      }, { status: 400 })
+    }
+    
+    // Validate hreflang tags
+    if (!Array.isArray(body.hreflang_tags) || body.hreflang_tags.length === 0) {
+      return NextResponse.json({ 
+        error: 'Hreflang tags must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    for (const tag of body.hreflang_tags) {
+      if (!tag.hreflang || !tag.href) {
+        return NextResponse.json({ 
+          error: 'Each hreflang tag must include hreflang and href' 
+        }, { status: 400 })
+      }
+    }
+    
+    // Validate schema markup
+    if (!Array.isArray(body.schema_markup) || body.schema_markup.length === 0) {
+      return NextResponse.json({ 
+        error: 'Schema markup must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    // Validate internal links
+    if (!Array.isArray(body.internal_links) || body.internal_links.length === 0) {
+      return NextResponse.json({ 
+        error: 'Internal links must be a non-empty array' 
+      }, { status: 400 })
+    }
+    
+    for (const link of body.internal_links) {
+      if (!link.href || !link.anchor) {
+        return NextResponse.json({ 
+          error: 'Each internal link must include href and anchor' 
         }, { status: 400 })
       }
     }

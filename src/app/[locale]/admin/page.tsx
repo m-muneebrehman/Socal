@@ -427,13 +427,19 @@ export default function AdminDashboard() {
         population: cityData.population,
         avgHomePrice: cityData.avgHomePrice,
         heroImage: cityData.heroImage,
+        heroImageAlt: cityData.heroImageAlt,
+        canonicalUrl: cityData.canonicalUrl,
         shortDescription: cityData.shortDescription,
         fullDescription: cityData.fullDescription,
         tags: processedTags,
         neighborhoods: filteredNeighborhoods,
         highlights: filteredHighlights,
         faqs: filteredFaqs,
-        clients: filteredClients
+        clients: filteredClients,
+        hreflang_tags: cityData.hreflang_tags,
+        seo: cityData.seo,
+        schema_markup: cityData.schema_markup,
+        internal_links: cityData.internal_links
       }
 
       console.log('Sending city data:', cityPayload)
@@ -457,13 +463,28 @@ export default function AdminDashboard() {
           population: '',
           avgHomePrice: '',
           heroImage: '',
+          heroImageAlt: '',
+          canonicalUrl: '',
           shortDescription: '',
+          fullDescription: '',
           tags: [],
           neighborhoods: [''],
-          highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
+          highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-          fullDescription: '',
-          clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+          clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
+          hreflang_tags: [{ hreflang: 'en', href: '' }],
+          seo: {
+            metaTitle: '',
+            metaDescription: '',
+            keywords: '',
+            ogTitle: '',
+            ogDescription: '',
+            ogImage: '',
+            ogImageAlt: '',
+            twitterCard: 'summary_large_image'
+          },
+          schema_markup: [],
+          internal_links: [{ href: '', anchor: '', context: '' }]
         })
         addToast('success', 'City created successfully!')
       } else {
@@ -632,13 +653,19 @@ export default function AdminDashboard() {
         population: cityData.population,
         avgHomePrice: cityData.avgHomePrice,
         heroImage: cityData.heroImage,
+        heroImageAlt: cityData.heroImageAlt,
+        canonicalUrl: cityData.canonicalUrl,
         shortDescription: cityData.shortDescription,
         fullDescription: cityData.fullDescription,
         tags: processedTags,
         neighborhoods: filteredNeighborhoods,
         highlights: filteredHighlights,
         faqs: filteredFaqs,
-        clients: filteredClients
+        clients: filteredClients,
+        hreflang_tags: cityData.hreflang_tags,
+        seo: cityData.seo,
+        schema_markup: cityData.schema_markup,
+        internal_links: cityData.internal_links
       }
 
       console.log('Updating city data:', cityPayload)
@@ -663,13 +690,28 @@ export default function AdminDashboard() {
           population: '',
           avgHomePrice: '',
           heroImage: '',
+          heroImageAlt: '',
+          canonicalUrl: '',
           shortDescription: '',
+          fullDescription: '',
           tags: [],
           neighborhoods: [''],
-          highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
+          highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-          fullDescription: '',
-          clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+          clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
+          hreflang_tags: [{ hreflang: 'en', href: '' }],
+          seo: {
+            metaTitle: '',
+            metaDescription: '',
+            keywords: '',
+            ogTitle: '',
+            ogDescription: '',
+            ogImage: '',
+            ogImageAlt: '',
+            twitterCard: 'summary_large_image'
+          },
+          schema_markup: [],
+          internal_links: [{ href: '', anchor: '', context: '' }]
         })
         addToast('success', 'City updated successfully!')
       } else {
@@ -1441,13 +1483,28 @@ export default function AdminDashboard() {
                   population: '',
                   avgHomePrice: '',
                   heroImage: '',
+                  heroImageAlt: '',
+                  canonicalUrl: '',
                   shortDescription: '',
+                  fullDescription: '',
                   tags: [],
                   neighborhoods: [''],
-                  highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
+                  highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-                  fullDescription: '',
-                  clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+                  clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
+                  hreflang_tags: [{ hreflang: 'en', href: '' }],
+                  seo: {
+                    metaTitle: '',
+                    metaDescription: '',
+                    keywords: '',
+                    ogTitle: '',
+                    ogDescription: '',
+                    ogImage: '',
+                    ogImageAlt: '',
+                    twitterCard: 'summary_large_image'
+                  },
+                  schema_markup: [],
+                  internal_links: [{ href: '', anchor: '', context: '' }]
                 })
               }} className="close-btn">
                 <X size={20} />
@@ -1526,6 +1583,28 @@ export default function AdminDashboard() {
                       placeholder="https://example.com/city-hero.jpg"
                       value={cityForm.heroImage}
                       onChange={(e) => setCityForm({...cityForm, heroImage: e.target.value})}
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Hero Image Alt Text <span className="required">*</span></label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Aerial view of downtown Los Angeles skyline at sunset"
+                      value={cityForm.heroImageAlt}
+                      onChange={(e) => setCityForm({...cityForm, heroImageAlt: e.target.value})}
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-label">Canonical URL <span className="required">*</span></label>
+                    <input 
+                      type="url" 
+                      className="form-input" 
+                      placeholder="https://example.com/locations/los-angeles"
+                      value={cityForm.canonicalUrl}
+                      onChange={(e) => setCityForm({...cityForm, canonicalUrl: e.target.value})}
                       required
                     />
                   </div>
@@ -1656,20 +1735,36 @@ export default function AdminDashboard() {
                           required
                         ></textarea>
                       </div>
-                      <div className="mb-4">
-                        <label className="form-label">Background Image URL <span className="required">*</span></label>
-                        <input 
-                          type="url" 
-                          className="form-input" 
-                          placeholder="https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80"
-                          value={highlight.bgImage}
-                          onChange={(e) => {
-                            const newHighlights = [...cityForm.highlights]
-                            newHighlights[index] = {...highlight, bgImage: e.target.value}
-                            setCityForm({...cityForm, highlights: newHighlights})
-                          }}
-                          required
-                        />
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">Background Image URL <span className="required">*</span></label>
+                          <input 
+                            type="url" 
+                            className="form-input" 
+                            placeholder="https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80"
+                            value={highlight.bgImage}
+                            onChange={(e) => {
+                              const newHighlights = [...cityForm.highlights]
+                              newHighlights[index] = {...highlight, bgImage: e.target.value}
+                              setCityForm({...cityForm, highlights: newHighlights})
+                            }}
+                            required
+                          />
+                        </div>
+                        <div>
+                          <label className="form-label">Background Image Alt</label>
+                          <input 
+                            type="text" 
+                            className="form-input" 
+                            placeholder="Hollywood sign overlooking Los Angeles with blue sky"
+                            value={highlight.bgImageAlt || ''}
+                            onChange={(e) => {
+                              const newHighlights = [...cityForm.highlights]
+                              newHighlights[index] = {...highlight, bgImageAlt: e.target.value}
+                              setCityForm({...cityForm, highlights: newHighlights})
+                            }}
+                          />
+                        </div>
                       </div>
                       {cityForm.highlights.length > 1 && (
                         <button 
@@ -1689,7 +1784,7 @@ export default function AdminDashboard() {
                     type="button"
                     onClick={() => setCityForm({
                       ...cityForm, 
-                      highlights: [...cityForm.highlights, { title: '', description: '', icon: '', bgImage: '' }]
+                      highlights: [...cityForm.highlights, { title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }]
                     })}
                     className="btn-add btn-add-highlight"
                   >
@@ -1831,6 +1926,20 @@ export default function AdminDashboard() {
                           />
                         </div>
                         <div>
+                          <label className="form-label">Image Alt Text</label>
+                          <input 
+                            type="text" 
+                            className="form-input" 
+                            placeholder="Portrait of Sarah Mitchell smiling outdoors"
+                            value={client.imageAlt || ''}
+                            onChange={(e) => {
+                              const newClients = [...(cityForm.clients || [])]
+                              newClients[index] = {...client, imageAlt: e.target.value}
+                              setCityForm({...cityForm, clients: newClients})
+                            }}
+                          />
+                        </div>
+                        <div>
                           <label className="form-label">Rating <span className="required">*</span></label>
                           <select 
                             className="form-select"
@@ -1882,11 +1991,346 @@ export default function AdminDashboard() {
                     type="button"
                     onClick={() => setCityForm({
                       ...cityForm, 
-                      clients: [...(cityForm.clients || []), { name: '', description: '', image: '', rating: 5, review: '' }]
+                      clients: [...(cityForm.clients || []), { name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }]
                     })}
                     className="btn-add btn-add-client"
                   >
                     Add Client
+                  </button>
+                </div>
+
+                {/* SEO Section */}
+                <div className="form-group">
+                  <label className="form-label">SEO Settings <span className="required">*</span></label>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <label className="form-label">Meta Title <span className="required">*</span></label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Los Angeles Real Estate & Lifestyle Guide - Luxury Living in LA"
+                        value={cityForm.seo?.metaTitle || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: e.target.value,
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label className="form-label">Meta Description <span className="required">*</span></label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Explore luxury real estate, top neighborhoods, and cultural highlights in Los Angeles."
+                        value={cityForm.seo?.metaDescription || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: e.target.value,
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <label className="form-label">Keywords</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Los Angeles real estate, LA lifestyle, Beverly Hills, Santa Monica"
+                        value={cityForm.seo?.keywords || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: e.target.value,
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                      />
+                    </div>
+                    <div>
+                      <label className="form-label">OG Title</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Discover Los Angeles: Luxury Real Estate & Lifestyle Guide"
+                        value={cityForm.seo?.ogTitle || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: e.target.value,
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <label className="form-label">OG Description</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Explore diverse neighborhoods, real estate insights, and highlights of Los Angeles."
+                        value={cityForm.seo?.ogDescription || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: e.target.value,
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                      />
+                    </div>
+                    <div>
+                      <label className="form-label">OG Image</label>
+                      <input 
+                        type="url" 
+                        className="form-input" 
+                        placeholder="https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80"
+                        value={cityForm.seo?.ogImage || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: e.target.value,
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <label className="form-label">OG Image Alt</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Los Angeles city skyline at sunset"
+                        value={cityForm.seo?.ogImageAlt || ''}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: e.target.value,
+                            twitterCard: cityForm.seo?.twitterCard || 'summary_large_image'
+                          }
+                        })}
+                      />
+                    </div>
+                    <div>
+                      <label className="form-label">Twitter Card</label>
+                      <select 
+                        className="form-select"
+                        value={cityForm.seo?.twitterCard || 'summary_large_image'}
+                        onChange={(e) => setCityForm({
+                          ...cityForm, 
+                          seo: { 
+                            metaTitle: cityForm.seo?.metaTitle || '',
+                            metaDescription: cityForm.seo?.metaDescription || '',
+                            keywords: cityForm.seo?.keywords || '',
+                            ogTitle: cityForm.seo?.ogTitle || '',
+                            ogDescription: cityForm.seo?.ogDescription || '',
+                            ogImage: cityForm.seo?.ogImage || '',
+                            ogImageAlt: cityForm.seo?.ogImageAlt || '',
+                            twitterCard: e.target.value
+                          }
+                        })}
+                      >
+                        <option value="summary">Summary</option>
+                        <option value="summary_large_image">Summary Large Image</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Hreflang Tags */}
+                <div className="form-group">
+                  <label className="form-label">Hreflang Tags <span className="required">*</span></label>
+                  {cityForm.hreflang_tags?.map((tag, index) => (
+                    <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-2">
+                      <div>
+                        <label className="form-label">Language <span className="required">*</span></label>
+                        <select 
+                          className="form-select"
+                          value={tag.hreflang}
+                          onChange={(e) => {
+                            const newTags = [...(cityForm.hreflang_tags || [])]
+                            newTags[index] = {...tag, hreflang: e.target.value}
+                            setCityForm({...cityForm, hreflang_tags: newTags})
+                          }}
+                          required
+                        >
+                          <option value="en">English</option>
+                          <option value="de">German</option>
+                          <option value="fr">French</option>
+                          <option value="zh">Chinese</option>
+                          <option value="ar">Arabic</option>
+                          <option value="es">Spanish</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="form-label">URL <span className="required">*</span></label>
+                        <input 
+                          type="url" 
+                          className="form-input" 
+                          placeholder="https://example.com/en/locations/los-angeles"
+                          value={tag.href}
+                          onChange={(e) => {
+                            const newTags = [...(cityForm.hreflang_tags || [])]
+                            newTags[index] = {...tag, href: e.target.value}
+                            setCityForm({...cityForm, hreflang_tags: newTags})
+                          }}
+                          required
+                        />
+                      </div>
+                      {(cityForm.hreflang_tags?.length || 0) > 1 && (
+                        <button 
+                          type="button"
+                          onClick={() => {
+                            const newTags = (cityForm.hreflang_tags || []).filter((_, i) => i !== index)
+                            setCityForm({...cityForm, hreflang_tags: newTags})
+                          }}
+                          className="btn-remove"
+                        >
+                          Remove
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                  <button 
+                    type="button"
+                    onClick={() => setCityForm({
+                      ...cityForm, 
+                      hreflang_tags: [...(cityForm.hreflang_tags || []), { hreflang: 'en', href: '' }]
+                    })}
+                    className="btn-add"
+                  >
+                    Add Hreflang Tag
+                  </button>
+                </div>
+
+                {/* Internal Links */}
+                <div className="form-group">
+                  <label className="form-label">Internal Links <span className="required">*</span></label>
+                  {cityForm.internal_links?.map((link, index) => (
+                    <div key={index} className="p-4 rounded mb-4">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">URL <span className="required">*</span></label>
+                          <input 
+                            type="text" 
+                            className="form-input" 
+                            placeholder="/real-estate/beverly-hills"
+                            value={link.href}
+                            onChange={(e) => {
+                              const newLinks = [...(cityForm.internal_links || [])]
+                              newLinks[index] = {...link, href: e.target.value}
+                              setCityForm({...cityForm, internal_links: newLinks})
+                            }}
+                            required
+                          />
+                        </div>
+                        <div>
+                          <label className="form-label">Anchor Text <span className="required">*</span></label>
+                          <input 
+                            type="text" 
+                            className="form-input" 
+                            placeholder="Luxury Homes in Beverly Hills"
+                            value={link.anchor}
+                            onChange={(e) => {
+                              const newLinks = [...(cityForm.internal_links || [])]
+                              newLinks[index] = {...link, anchor: e.target.value}
+                              setCityForm({...cityForm, internal_links: newLinks})
+                            }}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="mb-4">
+                        <label className="form-label">Context</label>
+                        <input 
+                          type="text" 
+                          className="form-input" 
+                          placeholder="Explore exclusive real estate listings in Beverly Hills"
+                          value={link.context || ''}
+                          onChange={(e) => {
+                            const newLinks = [...(cityForm.internal_links || [])]
+                            newLinks[index] = {...link, context: e.target.value}
+                            setCityForm({...cityForm, internal_links: newLinks})
+                          }}
+                        />
+                      </div>
+                      {(cityForm.internal_links?.length || 0) > 1 && (
+                        <button 
+                          type="button"
+                          onClick={() => {
+                            const newLinks = (cityForm.internal_links || []).filter((_, i) => i !== index)
+                            setCityForm({...cityForm, internal_links: newLinks})
+                          }}
+                          className="btn-remove"
+                        >
+                          Remove Link
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                  <button 
+                    type="button"
+                    onClick={() => setCityForm({
+                      ...cityForm, 
+                      internal_links: [...(cityForm.internal_links || []), { href: '', anchor: '', context: '' }]
+                    })}
+                    className="btn-add"
+                  >
+                    Add Internal Link
                   </button>
                 </div>
               </form>
