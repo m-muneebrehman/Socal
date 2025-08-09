@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { connectToDatabase } from './mongodb'
+import { City, Blog, User, HomeData } from '@/types'
 
 export interface CityDocForFile {
   slug: string
@@ -14,15 +15,58 @@ export interface CityDocForFile {
   population: string
   avgHomePrice: string
   tags?: string[]
-  neighborhoods?: any[]
-  highlights?: any[]
-  faqs?: any[]
-  clients?: any[]
+  neighborhoods?: Array<{
+    name: string
+    type: 'neighborhood' | 'city'
+    slug: string
+    description: string
+    image: string
+    imageAlt?: string
+    distance: string
+    avgHomePrice: string
+    county: string
+  }>
+  highlights?: Array<{
+    title: string
+    description: string
+    icon: string
+    bgImage: string
+    bgImageAlt?: string
+  }>
+  faqs?: Array<{
+    question: string
+    answer: string
+    category: string
+  }>
+  clients?: Array<{
+    name: string
+    description: string
+    image: string
+    imageAlt?: string
+    rating: number
+    review: string
+  }>
   canonicalUrl?: string
-  hreflang_tags?: any[]
-  seo?: any
-  schema_markup?: any[]
-  internal_links?: any[]
+  hreflang_tags?: Array<{
+    hreflang: string
+    href: string
+  }>
+  seo?: {
+    metaTitle: string
+    metaDescription: string
+    keywords?: string
+    ogTitle?: string
+    ogDescription?: string
+    ogImage?: string
+    ogImageAlt?: string
+    twitterCard?: string
+  }
+  schema_markup?: object[]
+  internal_links?: Array<{
+    href: string
+    anchor: string
+    context?: string
+  }>
 }
 
 function ensureDirSync(dirPath: string) {
@@ -122,11 +166,42 @@ export async function updateBlogsJsonFile() {
       category: blog.category,
       author: blog.author,
       date: blog.date,
-      status: blog.status,
+      readTime: blog.readTime || '5 min read',
+      status: blog.status || 'Draft',
       featured: blog.featured || false,
-      content: blog.content || { lead: '' },
+      heroImage: blog.heroImage || '',
+      heroImageAlt: blog.heroImageAlt || '',
+      canonicalUrl: blog.canonicalUrl || '',
+      language: blog.language || 'en',
+      city: blog.city || '',
+      topic: blog.topic || '',
+      keyword: blog.keyword || '',
+      group_id: blog.group_id || 1,
+      seo: blog.seo || {
+        metaTitle: '',
+        metaDescription: '',
+        keywords: '',
+        ogTitle: '',
+        ogDescription: '',
+        ogImage: '',
+        twitterCard: ''
+      },
+      hreflang_tags: blog.hreflang_tags || [],
+      internal_links: blog.internal_links || [],
+      schema_markup: blog.schema_markup || {},
+      images: blog.images || [],
+      word_count: blog.word_count || 0,
+      ctaSection: blog.ctaSection || {
+        title: '',
+        subtitle: '',
+        ctaText: '',
+        ctaLink: ''
+      },
+      content: blog.content || { lead: '', sections: [] },
       views: blog.views || 0,
-      likes: blog.likes || 0
+      likes: blog.likes || 0,
+      createdAt: blog.createdAt || new Date().toISOString(),
+      updatedAt: blog.updatedAt || new Date().toISOString()
     }))
 
     // Write to blogs.json file
@@ -195,7 +270,7 @@ export async function updateUsersJsonFile() {
 }
 
 // Function to update home.json file
-export async function updateHomeJsonFile(homeData: any) {
+export async function updateHomeJsonFile(homeData: HomeData) {
   try {
     console.log('🔄 Starting updateHomeJsonFile...')
     

@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     const requiredFields = [
       'slug', 'title', 'category', 'author', 'date', 'readTime', 'featured',
       'heroImage', 'heroImageAlt', 'canonicalUrl', 'language', 'city', 'topic',
-      'keyword', 'group_id', 'seo', 'hreflang_tags', 'internal_links',
+      'keyword', 'group_id', 'seo', 'hreflang_tags', 
       'images', 'word_count', 'ctaSection', 'content'
     ]
     

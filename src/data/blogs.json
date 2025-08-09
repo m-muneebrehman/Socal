@@ -13,8 +13,98 @@
       "url": "https://example.com/authors/victoria-sterling"
     },
     "date": "2025-08-07",
+    "readTime": "7 min read",
     "status": "Draft",
     "featured": true,
+    "heroImage": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80",
+    "heroImageAlt": "Luxury oceanfront estate in Newport Beach with infinity pool overlooking the Pacific Ocean at sunset",
+    "canonicalUrl": "https://abc.com/en/luxury-oceanfront-estates-newport-beach-2025",
+    "language": "en",
+    "city": "Newport Beach",
+    "topic": "Luxury Oceanfront Estates",
+    "keyword": "luxury oceanfront estates",
+    "group_id": 156,
+    "seo": {
+      "metaTitle": "Luxury Oceanfront Estates Newport Beach - Investment Guide 2025",
+      "metaDescription": "Discover exclusive Newport Beach luxury oceanfront estates. Complete investment guide with market analysis, ROI data, and international buyer insights for 2025.",
+      "keywords": "luxury oceanfront estates, Newport Beach real estate, waterfront properties, luxury investment, international buyers, coastal estates",
+      "ogTitle": "Newport Beach Luxury Oceanfront Estates - Premium Investment Opportunities",
+      "ogDescription": "Explore exclusive oceanfront properties in Newport Beach with comprehensive market analysis and investment insights for international luxury buyers",
+      "ogImage": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "twitterCard": "summary_large_image"
+    },
+    "hreflang_tags": [
+      {
+        "hreflang": "en",
+        "href": "https://abc.com/en/luxury-oceanfront-estates-newport-beach-2025"
+      },
+      {
+        "hreflang": "es",
+        "href": "https://abc.com/es/propiedades-oceanicas-lujo-newport-beach-2025"
+      }
+    ],
+    "internal_links": [
+      {
+        "href": "/luxury-properties/newport-beach",
+        "anchor": "Newport Beach Luxury Properties",
+        "context": "Explore related premium properties in Newport Beach"
+      },
+      {
+        "href": "/investment-guides/southern-california",
+        "anchor": "Southern California Investment Guide",
+        "context": "Comprehensive regional market analysis for investors"
+      },
+      {
+        "href": "/international-buyers/usa-real-estate",
+        "anchor": "International Buyer Resources",
+        "context": "Essential guide for foreign luxury property investors"
+      }
+    ],
+    "schema_markup": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Luxury Oceanfront Estates Newport Beach: Ultimate Investment Guide 2025",
+      "description": "Comprehensive guide to luxury oceanfront estate investments in Newport Beach with market analysis and international buyer insights",
+      "datePublished": "2025-08-07",
+      "dateModified": "2025-08-07",
+      "author": {
+        "@type": "Person",
+        "name": "Victoria Sterling",
+        "jobTitle": "Luxury Real Estate Investment Specialist"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Premier Luxury Estates",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://abc.com/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://abc.com/en/luxury-oceanfront-estates-newport-beach-2025"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80",
+        "width": 2340,
+        "height": 1560
+      }
+    },
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80",
+        "alt": "Luxury oceanfront estate in Newport Beach with infinity pool overlooking the Pacific Ocean at sunset",
+        "local_path": "/images/luxury-real-estate/newport-beach-oceanfront-hero.jpg"
+      }
+    ],
+    "word_count": 742,
+    "ctaSection": {
+      "title": "Ready To Make A Move?",
+      "subtitle": "Connect with our Newport Beach luxury oceanfront specialists today",
+      "ctaText": "Schedule Private Consultation",
+      "ctaLink": "/contact/newport-beach-luxury-properties"
+    },
     "content": {
       "lead": "Newport Beach luxury oceanfront estates represent the pinnacle of Southern California's coastal real estate market, commanding premium prices that reflect their exclusive beachfront locations and unparalleled ocean access. With median oceanfront estate prices exceeding $18.5 million in 2025, these prestigious waterfront properties offer international investors access to one of America's most desirable luxury coastal markets. From Balboa Island's intimate waterfront compounds to the Wedge's architectural masterpieces, luxury oceanfront estates in Newport Beach continue attracting ultra-high-net-worth individuals seeking privacy, prestige, and exceptional investment returns in Orange County's crown jewel destination.",
       "sections": [
@@ -81,7 +171,9 @@
       ]
     },
     "views": 0,
-    "likes": 0
+    "likes": 0,
+    "createdAt": "2025-08-07T19:44:18.821Z",
+    "updatedAt": "2025-08-08T22:01:52.553Z"
   },
   {
     "id": "6896fcfac1dbbda78c4c64c5",
@@ -97,8 +189,87 @@
       "url": "https://example.com/authors/claude"
     },
     "date": "2024-10-27",
+    "readTime": "8 min read",
     "status": "Draft",
     "featured": true,
+    "heroImage": "https://images.pexels.com/photos/30151761/pexels-photo-30151761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "heroImageAlt": "Luxury home with a stunning view in Los Angeles",
+    "canonicalUrl": "https://abc.com/english/affordable-homes-in-los-angeles",
+    "language": "english",
+    "city": "Los Angeles",
+    "topic": "Buying",
+    "keyword": "Affordable homes in Los Angeles",
+    "group_id": 1,
+    "seo": {
+      "metaTitle": "Affordable Luxury Homes in Los Angeles",
+      "metaDescription": "Discover affordable luxury homes in Los Angeles.  Explore prime neighborhoods, investment opportunities, and the buying process for international clients.  Contact our experts today!",
+      "keywords": "Affordable homes in Los Angeles, luxury real estate, Los Angeles, California, investment properties, prime locations, luxury amenities, ROI, international buyers",
+      "ogTitle": "Affordable Luxury Homes in Los Angeles: A Guide for International Buyers",
+      "ogDescription": "Find your dream home in Los Angeles. Explore our guide for international buyers seeking affordable luxury properties and investment opportunities.",
+      "ogImage": "https://images.pexels.com/photos/30151761/pexels-photo-30151761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "twitterCard": "summary_large_image"
+    },
+    "hreflang_tags": [
+      {
+        "hreflang": "en",
+        "href": "https://abc.com/en/affordable-homes-in-los-angeles"
+      },
+      {
+        "hreflang": "es",
+        "href": "https://abc.com/es/casas-asequibles-en-los-angeles"
+      }
+    ],
+    "internal_links": [
+      {
+        "href": "/luxury-properties/los-angeles",
+        "anchor": "Los Angeles Luxury Properties",
+        "context": "Related properties in area"
+      },
+      {
+        "href": "/investment-guides/southern-california",
+        "anchor": "Southern California Investment Guide",
+        "context": "Regional market analysis"
+      }
+    ],
+    "schema_markup": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Unlocking Affordable Luxury: Your Guide to Los Angeles Homes",
+      "description": "Discover affordable luxury homes in Los Angeles.  Explore prime neighborhoods, investment opportunities, and the buying process for international clients.  Contact our experts today!",
+      "datePublished": "2024-10-27",
+      "dateModified": "2024-10-27",
+      "author": {
+        "@type": "Person",
+        "name": "Claude",
+        "jobTitle": "Luxury Real Estate Expert"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Premier Luxury Estates",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://abc.com/logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://abc.com/english/affordable-homes-in-los-angeles"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.pexels.com/photos/30151761/pexels-photo-30151761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "width": 2340,
+        "height": 1560
+      }
+    },
+    "images": [],
+    "word_count": 750,
+    "ctaSection": {
+      "title": "Ready To Make A Move?",
+      "subtitle": "Connect with our Los Angeles luxury specialists today",
+      "ctaText": "Schedule Private Consultation",
+      "ctaLink": "/contact/los-angeles-luxury-properties"
+    },
     "content": {
       "lead": "Los Angeles, a city pulsating with innovation and glamour, presents a compelling opportunity for international luxury buyers seeking \"affordable homes\" relative to other global hotspots.  While the term \"affordable\" is relative in the context of Los Angeles luxury real estate, strategic investment can unlock significant value and lifestyle benefits.  This guide navigates the market, identifying prime locations, investment potential, and the unique aspects of the buying process for international clients.  Discover how you can secure a luxurious Southern California lifestyle while making a sound investment.",
       "sections": [
@@ -177,6 +348,8 @@
       ]
     },
     "views": 0,
-    "likes": 0
+    "likes": 0,
+    "createdAt": "2025-08-09T07:47:06.412Z",
+    "updatedAt": "2025-08-09T07:47:06.412Z"
   }
 ]

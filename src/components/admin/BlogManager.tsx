@@ -295,6 +295,7 @@ export default function BlogManager({
                       keyword: blog.keyword || '',
                       hreflang_tags: blog.hreflang_tags || [],
                       internal_links: blog.internal_links || [],
+                      schema_markup: blog.schema_markup || {},
                       images: blog.images || [],
                       content: blog.content || { lead: '', sections: [] },
                       ctaSection: blog.ctaSection || { title: '', ctaText: '', ctaLink: '' },
