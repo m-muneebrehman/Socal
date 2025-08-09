@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { updateBlogsJsonFile } from '@/lib/json-updater'
+import { updateBlogsJsonFile, updateBlogsJsonFileByLanguage } from '@/lib/json-updater'
 import { ObjectId } from 'mongodb'
 
 export async function GET() {
@@ -101,7 +101,7 @@ export async function POST(request: NextRequest) {
 
     // Update the JSON file after successful database insertion
     console.log('📝 Updating JSON file...')
-    await updateBlogsJsonFile()
+    await updateBlogsJsonFileByLanguage(blogData.language || 'en')
 
     return NextResponse.json({ 
       message: 'Blog created successfully', 
@@ -138,8 +138,14 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
     }
 
+    // Get the blog to determine its language for targeted JSON update
+    const updatedBlog = await db.collection('blogs').findOne({ _id: new ObjectId(_id) })
+    if (!updatedBlog) {
+      return NextResponse.json({ error: 'Blog not found after update' }, { status: 404 })
+    }
+
     // Update the JSON file after successful database update
-    await updateBlogsJsonFile()
+    await updateBlogsJsonFileByLanguage(updatedBlog.language || 'en')
 
     return NextResponse.json({ message: 'Blog updated successfully' })
   } catch (error) {
@@ -154,6 +160,12 @@ export async function DELETE(request: NextRequest) {
     const { _id } = body
     const { db } = await connectToDatabase()
     
+    // Get the blog to determine its language before deletion
+    const blogToDelete = await db.collection('blogs').findOne({ _id: new ObjectId(_id) })
+    if (!blogToDelete) {
+      return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
+    }
+
     const result = await db.collection('blogs').deleteOne({ _id: new ObjectId(_id) })
 
     if (result.deletedCount === 0) {
@@ -161,7 +173,7 @@ export async function DELETE(request: NextRequest) {
     }
 
     // Update the JSON file after successful database deletion
-    await updateBlogsJsonFile()
+    await updateBlogsJsonFileByLanguage(blogToDelete.language || 'en')
 
     return NextResponse.json({ message: 'Blog deleted successfully' })
   } catch (error) {

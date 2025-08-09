@@ -157,6 +157,100 @@ export async function updateBlogsJsonFile() {
     const { db } = await connectToDatabase()
     const blogs = await db.collection('blogs').find({}).toArray()
     
+    // Group blogs by language
+    const blogsByLanguage: { [key: string]: Blog[] } = {}
+    
+    blogs.forEach(blog => {
+      const language = blog.language || 'en'
+      if (!blogsByLanguage[language]) {
+        blogsByLanguage[language] = []
+      }
+      
+      // Only include published blogs
+      if (blog.status === 'Published') {
+        // Transform the data to match the expected format
+        const transformedBlog = {
+          id: blog._id.toString(),
+          slug: blog.slug,
+          title: blog.title,
+          subtitle: blog.subtitle || '',
+          category: blog.category,
+          author: blog.author,
+          date: blog.date,
+          readTime: blog.readTime || '5 min read',
+          status: blog.status,
+          featured: blog.featured || false,
+          heroImage: blog.heroImage || '',
+          heroImageAlt: blog.heroImageAlt || '',
+          canonicalUrl: blog.canonicalUrl || '',
+          language: blog.language || 'en',
+          city: blog.city || '',
+          topic: blog.topic || '',
+          keyword: blog.keyword || '',
+          group_id: blog.group_id || 1,
+          seo: blog.seo || {
+            metaTitle: '',
+            metaDescription: '',
+            keywords: '',
+            ogTitle: '',
+            ogDescription: '',
+            ogImage: '',
+            twitterCard: ''
+          },
+          hreflang_tags: blog.hreflang_tags || [],
+          internal_links: blog.internal_links || [],
+          schema_markup: blog.schema_markup || {},
+          images: blog.images || [],
+          word_count: blog.word_count || 0,
+          ctaSection: blog.ctaSection || {
+            title: '',
+            subtitle: '',
+            ctaText: '',
+            ctaLink: ''
+          },
+          content: blog.content || { lead: '', sections: [] },
+          views: blog.views || 0,
+          likes: blog.likes || 0,
+          createdAt: blog.createdAt || new Date().toISOString(),
+          updatedAt: blog.updatedAt || new Date().toISOString()
+        }
+        
+        blogsByLanguage[language].push(transformedBlog)
+      }
+    })
+    
+    // Write language-specific JSON files
+    for (const [language, blogs] of Object.entries(blogsByLanguage)) {
+      const languageDir = path.join(process.cwd(), 'src', 'data', 'blogs', language)
+      ensureDirSync(languageDir)
+      
+      const jsonPath = path.join(languageDir, 'blogs.json')
+      fs.writeFileSync(jsonPath, JSON.stringify(blogs, null, 2))
+      console.log(`✅ blogs.json updated for language: ${language} (${blogs.length} published blogs)`)
+    }
+    
+    // Also update the main blogs.json with all published blogs across languages
+    const allPublishedBlogs = Object.values(blogsByLanguage).flat()
+    const mainJsonPath = path.join(process.cwd(), 'src', 'data', 'blogs.json')
+    fs.writeFileSync(mainJsonPath, JSON.stringify(allPublishedBlogs, null, 2))
+    console.log(`✅ Main blogs.json updated with ${allPublishedBlogs.length} published blogs across all languages`)
+    
+  } catch (error) {
+    console.error('❌ Error updating blogs.json:', error)
+  }
+}
+
+// Function to update blog JSON file for a specific language only
+export async function updateBlogsJsonFileByLanguage(language: string) {
+  try {
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs')
+      .find({ 
+        language: language,
+        status: 'Published'
+      })
+      .toArray()
+    
     // Transform the data to match the expected format
     const transformedBlogs = blogs.map(blog => ({
       id: blog._id.toString(),
@@ -167,7 +261,7 @@ export async function updateBlogsJsonFile() {
       author: blog.author,
       date: blog.date,
       readTime: blog.readTime || '5 min read',
-      status: blog.status || 'Draft',
+      status: blog.status,
       featured: blog.featured || false,
       heroImage: blog.heroImage || '',
       heroImageAlt: blog.heroImageAlt || '',
@@ -203,14 +297,91 @@ export async function updateBlogsJsonFile() {
       createdAt: blog.createdAt || new Date().toISOString(),
       updatedAt: blog.updatedAt || new Date().toISOString()
     }))
-
-    // Write to blogs.json file
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'blogs.json')
-    fs.writeFileSync(jsonPath, JSON.stringify(transformedBlogs, null, 2))
     
-    console.log('✅ blogs.json updated successfully')
+    // Write language-specific JSON file
+    const languageDir = path.join(process.cwd(), 'src', 'data', 'blogs', language)
+    ensureDirSync(languageDir)
+    
+    const jsonPath = path.join(languageDir, 'blogs.json')
+    fs.writeFileSync(jsonPath, JSON.stringify(transformedBlogs, null, 2))
+    console.log(`✅ blogs.json updated for language: ${language} (${transformedBlogs.length} published blogs)`)
+    
+    // Also update the main blogs.json to include this language's blogs
+    await updateBlogsJsonFile()
+    
   } catch (error) {
-    console.error('❌ Error updating blogs.json:', error)
+    console.error(`❌ Error updating blogs.json for language ${language}:`, error)
+  }
+}
+
+// Function to create individual blog JSON files for each published blog
+export async function createIndividualBlogFiles() {
+  try {
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs')
+      .find({ status: 'Published' })
+      .toArray()
+    
+    for (const blog of blogs) {
+      const language = blog.language || 'en'
+      const languageDir = path.join(process.cwd(), 'src', 'data', 'blogs', language)
+      ensureDirSync(languageDir)
+      
+      // Create individual blog file
+      const blogFilePath = path.join(languageDir, `${blog.slug}.json`)
+      const blogData = {
+        id: blog._id.toString(),
+        slug: blog.slug,
+        title: blog.title,
+        subtitle: blog.subtitle || '',
+        category: blog.category,
+        author: blog.author,
+        date: blog.date,
+        readTime: blog.readTime || '5 min read',
+        status: blog.status,
+        featured: blog.featured || false,
+        heroImage: blog.heroImage || '',
+        heroImageAlt: blog.heroImageAlt || '',
+        canonicalUrl: blog.canonicalUrl || '',
+        language: blog.language || 'en',
+        city: blog.city || '',
+        topic: blog.topic || '',
+        keyword: blog.keyword || '',
+        group_id: blog.group_id || 1,
+        seo: blog.seo || {
+          metaTitle: '',
+          metaDescription: '',
+          keywords: '',
+          ogTitle: '',
+          ogDescription: '',
+          ogImage: '',
+          twitterCard: ''
+        },
+        hreflang_tags: blog.hreflang_tags || [],
+        internal_links: blog.internal_links || [],
+        schema_markup: blog.schema_markup || {},
+        images: blog.images || [],
+        word_count: blog.word_count || 0,
+        ctaSection: blog.ctaSection || {
+          title: '',
+          subtitle: '',
+          ctaText: '',
+          ctaLink: ''
+        },
+        content: blog.content || { lead: '', sections: [] },
+        views: blog.views || 0,
+        likes: blog.likes || 0,
+        createdAt: blog.createdAt || new Date().toISOString(),
+        updatedAt: blog.updatedAt || new Date().toISOString()
+      }
+      
+      fs.writeFileSync(blogFilePath, JSON.stringify(blogData, null, 2))
+    }
+    
+    console.log(`✅ Created individual blog files for ${blogs.length} published blogs`)
+    
+  } catch (error) {
+    console.error('❌ Error creating individual blog files:', error)
   }
 }
 
@@ -292,4 +463,13 @@ export async function updateAllJsonFiles() {
     updateUsersJsonFile()
   ])
   console.log('✅ All JSON files updated successfully')
+}
+
+// Function to update all blog-related JSON files
+export async function updateAllBlogJsonFiles() {
+  await Promise.all([
+    updateBlogsJsonFile(),
+    createIndividualBlogFiles()
+  ])
+  console.log('✅ All blog JSON files updated successfully')
 }

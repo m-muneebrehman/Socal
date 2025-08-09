@@ -4418,7 +4418,7 @@
         "type": "city",
         "slug": "gardena",
         "description": "Neighboring city known for its diverse population and shopping districts.",
-        "image": "https://images.unsplash.com/photo-1543796078-dfa8108fddda?auto=format&fit=crop&w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
         "imageAlt": "Gardena urban streetscape",
         "distance": "4 miles southwest",
         "avgHomePrice": "$600K",
@@ -4429,7 +4429,7 @@
         "type": "city",
         "slug": "carson",
         "description": "City with a mix of residential and industrial areas, offering parks and local amenities.",
-        "image": "https://images.unsplash.com/photo-1527581143255-94635a533b63?auto=format&fit=crop&w=800&q=80",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
         "imageAlt": "Carson cityscape",
         "distance": "6 miles south",
         "avgHomePrice": "$550K",
@@ -4444,17 +4444,6 @@
         "imageAlt": "Long Beach harbor view",
         "distance": "10 miles southwest",
         "avgHomePrice": "$700K",
-        "county": "Los Angeles"
-      },
-      {
-        "name": "Compton Downtown",
-        "type": "neighborhood",
-        "slug": "compton-downtown",
-        "description": "The heart of Compton with shops, government buildings, and community centers.",
-        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-        "imageAlt": "Downtown Compton streets",
-        "distance": "Central",
-        "avgHomePrice": "$470K",
         "county": "Los Angeles"
       }
     ],
@@ -4815,7 +4804,7 @@
         "title": "Summit Ridge Park",
         "description": "Hilltop park with hiking trails and panoramic views of the city.",
         "icon": "⛰️",
-        "bgImage": "https://images.unsplash.com/photo-1523359346064-81db77d9d8c6?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
         "bgImageAlt": "View from hiking trail in Summit Ridge Park"
       },
       {
@@ -5052,7 +5041,7 @@
         "title": "Santa Fe Trail",
         "description": "Historic trail with scenic walking and biking paths through the city.",
         "icon": "🚴",
-        "bgImage": "https://images.unsplash.com/photo-1523359346064-81db77d9d8c6?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
         "bgImageAlt": "Biking path along historic trail"
       },
       {
@@ -6819,7 +6808,7 @@
     "state": "California",
     "shortDescription": "A diverse city with a rich history, offering a mix of residential neighborhoods, parks, and local culture.",
     "fullDescription": "Montebello is a vibrant community located in the eastern part of Los Angeles County. Known for its friendly neighborhoods, abundant parks, and diverse population, Montebello offers a suburban feel with convenient access to the greater Los Angeles area. The city hosts various cultural events and has a strong focus on family life, making it a welcoming place for residents of all ages.",
-    "heroImage": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
     "population": "62K+",
     "avgHomePrice": "$650K",
     "tags": [
@@ -6934,7 +6923,7 @@
     "state": "California",
     "shortDescription": "A vibrant city known for its authentic Asian cuisine, parks, and family-friendly community atmosphere.",
     "fullDescription": "Monterey Park is a culturally rich city located in Los Angeles County, celebrated for its diverse population and renowned Asian dining scene. The city offers well-maintained parks, quality schools, and a variety of shopping and entertainment options. Its proximity to downtown Los Angeles and neighboring communities makes it a convenient and desirable place to live for families and professionals alike.",
-    "heroImage": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
     "population": "60K+",
     "avgHomePrice": "$900K",
     "tags": [
@@ -7394,7 +7383,7 @@
     "state": "California",
     "shortDescription": "A family-oriented city in Southeast Los Angeles County known for its parks and community spirit.",
     "fullDescription": "Pico Rivera is a welcoming city located southeast of downtown Los Angeles. Known for its strong sense of community, numerous parks, and family-friendly environment, it offers affordable living with easy access to major freeways and neighboring cities. The city hosts annual cultural events and prides itself on its diverse population and local schools. Pico Rivera is ideal for those looking for a suburban lifestyle within reach of the greater Los Angeles area.",
-    "heroImage": "https://images.unsplash.com/photo-1590957141123-65d2681e2f2e?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
     "population": "62K+",
     "avgHomePrice": "$600K",
     "tags": [
@@ -7467,7 +7456,7 @@
         "title": "Affordable Housing",
         "description": "Pico Rivera offers more affordable housing options compared to nearby cities in Los Angeles County.",
         "icon": "🏠",
-        "bgImage": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
         "bgImageAlt": "Residential houses in Pico Rivera"
       },
       {
@@ -7582,7 +7571,7 @@
         "title": "Historic Downtown Pomona",
         "description": "Revitalized area with shops, restaurants, and nightlife.",
         "icon": "🏙️",
-        "bgImage": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
         "bgImageAlt": "Street view of downtown Pomona"
       },
       {
@@ -7739,7 +7728,7 @@
     "state": "California",
     "shortDescription": "A family-oriented city with a rich cultural tapestry, known for its parks and community spirit.",
     "fullDescription": "Rosemead is a welcoming city located in the San Gabriel Valley, offering a mix of residential neighborhoods, parks, and vibrant local businesses. The city is recognized for its cultural diversity, excellent schools, and active community events. Conveniently located near major freeways, Rosemead provides easy access to Los Angeles and surrounding areas. It’s a great place for families and individuals seeking a suburban lifestyle with urban conveniences.",
-    "heroImage": "https://images.unsplash.com/photo-1595424719877-fd86033492a6?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
     "population": "54K+",
     "avgHomePrice": "$670K",
     "tags": [
@@ -7812,7 +7801,7 @@
         "title": "Community Centers",
         "description": "Facilities providing recreational programs and classes for all ages.",
         "icon": "🏫",
-        "bgImage": "https://images.unsplash.com/photo-1584999734524-ace4e71f1767?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
         "bgImageAlt": "Community center building exterior"
       }
     ],
@@ -7955,7 +7944,7 @@
     "state": "California",
     "shortDescription": "A historic city in the San Gabriel Valley known for its rich cultural heritage and the famous San Gabriel Mission.",
     "fullDescription": "San Gabriel is celebrated for its blend of cultural history and suburban charm. The city is home to the historic San Gabriel Mission, beautiful parks, and a thriving Asian dining scene. With a walkable downtown area and family-friendly neighborhoods, San Gabriel attracts residents who value community, good schools, and convenient access to nearby Los Angeles and Pasadena. Its diverse population contributes to a vibrant cultural atmosphere and numerous local festivals.",
-    "heroImage": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
     "population": "41K+",
     "avgHomePrice": "$820K",
     "tags": [
@@ -8014,7 +8003,7 @@
         "title": "San Gabriel Mission",
         "description": "Historic Spanish mission founded in 1771 with beautiful gardens and a museum.",
         "icon": "⛪",
-        "bgImage": "https://images.unsplash.com/photo-1562430586-080bfbf9fdf7?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
         "bgImageAlt": "Historic San Gabriel Mission building"
       },
       {
@@ -8129,7 +8118,7 @@
         "title": "Six Flags Magic Mountain",
         "description": "Popular amusement park with thrilling rides and family attractions.",
         "icon": "🎢",
-        "bgImage": "https://images.unsplash.com/photo-1520996639968-8f77e3a41eea?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
         "bgImageAlt": "Roller coaster at Six Flags Magic Mountain"
       },
       {
@@ -8143,7 +8132,7 @@
         "title": "Old Town Newhall",
         "description": "Historic downtown area with shops, galleries, and community events.",
         "icon": "🏘️",
-        "bgImage": "https://images.unsplash.com/photo-1534177612997-964a5b3507a0?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
         "bgImageAlt": "Historic street in Old Town Newhall"
       },
       {
@@ -8301,7 +8290,7 @@
     "state": "California",
     "shortDescription": "A trendy, vibrant city known for its nightlife, arts scene, and inclusive community.",
     "fullDescription": "West Hollywood, or WeHo, is a dynamic urban enclave celebrated for its lively nightlife, cutting-edge art galleries, and diverse cultural events. Situated between Beverly Hills and Hollywood, it features walkable streets lined with trendy boutiques, popular restaurants, and iconic music venues. Known for its progressive spirit and strong LGBTQ+ community, West Hollywood offers a unique blend of entertainment, history, and modern living. The city is also home to beautiful residential neighborhoods, excellent public transit options, and a thriving creative scene.",
-    "heroImage": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1920&q=80",
+    "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
     "population": "36K+",
     "avgHomePrice": "$1.7M",
     "tags": [
@@ -8361,7 +8350,7 @@
         "title": "Sunset Strip",
         "description": "Famous stretch known for nightlife, music venues, and vibrant atmosphere.",
         "icon": "🎸",
-        "bgImage": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+        "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
         "bgImageAlt": "Sunset Strip at night with neon lights"
       },
       {
@@ -8405,6 +8394,3573 @@
       {
         "question": "Is West Hollywood walkable and transit-friendly?",
         "answer": "Yes, it has a walkable layout with access to public transit and bike lanes throughout the city.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689744d9d030dedaafd97904",
+    "slug": "aliso-viejo",
+    "name": "Aliso Viejo",
+    "state": "California",
+    "shortDescription": "A master-planned community offering suburban comfort with parks, lakes, and vibrant shopping and dining options.",
+    "fullDescription": "Located in southern Orange County, Aliso Viejo is known for its family-friendly atmosphere, well-maintained neighborhoods, and abundant outdoor amenities including trails, parks, and the scenic Aliso and Wood Canyons Wilderness Park. The city boasts top schools, thriving business hubs, and a variety of community events, making it an attractive choice for professionals and families alike.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "50K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Family-friendly",
+      "Parks & Trails",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Laguna Hills",
+        "type": "city",
+        "slug": "laguna-hills",
+        "description": "Neighboring city with established communities, golf courses, and shopping centers.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential streets and golf course in Laguna Hills",
+        "distance": "3 miles northwest",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      },
+      {
+        "name": "Lake Forest",
+        "type": "city",
+        "slug": "lake-forest",
+        "description": "Family-oriented city with numerous parks, lakes, and a vibrant community center.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Lake and park area in Lake Forest",
+        "distance": "4 miles northeast",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Large suburban city with lakes, parks, shopping, and top-rated schools.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Community park in Mission Viejo",
+        "distance": "5 miles south",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Dana Point",
+        "type": "city",
+        "slug": "dana-point",
+        "description": "Coastal city known for beaches, marinas, and outdoor recreation.",
+        "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Coastline and marina in Dana Point",
+        "distance": "10 miles southwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Aliso and Wood Canyons Wilderness Park",
+        "description": "Expansive natural park offering hiking, biking, and wildlife viewing in a scenic canyon environment.",
+        "icon": "🌲",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Trail and wilderness area in Aliso and Wood Canyons"
+      },
+      {
+        "title": "Aliso Viejo Town Center",
+        "description": "Shopping, dining, and entertainment hub with family-friendly events and local businesses.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Shopping and dining area in Aliso Viejo Town Center"
+      },
+      {
+        "title": "Community Events",
+        "description": "Regular farmers markets, concerts, and seasonal festivals that foster a close-knit community spirit.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community event with families and outdoor activities"
+      },
+      {
+        "title": "Top-rated Schools",
+        "description": "Excellent public and private schools serving the city, contributing to a strong family-oriented environment.",
+        "icon": "🏫",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "School building and playground"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What outdoor activities are popular in Aliso Viejo?",
+        "answer": "Hiking, biking, and nature walks in the Aliso and Wood Canyons Wilderness Park are very popular among residents.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How family-friendly is Aliso Viejo?",
+        "answer": "The city offers numerous parks, quality schools, and community events that make it very welcoming for families.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "What are the local shopping options?",
+        "answer": "Aliso Viejo Town Center is the primary shopping and dining destination with a variety of retail stores and restaurants.",
+        "category": "Shopping"
+      },
+      {
+        "question": "How is the commute to nearby employment centers?",
+        "answer": "Aliso Viejo has easy access to major highways and is centrally located near Irvine, Laguna Hills, and Mission Viejo for work commutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897455fd030dedaafd97905",
+    "slug": "anaheim",
+    "name": "Anaheim",
+    "state": "California",
+    "shortDescription": "A vibrant city known for its world-famous theme parks, sports venues, and thriving entertainment and hospitality industry.",
+    "fullDescription": "Anaheim is the heart of Orange County’s entertainment and tourism scene, home to Disneyland Resort, Angel Stadium, and the Honda Center. The city blends family fun with a strong economy, offering diverse neighborhoods, cultural events, and convenient access to beaches and major freeways. Anaheim appeals to residents and visitors alike with its mix of urban energy and Southern California charm.",
+    "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+    "population": "350K+",
+    "avgHomePrice": "$750K",
+    "tags": [
+      "Entertainment",
+      "Family-friendly",
+      "Sports"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fullerton",
+        "type": "city",
+        "slug": "fullerton",
+        "description": "College town with historic downtown, arts scene, and California State University, Fullerton.",
+        "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic downtown Fullerton with vibrant street life",
+        "distance": "8 miles north",
+        "avgHomePrice": "$750K",
+        "county": "Orange"
+      },
+      {
+        "name": "Garden Grove",
+        "type": "city",
+        "slug": "garden-grove",
+        "description": "Diverse community known for the annual Strawberry Festival and rich cultural heritage.",
+        "image": "https://images.unsplash.com/photo-1565061823937-3f88a60e12c0?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Garden Grove with cultural festival",
+        "distance": "5 miles west",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      },
+      {
+        "name": "Orange",
+        "type": "city",
+        "slug": "orange",
+        "description": "Historic Old Town with antique shops, restaurants, and community events.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic Old Town Orange plaza",
+        "distance": "7 miles southeast",
+        "avgHomePrice": "$780K",
+        "county": "Orange"
+      },
+      {
+        "name": "Placentia",
+        "type": "city",
+        "slug": "placentia",
+        "description": "Small suburban city with parks, family-oriented events, and a quaint downtown.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Quiet suburban street in Placentia",
+        "distance": "6 miles northeast",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Disneyland Resort",
+        "description": "World-famous theme park attracting millions of visitors yearly with rides, entertainment, and events.",
+        "icon": "🎢",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Disneyland castle lit up at night"
+      },
+      {
+        "title": "Angel Stadium",
+        "description": "Home to the Los Angeles Angels MLB team and host of concerts and major events.",
+        "icon": "⚾",
+        "bgImage": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Angel Stadium filled with fans during a game"
+      },
+      {
+        "title": "Honda Center",
+        "description": "Indoor arena hosting NHL games, concerts, and family shows.",
+        "icon": "🏒",
+        "bgImage": "https://images.unsplash.com/photo-1543965175-4a412e5c3334?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Honda Center arena exterior at dusk"
+      },
+      {
+        "title": "Anaheim Packing District",
+        "description": "Trendy food hall and farmers market located in a historic citrus packing house.",
+        "icon": "🍽️",
+        "bgImage": "https://images.unsplash.com/photo-1510626176961-4b12de17dd4b?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Food stalls inside Anaheim Packing District"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Anaheim a popular tourist destination?",
+        "answer": "Disneyland Resort, sports venues, and numerous entertainment options draw millions each year.",
+        "category": "Tourism"
+      },
+      {
+        "question": "How family-friendly is Anaheim?",
+        "answer": "With theme parks, parks, and community events, Anaheim offers many activities suitable for families.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "What is the housing market like in Anaheim?",
+        "answer": "Median home prices are around $750K, with a mix of historic neighborhoods and new developments.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "How accessible is Anaheim to beaches and freeways?",
+        "answer": "Anaheim is approximately 15-20 miles from coastal beaches and is well-connected via major freeways like the 5 and 91.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897458cd030dedaafd97906",
+    "slug": "brea",
+    "name": "Brea",
+    "state": "California",
+    "shortDescription": "A vibrant city known for its lively downtown, shopping centers, and family-friendly neighborhoods.",
+    "fullDescription": "Brea combines a charming small-town atmosphere with modern amenities and cultural attractions. Known for the Brea Mall, a bustling downtown area with restaurants, theaters, and art galleries, the city offers a balanced lifestyle with quality schools, parks, and community events. Conveniently located with easy freeway access, Brea appeals to families, professionals, and retirees looking for a welcoming Orange County community.",
+    "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+    "population": "45K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Shopping",
+      "Family-friendly",
+      "Arts & Culture"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fullerton",
+        "type": "city",
+        "slug": "fullerton",
+        "description": "College town with historic downtown, arts scene, and California State University, Fullerton.",
+        "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic downtown Fullerton with vibrant street life",
+        "distance": "6 miles northwest",
+        "avgHomePrice": "$750K",
+        "county": "Orange"
+      },
+      {
+        "name": "Placentia",
+        "type": "city",
+        "slug": "placentia",
+        "description": "Small suburban city with parks, family-oriented events, and a quaint downtown.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Quiet suburban street in Placentia",
+        "distance": "4 miles northeast",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      },
+      {
+        "name": "La Habra",
+        "type": "city",
+        "slug": "la-habra",
+        "description": "Community with parks, recreational facilities, and a historic downtown area.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown La Habra street view",
+        "distance": "5 miles east",
+        "avgHomePrice": "$720K",
+        "county": "Orange"
+      },
+      {
+        "name": "Yorba Linda",
+        "type": "city",
+        "slug": "yorba-linda",
+        "description": "Affluent residential city known for large homes, parks, and the Nixon Presidential Library.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood in Yorba Linda",
+        "distance": "7 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Brea Mall",
+        "description": "Popular shopping destination with a wide range of retail stores, dining, and entertainment options.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Shoppers inside Brea Mall"
+      },
+      {
+        "title": "Downtown Brea",
+        "description": "Lively area with restaurants, art galleries, theaters, and seasonal community events.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Colorful shops and streets in Downtown Brea"
+      },
+      {
+        "title": "Carbon Canyon Regional Park",
+        "description": "Scenic park offering hiking trails, fishing lakes, and picnic areas ideal for family outings.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Forest trail in Carbon Canyon Regional Park"
+      },
+      {
+        "title": "Art and Cultural Programs",
+        "description": "Community-driven arts initiatives including theater performances, public art displays, and festivals.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Outdoor theater performance in Brea"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Brea known for?",
+        "answer": "Brea is known for its vibrant downtown, excellent shopping at Brea Mall, and family-friendly community events.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Brea?",
+        "answer": "Brea is served by the highly-rated Brea Olinda Unified School District, known for strong academics and extracurriculars.",
+        "category": "Education"
+      },
+      {
+        "question": "What recreational activities are available?",
+        "answer": "Residents enjoy parks like Carbon Canyon Regional Park, community events, and arts and cultural programs throughout the year.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to major job centers?",
+        "answer": "Brea offers convenient access to freeways 57 and 91, making commutes to nearby Orange County and Los Angeles areas manageable.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689745b7d030dedaafd97907",
+    "slug": "buena-park",
+    "name": "Buena Park",
+    "state": "California",
+    "shortDescription": "A family-friendly city known for entertainment, parks, and diverse neighborhoods.",
+    "fullDescription": "Buena Park offers a dynamic blend of entertainment, shopping, and suburban living. Famous for attractions like Knott’s Berry Farm, the city provides plenty of family activities, parks, and community events. With affordable housing options compared to nearby areas, Buena Park attracts a mix of families and young professionals. Its central location in northern Orange County offers easy freeway access and proximity to major job centers and beaches.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "80K+",
+    "avgHomePrice": "$700K",
+    "tags": [
+      "Entertainment",
+      "Family-friendly",
+      "Parks"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Home to Disneyland Resort and major sports venues, with diverse residential areas.",
+        "image": "https://images.unsplash.com/photo-1534349762230-1f34e5933a6f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Disneyland entrance in Anaheim",
+        "distance": "4 miles southeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Cypress",
+        "type": "city",
+        "slug": "cypress",
+        "description": "Suburban city known for parks, good schools, and a quiet residential vibe.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Green park area in Cypress",
+        "distance": "5 miles west",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "La Palma",
+        "type": "city",
+        "slug": "la-palma",
+        "description": "Small community with excellent schools, parks, and a close-knit neighborhood feel.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential street in La Palma",
+        "distance": "3 miles southwest",
+        "avgHomePrice": "$720K",
+        "county": "Orange"
+      },
+      {
+        "name": "Fullerton",
+        "type": "city",
+        "slug": "fullerton",
+        "description": "Historic college town with vibrant downtown and arts scene.",
+        "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Fullerton with historic buildings",
+        "distance": "7 miles northeast",
+        "avgHomePrice": "$750K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Knott’s Berry Farm",
+        "description": "Famous theme park featuring roller coasters, live entertainment, and family attractions.",
+        "icon": "🎢",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Roller coaster at Knott’s Berry Farm"
+      },
+      {
+        "title": "Buena Park Downtown",
+        "description": "A revitalized area with shops, dining, and community events.",
+        "icon": "🏙️",
+        "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Downtown Buena Park street view"
+      },
+      {
+        "title": "Craig Regional Park",
+        "description": "Large park with sports fields, picnic areas, and walking trails.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Picnic area and trees in Craig Regional Park"
+      },
+      {
+        "title": "Family-Friendly Events",
+        "description": "Year-round community festivals, farmers markets, and holiday celebrations.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Community festival with families enjoying activities"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Buena Park known for?",
+        "answer": "Buena Park is best known for Knott’s Berry Farm and its family-friendly entertainment and community parks.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Buena Park?",
+        "answer": "The city is served by the Buena Park School District and parts of the Fullerton Joint Union High School District, offering a variety of education options.",
+        "category": "Education"
+      },
+      {
+        "question": "What recreational activities are available?",
+        "answer": "Residents enjoy theme parks, community events, parks like Craig Regional Park, and local sports leagues.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to nearby job centers?",
+        "answer": "Buena Park has convenient freeway access (I-5, 91, 605), making commutes to Anaheim, Los Angeles, and other Orange County areas manageable.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689745dbd030dedaafd97908",
+    "slug": "costa-mesa",
+    "name": "Costa Mesa",
+    "state": "California",
+    "shortDescription": "A vibrant urban city known for arts, shopping, and a diverse community.",
+    "fullDescription": "Costa Mesa blends cultural richness with suburban living. Famous for the South Coast Plaza shopping center and a thriving arts scene including theaters and galleries, the city offers a mix of residential neighborhoods, dining, and entertainment options. Its central location in Orange County provides easy access to beaches, highways, and employment hubs, making it popular among professionals and families alike.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "115K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Arts & Culture",
+      "Shopping",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Newport Beach",
+        "type": "city",
+        "slug": "newport-beach",
+        "description": "Luxury coastal city with beaches, boating, and upscale shopping.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beachfront and marina in Newport Beach",
+        "distance": "5 miles south",
+        "avgHomePrice": "$2.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Famous surf city with a lively downtown and extensive beaches.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Surfboards on the beach in Huntington Beach",
+        "distance": "8 miles northwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Fountain Valley",
+        "type": "city",
+        "slug": "fountain-valley",
+        "description": "Quiet suburban community with parks and family amenities.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban park area in Fountain Valley",
+        "distance": "4 miles east",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Ana",
+        "type": "city",
+        "slug": "santa-ana",
+        "description": "Downtown urban hub with cultural institutions and historic sites.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Santa Ana skyline",
+        "distance": "7 miles northeast",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "South Coast Plaza",
+        "description": "One of the largest shopping centers in the U.S. with luxury brands and dining.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Exterior of South Coast Plaza shopping mall"
+      },
+      {
+        "title": "Segerstrom Center for the Arts",
+        "description": "Premier venue for theater, music, and dance performances.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Exterior view of Segerstrom Center for the Arts"
+      },
+      {
+        "title": "Costa Mesa Parks",
+        "description": "Numerous parks offering playgrounds, sports fields, and picnic areas.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green park area in Costa Mesa"
+      },
+      {
+        "title": "Arts & Culture Scene",
+        "description": "Vibrant galleries, public art installations, and community events celebrate creativity.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Art gallery exhibit in Costa Mesa"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Costa Mesa known for?",
+        "answer": "Costa Mesa is renowned for its arts and culture, South Coast Plaza shopping, and family-friendly parks.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Costa Mesa?",
+        "answer": "The city is served by the Newport-Mesa Unified School District, with a variety of public and private school options.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy parks, community events, and proximity to nearby beaches for surfing and hiking.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to job centers?",
+        "answer": "Costa Mesa offers convenient freeway access (55, 405) with commutes to Newport Beach, Irvine, and Los Angeles.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974603d030dedaafd97909",
+    "slug": "cypress",
+    "name": "Cypress",
+    "state": "California",
+    "shortDescription": "A quiet suburban city known for excellent schools, parks, and family-friendly living.",
+    "fullDescription": "Cypress offers a peaceful suburban atmosphere with well-maintained neighborhoods, highly rated schools, and abundant green spaces. Located in northwestern Orange County, it’s known for its strong community spirit and convenient access to nearby employment centers, beaches, and freeways. Families and professionals appreciate Cypress for its safe environment, community events, and balanced lifestyle.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "50K+",
+    "avgHomePrice": "$750K",
+    "tags": [
+      "Suburban",
+      "Family-friendly",
+      "Parks & Recreation"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Los Alamitos",
+        "type": "city",
+        "slug": "los-alamitos",
+        "description": "Small city known for community events, schools, and the Naval Weapons Station.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Community park in Los Alamitos",
+        "distance": "3 miles southeast",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Garden Grove",
+        "type": "city",
+        "slug": "garden-grove",
+        "description": "Large city with diverse culture, shopping, and entertainment options.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Garden Grove",
+        "distance": "5 miles east",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Home to Disneyland, sports venues, and a growing tech sector.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Anaheim skyline",
+        "distance": "6 miles northeast",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      },
+      {
+        "name": "Stanton",
+        "type": "city",
+        "slug": "stanton",
+        "description": "Small city with residential neighborhoods and easy freeway access.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential area in Stanton",
+        "distance": "4 miles south",
+        "avgHomePrice": "$680K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Cypress Community Park",
+        "description": "Large park with sports fields, picnic areas, playgrounds, and walking trails.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green park area in Cypress"
+      },
+      {
+        "title": "Top-Rated Schools",
+        "description": "Part of the Cypress School District known for high academic achievement and extracurriculars.",
+        "icon": "🎓",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "School campus in Cypress"
+      },
+      {
+        "title": "Convenient Location",
+        "description": "Close to major freeways (22, 405) providing easy access to Orange County and Los Angeles.",
+        "icon": "🛣️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Freeway entrance near Cypress"
+      },
+      {
+        "title": "Community Events",
+        "description": "Regular festivals, farmers markets, and recreational programs foster community engagement.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community event with families"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Cypress known for?",
+        "answer": "Cypress is known for its family-friendly atmosphere, excellent schools, and abundant parks.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Cypress?",
+        "answer": "The Cypress School District is highly rated with strong academic and extracurricular programs.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy parks, sports leagues, and community recreational programs.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Cypress?",
+        "answer": "Cypress has easy access to freeways 22 and 405, with commutes to Orange County and Los Angeles.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897462dd030dedaafd9790a",
+    "slug": "dana-point",
+    "name": "Dana Point",
+    "state": "California",
+    "shortDescription": "A picturesque coastal city known for its harbor, beaches, and outdoor water activities.",
+    "fullDescription": "Dana Point offers stunning ocean views, a vibrant harbor area, and a rich maritime history. Located on the southern coast of Orange County, it’s a popular destination for boating, surfing, and whale watching. The city features charming neighborhoods, excellent dining, and a laid-back coastal lifestyle that attracts families, retirees, and outdoor enthusiasts alike.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "34K+",
+    "avgHomePrice": "$1.4M",
+    "tags": [
+      "Coastal",
+      "Outdoor Activities",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Laguna Niguel",
+        "type": "city",
+        "slug": "laguna-niguel",
+        "description": "Upscale community with parks, golf courses, and scenic trails.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Scenic park in Laguna Niguel",
+        "distance": "5 miles north",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "San Clemente",
+        "type": "city",
+        "slug": "san-clemente",
+        "description": "Coastal city with Spanish-style architecture, beaches, and pier.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beach and pier in San Clemente",
+        "distance": "7 miles south",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Master-planned community with parks, lakes, and family amenities.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Lakeside park in Mission Viejo",
+        "distance": "8 miles northeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "San Juan Capistrano",
+        "type": "city",
+        "slug": "san-juan-capistrano",
+        "description": "Historic city known for the Mission and charming downtown.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Mission San Juan Capistrano",
+        "distance": "6 miles east",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Dana Point Harbor",
+        "description": "Popular marina offering boating, fishing, waterfront dining, and shops.",
+        "icon": "⚓",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Boats docked at Dana Point Harbor"
+      },
+      {
+        "title": "Doheny State Beach",
+        "description": "Scenic beach with camping, surfing, and picnic facilities.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sunset at Doheny State Beach"
+      },
+      {
+        "title": "Whale Watching",
+        "description": "Seasonal tours departing from Dana Point to view migrating whales.",
+        "icon": "🐋",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Whale breaching near Dana Point"
+      },
+      {
+        "title": "Ocean Institute",
+        "description": "Educational center focused on marine science and ocean conservation.",
+        "icon": "🔬",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Ocean Institute building"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Dana Point famous for?",
+        "answer": "Dana Point is famous for its harbor, whale watching, beaches, and coastal lifestyle.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Dana Point?",
+        "answer": "Dana Point is served by the Capistrano Unified School District, known for strong academics.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular?",
+        "answer": "Popular activities include boating, surfing, hiking coastal trails, and whale watching.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to nearby cities?",
+        "answer": "Dana Point offers convenient freeway access to Laguna Beach, Irvine, and other Orange County cities.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897465bd030dedaafd9790b",
+    "slug": "fountain-valley",
+    "name": "Fountain Valley",
+    "state": "California",
+    "shortDescription": "A vibrant suburban city known for parks, family-friendly neighborhoods, and easy access to beaches.",
+    "fullDescription": "Located in Orange County, Fountain Valley offers a blend of residential comfort and recreational amenities. The city is renowned for its numerous parks, top-rated schools, and community events. With convenient freeway access to Huntington Beach and Costa Mesa, Fountain Valley appeals to families and professionals seeking a balanced suburban lifestyle close to the coast.",
+    "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+    "population": "55K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Family-friendly",
+      "Parks",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Coastal city famous for surfing, beaches, and a lively downtown.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beach and pier in Huntington Beach",
+        "distance": "4 miles southwest",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Costa Mesa",
+        "type": "city",
+        "slug": "costa-mesa",
+        "description": "Dynamic city known for arts, shopping, and diverse dining.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown area in Costa Mesa",
+        "distance": "5 miles southeast",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Westminster",
+        "type": "city",
+        "slug": "westminster",
+        "description": "Cultural hub with vibrant Vietnamese community and shopping centers.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Shopping area in Westminster",
+        "distance": "6 miles north",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      },
+      {
+        "name": "Garden Grove",
+        "type": "city",
+        "slug": "garden-grove",
+        "description": "Family-oriented city with parks, schools, and cultural festivals.",
+        "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Community park in Garden Grove",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Fountain Valley Park",
+        "description": "Large community park with playgrounds, sports fields, and picnic areas.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green open space at Fountain Valley Park"
+      },
+      {
+        "title": "Huntington Beach Access",
+        "description": "Short drive to world-famous beaches, surfing spots, and oceanfront dining.",
+        "icon": "🏄‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfer catching waves at Huntington Beach"
+      },
+      {
+        "title": "Community Events",
+        "description": "Annual festivals, farmers markets, and cultural events bring residents together.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Crowd enjoying a community festival"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Fountain Valley known for?",
+        "answer": "Fountain Valley is known for its family-friendly atmosphere, parks, and proximity to the coast.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Fountain Valley?",
+        "answer": "The city is served by highly-rated Fountain Valley School District with several top public schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy parks, walking trails, and quick access to Huntington Beach for surfing and swimming.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Fountain Valley?",
+        "answer": "Easy freeway access to nearby cities like Costa Mesa and Huntington Beach makes commuting convenient.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974681d030dedaafd9790c",
+    "slug": "fullerton",
+    "name": "Fullerton",
+    "state": "California",
+    "shortDescription": "A vibrant city known for its historic downtown, educational institutions, and cultural events.",
+    "fullDescription": "Fullerton is a lively Orange County city blending historic charm with modern amenities. Known for its bustling downtown area filled with restaurants, shops, and nightlife, Fullerton is home to California State University, Fullerton and Fullerton College, attracting students and professionals. The city offers diverse neighborhoods, excellent schools, and a rich cultural scene including theaters, art galleries, and music festivals.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "140K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Historic",
+      "Educational",
+      "Cultural"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Home to Disneyland Resort and a major entertainment and convention hub.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Disneyland entrance in Anaheim",
+        "distance": "6 miles southeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Brea",
+        "type": "city",
+        "slug": "brea",
+        "description": "Upscale city with shopping centers, art galleries, and family-friendly parks.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Brea shopping area",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$750K",
+        "county": "Orange"
+      },
+      {
+        "name": "Placentia",
+        "type": "city",
+        "slug": "placentia",
+        "description": "Quiet suburban community with parks, schools, and a historic downtown area.",
+        "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Park and homes in Placentia",
+        "distance": "4 miles east",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Yorba Linda",
+        "type": "city",
+        "slug": "yorba-linda",
+        "description": "Affluent residential city with spacious homes, parks, and historic landmarks.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential neighborhood in Yorba Linda",
+        "distance": "8 miles northeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Historic Downtown Fullerton",
+        "description": "Vibrant area with dining, shopping, theaters, and nightlife.",
+        "icon": "🏙️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown Fullerton street with restaurants and lights"
+      },
+      {
+        "title": "California State University, Fullerton",
+        "description": "Major public university known for its strong academic programs and campus events.",
+        "icon": "🎓",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "CSUF campus buildings and green spaces"
+      },
+      {
+        "title": "Fullerton Arboretum",
+        "description": "Beautiful botanical garden offering nature trails and educational programs.",
+        "icon": "🌿",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Lush greenery and pathways in Fullerton Arboretum"
+      },
+      {
+        "title": "Cultural Events",
+        "description": "Regular festivals, concerts, and art exhibitions enhance community life.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Outdoor cultural festival in Fullerton"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Fullerton known for?",
+        "answer": "Fullerton is known for its historic downtown, educational institutions, and vibrant cultural scene.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Fullerton?",
+        "answer": "Fullerton has several excellent public and private schools, plus California State University, Fullerton.",
+        "category": "Education"
+      },
+      {
+        "question": "What cultural activities are available?",
+        "answer": "Residents enjoy theaters, art galleries, music festivals, and community events year-round.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Fullerton?",
+        "answer": "Fullerton offers convenient freeway access to Los Angeles, Orange County, and surrounding cities.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689746a9d030dedaafd9790d",
+    "slug": "garden-grove",
+    "name": "Garden Grove",
+    "state": "California",
+    "shortDescription": "A diverse city with rich cultural heritage, family-friendly parks, and vibrant community events.",
+    "fullDescription": "Garden Grove is a dynamic Orange County city known for its rich Vietnamese-American community, bustling shopping districts, and family-oriented neighborhoods. The city features numerous parks, excellent schools, and hosts the annual Strawberry Festival celebrating local culture and agriculture. With convenient freeway access, Garden Grove provides an ideal balance of suburban comfort and urban amenities.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "175K+",
+    "avgHomePrice": "$700K",
+    "tags": [
+      "Diverse",
+      "Family-friendly",
+      "Cultural"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Home to Disneyland Resort and a major entertainment and convention hub.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Disneyland entrance in Anaheim",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Westminster",
+        "type": "city",
+        "slug": "westminster",
+        "description": "Known for its Little Saigon district, vibrant Vietnamese culture, and diverse cuisine.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Bustling street in Westminster's Little Saigon",
+        "distance": "3 miles west",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      },
+      {
+        "name": "Fountain Valley",
+        "type": "city",
+        "slug": "fountain-valley",
+        "description": "Suburban city known for parks, golf courses, and family-friendly neighborhoods.",
+        "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Park and homes in Fountain Valley",
+        "distance": "4 miles south",
+        "avgHomePrice": "$750K",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Ana",
+        "type": "city",
+        "slug": "santa-ana",
+        "description": "County seat known for its arts district, historic buildings, and cultural festivals.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Santa Ana at dusk",
+        "distance": "6 miles southeast",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Strawberry Festival",
+        "description": "Annual event celebrating Garden Grove’s agricultural heritage with food, music, and rides.",
+        "icon": "🍓",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Crowd enjoying the Strawberry Festival"
+      },
+      {
+        "title": "Garden Grove Park",
+        "description": "Spacious park with picnic areas, playgrounds, and walking trails ideal for families.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green open spaces and playground at Garden Grove Park"
+      },
+      {
+        "title": "Historic District",
+        "description": "Area with preserved buildings, museums, and local shops reflecting Garden Grove’s past.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Historic buildings in Garden Grove"
+      },
+      {
+        "title": "Cultural Diversity",
+        "description": "Rich multicultural community celebrated through cuisine, festivals, and public art.",
+        "icon": "🌍",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Multicultural community event"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Garden Grove known for?",
+        "answer": "Garden Grove is known for its cultural diversity, the annual Strawberry Festival, and family-friendly amenities.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Garden Grove?",
+        "answer": "The city is served by the Garden Grove Unified School District, offering several highly-rated public schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What parks and recreation options are available?",
+        "answer": "Garden Grove offers multiple parks, sports facilities, walking trails, and community centers for residents.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to nearby cities?",
+        "answer": "Garden Grove provides convenient access to major freeways like the 22 and 405, facilitating easy commutes across Orange County.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689746d1d030dedaafd9790e",
+    "slug": "huntington-beach",
+    "name": "Huntington Beach",
+    "state": "California",
+    "shortDescription": "Famous for its iconic pier, surf culture, and vibrant coastal lifestyle.",
+    "fullDescription": "Huntington Beach, known as 'Surf City USA,' is a lively coastal city with miles of sandy beaches, world-class surfing, and a vibrant downtown. It offers family-friendly parks, an active arts scene, and numerous outdoor activities. With excellent schools and a diverse community, Huntington Beach combines beachside relaxation with urban conveniences.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "200K+",
+    "avgHomePrice": "$1.2M",
+    "tags": [
+      "Beach",
+      "Surfing",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Seal Beach",
+        "type": "city",
+        "slug": "seal-beach",
+        "description": "Quaint beach town with charming shops, a historic pier, and calm beaches.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Seal Beach pier and shoreline",
+        "distance": "7 miles northwest",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Costa Mesa",
+        "type": "city",
+        "slug": "costa-mesa",
+        "description": "Urban city known for arts, shopping, and diverse dining options.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Costa Mesa at night",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Newport Beach",
+        "type": "city",
+        "slug": "newport-beach",
+        "description": "Upscale coastal city with luxury homes, boating, and pristine beaches.",
+        "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Yachts in Newport Beach harbor",
+        "distance": "10 miles southeast",
+        "avgHomePrice": "$2.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "Huntington Harbour",
+        "type": "neighborhood",
+        "slug": "huntington-harbour",
+        "description": "Waterfront community featuring canals, luxury homes, and boating access.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Canals and homes in Huntington Harbour",
+        "distance": "3 miles south",
+        "avgHomePrice": "$1.8M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Huntington Beach Pier",
+        "description": "Iconic pier popular for fishing, surfing, and scenic ocean views.",
+        "icon": "🌊",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sunset over Huntington Beach Pier"
+      },
+      {
+        "title": "Surfing Culture",
+        "description": "Host of the U.S. Open of Surfing and a hub for surfers worldwide.",
+        "icon": "🏄‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfers riding waves at Huntington Beach"
+      },
+      {
+        "title": "Bolsa Chica Ecological Reserve",
+        "description": "Protected wetlands ideal for birdwatching, hiking, and nature walks.",
+        "icon": "🦅",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Birdwatching at Bolsa Chica wetlands"
+      },
+      {
+        "title": "Family-Friendly Beaches",
+        "description": "Wide sandy beaches with amenities and safe swimming areas for families.",
+        "icon": "👨‍👩‍👧‍👦",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Families enjoying the beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Huntington Beach famous for?",
+        "answer": "Huntington Beach is famous for its surfing culture, iconic pier, and beautiful beaches.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Huntington Beach?",
+        "answer": "The city is served by Huntington Beach Union High School District and several highly rated elementary and middle schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular?",
+        "answer": "Surfing, beach volleyball, biking along the coast, and nature walks at Bolsa Chica Reserve are popular activities.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to Los Angeles?",
+        "answer": "Huntington Beach offers direct access to the 405 and 22 freeways, with typical commutes to LA ranging from 45 to 75 minutes depending on traffic.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689746f8d030dedaafd9790f",
+    "slug": "irvine",
+    "name": "Irvine",
+    "state": "California",
+    "shortDescription": "Master-planned city known for excellent schools, diverse communities, and extensive parks.",
+    "fullDescription": "Irvine is a thriving, master-planned city in Orange County famous for its top-ranked schools, safety, and diverse neighborhoods. It offers abundant parks, trails, and recreational facilities alongside thriving business districts and tech hubs. With a strong emphasis on community and sustainability, Irvine appeals to families and professionals seeking a high quality of life within Southern California.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "310K+",
+    "avgHomePrice": "$1.0M",
+    "tags": [
+      "Master-planned",
+      "Family-friendly",
+      "Tech hub"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Tustin",
+        "type": "city",
+        "slug": "tustin",
+        "description": "Historic city known for its charming Old Town, shopping, and dining.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Old Town Tustin with shops and cafes",
+        "distance": "5 miles north",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Newport Beach",
+        "type": "city",
+        "slug": "newport-beach",
+        "description": "Upscale coastal city with beaches, luxury homes, and boating.",
+        "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Boats in Newport Beach harbor",
+        "distance": "8 miles southwest",
+        "avgHomePrice": "$2.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "Lake Forest",
+        "type": "city",
+        "slug": "lake-forest",
+        "description": "Family-oriented city with parks, lakes, and strong schools.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Parks and homes in Lake Forest",
+        "distance": "7 miles southeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Costa Mesa",
+        "type": "city",
+        "slug": "costa-mesa",
+        "description": "Urban city known for arts, shopping, and dining.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Costa Mesa",
+        "distance": "10 miles southwest",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "University of California, Irvine",
+        "description": "Top research university contributing to the city’s innovation and culture.",
+        "icon": "🎓",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "UC Irvine campus buildings"
+      },
+      {
+        "title": "Irvine Spectrum Center",
+        "description": "Popular outdoor shopping, dining, and entertainment complex.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Irvine Spectrum Center lit up at night"
+      },
+      {
+        "title": "Great Parks & Trails",
+        "description": "Over 16,000 acres of parks, greenbelts, and bike trails for outdoor enthusiasts.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Bike trail through a green park"
+      },
+      {
+        "title": "Tech and Business Hub",
+        "description": "Home to many tech companies and business headquarters fostering innovation.",
+        "icon": "💼",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Modern office buildings in Irvine"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Irvine a great place to live?",
+        "answer": "Irvine is known for its safety, excellent schools, parks, and strong job market, making it ideal for families and professionals.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Irvine?",
+        "answer": "Irvine Unified School District is highly rated, with top-ranked public schools and access to UC Irvine.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular in Irvine?",
+        "answer": "Residents enjoy biking, hiking, and outdoor sports in the city’s extensive parks and green spaces.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to Los Angeles?",
+        "answer": "Irvine is connected to Los Angeles via the I-5 freeway, with commute times typically ranging from 45 minutes to 1.5 hours depending on traffic.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974723d030dedaafd97910",
+    "slug": "la-habra",
+    "name": "La Habra",
+    "state": "California",
+    "shortDescription": "A vibrant city blending suburban living with local parks, shopping, and community events.",
+    "fullDescription": "La Habra offers a welcoming community with affordable housing, well-maintained parks, and easy access to major freeways. Known for its family-friendly atmosphere and diverse neighborhoods, La Habra balances small-town charm with convenient proximity to Orange County and Los Angeles. The city features active community programs, cultural events, and a variety of shopping and dining options.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "62K+",
+    "avgHomePrice": "$700K",
+    "tags": [
+      "Affordable",
+      "Family-friendly",
+      "Community-focused"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fullerton",
+        "type": "city",
+        "slug": "fullerton",
+        "description": "College town known for its historic downtown, arts scene, and Cal State Fullerton.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic downtown Fullerton",
+        "distance": "5 miles west",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      },
+      {
+        "name": "Brea",
+        "type": "city",
+        "slug": "brea",
+        "description": "Known for its vibrant downtown, shopping centers, and arts festivals.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Brea street view",
+        "distance": "6 miles southeast",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Whittier",
+        "type": "city",
+        "slug": "whittier",
+        "description": "Community with historic homes, parks, and a strong arts and education presence.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic homes in Whittier",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$800K",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "La Mirada",
+        "type": "city",
+        "slug": "la-mirada",
+        "description": "Residential city with parks, golf courses, and family-friendly neighborhoods.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Golf course in La Mirada",
+        "distance": "4 miles south",
+        "avgHomePrice": "$700K",
+        "county": "Los Angeles"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "La Habra Community Center",
+        "description": "Hub for local events, classes, and recreational activities.",
+        "icon": "🏢",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "La Habra Community Center building"
+      },
+      {
+        "title": "La Habra Park",
+        "description": "Popular park with sports fields, picnic areas, and playgrounds.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green space and playground at La Habra Park"
+      },
+      {
+        "title": "Historic Downtown La Habra",
+        "description": "Charming area featuring local shops, eateries, and cultural events.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown La Habra street with shops"
+      },
+      {
+        "title": "La Habra Farmers Market",
+        "description": "Weekly market offering fresh produce, artisan goods, and community engagement.",
+        "icon": "🥕",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Farmers market stalls with fresh fruits and vegetables"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is La Habra known for?",
+        "answer": "La Habra is known for its community-focused lifestyle, affordable housing, and family-friendly amenities.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in La Habra?",
+        "answer": "La Habra is served by the La Habra City School District and Fullerton Joint Union High School District, offering quality education options.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available in La Habra?",
+        "answer": "Residents can enjoy parks, sports fields, and local community events throughout the year.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to Los Angeles and Orange County?",
+        "answer": "La Habra offers convenient freeway access via the 91 and 605, with commute times to downtown Los Angeles or Orange County ranging from 30 to 60 minutes depending on traffic.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974754d030dedaafd97911",
+    "slug": "la-palma",
+    "name": "La Palma",
+    "state": "California",
+    "shortDescription": "A small, quiet city known for its family-friendly neighborhoods and well-maintained parks.",
+    "fullDescription": "La Palma offers a peaceful suburban environment with strong community values, excellent public services, and convenient access to major freeways. Known as the 'City of Trees and Parks,' it boasts a variety of recreational facilities, top-rated schools, and safe neighborhoods. With a focus on family living and community events, La Palma appeals to residents looking for a tranquil yet connected lifestyle in Orange County.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "16K+",
+    "avgHomePrice": "$800K",
+    "tags": [
+      "Family-friendly",
+      "Parks & Recreation",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Cypress",
+        "type": "city",
+        "slug": "cypress",
+        "description": "Community with family-friendly neighborhoods, parks, and a strong local economy.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood in Cypress",
+        "distance": "2 miles east",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      },
+      {
+        "name": "Buena Park",
+        "type": "city",
+        "slug": "buena-park",
+        "description": "Home to entertainment attractions, shopping, and diverse residential areas.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Cityscape of Buena Park",
+        "distance": "3 miles north",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      },
+      {
+        "name": "Seal Beach",
+        "type": "city",
+        "slug": "seal-beach",
+        "description": "Coastal city known for its charming Main Street, beaches, and laid-back lifestyle.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beach and pier in Seal Beach",
+        "distance": "5 miles southwest",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Rossmoor",
+        "type": "community",
+        "slug": "rossmoor",
+        "description": "A gated community with golf courses and active adult living options.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Golf course in Rossmoor",
+        "distance": "1 mile south",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "La Palma Park",
+        "description": "Community park with sports facilities, picnic areas, and playgrounds.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and green space at La Palma Park"
+      },
+      {
+        "title": "Community Events",
+        "description": "Annual city events including summer concerts, holiday festivals, and farmers markets.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community festival with people and decorations"
+      },
+      {
+        "title": "La Palma City Library",
+        "description": "Modern library offering educational programs and resources for all ages.",
+        "icon": "📚",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Exterior of La Palma City Library"
+      },
+      {
+        "title": "Walking and Bike Trails",
+        "description": "Well-maintained trails promoting outdoor exercise and community connection.",
+        "icon": "🚴‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Cyclist on a suburban bike trail"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is La Palma known for?",
+        "answer": "La Palma is known as the 'City of Trees and Parks' for its green spaces, family-friendly atmosphere, and community events.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in La Palma?",
+        "answer": "La Palma is served by the highly-rated Centralia and Los Alamitos Unified School Districts.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available in La Palma?",
+        "answer": "Residents enjoy parks, walking and biking trails, community events, and sports facilities.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from La Palma?",
+        "answer": "La Palma offers easy access to the 22 and 405 freeways, with typical commutes to nearby employment centers ranging from 20 to 45 minutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897477ad030dedaafd97912",
+    "slug": "laguna-beach",
+    "name": "Laguna Beach",
+    "state": "California",
+    "shortDescription": "A picturesque coastal city famous for its art community, beaches, and scenic ocean views.",
+    "fullDescription": "Laguna Beach is renowned for its stunning coastline, vibrant arts scene, and unique blend of natural beauty and cultural attractions. With pristine beaches, tide pools, and hiking trails, this city offers a relaxed yet sophisticated lifestyle. Visitors and residents enjoy art galleries, annual festivals, and fine dining, making Laguna Beach a sought-after destination in Orange County for both living and vacationing.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "23K+",
+    "avgHomePrice": "$3.5M",
+    "tags": [
+      "Coastal",
+      "Arts & Culture",
+      "Outdoor Recreation"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Aliso Viejo",
+        "type": "city",
+        "slug": "aliso-viejo",
+        "description": "Planned community known for parks, shopping, and family-friendly living.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Aliso Viejo neighborhood park",
+        "distance": "7 miles northeast",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Dana Point",
+        "type": "city",
+        "slug": "dana-point",
+        "description": "Coastal city with a marina, beaches, and whale watching.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Dana Point harbor view",
+        "distance": "8 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Laguna Niguel",
+        "type": "city",
+        "slug": "laguna-niguel",
+        "description": "Residential community with parks, shopping centers, and golf courses.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood in Laguna Niguel",
+        "distance": "9 miles east",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "San Clemente",
+        "type": "city",
+        "slug": "san-clemente",
+        "description": "Coastal city known for its pier, beaches, and Spanish-style architecture.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "San Clemente pier at sunset",
+        "distance": "14 miles southeast",
+        "avgHomePrice": "$1.0M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Beaches and Tide Pools",
+        "description": "Beautiful sandy beaches and tide pools perfect for exploring marine life.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Laguna Beach coastline with tide pools"
+      },
+      {
+        "title": "Art Galleries and Festivals",
+        "description": "Vibrant arts scene with numerous galleries and annual events like the Pageant of the Masters.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Art gallery interior in Laguna Beach"
+      },
+      {
+        "title": "Hiking Trails",
+        "description": "Scenic trails in the nearby Laguna Coast Wilderness Park offering ocean views and wildlife sightings.",
+        "icon": "🥾",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Trail with ocean view in Laguna Coast Wilderness Park"
+      },
+      {
+        "title": "Marine Protected Areas",
+        "description": "Designated marine reserves protecting local sea life and habitats.",
+        "icon": "🐠",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Underwater marine life near Laguna Beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Laguna Beach famous for?",
+        "answer": "Laguna Beach is famous for its stunning coastline, vibrant arts community, beaches, and outdoor recreational activities.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Laguna Beach?",
+        "answer": "Laguna Beach Unified School District is highly rated, offering excellent public education from elementary through high school.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities can I enjoy in Laguna Beach?",
+        "answer": "You can enjoy beach activities, tide pool exploration, hiking, whale watching, and visiting art festivals.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Laguna Beach?",
+        "answer": "Laguna Beach offers convenient access to the 73 and 405 freeways, with typical commutes to nearby Orange County cities and Los Angeles.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689747a1d030dedaafd97913",
+    "slug": "laguna-hills",
+    "name": "Laguna Hills",
+    "state": "California",
+    "shortDescription": "A family-friendly suburban city known for parks, shopping, and convenient access to Orange County attractions.",
+    "fullDescription": "Laguna Hills offers a comfortable suburban lifestyle with numerous parks, well-maintained neighborhoods, and a variety of shopping and dining options. Located in the Saddleback Valley, it provides easy access to nearby beaches, hiking trails, and entertainment venues. The city is known for its community events and quality schools, making it popular with families and professionals alike.",
+    "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+    "population": "31K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Family-friendly",
+      "Parks & Recreation",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Aliso Viejo",
+        "type": "city",
+        "slug": "aliso-viejo",
+        "description": "Planned community with parks, shopping, and family-friendly living.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Aliso Viejo neighborhood park",
+        "distance": "3 miles southwest",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Laguna Niguel",
+        "type": "city",
+        "slug": "laguna-niguel",
+        "description": "Affluent community known for parks, golf courses, and shopping centers.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential neighborhood in Laguna Niguel",
+        "distance": "4 miles south",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Master-planned community with extensive parks, lakes, and family amenities.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Lake and parks in Mission Viejo",
+        "distance": "5 miles southeast",
+        "avgHomePrice": "$1.0M",
+        "county": "Orange"
+      },
+      {
+        "name": "Irvine",
+        "type": "city",
+        "slug": "irvine",
+        "description": "Large master-planned city with corporate centers, schools, and parks.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Irvine business district and residential area",
+        "distance": "12 miles northwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Parks and Trails",
+        "description": "Multiple parks and walking trails providing recreational opportunities for all ages.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Park with trees and walking path in Laguna Hills"
+      },
+      {
+        "title": "Laguna Hills Community Center",
+        "description": "Offers sports facilities, event spaces, and community programs.",
+        "icon": "🏢",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community center building in Laguna Hills"
+      },
+      {
+        "title": "Shopping and Dining",
+        "description": "Convenient access to shopping centers and a variety of restaurants.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Shopping center with outdoor dining"
+      },
+      {
+        "title": "Proximity to Beaches",
+        "description": "Short drive to popular Orange County beaches like Laguna Beach and Dana Point.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Ocean view near Laguna Hills"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What kind of lifestyle does Laguna Hills offer?",
+        "answer": "Laguna Hills provides a suburban, family-friendly lifestyle with plenty of parks, shopping, and community events.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Laguna Hills?",
+        "answer": "The city is served by the Capistrano Unified School District, which includes well-regarded elementary, middle, and high schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular in Laguna Hills?",
+        "answer": "Residents enjoy hiking, biking, sports at local parks, and visiting nearby beaches.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How convenient is commuting from Laguna Hills?",
+        "answer": "Laguna Hills offers easy access to the 73 and 241 toll roads, providing convenient commutes throughout Orange County and beyond.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689747c9d030dedaafd97914",
+    "slug": "laguna-niguel",
+    "name": "Laguna Niguel",
+    "state": "California",
+    "shortDescription": "An affluent suburban city known for its parks, golf courses, and coastal proximity.",
+    "fullDescription": "Laguna Niguel is a picturesque city nestled in the hills of southern Orange County. Known for its beautiful parks, well-maintained neighborhoods, and excellent recreational facilities, it offers a high quality of life for residents. With convenient access to beaches, shopping, and top-rated schools, Laguna Niguel attracts families and professionals seeking a tranquil yet active lifestyle.",
+    "heroImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80",
+    "population": "65K+",
+    "avgHomePrice": "$1.1M",
+    "tags": [
+      "Affluent",
+      "Parks & Recreation",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Laguna Hills",
+        "type": "city",
+        "slug": "laguna-hills",
+        "description": "Family-friendly suburban city with parks and shopping.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Laguna Hills suburban neighborhood",
+        "distance": "4 miles north",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Master-planned community with lakes, parks, and schools.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Lake and parks in Mission Viejo",
+        "distance": "5 miles southeast",
+        "avgHomePrice": "$1.0M",
+        "county": "Orange"
+      },
+      {
+        "name": "San Juan Capistrano",
+        "type": "city",
+        "slug": "san-juan-capistrano",
+        "description": "Historic city with charming downtown and cultural sites.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic buildings in San Juan Capistrano",
+        "distance": "7 miles south",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Aliso Viejo",
+        "type": "city",
+        "slug": "aliso-viejo",
+        "description": "Planned community with parks and family amenities.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Aliso Viejo neighborhood park",
+        "distance": "6 miles southwest",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Niguel Botanical Preserve",
+        "description": "A beautiful preserve offering walking trails and native plants.",
+        "icon": "🌿",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Walking trails and greenery at Niguel Botanical Preserve"
+      },
+      {
+        "title": "Parks and Recreation",
+        "description": "Extensive parks, sports fields, and community centers for all ages.",
+        "icon": "🏞️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Park with sports fields in Laguna Niguel"
+      },
+      {
+        "title": "Golf Courses",
+        "description": "Several prestigious golf courses provide recreation and scenic views.",
+        "icon": "⛳",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Golf course with sunset view in Laguna Niguel"
+      },
+      {
+        "title": "Coastal Access",
+        "description": "Close proximity to popular beaches and coastal hiking trails.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Coastline near Laguna Niguel"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Laguna Niguel a desirable place to live?",
+        "answer": "Its beautiful parks, excellent schools, golf courses, and proximity to beaches create a desirable family-friendly environment.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Laguna Niguel?",
+        "answer": "Laguna Niguel is served by the Capistrano Unified School District, known for strong academic programs.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available in Laguna Niguel?",
+        "answer": "Residents enjoy hiking, golfing, biking, and beach visits within a short drive.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How convenient is the commute from Laguna Niguel?",
+        "answer": "Laguna Niguel offers easy access to the I-5 and 73 toll roads, connecting to other Orange County cities and beyond.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689747fad030dedaafd97915",
+    "slug": "lake-forest",
+    "name": "Lake Forest",
+    "state": "California",
+    "shortDescription": "A master-planned community known for its scenic lakes, parks, and family-friendly atmosphere.",
+    "fullDescription": "Lake Forest is a vibrant city in Orange County featuring beautiful man-made lakes, numerous parks, and well-maintained neighborhoods. The city offers a welcoming environment for families, with quality schools, shopping centers, and recreational opportunities. Its strategic location provides convenient access to nearby beaches, freeways, and employment hubs, making it an ideal place to live and work.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "85K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Family-friendly",
+      "Lakes & Parks",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Foothill Ranch",
+        "type": "neighborhood",
+        "slug": "foothill-ranch",
+        "description": "Planned community with parks, schools, and shopping nearby.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Neighborhood street in Foothill Ranch",
+        "distance": "3 miles northeast",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Portola Hills",
+        "type": "neighborhood",
+        "slug": "portola-hills",
+        "description": "Hillside community with scenic views and hiking trails.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Hillside homes in Portola Hills",
+        "distance": "4 miles northwest",
+        "avgHomePrice": "$1.0M",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Nearby master-planned community with lakes and parks.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Lake in Mission Viejo",
+        "distance": "5 miles southeast",
+        "avgHomePrice": "$1.0M",
+        "county": "Orange"
+      },
+      {
+        "name": "Rancho Santa Margarita",
+        "type": "city",
+        "slug": "rancho-santa-margarita",
+        "description": "Family-oriented community with open spaces and amenities.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Neighborhood in Rancho Santa Margarita",
+        "distance": "6 miles east",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Lake Forest Parks",
+        "description": "Extensive parks and recreational facilities for families and outdoor enthusiasts.",
+        "icon": "🏞️",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Park area with trees and playground in Lake Forest"
+      },
+      {
+        "title": "Man-Made Lakes",
+        "description": "Scenic lakes offering walking paths, picnicking spots, and community events.",
+        "icon": "🌊",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Lake view with benches and trees"
+      },
+      {
+        "title": "Hiking and Trails",
+        "description": "Numerous trails through nearby hills and open spaces for all skill levels.",
+        "icon": "🥾",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Trail winding through hills in Lake Forest"
+      },
+      {
+        "title": "Community Events",
+        "description": "Regular events and festivals that foster a strong community spirit.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Outdoor community event in Lake Forest park"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the main attractions in Lake Forest?",
+        "answer": "The city is known for its scenic lakes, numerous parks, hiking trails, and family-friendly events.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Lake Forest?",
+        "answer": "Lake Forest is served by highly rated school districts including Saddleback Valley Unified School District.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities can residents enjoy?",
+        "answer": "Residents enjoy hiking, biking, lake activities, and community sports leagues in the many parks.",
+        "category": "Recreation"
+      },
+      {
+        "question": "Is Lake Forest conveniently located for commuting?",
+        "answer": "Yes, Lake Forest offers easy access to I-5 and 241 toll roads, facilitating commutes to nearby cities and employment centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974820d030dedaafd97916",
+    "slug": "los-alamitos",
+    "name": "Los Alamitos",
+    "state": "California",
+    "shortDescription": "A small, charming city known for its community spirit, equestrian culture, and proximity to major Southern California hubs.",
+    "fullDescription": "Los Alamitos offers a friendly, small-town atmosphere with well-maintained neighborhoods and a focus on community events. The city is known for its equestrian culture, historic landmarks, and local parks. Conveniently located near the 605 and 405 freeways, residents enjoy easy access to the beaches, Disneyland, and major employment centers in Orange and Los Angeles counties. Quality schools and local shopping add to the city’s appeal for families and professionals.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "12K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Equestrian",
+      "Community-focused",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Seal Beach",
+        "type": "city",
+        "slug": "seal-beach",
+        "description": "Coastal city with a historic pier, beach access, and charming downtown.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Seal Beach pier at sunset",
+        "distance": "4 miles southwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Cypress",
+        "type": "city",
+        "slug": "cypress",
+        "description": "Residential community known for parks, schools, and family amenities.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Park area in Cypress",
+        "distance": "3 miles north",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Rossmoor",
+        "type": "community",
+        "slug": "rossmoor",
+        "description": "Gated community with golf courses and recreational facilities.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Golf course in Rossmoor",
+        "distance": "2 miles east",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Los Angeles",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "Major urban center with diverse culture, business, and entertainment.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Los Angeles skyline",
+        "distance": "20 miles north",
+        "avgHomePrice": "$900K+",
+        "county": "Los Angeles"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Equestrian Culture",
+        "description": "Strong horse community with trails, stables, and annual equestrian events.",
+        "icon": "🐎",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Horseback rider on a trail"
+      },
+      {
+        "title": "Los Alamitos Race Course",
+        "description": "Historic thoroughbred and quarter horse racing venue attracting visitors year-round.",
+        "icon": "🏇",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Horse racing at Los Alamitos Race Course"
+      },
+      {
+        "title": "Community Parks",
+        "description": "Well-kept parks offering playgrounds, sports fields, and picnic areas for families.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and greenery in a community park"
+      },
+      {
+        "title": "Proximity to Beaches",
+        "description": "Close access to popular Orange County beaches like Seal Beach and Huntington Beach.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sandy beach with ocean waves"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What makes Los Alamitos unique?",
+        "answer": "Its strong equestrian culture, historic racecourse, and close-knit community set it apart.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Los Alamitos?",
+        "answer": "The Los Alamitos Unified School District is highly rated and serves the city with several top schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What recreational activities are available?",
+        "answer": "Residents enjoy horseback riding, community events, parks, and easy access to nearby beaches.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Los Alamitos?",
+        "answer": "Easy freeway access via 605 and 405, with commutes typically ranging from 20 to 45 minutes to key Orange County and Los Angeles areas.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897484ad030dedaafd97917",
+    "slug": "mission-viejo",
+    "name": "Mission Viejo",
+    "state": "California",
+    "shortDescription": "A master-planned community known for its family-friendly environment, extensive parks, and beautiful lake.",
+    "fullDescription": "Mission Viejo is one of Southern California’s largest master-planned communities, offering a suburban lifestyle with abundant parks, recreational facilities, and a vibrant cultural scene. Known for its scenic Lake Mission Viejo, excellent schools, and active community events, the city attracts families and professionals alike. Conveniently located with access to major freeways, residents enjoy proximity to beaches, shopping centers, and employment hubs.",
+    "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+    "population": "95K+",
+    "avgHomePrice": "$950K",
+    "tags": [
+      "Family-friendly",
+      "Outdoor Recreation",
+      "Suburban"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Laguna Hills",
+        "type": "city",
+        "slug": "laguna-hills",
+        "description": "Neighboring city with rolling hills, parks, and residential communities.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential neighborhood in Laguna Hills",
+        "distance": "4 miles northwest",
+        "avgHomePrice": "$880K",
+        "county": "Orange"
+      },
+      {
+        "name": "Lake Forest",
+        "type": "city",
+        "slug": "lake-forest",
+        "description": "Suburban city with parks, shopping, and business centers.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Park and neighborhood in Lake Forest",
+        "distance": "6 miles north",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Trabuco Canyon",
+        "type": "community",
+        "slug": "trabuco-canyon",
+        "description": "Rural area known for hiking, open space, and equestrian activities.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Hiking trail in Trabuco Canyon",
+        "distance": "7 miles northeast",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "San Juan Capistrano",
+        "type": "city",
+        "slug": "san-juan-capistrano",
+        "description": "Historic city with mission, downtown shopping, and cultural attractions.",
+        "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic mission in San Juan Capistrano",
+        "distance": "8 miles south",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Lake Mission Viejo",
+        "description": "Private recreational lake with boating, fishing, swimming, and picnic areas.",
+        "icon": "🏞️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Lake Mission Viejo with boats and shore"
+      },
+      {
+        "title": "Oso Creek Trail",
+        "description": "Popular trail for walking, biking, and enjoying nature throughout the city.",
+        "icon": "🚶‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Trail and greenery along Oso Creek"
+      },
+      {
+        "title": "Mission Viejo Mall",
+        "description": "Shopping center with a variety of retail stores, dining, and entertainment options.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Exterior of Mission Viejo Mall"
+      },
+      {
+        "title": "Family Events & Parks",
+        "description": "Numerous parks, playgrounds, and community events year-round for families.",
+        "icon": "👨‍👩‍👧‍👦",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Families enjoying park activities"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Mission Viejo good for families?",
+        "answer": "Yes, Mission Viejo is known for its safe neighborhoods, good schools, parks, and family-friendly activities.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy boating on Lake Mission Viejo, hiking and biking trails, and numerous parks and recreational programs.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How are the schools in Mission Viejo?",
+        "answer": "The city is served by highly rated school districts, including Capistrano Unified School District with several top schools.",
+        "category": "Education"
+      },
+      {
+        "question": "How is the commute from Mission Viejo?",
+        "answer": "Located near the 5 and 241 freeways, the commute to Orange County business centers and beaches is convenient.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897487dd030dedaafd97918",
+    "slug": "newport-beach",
+    "name": "Newport Beach",
+    "state": "California",
+    "shortDescription": "A coastal city known for its beautiful beaches, luxury harbor, and upscale lifestyle.",
+    "fullDescription": "Newport Beach offers a premier coastal lifestyle with stunning beaches, a vibrant harbor filled with yachts, and an array of upscale dining and shopping. Known for its excellent weather and outdoor recreation, including surfing, boating, and biking, the city attracts residents seeking a mix of leisure and luxury. Its well-planned neighborhoods and quality schools make it a sought-after community in Orange County.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "85K+",
+    "avgHomePrice": "$2.5M",
+    "tags": [
+      "Coastal",
+      "Luxury",
+      "Outdoor Recreation"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Corona del Mar",
+        "type": "community",
+        "slug": "corona-del-mar",
+        "description": "Scenic beachfront neighborhood known for cliffs, coves, and luxury homes.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beach and cliffs in Corona del Mar",
+        "distance": "2 miles southeast",
+        "avgHomePrice": "$3.8M",
+        "county": "Orange"
+      },
+      {
+        "name": "Balboa Island",
+        "type": "community",
+        "slug": "balboa-island",
+        "description": "Charming island community with quaint shops, waterfront homes, and ferry access.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Balboa Island with ferry and waterfront homes",
+        "distance": "1 mile south",
+        "avgHomePrice": "$2.9M",
+        "county": "Orange"
+      },
+      {
+        "name": "Newport Coast",
+        "type": "community",
+        "slug": "newport-coast",
+        "description": "Upscale, gated community with luxury estates and ocean views.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Luxury homes in Newport Coast overlooking the ocean",
+        "distance": "6 miles southeast",
+        "avgHomePrice": "$5.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "Eastbluff",
+        "type": "community",
+        "slug": "eastbluff",
+        "description": "Quiet residential neighborhood with parks and proximity to schools.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential streets and greenery in Eastbluff",
+        "distance": "4 miles northeast",
+        "avgHomePrice": "$1.4M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Newport Harbor",
+        "description": "One of the largest recreational boat harbors on the West Coast, perfect for boating and waterfront dining.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Yachts docked in Newport Harbor"
+      },
+      {
+        "title": "Balboa Pier & Beach",
+        "description": "Popular spot for fishing, surfing, and beachside strolls.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Balboa Pier extending into the ocean"
+      },
+      {
+        "title": "Fashion Island",
+        "description": "Upscale outdoor shopping center with luxury retailers, restaurants, and entertainment.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Fashion Island shopping center in Newport Beach"
+      },
+      {
+        "title": "Outdoor Activities",
+        "description": "Surfing, paddleboarding, biking along the coast, and whale watching tours.",
+        "icon": "🏄",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfers riding waves at Newport Beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Newport Beach known for?",
+        "answer": "Newport Beach is famous for its beautiful beaches, luxury harbor, boating culture, and upscale lifestyle.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "Are there good schools in Newport Beach?",
+        "answer": "Yes, Newport-Mesa Unified School District serves the city with highly rated public and private schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities can I do in Newport Beach?",
+        "answer": "Residents and visitors enjoy surfing, sailing, biking, paddleboarding, and walking along the scenic coastlines.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Newport Beach?",
+        "answer": "Newport Beach has easy access to major freeways including the 405 and 55, with commute times varying depending on destination.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689748a8d030dedaafd97919",
+    "slug": "orange",
+    "name": "Orange",
+    "state": "California",
+    "shortDescription": "Historic city known for its charming Old Town district, tree-lined streets, and strong community vibe.",
+    "fullDescription": "Orange is a vibrant city blending historic charm with modern amenities. Famous for its preserved Old Towne district featuring antique shops, cafes, and the annual Orange International Street Fair, the city offers a welcoming community atmosphere. With quality schools, parks, and easy access to Orange County’s major freeways, Orange appeals to families and professionals alike seeking a mix of tradition and convenience.",
+    "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+    "population": "140K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Historic",
+      "Family-friendly",
+      "Community"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Anaheim",
+        "type": "community",
+        "slug": "anaheim",
+        "description": "Suburban area with spacious homes, parks, and highly rated schools.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+        "imageAlt": "Disneyland entrance in Anaheim",
+        "distance": "5 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Ana",
+        "type": "neighborhood",
+        "slug": "santa-ana",
+        "description": "The county seat with rich cultural heritage, bustling downtown, and diverse communities",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Santa Ana skyline",
+        "distance": "6 miles south",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Old Towne Orange Historic District",
+        "description": "Preserved area with antique shops, restaurants, and annual street fairs.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Historic buildings and street in Old Towne Orange"
+      },
+      {
+        "title": "Irvine Regional Park",
+        "description": "Large park with hiking trails, picnic areas, and a small zoo.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green landscape at Irvine Regional Park"
+      },
+      {
+        "title": "Orange Plaza",
+        "description": "Town square hosting community events, farmers markets, and live music.",
+        "icon": "🎪",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community event at Orange Plaza"
+      },
+      {
+        "title": "Community Events",
+        "description": "Popular events include the Orange International Street Fair and holiday parades.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Street fair with crowds and booths"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Orange known for?",
+        "answer": "Orange is known for its historic Old Towne district, community events, and family-friendly neighborhoods.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Orange?",
+        "answer": "Orange Unified School District offers a range of highly rated public schools serving the city.",
+        "category": "Education"
+      },
+      {
+        "question": "What parks and recreation are available?",
+        "answer": "Irvine Regional Park provides hiking, picnicking, and a small zoo, plus various community parks throughout the city.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Orange?",
+        "answer": "Orange is well-connected by the 55 and 22 freeways, with average commutes of 30-45 minutes to nearby job centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689748f5d030dedaafd9791b",
+    "slug": "rancho-santa-margarita",
+    "name": "Rancho Santa Margarita",
+    "state": "California",
+    "shortDescription": "A master-planned community offering scenic hills, family-friendly neighborhoods, and abundant parks.",
+    "fullDescription": "Rancho Santa Margarita is a vibrant Orange County city known for its well-planned residential communities, picturesque landscapes, and excellent schools. With numerous parks, trails, and recreational facilities, it is ideal for families and outdoor enthusiasts. The city’s central location provides easy access to major freeways, shopping centers, and employment hubs, combining suburban comfort with urban convenience.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "47K+",
+    "avgHomePrice": "$950K",
+    "tags": [
+      "Master-planned",
+      "Family-friendly",
+      "Outdoors"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Coto de Caza",
+        "type": "community",
+        "slug": "coto-de-caza",
+        "description": "Exclusive gated community known for luxury homes and golf courses.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Luxury homes and golf course in Coto de Caza",
+        "distance": "4 miles southeast",
+        "avgHomePrice": "$1.8M",
+        "county": "Orange"
+      },
+      {
+        "name": "Trabuco Highlands",
+        "type": "neighborhood",
+        "slug": "trabuco-highlands",
+        "description": "Family-oriented neighborhood with parks, schools, and hiking trails.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Homes near hiking trails in Trabuco Highlands",
+        "distance": "3 miles west",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Rancho Cielo",
+        "type": "neighborhood",
+        "slug": "rancho-cielo",
+        "description": "Popular residential area with shopping centers and community parks.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban homes and shopping in Rancho Cielo",
+        "distance": "1 mile north",
+        "avgHomePrice": "$850K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Paseo Park",
+        "description": "Community park with playgrounds, picnic areas, and sports courts.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and greenery at Paseo Park"
+      },
+      {
+        "title": "Rancho Santa Margarita Lake",
+        "description": "Popular spot for walking, fishing, and relaxing by the water.",
+        "icon": "🌊",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Lake view with walking trail in Rancho Santa Margarita"
+      },
+      {
+        "title": "Outdoor Trails",
+        "description": "Extensive hiking and biking trails throughout the hills and canyons.",
+        "icon": "🚶‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Hiking trail with hills in Rancho Santa Margarita"
+      },
+      {
+        "title": "Community Events",
+        "description": "Year-round events including farmers markets, concerts, and holiday festivals.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Crowd enjoying a community festival"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Rancho Santa Margarita known for?",
+        "answer": "It is known for its master-planned communities, scenic outdoor spaces, and family-friendly atmosphere.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Rancho Santa Margarita?",
+        "answer": "The city is served by the Capistrano Unified School District, with several highly rated schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy hiking, biking, fishing, and community park amenities.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Rancho Santa Margarita?",
+        "answer": "The city offers easy access to the 241 and 261 toll roads, with commutes typically around 30-45 minutes to nearby job centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897491fd030dedaafd9791c",
+    "slug": "san-clemente",
+    "name": "San Clemente",
+    "state": "California",
+    "shortDescription": "A coastal city known for its Spanish-style architecture, beautiful beaches, and vibrant downtown.",
+    "fullDescription": "San Clemente offers a charming blend of coastal living and historic architecture. Famous for its stunning ocean views, surfing spots, and Mediterranean-inspired buildings, this city is a favorite for families and outdoor enthusiasts alike. With a lively downtown featuring boutique shops, restaurants, and cultural events, San Clemente combines small-town charm with modern amenities. Easy access to major highways makes it a convenient location for commuters.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "65K+",
+    "avgHomePrice": "$1.1M",
+    "tags": [
+      "Coastal",
+      "Historic",
+      "Outdoor"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Talega",
+        "type": "community",
+        "slug": "talega",
+        "description": "Master-planned community with golf courses, parks, and family-friendly amenities.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Golf course and homes in Talega",
+        "distance": "5 miles northeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "North Beach",
+        "type": "neighborhood",
+        "slug": "north-beach",
+        "description": "Popular coastal neighborhood with beach access, surfing spots, and restaurants.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Beachfront and surfboards at North Beach",
+        "distance": "2 miles west",
+        "avgHomePrice": "$1.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "Mariner's Mile",
+        "type": "commercial",
+        "slug": "mariners-mile",
+        "description": "Waterfront commercial area with shops, dining, and marina access.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Marina and waterfront dining at Mariner's Mile",
+        "distance": "3 miles south",
+        "avgHomePrice": "$1.3M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "San Clemente Pier",
+        "description": "Iconic pier offering fishing, dining, and panoramic ocean views.",
+        "icon": "🌅",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sunset over San Clemente Pier"
+      },
+      {
+        "title": "Casa Romantica",
+        "description": "Historic Spanish-style estate and cultural arts center overlooking the ocean.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Casa Romantica estate with ocean view"
+      },
+      {
+        "title": "Beaches and Surfing",
+        "description": "World-class surfing spots and sandy beaches ideal for sunbathing and recreation.",
+        "icon": "🏄‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfers riding waves at San Clemente beach"
+      },
+      {
+        "title": "Downtown San Clemente",
+        "description": "Charming area with boutique shops, restaurants, and regular community events.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown San Clemente street with shops and cafes"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is San Clemente known for?",
+        "answer": "San Clemente is known for its beautiful beaches, Spanish-style architecture, and the iconic San Clemente Pier.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in San Clemente?",
+        "answer": "The city is served by the Capistrano Unified School District, which includes several highly rated schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular in San Clemente?",
+        "answer": "Residents and visitors enjoy surfing, hiking coastal trails, fishing, and beach activities.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from San Clemente?",
+        "answer": "San Clemente offers easy access to the I-5 freeway, with commute times typically ranging from 30 to 60 minutes to major Orange County and Los Angeles job centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897497fd030dedaafd9791e",
+    "slug": "santa-ana",
+    "name": "Santa Ana",
+    "state": "California",
+    "shortDescription": "Vibrant urban city known for its rich cultural heritage, arts scene, and diverse communities.",
+    "fullDescription": "Santa Ana is the county seat of Orange County and one of its largest cities. Known for its historic downtown, thriving arts and cultural institutions, and diverse population, Santa Ana offers a dynamic urban environment. The city boasts numerous museums, theaters, and community events that celebrate its heritage. With a mix of residential neighborhoods and commercial hubs, Santa Ana provides a lively, affordable alternative to coastal Orange County cities while maintaining easy freeway access to surrounding areas.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "310K+",
+    "avgHomePrice": "$700K",
+    "tags": [
+      "Urban",
+      "Cultural",
+      "Diverse"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown Santa Ana",
+        "type": "district",
+        "slug": "downtown-santa-ana",
+        "description": "Historic core with theaters, galleries, restaurants, and vibrant nightlife.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Santa Ana at night with lit buildings",
+        "distance": "Central",
+        "avgHomePrice": "$650K",
+        "county": "Orange"
+      },
+      {
+        "name": "North Santa Ana",
+        "type": "residential",
+        "slug": "north-santa-ana",
+        "description": "Predominantly residential area with schools, parks, and family-friendly amenities.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential homes and park in North Santa Ana",
+        "distance": "North",
+        "avgHomePrice": "$720K",
+        "county": "Orange"
+      },
+      {
+        "name": "South Santa Ana",
+        "type": "mixed-use",
+        "slug": "south-santa-ana",
+        "description": "Mix of residential, commercial, and light industrial areas with ongoing development.",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Mixed urban neighborhood in South Santa Ana",
+        "distance": "South",
+        "avgHomePrice": "$680K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Bowers Museum",
+        "description": "World-class museum showcasing art and cultural artifacts from around the globe.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Exterior of Bowers Museum in Santa Ana"
+      },
+      {
+        "title": "Santa Ana Zoo",
+        "description": "Popular family attraction featuring animals native to Central and South America.",
+        "icon": "🐒",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Animals and habitat at Santa Ana Zoo"
+      },
+      {
+        "title": "Artist Village",
+        "description": "Creative district with galleries, murals, studios, and arts events.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Colorful murals in Santa Ana’s Artist Village"
+      },
+      {
+        "title": "Discovery Cube Orange County",
+        "description": "Interactive science museum offering hands-on exhibits for children and families.",
+        "icon": "🔬",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Interactive science exhibits at Discovery Cube"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Santa Ana known for?",
+        "answer": "Santa Ana is known for its vibrant arts scene, historic downtown, diverse culture, and family-friendly attractions.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Santa Ana?",
+        "answer": "The city is served primarily by the Santa Ana Unified School District, offering a range of public and charter schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents can enjoy parks, community events, and visits to the Santa Ana Zoo and local trails.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute to nearby cities?",
+        "answer": "Santa Ana has excellent freeway access via the I-5, SR-55, and SR-22, with commute times to nearby Orange County cities and Los Angeles varying from 20 to 60 minutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689749b2d030dedaafd9791f",
+    "slug": "seal-beach",
+    "name": "Seal Beach",
+    "state": "California",
+    "shortDescription": "Charming coastal city known for its relaxed beach vibe, historic pier, and friendly community.",
+    "fullDescription": "Seal Beach is a picturesque seaside community in Orange County, offering a small-town atmosphere with beautiful beaches, a historic pier, and quaint downtown shopping and dining. The city attracts visitors and residents seeking a laid-back coastal lifestyle with easy access to surfing, boating, and beachside recreation. Known for its safety, friendly neighborhoods, and community events, Seal Beach is ideal for families, retirees, and anyone looking for a peaceful yet vibrant coastal city experience.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "25K+",
+    "avgHomePrice": "$1.3M",
+    "tags": [
+      "Coastal",
+      "Family-friendly",
+      "Historic"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Old Town Seal Beach",
+        "type": "district",
+        "slug": "old-town-seal-beach",
+        "description": "Historic downtown area with boutique shops, restaurants, and access to the pier.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Old Town Seal Beach shopping district",
+        "distance": "Central",
+        "avgHomePrice": "$1.4M",
+        "county": "Orange"
+      },
+      {
+        "name": "Surfside",
+        "type": "residential",
+        "slug": "surfside",
+        "description": "Quiet neighborhood near the beach with single-family homes and parks.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential homes near the beach in Surfside",
+        "distance": "West",
+        "avgHomePrice": "$1.3M",
+        "county": "Orange"
+      },
+      {
+        "name": "College Park East",
+        "type": "residential",
+        "slug": "college-park-east",
+        "description": "Family-oriented community with schools, parks, and easy freeway access.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Neighborhood park in College Park East",
+        "distance": "East",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Seal Beach Pier",
+        "description": "One of the longest wooden piers on the West Coast, perfect for fishing and scenic walks.",
+        "icon": "🌉",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sunset view of Seal Beach Pier"
+      },
+      {
+        "title": "Seal Beach National Wildlife Refuge",
+        "description": "Protected wetlands and wildlife habitat with walking trails and birdwatching opportunities.",
+        "icon": "🦆",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Wetlands and birds at Seal Beach Refuge"
+      },
+      {
+        "title": "Downtown Seal Beach",
+        "description": "Vibrant district with local shops, eateries, and frequent community events and festivals.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown Seal Beach street scene"
+      },
+      {
+        "title": "Surfing & Beach Activities",
+        "description": "Popular surf spots and family-friendly beaches ideal for swimming, sunbathing, and picnics.",
+        "icon": "🏄‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfers and beachgoers at Seal Beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Seal Beach known for?",
+        "answer": "Seal Beach is known for its historic pier, coastal charm, family-friendly atmosphere, and wildlife refuge.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Seal Beach?",
+        "answer": "Seal Beach is served by the Los Alamitos Unified School District, known for high-quality public education.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities can I do in Seal Beach?",
+        "answer": "Popular activities include surfing, fishing at the pier, beach volleyball, birdwatching at the wildlife refuge, and walking trails.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Seal Beach?",
+        "answer": "Seal Beach offers easy freeway access to Long Beach, Los Angeles, and other parts of Orange County with commute times typically ranging from 30 to 60 minutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689749d8d030dedaafd97920",
+    "slug": "stanton",
+    "name": "Stanton",
+    "state": "California",
+    "shortDescription": "A vibrant city blending residential neighborhoods, shopping centers, and community parks with easy access to Orange County attractions.",
+    "fullDescription": "Stanton is a diverse and growing city in Orange County known for its affordable housing, community-focused lifestyle, and convenient location near major freeways and shopping destinations. Residents enjoy numerous parks, recreational facilities, and cultural events, making it an attractive spot for families and young professionals. With close proximity to Disneyland, the Anaheim Convention Center, and beaches, Stanton offers a blend of suburban living and easy access to Southern California’s top attractions.",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+    "population": "40K+",
+    "avgHomePrice": "$750K",
+    "tags": [
+      "Affordable",
+      "Family-friendly",
+      "Convenient"
+    ],
+    "neighborhoods": [
+      {
+        "name": "West Stanton",
+        "type": "district",
+        "slug": "west-stanton",
+        "description": "Residential area with established neighborhoods and nearby parks.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential homes and greenery in West Stanton",
+        "distance": "West",
+        "avgHomePrice": "$700K",
+        "county": "Orange"
+      },
+      {
+        "name": "Downtown Stanton",
+        "type": "district",
+        "slug": "downtown-stanton",
+        "description": "Commercial and retail hub featuring shops, restaurants, and community centers.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown Stanton shopping district",
+        "distance": "Central",
+        "avgHomePrice": "$770K",
+        "county": "Orange"
+      },
+      {
+        "name": "East Stanton",
+        "type": "district",
+        "slug": "east-stanton",
+        "description": "Neighborhood with newer developments and easy freeway access.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "New homes in East Stanton",
+        "distance": "East",
+        "avgHomePrice": "$760K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Stanton Central Park",
+        "description": "Large community park with sports fields, playgrounds, and picnic areas.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and trees at Stanton Central Park"
+      },
+      {
+        "title": "Stanton Civic Center",
+        "description": "Hub for city services, public events, and cultural activities.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Stanton Civic Center building"
+      },
+      {
+        "title": "Shopping and Dining",
+        "description": "Various shopping plazas and diverse dining options serving the local community.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Shopping center with restaurants"
+      },
+      {
+        "title": "Community Events",
+        "description": "Regular farmers markets, cultural festivals, and family-friendly gatherings throughout the year.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Family festival in Stanton"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Stanton known for?",
+        "answer": "Stanton is known for its affordable housing, family-friendly environment, and proximity to Orange County attractions.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Stanton?",
+        "answer": "Stanton is served by the Stanton Unified School District, offering several elementary, middle, and high schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular in Stanton?",
+        "answer": "Residents enjoy community parks, sports leagues, and local events like farmers markets and cultural festivals.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Stanton?",
+        "answer": "Stanton has easy access to the 405 and 605 freeways, providing convenient commutes to Anaheim, Long Beach, and Los Angeles.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689749fed030dedaafd97921",
+    "slug": "tustin",
+    "name": "Tustin",
+    "state": "California",
+    "shortDescription": "A vibrant city known for its historic Old Town, diverse neighborhoods, and family-friendly community amenities.",
+    "fullDescription": "Tustin combines rich history with modern suburban living, featuring the charming Old Town district with unique shops, restaurants, and cultural landmarks. The city offers a variety of housing options, excellent schools, and numerous parks and recreational facilities. Conveniently located near major freeways and employment centers, Tustin attracts families, professionals, and retirees looking for a welcoming community with easy access to Orange County’s attractions and beaches.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "80K+",
+    "avgHomePrice": "$900K",
+    "tags": [
+      "Historic",
+      "Family-friendly",
+      "Convenient"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Old Town Tustin",
+        "type": "district",
+        "slug": "old-town-tustin",
+        "description": "Historic downtown area with boutiques, eateries, and community events.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Historic buildings and shops in Old Town Tustin",
+        "distance": "Central",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Tustin Ranch",
+        "type": "district",
+        "slug": "tustin-ranch",
+        "description": "Master-planned community with golf course, parks, and schools.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Golf course and homes in Tustin Ranch",
+        "distance": "East",
+        "avgHomePrice": "$920K",
+        "county": "Orange"
+      },
+      {
+        "name": "North Tustin",
+        "type": "district",
+        "slug": "north-tustin",
+        "description": "Residential area with larger lots and upscale homes.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Upscale homes in North Tustin",
+        "distance": "North",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Old Town Tustin",
+        "description": "Historic district featuring shops, restaurants, and seasonal festivals.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Main street in Old Town Tustin"
+      },
+      {
+        "title": "Tustin Ranch Golf Club",
+        "description": "Popular golf course and country club serving the community.",
+        "icon": "⛳",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Golf course with green fairways"
+      },
+      {
+        "title": "Parks & Recreation",
+        "description": "Numerous parks, trails, and recreational facilities for families and active residents.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and picnic area in Tustin park"
+      },
+      {
+        "title": "Community Events",
+        "description": "Farmers markets, art walks, and cultural events throughout the year.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Community festival in Tustin"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Tustin known for?",
+        "answer": "Tustin is known for its historic Old Town district, family-friendly neighborhoods, and convenient Orange County location.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Tustin?",
+        "answer": "Tustin Unified School District serves the city, offering highly rated elementary, middle, and high schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular in Tustin?",
+        "answer": "Residents enjoy golf, parks, community trails, and seasonal events like farmers markets and art walks.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Tustin?",
+        "answer": "Tustin has easy access to the 5 and 55 freeways, offering commutes to Irvine, Orange, and nearby employment hubs.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68974a64d030dedaafd97923",
+    "slug": "yorba-linda",
+    "name": "Yorba Linda",
+    "state": "California",
+    "shortDescription": "A picturesque suburban city known for its spacious homes, excellent schools, and abundant parks.",
+    "fullDescription": "Yorba Linda offers a peaceful suburban lifestyle with beautiful tree-lined streets, large residential lots, and top-ranked schools. Known as the birthplace of President Richard Nixon, the city features historical sites, extensive parks, and trails that promote outdoor living. Families and professionals alike are drawn to Yorba Linda’s community events, strong public services, and convenient freeway access to Orange County and beyond.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "70K+",
+    "avgHomePrice": "$1.2M",
+    "tags": [
+      "Suburban",
+      "Family-friendly",
+      "Parks & Trails"
+    ],
+    "neighborhoods": [
+      {
+        "name": "East Yorba Linda",
+        "type": "district",
+        "slug": "east-yorba-linda",
+        "description": "Quiet residential area with large homes and access to regional parks.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Residential street in East Yorba Linda",
+        "distance": "East",
+        "avgHomePrice": "$1.3M",
+        "county": "Orange"
+      },
+      {
+        "name": "West Yorba Linda",
+        "type": "district",
+        "slug": "west-yorba-linda",
+        "description": "Suburban neighborhood near schools, shopping, and recreational facilities.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood in West Yorba Linda",
+        "distance": "West",
+        "avgHomePrice": "$1.15M",
+        "county": "Orange"
+      },
+      {
+        "name": "Historic Yorba Linda",
+        "type": "district",
+        "slug": "historic-yorba-linda",
+        "description": "Area with historic sites including the Nixon Presidential Library and Museum.",
+        "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Nixon Presidential Library in Yorba Linda",
+        "distance": "Central",
+        "avgHomePrice": "$1.25M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Nixon Presidential Library",
+        "description": "Museum and library honoring the 37th U.S. President, featuring exhibits and historical archives.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Nixon Presidential Library building"
+      },
+      {
+        "title": "Parks & Trails",
+        "description": "Extensive parks and hiking trails including Yorba Regional Park and Black Gold Golf Club.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Park with trees and open spaces"
+      },
+      {
+        "title": "Family-Friendly Community",
+        "description": "Excellent schools, community events, and recreational facilities support a family-oriented lifestyle.",
+        "icon": "👨‍👩‍👧‍👦",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Family enjoying park in Yorba Linda"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Yorba Linda known for?",
+        "answer": "Yorba Linda is known as the birthplace of President Richard Nixon and for its family-friendly suburban environment with parks and top schools.",
+        "category": "History & Lifestyle"
+      },
+      {
+        "question": "How are the schools in Yorba Linda?",
+        "answer": "The city is served by the highly-rated Placentia-Yorba Linda Unified School District with several award-winning schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are popular?",
+        "answer": "Residents enjoy hiking, biking, and picnicking in Yorba Regional Park and other local green spaces.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Yorba Linda?",
+        "answer": "Yorba Linda offers convenient freeway access to Orange County and Los Angeles, with average commute times of 30-45 minutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689756a5d030dedaafd97924",
+    "slug": "placentia",
+    "name": "Placentia",
+    "state": "California",
+    "shortDescription": "Charming suburban city known for its tree-lined streets, historic downtown, and family-friendly environment.",
+    "fullDescription": "Placentia is a welcoming community in Orange County that offers a small-town feel with convenient access to larger urban centers. Known for its well-maintained parks, quality schools, and a vibrant historic district featuring shops and restaurants, Placentia is popular with families and professionals seeking a balanced lifestyle. Its location near major freeways makes commuting to neighboring cities easy.",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+    "population": "52K+",
+    "avgHomePrice": "$800K",
+    "tags": [
+      "Family-friendly",
+      "Historic",
+      "Community"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fullerton",
+        "type": "city",
+        "slug": "fullerton",
+        "description": "Historic college town with a lively downtown, arts scene, and established neighborhoods.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Downtown street scene representative of Fullerton",
+        "distance": "2 miles west",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Major Orange County city known for entertainment, sports, and diverse neighborhoods.",
+        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "City boulevard scene representative of Anaheim",
+        "distance": "3 miles southwest",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Brea",
+        "type": "city",
+        "slug": "brea",
+        "description": "Suburban city with shopping, dining, and well-rated schools north of Placentia.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood street representative of Brea",
+        "distance": "4 miles northwest",
+        "avgHomePrice": "$950K",
+        "county": "Orange"
+      },
+      {
+        "name": "Yorba Linda",
+        "type": "city",
+        "slug": "yorba-linda",
+        "description": "Upscale residential community with parks, trails, and spacious homes east of Placentia.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Green hills and suburban homes representative of Yorba Linda",
+        "distance": "3 miles northeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Historic Downtown Placentia",
+        "description": "Vibrant area with boutique shops, dining, and community events.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+        "bgImageAlt": "Shops and streets in Historic Downtown Placentia"
+      },
+      {
+        "title": "Craig Regional Park",
+        "description": "Large park featuring playgrounds, picnic areas, and sports facilities.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Playground and greenery at Craig Regional Park"
+      },
+      {
+        "title": "Placentia Library District",
+        "description": "Modern library with community programs and events.",
+        "icon": "📚",
+        "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Placentia Library building exterior"
+      },
+      {
+        "title": "Community Events",
+        "description": "Popular events include summer concerts, farmers markets, and seasonal festivals.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Crowd enjoying a local festival"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Placentia known for?",
+        "answer": "Placentia is known for its historic downtown, family-friendly neighborhoods, and community events.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in Placentia?",
+        "answer": "Placentia is served by the Placentia-Yorba Linda Unified School District, offering highly rated schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What parks are available in Placentia?",
+        "answer": "Craig Regional Park and several community parks provide recreational options for residents.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Placentia?",
+        "answer": "The city has easy access to the 57 and 91 freeways, with typical commutes of 30-45 minutes to nearby job centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6897576cd030dedaafd97925",
+    "slug": "san-juan-capistrano",
+    "name": "San Juan Capistrano",
+    "state": "California",
+    "shortDescription": "Historic city known for its Spanish mission, charming downtown, and vibrant cultural heritage.",
+    "fullDescription": "San Juan Capistrano is renowned for its rich history, centered around the famous Mission San Juan Capistrano, often called the 'Jewel of the Missions.' The city offers a quaint and picturesque downtown with unique shops, art galleries, and restaurants, all nestled within a community that embraces its heritage. Surrounded by rolling hills and close to the coast, it balances historic charm with modern living, attracting families and visitors who appreciate culture, nature, and small-town warmth.",
+    "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+    "population": "36K+",
+    "avgHomePrice": "$1.0M",
+    "tags": [
+      "Historic",
+      "Cultural",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Dana Point",
+        "type": "city",
+        "slug": "dana-point",
+        "description": "Coastal city with a scenic harbor, beaches, and oceanfront parks just south of San Juan Capistrano.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Coastal bluff and ocean view representative of Dana Point",
+        "distance": "5 miles southwest",
+        "avgHomePrice": "$1.5M",
+        "county": "Orange"
+      },
+      {
+        "name": "San Clemente",
+        "type": "city",
+        "slug": "san-clemente",
+        "description": "Beach city known for its pier, Spanish Colonial architecture, and relaxed surf culture.",
+        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Coastal shoreline representative of San Clemente",
+        "distance": "6 miles southeast",
+        "avgHomePrice": "$1.3M",
+        "county": "Orange"
+      },
+      {
+        "name": "Laguna Niguel",
+        "type": "city",
+        "slug": "laguna-niguel",
+        "description": "Upscale suburban community with parks, trails, and rolling hills northwest of SJC.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Green hills and suburban homes representative of Laguna Niguel",
+        "distance": "7 miles northwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Mission Viejo",
+        "type": "city",
+        "slug": "mission-viejo",
+        "description": "Master-planned city with lakeside recreation, parks, and family neighborhoods north of SJC.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood street representative of Mission Viejo",
+        "distance": "8 miles north",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Mission San Juan Capistrano",
+        "description": "Historic Spanish mission founded in 1776, known for its beautiful architecture and annual swallows return event.",
+        "icon": "🏛️",
+        "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Mission San Juan Capistrano building facade"
+      },
+      {
+        "title": "Los Rios Historic District",
+        "description": "One of California’s oldest neighborhoods featuring preserved homes, shops, and dining in a charming setting.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Adobe homes and streets in Los Rios district"
+      },
+      {
+        "title": "San Juan Capistrano Regional Library",
+        "description": "Modern library with extensive resources, community programs, and events for all ages.",
+        "icon": "📚",
+        "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Library building and reading area"
+      },
+      {
+        "title": "Outdoor Recreation",
+        "description": "Hiking trails, parks, and nearby beaches provide residents with ample outdoor activities year-round.",
+        "icon": "🌿",
+        "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Hiking trail and open landscape"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is San Juan Capistrano famous for?",
+        "answer": "The city is best known for the historic Mission San Juan Capistrano and the annual return of the swallows.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How are the schools in San Juan Capistrano?",
+        "answer": "San Juan Capistrano is served by Capistrano Unified School District, featuring highly-rated public and private schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities can residents enjoy?",
+        "answer": "Residents enjoy hiking, horseback riding, and beach activities nearby, including the nearby Dana Point coastline.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from San Juan Capistrano?",
+        "answer": "The city has easy access to the I-5 freeway, with commute times to major employment centers in Orange County and Los Angeles ranging from 30 to 60 minutes.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68975847d030dedaafd97926",
+    "slug": "westminster",
+    "name": "Westminster",
+    "state": "California",
+    "shortDescription": "A culturally vibrant city known for its rich Vietnamese heritage, diverse communities, and family-friendly atmosphere.",
+    "fullDescription": "Westminster is a dynamic city in Orange County recognized for its vibrant Little Saigon district, which is the largest Vietnamese community outside of Vietnam. The city blends cultural richness with suburban amenities, featuring excellent schools, parks, and community centers. Residents enjoy a variety of shopping, dining, and entertainment options, alongside numerous annual cultural festivals. Westminster offers convenient freeway access and a welcoming environment for families and professionals.",
+    "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+    "population": "90K+",
+    "avgHomePrice": "$750K",
+    "tags": [
+      "Cultural",
+      "Family-friendly",
+      "Diverse"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Garden Grove",
+        "type": "city",
+        "slug": "garden-grove",
+        "description": "Neighboring city with historic downtown, parks, and diverse dining options east of Westminster.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban street representative of Garden Grove",
+        "distance": "2 miles east",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      },
+      {
+        "name": "Fountain Valley",
+        "type": "city",
+        "slug": "fountain-valley",
+        "description": "Family-friendly suburban city with parks, wide streets, and community amenities south of Westminster.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Park and suburban homes representative of Fountain Valley",
+        "distance": "2 miles south",
+        "avgHomePrice": "$900K",
+        "county": "Orange"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Coastal city known for beaches, surfing, and a lively downtown southwest of Westminster.",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Ocean waves at sunset representative of Huntington Beach",
+        "distance": "6 miles southwest",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Ana",
+        "type": "city",
+        "slug": "santa-ana",
+        "description": "County seat with museums, civic centers, and historic neighborhoods southeast of Westminster.",
+        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "City boulevard representative of Santa Ana",
+        "distance": "7 miles southeast",
+        "avgHomePrice": "$800K",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Little Saigon",
+        "description": "Largest Vietnamese community outside Vietnam, known for vibrant markets, eateries, and cultural festivals.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Market scene in Little Saigon"
+      },
+      {
+        "title": "Westminster Mall",
+        "description": "Popular shopping destination with a variety of retailers, dining options, and entertainment venues.",
+        "icon": "🛒",
+        "bgImage": "https://images.unsplash.com/photo-1520975692530-9d896fe7e62d?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Westminster Mall entrance"
+      },
+      {
+        "title": "Community Parks",
+        "description": "Numerous parks and recreational areas with playgrounds, sports fields, and walking trails.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Park with trees and walking paths"
+      },
+      {
+        "title": "Cultural Festivals",
+        "description": "Annual Tet Festival and Lunar New Year celebrations drawing thousands of visitors.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Crowds celebrating Lunar New Year"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Westminster known for?",
+        "answer": "Westminster is best known for its Little Saigon district, the largest Vietnamese community outside of Vietnam, cultural diversity, and vibrant festivals.",
+        "category": "Culture"
+      },
+      {
+        "question": "How are the schools in Westminster?",
+        "answer": "Westminster is served by the Westminster School District and Ocean View School District, offering a range of elementary, middle, and high schools.",
+        "category": "Education"
+      },
+      {
+        "question": "What outdoor activities are available?",
+        "answer": "Residents enjoy numerous parks, sports fields, walking trails, and community recreation programs.",
+        "category": "Recreation"
+      },
+      {
+        "question": "How is the commute from Westminster?",
+        "answer": "Westminster has convenient access to the 405 and 22 freeways, enabling commutes to surrounding Orange County cities and Los Angeles.",
         "category": "Transportation"
       }
     ],
