@@ -30,6 +30,7 @@ export default function BlogManager({
   const [statusFilter, setStatusFilter] = useState<string>('all')
   const [categoryFilter, setCategoryFilter] = useState<string>('all')
   const [languageFilter, setLanguageFilter] = useState<string>('all')
+  const [groupFilter, setGroupFilter] = useState<string>('all')
   const [searchTerm, setSearchTerm] = useState<string>('')
   const [showFilters, setShowFilters] = useState<boolean>(false)
 
@@ -73,20 +74,26 @@ export default function BlogManager({
     return langs.sort()
   }, [blogs])
 
+  const groupIds = useMemo(() => {
+    const groups = [...new Set(blogs.map(blog => blog.group_id || 0))]
+    return groups.sort((a, b) => a - b)
+  }, [blogs])
+
   // Filter blogs based on current filters
   const filteredBlogs = useMemo(() => {
     return blogs.filter((blog: ExtendedBlogType) => {
       const matchesStatus = statusFilter === 'all' || (blog.status || 'Draft') === statusFilter
       const matchesCategory = categoryFilter === 'all' || blog.category === categoryFilter
       const matchesLanguage = languageFilter === 'all' || (blog.language || 'en') === languageFilter
+      const matchesGroup = groupFilter === 'all' || (blog.group_id || 0) === parseInt(groupFilter, 10)
       const matchesSearch = searchTerm === '' || 
         blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (blog.subtitle || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
         getAuthorName(blog).toLowerCase().includes(searchTerm.toLowerCase())
 
-      return matchesStatus && matchesCategory && matchesLanguage && matchesSearch
+      return matchesStatus && matchesCategory && matchesLanguage && matchesGroup && matchesSearch
     })
-  }, [blogs, statusFilter, categoryFilter, languageFilter, searchTerm])
+  }, [blogs, statusFilter, categoryFilter, languageFilter, groupFilter, searchTerm])
 
   // Handle generate webhook call
   const handleGenerate = async () => {
@@ -231,6 +238,20 @@ export default function BlogManager({
                 ))}
               </select>
             </div>
+
+            <div className="filter-group">
+              <label>Group:</label>
+              <select 
+                value={groupFilter} 
+                onChange={(e) => setGroupFilter(e.target.value)}
+                className="filter-select"
+              >
+                <option value="all">All Groups</option>
+                {groupIds.map(groupId => (
+                  <option key={groupId} value={groupId}>Group {groupId}</option>
+                ))}
+              </select>
+            </div>
           </div>
           
           <div className="filter-actions">
@@ -239,6 +260,7 @@ export default function BlogManager({
                 setStatusFilter('all')
                 setCategoryFilter('all')
                 setLanguageFilter('all')
+                setGroupFilter('all')
                 setSearchTerm('')
               }}
               className="clear-filters-btn"
