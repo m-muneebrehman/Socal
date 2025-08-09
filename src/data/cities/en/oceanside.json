@@ -1,0 +1,186 @@
+{
+  "slug": "oceanside",
+  "name": "Oceanside",
+  "state": "California",
+  "shortDescription": "A classic Southern California beach city with a historic pier, harbor life, and an active surf and arts scene.",
+  "fullDescription": "Oceanside is a vibrant coastal city in northern San Diego County known for its long sandy beaches, the historic Oceanside Pier, a growing arts community, and an active harbor. With easy access to outdoor recreation, waterfront dining, and family-friendly attractions, Oceanside blends laid-back beach culture with modern neighborhood conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Pacific ocean waves and sandy shoreline at sunset",
+  "population": "45K+",
+  "avgHomePrice": "$900K+",
+  "tags": [
+    "Beachfront",
+    "Surf",
+    "Harbor"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "A neighboring coastal city famous for its beaches, Flower Fields, and family attractions like LEGOLAND.",
+        "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Sunset pier and coastline near Carlsbad",
+      "distance": "7 miles south",
+      "avgHomePrice": "$1.1M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "city",
+      "slug": "vista",
+      "description": "Inland city with a growing craft-beer scene, parks, and a family-friendly community feel.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood and tree-lined street",
+      "distance": "8 miles east",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "city",
+      "slug": "encinitas",
+      "description": "A laid-back surf town known for great waves, the San Diego Botanic Garden, and a strong arts community.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas surf spot at sunrise",
+      "distance": "12 miles south",
+      "avgHomePrice": "$1.0M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Inland community with scenic hills, good schools, and growing retail and dining options.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Rolling green hills and open space near San Marcos",
+      "distance": "10 miles east",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Beachfront Access",
+      "description": "Miles of sandy shoreline with surfing, swimming, and family-friendly beach parks near the iconic Oceanside Pier.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sandy beach and rolling Pacific waves at sunset"
+    },
+    {
+      "title": "Historic Oceanside Pier",
+      "description": "Stroll the wooden pier at sunrise or sunset — a local landmark with great fishing and views of the coastline.",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Long wooden pier reaching over the ocean at sunset"
+    },
+    {
+      "title": "Oceanside Harbor & Waterfront",
+      "description": "The harbor area features boating, seafood restaurants, and family activities in a relaxed waterfront setting.",
+      "icon": "🚤",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boats docked at a sunny marina"
+    },
+    {
+      "title": "Arts & Local Life",
+      "description": "A growing arts scene with galleries, public murals, and seasonal events that celebrate the city’s coastal lifestyle.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colorful outdoor mural and street art"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Oceanside?",
+      "answer": "Popular options include the beachfront neighborhoods near the pier, Harbor region for waterfront living, and nearby Carlsbad or Encinitas for more suburban coastal options.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Oceanside?",
+      "answer": "Oceanside offers a range from cozy beach cottages to newer condos and luxury oceanview homes; prices vary accordingly, with coastal properties commanding premiums.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can I do in Oceanside?",
+      "answer": "Visit the pier, Surf, try harbor dining, explore nearby botanical gardens in Encinitas, and enjoy seasonal festivals and outdoor concerts.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Oceanside?",
+      "answer": "Oceanside is served by Hwy 5, Amtrak/COASTER rail service, and transit connections — commutes into northern San Diego County or south to central San Diego are common.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Oceanside CA Real Estate & Lifestyle Guide | Beach Living & Harbor Life",
+    "metaDescription": "Explore Oceanside's beaches, historic pier, harbor dining, and nearby coastal communities like Carlsbad and Encinitas. Find the perfect beach lifestyle in North San Diego County.",
+    "keywords": "Oceanside real estate, Oceanside Pier, Oceanside Harbor, Carlsbad, Encinitas, beach homes California",
+    "ogTitle": "Discover Oceanside: Pier, Beaches & Harbor Living",
+    "ogDescription": "Learn about Oceanside neighborhoods, real estate options, and coastal lifestyle in North San Diego County.",
+    "ogImage": "https://images.unsplash.com/photo-1604964432806-254178c73211?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Oceanside pier and coastline at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Oceanside",
+      "description": "Explore real estate, neighborhoods, and highlights in Oceanside, California.",
+      "url": "https://example.com/locations/oceanside",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1604964432806-254178c73211?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Oceanside pier and coastline at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Oceanside",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Oceanside?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The beachfront near the Pier, Oceanside Harbor, and nearby Carlsbad or Encinitas are popular choices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Oceanside?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prices vary widely depending on proximity to the beach and home type; coastal properties are typically at a premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I do in Oceanside?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy the pier, beaches, harbor dining, local art, and outdoor recreation like surfing and biking the coast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Oceanside?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oceanside is well-connected by I-5 and rail; commute times vary depending on destination and time of day."
+          }
+        }
+      ]
+    }
+  ]
+}

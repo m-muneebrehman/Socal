@@ -31,9 +31,9 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 }) {
-  const { locale } = await params;
+  const { locale } = params;
   if (!locales.includes(locale as string)) {
     notFound();
   }
@@ -41,7 +41,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={locale} className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
       <body className="font-sans bg-white text-charcoal">
         <NextIntlClientProvider messages={messages}>
           <AdminAwareLayout>{children}</AdminAwareLayout>

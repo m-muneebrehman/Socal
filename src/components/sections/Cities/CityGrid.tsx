@@ -16,9 +16,10 @@ interface City {
 
 interface CityGridProps {
   cities: City[]
+  locale?: string
 }
 
-const CityGrid: React.FC<CityGridProps> = ({ cities }) => {
+const CityGrid: React.FC<CityGridProps> = ({ cities, locale }) => {
   return (
     <div className="city-grid-container">
       <div className="cities-grid-beautiful">
@@ -26,6 +27,7 @@ const CityGrid: React.FC<CityGridProps> = ({ cities }) => {
           <Link 
             key={city.slug} 
             href={`/cities/${city.slug}`}
+            locale={locale}
             className="city-card-beautiful"
             style={{ animationDelay: `${index * 0.1}s` }}
           >

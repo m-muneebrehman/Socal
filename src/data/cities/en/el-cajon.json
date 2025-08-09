@@ -1,0 +1,162 @@
+{
+  "slug": "el-cajon",
+  "name": "El Cajon",
+  "state": "California",
+  "shortDescription": "An inland East County city with suburban neighborhoods, parks, community events, and convenient access to regional shopping and freeways.",
+  "fullDescription": "El Cajon is a welcoming East County city in San Diego County known for its family-friendly neighborhoods, community parks, and regional shopping. With easy freeway access (I‑8, SR‑67) to San Diego and the mountains, residents enjoy a balance of suburban comfort, outdoor recreation, and local events in a sunny, valley setting.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+  "heroImageAlt": "Downtown street scene in El Cajon",
+  "population": "105K+",
+  "avgHomePrice": "$650K+",
+  "tags": [
+    "Suburban",
+    "Parks",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "La Mesa",
+      "type": "city",
+      "slug": "la-mesa",
+      "description": "Charming ‘village’ downtown, local festivals, and tree‑lined neighborhoods just west of El Cajon.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "La Mesa Boulevard with trolley at street level",
+      "distance": "10 miles west",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Santee",
+      "type": "city",
+      "slug": "santee",
+      "description": "East County city with parks, Santee Lakes, and access to Mission Trails for hiking and biking.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Trail through rolling hills near Santee",
+      "distance": "7 miles northwest",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "city",
+      "slug": "lemon-grove",
+      "description": "Sunny suburban community noted for neighborhood parks and convenient trolley access.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree‑lined suburban street in Lemon Grove",
+      "distance": "9 miles southwest",
+      "avgHomePrice": "$680K",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major coastal city with beaches, downtown attractions, and cultural destinations a short drive away.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego skyline viewed from the bay",
+      "distance": "15–20 miles west",
+      "avgHomePrice": "$900K+",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks & Recreation",
+      "description": "Neighborhood parks, sports fields, and nearby Mission Trails offer year‑round outdoor activities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scenic trail through East County hills"
+    },
+    {
+      "title": "Community Events",
+      "description": "Seasonal festivals, car shows, and farmers markets bring neighbors together in the city center.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with evening string lights and cafes"
+    },
+    {
+      "title": "Shopping & Dining",
+      "description": "Regional shopping corridors and family‑friendly dining options throughout town.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Pedestrian street with shops and restaurants"
+    },
+    {
+      "title": "Gateway Location",
+      "description": "Convenient access to beaches, downtown San Diego, and mountain getaways via I‑8 and SR‑67.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green hills and open‑space view from East County"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in El Cajon?",
+      "answer": "Popular choices include areas near parks and schools in Fletcher Hills, Granite Hills, and neighborhoods with quick access to I‑8 for commuting.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in El Cajon?",
+      "answer": "El Cajon generally offers more affordable options than coastal North County, with a mix of classic ranch homes, townhomes, and newer developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in El Cajon?",
+      "answer": "Enjoy local parks, community events, regional shopping, and quick day trips to beaches, lakes, and mountain trails.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from El Cajon?",
+      "answer": "I‑8 and SR‑67 provide regional access to San Diego and East County. Trolley and bus connections serve nearby cities.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "El Cajon CA Real Estate & Lifestyle | East County Parks & Suburban Living",
+    "metaDescription": "Explore El Cajon neighborhoods, parks, shopping, and East County lifestyle with convenient freeway access to San Diego and mountain getaways.",
+    "keywords": "El Cajon real estate, East County San Diego, El Cajon parks, El Cajon neighborhoods",
+    "ogTitle": "Discover El Cajon: East County Parks & Suburban Living",
+    "ogDescription": "Learn about El Cajon’s neighborhoods, outdoor recreation, and family‑friendly amenities in East County San Diego.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+    "ogImageAlt": "Downtown El Cajon street scene",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Cajon",
+      "description": "Explore real estate, neighborhoods, and highlights in El Cajon, California.",
+      "url": "https://example.com/locations/el-cajon",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+        "caption": "Downtown street scene in El Cajon"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Cajon",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in El Cajon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fletcher Hills, Granite Hills, and areas near parks and schools are often sought after."
+          }
+        }
+      ]
+    }
+  ]
+}

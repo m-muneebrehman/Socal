@@ -1,0 +1,135 @@
+San Diego County (18 cities)
+
+San Diego
+
+Chula Vista
+
+Oceanside
+
+Escondido
+
+Carlsbad
+
+El Cajon
+
+Vista
+
+San Marcos
+
+Encinitas
+
+La Mesa
+
+Santee
+
+National City
+
+Poway
+
+Coronado
+
+Imperial Beach
+
+Lemon Grove
+
+Solana Beach
+
+Del Mar
+
+Orange County (34 cities)
+19. Aliso Viejo
+20. Anaheim
+21. Brea
+22. Buena Park
+23. Costa Mesa
+24. Cypress
+25. Dana Point
+26. Fountain Valley
+27. Fullerton
+28. Garden Grove
+29. Huntington Beach
+30. Irvine
+31. La Habra
+32. La Palma
+33. Laguna Beach
+34. Laguna Hills
+35. Laguna Niguel
+36. Lake Forest
+37. Los Alamitos
+38. Mission Viejo
+39. Newport Beach
+40. Orange
+41. Placentia
+42. Rancho Santa Margarita
+43. San Clemente
+44. San Juan Capistrano
+45. Santa Ana
+46. Seal Beach
+47. Stanton
+48. Tustin
+49. Westminster
+50. Yorba Linda
+
+Los Angeles County (50 cities)
+51. Agoura Hills
+52. Alhambra
+53. Arcadia
+54. Artesia
+55. Azusa
+56. Baldwin Park
+57. Bellflower
+58. Beverly Hills
+59. Burbank
+60. Calabasas
+61. Carson
+62. Cerritos
+63. Claremont
+64. Compton
+65. Covina
+66. Culver City
+67. Diamond Bar
+68. Downey
+69. El Monte
+70. El Segundo
+71. Gardena
+72. Glendale
+73. Hawthorne
+74. Hermosa Beach
+75. Huntington Park
+76. Inglewood
+77. La Cañada Flintridge
+78. La Mirada
+79. Lakewood
+80. Lancaster
+81. Long Beach
+82. Los Angeles
+83. Lynwood
+84. Malibu
+85. Manhattan Beach
+86. Monrovia
+87. Montebello
+88. Monterey Park
+89. Norwalk
+90. Palmdale
+91. Pasadena
+92. Pico Rivera
+93. Pomona
+94. Redondo Beach
+95. Rosemead
+96. San Dimas
+97. San Gabriel
+98. Santa Clarita
+99. Santa Monica
+100. West Hollywood
+
+If you want, I can also sort these 100 cities by population size so the biggest ones come first instead of being grouped by county. That would make it easier if you’re prioritizing based on city size.
+
+
+
+
+
+
+
+
+
+remember the list my next prompts are from this

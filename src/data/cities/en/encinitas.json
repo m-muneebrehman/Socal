@@ -1,0 +1,162 @@
+{
+  "slug": "encinitas",
+  "name": "Encinitas",
+  "state": "California",
+  "shortDescription": "A coastal North County gem known for surf culture, boutique shops, and laid-back beach neighborhoods with vibrant local charm.",
+  "fullDescription": "Encinitas is a picturesque beach city in North San Diego County, celebrated for its surf spots like Swami’s Beach, eclectic downtown on Highway 101, and lush botanical gardens. Residents enjoy a blend of coastal relaxation and active lifestyles, with easy access to Carlsbad’s attractions and inland conveniences in San Marcos and Vista.",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Encinitas coastline with surfers and sunset",
+  "population": "60K+",
+  "avgHomePrice": "$1.5M+",
+  "tags": [
+    "Beach Town",
+    "Surfing",
+    "Boutique Shopping"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Adjacent coastal city to the north with LEGOLAND, Tamarack Beach, and Carlsbad Village’s dining scene.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Carlsbad shoreline with waves",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Solana Beach",
+      "type": "city",
+      "slug": "solana-beach",
+      "description": "Charming coastal neighbor to the south with Cedros Design District and Fletcher Cove Beach.",
+      "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Coastal cliffs and ocean at Solana Beach",
+      "distance": "4 miles south",
+      "avgHomePrice": "$2M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Inland city offering Cal State San Marcos, hiking trails, and family-friendly suburbs.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "San Marcos hills and neighborhoods",
+      "distance": "10 miles east",
+      "avgHomePrice": "$820K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "city",
+      "slug": "vista",
+      "description": "Nearby inland city with breweries, community parks, and affordable housing compared to coastal towns.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista suburban street",
+      "distance": "12 miles northeast",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Surf & Beaches",
+      "description": "World-class surf breaks like Swami’s and Moonlight Beach, plus year-round coastal sunsets.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer catching a wave at Swami’s Beach"
+    },
+    {
+      "title": "Highway 101 Vibes",
+      "description": "Eclectic boutiques, cafés, and galleries along historic Highway 101’s Encinitas Boulevard.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colorful Encinitas downtown street with shops"
+    },
+    {
+      "title": "Botanical Wonders",
+      "description": "San Diego Botanic Garden’s 37 acres of themed gardens and ocean-view trails.",
+      "icon": "🌵",
+      "bgImage": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lush gardens at San Diego Botanic Garden"
+    },
+    {
+      "title": "Coastal-Inland Balance",
+      "description": "Quick access to Carlsbad’s beaches or San Marcos’ schools and trails via I-5 and SR-78.",
+      "icon": "⚖️",
+      "bgImage": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "View of Encinitas coastline from hills"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What’s special about Encinitas’ neighborhoods?",
+      "answer": "Distinct beach communities like Leucadia and Cardiff-by-the-Sea blend surf culture with boutique charm, while inland areas offer more affordability.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Encinitas?",
+      "answer": "Highly competitive coastal market with premium prices for ocean-view homes, but more affordable options inland near Vulcan Avenue.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What’s the lifestyle like in Encinitas?",
+      "answer": "Active, outdoorsy, and community-focused—think surf mornings, farmers’ markets, and sunset beach walks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting to San Diego?",
+      "answer": "30–45 minutes via I-5 to downtown San Diego, with COASTER rail options from Encinitas Station.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Encinitas CA Real Estate & Lifestyle | Beaches, Surf & Boutique Living",
+    "metaDescription": "Discover Encinitas’ beach neighborhoods, surf culture, Highway 101 charm, and proximity to Carlsbad and San Marcos in North San Diego County.",
+    "keywords": "Encinitas real estate, Encinitas surfing, Cardiff-by-the-Sea, North County San Diego, Encinitas beaches",
+    "ogTitle": "Explore Encinitas: Coastal Living with Surf & Style",
+    "ogDescription": "Learn about Encinitas’ beach towns, downtown vibes, and balanced access to coastal and inland attractions.",
+    "ogImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Encinitas coastline with surfers",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Encinitas",
+      "description": "Explore real estate, neighborhoods, and highlights in Encinitas, California.",
+      "url": "https://example.com/locations/encinitas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Encinitas coastline with surfers"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Encinitas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are Encinitas’ most popular areas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leucadia, Cardiff-by-the-Sea, and downtown Encinitas along Highway 101 are iconic for surf culture and local businesses."
+          }
+        }
+      ]
+    }
+  ]
+}

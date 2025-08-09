@@ -1,6 +1,7 @@
 "use client"
 
-import { Plus, Edit2, Trash2, Users, Home, MapPin } from "lucide-react"
+import React, { useEffect, useMemo, useState } from "react"
+import { Plus, Edit2, Trash2, Users, Home, MapPin, Search } from "lucide-react"
 import { City as CityType } from "@/types"
 
 interface CityManagerProps {
@@ -9,7 +10,7 @@ interface CityManagerProps {
   setEditingCity: (id: string | null) => void
   setCityForm: (form: any) => void
   deleteCity: (id: string) => void
-  handleAddCity: () => void
+  handleAddCity: (preferredLanguage?: string) => void
 }
 
 export default function CityManager({ 
@@ -20,6 +21,41 @@ export default function CityManager({
   deleteCity,
   handleAddCity
 }: CityManagerProps) {
+  const [searchTerm, setSearchTerm] = useState("")
+  const [selectedLocale, setSelectedLocale] = useState<string>("en")
+  const locales = ["ar", "de", "en", "es", "fr", "zh"]
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('adminCitiesLang')
+      if (saved && locales.includes(saved)) {
+        setSelectedLocale(saved)
+      }
+    }
+  }, [])
+
+  const filteredCities = useMemo(() => {
+    const normalizedQuery = searchTerm.trim().toLowerCase()
+
+    return cities.filter((city) => {
+      // Filter by city.language exact match with fallback: no language => treat as 'en'
+      const cityLang = city.language || 'en'
+      const matchesLocale = cityLang === selectedLocale
+
+      if (!matchesLocale) return false
+
+      if (!normalizedQuery) return true
+
+      const inName = city.name?.toLowerCase().includes(normalizedQuery)
+      const inState = city.state?.toLowerCase().includes(normalizedQuery)
+      const inSlug = city.slug?.toLowerCase().includes(normalizedQuery)
+      const inTags = (city.tags || []).some((t) => t.toLowerCase().includes(normalizedQuery))
+      const inDesc = city.shortDescription?.toLowerCase().includes(normalizedQuery)
+
+      return inName || inState || inSlug || inTags || inDesc
+    })
+  }, [cities, searchTerm, selectedLocale])
+
   return (
     <div className="content-section">
       <div className="section-header">
@@ -29,14 +65,57 @@ export default function CityManager({
             <span>{cities.length}</span>
           </div>
         </div>
-        <button onClick={handleAddCity} className="add-btn green">
+        <button onClick={() => handleAddCity(selectedLocale)} className="add-btn green">
           <Plus size={20} />
           <span>Add City</span>
         </button>
       </div>
 
+      {/* Tools: Search + Locale selector (styled) */}
+      <div className="admin-toolbar admin-toolbar--light">
+        <div className="admin-toolbar-group" style={{ flex: 1 }}>
+          <div className="admin-search-wrapper" style={{ position: 'relative', width: '100%' }}>
+            <span className="admin-search-icon">
+              <Search size={18} />
+            </span>
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="admin-search-input admin-search-input--light"
+              placeholder="Search cities by name, state, slug, tags..."
+            />
+          </div>
+        </div>
+        <div className="admin-toolbar-group">
+          <label htmlFor="localeSelect" className="admin-label admin-label--light">Language</label>
+          <span className="admin-select-wrapper">
+            <select
+              id="localeSelect"
+              value={selectedLocale}
+              onChange={(e) => {
+                const value = e.target.value
+                setSelectedLocale(value)
+                if (typeof window !== 'undefined') {
+                  localStorage.setItem('adminCitiesLang', value)
+                  window.dispatchEvent(new CustomEvent('adminCitiesLangChanged', { detail: { language: value } }))
+                }
+              }}
+              className="admin-select admin-select--light"
+            >
+              {locales.map((loc) => (
+                <option key={loc} value={loc}>{loc}</option>
+              ))}
+            </select>
+          </span>
+        </div>
+      </div>
+
+      {/* Visible count */}
+      <div className="admin-muted">Showing {filteredCities.length} of {cities.length}</div>
+
       <div className="content-grid two-cols">
-        {cities.map((city) => (
+        {filteredCities.map((city) => (
           <div key={city._id || city.id || Math.random()} className="card">
             <div className="card-header">
               <div>
@@ -62,7 +141,9 @@ export default function CityManager({
                       fullDescription: city.fullDescription || '',
                       canonicalUrl: city.canonicalUrl || '',
                       tags: city.tags?.join(', ') || '',
-                      neighborhoods: city.neighborhoods?.length > 0 ? city.neighborhoods : [''],
+                      neighborhoods: (Array.isArray(city.neighborhoods) && (city.neighborhoods as any[]).length > 0) ? (city.neighborhoods as any[]) : [{
+                        name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: ''
+                      }],
                       highlights: city.highlights?.length > 0 ? city.highlights : [{ 
                         title: '', 
                         description: '', 
@@ -87,6 +168,7 @@ export default function CityManager({
                         hreflang: 'en', 
                         href: '' 
                       }],
+                      language: city.language || 'en',
                       seo: city.seo || {
                         metaTitle: '',
                         metaDescription: '',
@@ -158,12 +240,12 @@ export default function CityManager({
             </div>
           </div>
         ))}
-        {cities.length === 0 && (
+        {filteredCities.length === 0 && (
           <div className="card">
             <div className="card-header">
               <div>
                 <h3 className="card-title">No cities found</h3>
-                <p className="card-subtitle">Create your first city to get started</p>
+                <p className="card-subtitle">Try adjusting your search or language filter</p>
               </div>
             </div>
           </div>

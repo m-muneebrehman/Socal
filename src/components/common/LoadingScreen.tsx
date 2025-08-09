@@ -7,12 +7,7 @@ const LoadingScreen = () => {
   const pathname = usePathname()
 
   useEffect(() => {
-    // Only show loading screen on home page (root path)
-    if (pathname !== '/' && pathname !== '/en' && pathname !== '/de' && pathname !== '/fr' && pathname !== '/zh' && pathname !== '/ar' && pathname !== '/es') {
-      setIsVisible(false)
-      return
-    }
-
+    // Show loading screen on all pages
     const timer = setTimeout(() => {
       setIsVisible(false)
     }, 2500)

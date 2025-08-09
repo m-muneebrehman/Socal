@@ -1,0 +1,183 @@
+{
+  "slug": "long-beach",
+  "name": "Long Beach",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Küstenstadt mit geschäftlichem Hafen, Attraktionen an der Wasserfront und reicher kultureller Vielfalt.",
+  "fullDescription": "Long Beach ist eine dynamische Küstenstadt im südlichen Kalifornien, bekannt für seinen belebten Hafen, das Aquarium of the Pacific und den historischen Ozeandampfer Queen Mary. Die Stadt bietet ein pulsierendes Stadtzentrum, schöne Strände und eine florierende Kunstszene. Mit seinem mediterranen Klima, der Gastronomie an der Wasserfront und zahlreichen kulturellen Attraktionen vereint Long Beach urbanes Leben mit Entspannung am Strand.",
+  "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Long Beach Uferpromenade mit Palmen und Uferlinie",
+  "population": "450 Tsd.+",
+  "avgHomePrice": "850 Tsd. $",
+  "tags": ["Wasserfront", "Vielfalt", "Kultur"],
+  "neighborhoods": [
+    {
+      "name": "Los Angeles",
+      "type": "Stadt",
+      "slug": "los-angeles",
+      "description": "Das Entertainment-Zentrum der Welt mit vielfältigen Stadtvierteln und kulturellen Highlights.",
+      "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Los Angeles Skyline bei Sonnenuntergang",
+      "distance": "22 Meilen nördlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "Stadt",
+      "slug": "huntington-beach",
+      "description": "Surf-City USA mit 8,5 Meilen Stränden und lebendigem Stadtzentrum.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Huntington Beach Pier mit Surfern",
+      "distance": "12 Meilen südöstlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "Stadt",
+      "slug": "anaheim",
+      "description": "Bekannt für Disneyland, Sportstätten und gute regionale Verkehrsanbindung.",
+      "image": "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Riesenrad in Disneyland (Anaheim)",
+      "distance": "26 Meilen östlich",
+      "avgHomePrice": "1,0 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "Stadt",
+      "slug": "garden-grove",
+      "description": "Vielseitige Vorstadt mit einer starken vietnamesisch-amerikanischen Gemeinschaft und Festen.",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Christ Cathedral in Garden Grove",
+      "distance": "16 Meilen nordöstlich",
+      "avgHomePrice": "900 Tsd. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Leben an der Wasserfront",
+      "description": "Genießen Sie Meilen Küste, den Rainbow Harbor, und das malerische Shoreline Village mit Gastronomie und Unterhaltung.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Wasserfront in Long Beach mit Booten und Palmen"
+    },
+    {
+      "title": "Kulturelle Attraktionen",
+      "description": "Besuchen Sie das Aquarium of the Pacific, das Museum of Latin American Art und die historische Queen Mary.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Außenansicht des Aquarium of the Pacific"
+    },
+    {
+      "title": "Vielfältige Stadtviertel",
+      "description": "Von städtischen Lofts in der Innenstadt bis zu luxuriösen Häusern auf Naples Island – Long Beach bietet vielfältige Wohnoptionen.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Bunte historische Häuser in Long Beach"
+    },
+    {
+      "title": "Freizeitaktivitäten im Freien",
+      "description": "Mit 345 sonnigen Tagen pro Jahr können Sie Radfahren am Strandweg, Paddleboarden oder den El Dorado Park besuchen.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Radweg entlang der Long Beach Küste"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Stadtviertel in Long Beach?",
+      "answer": "Beliebte Gegenden sind Belmont Shore für Strandleben, Naples für luxuriöse Kanäle-Heimstätten und die Innenstadt für urbane Infrastruktur.",
+      "category": "Stadtviertel"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Long Beach?",
+      "answer": "Long Beach bietet verglichen mit dem benachbarten LA relativ erschwingliche Optionen – mit einem mittleren Hauspreis von ca. 850 Tsd. $. Immobilien an der Uferpromenade haben Premium-Preise.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Long Beach unternehmen?",
+      "answer": "Genießen Sie die Wasserfront-Gastronomie, besuchen Sie das Aquarium of the Pacific, erkunden Sie die Queen Mary, shoppen Sie in der 2nd Street oder entspannen Sie an Stränden und Parks.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Arbeitsweg von Long Beach?",
+      "answer": "Long Beach bietet gute Anbindung an die Autobahnen 710 und 405 sowie die Metro Blue Line nach Downtown LA. Pendelzeiten variieren zwischen 30–90 Minuten zu wichtigen Arbeitszentren.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Long Beach Immobilien- & Lifestyle-Guide | Küstenleben nahe LA",
+    "metaDescription": "Entdecken Sie das Leben an der Wasserfront, vielfältige Viertel und kulturelle Highlights in Long Beach. Erfahren Sie, warum diese Küstenstadt den idealen Südkalifornien-Lebensstil bietet.",
+    "keywords": "Long Beach Immobilien, Wasserfront, Belmont Shore, Naples Island, Aquarium of the Pacific, Küste Kalifornien",
+    "ogTitle": "Entdecken Sie Long Beach: Küstenleben nahe Los Angeles",
+    "ogDescription": "Erkunden Sie Stadtviertel, Immobilienoptionen und Küsten-Lifestyle in Long Beach südlich von LA.",
+    "ogImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Long Beach Uferlinie mit Palmen",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Long Beach",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Long Beach, Kalifornien.",
+      "url": "https://example.com/locations/long-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Uferpromenade in Long Beach mit Palmen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Long Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Stadtviertel in Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beliebte Gegenden sind Belmont Shore, Naples und das Stadtzentrum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Long Beach bietet im Vergleich zu LA günstigere Immobilienpreise, durchschnittlich etwa 850 Tsd. $."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in Long Beach unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genießen Sie Restaurants an der Wasserfront, besuchen Sie das Aquarium, erkunden Sie die Queen Mary oder entspannen Sie an den Stränden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Arbeitsweg von Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es gibt gute Anbindung an Freeways und die Metro Blue Line nach LA. Pendelzeiten liegen bei 30–90 Minuten."
+          }
+        }
+      ]
+    }
+  ]
+}
