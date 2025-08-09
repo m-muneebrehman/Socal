@@ -1,0 +1,186 @@
+{
+  "slug": "escondido",
+  "name": "Escondido",
+  "state": "California",
+  "shortDescription": "A scenic inland city with parks, cultural attractions, and easy access to North County beaches and trails.",
+  "fullDescription": "Escondido blends suburban charm with rich cultural history and outdoor recreation. Located in North San Diego County, Escondido is known for Daley Ranch and the San Diego Zoo Safari Park, a vibrant downtown (Grand Ave) with dining and events, and easy access to nearby coastal communities. The city offers diverse housing, family amenities, and open space for hikers and nature lovers.",
+  "heroImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "California vineyard rows at golden hour near Escondido",
+  "population": "150K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Hills",
+    "Parks",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Neighboring city with strong schools, Lake San Marcos, and easy access to regional shopping and trails.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rolling green hills and open space near San Marcos",
+      "distance": "8 miles west",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "city",
+      "slug": "vista",
+      "description": "A family-friendly inland city known for parks, an active craft-beer scene, and community events.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood and tree-lined street in Vista",
+      "distance": "10 miles southwest",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Coastal city with beaches, family attractions (LEGOLAND), and dining — a short drive from Escondido.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sunset pier and coastline near Carlsbad",
+      "distance": "18 miles southwest",
+      "avgHomePrice": "$1.1M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Poway",
+      "type": "city",
+      "slug": "poway",
+      "description": "Quiet suburban community southeast of Escondido with trails, equestrian areas, and family neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scenic hiking trail through Poway hills",
+      "distance": "15 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Daley Ranch & Hiking",
+      "description": "Over 3,000 acres of preserved land with trails for hiking, mountain biking, and wildlife viewing.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail through rolling hills and oaks"
+    },
+    {
+      "title": "San Diego Zoo Safari Park",
+      "description": "World-class wildlife park with safari experiences, conservation programs, and family activities.",
+      "icon": "🦁",
+      "bgImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Savanna-style exhibit at a wildlife park"
+    },
+    {
+      "title": "Downtown Grand Avenue",
+      "description": "Historic downtown with restaurants, breweries, live music, and the weekly Cruisin’ Grand car nights in season.",
+      "icon": "🎶",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with restaurant string lights in the evening"
+    },
+    {
+      "title": "Local Wineries & Farmers Markets",
+      "description": "Nearby small wineries and regular farmers markets offer local produce and weekend activities.",
+      "icon": "🍷",
+      "bgImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vineyard rows at golden hour"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Escondido?",
+      "answer": "Popular areas include Downtown near Grand Avenue for nightlife and restaurants, neighborhoods near Daley Ranch for outdoor access, and residential pockets near Valley and Felicita Parks for families.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Escondido?",
+      "answer": "Escondido offers mix of housing types — from historic cottages to newer developments — with median prices typically lower than coastal North County but varying by neighborhood.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Escondido?",
+      "answer": "Explore Daley Ranch, visit the San Diego Zoo Safari Park, attend events on Grand Avenue, or take day trips to nearby beaches and hiking areas.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Escondido?",
+      "answer": "Escondido is served by Highway 78 and 15 for regional travel. Driving is the most common mode; some transit options connect to North County and central San Diego.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Escondido CA Real Estate & Lifestyle | Parks, Safari Park & Downtown",
+    "metaDescription": "Learn about Escondido neighborhoods, outdoor recreation at Daley Ranch, the San Diego Zoo Safari Park, and real estate options in North San Diego County.",
+    "keywords": "Escondido real estate, Daley Ranch, San Diego Zoo Safari Park, living in Escondido, Escondido homes",
+    "ogTitle": "Discover Escondido: Parks, Safari Park & Downtown Life",
+    "ogDescription": "Explore Escondido's neighborhoods, parks, and cultural attractions. Find the right area to call home in North San Diego County.",
+    "ogImage": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Escondido valley hills at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Escondido",
+      "description": "Explore real estate, neighborhoods, and highlights in Escondido, California.",
+      "url": "https://example.com/locations/escondido",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rolling hills near Escondido at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Escondido",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Downtown Grand Avenue, areas near Daley Ranch, and neighborhoods around Valley and Felicita Parks are popular."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Escondido has varied housing options with prices usually more affordable than coastal North County, but values differ by neighborhood."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit Daley Ranch, the Safari Park, attend local events, and take short trips to nearby beaches and hiking areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Highways 78 and 15 provide regional access; driving is common and transit links are available to other North County cities."
+          }
+        }
+      ]
+    }
+  ]
+}

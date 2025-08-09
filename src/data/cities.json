@@ -1638,7 +1638,467 @@
     "clients": []
   },
   {
-    "id": "6896c3b9d030dedaafd978c4",
+    "id": "6896c401d030dedaafd978c5",
+    "slug": "oceanside",
+    "name": "Oceanside",
+    "state": "California",
+    "shortDescription": "A classic Southern California beach city with a historic pier, harbor life, and an active surf and arts scene.",
+    "fullDescription": "Oceanside is a vibrant coastal city in northern San Diego County known for its long sandy beaches, the historic Oceanside Pier, a growing arts community, and an active harbor. With easy access to outdoor recreation, waterfront dining, and family-friendly attractions, Oceanside blends laid-back beach culture with modern neighborhood conveniences.",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "population": "45K+",
+    "avgHomePrice": "$900K+",
+    "tags": [
+      "Beachfront",
+      "Surf",
+      "Harbor"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Carlsbad",
+        "type": "city",
+        "slug": "carlsbad",
+        "description": "A neighboring coastal city famous for its beaches, Flower Fields, and family attractions like LEGOLAND.",
+        "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Sunset pier and coastline near Carlsbad",
+        "distance": "7 miles south",
+        "avgHomePrice": "$1.1M",
+        "county": "San Diego"
+      },
+      {
+        "name": "Vista",
+        "type": "city",
+        "slug": "vista",
+        "description": "Inland city with a growing craft-beer scene, parks, and a family-friendly community feel.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood and tree-lined street",
+        "distance": "8 miles east",
+        "avgHomePrice": "$750K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Encinitas",
+        "type": "city",
+        "slug": "encinitas",
+        "description": "A laid-back surf town known for great waves, the San Diego Botanic Garden, and a strong arts community.",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Encinitas surf spot at sunrise",
+        "distance": "12 miles south",
+        "avgHomePrice": "$1.0M",
+        "county": "San Diego"
+      },
+      {
+        "name": "San Marcos",
+        "type": "city",
+        "slug": "san-marcos",
+        "description": "Inland community with scenic hills, good schools, and growing retail and dining options.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Rolling green hills and open space near San Marcos",
+        "distance": "10 miles east",
+        "avgHomePrice": "$800K",
+        "county": "San Diego"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Beachfront Access",
+        "description": "Miles of sandy shoreline with surfing, swimming, and family-friendly beach parks near the iconic Oceanside Pier.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Sandy beach and rolling Pacific waves at sunset"
+      },
+      {
+        "title": "Historic Oceanside Pier",
+        "description": "Stroll the wooden pier at sunrise or sunset — a local landmark with great fishing and views of the coastline.",
+        "icon": "🌅",
+        "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Long wooden pier reaching over the ocean at sunset"
+      },
+      {
+        "title": "Oceanside Harbor & Waterfront",
+        "description": "The harbor area features boating, seafood restaurants, and family activities in a relaxed waterfront setting.",
+        "icon": "🚤",
+        "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Boats docked at a sunny marina"
+      },
+      {
+        "title": "Arts & Local Life",
+        "description": "A growing arts scene with galleries, public murals, and seasonal events that celebrate the city’s coastal lifestyle.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Colorful outdoor mural and street art"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in Oceanside?",
+        "answer": "Popular options include the beachfront neighborhoods near the pier, Harbor region for waterfront living, and nearby Carlsbad or Encinitas for more suburban coastal options.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in Oceanside?",
+        "answer": "Oceanside offers a range from cozy beach cottages to newer condos and luxury oceanview homes; prices vary accordingly, with coastal properties commanding premiums.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What can I do in Oceanside?",
+        "answer": "Visit the pier, Surf, try harbor dining, explore nearby botanical gardens in Encinitas, and enjoy seasonal festivals and outdoor concerts.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is commuting from Oceanside?",
+        "answer": "Oceanside is served by Hwy 5, Amtrak/COASTER rail service, and transit connections — commutes into northern San Diego County or south to central San Diego are common.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896c68dd030dedaafd978c6",
+    "slug": "escondido",
+    "name": "Escondido",
+    "state": "California",
+    "shortDescription": "A scenic inland city with parks, cultural attractions, and easy access to North County beaches and trails.",
+    "fullDescription": "Escondido blends suburban charm with rich cultural history and outdoor recreation. Located in North San Diego County, Escondido is known for Daley Ranch and the San Diego Zoo Safari Park, a vibrant downtown (Grand Ave) with dining and events, and easy access to nearby coastal communities. The city offers diverse housing, family amenities, and open space for hikers and nature lovers.",
+    "heroImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1920&q=80",
+    "population": "150K+",
+    "avgHomePrice": "$800K",
+    "tags": [
+      "Hills",
+      "Parks",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "San Marcos",
+        "type": "city",
+        "slug": "san-marcos",
+        "description": "Neighboring city with strong schools, Lake San Marcos, and easy access to regional shopping and trails.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Rolling green hills and open space near San Marcos",
+        "distance": "8 miles west",
+        "avgHomePrice": "$800K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Vista",
+        "type": "city",
+        "slug": "vista",
+        "description": "A family-friendly inland city known for parks, an active craft-beer scene, and community events.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood and tree-lined street in Vista",
+        "distance": "10 miles southwest",
+        "avgHomePrice": "$750K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Carlsbad",
+        "type": "city",
+        "slug": "carlsbad",
+        "description": "Coastal city with beaches, family attractions (LEGOLAND), and dining — a short drive from Escondido.",
+        "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Sunset pier and coastline near Carlsbad",
+        "distance": "18 miles southwest",
+        "avgHomePrice": "$1.1M",
+        "county": "San Diego"
+      },
+      {
+        "name": "Poway",
+        "type": "city",
+        "slug": "poway",
+        "description": "Quiet suburban community southeast of Escondido with trails, equestrian areas, and family neighborhoods.",
+        "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Scenic hiking trail through Poway hills",
+        "distance": "15 miles southeast",
+        "avgHomePrice": "$900K",
+        "county": "San Diego"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Daley Ranch & Hiking",
+        "description": "Over 3,000 acres of preserved land with trails for hiking, mountain biking, and wildlife viewing.",
+        "icon": "🥾",
+        "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Trail through rolling hills and oaks"
+      },
+      {
+        "title": "San Diego Zoo Safari Park",
+        "description": "World-class wildlife park with safari experiences, conservation programs, and family activities.",
+        "icon": "🦁",
+        "bgImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Savanna-style exhibit at a wildlife park"
+      },
+      {
+        "title": "Downtown Grand Avenue",
+        "description": "Historic downtown with restaurants, breweries, live music, and the weekly Cruisin’ Grand car nights in season.",
+        "icon": "🎶",
+        "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown street with restaurant string lights in the evening"
+      },
+      {
+        "title": "Local Wineries & Farmers Markets",
+        "description": "Nearby small wineries and regular farmers markets offer local produce and weekend activities.",
+        "icon": "🍷",
+        "bgImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Vineyard rows at golden hour"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in Escondido?",
+        "answer": "Popular areas include Downtown near Grand Avenue for nightlife and restaurants, neighborhoods near Daley Ranch for outdoor access, and residential pockets near Valley and Felicita Parks for families.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in Escondido?",
+        "answer": "Escondido offers mix of housing types — from historic cottages to newer developments — with median prices typically lower than coastal North County but varying by neighborhood.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What can you do in Escondido?",
+        "answer": "Explore Daley Ranch, visit the San Diego Zoo Safari Park, attend events on Grand Avenue, or take day trips to nearby beaches and hiking areas.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is commuting from Escondido?",
+        "answer": "Escondido is served by Highway 78 and 15 for regional travel. Driving is the most common mode; some transit options connect to North County and central San Diego.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896c86ad030dedaafd978c7",
+    "slug": "carlsbad",
+    "name": "Carlsbad",
+    "state": "California",
+    "shortDescription": "A coastal gem with beautiful beaches, family attractions, and a thriving village atmosphere in North County San Diego.",
+    "fullDescription": "Carlsbad offers a perfect mix of laid-back beach living, family-friendly attractions, and a vibrant local economy. Known for its scenic coastline, LEGOLAND California Resort, and the charming Carlsbad Village, this city is a top choice for those who value both leisure and community. Carlsbad also boasts excellent schools, a strong tech and life sciences sector, and easy access to both Los Angeles and San Diego.",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "population": "115K+",
+    "avgHomePrice": "$1.3M",
+    "tags": [
+      "Beaches",
+      "Family-friendly",
+      "Village"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Oceanside",
+        "type": "city",
+        "slug": "oceanside",
+        "description": "Neighboring coastal city with a bustling harbor, long pier, and an emerging dining and arts scene.",
+        "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Oceanside pier and coastline at sunset",
+        "distance": "5 miles north",
+        "avgHomePrice": "$850K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Vista",
+        "type": "city",
+        "slug": "vista",
+        "description": "Inland community with parks, breweries, and family-oriented neighborhoods just minutes from Carlsbad.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Suburban neighborhood and tree-lined street in Vista",
+        "distance": "7 miles northeast",
+        "avgHomePrice": "$780K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Encinitas",
+        "type": "city",
+        "slug": "encinitas",
+        "description": "Beach town known for surfing culture, botanic gardens, and coastal dining just south of Carlsbad.",
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Encinitas surf waves at sunrise",
+        "distance": "7 miles south",
+        "avgHomePrice": "$1.4M",
+        "county": "San Diego"
+      },
+      {
+        "name": "San Marcos",
+        "type": "city",
+        "slug": "san-marcos",
+        "description": "Education hub with Cal State San Marcos, hiking trails, and growing dining scene.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Rolling green hills near San Marcos",
+        "distance": "10 miles east",
+        "avgHomePrice": "$820K",
+        "county": "San Diego"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "LEGOLAND California Resort",
+        "description": "A top family destination with rides, attractions, and water park fun.",
+        "icon": "🎢",
+        "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Roller coaster at theme park"
+      },
+      {
+        "title": "Carlsbad State Beach",
+        "description": "Beautiful stretch of sand perfect for surfing, swimming, or watching the sunset.",
+        "icon": "🏖️",
+        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Golden sunset over Pacific waves in Carlsbad"
+      },
+      {
+        "title": "The Flower Fields",
+        "description": "Seasonal burst of color with 50 acres of blooming ranunculus flowers.",
+        "icon": "🌸",
+        "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Rows of blooming flowers under a blue sky"
+      },
+      {
+        "title": "Carlsbad Village",
+        "description": "Walkable downtown with boutiques, restaurants, live music, and community events.",
+        "icon": "🏙️",
+        "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Village street with string lights, shops and cafes"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in Carlsbad?",
+        "answer": "Carlsbad Village, La Costa, and Aviara are popular for their amenities, schools, and proximity to the coast.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in Carlsbad?",
+        "answer": "Carlsbad's real estate market is competitive, with high demand for coastal and family-oriented neighborhoods.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What can you do in Carlsbad?",
+        "answer": "Enjoy the beaches, explore Carlsbad Village, visit LEGOLAND, or take in seasonal attractions like The Flower Fields.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is commuting from Carlsbad?",
+        "answer": "Carlsbad is served by I-5, Coast Highway, and Coaster rail service, making it convenient for travel to San Diego or Orange County.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896caaed030dedaafd978c8",
+    "slug": "el-cajon",
+    "name": "El Cajon",
+    "state": "California",
+    "shortDescription": "An inland East County city with suburban neighborhoods, parks, community events, and convenient access to regional shopping and freeways.",
+    "fullDescription": "El Cajon is a welcoming East County city in San Diego County known for its family-friendly neighborhoods, community parks, and regional shopping. With easy freeway access (I‑8, SR‑67) to San Diego and the mountains, residents enjoy a balance of suburban comfort, outdoor recreation, and local events in a sunny, valley setting.",
+    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+    "population": "105K+",
+    "avgHomePrice": "$650K+",
+    "tags": [
+      "Suburban",
+      "Parks",
+      "Family-friendly"
+    ],
+    "neighborhoods": [
+      {
+        "name": "La Mesa",
+        "type": "city",
+        "slug": "la-mesa",
+        "description": "Charming ‘village’ downtown, local festivals, and tree‑lined neighborhoods just west of El Cajon.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+        "imageAlt": "La Mesa Boulevard with trolley at street level",
+        "distance": "10 miles west",
+        "avgHomePrice": "$700K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Santee",
+        "type": "city",
+        "slug": "santee",
+        "description": "East County city with parks, Santee Lakes, and access to Mission Trails for hiking and biking.",
+        "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Trail through rolling hills near Santee",
+        "distance": "7 miles northwest",
+        "avgHomePrice": "$700K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Lemon Grove",
+        "type": "city",
+        "slug": "lemon-grove",
+        "description": "Sunny suburban community noted for neighborhood parks and convenient trolley access.",
+        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Tree‑lined suburban street in Lemon Grove",
+        "distance": "9 miles southwest",
+        "avgHomePrice": "$680K",
+        "county": "San Diego"
+      },
+      {
+        "name": "San Diego",
+        "type": "city",
+        "slug": "san-diego",
+        "description": "Major coastal city with beaches, downtown attractions, and cultural destinations a short drive away.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+        "imageAlt": "San Diego skyline viewed from the bay",
+        "distance": "15–20 miles west",
+        "avgHomePrice": "$900K+",
+        "county": "San Diego"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Parks & Recreation",
+        "description": "Neighborhood parks, sports fields, and nearby Mission Trails offer year‑round outdoor activities.",
+        "icon": "🌳",
+        "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Scenic trail through East County hills"
+      },
+      {
+        "title": "Community Events",
+        "description": "Seasonal festivals, car shows, and farmers markets bring neighbors together in the city center.",
+        "icon": "🎉",
+        "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Downtown street with evening string lights and cafes"
+      },
+      {
+        "title": "Shopping & Dining",
+        "description": "Regional shopping corridors and family‑friendly dining options throughout town.",
+        "icon": "🛍️",
+        "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Pedestrian street with shops and restaurants"
+      },
+      {
+        "title": "Gateway Location",
+        "description": "Convenient access to beaches, downtown San Diego, and mountain getaways via I‑8 and SR‑67.",
+        "icon": "🛣️",
+        "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Green hills and open‑space view from East County"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in El Cajon?",
+        "answer": "Popular choices include areas near parks and schools in Fletcher Hills, Granite Hills, and neighborhoods with quick access to I‑8 for commuting.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in El Cajon?",
+        "answer": "El Cajon generally offers more affordable options than coastal North County, with a mix of classic ranch homes, townhomes, and newer developments.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What can you do in El Cajon?",
+        "answer": "Enjoy local parks, community events, regional shopping, and quick day trips to beaches, lakes, and mountain trails.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is commuting from El Cajon?",
+        "answer": "I‑8 and SR‑67 provide regional access to San Diego and East County. Trolley and bus connections serve nearby cities.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896cacbd030dedaafd978c9",
     "slug": "chula-vista",
     "name": "Chula Vista",
     "state": "California",
@@ -1687,14 +2147,14 @@
         "county": "San Diego"
       },
       {
-        "name": "Bonita",
+        "name": "Coronado",
         "type": "city",
-        "slug": "bonita",
-        "description": "Small inland community east of Chula Vista, known for suburban homes and open-space trails.",
-        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
-        "imageAlt": "Rolling green hills and open-space trail",
-        "distance": "8 miles east",
-        "avgHomePrice": "$750K",
+        "slug": "coronado",
+        "description": "Island city across the bay with wide sandy beaches and the iconic Hotel del Coronado.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+        "imageAlt": "Sandy Coronado beach with blue sky",
+        "distance": "10 miles northwest",
+        "avgHomePrice": "$1.8M",
         "county": "San Diego"
       }
     ],

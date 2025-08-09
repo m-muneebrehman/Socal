@@ -48,14 +48,14 @@
       "county": "San Diego"
     },
     {
-      "name": "Bonita",
+      "name": "Coronado",
       "type": "city",
-      "slug": "bonita",
-      "description": "Small inland community east of Chula Vista, known for suburban homes and open-space trails.",
-      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Rolling green hills and open-space trail",
-      "distance": "8 miles east",
-      "avgHomePrice": "$750K",
+      "slug": "coronado",
+      "description": "Island city across the bay with wide sandy beaches and the iconic Hotel del Coronado.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "imageAlt": "Sandy Coronado beach with blue sky",
+      "distance": "10 miles northwest",
+      "avgHomePrice": "$1.8M",
       "county": "San Diego"
     }
   ],
