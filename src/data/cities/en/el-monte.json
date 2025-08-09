@@ -1,0 +1,186 @@
+{
+  "slug": "el-monte",
+  "name": "El Monte",
+  "state": "California",
+  "shortDescription": "A vibrant city with a rich cultural heritage, diverse communities, and convenient access to the greater Los Angeles area.",
+  "fullDescription": "El Monte is located in the San Gabriel Valley and offers a blend of residential neighborhoods, parks, and thriving commercial areas. Known for its community events and diverse population, El Monte provides a family-friendly environment with easy access to major freeways and transit options. The city has a growing economy with various retail and manufacturing businesses, making it a dynamic place to live and work.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown El Monte with cityscape and trees",
+  "population": "115K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Diverse communities",
+    "Parks",
+    "Convenient location"
+  ],
+  "neighborhoods": [
+    {
+      "name": "South El Monte",
+      "type": "city",
+      "slug": "south-el-monte",
+      "description": "A small city neighboring El Monte, known for its industrial areas and residential neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential area in South El Monte",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "West Covina",
+      "type": "city",
+      "slug": "west-covina",
+      "description": "City known for its shopping centers, parks, and family-friendly amenities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and shopping area in West Covina",
+      "distance": "6 miles east",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Monterey Park",
+      "type": "city",
+      "slug": "monterey-park",
+      "description": "Diverse city famous for its Asian cuisine, parks, and community events.",
+      "image": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Monterey Park downtown",
+      "distance": "7 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pico Rivera",
+      "type": "city",
+      "slug": "pico-rivera",
+      "description": "A city with strong Latino heritage, parks, and local shopping centers.",
+      "image": "https://images.unsplash.com/photo-1523359346064-81db77d9d8c6?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in Pico Rivera",
+      "distance": "5 miles south",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "El Monte Community Center",
+      "description": "A hub for local events, classes, and community programs.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community center building"
+    },
+    {
+      "title": "Whittier Narrows Recreation Area",
+      "description": "Large park offering sports fields, picnic areas, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with open green space and trees"
+    },
+    {
+      "title": "Santa Fe Trail",
+      "description": "Historic trail with scenic walking and biking paths through the city.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Biking path along historic trail"
+    },
+    {
+      "title": "Downtown El Monte",
+      "description": "Bustling area with shops, dining, and local businesses.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with storefronts"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is El Monte known for?",
+      "answer": "El Monte is known for its diverse communities, parks, and convenient access to the greater Los Angeles area.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in El Monte?",
+      "answer": "The real estate market offers affordable homes with growing demand from families and professionals.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular activities in El Monte?",
+      "answer": "Enjoy community events, parks like Whittier Narrows, and shopping in downtown El Monte.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from El Monte?",
+      "answer": "El Monte has good access to the 10 and 60 freeways and public transit options, making commuting easy.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "El Monte CA Real Estate & Lifestyle | Diverse Communities & Parks",
+    "metaDescription": "Explore El Monte's neighborhoods, parks, and convenient location in Los Angeles County.",
+    "keywords": "El Monte real estate, El Monte parks, living in El Monte, El Monte homes for sale",
+    "ogTitle": "Discover El Monte: Community Living & Convenient Access",
+    "ogDescription": "Find your place in El Monte with its diverse neighborhoods and family-friendly amenities.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown El Monte cityscape",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Monte",
+      "description": "Explore real estate, neighborhoods, and highlights in El Monte, California.",
+      "url": "https://example.com/locations/el-monte",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown El Monte with cityscape and trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Monte",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is El Monte known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Monte is known for its diverse communities, parks, and convenient access to the greater Los Angeles area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in El Monte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market offers affordable homes with growing demand from families and professionals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular activities in El Monte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy community events, parks like Whittier Narrows, and shopping in downtown El Monte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from El Monte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Monte has good access to the 10 and 60 freeways and public transit options, making commuting easy."
+          }
+        }
+      ]
+    }
+  ]
+}

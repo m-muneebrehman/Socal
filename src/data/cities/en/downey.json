@@ -1,0 +1,186 @@
+{
+  "slug": "downey",
+  "name": "Downey",
+  "state": "California",
+  "shortDescription": "A family-friendly city with rich aerospace history, parks, and a vibrant community atmosphere.",
+  "fullDescription": "Downey is a well-established city in southeast Los Angeles County, known for its aerospace heritage and welcoming neighborhoods. It offers abundant parks, cultural attractions, and community events that make it ideal for families and professionals alike. The city's central location provides easy access to freeways and nearby employment hubs, while its historic sites and diverse dining options add to its charm.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Residential street in Downey with palm trees and homes",
+  "population": "112K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Aerospace history"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Bellflower",
+      "type": "city",
+      "slug": "bellflower",
+      "description": "A neighboring city with family-oriented neighborhoods and community parks.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential homes in Bellflower",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Norwalk",
+      "type": "city",
+      "slug": "norwalk",
+      "description": "A diverse city known for its parks, shopping centers, and accessible location.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown area in Norwalk",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Paramount",
+      "type": "city",
+      "slug": "paramount",
+      "description": "Small city with close-knit neighborhoods and convenient freeway access.",
+      "image": "https://images.unsplash.com/photo-1523359346064-81db77d9d8c6?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in Paramount",
+      "distance": "3 miles south",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "city",
+      "slug": "cerritos",
+      "description": "Upscale community known for shopping, parks, and quality schools.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Modern residential area in Cerritos",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Columbia Memorial Space Center",
+      "description": "A museum dedicated to space exploration and STEM education.",
+      "icon": "🚀",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rocket display at space center"
+    },
+    {
+      "title": "Downey Theatre",
+      "description": "Historic theater hosting live performances and community events.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Theater marquee at night"
+    },
+    {
+      "title": "Rio San Gabriel Park",
+      "description": "Large park with picnic areas, playgrounds, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tree-lined path in a city park"
+    },
+    {
+      "title": "Downey Farmers Market",
+      "description": "Weekly market offering fresh produce, crafts, and local goods.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colorful market stalls with fresh fruits"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Downey known for?",
+      "answer": "Downey is known for its aerospace history, family-friendly environment, and community parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Downey?",
+      "answer": "The market offers affordable family homes with steady demand and competitive pricing.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular activities in Downey?",
+      "answer": "Visiting the Columbia Memorial Space Center, enjoying local parks, and attending community events are popular.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Downey?",
+      "answer": "Downey has easy access to the 605 and 5 freeways, making commutes to Los Angeles and Orange County convenient.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Downey CA Real Estate & Lifestyle | Family-Friendly & Historic",
+    "metaDescription": "Explore Downey's neighborhoods, parks, and aerospace heritage in Los Angeles County.",
+    "keywords": "Downey real estate, Downey parks, Downey aerospace history, living in Downey, Downey homes for sale",
+    "ogTitle": "Discover Downey: Family-Friendly Living & Community Spirit",
+    "ogDescription": "Find your place in Downey with its welcoming neighborhoods, parks, and rich history.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Residential street in Downey with palm trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Downey",
+      "description": "Explore real estate, neighborhoods, and highlights in Downey, California.",
+      "url": "https://example.com/locations/downey",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Residential street in Downey with palm trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Downey",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Downey known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Downey is known for its aerospace history, family-friendly environment, and community parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable family homes with steady demand and competitive pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular activities in Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visiting the Columbia Memorial Space Center, enjoying local parks, and attending community events are popular."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Downey has easy access to the 605 and 5 freeways, making commutes to Los Angeles and Orange County convenient."
+          }
+        }
+      ]
+    }
+  ]
+}

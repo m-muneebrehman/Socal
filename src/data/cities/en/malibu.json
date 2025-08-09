@@ -1,0 +1,186 @@
+{
+  "slug": "malibu",
+  "name": "Malibu",
+  "state": "California",
+  "shortDescription": "A scenic coastal city famous for its stunning beaches, celebrity homes, and outdoor lifestyle.",
+  "fullDescription": "Malibu is a beautiful beachfront city known for its picturesque coastline, luxury estates, and relaxed lifestyle. Stretching along the Pacific Coast Highway, Malibu offers world-renowned surfing spots, hiking trails in the Santa Monica Mountains, and exclusive dining and shopping experiences. This city combines natural beauty with a high-end community vibe, making it a coveted location for residents and visitors alike. Malibu also provides access to excellent schools and a close-knit community atmosphere, all just a short drive from Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of Malibu coastline with waves crashing on the beach",
+  "population": "13K+",
+  "avgHomePrice": "$4.5M",
+  "tags": [
+    "Beaches",
+    "Luxury",
+    "Outdoor lifestyle"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pacific Palisades",
+      "type": "city",
+      "slug": "pacific-palisades",
+      "description": "Upscale coastal community with beaches, hiking trails, and a village atmosphere.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pacific Palisades coastline at sunset",
+      "distance": "8 miles southeast",
+      "avgHomePrice": "$3.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Popular beach city with a famous pier, shopping, and vibrant urban life.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Santa Monica pier and beach",
+      "distance": "15 miles southeast",
+      "avgHomePrice": "$2.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Calabasas",
+      "type": "city",
+      "slug": "calabasas",
+      "description": "Affluent city known for gated communities, shopping, and hiking trails.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calabasas residential neighborhood",
+      "distance": "10 miles east",
+      "avgHomePrice": "$1.9M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Topanga",
+      "type": "city",
+      "slug": "topanga",
+      "description": "Quaint mountain community with a bohemian vibe and scenic nature preserves.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Topanga Canyon landscape",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Malibu Lagoon State Beach",
+      "description": "A beautiful estuary offering birdwatching, walking trails, and beach access.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calm beach and lagoon at sunset"
+    },
+    {
+      "title": "El Matador State Beach",
+      "description": "Secluded beach with stunning sea caves, cliffs, and tide pools.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rugged cliffs and ocean at El Matador Beach"
+    },
+    {
+      "title": "Malibu Pier",
+      "description": "Iconic pier with fishing spots, restaurants, and ocean views.",
+      "icon": "🎣",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Malibu Pier at sunset"
+    },
+    {
+      "title": "Santa Monica Mountains National Recreation Area",
+      "description": "Expansive hiking and biking trails with breathtaking ocean vistas.",
+      "icon": "🚶",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail overlooking the ocean"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Malibu special?",
+      "answer": "Malibu is renowned for its stunning beaches, luxury homes, and outdoor recreational opportunities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Malibu?",
+      "answer": "The Malibu real estate market is high-end and competitive, featuring oceanfront estates and luxury properties.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities can you do in Malibu?",
+      "answer": "Enjoy surfing, hiking in the Santa Monica Mountains, relaxing at beaches, and dining at upscale restaurants.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Malibu accessible for commuting?",
+      "answer": "Malibu is accessible via the Pacific Coast Highway and nearby freeways, though traffic can be heavy during peak times.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Malibu CA Real Estate & Lifestyle | Beaches, Luxury & Outdoor Living",
+    "metaDescription": "Explore Malibu's neighborhoods, stunning beaches, and luxury real estate along the California coast.",
+    "keywords": "Malibu real estate, Malibu beaches, Malibu luxury homes, living in Malibu, Malibu outdoor activities",
+    "ogTitle": "Discover Malibu: Coastal Luxury and Natural Beauty",
+    "ogDescription": "Find your dream home in Malibu with breathtaking ocean views and outdoor adventures.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset view of Malibu coastline with waves crashing on the beach",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Malibu",
+      "description": "Explore real estate, neighborhoods, and highlights in Malibu, California.",
+      "url": "https://example.com/locations/malibu",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of Malibu coastline with waves crashing on the beach"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Malibu",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Malibu special?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu is renowned for its stunning beaches, luxury homes, and outdoor recreational opportunities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Malibu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Malibu real estate market is high-end and competitive, featuring oceanfront estates and luxury properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities can you do in Malibu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy surfing, hiking in the Santa Monica Mountains, relaxing at beaches, and dining at upscale restaurants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Malibu accessible for commuting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu is accessible via the Pacific Coast Highway and nearby freeways, though traffic can be heavy during peak times."
+          }
+        }
+      ]
+    }
+  ]
+}

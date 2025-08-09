@@ -1,0 +1,186 @@
+{
+  "slug": "laguna-niguel",
+  "name": "Laguna Niguel",
+  "state": "California",
+  "shortDescription": "An affluent suburban city known for its parks, golf courses, and coastal proximity.",
+  "fullDescription": "Laguna Niguel is a picturesque city nestled in the hills of southern Orange County. Known for its beautiful parks, well-maintained neighborhoods, and excellent recreational facilities, it offers a high quality of life for residents. With convenient access to beaches, shopping, and top-rated schools, Laguna Niguel attracts families and professionals seeking a tranquil yet active lifestyle.",
+  "heroImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic hillside neighborhood in Laguna Niguel",
+  "population": "65K+",
+  "avgHomePrice": "$1.1M",
+  "tags": [
+    "Affluent",
+    "Parks & Recreation",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "city",
+      "slug": "laguna-hills",
+      "description": "Family-friendly suburban city with parks and shopping.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Laguna Hills suburban neighborhood",
+      "distance": "4 miles north",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Master-planned community with lakes, parks, and schools.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lake and parks in Mission Viejo",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "city",
+      "slug": "san-juan-capistrano",
+      "description": "Historic city with charming downtown and cultural sites.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic buildings in San Juan Capistrano",
+      "distance": "7 miles south",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Aliso Viejo",
+      "type": "city",
+      "slug": "aliso-viejo",
+      "description": "Planned community with parks and family amenities.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Aliso Viejo neighborhood park",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Niguel Botanical Preserve",
+      "description": "A beautiful preserve offering walking trails and native plants.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Walking trails and greenery at Niguel Botanical Preserve"
+    },
+    {
+      "title": "Parks and Recreation",
+      "description": "Extensive parks, sports fields, and community centers for all ages.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with sports fields in Laguna Niguel"
+    },
+    {
+      "title": "Golf Courses",
+      "description": "Several prestigious golf courses provide recreation and scenic views.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golf course with sunset view in Laguna Niguel"
+    },
+    {
+      "title": "Coastal Access",
+      "description": "Close proximity to popular beaches and coastal hiking trails.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coastline near Laguna Niguel"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Laguna Niguel a desirable place to live?",
+      "answer": "Its beautiful parks, excellent schools, golf courses, and proximity to beaches create a desirable family-friendly environment.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Laguna Niguel?",
+      "answer": "Laguna Niguel is served by the Capistrano Unified School District, known for strong academic programs.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available in Laguna Niguel?",
+      "answer": "Residents enjoy hiking, golfing, biking, and beach visits within a short drive.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How convenient is the commute from Laguna Niguel?",
+      "answer": "Laguna Niguel offers easy access to the I-5 and 73 toll roads, connecting to other Orange County cities and beyond.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Niguel CA Real Estate & Lifestyle | Parks, Golf & Coastal Living",
+    "metaDescription": "Discover Laguna Niguel’s parks, golf courses, schools, and real estate options in Orange County’s scenic hillside community.",
+    "keywords": "Laguna Niguel real estate, Orange County homes, Laguna Niguel parks, Laguna Niguel golf",
+    "ogTitle": "Explore Laguna Niguel: Parks, Golf, and Coastal Lifestyle",
+    "ogDescription": "Experience family-friendly living with parks, golf courses, and easy access to beaches in Laguna Niguel.",
+    "ogImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic hillside neighborhood in Laguna Niguel",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Niguel",
+      "description": "Explore real estate, neighborhoods, and highlights in Laguna Niguel, California.",
+      "url": "https://example.com/locations/laguna-niguel",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic hillside neighborhood in Laguna Niguel"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Niguel",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Laguna Niguel a desirable place to live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Its beautiful parks, excellent schools, golf courses, and proximity to beaches create a desirable family-friendly environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Laguna Niguel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Niguel is served by the Capistrano Unified School District, known for strong academic programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available in Laguna Niguel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, golfing, biking, and beach visits within a short drive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How convenient is the commute from Laguna Niguel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Niguel offers easy access to the I-5 and 73 toll roads, connecting to other Orange County cities and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}

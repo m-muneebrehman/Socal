@@ -1,0 +1,186 @@
+{
+  "slug": "hawthorne",
+  "name": "Hawthorne",
+  "state": "California",
+  "shortDescription": "A diverse and historic city in the South Bay region of Los Angeles County known for aerospace history and community spirit.",
+  "fullDescription": "Hawthorne is a vibrant city located in Los Angeles County's South Bay area. Known for its rich aerospace heritage, including ties to SpaceX and the former Hughes Aircraft Company, the city offers a diverse community with affordable housing and easy access to Los Angeles and the coast. Hawthorne features several parks, schools, and shopping centers, making it a practical and welcoming choice for families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown street view in Hawthorne with palm trees",
+  "population": "87K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Aerospace history",
+    "Diverse community",
+    "Affordable housing"
+  ],
+  "neighborhoods": [
+    {
+      "name": "El Segundo",
+      "type": "city",
+      "slug": "el-segundo",
+      "description": "Coastal city known for its aerospace industry and beach access.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beach and industry area in El Segundo",
+      "distance": "3 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Inglewood",
+      "type": "city",
+      "slug": "inglewood",
+      "description": "City with a growing entertainment scene, including SoFi Stadium.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Inglewood street view",
+      "distance": "4 miles east",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lawndale",
+      "type": "city",
+      "slug": "lawndale",
+      "description": "Small city with suburban neighborhoods and community parks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in Lawndale",
+      "distance": "2 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Gardena",
+      "type": "city",
+      "slug": "gardena",
+      "description": "Diverse city with parks, shopping, and convenient freeway access.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gardena city street with shops",
+      "distance": "3 miles south",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "SpaceX Headquarters",
+      "description": "Leading aerospace manufacturer and space transport services company based in Hawthorne.",
+      "icon": "🚀",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "SpaceX rocket launch"
+    },
+    {
+      "title": "Hawthorne Memorial Park",
+      "description": "Community park offering sports fields, playgrounds, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park with trees and playground"
+    },
+    {
+      "title": "Downtown Hawthorne",
+      "description": "Revitalized area with shops, restaurants, and local events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Street with shops and people walking"
+    },
+    {
+      "title": "Proximity to Beaches",
+      "description": "Easy access to nearby beaches in El Segundo and Manhattan Beach.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sandy beach with ocean waves"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Hawthorne known for?",
+      "answer": "Hawthorne is known for its aerospace history, including SpaceX headquarters, and a diverse community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Hawthorne?",
+      "answer": "The market offers affordable homes compared to neighboring beach cities with growing demand.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are available in Hawthorne?",
+      "answer": "Residents enjoy community parks, local events downtown, and nearby beaches for outdoor fun.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Hawthorne?",
+      "answer": "Hawthorne has easy access to major freeways and public transit, connecting to Los Angeles and the South Bay area.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Hawthorne CA Real Estate & Lifestyle | Aerospace History & Community",
+    "metaDescription": "Discover Hawthorne's neighborhoods, aerospace heritage, and affordable homes in Los Angeles County's South Bay region.",
+    "keywords": "Hawthorne real estate, Hawthorne aerospace, living in Hawthorne, Hawthorne homes for sale",
+    "ogTitle": "Explore Hawthorne: Aerospace & Community Living",
+    "ogDescription": "Find your home in Hawthorne with its rich aerospace history and vibrant community life.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown street view in Hawthorne with palm trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Hawthorne",
+      "description": "Explore real estate, neighborhoods, and highlights in Hawthorne, California.",
+      "url": "https://example.com/locations/hawthorne",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown street view in Hawthorne with palm trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Hawthorne",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Hawthorne known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hawthorne is known for its aerospace history, including SpaceX headquarters, and a diverse community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Hawthorne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable homes compared to neighboring beach cities with growing demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available in Hawthorne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy community parks, local events downtown, and nearby beaches for outdoor fun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Hawthorne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hawthorne has easy access to major freeways and public transit, connecting to Los Angeles and the South Bay area."
+          }
+        }
+      ]
+    }
+  ]
+}

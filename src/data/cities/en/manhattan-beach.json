@@ -1,0 +1,186 @@
+{
+  "slug": "manhattan-beach",
+  "name": "Manhattan Beach",
+  "state": "California",
+  "shortDescription": "A stylish coastal city known for its sandy beaches, vibrant downtown, and active outdoor lifestyle.",
+  "fullDescription": "Manhattan Beach is a picturesque seaside community famous for its wide sandy beaches, scenic pier, and a lively downtown area filled with boutique shops, restaurants, and cafes. The city offers excellent schools, a family-friendly environment, and numerous recreational opportunities including volleyball, surfing, and biking along The Strand. Close to Los Angeles, it blends a relaxed beach vibe with sophisticated urban amenities, making it a desirable location for residents and visitors alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of Manhattan Beach with people walking on the pier",
+  "population": "35K+",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Beaches",
+    "Outdoor lifestyle",
+    "Downtown"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hermosa Beach",
+      "type": "city",
+      "slug": "hermosa-beach",
+      "description": "Neighboring beach city known for its lively pier, nightlife, and surf culture.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hermosa Beach pier at sunset",
+      "distance": "3 miles south",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Redondo Beach",
+      "type": "city",
+      "slug": "redondo-beach",
+      "description": "Coastal city featuring a marina, pier, and family-friendly attractions.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Redondo Beach marina and pier",
+      "distance": "5 miles south",
+      "avgHomePrice": "$1.4M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Segundo",
+      "type": "city",
+      "slug": "el-segundo",
+      "description": "Small city known for its aerospace industry and beach access.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "El Segundo beach and pier",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "city",
+      "slug": "torrance",
+      "description": "Diverse city with parks, shopping centers, and coastal neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Torrance coastal neighborhood",
+      "distance": "7 miles east",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Manhattan Beach Pier",
+      "description": "Iconic pier with an aquarium, fishing spots, and scenic ocean views.",
+      "icon": "🎣",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Manhattan Beach Pier at sunset"
+    },
+    {
+      "title": "The Strand",
+      "description": "A popular beachfront path for walking, biking, and rollerblading along the coast.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "People biking along The Strand beach path"
+    },
+    {
+      "title": "Downtown Manhattan Beach",
+      "description": "Walkable area with boutiques, cafes, restaurants, and lively events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown Manhattan Beach street with shops and people"
+    },
+    {
+      "title": "Sand Dune Park",
+      "description": "Family-friendly park with large sand dunes, playgrounds, and picnic areas.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sand dunes and children playing in the park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Manhattan Beach unique?",
+      "answer": "Its iconic pier, beautiful beaches, and vibrant downtown create a charming coastal lifestyle.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Manhattan Beach?",
+      "answer": "Manhattan Beach has a competitive market featuring luxury homes near the beach and downtown area.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities are popular in Manhattan Beach?",
+      "answer": "Surfing, beach volleyball, biking The Strand, and enjoying dining and shopping downtown are popular activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Manhattan Beach easy to commute from?",
+      "answer": "It has good access to major freeways and public transit, making commuting to Los Angeles convenient.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Manhattan Beach CA Real Estate & Lifestyle | Beaches & Coastal Living",
+    "metaDescription": "Explore Manhattan Beach's neighborhoods, stunning beaches, and vibrant downtown lifestyle in Southern California.",
+    "keywords": "Manhattan Beach real estate, Manhattan Beach beaches, Manhattan Beach homes, living in Manhattan Beach, Manhattan Beach lifestyle",
+    "ogTitle": "Discover Manhattan Beach: Coastal Charm & Vibrant Living",
+    "ogDescription": "Find your dream home in Manhattan Beach with its iconic pier, beaches, and active lifestyle.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset view of Manhattan Beach with people walking on the pier",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Manhattan Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Manhattan Beach, California.",
+      "url": "https://example.com/locations/manhattan-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of Manhattan Beach with people walking on the pier"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Manhattan Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Manhattan Beach unique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Its iconic pier, beautiful beaches, and vibrant downtown create a charming coastal lifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Manhattan Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manhattan Beach has a competitive market featuring luxury homes near the beach and downtown area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities are popular in Manhattan Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surfing, beach volleyball, biking The Strand, and enjoying dining and shopping downtown are popular activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Manhattan Beach easy to commute from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It has good access to major freeways and public transit, making commuting to Los Angeles convenient."
+          }
+        }
+      ]
+    }
+  ]
+}

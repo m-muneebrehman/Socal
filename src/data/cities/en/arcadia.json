@@ -1,0 +1,186 @@
+{
+  "slug": "arcadia",
+  "name": "Arcadia",
+  "state": "California",
+  "shortDescription": "A picturesque city in the San Gabriel Valley known for excellent schools, spacious parks, and a family-friendly environment.",
+  "fullDescription": "Arcadia offers a blend of suburban tranquility and vibrant community life. Renowned for its top-rated schools, the Los Angeles County Arboretum & Botanical Garden, and a welcoming downtown area with shops and restaurants, Arcadia is a sought-after place to live. Its convenient location provides easy access to Pasadena, Monrovia, and other surrounding cities, making it ideal for families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic park view with palm trees and mountains in Arcadia",
+  "population": "58K+",
+  "avgHomePrice": "$1.1M",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Top schools"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Famous for the Rose Parade, cultural institutions, and vibrant Old Town.",
+      "image": "https://images.unsplash.com/photo-1576698483491-8a84b6e0f5d4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic architecture in Pasadena",
+      "distance": "6 miles west",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Monrovia",
+      "type": "city",
+      "slug": "monrovia",
+      "description": "A charming city with historic downtown, hiking trails, and a close-knit community.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Monrovia street with shops and mountains",
+      "distance": "6 miles east",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Marino",
+      "type": "city",
+      "slug": "san-marino",
+      "description": "Affluent residential city known for excellent schools and the Huntington Library.",
+      "image": "https://images.unsplash.com/photo-1564518098551-7689ed0e5b6a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Elegant homes and tree-lined streets in San Marino",
+      "distance": "3 miles south",
+      "avgHomePrice": "$2.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Sierra Madre",
+      "type": "city",
+      "slug": "sierra-madre",
+      "description": "Quaint mountain town with hiking trails, festivals, and historic charm.",
+      "image": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mountain town street and shops in Sierra Madre",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Los Angeles County Arboretum & Botanical Garden",
+      "description": "A stunning 127-acre botanical garden featuring rare plants, peacocks, and historic landmarks.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lush botanical garden with flowers and greenery"
+    },
+    {
+      "title": "Santa Anita Park",
+      "description": "Historic thoroughbred racetrack hosting major racing events and community activities.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horse racing event at Santa Anita Park"
+    },
+    {
+      "title": "Downtown Arcadia",
+      "description": "Vibrant area with shops, restaurants, and seasonal festivals for the whole family.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Busy downtown street with people and shops"
+    },
+    {
+      "title": "Top-Rated Schools",
+      "description": "Arcadia Unified School District is known for excellence in education and student achievement.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Students walking on campus in school uniforms"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Arcadia best known for?",
+      "answer": "Arcadia is best known for its excellent schools, beautiful parks, and strong community atmosphere.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Arcadia?",
+      "answer": "The market is competitive, with high demand for single-family homes and well-maintained neighborhoods.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular attractions in Arcadia?",
+      "answer": "Popular attractions include the Los Angeles County Arboretum, Santa Anita Park, and lively downtown Arcadia.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Arcadia?",
+      "answer": "Arcadia offers convenient access to the 210 freeway and Metro Gold Line, making commuting to Pasadena and Los Angeles easy.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Arcadia CA Real Estate & Lifestyle | Family, Parks & Education",
+    "metaDescription": "Explore Arcadia's neighborhoods, parks, schools, and real estate opportunities in the San Gabriel Valley.",
+    "keywords": "Arcadia real estate, Arcadia parks, Arcadia schools, living in Arcadia, Arcadia homes for sale",
+    "ogTitle": "Discover Arcadia: Family-Friendly Living & Beautiful Parks",
+    "ogDescription": "Find your home in Arcadia with top schools, parks, and a welcoming community atmosphere.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic park view with palm trees and mountains in Arcadia",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Arcadia",
+      "description": "Explore real estate, neighborhoods, and highlights in Arcadia, California.",
+      "url": "https://example.com/locations/arcadia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic park view with palm trees and mountains in Arcadia"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Arcadia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Arcadia best known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arcadia is best known for its excellent schools, beautiful parks, and strong community atmosphere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is competitive, with high demand for single-family homes and well-maintained neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular attractions in Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular attractions include the Los Angeles County Arboretum, Santa Anita Park, and lively downtown Arcadia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arcadia offers convenient access to the 210 freeway and Metro Gold Line, making commuting to Pasadena and Los Angeles easy."
+          }
+        }
+      ]
+    }
+  ]
+}

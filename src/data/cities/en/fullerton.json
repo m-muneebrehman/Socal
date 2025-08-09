@@ -1,0 +1,186 @@
+{
+  "slug": "fullerton",
+  "name": "Fullerton",
+  "state": "California",
+  "shortDescription": "A vibrant city known for its historic downtown, educational institutions, and cultural events.",
+  "fullDescription": "Fullerton is a lively Orange County city blending historic charm with modern amenities. Known for its bustling downtown area filled with restaurants, shops, and nightlife, Fullerton is home to California State University, Fullerton and Fullerton College, attracting students and professionals. The city offers diverse neighborhoods, excellent schools, and a rich cultural scene including theaters, art galleries, and music festivals.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Historic downtown Fullerton with vibrant streets and architecture",
+  "population": "140K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Historic",
+    "Educational",
+    "Cultural"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Home to Disneyland Resort and a major entertainment and convention hub.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Disneyland entrance in Anaheim",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "city",
+      "slug": "brea",
+      "description": "Upscale city with shopping centers, art galleries, and family-friendly parks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Brea shopping area",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "city",
+      "slug": "placentia",
+      "description": "Quiet suburban community with parks, schools, and a historic downtown area.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and homes in Placentia",
+      "distance": "4 miles east",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "city",
+      "slug": "yorba-linda",
+      "description": "Affluent residential city with spacious homes, parks, and historic landmarks.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in Yorba Linda",
+      "distance": "8 miles northeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Historic Downtown Fullerton",
+      "description": "Vibrant area with dining, shopping, theaters, and nightlife.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown Fullerton street with restaurants and lights"
+    },
+    {
+      "title": "California State University, Fullerton",
+      "description": "Major public university known for its strong academic programs and campus events.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "CSUF campus buildings and green spaces"
+    },
+    {
+      "title": "Fullerton Arboretum",
+      "description": "Beautiful botanical garden offering nature trails and educational programs.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lush greenery and pathways in Fullerton Arboretum"
+    },
+    {
+      "title": "Cultural Events",
+      "description": "Regular festivals, concerts, and art exhibitions enhance community life.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor cultural festival in Fullerton"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Fullerton known for?",
+      "answer": "Fullerton is known for its historic downtown, educational institutions, and vibrant cultural scene.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Fullerton?",
+      "answer": "Fullerton has several excellent public and private schools, plus California State University, Fullerton.",
+      "category": "Education"
+    },
+    {
+      "question": "What cultural activities are available?",
+      "answer": "Residents enjoy theaters, art galleries, music festivals, and community events year-round.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Fullerton?",
+      "answer": "Fullerton offers convenient freeway access to Los Angeles, Orange County, and surrounding cities.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Fullerton CA Real Estate & Lifestyle | Historic Downtown & University City",
+    "metaDescription": "Explore Fullerton’s neighborhoods, cultural attractions, schools, and real estate in Orange County.",
+    "keywords": "Fullerton real estate, historic downtown Fullerton, CSUF, Orange County living",
+    "ogTitle": "Discover Fullerton: Historic Charm & Vibrant Community",
+    "ogDescription": "Experience the lively culture, education, and neighborhoods of Fullerton, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Fullerton at dusk",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Fullerton",
+      "description": "Explore real estate, neighborhoods, and highlights in Fullerton, California.",
+      "url": "https://example.com/locations/fullerton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historic downtown Fullerton with vibrant streets and architecture"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Fullerton",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Fullerton known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton is known for its historic downtown, educational institutions, and vibrant cultural scene."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Fullerton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton has several excellent public and private schools, plus California State University, Fullerton."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What cultural activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy theaters, art galleries, music festivals, and community events year-round."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Fullerton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton offers convenient freeway access to Los Angeles, Orange County, and surrounding cities."
+          }
+        }
+      ]
+    }
+  ]
+}

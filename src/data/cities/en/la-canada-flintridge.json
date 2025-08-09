@@ -1,0 +1,186 @@
+{
+  "slug": "la-canada-flintridge",
+  "name": "La Cañada Flintridge",
+  "state": "California",
+  "shortDescription": "A picturesque foothill city known for excellent schools, scenic hiking trails, and a quiet suburban lifestyle.",
+  "fullDescription": "La Cañada Flintridge is nestled in the foothills of the San Gabriel Mountains, offering residents a peaceful suburban environment with top-rated schools and abundant outdoor recreational opportunities. Known for its historic estates, hiking trails such as those in the Angeles National Forest, and a charming small-town atmosphere, this city is ideal for families and nature lovers. Conveniently located near Pasadena and Glendale, La Cañada Flintridge provides easy access to urban amenities while maintaining its serene character.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic view of foothills and residential homes in La Cañada Flintridge",
+  "population": "20K+",
+  "avgHomePrice": "$1.4M",
+  "tags": [
+    "Top-rated schools",
+    "Hiking",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Nearby city known for cultural institutions, the Rose Parade, and historic Old Town.",
+      "image": "https://images.unsplash.com/photo-1576698483491-8a84b6e0f5d4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic architecture in Pasadena",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Glendale",
+      "type": "city",
+      "slug": "glendale",
+      "description": "City known for shopping, dining, and the scenic Verdugo Mountains nearby.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Glendale skyline",
+      "distance": "7 miles south",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Crescenta-Montrose",
+      "type": "city",
+      "slug": "la-crescenta-montrose",
+      "description": "Residential community with a suburban feel and access to hiking trails.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined suburban street in La Crescenta-Montrose",
+      "distance": "3 miles east",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Altadena",
+      "type": "city",
+      "slug": "altadena",
+      "description": "Community with historic homes, parks, and foothill trails.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mountain trail near Altadena",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$820K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hahamongna Watershed Park",
+      "description": "Large natural park with trails, picnic areas, and a seasonal lake.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trails in Hahamongna Watershed Park"
+    },
+    {
+      "title": "Descanso Gardens",
+      "description": "Beautiful botanical gardens featuring seasonal flowers, walking paths, and educational exhibits.",
+      "icon": "🌸",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colorful flowers in Descanso Gardens"
+    },
+    {
+      "title": "Excellent Schools",
+      "description": "Highly rated public and private schools serving families in the community.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "School building with students"
+    },
+    {
+      "title": "La Cañada Flintridge Historic Estates",
+      "description": "Beautiful historic homes and estates nestled in the hills.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historic estate home in La Cañada Flintridge"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is La Cañada Flintridge known for?",
+      "answer": "Known for its scenic foothills, top-rated schools, and outdoor recreational opportunities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in La Cañada Flintridge?",
+      "answer": "The market features historic estates as well as newer homes with high demand for quality suburban living.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What outdoor activities are popular in La Cañada Flintridge?",
+      "answer": "Hiking, visiting botanical gardens, and enjoying community parks are popular outdoor activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How convenient is commuting from La Cañada Flintridge?",
+      "answer": "Easy access to nearby cities like Pasadena and Glendale with freeway connections and local transit options.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Cañada Flintridge CA Real Estate & Lifestyle | Scenic Foothills & Quality Living",
+    "metaDescription": "Discover La Cañada Flintridge's top schools, hiking trails, historic estates, and suburban charm near Pasadena and Glendale.",
+    "keywords": "La Cañada Flintridge real estate, hiking La Cañada Flintridge, La Cañada schools, living in La Cañada Flintridge",
+    "ogTitle": "Explore La Cañada Flintridge: Scenic Living & Top Schools",
+    "ogDescription": "Find your home in La Cañada Flintridge with its peaceful foothills, quality schools, and outdoor lifestyle.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic foothills and homes in La Cañada Flintridge",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Cañada Flintridge",
+      "description": "Explore real estate, neighborhoods, and highlights in La Cañada Flintridge, California.",
+      "url": "https://example.com/locations/la-canada-flintridge",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic foothills and homes in La Cañada Flintridge"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Cañada Flintridge",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is La Cañada Flintridge known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Known for its scenic foothills, top-rated schools, and outdoor recreational opportunities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market features historic estates as well as newer homes with high demand for quality suburban living."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking, visiting botanical gardens, and enjoying community parks are popular outdoor activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How convenient is commuting from La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easy access to nearby cities like Pasadena and Glendale with freeway connections and local transit options."
+          }
+        }
+      ]
+    }
+  ]
+}

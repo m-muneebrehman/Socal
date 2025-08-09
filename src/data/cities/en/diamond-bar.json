@@ -1,0 +1,186 @@
+{
+  "slug": "diamond-bar",
+  "name": "Diamond Bar",
+  "state": "California",
+  "shortDescription": "A suburban city known for its scenic hills, family-friendly environment, and excellent schools.",
+  "fullDescription": "Diamond Bar offers a peaceful suburban lifestyle with plenty of parks, hiking trails, and community events. Located in eastern Los Angeles County, it features well-maintained neighborhoods, strong public schools, and easy access to the 60 and 57 freeways. The city is popular with families and professionals seeking a quieter setting close to urban amenities.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Suburban neighborhood street in Diamond Bar with hills in the background",
+  "population": "56K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Suburban",
+    "Family-friendly",
+    "Hiking"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "city",
+      "slug": "pomona",
+      "description": "City with a historic downtown, cultural venues, and educational institutions.",
+      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Pomona street view",
+      "distance": "5 miles east",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Walnut",
+      "type": "city",
+      "slug": "walnut",
+      "description": "Family-oriented community known for excellent schools and parks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban park in Walnut",
+      "distance": "3 miles north",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Chino Hills",
+      "type": "city",
+      "slug": "chino-hills",
+      "description": "Hilly community with outdoor recreational opportunities and family neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hills and homes in Chino Hills",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "San Bernardino"
+    },
+    {
+      "name": "Rowland Heights",
+      "type": "city",
+      "slug": "rowland-heights",
+      "description": "Diverse community known for shopping centers and suburban neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Commercial area in Rowland Heights",
+      "distance": "4 miles west",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Pantera Park",
+      "description": "Popular local park with playgrounds, sports fields, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with trees and open green space"
+    },
+    {
+      "title": "Summit Ridge Park",
+      "description": "Hilltop park with hiking trails and panoramic views of the city.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "View from hiking trail in Summit Ridge Park"
+    },
+    {
+      "title": "Diamond Bar Golf Course",
+      "description": "Public golf course with beautiful landscaping and amenities.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golf course with green fairways"
+    },
+    {
+      "title": "Diamond Bar Towne Center",
+      "description": "Shopping and dining hub with various stores and restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping center exterior"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Diamond Bar known for?",
+      "answer": "Diamond Bar is known for its family-friendly neighborhoods, excellent schools, and outdoor recreational options.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Diamond Bar?",
+      "answer": "The market offers a mix of suburban homes with competitive pricing and strong demand from families.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular outdoor activities in Diamond Bar?",
+      "answer": "Residents enjoy hiking at Summit Ridge Park, golfing, and spending time at local parks like Pantera Park.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Diamond Bar?",
+      "answer": "Diamond Bar provides convenient freeway access and reasonable commutes to Los Angeles and neighboring cities.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Diamond Bar CA Real Estate & Lifestyle | Family-Friendly Suburb",
+    "metaDescription": "Explore Diamond Bar's neighborhoods, parks, and real estate in Los Angeles County.",
+    "keywords": "Diamond Bar real estate, Diamond Bar parks, living in Diamond Bar, Diamond Bar homes for sale",
+    "ogTitle": "Discover Diamond Bar: Suburban Living & Outdoor Life",
+    "ogDescription": "Find your home in Diamond Bar with its family-oriented neighborhoods and scenic surroundings.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Suburban neighborhood street in Diamond Bar",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Diamond Bar",
+      "description": "Explore real estate, neighborhoods, and highlights in Diamond Bar, California.",
+      "url": "https://example.com/locations/diamond-bar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Suburban neighborhood street in Diamond Bar"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Diamond Bar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Diamond Bar known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar is known for its family-friendly neighborhoods, excellent schools, and outdoor recreational options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers a mix of suburban homes with competitive pricing and strong demand from families."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular outdoor activities in Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking at Summit Ridge Park, golfing, and spending time at local parks like Pantera Park."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar provides convenient freeway access and reasonable commutes to Los Angeles and neighboring cities."
+          }
+        }
+      ]
+    }
+  ]
+}

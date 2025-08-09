@@ -1,0 +1,186 @@
+{
+  "slug": "laguna-hills",
+  "name": "Laguna Hills",
+  "state": "California",
+  "shortDescription": "A family-friendly suburban city known for parks, shopping, and convenient access to Orange County attractions.",
+  "fullDescription": "Laguna Hills offers a comfortable suburban lifestyle with numerous parks, well-maintained neighborhoods, and a variety of shopping and dining options. Located in the Saddleback Valley, it provides easy access to nearby beaches, hiking trails, and entertainment venues. The city is known for its community events and quality schools, making it popular with families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Laguna Hills suburban neighborhood with greenery",
+  "population": "31K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Family-friendly",
+    "Parks & Recreation",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "city",
+      "slug": "aliso-viejo",
+      "description": "Planned community with parks, shopping, and family-friendly living.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Aliso Viejo neighborhood park",
+      "distance": "3 miles southwest",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "city",
+      "slug": "laguna-niguel",
+      "description": "Affluent community known for parks, golf courses, and shopping centers.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in Laguna Niguel",
+      "distance": "4 miles south",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Master-planned community with extensive parks, lakes, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lake and parks in Mission Viejo",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "city",
+      "slug": "irvine",
+      "description": "Large master-planned city with corporate centers, schools, and parks.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Irvine business district and residential area",
+      "distance": "12 miles northwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks and Trails",
+      "description": "Multiple parks and walking trails providing recreational opportunities for all ages.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with trees and walking path in Laguna Hills"
+    },
+    {
+      "title": "Laguna Hills Community Center",
+      "description": "Offers sports facilities, event spaces, and community programs.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community center building in Laguna Hills"
+    },
+    {
+      "title": "Shopping and Dining",
+      "description": "Convenient access to shopping centers and a variety of restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping center with outdoor dining"
+    },
+    {
+      "title": "Proximity to Beaches",
+      "description": "Short drive to popular Orange County beaches like Laguna Beach and Dana Point.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ocean view near Laguna Hills"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What kind of lifestyle does Laguna Hills offer?",
+      "answer": "Laguna Hills provides a suburban, family-friendly lifestyle with plenty of parks, shopping, and community events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Laguna Hills?",
+      "answer": "The city is served by the Capistrano Unified School District, which includes well-regarded elementary, middle, and high schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular in Laguna Hills?",
+      "answer": "Residents enjoy hiking, biking, sports at local parks, and visiting nearby beaches.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How convenient is commuting from Laguna Hills?",
+      "answer": "Laguna Hills offers easy access to the 73 and 241 toll roads, providing convenient commutes throughout Orange County and beyond.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Hills CA Real Estate & Family Living | Parks & Convenient Access",
+    "metaDescription": "Explore Laguna Hills neighborhoods, parks, schools, and real estate in Orange County’s family-friendly community.",
+    "keywords": "Laguna Hills real estate, family living Laguna Hills, Orange County homes, Laguna Hills parks",
+    "ogTitle": "Discover Laguna Hills: Family-Friendly Suburban Living in Orange County",
+    "ogDescription": "Enjoy parks, community amenities, and convenient access to Orange County’s best attractions in Laguna Hills.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Laguna Hills neighborhood with greenery",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Hills",
+      "description": "Explore real estate, neighborhoods, and highlights in Laguna Hills, California.",
+      "url": "https://example.com/locations/laguna-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Laguna Hills suburban neighborhood with greenery"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What kind of lifestyle does Laguna Hills offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills provides a suburban, family-friendly lifestyle with plenty of parks, shopping, and community events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Capistrano Unified School District, which includes well-regarded elementary, middle, and high schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, biking, sports at local parks, and visiting nearby beaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How convenient is commuting from Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills offers easy access to the 73 and 241 toll roads, providing convenient commutes throughout Orange County and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "slug": "rancho-santa-margarita",
+  "name": "Rancho Santa Margarita",
+  "state": "California",
+  "shortDescription": "A master-planned community offering scenic hills, family-friendly neighborhoods, and abundant parks.",
+  "fullDescription": "Rancho Santa Margarita is a vibrant Orange County city known for its well-planned residential communities, picturesque landscapes, and excellent schools. With numerous parks, trails, and recreational facilities, it is ideal for families and outdoor enthusiasts. The city’s central location provides easy access to major freeways, shopping centers, and employment hubs, combining suburban comfort with urban convenience.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic view of hills and neighborhoods in Rancho Santa Margarita",
+  "population": "47K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Master-planned",
+    "Family-friendly",
+    "Outdoors"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Coto de Caza",
+      "type": "community",
+      "slug": "coto-de-caza",
+      "description": "Exclusive gated community known for luxury homes and golf courses.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Luxury homes and golf course in Coto de Caza",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$1.8M",
+      "county": "Orange"
+    },
+    {
+      "name": "Trabuco Highlands",
+      "type": "neighborhood",
+      "slug": "trabuco-highlands",
+      "description": "Family-oriented neighborhood with parks, schools, and hiking trails.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Homes near hiking trails in Trabuco Highlands",
+      "distance": "3 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Rancho Cielo",
+      "type": "neighborhood",
+      "slug": "rancho-cielo",
+      "description": "Popular residential area with shopping centers and community parks.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban homes and shopping in Rancho Cielo",
+      "distance": "1 mile north",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Paseo Park",
+      "description": "Community park with playgrounds, picnic areas, and sports courts.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and greenery at Paseo Park"
+    },
+    {
+      "title": "Rancho Santa Margarita Lake",
+      "description": "Popular spot for walking, fishing, and relaxing by the water.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lake view with walking trail in Rancho Santa Margarita"
+    },
+    {
+      "title": "Outdoor Trails",
+      "description": "Extensive hiking and biking trails throughout the hills and canyons.",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail with hills in Rancho Santa Margarita"
+    },
+    {
+      "title": "Community Events",
+      "description": "Year-round events including farmers markets, concerts, and holiday festivals.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowd enjoying a community festival"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Rancho Santa Margarita known for?",
+      "answer": "It is known for its master-planned communities, scenic outdoor spaces, and family-friendly atmosphere.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Rancho Santa Margarita?",
+      "answer": "The city is served by the Capistrano Unified School District, with several highly rated schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents enjoy hiking, biking, fishing, and community park amenities.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Rancho Santa Margarita?",
+      "answer": "The city offers easy access to the 241 and 261 toll roads, with commutes typically around 30-45 minutes to nearby job centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Rancho Santa Margarita CA Real Estate & Lifestyle | Family Living & Outdoor Recreation",
+    "metaDescription": "Explore Rancho Santa Margarita’s neighborhoods, parks, schools, and outdoor activities in Orange County, California.",
+    "keywords": "Rancho Santa Margarita real estate, family neighborhoods Rancho Santa Margarita, Orange County homes, outdoor living Rancho Santa Margarita",
+    "ogTitle": "Discover Rancho Santa Margarita: Family Community & Outdoor Lifestyle",
+    "ogDescription": "Experience the scenic beauty and welcoming community of Rancho Santa Margarita, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic view of hills and neighborhoods in Rancho Santa Margarita",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Rancho Santa Margarita",
+      "description": "Explore real estate, neighborhoods, and highlights in Rancho Santa Margarita, California.",
+      "url": "https://example.com/locations/rancho-santa-margarita",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic view of hills and neighborhoods in Rancho Santa Margarita"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Rancho Santa Margarita",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Rancho Santa Margarita known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is known for its master-planned communities, scenic outdoor spaces, and family-friendly atmosphere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Rancho Santa Margarita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Capistrano Unified School District, with several highly rated schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, biking, fishing, and community park amenities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Rancho Santa Margarita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city offers easy access to the 241 and 261 toll roads, with commutes typically around 30-45 minutes to nearby job centers."
+          }
+        }
+      ]
+    }
+  ]
+}

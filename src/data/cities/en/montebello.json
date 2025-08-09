@@ -1,0 +1,186 @@
+{
+  "slug": "montebello",
+  "name": "Montebello",
+  "state": "California",
+  "shortDescription": "A diverse city with a rich history, offering a mix of residential neighborhoods, parks, and local culture.",
+  "fullDescription": "Montebello is a vibrant community located in the eastern part of Los Angeles County. Known for its friendly neighborhoods, abundant parks, and diverse population, Montebello offers a suburban feel with convenient access to the greater Los Angeles area. The city hosts various cultural events and has a strong focus on family life, making it a welcoming place for residents of all ages.",
+  "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Residential neighborhood street in Montebello",
+  "population": "62K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Diverse community",
+    "Parks and recreation",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Whittier",
+      "type": "city",
+      "slug": "whittier",
+      "description": "A historic city with charming neighborhoods, parks, and a vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Whittier street with shops",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pico Rivera",
+      "type": "city",
+      "slug": "pico-rivera",
+      "description": "Community-focused city with parks, schools, and residential areas.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pico Rivera neighborhood with houses",
+      "distance": "3 miles south",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Montebello Hills",
+      "type": "neighborhood",
+      "slug": "montebello-hills",
+      "description": "Residential neighborhood with scenic views and family homes.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hilly residential area in Montebello",
+      "distance": "Within city",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "East Los Angeles",
+      "type": "city",
+      "slug": "east-los-angeles",
+      "description": "Community rich in Latino heritage, known for vibrant murals and authentic cuisine.",
+      "image": "https://images.unsplash.com/photo-1601758173925-44cf5a3d3b07?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street mural in East Los Angeles",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Montebello Country Club",
+      "description": "A scenic golf course and event venue offering recreational activities.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golf course in Montebello"
+    },
+    {
+      "title": "Montebello Hills Park",
+      "description": "A popular park with playgrounds, picnic areas, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park area with trees and playground"
+    },
+    {
+      "title": "Montebello Historical Museum",
+      "description": "Showcasing the city’s rich history and cultural heritage.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historical building museum exterior"
+    },
+    {
+      "title": "Community Festivals",
+      "description": "Annual events celebrating local culture, food, and music.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community festival with people"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Montebello known for?",
+      "answer": "Montebello is known for its family-friendly neighborhoods, parks, and rich cultural diversity.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Montebello?",
+      "answer": "The market offers affordable options with a mix of single-family homes and condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are available in Montebello?",
+      "answer": "Golfing, park activities, and community festivals are popular in Montebello.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Montebello convenient for commuting?",
+      "answer": "Yes, it has access to major freeways like the I-5 and public transportation options.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Montebello CA Real Estate & Lifestyle | Family-Friendly & Parks",
+    "metaDescription": "Explore Montebello’s neighborhoods, parks, and real estate options in Los Angeles County.",
+    "keywords": "Montebello real estate, living in Montebello, Montebello neighborhoods, Montebello homes for sale",
+    "ogTitle": "Discover Montebello: Family-Friendly Community & Parks",
+    "ogDescription": "Find your home in Montebello with its welcoming neighborhoods and rich cultural heritage.",
+    "ogImage": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Residential neighborhood street in Montebello",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Montebello",
+      "description": "Explore real estate, neighborhoods, and highlights in Montebello, California.",
+      "url": "https://example.com/locations/montebello",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Residential neighborhood street in Montebello"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Montebello",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Montebello known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Montebello is known for its family-friendly neighborhoods, parks, and rich cultural diversity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Montebello?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable options with a mix of single-family homes and condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available in Montebello?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Golfing, park activities, and community festivals are popular in Montebello."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Montebello convenient for commuting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it has access to major freeways like the I-5 and public transportation options."
+          }
+        }
+      ]
+    }
+  ]
+}

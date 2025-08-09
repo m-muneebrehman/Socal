@@ -1,0 +1,186 @@
+{
+  "slug": "palmdale",
+  "name": "Palmdale",
+  "state": "California",
+  "shortDescription": "A growing city in the Antelope Valley known for affordable housing, outdoor recreation, and a family-friendly atmosphere.",
+  "fullDescription": "Palmdale, located in northern Los Angeles County, offers residents a suburban lifestyle with expanding amenities. Known for its accessible housing market, proximity to the Angeles National Forest, and community parks, Palmdale is ideal for families and outdoor enthusiasts. The city is developing rapidly with new schools, shopping centers, and recreational facilities, while maintaining a welcoming small-town feel within the Greater Los Angeles area.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Cityscape of Palmdale with mountains in the background",
+  "population": "157K+",
+  "avgHomePrice": "$550K",
+  "tags": [
+    "Affordable housing",
+    "Outdoor recreation",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lancaster",
+      "type": "city",
+      "slug": "lancaster",
+      "description": "Neighboring city known for parks, cultural events, and a growing economy.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cityscape of Lancaster",
+      "distance": "10 miles west",
+      "avgHomePrice": "$520K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Quartz Hill",
+      "type": "city",
+      "slug": "quartz-hill",
+      "description": "Community known for rural charm, open spaces, and equestrian properties.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rural landscape in Quartz Hill",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$480K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lake Los Angeles",
+      "type": "city",
+      "slug": "lake-los-angeles",
+      "description": "A rural community with desert landscapes and affordable housing options.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Desert landscape near Lake Los Angeles",
+      "distance": "20 miles northeast",
+      "avgHomePrice": "$350K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Acton",
+      "type": "city",
+      "slug": "acton",
+      "description": "A semi-rural community with horse ranches and outdoor recreational opportunities.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horses grazing in Acton",
+      "distance": "15 miles south",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Antelope Valley California Poppy Reserve",
+      "description": "A stunning natural reserve showcasing vibrant wildflower blooms in spring.",
+      "icon": "🌼",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Field of poppies in bloom"
+    },
+    {
+      "title": "Palmdale City Park",
+      "description": "Community park with playgrounds, sports facilities, and picnic areas.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with trees and playground"
+    },
+    {
+      "title": "Dry Town Water Park",
+      "description": "Popular water park offering family fun and cool off spots during summer.",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Water slides at a water park"
+    },
+    {
+      "title": "California State University, Bakersfield Antelope Valley",
+      "description": "Local higher education institution serving Palmdale and the Antelope Valley.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "University campus buildings"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Palmdale known for?",
+      "answer": "Palmdale is known for affordable housing, outdoor activities, and a family-friendly community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Palmdale?",
+      "answer": "Palmdale offers more affordable housing compared to Los Angeles with a growing market.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What outdoor activities can you do in Palmdale?",
+      "answer": "Residents enjoy hiking, visiting poppy reserves, and water parks in the area.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is commuting easy from Palmdale?",
+      "answer": "Palmdale is served by Highway 14 and Metrolink rail, providing access to Los Angeles and surrounding areas.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Palmdale CA Real Estate & Lifestyle | Affordable Living & Outdoor Fun",
+    "metaDescription": "Explore Palmdale’s neighborhoods, parks, and real estate options in northern Los Angeles County.",
+    "keywords": "Palmdale real estate, Palmdale parks, living in Palmdale, Palmdale homes for sale",
+    "ogTitle": "Discover Palmdale: Affordable Family Living & Outdoor Recreation",
+    "ogDescription": "Find your home in Palmdale with access to nature, parks, and growing community amenities.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Cityscape of Palmdale with mountains in the background",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Palmdale",
+      "description": "Explore real estate, neighborhoods, and highlights in Palmdale, California.",
+      "url": "https://example.com/locations/palmdale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Cityscape of Palmdale with mountains in the background"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Palmdale",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Palmdale known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale is known for affordable housing, outdoor activities, and a family-friendly community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Palmdale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale offers more affordable housing compared to Los Angeles with a growing market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can you do in Palmdale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, visiting poppy reserves, and water parks in the area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is commuting easy from Palmdale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale is served by Highway 14 and Metrolink rail, providing access to Los Angeles and surrounding areas."
+          }
+        }
+      ]
+    }
+  ]
+}

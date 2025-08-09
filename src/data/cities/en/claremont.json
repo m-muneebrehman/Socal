@@ -1,0 +1,186 @@
+{
+  "slug": "claremont",
+  "name": "Claremont",
+  "state": "California",
+  "shortDescription": "A charming college town known for its tree-lined streets, prestigious colleges, and vibrant arts scene.",
+  "fullDescription": "Claremont is a picturesque city in eastern Los Angeles County, famous for The Claremont Colleges, beautiful neighborhoods, and a strong sense of community. Its historic downtown area features boutique shops, cafes, and cultural venues, making it a cultural and educational hub. Residents enjoy abundant parks, walking trails, and local events throughout the year. With easy access to nearby cities and freeways, Claremont offers a perfect blend of small-town charm and urban convenience.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree-lined street in Claremont with sunny skies",
+  "population": "37K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "College town",
+    "Arts and culture",
+    "Parks and trails"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "city",
+      "slug": "pomona",
+      "description": "Neighboring city with a rich cultural scene, historic sites, and a growing downtown.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Pomona streetscape",
+      "distance": "5 miles west",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Upland",
+      "type": "city",
+      "slug": "upland",
+      "description": "City known for its historic downtown, outdoor activities, and suburban living.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic buildings in Upland",
+      "distance": "6 miles northeast",
+      "avgHomePrice": "$750K",
+      "county": "San Bernardino"
+    },
+    {
+      "name": "La Verne",
+      "type": "city",
+      "slug": "la-verne",
+      "description": "Suburban city featuring parks, local shops, and a college campus.",
+      "image": "https://images.unsplash.com/photo-1520975690363-7aaf840e7f3d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in La Verne",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$730K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Claremont Village",
+      "type": "neighborhood",
+      "slug": "claremont-village",
+      "description": "Historic downtown area with shops, cafes, and cultural events.",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Claremont Village street with shops and string lights",
+      "distance": "Central",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Claremont Colleges",
+      "description": "A consortium of prestigious liberal arts colleges contributing to a vibrant academic environment.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campus buildings at Claremont Colleges"
+    },
+    {
+      "title": "Claremont Village",
+      "description": "Quaint downtown with boutiques, restaurants, farmers markets, and seasonal festivals.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Village street with string lights and shops"
+    },
+    {
+      "title": "Hiker’s Paradise",
+      "description": "Access to nearby trails such as the Claremont Hills Wilderness Park and scenic foothills.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green hiking trail in foothills"
+    },
+    {
+      "title": "Local Arts Scene",
+      "description": "Galleries, theaters, and live music venues showcase a thriving cultural life.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Theater stage with lights"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Claremont known for?",
+      "answer": "Claremont is best known for its colleges, charming village downtown, and outdoor recreational opportunities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Claremont?",
+      "answer": "The market is competitive, with many historic homes and newer developments appealing to families and academics.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular activities in Claremont?",
+      "answer": "Visitors and residents enjoy shopping in the village, hiking local trails, attending college events, and exploring art venues.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Claremont?",
+      "answer": "Claremont is accessible via the Foothill Freeway (I-210) and Metrolink train service, facilitating commutes to Los Angeles and San Bernardino.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Claremont CA Real Estate & Lifestyle | College Town & Arts",
+    "metaDescription": "Discover Claremont’s neighborhoods, prestigious colleges, cultural highlights, and real estate in Los Angeles County.",
+    "keywords": "Claremont real estate, Claremont colleges, Claremont Village, living in Claremont, Claremont homes for sale",
+    "ogTitle": "Explore Claremont: College Town Living & Cultural Hub",
+    "ogDescription": "Find your home in Claremont with its academic vibe, arts scene, and scenic neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Tree-lined street in Claremont",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Claremont",
+      "description": "Explore real estate, neighborhoods, and highlights in Claremont, California.",
+      "url": "https://example.com/locations/claremont",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Tree-lined street in Claremont with sunny skies"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Claremont",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Claremont known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claremont is best known for its colleges, charming village downtown, and outdoor recreational opportunities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is competitive, with many historic homes and newer developments appealing to families and academics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular activities in Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitors and residents enjoy shopping in the village, hiking local trails, attending college events, and exploring art venues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claremont is accessible via the Foothill Freeway (I-210) and Metrolink train service, facilitating commutes to Los Angeles and San Bernardino."
+          }
+        }
+      ]
+    }
+  ]
+}

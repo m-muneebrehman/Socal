@@ -1,0 +1,186 @@
+{
+  "slug": "norwalk",
+  "name": "Norwalk",
+  "state": "California",
+  "shortDescription": "A family-oriented city with parks, shopping, and convenient access to Los Angeles and Orange County.",
+  "fullDescription": "Norwalk is a vibrant city in southeast Los Angeles County known for its community parks, diverse shopping centers, and family-friendly atmosphere. Offering a suburban feel with easy access to major freeways, Norwalk is ideal for commuters working in Los Angeles or Orange County. The city hosts annual community events and provides quality schools and recreational facilities.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Suburban street with trees and houses in Norwalk",
+  "population": "105K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Shopping"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downey",
+      "type": "city",
+      "slug": "downey",
+      "description": "Known for parks, historic sites, and community events.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park area in Downey",
+      "distance": "5 miles northwest",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "city",
+      "slug": "cerritos",
+      "description": "Suburban city known for shopping centers and community parks.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Shopping area in Cerritos",
+      "distance": "6 miles south",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Fe Springs",
+      "type": "city",
+      "slug": "santa-fe-springs",
+      "description": "Industrial and residential community with parks and schools.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in Santa Fe Springs",
+      "distance": "3 miles east",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "city",
+      "slug": "la-mirada",
+      "description": "Residential city known for parks, schools, and family activities.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban streets in La Mirada",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Norwalk Regional Park",
+      "description": "Popular park with sports fields, playgrounds, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and green fields at Norwalk Regional Park"
+    },
+    {
+      "title": "Norwalk Mall",
+      "description": "Shopping destination with retail stores, dining, and entertainment.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Mall entrance with shoppers"
+    },
+    {
+      "title": "Veterans Park",
+      "description": "Community park with sports courts, walking trails, and event spaces.",
+      "icon": "🎖️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sports courts at Veterans Park"
+    },
+    {
+      "title": "Annual Norwalk Fiesta",
+      "description": "A festive community event with live music, food, and activities.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowd enjoying a community festival"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What kind of community is Norwalk?",
+      "answer": "Norwalk is known for its family-friendly neighborhoods, parks, and shopping options.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Norwalk?",
+      "answer": "The real estate market offers affordable homes and condos with good value for families.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational options are available in Norwalk?",
+      "answer": "Norwalk Regional Park and Veterans Park offer sports and outdoor activities for all ages.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is commuting easy from Norwalk?",
+      "answer": "Yes, with close access to I-5, I-605, and Metrolink rail services, commuting is convenient.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Norwalk CA Real Estate & Lifestyle | Family-Friendly & Convenient Living",
+    "metaDescription": "Explore Norwalk’s neighborhoods, parks, and real estate options in Los Angeles County.",
+    "keywords": "Norwalk real estate, Norwalk parks, living in Norwalk, Norwalk homes for sale",
+    "ogTitle": "Discover Norwalk: Family-Friendly Community & Convenient Location",
+    "ogDescription": "Find your home in Norwalk with great parks, shopping, and easy commuting.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Suburban street with trees and houses in Norwalk",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Norwalk",
+      "description": "Explore real estate, neighborhoods, and highlights in Norwalk, California.",
+      "url": "https://example.com/locations/norwalk",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Suburban street with trees and houses in Norwalk"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Norwalk",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What kind of community is Norwalk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Norwalk is known for its family-friendly neighborhoods, parks, and shopping options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Norwalk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market offers affordable homes and condos with good value for families."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational options are available in Norwalk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Norwalk Regional Park and Veterans Park offer sports and outdoor activities for all ages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is commuting easy from Norwalk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with close access to I-5, I-605, and Metrolink rail services, commuting is convenient."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "brea",
+  "name": "Brea",
+  "state": "California",
+  "shortDescription": "A vibrant city known for its lively downtown, shopping centers, and family-friendly neighborhoods.",
+  "fullDescription": "Brea combines a charming small-town atmosphere with modern amenities and cultural attractions. Known for the Brea Mall, a bustling downtown area with restaurants, theaters, and art galleries, the city offers a balanced lifestyle with quality schools, parks, and community events. Conveniently located with easy freeway access, Brea appeals to families, professionals, and retirees looking for a welcoming Orange County community.",
+  "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Brea with vibrant shops and streets",
+  "population": "45K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Shopping",
+    "Family-friendly",
+    "Arts & Culture"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "city",
+      "slug": "fullerton",
+      "description": "College town with historic downtown, arts scene, and California State University, Fullerton.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic downtown Fullerton with vibrant street life",
+      "distance": "6 miles northwest",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "city",
+      "slug": "placentia",
+      "description": "Small suburban city with parks, family-oriented events, and a quaint downtown.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quiet suburban street in Placentia",
+      "distance": "4 miles northeast",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "La Habra",
+      "type": "city",
+      "slug": "la-habra",
+      "description": "Community with parks, recreational facilities, and a historic downtown area.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown La Habra street view",
+      "distance": "5 miles east",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "city",
+      "slug": "yorba-linda",
+      "description": "Affluent residential city known for large homes, parks, and the Nixon Presidential Library.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in Yorba Linda",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Brea Mall",
+      "description": "Popular shopping destination with a wide range of retail stores, dining, and entertainment options.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Shoppers inside Brea Mall"
+    },
+    {
+      "title": "Downtown Brea",
+      "description": "Lively area with restaurants, art galleries, theaters, and seasonal community events.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Colorful shops and streets in Downtown Brea"
+    },
+    {
+      "title": "Carbon Canyon Regional Park",
+      "description": "Scenic park offering hiking trails, fishing lakes, and picnic areas ideal for family outings.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Forest trail in Carbon Canyon Regional Park"
+    },
+    {
+      "title": "Art and Cultural Programs",
+      "description": "Community-driven arts initiatives including theater performances, public art displays, and festivals.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Outdoor theater performance in Brea"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Brea known for?",
+      "answer": "Brea is known for its vibrant downtown, excellent shopping at Brea Mall, and family-friendly community events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Brea?",
+      "answer": "Brea is served by the highly-rated Brea Olinda Unified School District, known for strong academics and extracurriculars.",
+      "category": "Education"
+    },
+    {
+      "question": "What recreational activities are available?",
+      "answer": "Residents enjoy parks like Carbon Canyon Regional Park, community events, and arts and cultural programs throughout the year.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to major job centers?",
+      "answer": "Brea offers convenient access to freeways 57 and 91, making commutes to nearby Orange County and Los Angeles areas manageable.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Brea CA Real Estate & Lifestyle | Vibrant Downtown & Family Community",
+    "metaDescription": "Discover Brea’s neighborhoods, shopping, parks, schools, and cultural highlights in Orange County, California.",
+    "keywords": "Brea real estate, Brea Mall, living in Brea, Orange County homes",
+    "ogTitle": "Explore Brea: Shopping, Culture & Family Living",
+    "ogDescription": "Experience the vibrant downtown, community events, and scenic parks of Brea, California.",
+    "ogImage": "https://images.unsplash.com/photo-1534308143481-50a0b192a4a1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Brea with shops and pedestrians",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Brea",
+      "description": "Explore real estate, neighborhoods, and highlights in Brea, California.",
+      "url": "https://example.com/locations/brea",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1534308143481-50a0b192a4a1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Brea with vibrant shops and streets"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Brea",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Brea known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea is known for its vibrant downtown, excellent shopping at Brea Mall, and family-friendly community events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Brea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea is served by the highly-rated Brea Olinda Unified School District, known for strong academics and extracurriculars."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks like Carbon Canyon Regional Park, community events, and arts and cultural programs throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to major job centers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea offers convenient access to freeways 57 and 91, making commutes to nearby Orange County and Los Angeles areas manageable."
+          }
+        }
+      ]
+    }
+  ]
+}

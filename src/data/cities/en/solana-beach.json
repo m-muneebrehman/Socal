@@ -1,0 +1,186 @@
+{
+  "slug": "solana-beach",
+  "name": "Solana Beach",
+  "state": "California",
+  "shortDescription": "A charming coastal community known for its pristine beaches, artistic vibe, and boutique shopping in North County San Diego.",
+  "fullDescription": "Solana Beach offers a unique blend of coastal relaxation and cultural sophistication. Famous for its scenic bluffs, vibrant Cedros Avenue Design District, and the historic Belly Up Tavern music venue, this city attracts those seeking an upscale yet laid-back beach lifestyle. With excellent schools, boutique shopping, and easy freeway access, Solana Beach maintains a perfect balance between small-town charm and modern conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset over Solana Beach coastline with crashing waves",
+  "population": "13K+",
+  "avgHomePrice": "$2.1M",
+  "tags": [
+    "Beaches",
+    "Boutique",
+    "Arts"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Del Mar",
+      "type": "city",
+      "slug": "del-mar",
+      "description": "Upscale coastal neighbor known for the Del Mar Racetrack, luxury resorts, and pristine beaches.",
+      "image": "https://images.unsplash.com/photo-1616530940355-351fabd9526b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Del Mar beach cliffs and ocean view",
+      "distance": "3 miles south",
+      "avgHomePrice": "$3.4M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "city",
+      "slug": "encinitas",
+      "description": "Bohemian beach town with renowned surf spots, meditation gardens, and coastal eateries.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas surf culture and beach scene",
+      "distance": "3 miles north",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Family-friendly coastal city featuring LEGOLAND, flower fields, and expansive beaches.",
+      "image": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Carlsbad coastline and sunset",
+      "distance": "12 miles north",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major metropolitan center with world-class dining, cultural attractions, and urban beaches.",
+      "image": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "San Diego skyline and harbor",
+      "distance": "20 miles south",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Fletcher Cove Beach",
+      "description": "Iconic sandy cove with volleyball courts, picnic areas, and stunning ocean views.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1567360353843-d1a500c6a2c7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fletcher Cove Beach in Solana Beach"
+    },
+    {
+      "title": "Cedros Avenue Design District",
+      "description": "Walkable boutique corridor featuring art galleries, designer shops, and gourmet cafes.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Cedros Avenue shopping district"
+    },
+    {
+      "title": "Belly Up Tavern",
+      "description": "Legendary intimate concert venue hosting world-famous musicians and emerging artists.",
+      "icon": "🎵",
+      "bgImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Live music performance at Belly Up Tavern"
+    },
+    {
+      "title": "Coastal Rail Trail",
+      "description": "Scenic biking/walking path along the bluffs with panoramic Pacific Ocean vistas.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coastal bike path in Solana Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Solana Beach unique?",
+      "answer": "Its combination of coastal beauty, the Cedros Design District, and cultural attractions like Belly Up Tavern create a distinctive upscale-yet-relaxed vibe.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Solana Beach?",
+      "answer": "Top-rated public schools (Solana Beach School District) and private options serve this family-friendly community.",
+      "category": "Education"
+    },
+    {
+      "question": "What is the commute like from Solana Beach?",
+      "answer": "Convenient access to I-5 and Coaster rail provides easy connections to San Diego (25 mins) and North County employment centers.",
+      "category": "Transportation"
+    },
+    {
+      "question": "Are there beach restrictions?",
+      "answer": "Most beaches are public, with some bluff-top access points. Alcohol and fires are prohibited on city beaches.",
+      "category": "Recreation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Solana Beach CA Real Estate & Lifestyle | Coastal Living & Boutique Culture",
+    "metaDescription": "Discover Solana Beach's coastal charm, Cedros Design District, luxury real estate, and laid-back lifestyle in North County San Diego.",
+    "keywords": "Solana Beach real estate, Cedros Avenue, Belly Up Tavern, Solana Beach homes, coastal living",
+    "ogTitle": "Experience Solana Beach: Coastal Charm & Boutique Culture",
+    "ogDescription": "Explore luxury living in Solana Beach with its beaches, design district, and vibrant community.",
+    "ogImage": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Solana Beach coastline at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Solana Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Solana Beach, California.",
+      "url": "https://example.com/locations/solana-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Solana Beach coastline at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Solana Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Solana Beach unique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solana Beach offers a distinctive blend of coastal beauty, the Cedros Design District, and cultural attractions like the Belly Up Tavern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Solana Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by top-rated public schools in the Solana Beach School District along with excellent private school options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the commute like from Solana Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Convenient freeway and rail access via I-5 and the Coaster line make commuting efficient throughout San Diego County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there beach restrictions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most beaches are publicly accessible with restrictions on alcohol and fires to maintain safety and cleanliness."
+          }
+        }
+      ]
+    }
+  ]
+}

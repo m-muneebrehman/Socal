@@ -1,0 +1,175 @@
+{
+  "slug": "stanton",
+  "name": "Stanton",
+  "state": "California",
+  "shortDescription": "A vibrant city blending residential neighborhoods, shopping centers, and community parks with easy access to Orange County attractions.",
+  "fullDescription": "Stanton is a diverse and growing city in Orange County known for its affordable housing, community-focused lifestyle, and convenient location near major freeways and shopping destinations. Residents enjoy numerous parks, recreational facilities, and cultural events, making it an attractive spot for families and young professionals. With close proximity to Disneyland, the Anaheim Convention Center, and beaches, Stanton offers a blend of suburban living and easy access to Southern California’s top attractions.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of Stanton cityscape",
+  "population": "40K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Affordable",
+    "Family-friendly",
+    "Convenient"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Stanton",
+      "type": "district",
+      "slug": "west-stanton",
+      "description": "Residential area with established neighborhoods and nearby parks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential homes and greenery in West Stanton",
+      "distance": "West",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "Downtown Stanton",
+      "type": "district",
+      "slug": "downtown-stanton",
+      "description": "Commercial and retail hub featuring shops, restaurants, and community centers.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Stanton shopping district",
+      "distance": "Central",
+      "avgHomePrice": "$770K",
+      "county": "Orange"
+    },
+    {
+      "name": "East Stanton",
+      "type": "district",
+      "slug": "east-stanton",
+      "description": "Neighborhood with newer developments and easy freeway access.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "New homes in East Stanton",
+      "distance": "East",
+      "avgHomePrice": "$760K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Stanton Central Park",
+      "description": "Large community park with sports fields, playgrounds, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and trees at Stanton Central Park"
+    },
+    {
+      "title": "Stanton Civic Center",
+      "description": "Hub for city services, public events, and cultural activities.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Stanton Civic Center building"
+    },
+    {
+      "title": "Shopping and Dining",
+      "description": "Various shopping plazas and diverse dining options serving the local community.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping center with restaurants"
+    },
+    {
+      "title": "Community Events",
+      "description": "Regular farmers markets, cultural festivals, and family-friendly gatherings throughout the year.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Family festival in Stanton"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Stanton known for?",
+      "answer": "Stanton is known for its affordable housing, family-friendly environment, and proximity to Orange County attractions.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Stanton?",
+      "answer": "Stanton is served by the Stanton Unified School District, offering several elementary, middle, and high schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular in Stanton?",
+      "answer": "Residents enjoy community parks, sports leagues, and local events like farmers markets and cultural festivals.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Stanton?",
+      "answer": "Stanton has easy access to the 405 and 605 freeways, providing convenient commutes to Anaheim, Long Beach, and Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Stanton CA Real Estate & Community Life | Affordable Orange County Living",
+    "metaDescription": "Explore Stanton’s neighborhoods, parks, schools, and real estate options in Orange County, California.",
+    "keywords": "Stanton real estate, living in Stanton CA, Orange County homes, Stanton schools",
+    "ogTitle": "Discover Stanton: Affordable Family-Friendly Living in Orange County",
+    "ogDescription": "Find out why Stanton is a great place to live with its parks, schools, and easy access to Southern California attractions.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset view of Stanton cityscape",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Stanton",
+      "description": "Explore real estate, neighborhoods, and highlights in Stanton, California.",
+      "url": "https://example.com/locations/stanton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of Stanton cityscape"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Stanton",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Stanton known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton is known for its affordable housing, family-friendly environment, and proximity to Orange County attractions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Stanton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton is served by the Stanton Unified School District, offering several elementary, middle, and high schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Stanton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy community parks, sports leagues, and local events like farmers markets and cultural festivals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Stanton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton has easy access to the 405 and 605 freeways, providing convenient commutes to Anaheim, Long Beach, and Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

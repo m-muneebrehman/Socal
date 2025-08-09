@@ -1,0 +1,186 @@
+{
+  "slug": "la-habra",
+  "name": "La Habra",
+  "state": "California",
+  "shortDescription": "A vibrant city blending suburban living with local parks, shopping, and community events.",
+  "fullDescription": "La Habra offers a welcoming community with affordable housing, well-maintained parks, and easy access to major freeways. Known for its family-friendly atmosphere and diverse neighborhoods, La Habra balances small-town charm with convenient proximity to Orange County and Los Angeles. The city features active community programs, cultural events, and a variety of shopping and dining options.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "City street and community park in La Habra",
+  "population": "62K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Affordable",
+    "Family-friendly",
+    "Community-focused"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "city",
+      "slug": "fullerton",
+      "description": "College town known for its historic downtown, arts scene, and Cal State Fullerton.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic downtown Fullerton",
+      "distance": "5 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "city",
+      "slug": "brea",
+      "description": "Known for its vibrant downtown, shopping centers, and arts festivals.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Brea street view",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Whittier",
+      "type": "city",
+      "slug": "whittier",
+      "description": "Community with historic homes, parks, and a strong arts and education presence.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic homes in Whittier",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "city",
+      "slug": "la-mirada",
+      "description": "Residential city with parks, golf courses, and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golf course in La Mirada",
+      "distance": "4 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "La Habra Community Center",
+      "description": "Hub for local events, classes, and recreational activities.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "La Habra Community Center building"
+    },
+    {
+      "title": "La Habra Park",
+      "description": "Popular park with sports fields, picnic areas, and playgrounds.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green space and playground at La Habra Park"
+    },
+    {
+      "title": "Historic Downtown La Habra",
+      "description": "Charming area featuring local shops, eateries, and cultural events.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown La Habra street with shops"
+    },
+    {
+      "title": "La Habra Farmers Market",
+      "description": "Weekly market offering fresh produce, artisan goods, and community engagement.",
+      "icon": "🥕",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Farmers market stalls with fresh fruits and vegetables"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is La Habra known for?",
+      "answer": "La Habra is known for its community-focused lifestyle, affordable housing, and family-friendly amenities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in La Habra?",
+      "answer": "La Habra is served by the La Habra City School District and Fullerton Joint Union High School District, offering quality education options.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available in La Habra?",
+      "answer": "Residents can enjoy parks, sports fields, and local community events throughout the year.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to Los Angeles and Orange County?",
+      "answer": "La Habra offers convenient freeway access via the 91 and 605, with commute times to downtown Los Angeles or Orange County ranging from 30 to 60 minutes depending on traffic.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Habra CA Real Estate & Community | Family-Friendly Affordable Living",
+    "metaDescription": "Discover La Habra's neighborhoods, parks, schools, and affordable homes in this vibrant Orange County city.",
+    "keywords": "La Habra real estate, family living La Habra, Orange County neighborhoods, La Habra parks",
+    "ogTitle": "Explore La Habra: Affordable Family Living in Orange County",
+    "ogDescription": "Learn about La Habra’s community-focused lifestyle, parks, and convenient location in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "City street and park in La Habra",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Habra",
+      "description": "Explore real estate, neighborhoods, and highlights in La Habra, California.",
+      "url": "https://example.com/locations/la-habra",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "City street and community park in La Habra"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Habra",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is La Habra known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra is known for its community-focused lifestyle, affordable housing, and family-friendly amenities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra is served by the La Habra City School District and Fullerton Joint Union High School District, offering quality education options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available in La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents can enjoy parks, sports fields, and local community events throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to Los Angeles and Orange County?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra offers convenient freeway access via the 91 and 605, with commute times to downtown Los Angeles or Orange County ranging from 30 to 60 minutes depending on traffic."
+          }
+        }
+      ]
+    }
+  ]
+}

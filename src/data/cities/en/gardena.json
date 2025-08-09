@@ -1,0 +1,186 @@
+{
+  "slug": "gardena",
+  "name": "Gardena",
+  "state": "California",
+  "shortDescription": "A diverse city in the South Bay region known for its strong community, parks, and convenient location.",
+  "fullDescription": "Gardena is a vibrant city located in Los Angeles County’s South Bay area. Known for its cultural diversity and friendly neighborhoods, Gardena offers a mix of residential communities, shopping centers, and recreational parks. The city benefits from its proximity to major freeways and the Los Angeles International Airport, making it a convenient location for commuters. Gardena is also recognized for its well-maintained parks and a variety of local events that bring the community together.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown street view in Gardena with palm trees and clear skies",
+  "population": "58K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Community",
+    "Parks",
+    "Convenient Location"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hawthorne",
+      "type": "city",
+      "slug": "hawthorne",
+      "description": "City with a rich history in aerospace and growing residential communities.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential streets in Hawthorne",
+      "distance": "3 miles west",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "city",
+      "slug": "torrance",
+      "description": "City with large shopping centers, beaches, and residential areas.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beach and cityscape in Torrance",
+      "distance": "5 miles south",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "city",
+      "slug": "compton",
+      "description": "Historic city with diverse culture and rich musical heritage.",
+      "image": "https://images.unsplash.com/photo-1563201518-47b8c7c2c865?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Urban neighborhood in Compton",
+      "distance": "5 miles east",
+      "avgHomePrice": "$550K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lawndale",
+      "type": "city",
+      "slug": "lawndale",
+      "description": "Small city known for its beaches and family-friendly environment.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beachfront in Lawndale",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Gardena Willows Wetland Preserve",
+      "description": "A natural area with trails and wildlife viewing opportunities.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lush greenery at Gardena Willows Wetland Preserve"
+    },
+    {
+      "title": "Huntington Park Community Center",
+      "description": "Offers recreational programs and community events.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Modern community center building"
+    },
+    {
+      "title": "Local Parks and Recreation",
+      "description": "Gardena boasts multiple parks including Rowley Park and Hansen Dam with sports facilities and playgrounds.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with playground and walking trails"
+    },
+    {
+      "title": "Downtown Gardena",
+      "description": "A growing shopping and dining district with a variety of local businesses.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Busy shopping street with people and storefronts"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Gardena known for?",
+      "answer": "Gardena is known for its strong community, natural preserves, and convenient location near LAX.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Gardena?",
+      "answer": "The real estate market in Gardena features affordable homes with a mix of single-family houses and condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are available in Gardena?",
+      "answer": "Residents enjoy parks, community centers, and nearby beaches for outdoor activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Gardena?",
+      "answer": "Gardena has good freeway access and public transit options, making commuting to downtown LA and other areas manageable.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Gardena CA Real Estate & Community | Parks, Lifestyle & Location",
+    "metaDescription": "Explore Gardena's neighborhoods, parks, and real estate opportunities in Los Angeles County’s South Bay area.",
+    "keywords": "Gardena real estate, Gardena parks, living in Gardena, Gardena homes for sale",
+    "ogTitle": "Discover Gardena: Community Living & Natural Beauty",
+    "ogDescription": "Find your home in Gardena with its welcoming community, green spaces, and convenient location.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown street view in Gardena with palm trees and clear skies",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Gardena",
+      "description": "Explore real estate, neighborhoods, and highlights in Gardena, California.",
+      "url": "https://example.com/locations/gardena",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown street view in Gardena with palm trees and clear skies"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Gardena",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Gardena known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gardena is known for its strong community, natural preserves, and convenient location near LAX."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Gardena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market in Gardena features affordable homes with a mix of single-family houses and condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available in Gardena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, community centers, and nearby beaches for outdoor activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Gardena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gardena has good freeway access and public transit options, making commuting to downtown LA and other areas manageable."
+          }
+        }
+      ]
+    }
+  ]
+}

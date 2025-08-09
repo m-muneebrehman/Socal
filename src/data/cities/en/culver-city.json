@@ -1,0 +1,186 @@
+{
+  "slug": "culver-city",
+  "name": "Culver City",
+  "state": "California",
+  "shortDescription": "A dynamic city known for its entertainment industry roots, trendy dining, and arts scene.",
+  "fullDescription": "Culver City combines a rich history in film and television production with a modern vibe full of vibrant restaurants, art galleries, and boutique shops. Centrally located in Los Angeles County, it offers a walkable downtown area, beautiful parks, and excellent public transportation. Its diverse community and thriving creative economy make it a sought-after destination for families, professionals, and creatives.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Culver City street with shops and people",
+  "population": "40K+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Entertainment",
+    "Arts & Culture",
+    "Walkable Downtown"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Hollywood",
+      "type": "city",
+      "slug": "west-hollywood",
+      "description": "Known for its nightlife, arts scene, and LGBTQ+ friendly community.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street in West Hollywood at night",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$1.7M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Marina del Rey",
+      "type": "city",
+      "slug": "marina-del-rey",
+      "description": "Coastal community known for its marina, water sports, and waterfront dining.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Boats at Marina del Rey harbor",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$1.4M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Beach city famous for its pier, shopping, and vibrant lifestyle.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Santa Monica pier and beach",
+      "distance": "5 miles west",
+      "avgHomePrice": "$2.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Palms",
+      "type": "neighborhood",
+      "slug": "palms",
+      "description": "Diverse and centrally located neighborhood known for its convenient transit options and eclectic dining.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Palms",
+      "distance": "2 miles east",
+      "avgHomePrice": "$950K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Sony Pictures Studios",
+      "description": "Historic film and television studio offering tours and events.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sony Pictures Studios entrance"
+    },
+    {
+      "title": "Downtown Culver City",
+      "description": "Walkable area with restaurants, shops, theaters, and galleries.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Culver City downtown street"
+    },
+    {
+      "title": "The Culver City Park",
+      "description": "Large community park with sports facilities and open green spaces.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with trees"
+    },
+    {
+      "title": "Helms Bakery District",
+      "description": "Trendy shopping and dining district housed in a historic bakery building.",
+      "icon": "🍽️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shops and restaurants in Helms Bakery District"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Culver City known for?",
+      "answer": "Culver City is known for its entertainment industry history, walkable downtown, and thriving arts scene.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Culver City?",
+      "answer": "The market features competitive pricing with a range of condos, apartments, and single-family homes.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in Culver City?",
+      "answer": "Explore Sony Pictures Studios, visit downtown shops and theaters, or enjoy outdoor spaces like Culver City Park.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Culver City?",
+      "answer": "Culver City is served by multiple Metro lines and offers easy access to major freeways and LAX airport.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Culver City CA Real Estate & Lifestyle | Entertainment & Arts",
+    "metaDescription": "Discover Culver City's neighborhoods, studios, parks, and real estate in Los Angeles County.",
+    "keywords": "Culver City real estate, Culver City entertainment, living in Culver City, Culver City homes for sale",
+    "ogTitle": "Explore Culver City: Creative Hub & Community Living",
+    "ogDescription": "Find your home in Culver City with its rich entertainment history, vibrant downtown, and outdoor spaces.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Culver City street with shops and people",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Culver City",
+      "description": "Explore real estate, neighborhoods, and highlights in Culver City, California.",
+      "url": "https://example.com/locations/culver-city",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Culver City street with shops and people"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Culver City",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Culver City known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Culver City is known for its entertainment industry history, walkable downtown, and thriving arts scene."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Culver City?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market features competitive pricing with a range of condos, apartments, and single-family homes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in Culver City?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explore Sony Pictures Studios, visit downtown shops and theaters, or enjoy outdoor spaces like Culver City Park."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Culver City?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Culver City is served by multiple Metro lines and offers easy access to major freeways and LAX airport."
+          }
+        }
+      ]
+    }
+  ]
+}

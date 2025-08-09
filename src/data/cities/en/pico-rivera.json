@@ -1,0 +1,186 @@
+{
+  "slug": "pico-rivera",
+  "name": "Pico Rivera",
+  "state": "California",
+  "shortDescription": "A family-oriented city in Southeast Los Angeles County known for its parks and community spirit.",
+  "fullDescription": "Pico Rivera is a welcoming city located southeast of downtown Los Angeles. Known for its strong sense of community, numerous parks, and family-friendly environment, it offers affordable living with easy access to major freeways and neighboring cities. The city hosts annual cultural events and prides itself on its diverse population and local schools. Pico Rivera is ideal for those looking for a suburban lifestyle within reach of the greater Los Angeles area.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Residential neighborhood street in Pico Rivera",
+  "population": "62K+",
+  "avgHomePrice": "$600K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Whittier",
+      "type": "city",
+      "slug": "whittier",
+      "description": "Neighboring city known for its historic downtown, colleges, and parks.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic downtown Whittier",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Fe Springs",
+      "type": "city",
+      "slug": "santa-fe-springs",
+      "description": "Industrial and residential city with parks and community centers nearby.",
+      "image": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cityscape of Santa Fe Springs",
+      "distance": "3 miles east",
+      "avgHomePrice": "$580K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Montebello",
+      "type": "city",
+      "slug": "montebello",
+      "description": "City with diverse neighborhoods, shopping, and recreational parks.",
+      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood in Montebello",
+      "distance": "5 miles west",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "city",
+      "slug": "downey",
+      "description": "Known for its suburban feel, parks, and family-friendly amenities.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park area in Downey",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$630K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks and Recreation",
+      "description": "Multiple parks and community centers offer sports, playgrounds, and events for all ages.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Children playing in a city park"
+    },
+    {
+      "title": "Community Events",
+      "description": "Annual festivals and cultural events celebrate Pico Rivera’s diverse population and heritage.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community festival with colorful decorations"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Pico Rivera offers more affordable housing options compared to nearby cities in Los Angeles County.",
+      "icon": "🏠",
+      "bgImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "bgImageAlt": "Residential houses in Pico Rivera"
+    },
+    {
+      "title": "Easy Commute",
+      "description": "Close proximity to major highways provides convenient access to Los Angeles and Orange County.",
+      "icon": "🚗",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Freeway with cars during sunset"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Pico Rivera known for?",
+      "answer": "Pico Rivera is known for its family-friendly atmosphere, numerous parks, and community events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Pico Rivera?",
+      "answer": "The market offers affordable housing options and steady demand in a growing suburban area.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Pico Rivera?",
+      "answer": "Enjoy the city’s parks, attend community events, and explore nearby shopping and dining in surrounding cities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Pico Rivera?",
+      "answer": "Convenient access to major highways makes commuting to Los Angeles and Orange County manageable.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Pico Rivera CA Real Estate & Lifestyle | Family-friendly & Parks",
+    "metaDescription": "Discover Pico Rivera’s neighborhoods, parks, community events, and affordable housing in Southeast Los Angeles County.",
+    "keywords": "Pico Rivera real estate, Pico Rivera parks, living in Pico Rivera, family-friendly cities in LA",
+    "ogTitle": "Explore Pico Rivera: Community and Family Living",
+    "ogDescription": "Find your home in Pico Rivera with its parks, community spirit, and affordable living options.",
+    "ogImage": "https://images.unsplash.com/photo-1590957141123-65d2681e2f2e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Residential neighborhood street in Pico Rivera",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pico Rivera",
+      "description": "Explore real estate, neighborhoods, and highlights in Pico Rivera, California.",
+      "url": "https://example.com/locations/pico-rivera",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1590957141123-65d2681e2f2e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Residential neighborhood street in Pico Rivera"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Pico Rivera",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Pico Rivera known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pico Rivera is known for its family-friendly atmosphere, numerous parks, and community events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Pico Rivera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable housing options and steady demand in a growing suburban area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Pico Rivera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy the city’s parks, attend community events, and explore nearby shopping and dining in surrounding cities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Pico Rivera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Convenient access to major highways makes commuting to Los Angeles and Orange County manageable."
+          }
+        }
+      ]
+    }
+  ]
+}

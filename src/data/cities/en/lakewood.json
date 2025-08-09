@@ -1,0 +1,186 @@
+{
+  "slug": "lakewood",
+  "name": "Lakewood",
+  "state": "California",
+  "shortDescription": "A well-planned suburban city known for its parks, family-friendly environment, and convenient location in Los Angeles County.",
+  "fullDescription": "Lakewood offers a peaceful suburban lifestyle with a strong focus on community, parks, and recreational facilities. The city features quiet residential neighborhoods, quality schools, and easy access to major freeways, making it an attractive choice for families and commuters alike. Its central location provides convenient access to Long Beach, Downey, and other nearby cities. Lakewood also hosts numerous community events and offers well-maintained public amenities for residents of all ages.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Suburban neighborhood and green park area in Lakewood",
+  "population": "82K+",
+  "avgHomePrice": "$720K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Coastal city known for its waterfront, cultural attractions, and vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Long Beach skyline and waterfront",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "city",
+      "slug": "downey",
+      "description": "Suburban city with parks, shopping centers, and a family-oriented community.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in Downey",
+      "distance": "3 miles east",
+      "avgHomePrice": "$710K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "city",
+      "slug": "bellflower",
+      "description": "City offering diverse neighborhoods, shopping, and community parks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential area in Bellflower",
+      "distance": "4 miles north",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "city",
+      "slug": "cerritos",
+      "description": "Community known for shopping centers, parks, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Shopping center in Cerritos",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$730K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Lakewood Center Mall",
+      "description": "A large shopping mall featuring a wide variety of stores, dining options, and entertainment.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping mall interior with shoppers"
+    },
+    {
+      "title": "Parks and Recreation",
+      "description": "Lakewood boasts numerous parks, sports fields, and walking trails for outdoor activities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park with walking path"
+    },
+    {
+      "title": "Community Events",
+      "description": "Year-round events that bring the community together, including festivals, concerts, and holiday celebrations.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "People enjoying a community festival"
+    },
+    {
+      "title": "Quality Schools",
+      "description": "Lakewood is served by several highly rated public and private schools, supporting family life.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Students in classroom setting"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Lakewood a great place to live?",
+      "answer": "Lakewood offers a family-friendly suburban environment with plenty of parks, good schools, and a strong community spirit.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Lakewood?",
+      "answer": "The real estate market is steady, with demand for single-family homes in quiet neighborhoods.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are available in Lakewood?",
+      "answer": "Residents enjoy parks, sports fields, community events, and shopping at Lakewood Center Mall.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is commuting from Lakewood easy?",
+      "answer": "Yes, Lakewood has good freeway access and is close to neighboring cities like Long Beach and Downey.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lakewood CA Real Estate & Lifestyle | Family-Friendly Parks & Community",
+    "metaDescription": "Explore Lakewood’s parks, schools, shopping, and real estate options in Los Angeles County.",
+    "keywords": "Lakewood real estate, Lakewood parks, living in Lakewood, Lakewood homes for sale",
+    "ogTitle": "Discover Lakewood: Suburban Living with Community Charm",
+    "ogDescription": "Find your home in Lakewood with its parks, shopping, and family-friendly neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Suburban neighborhood and green park area in Lakewood",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lakewood",
+      "description": "Explore real estate, neighborhoods, and highlights in Lakewood, California.",
+      "url": "https://example.com/locations/lakewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Suburban neighborhood and green park area in Lakewood"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lakewood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Lakewood a great place to live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lakewood offers a family-friendly suburban environment with plenty of parks, good schools, and a strong community spirit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Lakewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market is steady, with demand for single-family homes in quiet neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available in Lakewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, sports fields, community events, and shopping at Lakewood Center Mall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is commuting from Lakewood easy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Lakewood has good freeway access and is close to neighboring cities like Long Beach and Downey."
+          }
+        }
+      ]
+    }
+  ]
+}

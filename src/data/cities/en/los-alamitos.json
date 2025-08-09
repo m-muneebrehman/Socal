@@ -1,0 +1,186 @@
+{
+  "slug": "los-alamitos",
+  "name": "Los Alamitos",
+  "state": "California",
+  "shortDescription": "A small, charming city known for its community spirit, equestrian culture, and proximity to major Southern California hubs.",
+  "fullDescription": "Los Alamitos offers a friendly, small-town atmosphere with well-maintained neighborhoods and a focus on community events. The city is known for its equestrian culture, historic landmarks, and local parks. Conveniently located near the 605 and 405 freeways, residents enjoy easy access to the beaches, Disneyland, and major employment centers in Orange and Los Angeles counties. Quality schools and local shopping add to the city’s appeal for families and professionals.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Community park and neighborhood in Los Alamitos",
+  "population": "12K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Equestrian",
+    "Community-focused",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Seal Beach",
+      "type": "city",
+      "slug": "seal-beach",
+      "description": "Coastal city with a historic pier, beach access, and charming downtown.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Seal Beach pier at sunset",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Cypress",
+      "type": "city",
+      "slug": "cypress",
+      "description": "Residential community known for parks, schools, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park area in Cypress",
+      "distance": "3 miles north",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Rossmoor",
+      "type": "community",
+      "slug": "rossmoor",
+      "description": "Gated community with golf courses and recreational facilities.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golf course in Rossmoor",
+      "distance": "2 miles east",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Los Angeles",
+      "type": "city",
+      "slug": "los-angeles",
+      "description": "Major urban center with diverse culture, business, and entertainment.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Los Angeles skyline",
+      "distance": "20 miles north",
+      "avgHomePrice": "$900K+",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Equestrian Culture",
+      "description": "Strong horse community with trails, stables, and annual equestrian events.",
+      "icon": "🐎",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horseback rider on a trail"
+    },
+    {
+      "title": "Los Alamitos Race Course",
+      "description": "Historic thoroughbred and quarter horse racing venue attracting visitors year-round.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horse racing at Los Alamitos Race Course"
+    },
+    {
+      "title": "Community Parks",
+      "description": "Well-kept parks offering playgrounds, sports fields, and picnic areas for families.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and greenery in a community park"
+    },
+    {
+      "title": "Proximity to Beaches",
+      "description": "Close access to popular Orange County beaches like Seal Beach and Huntington Beach.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sandy beach with ocean waves"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Los Alamitos unique?",
+      "answer": "Its strong equestrian culture, historic racecourse, and close-knit community set it apart.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Los Alamitos?",
+      "answer": "The Los Alamitos Unified School District is highly rated and serves the city with several top schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What recreational activities are available?",
+      "answer": "Residents enjoy horseback riding, community events, parks, and easy access to nearby beaches.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Los Alamitos?",
+      "answer": "Easy freeway access via 605 and 405, with commutes typically ranging from 20 to 45 minutes to key Orange County and Los Angeles areas.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Los Alamitos CA Real Estate & Lifestyle | Equestrian & Family-Friendly Community",
+    "metaDescription": "Discover Los Alamitos' neighborhoods, equestrian culture, parks, schools, and real estate in Orange County.",
+    "keywords": "Los Alamitos real estate, Orange County homes, equestrian community Los Alamitos, Los Alamitos schools",
+    "ogTitle": "Explore Los Alamitos: Equestrian Culture & Community Living",
+    "ogDescription": "Experience family-friendly living and horse culture in Los Alamitos, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Community park and neighborhood in Los Alamitos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Los Alamitos",
+      "description": "Explore real estate, neighborhoods, and highlights in Los Alamitos, California.",
+      "url": "https://example.com/locations/los-alamitos",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Community park and neighborhood in Los Alamitos"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Los Alamitos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Los Alamitos unique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Its strong equestrian culture, historic racecourse, and close-knit community set it apart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Los Alamitos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Los Alamitos Unified School District is highly rated and serves the city with several top schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy horseback riding, community events, parks, and easy access to nearby beaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Los Alamitos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easy freeway access via 605 and 405, with commutes typically ranging from 20 to 45 minutes to key Orange County and Los Angeles areas."
+          }
+        }
+      ]
+    }
+  ]
+}

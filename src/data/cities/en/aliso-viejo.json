@@ -1,0 +1,125 @@
+{
+  "slug": "aliso-viejo",
+  "name": "Aliso Viejo",
+  "state": "California",
+  "shortDescription": "A master-planned community offering suburban comfort with parks, lakes, and vibrant shopping and dining options.",
+  "fullDescription": "Located in southern Orange County, Aliso Viejo is known for its family-friendly atmosphere, well-maintained neighborhoods, and abundant outdoor amenities including trails, parks, and the scenic Aliso and Wood Canyons Wilderness Park. The city boasts top schools, thriving business hubs, and a variety of community events, making it an attractive choice for professionals and families alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "A view of suburban neighborhoods with hills near Aliso Viejo",
+  "population": "50K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Family-friendly",
+    "Parks & Trails",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "city",
+      "slug": "laguna-hills",
+      "description": "Neighboring city with established communities, golf courses, and shopping centers.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential streets and golf course in Laguna Hills",
+      "distance": "3 miles northwest",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "city",
+      "slug": "lake-forest",
+      "description": "Family-oriented city with numerous parks, lakes, and a vibrant community center.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lake and park area in Lake Forest",
+      "distance": "4 miles northeast",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Large suburban city with lakes, parks, shopping, and top-rated schools.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Community park in Mission Viejo",
+      "distance": "5 miles south",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Dana Point",
+      "type": "city",
+      "slug": "dana-point",
+      "description": "Coastal city known for beaches, marinas, and outdoor recreation.",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Coastline and marina in Dana Point",
+      "distance": "10 miles southwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Aliso and Wood Canyons Wilderness Park",
+      "description": "Expansive natural park offering hiking, biking, and wildlife viewing in a scenic canyon environment.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail and wilderness area in Aliso and Wood Canyons"
+    },
+    {
+      "title": "Aliso Viejo Town Center",
+      "description": "Shopping, dining, and entertainment hub with family-friendly events and local businesses.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping and dining area in Aliso Viejo Town Center"
+    },
+    {
+      "title": "Community Events",
+      "description": "Regular farmers markets, concerts, and seasonal festivals that foster a close-knit community spirit.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community event with families and outdoor activities"
+    },
+    {
+      "title": "Top-rated Schools",
+      "description": "Excellent public and private schools serving the city, contributing to a strong family-oriented environment.",
+      "icon": "🏫",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "School building and playground"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What outdoor activities are popular in Aliso Viejo?",
+      "answer": "Hiking, biking, and nature walks in the Aliso and Wood Canyons Wilderness Park are very popular among residents.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How family-friendly is Aliso Viejo?",
+      "answer": "The city offers numerous parks, quality schools, and community events that make it very welcoming for families.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "What are the local shopping options?",
+      "answer": "Aliso Viejo Town Center is the primary shopping and dining destination with a variety of retail stores and restaurants.",
+      "category": "Shopping"
+    },
+    {
+      "question": "How is the commute to nearby employment centers?",
+      "answer": "Aliso Viejo has easy access to major highways and is centrally located near Irvine, Laguna Hills, and Mission Viejo for work commutes.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Aliso Viejo CA Real Estate & Lifestyle | Family-friendly Community & Outdoor Living",
+    "metaDescription": "Explore Aliso Viejo's neighborhoods, outdoor recreation, schools, and real estate options in southern Orange County, California.",
+    "keywords": "Aliso Viejo real estate, Orange County living, family-friendly cities, outdoor activities Aliso Viejo",
+    "ogTitle": "Discover Aliso Viejo: Family Community & Outdoor Lifestyle",
+    "ogDescription": "Experience the parks, trails, and vibrant community life of Aliso Viejo in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Aliso Viejo suburban view with hills and homes",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": []
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "newport-beach",
+  "name": "Newport Beach",
+  "state": "California",
+  "shortDescription": "A coastal city known for its beautiful beaches, luxury harbor, and upscale lifestyle.",
+  "fullDescription": "Newport Beach offers a premier coastal lifestyle with stunning beaches, a vibrant harbor filled with yachts, and an array of upscale dining and shopping. Known for its excellent weather and outdoor recreation, including surfing, boating, and biking, the city attracts residents seeking a mix of leisure and luxury. Its well-planned neighborhoods and quality schools make it a sought-after community in Orange County.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Aerial view of Newport Beach coastline with yachts and sandy beaches",
+  "population": "85K+",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Coastal",
+    "Luxury",
+    "Outdoor Recreation"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Corona del Mar",
+      "type": "community",
+      "slug": "corona-del-mar",
+      "description": "Scenic beachfront neighborhood known for cliffs, coves, and luxury homes.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beach and cliffs in Corona del Mar",
+      "distance": "2 miles southeast",
+      "avgHomePrice": "$3.8M",
+      "county": "Orange"
+    },
+    {
+      "name": "Balboa Island",
+      "type": "community",
+      "slug": "balboa-island",
+      "description": "Charming island community with quaint shops, waterfront homes, and ferry access.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Balboa Island with ferry and waterfront homes",
+      "distance": "1 mile south",
+      "avgHomePrice": "$2.9M",
+      "county": "Orange"
+    },
+    {
+      "name": "Newport Coast",
+      "type": "community",
+      "slug": "newport-coast",
+      "description": "Upscale, gated community with luxury estates and ocean views.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Luxury homes in Newport Coast overlooking the ocean",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$5.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Eastbluff",
+      "type": "community",
+      "slug": "eastbluff",
+      "description": "Quiet residential neighborhood with parks and proximity to schools.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential streets and greenery in Eastbluff",
+      "distance": "4 miles northeast",
+      "avgHomePrice": "$1.4M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Newport Harbor",
+      "description": "One of the largest recreational boat harbors on the West Coast, perfect for boating and waterfront dining.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Yachts docked in Newport Harbor"
+    },
+    {
+      "title": "Balboa Pier & Beach",
+      "description": "Popular spot for fishing, surfing, and beachside strolls.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Balboa Pier extending into the ocean"
+    },
+    {
+      "title": "Fashion Island",
+      "description": "Upscale outdoor shopping center with luxury retailers, restaurants, and entertainment.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fashion Island shopping center in Newport Beach"
+    },
+    {
+      "title": "Outdoor Activities",
+      "description": "Surfing, paddleboarding, biking along the coast, and whale watching tours.",
+      "icon": "🏄",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfers riding waves at Newport Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Newport Beach known for?",
+      "answer": "Newport Beach is famous for its beautiful beaches, luxury harbor, boating culture, and upscale lifestyle.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Are there good schools in Newport Beach?",
+      "answer": "Yes, Newport-Mesa Unified School District serves the city with highly rated public and private schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities can I do in Newport Beach?",
+      "answer": "Residents and visitors enjoy surfing, sailing, biking, paddleboarding, and walking along the scenic coastlines.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Newport Beach?",
+      "answer": "Newport Beach has easy access to major freeways including the 405 and 55, with commute times varying depending on destination.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Newport Beach CA Real Estate & Lifestyle | Coastal Luxury & Outdoor Living",
+    "metaDescription": "Explore Newport Beach’s luxury neighborhoods, harbor, beaches, outdoor activities, and top schools in Orange County.",
+    "keywords": "Newport Beach real estate, coastal living Newport Beach, Newport Harbor, Orange County homes",
+    "ogTitle": "Discover Newport Beach: Coastal Luxury & Outdoor Lifestyle",
+    "ogDescription": "Experience luxury coastal living, boating, and scenic beaches in Newport Beach, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Aerial view of Newport Beach coastline with yachts and sandy beaches",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Newport Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Newport Beach, California.",
+      "url": "https://example.com/locations/newport-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Aerial view of Newport Beach coastline with yachts and sandy beaches"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Newport Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Newport Beach known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach is famous for its beautiful beaches, luxury harbor, boating culture, and upscale lifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there good schools in Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Newport-Mesa Unified School District serves the city with highly rated public and private schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can I do in Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents and visitors enjoy surfing, sailing, biking, paddleboarding, and walking along the scenic coastlines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach has easy access to major freeways including the 405 and 55, with commute times varying depending on destination."
+          }
+        }
+      ]
+    }
+  ]
+}

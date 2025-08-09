@@ -1,0 +1,186 @@
+{
+  "slug": "glendale",
+  "name": "Glendale",
+  "state": "California",
+  "shortDescription": "A thriving city known for its shopping, parks, and diverse cultural community in the Verdugos region.",
+  "fullDescription": "Glendale is a vibrant city located in Los Angeles County, nestled at the foothills of the San Gabriel Mountains. Known for its bustling shopping districts like The Americana at Brand, a strong Armenian community, and abundant parks, Glendale offers a balanced lifestyle with both urban amenities and outdoor recreational opportunities. The city boasts excellent schools, a revitalized downtown, and easy access to downtown Los Angeles and Pasadena, making it an attractive place to live and work.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "View of Glendale city skyline with mountains in the background",
+  "population": "200K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Shopping",
+    "Parks",
+    "Cultural Diversity"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Burbank",
+      "type": "city",
+      "slug": "burbank",
+      "description": "Entertainment capital with major studios and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1527495308992-1b68b46c2495?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Burbank downtown with palm trees",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$950K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Cañada Flintridge",
+      "type": "city",
+      "slug": "la-canada-flintridge",
+      "description": "Upscale community known for its scenic views and outdoor activities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street with mountains in La Cañada Flintridge",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Historic city famous for the Rose Bowl and cultural attractions.",
+      "image": "https://images.unsplash.com/photo-1576698483491-8a84b6e0f5d4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pasadena cityscape and historic buildings",
+      "distance": "7 miles east",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Crescenta-Montrose",
+      "type": "city",
+      "slug": "la-crescenta-montrose",
+      "description": "Residential community with mountain views and suburban feel.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in La Crescenta-Montrose",
+      "distance": "5 miles north",
+      "avgHomePrice": "$950K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Americana at Brand",
+      "description": "A premier outdoor shopping and entertainment destination.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor shopping mall at dusk"
+    },
+    {
+      "title": "Glendale Galleria",
+      "description": "Large indoor shopping mall with a variety of stores and restaurants.",
+      "icon": "🏬",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Glendale Galleria shopping center"
+    },
+    {
+      "title": "Brand Park",
+      "description": "Historic park with trails, botanical gardens, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with trees and pathways"
+    },
+    {
+      "title": "Cultural Diversity",
+      "description": "Glendale is home to a large Armenian community and a rich mix of cultures.",
+      "icon": "🌏",
+      "bgImage": "https://images.unsplash.com/photo-1563201518-47b8c7c2c865?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Cultural festival with colorful decorations"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Glendale known for?",
+      "answer": "Glendale is known for its shopping centers, cultural diversity, and proximity to the San Gabriel Mountains.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Glendale?",
+      "answer": "The real estate market in Glendale offers a mix of historic homes, condos, and new developments with competitive prices.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are popular in Glendale?",
+      "answer": "Residents enjoy hiking in the nearby mountains, shopping at The Americana at Brand, and exploring local parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Glendale?",
+      "answer": "Glendale has good access to major freeways and public transit options to Los Angeles and surrounding areas.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Glendale CA Real Estate & Lifestyle | Shopping, Parks & Culture",
+    "metaDescription": "Discover Glendale’s neighborhoods, cultural attractions, and real estate in Los Angeles County’s Verdugos region.",
+    "keywords": "Glendale real estate, Glendale shopping, living in Glendale, Glendale homes for sale",
+    "ogTitle": "Explore Glendale: Culture, Shopping & Outdoor Living",
+    "ogDescription": "Find your home in Glendale with its diverse community, great shopping, and scenic surroundings.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "View of Glendale city skyline with mountains in the background",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Glendale",
+      "description": "Explore real estate, neighborhoods, and highlights in Glendale, California.",
+      "url": "https://example.com/locations/glendale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "View of Glendale city skyline with mountains in the background"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Glendale",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Glendale known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Glendale is known for its shopping centers, cultural diversity, and proximity to the San Gabriel Mountains."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market in Glendale offers a mix of historic homes, condos, and new developments with competitive prices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are popular in Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking in the nearby mountains, shopping at The Americana at Brand, and exploring local parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Glendale has good access to major freeways and public transit options to Los Angeles and surrounding areas."
+          }
+        }
+      ]
+    }
+  ]
+}

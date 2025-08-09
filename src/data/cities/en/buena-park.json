@@ -1,0 +1,186 @@
+{
+  "slug": "buena-park",
+  "name": "Buena Park",
+  "state": "California",
+  "shortDescription": "A family-friendly city known for entertainment, parks, and diverse neighborhoods.",
+  "fullDescription": "Buena Park offers a dynamic blend of entertainment, shopping, and suburban living. Famous for attractions like Knott’s Berry Farm, the city provides plenty of family activities, parks, and community events. With affordable housing options compared to nearby areas, Buena Park attracts a mix of families and young professionals. Its central location in northern Orange County offers easy freeway access and proximity to major job centers and beaches.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Colorful amusement park rides at Knott’s Berry Farm in Buena Park",
+  "population": "80K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Entertainment",
+    "Family-friendly",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Home to Disneyland Resort and major sports venues, with diverse residential areas.",
+      "image": "https://images.unsplash.com/photo-1534349762230-1f34e5933a6f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Disneyland entrance in Anaheim",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Cypress",
+      "type": "city",
+      "slug": "cypress",
+      "description": "Suburban city known for parks, good schools, and a quiet residential vibe.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Green park area in Cypress",
+      "distance": "5 miles west",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "La Palma",
+      "type": "city",
+      "slug": "la-palma",
+      "description": "Small community with excellent schools, parks, and a close-knit neighborhood feel.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in La Palma",
+      "distance": "3 miles southwest",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "Fullerton",
+      "type": "city",
+      "slug": "fullerton",
+      "description": "Historic college town with vibrant downtown and arts scene.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Fullerton with historic buildings",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Knott’s Berry Farm",
+      "description": "Famous theme park featuring roller coasters, live entertainment, and family attractions.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Roller coaster at Knott’s Berry Farm"
+    },
+    {
+      "title": "Buena Park Downtown",
+      "description": "A revitalized area with shops, dining, and community events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Downtown Buena Park street view"
+    },
+    {
+      "title": "Craig Regional Park",
+      "description": "Large park with sports fields, picnic areas, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Picnic area and trees in Craig Regional Park"
+    },
+    {
+      "title": "Family-Friendly Events",
+      "description": "Year-round community festivals, farmers markets, and holiday celebrations.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Community festival with families enjoying activities"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Buena Park known for?",
+      "answer": "Buena Park is best known for Knott’s Berry Farm and its family-friendly entertainment and community parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Buena Park?",
+      "answer": "The city is served by the Buena Park School District and parts of the Fullerton Joint Union High School District, offering a variety of education options.",
+      "category": "Education"
+    },
+    {
+      "question": "What recreational activities are available?",
+      "answer": "Residents enjoy theme parks, community events, parks like Craig Regional Park, and local sports leagues.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to nearby job centers?",
+      "answer": "Buena Park has convenient freeway access (I-5, 91, 605), making commutes to Anaheim, Los Angeles, and other Orange County areas manageable.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Buena Park CA Real Estate & Lifestyle | Family-Friendly Entertainment & Parks",
+    "metaDescription": "Explore Buena Park’s neighborhoods, schools, parks, and attractions like Knott’s Berry Farm in Orange County.",
+    "keywords": "Buena Park real estate, Knott’s Berry Farm, living in Buena Park, Orange County homes",
+    "ogTitle": "Discover Buena Park: Entertainment, Parks & Community Living",
+    "ogDescription": "Enjoy family-friendly amenities and easy access to Orange County’s top attractions in Buena Park, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Knott’s Berry Farm roller coaster in Buena Park",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Buena Park",
+      "description": "Explore real estate, neighborhoods, and highlights in Buena Park, California.",
+      "url": "https://example.com/locations/buena-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Roller coaster at Knott’s Berry Farm in Buena Park"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Buena Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Buena Park known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buena Park is best known for Knott’s Berry Farm and its family-friendly entertainment and community parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Buena Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Buena Park School District and parts of the Fullerton Joint Union High School District, offering a variety of education options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy theme parks, community events, parks like Craig Regional Park, and local sports leagues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to nearby job centers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buena Park has convenient freeway access (I-5, 91, 605), making commutes to Anaheim, Los Angeles, and other Orange County areas manageable."
+          }
+        }
+      ]
+    }
+  ]
+}

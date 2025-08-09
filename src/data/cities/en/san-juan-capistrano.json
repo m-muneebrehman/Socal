@@ -1,0 +1,186 @@
+{
+  "slug": "san-juan-capistrano",
+  "name": "San Juan Capistrano",
+  "state": "California",
+  "shortDescription": "Historic city known for its Spanish mission, charming downtown, and vibrant cultural heritage.",
+  "fullDescription": "San Juan Capistrano is renowned for its rich history, centered around the famous Mission San Juan Capistrano, often called the 'Jewel of the Missions.' The city offers a quaint and picturesque downtown with unique shops, art galleries, and restaurants, all nestled within a community that embraces its heritage. Surrounded by rolling hills and close to the coast, it balances historic charm with modern living, attracting families and visitors who appreciate culture, nature, and small-town warmth.",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Mission San Juan Capistrano with clear sky",
+  "population": "36K+",
+  "avgHomePrice": "$1.0M",
+  "tags": [
+    "Historic",
+    "Cultural",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Dana Point",
+      "type": "city",
+      "slug": "dana-point",
+      "description": "Coastal city with a scenic harbor, beaches, and oceanfront parks just south of San Juan Capistrano.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Coastal bluff and ocean view representative of Dana Point",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$1.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "city",
+      "slug": "san-clemente",
+      "description": "Beach city known for its pier, Spanish Colonial architecture, and relaxed surf culture.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Coastal shoreline representative of San Clemente",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "city",
+      "slug": "laguna-niguel",
+      "description": "Upscale suburban community with parks, trails, and rolling hills northwest of SJC.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Green hills and suburban homes representative of Laguna Niguel",
+      "distance": "7 miles northwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Master-planned city with lakeside recreation, parks, and family neighborhoods north of SJC.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood street representative of Mission Viejo",
+      "distance": "8 miles north",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Mission San Juan Capistrano",
+      "description": "Historic Spanish mission founded in 1776, known for its beautiful architecture and annual swallows return event.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Mission San Juan Capistrano building facade"
+    },
+    {
+      "title": "Los Rios Historic District",
+      "description": "One of California’s oldest neighborhoods featuring preserved homes, shops, and dining in a charming setting.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Adobe homes and streets in Los Rios district"
+    },
+    {
+      "title": "San Juan Capistrano Regional Library",
+      "description": "Modern library with extensive resources, community programs, and events for all ages.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Library building and reading area"
+    },
+    {
+      "title": "Outdoor Recreation",
+      "description": "Hiking trails, parks, and nearby beaches provide residents with ample outdoor activities year-round.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail and open landscape"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Juan Capistrano famous for?",
+      "answer": "The city is best known for the historic Mission San Juan Capistrano and the annual return of the swallows.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in San Juan Capistrano?",
+      "answer": "San Juan Capistrano is served by Capistrano Unified School District, featuring highly-rated public and private schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities can residents enjoy?",
+      "answer": "Residents enjoy hiking, horseback riding, and beach activities nearby, including the nearby Dana Point coastline.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from San Juan Capistrano?",
+      "answer": "The city has easy access to the I-5 freeway, with commute times to major employment centers in Orange County and Los Angeles ranging from 30 to 60 minutes.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Juan Capistrano CA Real Estate & Lifestyle | Historic Mission & Family Community",
+    "metaDescription": "Explore San Juan Capistrano’s neighborhoods, historic sites, schools, and outdoor activities in Orange County, California.",
+    "keywords": "San Juan Capistrano real estate, Mission San Juan Capistrano, historic Orange County homes, family living San Juan Capistrano",
+    "ogTitle": "Discover San Juan Capistrano: History, Culture & Community",
+    "ogDescription": "Experience the rich heritage and coastal charm of San Juan Capistrano, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1518238374233-1954c8aa1f5f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Mission San Juan Capistrano with clear sky",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Juan Capistrano",
+      "description": "Explore real estate, neighborhoods, and highlights in San Juan Capistrano, California.",
+      "url": "https://example.com/locations/san-juan-capistrano",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1518238374233-1954c8aa1f5f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Mission San Juan Capistrano with clear sky"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Juan Capistrano",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Juan Capistrano famous for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is best known for the historic Mission San Juan Capistrano and the annual return of the swallows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in San Juan Capistrano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Juan Capistrano is served by Capistrano Unified School District, featuring highly-rated public and private schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can residents enjoy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, horseback riding, and beach activities nearby, including the nearby Dana Point coastline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from San Juan Capistrano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city has easy access to the I-5 freeway, with commute times to major employment centers in Orange County and Los Angeles ranging from 30 to 60 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

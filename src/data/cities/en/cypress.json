@@ -1,0 +1,186 @@
+{
+  "slug": "cypress",
+  "name": "Cypress",
+  "state": "California",
+  "shortDescription": "A quiet suburban city known for excellent schools, parks, and family-friendly living.",
+  "fullDescription": "Cypress offers a peaceful suburban atmosphere with well-maintained neighborhoods, highly rated schools, and abundant green spaces. Located in northwestern Orange County, it’s known for its strong community spirit and convenient access to nearby employment centers, beaches, and freeways. Families and professionals appreciate Cypress for its safe environment, community events, and balanced lifestyle.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Quiet residential neighborhood in Cypress",
+  "population": "50K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Suburban",
+    "Family-friendly",
+    "Parks & Recreation"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Los Alamitos",
+      "type": "city",
+      "slug": "los-alamitos",
+      "description": "Small city known for community events, schools, and the Naval Weapons Station.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Community park in Los Alamitos",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "city",
+      "slug": "garden-grove",
+      "description": "Large city with diverse culture, shopping, and entertainment options.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Garden Grove",
+      "distance": "5 miles east",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Home to Disneyland, sports venues, and a growing tech sector.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Anaheim skyline",
+      "distance": "6 miles northeast",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "Stanton",
+      "type": "city",
+      "slug": "stanton",
+      "description": "Small city with residential neighborhoods and easy freeway access.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential area in Stanton",
+      "distance": "4 miles south",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Cypress Community Park",
+      "description": "Large park with sports fields, picnic areas, playgrounds, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area in Cypress"
+    },
+    {
+      "title": "Top-Rated Schools",
+      "description": "Part of the Cypress School District known for high academic achievement and extracurriculars.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "School campus in Cypress"
+    },
+    {
+      "title": "Convenient Location",
+      "description": "Close to major freeways (22, 405) providing easy access to Orange County and Los Angeles.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Freeway entrance near Cypress"
+    },
+    {
+      "title": "Community Events",
+      "description": "Regular festivals, farmers markets, and recreational programs foster community engagement.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community event with families"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Cypress known for?",
+      "answer": "Cypress is known for its family-friendly atmosphere, excellent schools, and abundant parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Cypress?",
+      "answer": "The Cypress School District is highly rated with strong academic and extracurricular programs.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents enjoy parks, sports leagues, and community recreational programs.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Cypress?",
+      "answer": "Cypress has easy access to freeways 22 and 405, with commutes to Orange County and Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cypress CA Real Estate & Lifestyle | Family-Friendly Suburban Living",
+    "metaDescription": "Discover Cypress neighborhoods, parks, schools, and community events in Orange County, California.",
+    "keywords": "Cypress real estate, family living in Cypress, Orange County homes, Cypress schools",
+    "ogTitle": "Explore Cypress: Family-Friendly Suburban Community in Orange County",
+    "ogDescription": "Learn about Cypress’s safe neighborhoods, top schools, parks, and convenient location.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Quiet residential neighborhood in Cypress",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cypress",
+      "description": "Explore real estate, neighborhoods, and highlights in Cypress, California.",
+      "url": "https://example.com/locations/cypress",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Quiet residential neighborhood in Cypress"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Cypress",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Cypress known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cypress is known for its family-friendly atmosphere, excellent schools, and abundant parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Cypress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Cypress School District is highly rated with strong academic and extracurricular programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, sports leagues, and community recreational programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Cypress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cypress has easy access to freeways 22 and 405, with commutes to Orange County and Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

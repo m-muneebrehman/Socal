@@ -1,0 +1,186 @@
+{
+  "slug": "redondo-beach",
+  "name": "Redondo Beach",
+  "state": "California",
+  "shortDescription": "A scenic coastal city known for its beaches, marina, and vibrant waterfront lifestyle.",
+  "fullDescription": "Redondo Beach offers a laid-back beach community with beautiful sandy shores, a bustling marina, and a lively downtown area. Residents and visitors enjoy the pier, water sports, and diverse dining options. The city blends suburban comfort with easy access to Los Angeles and other South Bay communities. With strong schools and many parks, Redondo Beach is popular for families and outdoor enthusiasts alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset over Redondo Beach pier and coastline",
+  "population": "67K+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Beaches",
+    "Marina",
+    "Waterfront lifestyle"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hermosa Beach",
+      "type": "city",
+      "slug": "hermosa-beach",
+      "description": "Neighboring beach city known for its lively pier, beach volleyball, and nightlife.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hermosa Beach pier at sunset",
+      "distance": "3 miles north",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Manhattan Beach",
+      "type": "city",
+      "slug": "manhattan-beach",
+      "description": "Upscale beach city famous for its sandy shores, pier, and shopping district.",
+      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Manhattan Beach pier with beachgoers",
+      "distance": "4 miles north",
+      "avgHomePrice": "$2.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "city",
+      "slug": "torrance",
+      "description": "Suburban city with shopping centers, parks, and a diverse residential community.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Torrance with shops and palm trees",
+      "distance": "5 miles east",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Segundo",
+      "type": "city",
+      "slug": "el-segundo",
+      "description": "Coastal city known for its aerospace industry, quaint downtown, and beaches.",
+      "image": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "El Segundo coastline and cityscape",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Redondo Beach Pier",
+      "description": "Iconic pier with shops, restaurants, and stunning ocean views.",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Redondo Beach Pier at sunset"
+    },
+    {
+      "title": "King Harbor Marina",
+      "description": "A busy marina offering boating, fishing, and waterfront dining experiences.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boats docked at King Harbor Marina"
+    },
+    {
+      "title": "Beach Activities",
+      "description": "Popular for surfing, beach volleyball, paddleboarding, and sunbathing.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "People surfing and playing volleyball on the beach"
+    },
+    {
+      "title": "Veterans Park",
+      "description": "A waterfront park with picnic areas, playgrounds, and ocean views.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with ocean in the background"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Redondo Beach known for?",
+      "answer": "Redondo Beach is known for its beautiful beaches, vibrant pier area, and waterfront marina.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Redondo Beach?",
+      "answer": "The real estate market is competitive, featuring a mix of coastal homes and condos with strong demand.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities can you do in Redondo Beach?",
+      "answer": "Enjoy water sports, dining at the pier, visiting the marina, or relaxing at local parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Redondo Beach?",
+      "answer": "Redondo Beach has access to major freeways and public transit connecting to Los Angeles and nearby beach cities.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Redondo Beach CA Real Estate & Lifestyle | Beaches, Marina & Waterfront",
+    "metaDescription": "Discover Redondo Beach’s neighborhoods, beaches, marina, and real estate options in the South Bay area.",
+    "keywords": "Redondo Beach real estate, Redondo Beach marina, Redondo Beach homes, living in Redondo Beach",
+    "ogTitle": "Explore Redondo Beach: Coastal Living & Waterfront Fun",
+    "ogDescription": "Find your place in Redondo Beach with its beautiful beaches, pier, and vibrant community.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset over Redondo Beach pier and coastline",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Redondo Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Redondo Beach, California.",
+      "url": "https://example.com/locations/redondo-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset over Redondo Beach pier and coastline"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Redondo Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Redondo Beach known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Redondo Beach is known for its beautiful beaches, vibrant pier area, and waterfront marina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Redondo Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market is competitive, featuring a mix of coastal homes and condos with strong demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities can you do in Redondo Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy water sports, dining at the pier, visiting the marina, or relaxing at local parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Redondo Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Redondo Beach has access to major freeways and public transit connecting to Los Angeles and nearby beach cities."
+          }
+        }
+      ]
+    }
+  ]
+}
