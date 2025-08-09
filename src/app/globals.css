@@ -1869,6 +1869,20 @@ body {
   opacity: 0.8;
 }
 
+/* Improve contrast on city hero quick stats for readability over images */
+.hero-quick-stats .stat-number {
+  color: #ffe8b3; /* lighter gold */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: 400; /* remove bold */
+}
+.hero-quick-stats .stat-label {
+  color: #ffffff; /* pure white */
+  opacity: 1;
+  font-weight: 400; /* remove bold */
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
 .stat-divider {
   width: 1px;
   height: 30px;

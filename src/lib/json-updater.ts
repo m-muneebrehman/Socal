@@ -36,28 +36,23 @@ export async function writeCityFile(city: CityDocForFile) {
   const fileDir = path.join(process.cwd(), 'src', 'data', 'cities', language)
   const filePath = path.join(fileDir, `${city.slug}.json`)
   ensureDirSync(fileDir)
+  // Only persist the exact public JSON shape (no language inside file; exclude legacy fields)
   const dataToWrite = {
     slug: city.slug,
     name: city.name,
     state: city.state,
-    language,
     shortDescription: city.shortDescription,
     fullDescription: city.fullDescription ?? city.shortDescription,
     heroImage: city.heroImage ?? '',
     heroImageAlt: city.heroImageAlt ?? '',
     population: city.population,
     avgHomePrice: city.avgHomePrice,
-    tags: city.tags ?? [],
-    neighborhoods: city.neighborhoods ?? [],
-    highlights: city.highlights ?? [],
-    faqs: city.faqs ?? [],
+    tags: Array.isArray(city.tags) ? city.tags : [],
+    neighborhoods: Array.isArray(city.neighborhoods) ? city.neighborhoods : [],
+    highlights: Array.isArray(city.highlights) ? city.highlights : [],
+    faqs: Array.isArray(city.faqs) ? city.faqs : [],
     seo: city.seo ?? {},
-    schema_markup: city.schema_markup ?? [],
-    // Optional fields kept if provided
-    canonicalUrl: city.canonicalUrl,
-    hreflang_tags: city.hreflang_tags,
-    internal_links: city.internal_links,
-    clients: city.clients
+    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : []
   }
   fs.writeFileSync(filePath, JSON.stringify(dataToWrite, null, 2))
   console.log(`✅ Wrote city file: ${filePath}`)

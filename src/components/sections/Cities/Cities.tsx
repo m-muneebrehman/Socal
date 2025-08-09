@@ -1,6 +1,6 @@
-'use client'
+"use client"
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import citiesList from '@/data/cities.json'
@@ -13,15 +13,53 @@ interface CitiesProps {
   locale?: string
 }
 
+type CityListing = {
+  slug: string
+  name: string
+  state: string
+  shortDescription: string
+  heroImage: string
+  population: string
+  avgHomePrice: string
+  tags: string[]
+  neighborhoods: any[]
+}
+
 const Cities = ({ citiesData, locale }: CitiesProps) => {
   const t = useTranslations('cities');
+  const [fetchedCities, setFetchedCities] = useState<CityListing[]>([])
+  const [loading, setLoading] = useState(false)
   
   // Use API data if available, otherwise fall back to translations
   const title = citiesData?.title || t('title')
   const subtitle = citiesData?.subtitle || t('subtitle')
   
-  // Show only first 3 cities from the imported cities data
-  const displayedCities = citiesList.slice(0, 3);
+  // Fetch per-locale cities for top 3 cards
+  useEffect(() => {
+    let isMounted = true
+    const fetchCities = async () => {
+      if (!locale) return
+      try {
+        setLoading(true)
+        const res = await fetch(`/api/cities/${locale}`, { cache: 'no-store' })
+        if (res.ok) {
+          const data: CityListing[] = await res.json()
+          if (isMounted) setFetchedCities(data.slice(0, 3))
+        } else {
+          if (isMounted) setFetchedCities([])
+        }
+      } catch {
+        if (isMounted) setFetchedCities([])
+      } finally {
+        if (isMounted) setLoading(false)
+      }
+    }
+    fetchCities()
+    return () => { isMounted = false }
+  }, [locale])
+
+  // Fallback to bundled cities.json (may contain mixed locales)
+  const displayedCities: any[] = fetchedCities.length > 0 ? fetchedCities : citiesList.slice(0, 3)
 
   return (
     <section className="cities-section-beautiful" id="cities">
@@ -35,7 +73,7 @@ const Cities = ({ citiesData, locale }: CitiesProps) => {
         <div className="cities-grid-beautiful">
           {displayedCities.map((city, index) => (
             <Link 
-              key={city.slug} 
+              key={`${locale || 'en'}-${city.slug}-${index}`} 
               href={`/cities/${city.slug}`}
               locale={locale}
               className="city-card-beautiful"

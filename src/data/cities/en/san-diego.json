@@ -1,0 +1,197 @@
+{
+  "slug": "san-diego",
+  "name": "San Diego",
+  "state": "California",
+  "shortDescription": "A sunny, diverse coastal metropolis with beaches, parks, a major naval presence, and a rich cultural scene.",
+  "fullDescription": "San Diego is a large coastal city in Southern California known for its pleasant year-round climate, extensive waterfront, Balboa Park, major museums, and a thriving craft-beer scene. The city blends urban neighborhoods, historic districts, and miles of beaches. With its deepwater harbor, outdoor lifestyle, and cultural attractions, San Diego offers an iconic Southern California experience.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+  "heroImageAlt": "San Diego skyline viewed from across the bay",
+  "population": "1.4M+",
+  "avgHomePrice": "$900K+",
+  "tags": [
+    "Beaches",
+    "Parks",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Coronado",
+      "type": "city",
+      "slug": "coronado",
+      "description": "Island city connected by the Coronado Bridge — famous for its wide, sandy beaches and the Hotel del Coronado.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "imageAlt": "Sandy Coronado beach with blue sky",
+      "distance": "Across the bay (~3 miles)",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "National City",
+      "type": "city",
+      "slug": "national-city",
+      "description": "Historic, walkable city south of downtown San Diego with a long commercial history and waterfront views.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/National_City.jpg",
+      "imageAlt": "National City and part of the San Diego skyline",
+      "distance": "Just south of downtown (~6–8 miles)",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Chula Vista",
+      "type": "city",
+      "slug": "chula-vista",
+      "description": "Rapidly growing South Bay city with waterfront parks, Bayfront development, and easy access to regional transit.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chula_Vista_Skyline.jpg",
+      "imageAlt": "Chula Vista skyline and waterfront",
+      "distance": "South (~7–10 miles)",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "La Mesa",
+      "type": "city",
+      "slug": "la-mesa",
+      "description": "Quaint 'village' downtown (La Mesa Village), local festivals, tree-lined streets and a friendly small-city vibe east of San Diego.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "La Mesa Boulevard and trolley at street level",
+      "distance": "East (~10 miles)",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "El Cajon",
+      "type": "city",
+      "slug": "el-cajon",
+      "description": "Inland city east of San Diego with suburban neighborhoods, parks, and regional retail centers.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Downtown street scene in El Cajon",
+      "distance": "East (~15 miles)",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Waterfront & Beaches",
+      "description": "Miles of coastline — from Coronado to Pacific Beach — plus marinas, bayside parks, and harbor attractions.",
+      "icon": "🌊",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "bgImageAlt": "Coronado beach with dunes and ocean"
+    },
+    {
+      "title": "Parks & Culture",
+      "description": "Balboa Park (museums, gardens, performing arts) and numerous cultural institutions make San Diego a cultural hub.",
+      "icon": "🎨",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "bgImageAlt": "Downtown skyline with park and bay"
+    },
+    {
+      "title": "Diverse Neighborhoods",
+      "description": "From historic districts and walkable neighborhoods to family suburbs and waterfront communities — options for many lifestyles.",
+      "icon": "🏘️",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chula_Vista_Skyline.jpg",
+      "bgImageAlt": "Chula Vista waterfront and skyline"
+    },
+    {
+      "title": "Outdoor Life",
+      "description": "Great weather year-round for surfing, hiking, biking, kayaking, and exploring nearby state parks and coastal trails.",
+      "icon": "🚴",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "bgImageAlt": "Street scene and pedestrian area at La Mesa"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in San Diego?",
+      "answer": "Popular areas include Coronado and downtown for waterfront living, North Park and Hillcrest for nightlife and food, and neighborhoods like La Mesa or Chula Vista for more suburban, family-friendly options.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in San Diego?",
+      "answer": "San Diego is a high-demand coastal market; median prices vary by neighborhood but are generally higher than national averages due to strong lifestyle and job market factors.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What is there to do in San Diego?",
+      "answer": "Visit Balboa Park and its museums, the USS Midway Museum, explore beaches and coves, enjoy craft breweries, or take day trips to nearby coastal towns and parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the commute from San Diego?",
+      "answer": "San Diego relies on freeways and regional transit (trolley and buses). Commute times vary widely — suburban-to-downtown commutes can take 20–60 minutes depending on traffic.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Diego Real Estate & Lifestyle Guide | Coastal Living & Parks",
+    "metaDescription": "Discover San Diego's beaches, neighborhoods, parks, and cultural attractions. Find the right area for waterfront living, family life, or urban amenities.",
+    "keywords": "San Diego real estate, Coronado, Balboa Park, San Diego neighborhoods, San Diego waterfront",
+    "ogTitle": "Discover San Diego: Beaches, Parks & Neighborhoods",
+    "ogDescription": "Explore San Diego's neighborhoods, waterfront, and outdoor lifestyle in this city guide.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+    "ogImageAlt": "San Diego skyline with bay",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Diego",
+      "description": "Explore real estate, neighborhoods, and highlights in San Diego, California.",
+      "url": "https://example.com/locations/san-diego",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+        "caption": "San Diego skyline viewed from the bay"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Diego",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in San Diego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular areas include Coronado and downtown for waterfront living, North Park and Hillcrest for nightlife, and La Mesa or Chula Vista for family-friendly suburbs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in San Diego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Diego is a strong, competitive market with higher-than-average home prices, especially near the waterfront and desirable urban neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is there to do in San Diego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit Balboa Park, the USS Midway, beaches, and sample local dining and craft breweries across the city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from San Diego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Diego has freeway-based commutes and a trolley network; commute times vary from short local drives to 30–90 minutes for cross-county trips."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,14 @@
+// Keep as client for UI, but move SEO to server via generateMetadata in adjacent file
 'use client'
 
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { notFound } from 'next/navigation'
-import Head from 'next/head'
+import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 
-interface CityPageProps {
-  params: {
-    slug: string
-    locale: string
-  }
-}
+// using useParams in client to avoid accessing Promise-based params prop
 
 interface CityData {
   slug: string
@@ -61,8 +57,11 @@ interface CityData {
   schema_markup?: any[]
 }
 
-const CityPage = ({ params }: CityPageProps) => {
+const CityPage = () => {
   const t = useTranslations('cities')
+  const params = useParams()
+  const locale = (params as any)?.locale
+  const slug = (params as any)?.slug
   const [city, setCity] = useState<CityData | null>(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState('all')
@@ -71,14 +70,14 @@ const CityPage = ({ params }: CityPageProps) => {
     const fetchCityData = async () => {
       try {
         // Try to fetch from the new multi-language structure
-        const response = await fetch(`/api/cities/${params.locale}/${params.slug}`)
+        const response = await fetch(`/api/cities/${locale}/${slug}`)
         
         if (response.ok) {
           const cityData = await response.json()
           setCity(cityData)
         } else {
           // Fallback to English if the locale doesn't exist
-          const fallbackResponse = await fetch(`/api/cities/en/${params.slug}`)
+          const fallbackResponse = await fetch(`/api/cities/en/${slug}`)
           if (fallbackResponse.ok) {
             const cityData = await fallbackResponse.json()
             setCity(cityData)
@@ -95,7 +94,7 @@ const CityPage = ({ params }: CityPageProps) => {
     }
 
     fetchCityData()
-  }, [params.slug, params.locale])
+  }, [slug, locale])
 
   if (loading) {
     return <PrestigeLoading />
@@ -130,7 +129,7 @@ const CityPage = ({ params }: CityPageProps) => {
           "url": city.heroImage,
           "caption": `${city.name} city skyline`
         },
-        "inLanguage": params.locale,
+        "inLanguage": locale,
         "mainEntity": {
           "@type": "City",
           "name": city.name,
@@ -158,51 +157,6 @@ const CityPage = ({ params }: CityPageProps) => {
 
   return (
     <>
-      <Head>
-        {/* Basic Meta Tags */}
-        <title>{seoData.title}</title>
-        <meta name="description" content={seoData.description} />
-        <meta name="keywords" content={seoData.keywords} />
-        <link rel="canonical" href={seoData.canonicalUrl} />
-        
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content={seoData.ogTitle} />
-        <meta property="og:description" content={seoData.ogDescription} />
-        <meta property="og:image" content={seoData.ogImage} />
-        <meta property="og:image:alt" content={seoData.ogImageAlt} />
-        <meta property="og:url" content={seoData.canonicalUrl} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content={params.locale} />
-        <meta property="og:site_name" content="SoCal Real Estate" />
-        
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content={city.seo?.twitterCard || "summary_large_image"} />
-        <meta name="twitter:title" content={seoData.ogTitle} />
-        <meta name="twitter:description" content={seoData.ogDescription} />
-        <meta name="twitter:image" content={seoData.ogImage} />
-        <meta name="twitter:image:alt" content={seoData.ogImageAlt} />
-        
-        {/* Geographic Meta Tags */}
-        <meta name="geo.region" content={`US-${city.state === 'California' ? 'CA' : city.state}`} />
-        <meta name="geo.placename" content={city.name} />
-        <meta name="geo.position" content="34.0522;-118.2437" />
-        <meta name="ICBM" content="34.0522, -118.2437" />
-        
-        {/* Real Estate Specific Meta Tags */}
-        <meta name="real-estate:city" content={city.name} />
-        <meta name="real-estate:state" content={city.state} />
-        <meta name="real-estate:avg-price" content={city.avgHomePrice} />
-        <meta name="real-estate:population" content={city.population} />
-        
-        {/* JSON-LD Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(seoData.structuredData)
-          }}
-        />
-      </Head>
-
       <main className="city-page">
         {/* Ultra Modern Hero Section */}
         <section className="city-hero-ultra">
@@ -411,7 +365,7 @@ const CityPage = ({ params }: CityPageProps) => {
                 <Link 
                   key={neighborhood.slug} 
                   href={`/cities/${neighborhood.slug}`}
-                  locale={params.locale}
+                  locale={locale}
                   className="city-card-beautiful"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
@@ -491,7 +445,7 @@ const CityPage = ({ params }: CityPageProps) => {
         {/* Back to Cities Link */}
         <section className="city-back-enhanced">
           <div className="back-container">
-            <Link href="/cities" locale={params.locale} className="back-btn-enhanced">
+            <Link href="/cities" locale={locale} className="back-btn-enhanced">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>

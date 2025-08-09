@@ -1,0 +1,186 @@
+{
+  "slug": "chula-vista",
+  "name": "Chula Vista",
+  "state": "California",
+  "shortDescription": "A vibrant waterfront city just south of San Diego, offering family attractions, parks, and a growing restaurant scene.",
+  "fullDescription": "Chula Vista is the second-largest city in San Diego County, located on the bay just south of downtown San Diego. Known for its waterfront marinas, family-friendly attractions like Sesame Place and the Living Coast Discovery Center, as well as its outdoor parks and growing craft-beer and dining culture, Chula Vista blends suburban charm with coastal living.",
+  "heroImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Aerial view of Chula Vista city with bay in the background",
+  "population": "275K+",
+  "avgHomePrice": "$700K+",
+  "tags": [
+    "Waterfront",
+    "Family-friendly",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major coastal city just north, with beaches, downtown, and regional attractions.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego skyline viewed from the bay",
+      "distance": "7 miles north",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    },
+    {
+      "name": "National City",
+      "type": "city",
+      "slug": "national-city",
+      "description": "Historic city directly north with walkable streets and evolving waterfront views.",
+      "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Urban skyline near San Diego Bay",
+      "distance": "4 miles north",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Imperial Beach",
+      "type": "city",
+      "slug": "imperial-beach",
+      "description": "Southernmost beachfront city in California — relaxed, surf-oriented with a classic beach town vibe.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ocean waves and beach shoreline",
+      "distance": "10 miles southwest",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Bonita",
+      "type": "city",
+      "slug": "bonita",
+      "description": "Small inland community east of Chula Vista, known for suburban homes and open-space trails.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rolling green hills and open-space trail",
+      "distance": "8 miles east",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Chula Vista Harbor",
+      "description": "Scenic waterfront with two marinas, dining, parks, and boating access to San Diego Bay.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Marina at Chula Vista harbor"
+    },
+    {
+      "title": "Sesame Place San Diego",
+      "description": "Sesame Street-themed amusement and water park, family-oriented with rides, shows, and a wave pool.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Family enjoying a water park"
+    },
+    {
+      "title": "Living Coast Discovery Center",
+      "description": "Interactive coastal wildlife attraction in Sweetwater Marsh — ideal for families and environmental learning.",
+      "icon": "🐦",
+      "bgImage": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coastal marsh with birds and boardwalk"
+    },
+    {
+      "title": "Outdoor Parks & Trails",
+      "description": "Natural areas like Kumeyaay Park and camping trails around Sweetwater Reservoir perfect for hiking and picnics.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scenic hiking trail through nature"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Chula Vista?",
+      "answer": "Waterfront areas near the harbor offer coastal living, Eastlake and Otay Ranch offer newer suburban homes, and Bonita and National City are great for quiet, family-friendly living.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Chula Vista?",
+      "answer": "Chula Vista offers relatively more affordable options compared to coastal San Diego, with median home prices around $700K, though waterfront and newer developments are higher.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are things to do in Chula Vista?",
+      "answer": "Enjoy the waterfront harbor, Sesame Place theme park, Living Coast aquarium, local parks, and regional dining and breweries.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Chula Vista?",
+      "answer": "Chula Vista is connected via I-5 and 805 freeways, with Trolley Blue Line access to downtown San Diego. Commute times range from 20–40 minutes depending on traffic.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Chula Vista Real Estate & Lifestyle Guide | Coastal Suburban Living Near San Diego",
+    "metaDescription": "Explore Chula Vista’s waterfront, family attractions, parks, and neighborhood vibe. Learn why this South Bay city offers an ideal blend of coastal living and suburban comfort.",
+    "keywords": "Chula Vista real estate, Chula Vista harbor, Sesame Place San Diego, Chula Vista neighborhoods",
+    "ogTitle": "Discover Chula Vista: Waterfront Living & Family Attractions",
+    "ogDescription": "A guide to Chula Vista’s real estate, neighborhoods, parks, and family-friendly attractions just south of San Diego.",
+    "ogImage": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "ogImageAlt": "Aerial view of Chula Vista",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Chula Vista",
+      "description": "Explore real estate, neighborhoods, and highlights in Chula Vista, California.",
+      "url": "https://example.com/locations/chula-vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "caption": "Aerial view of Chula Vista"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Chula Vista",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Waterfront, Eastlake/Otay Ranch, Bonita, National City offer a range of living options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Median home prices are around $700K, slightly more affordable than coastal San Diego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are things to do in Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harbor, theme parks like Sesame Place, wildlife centers, parks and dining make it quite vibrant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Located just south of Downtown San Diego with freeway and trolley access; travel times vary but are often between 20–40 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}
