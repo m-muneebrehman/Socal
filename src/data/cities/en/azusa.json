@@ -1,0 +1,186 @@
+{
+  "slug": "azusa",
+  "name": "Azusa",
+  "state": "California",
+  "shortDescription": "A gateway city to the San Gabriel Mountains offering a blend of outdoor recreation, historic charm, and community living.",
+  "fullDescription": "Azusa is nestled at the base of the San Gabriel Mountains and is known for its scenic beauty, hiking trails, and a vibrant downtown area. The city offers a mix of historic neighborhoods, parks, and convenient access to both Los Angeles and Inland Empire. Azusa’s community hosts cultural events, farmers markets, and provides a family-friendly atmosphere with schools and recreational facilities.",
+  "heroImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "View of San Gabriel Mountains over Azusa city",
+  "population": "50K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Outdoor recreation",
+    "Historic charm",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Glendora",
+      "type": "city",
+      "slug": "glendora",
+      "description": "A charming city known for its quaint downtown, parks, and excellent schools.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Glendora street with shops",
+      "distance": "4 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Covina",
+      "type": "city",
+      "slug": "covina",
+      "description": "Community-oriented city with historic districts, parks, and a lively shopping scene.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Main street in Covina with historic buildings",
+      "distance": "5 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Dimas",
+      "type": "city",
+      "slug": "san-dimas",
+      "description": "City known for its equestrian culture, parks, and family-friendly environment.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street and park in San Dimas",
+      "distance": "6 miles east",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Azusa Highlands",
+      "type": "neighborhood",
+      "slug": "azusa-highlands",
+      "description": "Residential neighborhood offering mountain views and quiet streets.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mountain view from a residential street in Azusa Highlands",
+      "distance": "2 miles north",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "San Gabriel Mountains",
+      "description": "Access to hiking, biking, and nature trails for outdoor enthusiasts.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scenic mountain range under blue sky"
+    },
+    {
+      "title": "Azusa Downtown",
+      "description": "A growing area with shops, restaurants, and community events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with people and shops"
+    },
+    {
+      "title": "Citrus College",
+      "description": "Local community college providing education and cultural programs.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campus buildings and students walking"
+    },
+    {
+      "title": "Farmers Market",
+      "description": "Weekly market offering fresh local produce and artisan goods.",
+      "icon": "🧺",
+      "bgImage": "https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Farmers market with fruits and vegetables"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What outdoor activities are popular in Azusa?",
+      "answer": "Hiking and biking in the San Gabriel Mountains are popular pastimes.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Azusa?",
+      "answer": "The market offers affordable options compared to nearby cities with a mix of single-family homes and condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are key community events in Azusa?",
+      "answer": "Azusa hosts farmers markets, cultural festivals, and community gatherings throughout the year.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Azusa?",
+      "answer": "Azusa has access to the Metro Gold Line and major freeways, facilitating commutes to Los Angeles and beyond.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Azusa CA Real Estate & Lifestyle | Outdoor Recreation & Community",
+    "metaDescription": "Discover Azusa’s scenic beauty, outdoor activities, and real estate opportunities near the San Gabriel Mountains.",
+    "keywords": "Azusa real estate, Azusa outdoor recreation, living in Azusa, Azusa homes for sale",
+    "ogTitle": "Explore Azusa: Gateway to the San Gabriel Mountains",
+    "ogDescription": "Find your home in Azusa with access to nature, community events, and a welcoming downtown.",
+    "ogImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "San Gabriel Mountains view over Azusa city",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Azusa",
+      "description": "Explore real estate, neighborhoods, and highlights in Azusa, California.",
+      "url": "https://example.com/locations/azusa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "caption": "San Gabriel Mountains view over Azusa city"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Azusa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Azusa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking and biking in the San Gabriel Mountains are popular pastimes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Azusa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable options compared to nearby cities with a mix of single-family homes and condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are key community events in Azusa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Azusa hosts farmers markets, cultural festivals, and community gatherings throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Azusa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Azusa has access to the Metro Gold Line and major freeways, facilitating commutes to Los Angeles and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}

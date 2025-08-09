@@ -1,0 +1,175 @@
+{
+  "slug": "seal-beach",
+  "name": "Seal Beach",
+  "state": "California",
+  "shortDescription": "Charming coastal city known for its relaxed beach vibe, historic pier, and friendly community.",
+  "fullDescription": "Seal Beach is a picturesque seaside community in Orange County, offering a small-town atmosphere with beautiful beaches, a historic pier, and quaint downtown shopping and dining. The city attracts visitors and residents seeking a laid-back coastal lifestyle with easy access to surfing, boating, and beachside recreation. Known for its safety, friendly neighborhoods, and community events, Seal Beach is ideal for families, retirees, and anyone looking for a peaceful yet vibrant coastal city experience.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Seal Beach pier with ocean view at sunset",
+  "population": "25K+",
+  "avgHomePrice": "$1.3M",
+  "tags": [
+    "Coastal",
+    "Family-friendly",
+    "Historic"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Town Seal Beach",
+      "type": "district",
+      "slug": "old-town-seal-beach",
+      "description": "Historic downtown area with boutique shops, restaurants, and access to the pier.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Old Town Seal Beach shopping district",
+      "distance": "Central",
+      "avgHomePrice": "$1.4M",
+      "county": "Orange"
+    },
+    {
+      "name": "Surfside",
+      "type": "residential",
+      "slug": "surfside",
+      "description": "Quiet neighborhood near the beach with single-family homes and parks.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential homes near the beach in Surfside",
+      "distance": "West",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    },
+    {
+      "name": "College Park East",
+      "type": "residential",
+      "slug": "college-park-east",
+      "description": "Family-oriented community with schools, parks, and easy freeway access.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood park in College Park East",
+      "distance": "East",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Seal Beach Pier",
+      "description": "One of the longest wooden piers on the West Coast, perfect for fishing and scenic walks.",
+      "icon": "🌉",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sunset view of Seal Beach Pier"
+    },
+    {
+      "title": "Seal Beach National Wildlife Refuge",
+      "description": "Protected wetlands and wildlife habitat with walking trails and birdwatching opportunities.",
+      "icon": "🦆",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wetlands and birds at Seal Beach Refuge"
+    },
+    {
+      "title": "Downtown Seal Beach",
+      "description": "Vibrant district with local shops, eateries, and frequent community events and festivals.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown Seal Beach street scene"
+    },
+    {
+      "title": "Surfing & Beach Activities",
+      "description": "Popular surf spots and family-friendly beaches ideal for swimming, sunbathing, and picnics.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfers and beachgoers at Seal Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Seal Beach known for?",
+      "answer": "Seal Beach is known for its historic pier, coastal charm, family-friendly atmosphere, and wildlife refuge.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Seal Beach?",
+      "answer": "Seal Beach is served by the Los Alamitos Unified School District, known for high-quality public education.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities can I do in Seal Beach?",
+      "answer": "Popular activities include surfing, fishing at the pier, beach volleyball, birdwatching at the wildlife refuge, and walking trails.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Seal Beach?",
+      "answer": "Seal Beach offers easy freeway access to Long Beach, Los Angeles, and other parts of Orange County with commute times typically ranging from 30 to 60 minutes.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Seal Beach CA Real Estate & Coastal Living | Historic Pier & Family Community",
+    "metaDescription": "Discover Seal Beach’s neighborhoods, outdoor recreation, schools, and real estate options along the Orange County coast.",
+    "keywords": "Seal Beach real estate, Seal Beach pier, coastal living Seal Beach, Orange County homes",
+    "ogTitle": "Explore Seal Beach: Coastal Charm & Outdoor Lifestyle",
+    "ogDescription": "Experience family-friendly neighborhoods, surfing, and wildlife refuge in Seal Beach, California.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Seal Beach pier with ocean view at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Seal Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Seal Beach, California.",
+      "url": "https://example.com/locations/seal-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Seal Beach pier with ocean view at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Seal Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Seal Beach known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach is known for its historic pier, coastal charm, family-friendly atmosphere, and wildlife refuge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach is served by the Los Alamitos Unified School District, known for high-quality public education."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can I do in Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular activities include surfing, fishing at the pier, beach volleyball, birdwatching at the wildlife refuge, and walking trails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach offers easy freeway access to Long Beach, Los Angeles, and other parts of Orange County with commute times typically ranging from 30 to 60 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

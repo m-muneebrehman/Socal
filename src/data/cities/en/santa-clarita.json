@@ -1,0 +1,186 @@
+{
+  "slug": "santa-clarita",
+  "name": "Santa Clarita",
+  "state": "California",
+  "shortDescription": "A family-friendly city known for its parks, excellent schools, and outdoor recreational opportunities.",
+  "fullDescription": "Santa Clarita is a thriving suburban city located north of Los Angeles. Known for its master-planned communities, top-rated schools, and abundant parks and trails, it offers a high quality of life for families and professionals alike. The city features attractions like Six Flags Magic Mountain and has a growing economy with diverse shopping and dining options. Its safe neighborhoods and community events make Santa Clarita a sought-after destination for those seeking a balanced lifestyle close to nature yet with urban conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic park and walking trail in Santa Clarita",
+  "population": "220K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Recreation"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Valencia",
+      "type": "city",
+      "slug": "valencia",
+      "description": "Master-planned community known for shopping centers, parks, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1520975699530-74f0b27076b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in Valencia",
+      "distance": "5 miles south",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Canyon Country",
+      "type": "city",
+      "slug": "canyon-country",
+      "description": "Residential area with hiking trails and suburban neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hiking trail and hills in Canyon Country",
+      "distance": "7 miles east",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Saugus",
+      "type": "city",
+      "slug": "saugus",
+      "description": "Community with shopping, parks, and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in Saugus",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Newhall",
+      "type": "city",
+      "slug": "newhall",
+      "description": "Historic district with arts venues, shops, and dining options.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic buildings in Newhall",
+      "distance": "8 miles west",
+      "avgHomePrice": "$780K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Six Flags Magic Mountain",
+      "description": "Popular amusement park with thrilling rides and family attractions.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Roller coaster at Six Flags Magic Mountain"
+    },
+    {
+      "title": "Santa Clarita Nature Parks",
+      "description": "Expansive parks and hiking trails for outdoor enthusiasts and families.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scenic park landscape with trees and trails"
+    },
+    {
+      "title": "Old Town Newhall",
+      "description": "Historic downtown area with shops, galleries, and community events.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Historic street in Old Town Newhall"
+    },
+    {
+      "title": "Santa Clarita Public Library",
+      "description": "Modern library offering community programs, events, and resources.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior of Santa Clarita Public Library"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Santa Clarita known for?",
+      "answer": "Santa Clarita is known for its family-friendly neighborhoods, parks, and outdoor recreation opportunities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Santa Clarita?",
+      "answer": "Santa Clarita offers a competitive market with a mix of single-family homes and townhouses in planned communities.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Santa Clarita?",
+      "answer": "Visit Six Flags Magic Mountain, explore nature parks, enjoy shopping and dining in Valencia and Old Town Newhall.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Santa Clarita?",
+      "answer": "Santa Clarita is accessible via I-5 and State Route 14, with Metrolink train service to Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Santa Clarita CA Real Estate & Lifestyle | Family-Friendly & Outdoors",
+    "metaDescription": "Explore Santa Clarita's neighborhoods, parks, attractions, and real estate in Los Angeles County.",
+    "keywords": "Santa Clarita real estate, Santa Clarita parks, family living in Santa Clarita, homes for sale Santa Clarita",
+    "ogTitle": "Discover Santa Clarita: Parks, Family Life & Community",
+    "ogDescription": "Find your perfect home in Santa Clarita with its excellent schools, parks, and community amenities.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic park and walking trail in Santa Clarita",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Santa Clarita",
+      "description": "Explore real estate, neighborhoods, and highlights in Santa Clarita, California.",
+      "url": "https://example.com/locations/santa-clarita",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic park and walking trail in Santa Clarita"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Santa Clarita",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Santa Clarita known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita is known for its family-friendly neighborhoods, parks, and outdoor recreation opportunities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Santa Clarita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita offers a competitive market with a mix of single-family homes and townhouses in planned communities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Santa Clarita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit Six Flags Magic Mountain, explore nature parks, enjoy shopping and dining in Valencia and Old Town Newhall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Santa Clarita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita is accessible via I-5 and State Route 14, with Metrolink train service to Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

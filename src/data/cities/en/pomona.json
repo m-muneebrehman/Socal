@@ -1,0 +1,186 @@
+{
+  "slug": "pomona",
+  "name": "Pomona",
+  "state": "California",
+  "shortDescription": "A historic city in the eastern part of Los Angeles County known for its arts scene and diverse community.",
+  "fullDescription": "Pomona is a vibrant city situated in the Pomona Valley, offering a mix of historic charm, cultural attractions, and a growing arts scene. Home to several colleges and a revitalized downtown, Pomona combines urban convenience with suburban comfort. The city hosts numerous events and festivals throughout the year, making it a hub for community and creativity. With its diverse population and range of housing options, Pomona is an appealing choice for families, students, and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Pomona street view with historic buildings",
+  "population": "150K+",
+  "avgHomePrice": "$550K",
+  "tags": [
+    "Historic charm",
+    "Arts and culture",
+    "Diverse community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Claremont",
+      "type": "city",
+      "slug": "claremont",
+      "description": "Known for its college town atmosphere, tree-lined streets, and vibrant downtown village.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Claremont with shops and outdoor seating",
+      "distance": "5 miles east",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Verne",
+      "type": "city",
+      "slug": "la-verne",
+      "description": "Suburban city known for its quiet neighborhoods, parks, and community events.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in La Verne",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Dimas",
+      "type": "city",
+      "slug": "san-dimas",
+      "description": "Small city with a historic downtown, family-friendly parks, and a semi-rural feel.",
+      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown San Dimas street view",
+      "distance": "8 miles northeast",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Montclair",
+      "type": "city",
+      "slug": "montclair",
+      "description": "Community known for shopping centers, parks, and proximity to the Inland Empire.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Shopping plaza in Montclair",
+      "distance": "6 miles east",
+      "avgHomePrice": "$580K",
+      "county": "San Bernardino"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Pomona Arts Colony",
+      "description": "A creative hub with galleries, studios, and public art installations.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Art gallery interior with paintings"
+    },
+    {
+      "title": "Pomona Fairplex",
+      "description": "Hosts the LA County Fair and other major events throughout the year.",
+      "icon": "🎡",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fairground with ferris wheel at dusk"
+    },
+    {
+      "title": "Historic Downtown Pomona",
+      "description": "Revitalized area with shops, restaurants, and nightlife.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Street view of downtown Pomona"
+    },
+    {
+      "title": "Western University of Health Sciences",
+      "description": "Major educational institution contributing to the local economy and culture.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "University campus buildings"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Pomona known for?",
+      "answer": "Pomona is known for its arts scene, historic downtown, and diverse community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Pomona?",
+      "answer": "Pomona offers affordable housing with a mix of historic homes and new developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Pomona?",
+      "answer": "Explore the Arts Colony, visit the Fairplex, or enjoy dining and entertainment downtown.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Pomona?",
+      "answer": "Pomona has good freeway access and Metrolink service for commuting to Los Angeles and Inland Empire.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Pomona CA Real Estate & Lifestyle | Arts, Culture & Community",
+    "metaDescription": "Discover Pomona’s neighborhoods, arts scene, and real estate options in eastern Los Angeles County.",
+    "keywords": "Pomona real estate, Pomona arts, living in Pomona, Pomona homes for sale",
+    "ogTitle": "Explore Pomona: Arts and Community Living",
+    "ogDescription": "Find your home in Pomona with its vibrant arts scene and diverse neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Pomona street view with historic buildings",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pomona",
+      "description": "Explore real estate, neighborhoods, and highlights in Pomona, California.",
+      "url": "https://example.com/locations/pomona",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Pomona street view with historic buildings"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Pomona",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Pomona known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona is known for its arts scene, historic downtown, and diverse community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Pomona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona offers affordable housing with a mix of historic homes and new developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Pomona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explore the Arts Colony, visit the Fairplex, or enjoy dining and entertainment downtown."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Pomona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona has good freeway access and Metrolink service for commuting to Los Angeles and Inland Empire."
+          }
+        }
+      ]
+    }
+  ]
+}

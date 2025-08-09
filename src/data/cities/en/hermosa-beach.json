@@ -1,0 +1,186 @@
+{
+  "slug": "hermosa-beach",
+  "name": "Hermosa Beach",
+  "state": "California",
+  "shortDescription": "A vibrant coastal city known for its sandy beaches, active lifestyle, and lively downtown pier area.",
+  "fullDescription": "Hermosa Beach is a picturesque beach city in the South Bay region of Los Angeles County. Famous for its laid-back surf culture, scenic strand bike path, and vibrant nightlife, Hermosa offers an exceptional blend of outdoor activities and community events. The city features a beautiful pier, boutique shops, and numerous restaurants, making it a popular destination for both residents and visitors seeking beachside living with a strong sense of community.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Hermosa Beach pier at sunset with palm trees and ocean",
+  "population": "20K+",
+  "avgHomePrice": "$1.9M",
+  "tags": [
+    "Beaches",
+    "Surfing",
+    "Nightlife"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Manhattan Beach",
+      "type": "city",
+      "slug": "manhattan-beach",
+      "description": "Upscale beach city known for its beautiful coastline, shopping, and dining.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Manhattan Beach coastline with pier",
+      "distance": "2 miles south",
+      "avgHomePrice": "$2.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Redondo Beach",
+      "type": "city",
+      "slug": "redondo-beach",
+      "description": "Coastal city with a bustling marina, pier, and waterfront dining.",
+      "image": "https://images.unsplash.com/photo-1526481280691-6c43c5dffb9a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Redondo Beach marina and pier",
+      "distance": "3 miles north",
+      "avgHomePrice": "$1.7M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "city",
+      "slug": "torrance",
+      "description": "Large city with diverse neighborhoods, shopping centers, and parks.",
+      "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Torrance street view",
+      "distance": "5 miles east",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Segundo",
+      "type": "city",
+      "slug": "el-segundo",
+      "description": "Coastal city known for its aerospace industry and beach access.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "El Segundo coastline",
+      "distance": "5 miles north",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hermosa Beach Pier",
+      "description": "Iconic pier with fishing, dining, and beautiful ocean views.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hermosa Beach pier at sunset"
+    },
+    {
+      "title": "The Strand Bike Path",
+      "description": "Popular paved bike and pedestrian path along the beach connecting to neighboring cities.",
+      "icon": "🚴‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Cyclists on a coastal bike path"
+    },
+    {
+      "title": "Hermosa Beach Downtown",
+      "description": "Vibrant area with bars, restaurants, boutiques, and live music venues.",
+      "icon": "🎸",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Street with restaurants and nightlife"
+    },
+    {
+      "title": "Annual AVP Beach Volleyball Tournament",
+      "description": "Popular professional volleyball event attracting fans and athletes.",
+      "icon": "🏐",
+      "bgImage": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Beach volleyball players in action"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Hermosa Beach known for?",
+      "answer": "Hermosa Beach is famous for its lively pier, surfing culture, and active nightlife.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Hermosa Beach?",
+      "answer": "The market is competitive, with high demand for oceanfront properties and condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities can you do in Hermosa Beach?",
+      "answer": "Enjoy beach activities, bike along The Strand, dine downtown, and attend beach volleyball events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Hermosa Beach?",
+      "answer": "Hermosa Beach offers easy access to the 405 and 107 freeways and is close to the Metro Green Line.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Hermosa Beach CA Real Estate & Lifestyle | Beaches, Surf & Nightlife",
+    "metaDescription": "Discover Hermosa Beach’s vibrant coastal lifestyle, stunning pier, and real estate opportunities in Los Angeles County.",
+    "keywords": "Hermosa Beach real estate, Hermosa Beach pier, living in Hermosa Beach, Hermosa Beach homes for sale",
+    "ogTitle": "Explore Hermosa Beach: Surf, Beaches & Nightlife",
+    "ogDescription": "Find your place in Hermosa Beach with its iconic pier, beaches, and vibrant community.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Hermosa Beach pier at sunset with palm trees and ocean",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Hermosa Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Hermosa Beach, California.",
+      "url": "https://example.com/locations/hermosa-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Hermosa Beach pier at sunset with palm trees and ocean"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Hermosa Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Hermosa Beach known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hermosa Beach is famous for its lively pier, surfing culture, and active nightlife."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is competitive, with high demand for oceanfront properties and condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities can you do in Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy beach activities, bike along The Strand, dine downtown, and attend beach volleyball events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hermosa Beach offers easy access to the 405 and 107 freeways and is close to the Metro Green Line."
+          }
+        }
+      ]
+    }
+  ]
+}

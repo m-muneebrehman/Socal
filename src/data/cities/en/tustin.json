@@ -1,0 +1,175 @@
+{
+  "slug": "tustin",
+  "name": "Tustin",
+  "state": "California",
+  "shortDescription": "A vibrant city known for its historic Old Town, diverse neighborhoods, and family-friendly community amenities.",
+  "fullDescription": "Tustin combines rich history with modern suburban living, featuring the charming Old Town district with unique shops, restaurants, and cultural landmarks. The city offers a variety of housing options, excellent schools, and numerous parks and recreational facilities. Conveniently located near major freeways and employment centers, Tustin attracts families, professionals, and retirees looking for a welcoming community with easy access to Orange County’s attractions and beaches.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "View of Tustin Old Town and surrounding neighborhoods",
+  "population": "80K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Historic",
+    "Family-friendly",
+    "Convenient"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Town Tustin",
+      "type": "district",
+      "slug": "old-town-tustin",
+      "description": "Historic downtown area with boutiques, eateries, and community events.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic buildings and shops in Old Town Tustin",
+      "distance": "Central",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Tustin Ranch",
+      "type": "district",
+      "slug": "tustin-ranch",
+      "description": "Master-planned community with golf course, parks, and schools.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golf course and homes in Tustin Ranch",
+      "distance": "East",
+      "avgHomePrice": "$920K",
+      "county": "Orange"
+    },
+    {
+      "name": "North Tustin",
+      "type": "district",
+      "slug": "north-tustin",
+      "description": "Residential area with larger lots and upscale homes.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Upscale homes in North Tustin",
+      "distance": "North",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Old Town Tustin",
+      "description": "Historic district featuring shops, restaurants, and seasonal festivals.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Main street in Old Town Tustin"
+    },
+    {
+      "title": "Tustin Ranch Golf Club",
+      "description": "Popular golf course and country club serving the community.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golf course with green fairways"
+    },
+    {
+      "title": "Parks & Recreation",
+      "description": "Numerous parks, trails, and recreational facilities for families and active residents.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and picnic area in Tustin park"
+    },
+    {
+      "title": "Community Events",
+      "description": "Farmers markets, art walks, and cultural events throughout the year.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community festival in Tustin"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Tustin known for?",
+      "answer": "Tustin is known for its historic Old Town district, family-friendly neighborhoods, and convenient Orange County location.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Tustin?",
+      "answer": "Tustin Unified School District serves the city, offering highly rated elementary, middle, and high schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular in Tustin?",
+      "answer": "Residents enjoy golf, parks, community trails, and seasonal events like farmers markets and art walks.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Tustin?",
+      "answer": "Tustin has easy access to the 5 and 55 freeways, offering commutes to Irvine, Orange, and nearby employment hubs.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Tustin CA Real Estate & Lifestyle | Historic & Family-Friendly Community",
+    "metaDescription": "Discover Tustin’s neighborhoods, schools, parks, and real estate in Orange County, California.",
+    "keywords": "Tustin real estate, living in Tustin CA, Orange County homes, Tustin schools",
+    "ogTitle": "Explore Tustin: Historic Charm & Modern Living in Orange County",
+    "ogDescription": "Experience Tustin’s unique blend of historic Old Town and suburban neighborhoods with easy access to Orange County attractions.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "View of Tustin Old Town and surrounding neighborhoods",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Tustin",
+      "description": "Explore real estate, neighborhoods, and highlights in Tustin, California.",
+      "url": "https://example.com/locations/tustin",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "View of Tustin Old Town and surrounding neighborhoods"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Tustin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Tustin known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tustin is known for its historic Old Town district, family-friendly neighborhoods, and convenient Orange County location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tustin Unified School District serves the city, offering highly rated elementary, middle, and high schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy golf, parks, community trails, and seasonal events like farmers markets and art walks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tustin has easy access to the 5 and 55 freeways, offering commutes to Irvine, Orange, and nearby employment hubs."
+          }
+        }
+      ]
+    }
+  ]
+}

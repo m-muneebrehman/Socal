@@ -1,0 +1,186 @@
+{
+  "slug": "laguna-beach",
+  "name": "Laguna Beach",
+  "state": "California",
+  "shortDescription": "A picturesque coastal city famous for its art community, beaches, and scenic ocean views.",
+  "fullDescription": "Laguna Beach is renowned for its stunning coastline, vibrant arts scene, and unique blend of natural beauty and cultural attractions. With pristine beaches, tide pools, and hiking trails, this city offers a relaxed yet sophisticated lifestyle. Visitors and residents enjoy art galleries, annual festivals, and fine dining, making Laguna Beach a sought-after destination in Orange County for both living and vacationing.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic coastline and cliffs at Laguna Beach",
+  "population": "23K+",
+  "avgHomePrice": "$3.5M",
+  "tags": [
+    "Coastal",
+    "Arts & Culture",
+    "Outdoor Recreation"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "city",
+      "slug": "aliso-viejo",
+      "description": "Planned community known for parks, shopping, and family-friendly living.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Aliso Viejo neighborhood park",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Dana Point",
+      "type": "city",
+      "slug": "dana-point",
+      "description": "Coastal city with a marina, beaches, and whale watching.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Dana Point harbor view",
+      "distance": "8 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "city",
+      "slug": "laguna-niguel",
+      "description": "Residential community with parks, shopping centers, and golf courses.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in Laguna Niguel",
+      "distance": "9 miles east",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "city",
+      "slug": "san-clemente",
+      "description": "Coastal city known for its pier, beaches, and Spanish-style architecture.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "San Clemente pier at sunset",
+      "distance": "14 miles southeast",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Beaches and Tide Pools",
+      "description": "Beautiful sandy beaches and tide pools perfect for exploring marine life.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Laguna Beach coastline with tide pools"
+    },
+    {
+      "title": "Art Galleries and Festivals",
+      "description": "Vibrant arts scene with numerous galleries and annual events like the Pageant of the Masters.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Art gallery interior in Laguna Beach"
+    },
+    {
+      "title": "Hiking Trails",
+      "description": "Scenic trails in the nearby Laguna Coast Wilderness Park offering ocean views and wildlife sightings.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail with ocean view in Laguna Coast Wilderness Park"
+    },
+    {
+      "title": "Marine Protected Areas",
+      "description": "Designated marine reserves protecting local sea life and habitats.",
+      "icon": "🐠",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Underwater marine life near Laguna Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Laguna Beach famous for?",
+      "answer": "Laguna Beach is famous for its stunning coastline, vibrant arts community, beaches, and outdoor recreational activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Laguna Beach?",
+      "answer": "Laguna Beach Unified School District is highly rated, offering excellent public education from elementary through high school.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities can I enjoy in Laguna Beach?",
+      "answer": "You can enjoy beach activities, tide pool exploration, hiking, whale watching, and visiting art festivals.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Laguna Beach?",
+      "answer": "Laguna Beach offers convenient access to the 73 and 405 freeways, with typical commutes to nearby Orange County cities and Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Beach CA Real Estate & Coastal Living | Arts & Outdoor Recreation",
+    "metaDescription": "Discover Laguna Beach’s coastal neighborhoods, arts scene, beaches, and outdoor activities in Orange County.",
+    "keywords": "Laguna Beach real estate, Orange County coastal homes, Laguna Beach arts, living in Laguna Beach",
+    "ogTitle": "Explore Laguna Beach: Coastal Beauty & Vibrant Arts Community",
+    "ogDescription": "Experience Laguna Beach’s stunning beaches, thriving arts scene, and outdoor adventures in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Laguna Beach coastline with tide pools",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Laguna Beach, California.",
+      "url": "https://example.com/locations/laguna-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic coastline and cliffs at Laguna Beach"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Laguna Beach famous for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach is famous for its stunning coastline, vibrant arts community, beaches, and outdoor recreational activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach Unified School District is highly rated, offering excellent public education from elementary through high school."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can I enjoy in Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can enjoy beach activities, tide pool exploration, hiking, whale watching, and visiting art festivals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach offers convenient access to the 73 and 405 freeways, with typical commutes to nearby Orange County cities and Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "mission-viejo",
+  "name": "Mission Viejo",
+  "state": "California",
+  "shortDescription": "A master-planned community known for its family-friendly environment, extensive parks, and beautiful lake.",
+  "fullDescription": "Mission Viejo is one of Southern California’s largest master-planned communities, offering a suburban lifestyle with abundant parks, recreational facilities, and a vibrant cultural scene. Known for its scenic Lake Mission Viejo, excellent schools, and active community events, the city attracts families and professionals alike. Conveniently located with access to major freeways, residents enjoy proximity to beaches, shopping centers, and employment hubs.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic view of Lake Mission Viejo and surrounding neighborhoods",
+  "population": "95K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Family-friendly",
+    "Outdoor Recreation",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "city",
+      "slug": "laguna-hills",
+      "description": "Neighboring city with rolling hills, parks, and residential communities.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential neighborhood in Laguna Hills",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$880K",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "city",
+      "slug": "lake-forest",
+      "description": "Suburban city with parks, shopping, and business centers.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and neighborhood in Lake Forest",
+      "distance": "6 miles north",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Trabuco Canyon",
+      "type": "community",
+      "slug": "trabuco-canyon",
+      "description": "Rural area known for hiking, open space, and equestrian activities.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hiking trail in Trabuco Canyon",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "city",
+      "slug": "san-juan-capistrano",
+      "description": "Historic city with mission, downtown shopping, and cultural attractions.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic mission in San Juan Capistrano",
+      "distance": "8 miles south",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Lake Mission Viejo",
+      "description": "Private recreational lake with boating, fishing, swimming, and picnic areas.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lake Mission Viejo with boats and shore"
+    },
+    {
+      "title": "Oso Creek Trail",
+      "description": "Popular trail for walking, biking, and enjoying nature throughout the city.",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail and greenery along Oso Creek"
+    },
+    {
+      "title": "Mission Viejo Mall",
+      "description": "Shopping center with a variety of retail stores, dining, and entertainment options.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior of Mission Viejo Mall"
+    },
+    {
+      "title": "Family Events & Parks",
+      "description": "Numerous parks, playgrounds, and community events year-round for families.",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Families enjoying park activities"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Mission Viejo good for families?",
+      "answer": "Yes, Mission Viejo is known for its safe neighborhoods, good schools, parks, and family-friendly activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents enjoy boating on Lake Mission Viejo, hiking and biking trails, and numerous parks and recreational programs.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How are the schools in Mission Viejo?",
+      "answer": "The city is served by highly rated school districts, including Capistrano Unified School District with several top schools.",
+      "category": "Education"
+    },
+    {
+      "question": "How is the commute from Mission Viejo?",
+      "answer": "Located near the 5 and 241 freeways, the commute to Orange County business centers and beaches is convenient.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Mission Viejo CA Real Estate & Lifestyle | Family-Friendly & Scenic Living",
+    "metaDescription": "Explore Mission Viejo’s neighborhoods, Lake Mission Viejo, parks, schools, and real estate opportunities in Orange County.",
+    "keywords": "Mission Viejo real estate, Lake Mission Viejo, family living Mission Viejo, Orange County homes",
+    "ogTitle": "Discover Mission Viejo: Family Living & Outdoor Lifestyle",
+    "ogDescription": "Experience scenic lakefront living, parks, and top schools in Mission Viejo, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic view of Lake Mission Viejo and surrounding neighborhoods",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Mission Viejo",
+      "description": "Explore real estate, neighborhoods, and highlights in Mission Viejo, California.",
+      "url": "https://example.com/locations/mission-viejo",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic view of Lake Mission Viejo and surrounding neighborhoods"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Mission Viejo",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Mission Viejo good for families?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Mission Viejo is known for its safe neighborhoods, good schools, parks, and family-friendly activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy boating on Lake Mission Viejo, hiking and biking trails, and numerous parks and recreational programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Mission Viejo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by highly rated school districts, including Capistrano Unified School District with several top schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Mission Viejo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Located near the 5 and 241 freeways, the commute to Orange County business centers and beaches is convenient."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "placentia",
+  "name": "Placentia",
+  "state": "California",
+  "shortDescription": "Charming suburban city known for its tree-lined streets, historic downtown, and family-friendly environment.",
+  "fullDescription": "Placentia is a welcoming community in Orange County that offers a small-town feel with convenient access to larger urban centers. Known for its well-maintained parks, quality schools, and a vibrant historic district featuring shops and restaurants, Placentia is popular with families and professionals seeking a balanced lifestyle. Its location near major freeways makes commuting to neighboring cities easy.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree-lined street in Placentia with suburban homes",
+  "population": "52K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Family-friendly",
+    "Historic",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "city",
+      "slug": "fullerton",
+      "description": "Historic college town with a lively downtown, arts scene, and established neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown street scene representative of Fullerton",
+      "distance": "2 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Major Orange County city known for entertainment, sports, and diverse neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "City boulevard scene representative of Anaheim",
+      "distance": "3 miles southwest",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "city",
+      "slug": "brea",
+      "description": "Suburban city with shopping, dining, and well-rated schools north of Placentia.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood street representative of Brea",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "city",
+      "slug": "yorba-linda",
+      "description": "Upscale residential community with parks, trails, and spacious homes east of Placentia.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Green hills and suburban homes representative of Yorba Linda",
+      "distance": "3 miles northeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Historic Downtown Placentia",
+      "description": "Vibrant area with boutique shops, dining, and community events.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Shops and streets in Historic Downtown Placentia"
+    },
+    {
+      "title": "Craig Regional Park",
+      "description": "Large park featuring playgrounds, picnic areas, and sports facilities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and greenery at Craig Regional Park"
+    },
+    {
+      "title": "Placentia Library District",
+      "description": "Modern library with community programs and events.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Placentia Library building exterior"
+    },
+    {
+      "title": "Community Events",
+      "description": "Popular events include summer concerts, farmers markets, and seasonal festivals.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowd enjoying a local festival"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Placentia known for?",
+      "answer": "Placentia is known for its historic downtown, family-friendly neighborhoods, and community events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Placentia?",
+      "answer": "Placentia is served by the Placentia-Yorba Linda Unified School District, offering highly rated schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What parks are available in Placentia?",
+      "answer": "Craig Regional Park and several community parks provide recreational options for residents.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Placentia?",
+      "answer": "The city has easy access to the 57 and 91 freeways, with typical commutes of 30-45 minutes to nearby job centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Placentia CA Real Estate & Lifestyle | Historic Charm & Family Community",
+    "metaDescription": "Discover Placentia’s neighborhoods, parks, schools, and community events in Orange County, California.",
+    "keywords": "Placentia CA real estate, Placentia neighborhoods, family living Placentia, Orange County homes",
+    "ogTitle": "Explore Placentia: Historic Charm & Family-Friendly Living",
+    "ogDescription": "Experience the welcoming community and vibrant lifestyle of Placentia, California.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Tree-lined street in Placentia with suburban homes",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Placentia",
+      "description": "Explore real estate, neighborhoods, and highlights in Placentia, California.",
+      "url": "https://example.com/locations/placentia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Tree-lined street in Placentia with suburban homes"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Placentia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Placentia known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Placentia is known for its historic downtown, family-friendly neighborhoods, and community events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Placentia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Placentia is served by the Placentia-Yorba Linda Unified School District, offering highly rated schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What parks are available in Placentia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Craig Regional Park and several community parks provide recreational options for residents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Placentia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city has easy access to the 57 and 91 freeways, with typical commutes of 30-45 minutes to nearby job centers."
+          }
+        }
+      ]
+    }
+  ]
+}

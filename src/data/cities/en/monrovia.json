@@ -1,0 +1,186 @@
+{
+  "slug": "monrovia",
+  "name": "Monrovia",
+  "state": "California",
+  "shortDescription": "A historic city in the foothills of the San Gabriel Mountains, known for its charming downtown and community spirit.",
+  "fullDescription": "Monrovia offers a welcoming small-town atmosphere with a vibrant historic downtown featuring unique shops, restaurants, and community events. Nestled against the San Gabriel Mountains, the city provides easy access to hiking trails, parks, and outdoor recreation. With excellent schools and a tight-knit community, Monrovia appeals to families and professionals seeking a balanced lifestyle close to Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Monrovia street with shops and trees",
+  "population": "37K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Historic charm",
+    "Community",
+    "Outdoor recreation"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Arcadia",
+      "type": "city",
+      "slug": "arcadia",
+      "description": "Known for its scenic parks, the Santa Anita Race Track, and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Arcadia neighborhood with green parks",
+      "distance": "4 miles east",
+      "avgHomePrice": "$1.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bradbury",
+      "type": "city",
+      "slug": "bradbury",
+      "description": "A small, upscale community with large estates and quiet surroundings.",
+      "image": "https://images.unsplash.com/photo-1486308510493-cb4f0d71d5d5?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Bradbury large estates with greenery",
+      "distance": "3 miles northeast",
+      "avgHomePrice": "$2.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Duarte",
+      "type": "city",
+      "slug": "duarte",
+      "description": "Suburban city with parks, hiking trails, and a community-focused lifestyle.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hiking trails near Duarte",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Cultural and historic city known for the Rose Parade and vibrant arts scene.",
+      "image": "https://images.unsplash.com/photo-1576698483491-8a84b6e0f5d4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic Pasadena architecture",
+      "distance": "5 miles northwest",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Monrovia Old Town",
+      "description": "Historic downtown area with shops, dining, and community events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Monrovia Old Town street with shops"
+    },
+    {
+      "title": "Hiking in the San Gabriel Mountains",
+      "description": "Access to popular trails offering beautiful views and outdoor activities.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail view in the San Gabriel Mountains"
+    },
+    {
+      "title": "Community Events",
+      "description": "Farmers markets, festivals, and local gatherings strengthen community ties.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Farmers market with people shopping"
+    },
+    {
+      "title": "Monrovia Canyon Park",
+      "description": "A nature preserve with walking trails, waterfalls, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Waterfall and trees in Monrovia Canyon Park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Monrovia known for?",
+      "answer": "Monrovia is known for its historic downtown, outdoor recreation, and family-friendly community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Monrovia?",
+      "answer": "Monrovia offers a balanced market with options from historic homes to modern residences.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What outdoor activities are popular in Monrovia?",
+      "answer": "Hiking in the San Gabriel Mountains and visiting Monrovia Canyon Park are popular outdoor activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Monrovia convenient for commuting?",
+      "answer": "Yes, Monrovia is served by the Foothill Freeway (I-210) and Metro Gold Line, offering easy access to Pasadena and Downtown LA.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Monrovia CA Real Estate & Lifestyle | Historic Downtown & Outdoor Living",
+    "metaDescription": "Explore Monrovia's neighborhoods, historic charm, outdoor activities, and real estate options near the San Gabriel Mountains.",
+    "keywords": "Monrovia real estate, Monrovia CA, living in Monrovia, Monrovia neighborhoods, Monrovia homes for sale",
+    "ogTitle": "Discover Monrovia: Historic Charm & Outdoor Lifestyle",
+    "ogDescription": "Find your home in Monrovia with its welcoming community, outdoor access, and vibrant downtown.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Monrovia street with shops and trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Monrovia",
+      "description": "Explore real estate, neighborhoods, and highlights in Monrovia, California.",
+      "url": "https://example.com/locations/monrovia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Monrovia street with shops and trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Monrovia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Monrovia known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monrovia is known for its historic downtown, outdoor recreation, and family-friendly community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Monrovia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monrovia offers a balanced market with options from historic homes to modern residences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Monrovia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking in the San Gabriel Mountains and visiting Monrovia Canyon Park are popular outdoor activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Monrovia convenient for commuting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Monrovia is served by the Foothill Freeway (I-210) and Metro Gold Line, offering easy access to Pasadena and Downtown LA."
+          }
+        }
+      ]
+    }
+  ]
+}

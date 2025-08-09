@@ -1,0 +1,187 @@
+{
+  "slug": "west-hollywood",
+  "name": "West Hollywood",
+  "state": "California",
+  "shortDescription": "A trendy, vibrant city known for its nightlife, arts scene, and inclusive community.",
+  "fullDescription": "West Hollywood, or WeHo, is a dynamic urban enclave celebrated for its lively nightlife, cutting-edge art galleries, and diverse cultural events. Situated between Beverly Hills and Hollywood, it features walkable streets lined with trendy boutiques, popular restaurants, and iconic music venues. Known for its progressive spirit and strong LGBTQ+ community, West Hollywood offers a unique blend of entertainment, history, and modern living. The city is also home to beautiful residential neighborhoods, excellent public transit options, and a thriving creative scene.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of West Hollywood cityscape with palm trees",
+  "population": "36K+",
+  "avgHomePrice": "$1.7M",
+  "tags": [
+    "Nightlife",
+    "Arts & Culture",
+    "LGBTQ+ Friendly",
+    "Trendy"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hollywood",
+      "type": "city",
+      "slug": "hollywood",
+      "description": "Famous entertainment district with theaters, nightlife, and tourist attractions.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hollywood Walk of Fame at night",
+      "distance": "2 miles east",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Beverly Hills",
+      "type": "city",
+      "slug": "beverly-hills",
+      "description": "Upscale city known for luxury shopping, celebrity homes, and fine dining.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rodeo Drive shopping street in Beverly Hills",
+      "distance": "1 mile west",
+      "avgHomePrice": "$3.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Silver Lake",
+      "type": "city",
+      "slug": "silver-lake",
+      "description": "Hip neighborhood with trendy cafes, arts scene, and scenic reservoir.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Silver Lake Reservoir and park",
+      "distance": "4 miles northeast",
+      "avgHomePrice": "$1.4M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westwood",
+      "type": "city",
+      "slug": "westwood",
+      "description": "Home to UCLA, with theaters, museums, and lively college town vibe.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "UCLA campus buildings",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Sunset Strip",
+      "description": "Famous stretch known for nightlife, music venues, and vibrant atmosphere.",
+      "icon": "🎸",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Sunset Strip at night with neon lights"
+    },
+    {
+      "title": "West Hollywood Design District",
+      "description": "High-end shopping and art galleries in a trendy, walkable neighborhood.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Upscale boutiques and galleries"
+    },
+    {
+      "title": "LGBTQ+ Events & Culture",
+      "description": "A welcoming city known for Pride celebrations, community centers, and inclusive vibe.",
+      "icon": "🏳️‍🌈",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rainbow flags and community event"
+    },
+    {
+      "title": "Pacific Design Center",
+      "description": "Architectural landmark with design showrooms, events, and art exhibitions.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Pacific Design Center building exterior"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is West Hollywood known for?",
+      "answer": "West Hollywood is famous for its vibrant nightlife, arts scene, and LGBTQ+ friendly community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in West Hollywood?",
+      "answer": "West Hollywood has a competitive market with a mix of luxury condos and historic homes.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular attractions in West Hollywood?",
+      "answer": "The Sunset Strip, Pacific Design Center, and numerous theaters and music venues attract visitors year-round.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is West Hollywood walkable and transit-friendly?",
+      "answer": "Yes, it has a walkable layout with access to public transit and bike lanes throughout the city.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "West Hollywood CA Real Estate & Lifestyle | Nightlife, Arts & Culture",
+    "metaDescription": "Explore West Hollywood’s vibrant neighborhoods, iconic nightlife, cultural scene, and real estate options.",
+    "keywords": "West Hollywood real estate, West Hollywood nightlife, West Hollywood arts, living in West Hollywood",
+    "ogTitle": "Discover West Hollywood: Nightlife, Culture & Community",
+    "ogDescription": "Experience the lively arts and nightlife scene in West Hollywood with diverse neighborhoods and inclusive culture.",
+    "ogImage": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "West Hollywood cityscape at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "West Hollywood",
+      "description": "Explore real estate, neighborhoods, and highlights in West Hollywood, California.",
+      "url": "https://example.com/locations/west-hollywood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of West Hollywood cityscape with palm trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "West Hollywood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is West Hollywood known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood is famous for its vibrant nightlife, arts scene, and LGBTQ+ friendly community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in West Hollywood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood has a competitive market with a mix of luxury condos and historic homes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular attractions in West Hollywood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Sunset Strip, Pacific Design Center, and numerous theaters and music venues attract visitors year-round."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is West Hollywood walkable and transit-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it has a walkable layout with access to public transit and bike lanes throughout the city."
+          }
+        }
+      ]
+    }
+  ]
+}

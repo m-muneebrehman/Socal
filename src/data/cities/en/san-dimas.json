@@ -1,0 +1,179 @@
+{
+  "slug": "san-dimas",
+  "name": "San Dimas",
+  "state": "California",
+  "shortDescription": "A charming city nestled in the foothills of the San Gabriel Mountains, known for its small-town feel and outdoor activities.",
+  "fullDescription": "San Dimas offers residents a peaceful suburban lifestyle with a strong sense of community. Known for its scenic mountain backdrop, parks, and historic downtown area, the city is popular among families and outdoor enthusiasts. With convenient access to hiking trails, golf courses, and local events, San Dimas balances natural beauty with a friendly neighborhood atmosphere. The city also benefits from proximity to larger cities like Pasadena and Pomona, making it a great choice for commuters seeking tranquility and convenience.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic view of San Dimas with mountains and suburban homes",
+  "population": "34K+",
+  "avgHomePrice": "$820K",
+  "tags": [
+    "Suburban",
+    "Outdoor activities",
+    "Historic downtown"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "city",
+      "slug": "pomona",
+      "description": "A city with a vibrant arts scene, historic architecture, and growing university presence.",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Pomona streets with historic buildings",
+      "distance": "6 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Verne",
+      "type": "city",
+      "slug": "la-verne",
+      "description": "Quiet suburban city known for its college town vibe and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "La Verne residential street with trees",
+      "distance": "4 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Claremont",
+      "type": "city",
+      "slug": "claremont",
+      "description": "City famous for its college campuses, tree-lined streets, and vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Claremont tree-lined street in autumn",
+      "distance": "5 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Glendora",
+      "type": "city",
+      "slug": "glendora",
+      "description": "Known as the 'Pride of the Foothills,' Glendora offers a charming downtown and family-friendly environment.",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Glendora downtown with shops and cafes",
+      "distance": "7 miles east",
+      "avgHomePrice": "$880K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Raging Waters Los Angeles",
+      "description": "Southern California’s largest water park offering fun for the whole family.",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Water park with slides and pools"
+    },
+    {
+      "title": "San Dimas Canyon Park",
+      "description": "A beautiful natural area perfect for hiking, picnics, and enjoying the outdoors.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail in a canyon park with trees and hills"
+    },
+    {
+      "title": "Historic Downtown San Dimas",
+      "description": "Featuring charming shops, restaurants, and community events in a small-town setting.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Small town downtown street with shops"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Dimas known for?",
+      "answer": "San Dimas is known for its outdoor recreation, historic downtown, and family-friendly community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in San Dimas?",
+      "answer": "The real estate market in San Dimas offers suburban homes with a focus on families and outdoor lifestyles.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in San Dimas?",
+      "answer": "Visit Raging Waters, hike in San Dimas Canyon Park, or explore the shops and eateries in historic downtown.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from San Dimas?",
+      "answer": "San Dimas offers convenient access to the 57 and 210 freeways, connecting residents to the greater Los Angeles area.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Dimas CA Real Estate & Lifestyle | Outdoor Activities & Community",
+    "metaDescription": "Explore San Dimas neighborhoods, parks, historic downtown, and real estate in the San Gabriel Valley.",
+    "keywords": "San Dimas real estate, San Dimas parks, living in San Dimas, San Dimas homes for sale",
+    "ogTitle": "Discover San Dimas: Small Town Charm & Outdoor Fun",
+    "ogDescription": "Find your home in San Dimas with its family-friendly neighborhoods and beautiful outdoor spaces.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic view of San Dimas with mountains and homes",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Dimas",
+      "description": "Explore real estate, neighborhoods, and highlights in San Dimas, California.",
+      "url": "https://example.com/locations/san-dimas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic view of San Dimas with mountains and suburban homes"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Dimas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Dimas known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Dimas is known for its outdoor recreation, historic downtown, and family-friendly community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market in San Dimas offers suburban homes with a focus on families and outdoor lifestyles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit Raging Waters, hike in San Dimas Canyon Park, or explore the shops and eateries in historic downtown."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Dimas offers convenient access to the 57 and 210 freeways, connecting residents to the greater Los Angeles area."
+          }
+        }
+      ]
+    }
+  ]
+}

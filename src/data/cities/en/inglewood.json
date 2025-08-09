@@ -1,0 +1,186 @@
+{
+  "slug": "inglewood",
+  "name": "Inglewood",
+  "state": "California",
+  "shortDescription": "A dynamic city in the South Bay region known for its entertainment venues, sports, and diverse community.",
+  "fullDescription": "Inglewood is a vibrant city just southwest of downtown Los Angeles, famous for the SoFi Stadium and its rich cultural diversity. The city has undergone significant revitalization with new developments in entertainment, retail, and housing. With a mix of historic neighborhoods and modern amenities, Inglewood offers residents a unique blend of urban living and community spirit, with easy access to Los Angeles International Airport and major freeways.",
+  "heroImage": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "SoFi Stadium in Inglewood under a clear sky",
+  "population": "110K+",
+  "avgHomePrice": "$720K",
+  "tags": [
+    "Entertainment",
+    "Sports",
+    "Diverse community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Ladera Heights",
+      "type": "city",
+      "slug": "ladera-heights",
+      "description": "Upscale residential community known for spacious homes and green spaces.",
+      "image": "https://images.unsplash.com/photo-1572120360610-d971b9b1e91d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined streets in Ladera Heights",
+      "distance": "5 miles north",
+      "avgHomePrice": "$1.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westchester",
+      "type": "city",
+      "slug": "westchester",
+      "description": "Close-knit community near LAX with parks, schools, and shopping centers.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park in Westchester",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Hawthorne",
+      "type": "city",
+      "slug": "hawthorne",
+      "description": "City with a diverse population, strong industrial base, and active community events.",
+      "image": "https://images.unsplash.com/photo-1572120360610-d971b9b1e91d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Hawthorne street view",
+      "distance": "3 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westmont",
+      "type": "city",
+      "slug": "westmont",
+      "description": "Residential neighborhood with parks and community centers.",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban homes in Westmont",
+      "distance": "2 miles east",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "SoFi Stadium",
+      "description": "State-of-the-art sports and entertainment venue hosting NFL games, concerts, and major events.",
+      "icon": "🏟️",
+      "bgImage": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "SoFi Stadium exterior"
+    },
+    {
+      "title": "The Forum",
+      "description": "Historic concert and sports arena attracting top performers and events.",
+      "icon": "🎤",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "The Forum in Inglewood"
+    },
+    {
+      "title": "Downtown Inglewood",
+      "description": "Revitalized area with shopping, dining, and cultural spots.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street in Inglewood"
+    },
+    {
+      "title": "Centinela Park",
+      "description": "Popular community park with sports fields, playgrounds, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with playground"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Inglewood known for?",
+      "answer": "Inglewood is known for its entertainment venues like SoFi Stadium, diverse culture, and recent revitalization efforts.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Inglewood?",
+      "answer": "The real estate market offers a mix of affordable homes and new developments close to key entertainment and business hubs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular activities in Inglewood?",
+      "answer": "Attending games and concerts at SoFi Stadium and The Forum, shopping and dining downtown, and enjoying community parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Inglewood?",
+      "answer": "Inglewood offers convenient freeway access, proximity to LAX, and public transit options including light rail lines.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Inglewood CA Real Estate & Lifestyle | Entertainment & Community",
+    "metaDescription": "Discover Inglewood's neighborhoods, entertainment venues, and real estate opportunities near Los Angeles International Airport.",
+    "keywords": "Inglewood real estate, SoFi Stadium, Inglewood entertainment, living in Inglewood, Inglewood homes for sale",
+    "ogTitle": "Explore Inglewood: Entertainment, Sports & Community Living",
+    "ogDescription": "Find your place in Inglewood with its vibrant culture, sports venues, and growing neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "SoFi Stadium in Inglewood under a clear sky",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Inglewood",
+      "description": "Explore real estate, neighborhoods, and highlights in Inglewood, California.",
+      "url": "https://example.com/locations/inglewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "SoFi Stadium in Inglewood under a clear sky"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Inglewood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Inglewood known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inglewood is known for its entertainment venues like SoFi Stadium, diverse culture, and recent revitalization efforts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Inglewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market offers a mix of affordable homes and new developments close to key entertainment and business hubs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular activities in Inglewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attending games and concerts at SoFi Stadium and The Forum, shopping and dining downtown, and enjoying community parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Inglewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inglewood offers convenient freeway access, proximity to LAX, and public transit options including light rail lines."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "westminster",
+  "name": "Westminster",
+  "state": "California",
+  "shortDescription": "A culturally vibrant city known for its rich Vietnamese heritage, diverse communities, and family-friendly atmosphere.",
+  "fullDescription": "Westminster is a dynamic city in Orange County recognized for its vibrant Little Saigon district, which is the largest Vietnamese community outside of Vietnam. The city blends cultural richness with suburban amenities, featuring excellent schools, parks, and community centers. Residents enjoy a variety of shopping, dining, and entertainment options, alongside numerous annual cultural festivals. Westminster offers convenient freeway access and a welcoming environment for families and professionals.",
+  "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Westminster with cultural landmarks",
+  "population": "90K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Cultural",
+    "Family-friendly",
+    "Diverse"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Garden Grove",
+      "type": "city",
+      "slug": "garden-grove",
+      "description": "Neighboring city with historic downtown, parks, and diverse dining options east of Westminster.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street representative of Garden Grove",
+      "distance": "2 miles east",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "city",
+      "slug": "fountain-valley",
+      "description": "Family-friendly suburban city with parks, wide streets, and community amenities south of Westminster.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and suburban homes representative of Fountain Valley",
+      "distance": "2 miles south",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Coastal city known for beaches, surfing, and a lively downtown southwest of Westminster.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ocean waves at sunset representative of Huntington Beach",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "city",
+      "slug": "santa-ana",
+      "description": "County seat with museums, civic centers, and historic neighborhoods southeast of Westminster.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "City boulevard representative of Santa Ana",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Little Saigon",
+      "description": "Largest Vietnamese community outside Vietnam, known for vibrant markets, eateries, and cultural festivals.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Market scene in Little Saigon"
+    },
+    {
+      "title": "Westminster Mall",
+      "description": "Popular shopping destination with a variety of retailers, dining options, and entertainment venues.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1520975692530-9d896fe7e62d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Westminster Mall entrance"
+    },
+    {
+      "title": "Community Parks",
+      "description": "Numerous parks and recreational areas with playgrounds, sports fields, and walking trails.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with trees and walking paths"
+    },
+    {
+      "title": "Cultural Festivals",
+      "description": "Annual Tet Festival and Lunar New Year celebrations drawing thousands of visitors.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowds celebrating Lunar New Year"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Westminster known for?",
+      "answer": "Westminster is best known for its Little Saigon district, the largest Vietnamese community outside of Vietnam, cultural diversity, and vibrant festivals.",
+      "category": "Culture"
+    },
+    {
+      "question": "How are the schools in Westminster?",
+      "answer": "Westminster is served by the Westminster School District and Ocean View School District, offering a range of elementary, middle, and high schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents enjoy numerous parks, sports fields, walking trails, and community recreation programs.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Westminster?",
+      "answer": "Westminster has convenient access to the 405 and 22 freeways, enabling commutes to surrounding Orange County cities and Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Westminster CA Real Estate & Lifestyle | Vibrant Cultural Community",
+    "metaDescription": "Explore Westminster’s Little Saigon, neighborhoods, schools, and real estate options in Orange County, California.",
+    "keywords": "Westminster real estate, Little Saigon Westminster, living in Westminster CA, Orange County homes",
+    "ogTitle": "Discover Westminster: Cultural Richness & Family Living in Orange County",
+    "ogDescription": "Experience the vibrant Vietnamese culture and diverse community of Westminster, CA, with great amenities and parks.",
+    "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Westminster with cultural landmarks",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Westminster",
+      "description": "Explore real estate, neighborhoods, and highlights in Westminster, California.",
+      "url": "https://example.com/locations/westminster",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Westminster with cultural landmarks"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Westminster",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Westminster known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster is best known for its Little Saigon district, the largest Vietnamese community outside of Vietnam, cultural diversity, and vibrant festivals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Westminster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster is served by the Westminster School District and Ocean View School District, offering a range of elementary, middle, and high schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy numerous parks, sports fields, walking trails, and community recreation programs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Westminster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster has convenient access to the 405 and 22 freeways, enabling commutes to surrounding Orange County cities and Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

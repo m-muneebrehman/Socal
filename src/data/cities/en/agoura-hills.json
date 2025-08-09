@@ -1,0 +1,186 @@
+{
+  "slug": "agoura-hills",
+  "name": "Agoura Hills",
+  "state": "California",
+  "shortDescription": "A scenic gateway to the Santa Monica Mountains offering outdoor adventures, equestrian culture, and family-friendly neighborhoods.",
+  "fullDescription": "Nestled in the Conejo Valley, Agoura Hills blends natural beauty with suburban comfort. Known for its rolling hills, hiking trails through the Santa Monica Mountains, and equestrian-friendly communities, this city offers a peaceful retreat with easy freeway access. Home to renowned entertainment tech companies and top-rated schools, Agoura Hills attracts families and professionals seeking a balanced lifestyle between nature and urban conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rolling hills and a scenic view near Agoura Hills",
+  "population": "20K+",
+  "avgHomePrice": "$1.5M",
+  "tags": [
+    "Outdoors",
+    "Family-friendly",
+    "Equestrian"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Calabasas",
+      "type": "city",
+      "slug": "calabasas",
+      "description": "Affluent neighbor with luxury estates, celebrity homes, and the Commons shopping center.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Luxury homes and shopping in Calabasas",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$2.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westlake Village",
+      "type": "city",
+      "slug": "westlake-village",
+      "description": "Upscale community featuring a scenic lake, golf courses, and corporate campuses.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scenic lake in Westlake Village",
+      "distance": "6 miles northwest",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Malibu",
+      "type": "city",
+      "slug": "malibu",
+      "description": "Iconic coastal city with celebrity beaches, surfing spots, and oceanfront dining.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Malibu beach coastline with ocean view",
+      "distance": "12 miles south",
+      "avgHomePrice": "$3.9M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Thousand Oaks",
+      "type": "city",
+      "slug": "thousand-oaks",
+      "description": "Family-oriented community with parks, shopping centers, and California Lutheran University.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in Thousand Oaks",
+      "distance": "8 miles west",
+      "avgHomePrice": "$1.1M",
+      "county": "Ventura"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Santa Monica Mountains",
+      "description": "Protected wilderness area offering hiking, mountain biking, and horseback riding trails.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail with mountains and wildflowers in the Santa Monica Mountains"
+    },
+    {
+      "title": "Paramount Ranch",
+      "description": "Historic film set turned national park with Western town and event space.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Western-style buildings in Paramount Ranch"
+    },
+    {
+      "title": "Reyes Adobe",
+      "description": "Restored 19th-century adobe home serving as cultural center and museum.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historic adobe building with trees"
+    },
+    {
+      "title": "Equestrian Culture",
+      "description": "Horse-friendly community with riding trails, boarding facilities, and annual events.",
+      "icon": "🐎",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horseback rider on a trail"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Agoura Hills known for?",
+      "answer": "Gateway to the Santa Monica Mountains, equestrian lifestyle, and as a filming location for movies/TV shows.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Agoura Hills?",
+      "answer": "Top-rated Las Virgenes Unified School District serves the community, including top-ranked Agoura High School.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Hiking at Cheeseboro Canyon, mountain biking, horseback riding, and rock climbing in the Santa Monicas.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to Los Angeles?",
+      "answer": "Easy access via 101 Freeway, with commute times averaging 45-60 minutes to downtown LA.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Agoura Hills CA Real Estate & Lifestyle | Mountain Living & Family Community",
+    "metaDescription": "Discover Agoura Hills' neighborhoods, outdoor recreation, schools, and real estate options in the Santa Monica Mountains.",
+    "keywords": "Agoura Hills real estate, Santa Monica Mountains, living in Agoura Hills, Conejo Valley homes",
+    "ogTitle": "Explore Agoura Hills: Mountain Living & Outdoor Adventure",
+    "ogDescription": "Discover family-friendly communities and natural beauty in Agoura Hills at the gateway to the Santa Monicas.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Panoramic view of Agoura Hills and mountains",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Agoura Hills",
+      "description": "Explore real estate, neighborhoods, and highlights in Agoura Hills, California.",
+      "url": "https://example.com/locations/agoura-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Agoura Hills landscape with Santa Monica Mountains"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Agoura Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Agoura Hills known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agoura Hills is renowned as the gateway to the Santa Monica Mountains, its equestrian culture, and as a filming location for movies and TV shows."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the highly-rated Las Virgenes Unified School District, including top-ranked Agoura High School."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, mountain biking, horseback riding, and rock climbing in the Santa Monica Mountains National Recreation Area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 101 Freeway provides direct access to Los Angeles, with commute times averaging 45-60 minutes to downtown."
+          }
+        }
+      ]
+    }
+  ]
+}

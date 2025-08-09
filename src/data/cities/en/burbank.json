@@ -1,0 +1,186 @@
+{
+  "slug": "burbank",
+  "name": "Burbank",
+  "state": "California",
+  "shortDescription": "A media capital known for its studios, family-friendly neighborhoods, and vibrant downtown.",
+  "fullDescription": "Burbank is a bustling city in the San Fernando Valley that serves as the home to major entertainment studios like Warner Bros. and Disney. With its rich media industry presence, the city offers a unique blend of creative energy and suburban comfort. Burbank’s well-maintained parks, excellent schools, and walkable downtown filled with shops, restaurants, and theaters make it a favorite among families and professionals alike. Its central location provides easy access to both Los Angeles and the greater Southern California region.",
+  "heroImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "Downtown Burbank skyline with mountains in the background",
+  "population": "108K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Entertainment",
+    "Family-friendly",
+    "Downtown"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Glendale",
+      "type": "city",
+      "slug": "glendale",
+      "description": "Neighboring city known for its shopping, dining, and cultural diversity.",
+      "image": "https://images.unsplash.com/photo-1486308510493-cb1a53c81a36?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Glendale cityscape at dusk",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Famous for the Rose Parade, historic architecture, and vibrant arts scene.",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic Pasadena buildings",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "North Hollywood",
+      "type": "city",
+      "slug": "north-hollywood",
+      "description": "Known for its arts district, theaters, and eclectic dining scene.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "North Hollywood arts district murals",
+      "distance": "8 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Toluca Lake",
+      "type": "neighborhood",
+      "slug": "toluca-lake",
+      "description": "Upscale residential neighborhood known for its celebrity residents and lakefront homes.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Toluca Lake residential area",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$2.1M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Warner Bros. Studios Tour",
+      "description": "Explore behind-the-scenes of famous movies and TV shows with guided studio tours.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Warner Bros. studio lot entrance"
+    },
+    {
+      "title": "Downtown Burbank",
+      "description": "Vibrant area with restaurants, shops, and entertainment options.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown Burbank street view"
+    },
+    {
+      "title": "Starlight Bowl",
+      "description": "Outdoor amphitheater hosting concerts and cultural events year-round.",
+      "icon": "🎵",
+      "bgImage": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Starlight Bowl amphitheater at dusk"
+    },
+    {
+      "title": "Wildwood Canyon Park",
+      "description": "Natural open space with hiking trails and scenic views of the Verdugo Mountains.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail and trees in Wildwood Canyon Park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Burbank known for?",
+      "answer": "Burbank is known as the media capital with major studios and a family-friendly community.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Burbank?",
+      "answer": "Burbank offers a mix of single-family homes and condos with competitive prices for its location.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in Burbank?",
+      "answer": "Visit studio tours, enjoy downtown dining, attend concerts at the Starlight Bowl, and hike local parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Burbank?",
+      "answer": "Burbank has easy access to major freeways, public transit, and the Bob Hope Airport for regional travel.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Burbank CA Real Estate & Lifestyle | Studios, Downtown & Family Living",
+    "metaDescription": "Explore Burbank’s entertainment hubs, family-friendly neighborhoods, and real estate options in the San Fernando Valley.",
+    "keywords": "Burbank real estate, Warner Bros studios, Burbank homes for sale, living in Burbank",
+    "ogTitle": "Discover Burbank: Entertainment Capital & Family Community",
+    "ogDescription": "Find your place in Burbank with its media studios, vibrant downtown, and welcoming neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Burbank skyline with mountains",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Burbank",
+      "description": "Explore real estate, neighborhoods, and highlights in Burbank, California.",
+      "url": "https://example.com/locations/burbank",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Burbank skyline with mountains"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Burbank",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Burbank known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank is known as the media capital with major studios and a family-friendly community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Burbank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank offers a mix of single-family homes and condos with competitive prices for its location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in Burbank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit studio tours, enjoy downtown dining, attend concerts at the Starlight Bowl, and hike local parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Burbank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank has easy access to major freeways, public transit, and the Bob Hope Airport for regional travel."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "la-palma",
+  "name": "La Palma",
+  "state": "California",
+  "shortDescription": "A small, quiet city known for its family-friendly neighborhoods and well-maintained parks.",
+  "fullDescription": "La Palma offers a peaceful suburban environment with strong community values, excellent public services, and convenient access to major freeways. Known as the 'City of Trees and Parks,' it boasts a variety of recreational facilities, top-rated schools, and safe neighborhoods. With a focus on family living and community events, La Palma appeals to residents looking for a tranquil yet connected lifestyle in Orange County.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree-lined suburban street in La Palma",
+  "population": "16K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Family-friendly",
+    "Parks & Recreation",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Cypress",
+      "type": "city",
+      "slug": "cypress",
+      "description": "Community with family-friendly neighborhoods, parks, and a strong local economy.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in Cypress",
+      "distance": "2 miles east",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Buena Park",
+      "type": "city",
+      "slug": "buena-park",
+      "description": "Home to entertainment attractions, shopping, and diverse residential areas.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cityscape of Buena Park",
+      "distance": "3 miles north",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "Seal Beach",
+      "type": "city",
+      "slug": "seal-beach",
+      "description": "Coastal city known for its charming Main Street, beaches, and laid-back lifestyle.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beach and pier in Seal Beach",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Rossmoor",
+      "type": "community",
+      "slug": "rossmoor",
+      "description": "A gated community with golf courses and active adult living options.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golf course in Rossmoor",
+      "distance": "1 mile south",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "La Palma Park",
+      "description": "Community park with sports facilities, picnic areas, and playgrounds.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and green space at La Palma Park"
+    },
+    {
+      "title": "Community Events",
+      "description": "Annual city events including summer concerts, holiday festivals, and farmers markets.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community festival with people and decorations"
+    },
+    {
+      "title": "La Palma City Library",
+      "description": "Modern library offering educational programs and resources for all ages.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior of La Palma City Library"
+    },
+    {
+      "title": "Walking and Bike Trails",
+      "description": "Well-maintained trails promoting outdoor exercise and community connection.",
+      "icon": "🚴‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Cyclist on a suburban bike trail"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is La Palma known for?",
+      "answer": "La Palma is known as the 'City of Trees and Parks' for its green spaces, family-friendly atmosphere, and community events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in La Palma?",
+      "answer": "La Palma is served by the highly-rated Centralia and Los Alamitos Unified School Districts.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available in La Palma?",
+      "answer": "Residents enjoy parks, walking and biking trails, community events, and sports facilities.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from La Palma?",
+      "answer": "La Palma offers easy access to the 22 and 405 freeways, with typical commutes to nearby employment centers ranging from 20 to 45 minutes.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Palma CA Real Estate & Community | Family-Friendly Suburban Living",
+    "metaDescription": "Explore La Palma's neighborhoods, parks, schools, and homes in this peaceful Orange County city.",
+    "keywords": "La Palma real estate, Orange County homes, family living La Palma, La Palma parks",
+    "ogTitle": "Discover La Palma: Suburban Charm & Community Spirit",
+    "ogDescription": "Learn about La Palma’s family-friendly neighborhoods, parks, and community events in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Tree-lined suburban street in La Palma",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Palma",
+      "description": "Explore real estate, neighborhoods, and highlights in La Palma, California.",
+      "url": "https://example.com/locations/la-palma",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Tree-lined suburban street in La Palma"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Palma",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is La Palma known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma is known as the 'City of Trees and Parks' for its green spaces, family-friendly atmosphere, and community events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in La Palma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma is served by the highly-rated Centralia and Los Alamitos Unified School Districts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available in La Palma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, walking and biking trails, community events, and sports facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from La Palma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma offers easy access to the 22 and 405 freeways, with typical commutes to nearby employment centers ranging from 20 to 45 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "del-mar",
+  "name": "Del Mar",
+  "state": "California",
+  "shortDescription": "An exclusive coastal enclave known for upscale living, the historic racetrack, and pristine beaches in North County San Diego.",
+  "fullDescription": "Del Mar epitomizes sophisticated coastal living with its famous racetrack, cliffside beaches, and village charm. This affluent community offers breathtaking ocean views, luxury boutiques, and gourmet dining along the Coast Highway. Home to the 'Where the turf meets the surf' summer racing season, Del Mar attracts discerning residents who value privacy, natural beauty, and proximity to both San Diego and Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Del Mar coastline with dramatic cliffs and ocean vista",
+  "population": "4K+",
+  "avgHomePrice": "$3.8M",
+  "tags": [
+    "Luxury",
+    "Beaches",
+    "Equestrian"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Solana Beach",
+      "type": "city",
+      "slug": "solana-beach",
+      "description": "Neighboring coastal town with the Cedros Design District, Fletcher Cove Beach, and vibrant arts scene.",
+      "image": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Solana Beach coastline and Cedros Avenue",
+      "distance": "2 miles north",
+      "avgHomePrice": "$2.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "city",
+      "slug": "encinitas",
+      "description": "Bohemian beach community with legendary surf spots, meditation gardens, and coastal eateries.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas surf culture and beach scene",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Family-friendly coastal city featuring LEGOLAND, expansive beaches, and the Flower Fields.",
+      "image": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Carlsbad coastline at sunset",
+      "distance": "15 miles north",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major metropolitan center with world-class dining, cultural attractions, and urban beaches.",
+      "image": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "San Diego skyline and harbor",
+      "distance": "15 miles south",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Del Mar Racetrack",
+      "description": "Historic thoroughbred racing venue with summer meets and year-round entertainment events.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horse racing at Del Mar Racetrack"
+    },
+    {
+      "title": "Powerhouse Park & Beach",
+      "description": "Iconic oceanfront park with beach access, playground, and stunning sunset views.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Powerhouse Park overlooking Del Mar beach"
+    },
+    {
+      "title": "Del Mar Village",
+      "description": "Upscale downtown with designer boutiques, art galleries, and fine dining establishments.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Charming street in Del Mar Village"
+    },
+    {
+      "title": "Torrey Pines State Reserve",
+      "description": "Protected coastal wilderness with hiking trails, rare pines, and panoramic ocean views.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail in Torrey Pines State Reserve"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Del Mar known for?",
+      "answer": "The Del Mar Racetrack, luxury coastal living, dramatic cliffside beaches, and its exclusive village atmosphere.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Are there public beach access points?",
+      "answer": "Limited public access via pathways like 15th Street and Powerhouse Park. Beachfront is primarily residential.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the school system in Del Mar?",
+      "answer": "Top-rated Del Mar Union School District, with students feeding into highly-ranked San Dieguito High School District.",
+      "category": "Education"
+    },
+    {
+      "question": "What is the average home price?",
+      "answer": "Del Mar consistently ranks among California's most expensive markets, with median prices exceeding $3.5 million.",
+      "category": "Real Estate"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Del Mar CA Real Estate & Lifestyle | Luxury Coastal Living & Racetrack",
+    "metaDescription": "Discover Del Mar's exclusive communities, famous racetrack, luxury real estate, and coastal lifestyle in North County San Diego.",
+    "keywords": "Del Mar real estate, Del Mar Racetrack, luxury homes Del Mar, Del Mar beaches, coastal living",
+    "ogTitle": "Experience Del Mar: Luxury Coastal Living & Equestrian Heritage",
+    "ogDescription": "Explore exclusive living in Del Mar with its racetrack, beaches, and luxury communities.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Del Mar coastline with dramatic cliffs",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Del Mar",
+      "description": "Explore real estate, neighborhoods, and highlights in Del Mar, California.",
+      "url": "https://example.com/locations/del-mar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Del Mar coastline with dramatic cliffs"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Del Mar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Del Mar known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar is famous for its historic racetrack, luxury coastal living, dramatic cliffside beaches, and exclusive village atmosphere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there public beach access points?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Limited public access is available via designated pathways like 15th Street and Powerhouse Park, with most beachfront being residential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the school system in Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar is served by the top-rated Del Mar Union School District, with students advancing to the highly-ranked San Dieguito High School District."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average home price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar consistently ranks among California's most expensive markets, with median home prices exceeding $3.5 million."
+          }
+        }
+      ]
+    }
+  ]
+}

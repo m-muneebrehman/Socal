@@ -1,0 +1,186 @@
+{
+  "slug": "pasadena",
+  "name": "Pasadena",
+  "state": "California",
+  "shortDescription": "A historic city known for its cultural landmarks, beautiful neighborhoods, and vibrant arts scene.",
+  "fullDescription": "Pasadena, located northeast of downtown Los Angeles, is famous for its rich history, stunning architecture, and cultural institutions. The city hosts the annual Rose Parade and Rose Bowl football game, attracting visitors from around the world. With diverse neighborhoods, renowned museums, and a thriving culinary scene, Pasadena offers a perfect blend of urban amenities and suburban charm. Excellent schools and plentiful parks make it a popular choice for families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+  "heroImageAlt": "Historic architecture and tree-lined streets in Pasadena",
+  "population": "141K+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Historic",
+    "Culture",
+    "Arts"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Altadena",
+      "type": "city",
+      "slug": "altadena",
+      "description": "Residential area known for its mountain views, hiking trails, and artistic community.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mountain view in Altadena",
+      "distance": "4 miles north",
+      "avgHomePrice": "$950K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "South Pasadena",
+      "type": "city",
+      "slug": "south-pasadena",
+      "description": "Charming city with tree-lined streets, historic homes, and a quaint downtown area.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown South Pasadena",
+      "distance": "3 miles south",
+      "avgHomePrice": "$1.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Marino",
+      "type": "city",
+      "slug": "san-marino",
+      "description": "Upscale community known for large estates, excellent schools, and the Huntington Library.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Estate in San Marino",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$2.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Sierra Madre",
+      "type": "city",
+      "slug": "sierra-madre",
+      "description": "Small city with a friendly downtown, hiking trails, and historic charm.",
+      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sierra Madre downtown street",
+      "distance": "6 miles northeast",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Rose Bowl Stadium",
+      "description": "Iconic football stadium and event venue hosting games, concerts, and flea markets.",
+      "icon": "🏟️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=800&q=80",
+      "bgImageAlt": "Rose Bowl Stadium during an event"
+    },
+    {
+      "title": "Norton Simon Museum",
+      "description": "World-renowned art museum with an impressive collection of European paintings and sculptures.",
+      "icon": "🖼️",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Art gallery interior"
+    },
+    {
+      "title": "Old Pasadena",
+      "description": "Historic district with shops, restaurants, theaters, and vibrant nightlife.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Old Pasadena street at night"
+    },
+    {
+      "title": "The Huntington Library, Art Museum and Botanical Gardens",
+      "description": "A world-class cultural institution with rare books, art collections, and beautiful gardens.",
+      "icon": "🌺",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Botanical gardens at The Huntington"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Pasadena?",
+      "answer": "Altadena, South Pasadena, San Marino, and Sierra Madre are among the most sought-after neighborhoods.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Pasadena?",
+      "answer": "Pasadena has a competitive real estate market with a mix of historic homes and modern developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in Pasadena?",
+      "answer": "Visit the Rose Bowl, explore the Norton Simon Museum, enjoy dining and shopping in Old Pasadena, and stroll through The Huntington Gardens.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Pasadena?",
+      "answer": "Pasadena is well-connected with access to Metro Gold Line, highways, and easy routes to Downtown LA.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Pasadena CA Real Estate & Lifestyle | Historic Charm & Cultural Attractions",
+    "metaDescription": "Discover Pasadena’s neighborhoods, cultural landmarks, and real estate options in Los Angeles County.",
+    "keywords": "Pasadena real estate, Pasadena culture, living in Pasadena, Pasadena homes for sale",
+    "ogTitle": "Explore Pasadena: Historic and Cultural Living",
+    "ogDescription": "Find your home in Pasadena with its rich history, arts scene, and vibrant neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Historic architecture and tree-lined streets in Pasadena",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pasadena",
+      "description": "Explore real estate, neighborhoods, and highlights in Pasadena, California.",
+      "url": "https://example.com/locations/pasadena",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historic architecture and tree-lined streets in Pasadena"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Pasadena",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Pasadena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Altadena, South Pasadena, San Marino, and Sierra Madre are among the most sought-after neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Pasadena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pasadena has a competitive real estate market with a mix of historic homes and modern developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in Pasadena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the Rose Bowl, explore the Norton Simon Museum, enjoy dining and shopping in Old Pasadena, and stroll through The Huntington Gardens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Pasadena?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pasadena is well-connected with access to Metro Gold Line, highways, and easy routes to Downtown LA."
+          }
+        }
+      ]
+    }
+  ]
+}

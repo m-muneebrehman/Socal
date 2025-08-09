@@ -1,0 +1,186 @@
+{
+  "slug": "lynwood",
+  "name": "Lynwood",
+  "state": "California",
+  "shortDescription": "A diverse and vibrant city in Southeast Los Angeles known for its community spirit and convenient location.",
+  "fullDescription": "Lynwood is a densely populated city in Los Angeles County offering a strong sense of community and cultural diversity. Located near major freeways and public transit, Lynwood provides easy access to Downtown Los Angeles and surrounding neighborhoods. The city features a mix of residential neighborhoods, local businesses, parks, and community centers. Lynwood continues to grow with new housing developments and revitalization efforts, making it a practical choice for families and professionals seeking affordability and convenience in the South Bay region.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of Lynwood cityscape with palm trees",
+  "population": "70K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Community",
+    "Diversity",
+    "Convenience"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Compton",
+      "type": "city",
+      "slug": "compton",
+      "description": "Neighboring city known for its rich cultural history and growing arts scene.",
+      "image": "https://images.unsplash.com/photo-1595526114034-b59a92cba353?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Compton with street art and buildings",
+      "distance": "3 miles south",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "South Gate",
+      "type": "city",
+      "slug": "south-gate",
+      "description": "Residential city with parks, schools, and a diverse community.",
+      "image": "https://images.unsplash.com/photo-1526483360341-3bcb32f0326d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood in South Gate",
+      "distance": "2 miles west",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "city",
+      "slug": "bellflower",
+      "description": "A family-friendly city with parks, shopping, and community events.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Bellflower street scene",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "city",
+      "slug": "downey",
+      "description": "City known for its historical sites, parks, and vibrant downtown area.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Downey street view",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Lynwood Park",
+      "description": "A popular community park offering sports fields, playgrounds, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Families enjoying a sunny day in the park"
+    },
+    {
+      "title": "Lynwood Library",
+      "description": "Community library with extensive resources, events, and educational programs.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Modern library building with glass windows"
+    },
+    {
+      "title": "Lynwood Regional Park",
+      "description": "Large park with walking trails, sports courts, and a community center.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Walking trail through green park"
+    },
+    {
+      "title": "Lynwood City Hall",
+      "description": "Hub of local government with community services and events.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "City hall building at dusk"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Lynwood known for?",
+      "answer": "Lynwood is known for its strong community spirit, cultural diversity, and convenient location near Los Angeles.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Lynwood?",
+      "answer": "The real estate market in Lynwood offers affordable options with a mix of single-family homes and condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational activities are available in Lynwood?",
+      "answer": "Residents enjoy parks, community events, and nearby cultural attractions throughout the region.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Lynwood well connected for commuting?",
+      "answer": "Lynwood provides easy access to major freeways and public transportation to Downtown LA and surrounding areas.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lynwood CA Real Estate & Lifestyle | Community & Convenience",
+    "metaDescription": "Explore Lynwood's neighborhoods, parks, and real estate options in Southeast Los Angeles County.",
+    "keywords": "Lynwood real estate, Lynwood CA, Southeast LA living, affordable homes Lynwood",
+    "ogTitle": "Discover Lynwood: Community Spirit & Convenient Living",
+    "ogDescription": "Find your home in Lynwood with its cultural diversity, parks, and central location.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset view of Lynwood cityscape with palm trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lynwood",
+      "description": "Explore real estate, neighborhoods, and highlights in Lynwood, California.",
+      "url": "https://example.com/locations/lynwood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of Lynwood cityscape with palm trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lynwood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Lynwood known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynwood is known for its strong community spirit, cultural diversity, and convenient location near Los Angeles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Lynwood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market in Lynwood offers affordable options with a mix of single-family homes and condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational activities are available in Lynwood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, community events, and nearby cultural attractions throughout the region."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lynwood well connected for commuting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynwood provides easy access to major freeways and public transportation to Downtown LA and surrounding areas."
+          }
+        }
+      ]
+    }
+  ]
+}

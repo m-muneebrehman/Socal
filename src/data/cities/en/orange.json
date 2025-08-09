@@ -1,0 +1,164 @@
+{
+  "slug": "orange",
+  "name": "Orange",
+  "state": "California",
+  "shortDescription": "Historic city known for its charming Old Town district, tree-lined streets, and strong community vibe.",
+  "fullDescription": "Orange is a vibrant city blending historic charm with modern amenities. Famous for its preserved Old Towne district featuring antique shops, cafes, and the annual Orange International Street Fair, the city offers a welcoming community atmosphere. With quality schools, parks, and easy access to Orange County’s major freeways, Orange appeals to families and professionals alike seeking a mix of tradition and convenience.",
+  "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Historic Old Towne Orange with vintage buildings and trees",
+  "population": "140K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Historic",
+    "Family-friendly",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "community",
+      "slug": "anaheim",
+      "description": "Suburban area with spacious homes, parks, and highly rated schools.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Disneyland entrance in Anaheim",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "neighborhood",
+      "slug": "santa-ana",
+      "description": "The county seat with rich cultural heritage, bustling downtown, and diverse communities",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Santa Ana skyline",
+      "distance": "6 miles south",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Old Towne Orange Historic District",
+      "description": "Preserved area with antique shops, restaurants, and annual street fairs.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Historic buildings and street in Old Towne Orange"
+    },
+    {
+      "title": "Irvine Regional Park",
+      "description": "Large park with hiking trails, picnic areas, and a small zoo.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green landscape at Irvine Regional Park"
+    },
+    {
+      "title": "Orange Plaza",
+      "description": "Town square hosting community events, farmers markets, and live music.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community event at Orange Plaza"
+    },
+    {
+      "title": "Community Events",
+      "description": "Popular events include the Orange International Street Fair and holiday parades.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Street fair with crowds and booths"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Orange known for?",
+      "answer": "Orange is known for its historic Old Towne district, community events, and family-friendly neighborhoods.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Orange?",
+      "answer": "Orange Unified School District offers a range of highly rated public schools serving the city.",
+      "category": "Education"
+    },
+    {
+      "question": "What parks and recreation are available?",
+      "answer": "Irvine Regional Park provides hiking, picnicking, and a small zoo, plus various community parks throughout the city.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from Orange?",
+      "answer": "Orange is well-connected by the 55 and 22 freeways, with average commutes of 30-45 minutes to nearby job centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Orange CA Real Estate & Lifestyle | Historic Charm & Family Living",
+    "metaDescription": "Discover Orange’s historic Old Towne, family neighborhoods, parks, and community events in Orange County, California.",
+    "keywords": "Orange CA real estate, Old Towne Orange, Orange County homes, family neighborhoods Orange",
+    "ogTitle": "Explore Orange: Historic Charm & Family Community",
+    "ogDescription": "Experience the unique blend of history and community in Orange, CA, with quality schools and parks.",
+    "ogImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Historic Old Towne Orange with vintage buildings and trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Orange",
+      "description": "Explore real estate, neighborhoods, and highlights in Orange, California.",
+      "url": "https://example.com/locations/orange",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historic Old Towne Orange with vintage buildings and trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Orange",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Orange known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange is known for its historic Old Towne district, community events, and family-friendly neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange Unified School District offers a range of highly rated public schools serving the city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What parks and recreation are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Irvine Regional Park provides hiking, picnicking, and a small zoo, plus various community parks throughout the city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange is well-connected by the 55 and 22 freeways, with average commutes of 30-45 minutes to nearby job centers."
+          }
+        }
+      ]
+    }
+  ]
+}

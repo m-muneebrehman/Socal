@@ -1,0 +1,186 @@
+{
+  "slug": "irvine",
+  "name": "Irvine",
+  "state": "California",
+  "shortDescription": "Master-planned city known for excellent schools, diverse communities, and extensive parks.",
+  "fullDescription": "Irvine is a thriving, master-planned city in Orange County famous for its top-ranked schools, safety, and diverse neighborhoods. It offers abundant parks, trails, and recreational facilities alongside thriving business districts and tech hubs. With a strong emphasis on community and sustainability, Irvine appeals to families and professionals seeking a high quality of life within Southern California.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Modern buildings and parks in Irvine, California",
+  "population": "310K+",
+  "avgHomePrice": "$1.0M",
+  "tags": [
+    "Master-planned",
+    "Family-friendly",
+    "Tech hub"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Tustin",
+      "type": "city",
+      "slug": "tustin",
+      "description": "Historic city known for its charming Old Town, shopping, and dining.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Old Town Tustin with shops and cafes",
+      "distance": "5 miles north",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Newport Beach",
+      "type": "city",
+      "slug": "newport-beach",
+      "description": "Upscale coastal city with beaches, luxury homes, and boating.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Boats in Newport Beach harbor",
+      "distance": "8 miles southwest",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "city",
+      "slug": "lake-forest",
+      "description": "Family-oriented city with parks, lakes, and strong schools.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parks and homes in Lake Forest",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Costa Mesa",
+      "type": "city",
+      "slug": "costa-mesa",
+      "description": "Urban city known for arts, shopping, and dining.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Costa Mesa",
+      "distance": "10 miles southwest",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "University of California, Irvine",
+      "description": "Top research university contributing to the city’s innovation and culture.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "UC Irvine campus buildings"
+    },
+    {
+      "title": "Irvine Spectrum Center",
+      "description": "Popular outdoor shopping, dining, and entertainment complex.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Irvine Spectrum Center lit up at night"
+    },
+    {
+      "title": "Great Parks & Trails",
+      "description": "Over 16,000 acres of parks, greenbelts, and bike trails for outdoor enthusiasts.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bike trail through a green park"
+    },
+    {
+      "title": "Tech and Business Hub",
+      "description": "Home to many tech companies and business headquarters fostering innovation.",
+      "icon": "💼",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Modern office buildings in Irvine"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Irvine a great place to live?",
+      "answer": "Irvine is known for its safety, excellent schools, parks, and strong job market, making it ideal for families and professionals.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Irvine?",
+      "answer": "Irvine Unified School District is highly rated, with top-ranked public schools and access to UC Irvine.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular in Irvine?",
+      "answer": "Residents enjoy biking, hiking, and outdoor sports in the city’s extensive parks and green spaces.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to Los Angeles?",
+      "answer": "Irvine is connected to Los Angeles via the I-5 freeway, with commute times typically ranging from 45 minutes to 1.5 hours depending on traffic.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Irvine CA Real Estate & Lifestyle | Family-Friendly Master-Planned City",
+    "metaDescription": "Explore Irvine’s top neighborhoods, schools, parks, and business hubs in Orange County’s premier master-planned community.",
+    "keywords": "Irvine real estate, Irvine schools, Orange County living, Irvine parks and recreation",
+    "ogTitle": "Discover Irvine: Family Living & Innovation Hub in Orange County",
+    "ogDescription": "Find out why Irvine is one of the best places to live with excellent schools, parks, and a thriving economy.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Modern buildings and parks in Irvine",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Irvine",
+      "description": "Explore real estate, neighborhoods, and highlights in Irvine, California.",
+      "url": "https://example.com/locations/irvine",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Modern buildings and parks in Irvine"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Irvine",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Irvine a great place to live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Irvine is known for its safety, excellent schools, parks, and strong job market, making it ideal for families and professionals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Irvine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Irvine Unified School District is highly rated, with top-ranked public schools and access to UC Irvine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Irvine?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy biking, hiking, and outdoor sports in the city’s extensive parks and green spaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Irvine is connected to Los Angeles via the I-5 freeway, with commute times typically ranging from 45 minutes to 1.5 hours depending on traffic."
+          }
+        }
+      ]
+    }
+  ]
+}

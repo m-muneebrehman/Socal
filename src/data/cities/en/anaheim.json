@@ -1,0 +1,186 @@
+{
+  "slug": "anaheim",
+  "name": "Anaheim",
+  "state": "California",
+  "shortDescription": "A vibrant city known for its world-famous theme parks, sports venues, and thriving entertainment and hospitality industry.",
+  "fullDescription": "Anaheim is the heart of Orange County’s entertainment and tourism scene, home to Disneyland Resort, Angel Stadium, and the Honda Center. The city blends family fun with a strong economy, offering diverse neighborhoods, cultural events, and convenient access to beaches and major freeways. Anaheim appeals to residents and visitors alike with its mix of urban energy and Southern California charm.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Anaheim skyline with Disneyland fireworks",
+  "population": "350K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Entertainment",
+    "Family-friendly",
+    "Sports"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "city",
+      "slug": "fullerton",
+      "description": "College town with historic downtown, arts scene, and California State University, Fullerton.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic downtown Fullerton with vibrant street life",
+      "distance": "8 miles north",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "city",
+      "slug": "garden-grove",
+      "description": "Diverse community known for the annual Strawberry Festival and rich cultural heritage.",
+      "image": "https://images.unsplash.com/photo-1565061823937-3f88a60e12c0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Garden Grove with cultural festival",
+      "distance": "5 miles west",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Orange",
+      "type": "city",
+      "slug": "orange",
+      "description": "Historic Old Town with antique shops, restaurants, and community events.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic Old Town Orange plaza",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$780K",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "city",
+      "slug": "placentia",
+      "description": "Small suburban city with parks, family-oriented events, and a quaint downtown.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quiet suburban street in Placentia",
+      "distance": "6 miles northeast",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Disneyland Resort",
+      "description": "World-famous theme park attracting millions of visitors yearly with rides, entertainment, and events.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Disneyland castle lit up at night"
+    },
+    {
+      "title": "Angel Stadium",
+      "description": "Home to the Los Angeles Angels MLB team and host of concerts and major events.",
+      "icon": "⚾",
+      "bgImage": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Angel Stadium filled with fans during a game"
+    },
+    {
+      "title": "Honda Center",
+      "description": "Indoor arena hosting NHL games, concerts, and family shows.",
+      "icon": "🏒",
+      "bgImage": "https://images.unsplash.com/photo-1543965175-4a412e5c3334?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Honda Center arena exterior at dusk"
+    },
+    {
+      "title": "Anaheim Packing District",
+      "description": "Trendy food hall and farmers market located in a historic citrus packing house.",
+      "icon": "🍽️",
+      "bgImage": "https://images.unsplash.com/photo-1510626176961-4b12de17dd4b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Food stalls inside Anaheim Packing District"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Anaheim a popular tourist destination?",
+      "answer": "Disneyland Resort, sports venues, and numerous entertainment options draw millions each year.",
+      "category": "Tourism"
+    },
+    {
+      "question": "How family-friendly is Anaheim?",
+      "answer": "With theme parks, parks, and community events, Anaheim offers many activities suitable for families.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "What is the housing market like in Anaheim?",
+      "answer": "Median home prices are around $750K, with a mix of historic neighborhoods and new developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How accessible is Anaheim to beaches and freeways?",
+      "answer": "Anaheim is approximately 15-20 miles from coastal beaches and is well-connected via major freeways like the 5 and 91.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Anaheim CA Real Estate & Lifestyle | Disneyland & Entertainment Hub",
+    "metaDescription": "Explore Anaheim’s neighborhoods, attractions, sports venues, and housing market in Orange County.",
+    "keywords": "Anaheim real estate, Disneyland, Anaheim homes, Orange County attractions",
+    "ogTitle": "Discover Anaheim: Family Fun & Thriving Entertainment",
+    "ogDescription": "Experience world-class theme parks, sports, and vibrant neighborhoods in Anaheim, California.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Anaheim city skyline at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Anaheim",
+      "description": "Explore real estate, neighborhoods, and highlights in Anaheim, California.",
+      "url": "https://example.com/locations/anaheim",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Anaheim city skyline with Disneyland fireworks"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Anaheim",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Anaheim a popular tourist destination?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disneyland Resort, sports venues, and numerous entertainment options draw millions each year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How family-friendly is Anaheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With theme parks, parks, and community events, Anaheim offers many activities suitable for families."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the housing market like in Anaheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Median home prices are around $750K, with a mix of historic neighborhoods and new developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accessible is Anaheim to beaches and freeways?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anaheim is approximately 15-20 miles from coastal beaches and is well-connected via major freeways like the 5 and 91."
+          }
+        }
+      ]
+    }
+  ]
+}

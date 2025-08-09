@@ -1,0 +1,186 @@
+{
+  "slug": "garden-grove",
+  "name": "Garden Grove",
+  "state": "California",
+  "shortDescription": "A diverse city with rich cultural heritage, family-friendly parks, and vibrant community events.",
+  "fullDescription": "Garden Grove is a dynamic Orange County city known for its rich Vietnamese-American community, bustling shopping districts, and family-oriented neighborhoods. The city features numerous parks, excellent schools, and hosts the annual Strawberry Festival celebrating local culture and agriculture. With convenient freeway access, Garden Grove provides an ideal balance of suburban comfort and urban amenities.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Lush park and cityscape in Garden Grove",
+  "population": "175K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Diverse",
+    "Family-friendly",
+    "Cultural"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Home to Disneyland Resort and a major entertainment and convention hub.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Disneyland entrance in Anaheim",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Westminster",
+      "type": "city",
+      "slug": "westminster",
+      "description": "Known for its Little Saigon district, vibrant Vietnamese culture, and diverse cuisine.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Bustling street in Westminster's Little Saigon",
+      "distance": "3 miles west",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "city",
+      "slug": "fountain-valley",
+      "description": "Suburban city known for parks, golf courses, and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and homes in Fountain Valley",
+      "distance": "4 miles south",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "city",
+      "slug": "santa-ana",
+      "description": "County seat known for its arts district, historic buildings, and cultural festivals.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Santa Ana at dusk",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Strawberry Festival",
+      "description": "Annual event celebrating Garden Grove’s agricultural heritage with food, music, and rides.",
+      "icon": "🍓",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowd enjoying the Strawberry Festival"
+    },
+    {
+      "title": "Garden Grove Park",
+      "description": "Spacious park with picnic areas, playgrounds, and walking trails ideal for families.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green open spaces and playground at Garden Grove Park"
+    },
+    {
+      "title": "Historic District",
+      "description": "Area with preserved buildings, museums, and local shops reflecting Garden Grove’s past.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historic buildings in Garden Grove"
+    },
+    {
+      "title": "Cultural Diversity",
+      "description": "Rich multicultural community celebrated through cuisine, festivals, and public art.",
+      "icon": "🌍",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Multicultural community event"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Garden Grove known for?",
+      "answer": "Garden Grove is known for its cultural diversity, the annual Strawberry Festival, and family-friendly amenities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Garden Grove?",
+      "answer": "The city is served by the Garden Grove Unified School District, offering several highly-rated public schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What parks and recreation options are available?",
+      "answer": "Garden Grove offers multiple parks, sports facilities, walking trails, and community centers for residents.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to nearby cities?",
+      "answer": "Garden Grove provides convenient access to major freeways like the 22 and 405, facilitating easy commutes across Orange County.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Garden Grove CA Real Estate & Lifestyle | Diverse Community & Family Living",
+    "metaDescription": "Explore Garden Grove’s neighborhoods, parks, cultural events, schools, and real estate options in Orange County.",
+    "keywords": "Garden Grove real estate, Strawberry Festival, family-friendly Orange County, Garden Grove schools",
+    "ogTitle": "Discover Garden Grove: Cultural Diversity & Family-Friendly Community",
+    "ogDescription": "Experience the vibrant lifestyle, festivals, and neighborhoods of Garden Grove, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Park and cityscape in Garden Grove",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Garden Grove",
+      "description": "Explore real estate, neighborhoods, and highlights in Garden Grove, California.",
+      "url": "https://example.com/locations/garden-grove",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Lush park and cityscape in Garden Grove"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Garden Grove",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Garden Grove known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove is known for its cultural diversity, the annual Strawberry Festival, and family-friendly amenities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Garden Grove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Garden Grove Unified School District, offering several highly-rated public schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What parks and recreation options are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove offers multiple parks, sports facilities, walking trails, and community centers for residents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to nearby cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove provides convenient access to major freeways like the 22 and 405, facilitating easy commutes across Orange County."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "calabasas",
+  "name": "Calabasas",
+  "state": "California",
+  "shortDescription": "An upscale city known for its scenic beauty, gated communities, and celebrity residents.",
+  "fullDescription": "Calabasas is a prestigious city located in the hills west of the San Fernando Valley. Known for its affluent neighborhoods, beautiful landscapes, and a strong sense of community, it offers a peaceful suburban lifestyle with easy access to Los Angeles. Calabasas boasts excellent schools, luxury shopping centers like The Commons, and ample outdoor activities such as hiking in nearby parks and nature preserves. It’s a favorite spot for families and celebrities seeking privacy and quality living.",
+  "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "Scenic hillside view in Calabasas with trees and homes",
+  "population": "24K+",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Affluent",
+    "Gated communities",
+    "Outdoor lifestyle"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Agoura Hills",
+      "type": "city",
+      "slug": "agoura-hills",
+      "description": "Neighboring city offering a mix of suburban comfort and outdoor adventure.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hills and homes in Agoura Hills",
+      "distance": "5 miles east",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westlake Village",
+      "type": "city",
+      "slug": "westlake-village",
+      "description": "Community known for its lake, parks, and upscale living.",
+      "image": "https://images.unsplash.com/photo-1526481280690-3a7f8a3da1a1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lake view in Westlake Village",
+      "distance": "7 miles west",
+      "avgHomePrice": "$1.9M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Hidden Hills",
+      "type": "city",
+      "slug": "hidden-hills",
+      "description": "Exclusive gated community known for privacy and luxury estates.",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gated entrance in Hidden Hills",
+      "distance": "4 miles south",
+      "avgHomePrice": "$4.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "West Hills",
+      "type": "city",
+      "slug": "west-hills",
+      "description": "Residential area with parks and easy access to the city.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban homes in West Hills",
+      "distance": "8 miles northeast",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Commons at Calabasas",
+      "description": "Upscale shopping and dining destination in the heart of the city.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping plaza at The Commons"
+    },
+    {
+      "title": "Calabasas Scenic Trails",
+      "description": "Numerous hiking and biking trails with stunning views of the Santa Monica Mountains.",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail winding through Calabasas hills"
+    },
+    {
+      "title": "Old Town Calabasas",
+      "description": "Charming area with historic buildings, shops, and local events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historic buildings in Old Town Calabasas"
+    },
+    {
+      "title": "Calabasas Tennis & Swim Center",
+      "description": "Community center offering sports, fitness, and recreational programs.",
+      "icon": "🎾",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tennis courts and pool at Calabasas sports center"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Calabasas known for?",
+      "answer": "Calabasas is known for its upscale lifestyle, gated communities, and scenic outdoor spaces.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Calabasas?",
+      "answer": "The real estate market features luxury estates, gated communities, and high demand for privacy.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular outdoor activities in Calabasas?",
+      "answer": "Hiking, biking, and exploring scenic trails in the Santa Monica Mountains are popular activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Calabasas?",
+      "answer": "Calabasas offers access to the 101 freeway and nearby public transit options for commuting to LA and beyond.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Calabasas CA Real Estate & Lifestyle | Luxury Living & Scenic Outdoors",
+    "metaDescription": "Explore Calabasas’ upscale neighborhoods, shopping, outdoor activities, and real estate opportunities in the Santa Monica Mountains area.",
+    "keywords": "Calabasas real estate, Calabasas luxury homes, living in Calabasas, Calabasas shopping",
+    "ogTitle": "Discover Calabasas: Luxury Living & Scenic Outdoor Lifestyle",
+    "ogDescription": "Find your perfect home in Calabasas with its exclusive communities, trails, and vibrant local culture.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic hillside view in Calabasas with trees and homes",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Calabasas",
+      "description": "Explore real estate, neighborhoods, and highlights in Calabasas, California.",
+      "url": "https://example.com/locations/calabasas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic hillside view in Calabasas with trees and homes"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Calabasas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Calabasas known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas is known for its upscale lifestyle, gated communities, and scenic outdoor spaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market features luxury estates, gated communities, and high demand for privacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular outdoor activities in Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking, biking, and exploring scenic trails in the Santa Monica Mountains are popular activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas offers access to the 101 freeway and nearby public transit options for commuting to LA and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "la-mirada",
+  "name": "La Mirada",
+  "state": "California",
+  "shortDescription": "A family-friendly suburb known for parks, good schools, and a welcoming community atmosphere.",
+  "fullDescription": "La Mirada is a residential city in southeastern Los Angeles County offering a suburban lifestyle with plenty of parks, quality schools, and community amenities. Known for its quiet neighborhoods, family-oriented events, and convenient location near major freeways, La Mirada provides easy access to Los Angeles, Orange County, and surrounding areas. The city boasts well-maintained public spaces, a vibrant civic center, and a strong sense of community making it an ideal place for families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Park area with trees and walking paths in La Mirada",
+  "population": "49K+",
+  "avgHomePrice": "$730K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Good schools"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Norwalk",
+      "type": "city",
+      "slug": "norwalk",
+      "description": "Neighboring city known for its parks, shopping centers, and community events.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Community park in Norwalk",
+      "distance": "3 miles west",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Whittier",
+      "type": "city",
+      "slug": "whittier",
+      "description": "Historic city with vibrant downtown, cultural sites, and residential neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Whittier street scene",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Fe Springs",
+      "type": "city",
+      "slug": "santa-fe-springs",
+      "description": "Industrial and residential community with parks and local businesses.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park area in Santa Fe Springs",
+      "distance": "4 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Habra",
+      "type": "city",
+      "slug": "la-habra",
+      "description": "City offering suburban neighborhoods, parks, and community activities.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in La Habra",
+      "distance": "7 miles east",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "La Mirada Regional Park",
+      "description": "A large park with walking trails, picnic areas, and a lake for fishing and boating.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lake and picnic area in La Mirada Regional Park"
+    },
+    {
+      "title": "La Mirada Theatre for the Performing Arts",
+      "description": "A local venue hosting concerts, theater productions, and community events.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Theatre stage with audience"
+    },
+    {
+      "title": "Family-Friendly Community Events",
+      "description": "Year-round events and festivals promoting community engagement and fun for all ages.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community festival with people enjoying outdoor activities"
+    },
+    {
+      "title": "Quality Schools",
+      "description": "Strong public and private schools serving La Mirada and neighboring communities.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Students in school classroom"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes La Mirada a good place to live?",
+      "answer": "La Mirada offers a family-friendly environment with parks, quality schools, and a strong community feel.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in La Mirada?",
+      "answer": "The market is stable with demand for single-family homes in suburban neighborhoods.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities are popular in La Mirada?",
+      "answer": "Enjoying the regional park, attending theatre performances, and participating in community events are popular.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is commuting from La Mirada convenient?",
+      "answer": "Yes, with easy access to major freeways and nearby cities like Norwalk and Whittier, commuting is straightforward.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Mirada CA Real Estate & Lifestyle | Family-Friendly Parks & Community",
+    "metaDescription": "Discover La Mirada’s parks, schools, community events, and real estate opportunities in Los Angeles County.",
+    "keywords": "La Mirada real estate, La Mirada parks, living in La Mirada, La Mirada homes for sale",
+    "ogTitle": "Explore La Mirada: Family-Friendly Living & Parks",
+    "ogDescription": "Find your home in La Mirada with its welcoming community, parks, and quality schools.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Park with walking trails in La Mirada",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Mirada",
+      "description": "Explore real estate, neighborhoods, and highlights in La Mirada, California.",
+      "url": "https://example.com/locations/la-mirada",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Park with walking trails in La Mirada"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Mirada",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes La Mirada a good place to live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Mirada offers a family-friendly environment with parks, quality schools, and a strong community feel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in La Mirada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is stable with demand for single-family homes in suburban neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities are popular in La Mirada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoying the regional park, attending theatre performances, and participating in community events are popular."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is commuting from La Mirada convenient?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with easy access to major freeways and nearby cities like Norwalk and Whittier, commuting is straightforward."
+          }
+        }
+      ]
+    }
+  ]
+}

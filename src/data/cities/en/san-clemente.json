@@ -1,0 +1,175 @@
+{
+  "slug": "san-clemente",
+  "name": "San Clemente",
+  "state": "California",
+  "shortDescription": "A coastal city known for its Spanish-style architecture, beautiful beaches, and vibrant downtown.",
+  "fullDescription": "San Clemente offers a charming blend of coastal living and historic architecture. Famous for its stunning ocean views, surfing spots, and Mediterranean-inspired buildings, this city is a favorite for families and outdoor enthusiasts alike. With a lively downtown featuring boutique shops, restaurants, and cultural events, San Clemente combines small-town charm with modern amenities. Easy access to major highways makes it a convenient location for commuters.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunset view of San Clemente coastline and pier",
+  "population": "65K+",
+  "avgHomePrice": "$1.1M",
+  "tags": [
+    "Coastal",
+    "Historic",
+    "Outdoor"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Talega",
+      "type": "community",
+      "slug": "talega",
+      "description": "Master-planned community with golf courses, parks, and family-friendly amenities.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golf course and homes in Talega",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "North Beach",
+      "type": "neighborhood",
+      "slug": "north-beach",
+      "description": "Popular coastal neighborhood with beach access, surfing spots, and restaurants.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beachfront and surfboards at North Beach",
+      "distance": "2 miles west",
+      "avgHomePrice": "$1.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mariner's Mile",
+      "type": "commercial",
+      "slug": "mariners-mile",
+      "description": "Waterfront commercial area with shops, dining, and marina access.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Marina and waterfront dining at Mariner's Mile",
+      "distance": "3 miles south",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "San Clemente Pier",
+      "description": "Iconic pier offering fishing, dining, and panoramic ocean views.",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sunset over San Clemente Pier"
+    },
+    {
+      "title": "Casa Romantica",
+      "description": "Historic Spanish-style estate and cultural arts center overlooking the ocean.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Casa Romantica estate with ocean view"
+    },
+    {
+      "title": "Beaches and Surfing",
+      "description": "World-class surfing spots and sandy beaches ideal for sunbathing and recreation.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfers riding waves at San Clemente beach"
+    },
+    {
+      "title": "Downtown San Clemente",
+      "description": "Charming area with boutique shops, restaurants, and regular community events.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown San Clemente street with shops and cafes"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Clemente known for?",
+      "answer": "San Clemente is known for its beautiful beaches, Spanish-style architecture, and the iconic San Clemente Pier.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in San Clemente?",
+      "answer": "The city is served by the Capistrano Unified School District, which includes several highly rated schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular in San Clemente?",
+      "answer": "Residents and visitors enjoy surfing, hiking coastal trails, fishing, and beach activities.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute from San Clemente?",
+      "answer": "San Clemente offers easy access to the I-5 freeway, with commute times typically ranging from 30 to 60 minutes to major Orange County and Los Angeles job centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Clemente CA Real Estate & Lifestyle | Coastal Living & Historic Charm",
+    "metaDescription": "Explore San Clemente’s neighborhoods, beaches, schools, and cultural attractions in Orange County, California.",
+    "keywords": "San Clemente real estate, coastal living San Clemente, Orange County homes, surfing San Clemente",
+    "ogTitle": "Discover San Clemente: Coastal Charm & Outdoor Adventure",
+    "ogDescription": "Experience the scenic beaches and vibrant community life of San Clemente, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunset view of San Clemente coastline and pier",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Clemente",
+      "description": "Explore real estate, neighborhoods, and highlights in San Clemente, California.",
+      "url": "https://example.com/locations/san-clemente",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunset view of San Clemente coastline and pier"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Clemente",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Clemente known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Clemente is known for its beautiful beaches, Spanish-style architecture, and the iconic San Clemente Pier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in San Clemente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Capistrano Unified School District, which includes several highly rated schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in San Clemente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents and visitors enjoy surfing, hiking coastal trails, fishing, and beach activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from San Clemente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Clemente offers easy access to the I-5 freeway, with commute times typically ranging from 30 to 60 minutes to major Orange County and Los Angeles job centers."
+          }
+        }
+      ]
+    }
+  ]
+}

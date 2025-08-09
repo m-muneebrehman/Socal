@@ -1,0 +1,186 @@
+{
+  "slug": "san-gabriel",
+  "name": "San Gabriel",
+  "state": "California",
+  "shortDescription": "A historic city in the San Gabriel Valley known for its rich cultural heritage and the famous San Gabriel Mission.",
+  "fullDescription": "San Gabriel is celebrated for its blend of cultural history and suburban charm. The city is home to the historic San Gabriel Mission, beautiful parks, and a thriving Asian dining scene. With a walkable downtown area and family-friendly neighborhoods, San Gabriel attracts residents who value community, good schools, and convenient access to nearby Los Angeles and Pasadena. Its diverse population contributes to a vibrant cultural atmosphere and numerous local festivals.",
+  "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Historic San Gabriel Mission surrounded by greenery",
+  "population": "41K+",
+  "avgHomePrice": "$820K",
+  "tags": [
+    "Historic",
+    "Cultural heritage",
+    "Dining"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Alhambra",
+      "type": "city",
+      "slug": "alhambra",
+      "description": "City known for its cultural diversity and bustling dining scene.",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street view in Alhambra with palm trees and storefronts",
+      "distance": "2 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Rosemead",
+      "type": "city",
+      "slug": "rosemead",
+      "description": "A family-oriented city with parks, schools, and a growing Asian-American community.",
+      "image": "https://images.unsplash.com/photo-1581561074015-2db6f5cdedbd?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Rosemead with trees",
+      "distance": "3 miles south",
+      "avgHomePrice": "$780K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Temple City",
+      "type": "city",
+      "slug": "temple-city",
+      "description": "Suburban city with a focus on family-friendly amenities and community events.",
+      "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbe9?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined street in Temple City",
+      "distance": "4 miles east",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "West Covina",
+      "type": "city",
+      "slug": "west-covina",
+      "description": "City with shopping centers, parks, and diverse neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1539698488997-0bb6c912d0b1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "West Covina commercial area with shops",
+      "distance": "6 miles southeast",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "San Gabriel Mission",
+      "description": "Historic Spanish mission founded in 1771 with beautiful gardens and a museum.",
+      "icon": "⛪",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Historic San Gabriel Mission building"
+    },
+    {
+      "title": "San Gabriel Park",
+      "description": "Community park featuring walking trails, picnic areas, and sports facilities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with trees and benches"
+    },
+    {
+      "title": "Asian Dining District",
+      "description": "A vibrant area known for authentic Chinese, Vietnamese, and other Asian cuisines.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bowl of Asian noodle soup"
+    },
+    {
+      "title": "Downtown San Gabriel",
+      "description": "Walkable area with shops, cafes, and community events throughout the year.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown shopping street with people walking"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Gabriel known for?",
+      "answer": "San Gabriel is known for its historic mission, cultural diversity, and excellent dining options.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in San Gabriel?",
+      "answer": "The real estate market is competitive with a mix of historic homes and newer developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in San Gabriel?",
+      "answer": "Visit the San Gabriel Mission, dine in the Asian Dining District, and explore local parks and shops.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from San Gabriel?",
+      "answer": "San Gabriel has easy access to the I-10 freeway and nearby public transportation options for commuting to Los Angeles and Pasadena.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Gabriel CA Real Estate & Lifestyle | Historic Mission & Dining",
+    "metaDescription": "Discover San Gabriel's neighborhoods, historic mission, cultural attractions, and real estate in the San Gabriel Valley.",
+    "keywords": "San Gabriel real estate, San Gabriel Mission, living in San Gabriel, San Gabriel homes for sale",
+    "ogTitle": "Explore San Gabriel: Culture, History & Neighborhoods",
+    "ogDescription": "Find your home in San Gabriel with its rich history, dining, and welcoming community.",
+    "ogImage": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Historic San Gabriel Mission surrounded by greenery",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Gabriel",
+      "description": "Explore real estate, neighborhoods, and highlights in San Gabriel, California.",
+      "url": "https://example.com/locations/san-gabriel",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historic San Gabriel Mission surrounded by greenery"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Gabriel",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Gabriel known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel is known for its historic mission, cultural diversity, and excellent dining options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market is competitive with a mix of historic homes and newer developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the San Gabriel Mission, dine in the Asian Dining District, and explore local parks and shops."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel has easy access to the I-10 freeway and nearby public transportation options for commuting to Los Angeles and Pasadena."
+          }
+        }
+      ]
+    }
+  ]
+}

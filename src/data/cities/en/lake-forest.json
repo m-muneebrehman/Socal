@@ -1,0 +1,186 @@
+{
+  "slug": "lake-forest",
+  "name": "Lake Forest",
+  "state": "California",
+  "shortDescription": "A master-planned community known for its scenic lakes, parks, and family-friendly atmosphere.",
+  "fullDescription": "Lake Forest is a vibrant city in Orange County featuring beautiful man-made lakes, numerous parks, and well-maintained neighborhoods. The city offers a welcoming environment for families, with quality schools, shopping centers, and recreational opportunities. Its strategic location provides convenient access to nearby beaches, freeways, and employment hubs, making it an ideal place to live and work.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic lake and park area in Lake Forest",
+  "population": "85K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Family-friendly",
+    "Lakes & Parks",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Foothill Ranch",
+      "type": "neighborhood",
+      "slug": "foothill-ranch",
+      "description": "Planned community with parks, schools, and shopping nearby.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood street in Foothill Ranch",
+      "distance": "3 miles northeast",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Portola Hills",
+      "type": "neighborhood",
+      "slug": "portola-hills",
+      "description": "Hillside community with scenic views and hiking trails.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hillside homes in Portola Hills",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Nearby master-planned community with lakes and parks.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lake in Mission Viejo",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Rancho Santa Margarita",
+      "type": "city",
+      "slug": "rancho-santa-margarita",
+      "description": "Family-oriented community with open spaces and amenities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood in Rancho Santa Margarita",
+      "distance": "6 miles east",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Lake Forest Parks",
+      "description": "Extensive parks and recreational facilities for families and outdoor enthusiasts.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park area with trees and playground in Lake Forest"
+    },
+    {
+      "title": "Man-Made Lakes",
+      "description": "Scenic lakes offering walking paths, picnicking spots, and community events.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lake view with benches and trees"
+    },
+    {
+      "title": "Hiking and Trails",
+      "description": "Numerous trails through nearby hills and open spaces for all skill levels.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail winding through hills in Lake Forest"
+    },
+    {
+      "title": "Community Events",
+      "description": "Regular events and festivals that foster a strong community spirit.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor community event in Lake Forest park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the main attractions in Lake Forest?",
+      "answer": "The city is known for its scenic lakes, numerous parks, hiking trails, and family-friendly events.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Lake Forest?",
+      "answer": "Lake Forest is served by highly rated school districts including Saddleback Valley Unified School District.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities can residents enjoy?",
+      "answer": "Residents enjoy hiking, biking, lake activities, and community sports leagues in the many parks.",
+      "category": "Recreation"
+    },
+    {
+      "question": "Is Lake Forest conveniently located for commuting?",
+      "answer": "Yes, Lake Forest offers easy access to I-5 and 241 toll roads, facilitating commutes to nearby cities and employment centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lake Forest CA Real Estate & Lifestyle | Lakes, Parks & Family Community",
+    "metaDescription": "Explore Lake Forest’s parks, lakes, neighborhoods, schools, and real estate in Orange County's family-friendly city.",
+    "keywords": "Lake Forest real estate, Orange County homes, Lake Forest parks, Lake Forest lakes",
+    "ogTitle": "Discover Lake Forest: Parks, Lakes & Family Living",
+    "ogDescription": "Experience family-friendly neighborhoods and scenic lakes in Lake Forest, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Scenic lake and park area in Lake Forest",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lake Forest",
+      "description": "Explore real estate, neighborhoods, and highlights in Lake Forest, California.",
+      "url": "https://example.com/locations/lake-forest",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic lake and park area in Lake Forest"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lake Forest",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the main attractions in Lake Forest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is known for its scenic lakes, numerous parks, hiking trails, and family-friendly events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Lake Forest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lake Forest is served by highly rated school districts including Saddleback Valley Unified School District."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities can residents enjoy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy hiking, biking, lake activities, and community sports leagues in the many parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lake Forest conveniently located for commuting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Lake Forest offers easy access to I-5 and 241 toll roads, facilitating commutes to nearby cities and employment centers."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "bellflower",
+  "name": "Bellflower",
+  "state": "California",
+  "shortDescription": "A family-friendly city in southeastern Los Angeles County known for its parks, shopping, and community events.",
+  "fullDescription": "Bellflower offers a welcoming suburban atmosphere with plenty of parks, recreational facilities, and convenient shopping areas. The city features a mix of residential neighborhoods and commercial districts, making it a popular choice for families and commuters alike. With its central location, Bellflower provides easy access to Long Beach, Lakewood, and downtown Los Angeles. Community events and local amenities contribute to a strong sense of belonging for residents.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Bellflower city park with walking paths and greenery",
+  "population": "78K+",
+  "avgHomePrice": "$620K",
+  "tags": [
+    "Family-friendly",
+    "Parks",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lakewood",
+      "type": "city",
+      "slug": "lakewood",
+      "description": "Suburban city known for its well-maintained parks, shopping centers, and family-oriented neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined suburban street in Lakewood",
+      "distance": "4 miles south",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Coastal city with a vibrant downtown, cultural attractions, and waterfront parks.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Long Beach skyline at sunset",
+      "distance": "6 miles southwest",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "city",
+      "slug": "cerritos",
+      "description": "Community known for its shopping mall, parks, and quality schools.",
+      "image": "https://images.unsplash.com/photo-1520975695893-b5aa0b017ccf?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cerritos mall and city center",
+      "distance": "7 miles southeast",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "city",
+      "slug": "compton",
+      "description": "City with rich cultural history, community programs, and urban amenities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Compton street view",
+      "distance": "8 miles east",
+      "avgHomePrice": "$570K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Bellflower Civic Center Park",
+      "description": "Large park with playgrounds, picnic areas, and community events.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park area with trees and benches"
+    },
+    {
+      "title": "Bellflower Downtown",
+      "description": "Shopping district with boutiques, restaurants, and local businesses.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Main street with shops and pedestrians"
+    },
+    {
+      "title": "Annual Bellflower Festival",
+      "description": "Community event featuring music, food, and family activities.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1516912484587-20a94a528c0c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival crowd with decorations"
+    },
+    {
+      "title": "Bellflower Aquatic Center",
+      "description": "Public pool facility offering swimming lessons and recreational swimming.",
+      "icon": "🏊‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Swimming pool with lanes and clear water"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Bellflower known for?",
+      "answer": "Bellflower is known for its family-friendly parks, local events, and convenient location within Los Angeles County.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Bellflower?",
+      "answer": "The real estate market features affordable homes suitable for families and first-time buyers.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What community events are held in Bellflower?",
+      "answer": "Annual festivals, farmers markets, and seasonal events bring the community together throughout the year.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Bellflower?",
+      "answer": "Bellflower offers easy access to major freeways and public transportation for commutes to nearby cities and Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bellflower CA Real Estate & Lifestyle | Family & Community Living",
+    "metaDescription": "Discover Bellflower’s parks, community events, and affordable homes in Los Angeles County.",
+    "keywords": "Bellflower real estate, Bellflower parks, living in Bellflower, Bellflower homes for sale",
+    "ogTitle": "Explore Bellflower: Family-Friendly Community & Parks",
+    "ogDescription": "Find your home in Bellflower with its welcoming neighborhoods, parks, and local amenities.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Bellflower city park with walking paths",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Bellflower",
+      "description": "Explore real estate, neighborhoods, and highlights in Bellflower, California.",
+      "url": "https://example.com/locations/bellflower",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Bellflower city park with walking paths and greenery"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Bellflower",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Bellflower known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bellflower is known for its family-friendly parks, local events, and convenient location within Los Angeles County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Bellflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market features affordable homes suitable for families and first-time buyers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What community events are held in Bellflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual festivals, farmers markets, and seasonal events bring the community together throughout the year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Bellflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bellflower offers easy access to major freeways and public transportation for commutes to nearby cities and Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

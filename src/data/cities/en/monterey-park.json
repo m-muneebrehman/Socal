@@ -1,0 +1,186 @@
+{
+  "slug": "monterey-park",
+  "name": "Monterey Park",
+  "state": "California",
+  "shortDescription": "A vibrant city known for its authentic Asian cuisine, parks, and family-friendly community atmosphere.",
+  "fullDescription": "Monterey Park is a culturally rich city located in Los Angeles County, celebrated for its diverse population and renowned Asian dining scene. The city offers well-maintained parks, quality schools, and a variety of shopping and entertainment options. Its proximity to downtown Los Angeles and neighboring communities makes it a convenient and desirable place to live for families and professionals alike.",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Modern cityscape with Asian architectural influences in Monterey Park",
+  "population": "60K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Asian cuisine",
+    "Family-friendly",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Alhambra",
+      "type": "city",
+      "slug": "alhambra",
+      "description": "City known for cultural diversity, historic architecture, and dining.",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street with palm trees and storefronts in Alhambra",
+      "distance": "3 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Gabriel",
+      "type": "city",
+      "slug": "san-gabriel",
+      "description": "Known for its historic mission, Asian dining, and suburban feel.",
+      "image": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic mission in San Gabriel",
+      "distance": "4 miles northeast",
+      "avgHomePrice": "$880K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Rosemead",
+      "type": "city",
+      "slug": "rosemead",
+      "description": "Residential community known for parks, schools, and local shops.",
+      "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Rosemead",
+      "distance": "5 miles southeast",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Montebello",
+      "type": "city",
+      "slug": "montebello",
+      "description": "Diverse community with parks and family-friendly amenities.",
+      "image": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood street in Montebello",
+      "distance": "6 miles south",
+      "avgHomePrice": "$650K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Garvey Ranch Park",
+      "description": "Spacious park offering playgrounds, sports fields, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Playground and green fields at Garvey Ranch Park"
+    },
+    {
+      "title": "Monterey Park Library",
+      "description": "Community hub providing educational resources and programs.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Modern library building exterior"
+    },
+    {
+      "title": "Asian Dining Scene",
+      "description": "Wide variety of authentic Asian restaurants and markets.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Asian noodle dish in a bowl"
+    },
+    {
+      "title": "City Hall Plaza",
+      "description": "Central area hosting community events and gatherings.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "City hall building with plaza in front"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes Monterey Park special?",
+      "answer": "Monterey Park is known for its authentic Asian cuisine, family-friendly parks, and community atmosphere.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Monterey Park?",
+      "answer": "The market features a variety of homes, including condos and single-family residences, with competitive pricing.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What parks are available in Monterey Park?",
+      "answer": "Garvey Ranch Park and Barnes Park are popular spots for recreation and family activities.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is Monterey Park accessible for commuters?",
+      "answer": "Yes, it offers good access to the I-10 freeway and nearby public transit options.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Monterey Park CA Real Estate & Lifestyle | Asian Cuisine & Family Friendly",
+    "metaDescription": "Discover Monterey Park’s neighborhoods, parks, and dining options in Los Angeles County.",
+    "keywords": "Monterey Park real estate, Monterey Park dining, living in Monterey Park, Monterey Park homes for sale",
+    "ogTitle": "Explore Monterey Park: Family-Friendly Community & Authentic Dining",
+    "ogDescription": "Find your home in Monterey Park with its vibrant Asian cuisine scene and welcoming neighborhoods.",
+    "ogImage": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Modern cityscape with Asian architectural influences in Monterey Park",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Monterey Park",
+      "description": "Explore real estate, neighborhoods, and highlights in Monterey Park, California.",
+      "url": "https://example.com/locations/monterey-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Modern cityscape with Asian architectural influences in Monterey Park"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Monterey Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Monterey Park special?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monterey Park is known for its authentic Asian cuisine, family-friendly parks, and community atmosphere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Monterey Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market features a variety of homes, including condos and single-family residences, with competitive pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What parks are available in Monterey Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garvey Ranch Park and Barnes Park are popular spots for recreation and family activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Monterey Park accessible for commuters?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it offers good access to the I-10 freeway and nearby public transit options."
+          }
+        }
+      ]
+    }
+  ]
+}

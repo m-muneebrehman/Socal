@@ -1,0 +1,186 @@
+{
+  "slug": "huntington-park",
+  "name": "Huntington Park",
+  "state": "California",
+  "shortDescription": "A historic city in the Gateway Cities region known for its strong community, cultural diversity, and affordable living.",
+  "fullDescription": "Huntington Park is a vibrant urban community located southeast of downtown Los Angeles. Known for its rich Latino heritage, the city offers a variety of local businesses, parks, and community events that foster a close-knit atmosphere. With convenient access to major freeways and transit, Huntington Park serves as an affordable option for families and young professionals looking to live near the heart of Los Angeles County.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Street view of Huntington Park with colorful murals and local shops",
+  "population": "58K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Cultural diversity",
+    "Community",
+    "Affordable living"
+  ],
+  "neighborhoods": [
+    {
+      "name": "South Gate",
+      "type": "city",
+      "slug": "south-gate",
+      "description": "Neighboring city with a mix of residential and commercial areas and community parks.",
+      "image": "https://images.unsplash.com/photo-1590080877777-3e9bcdd1c814?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "South Gate residential neighborhood",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bell",
+      "type": "city",
+      "slug": "bell",
+      "description": "Small city known for its working-class neighborhoods and local parks.",
+      "image": "https://images.unsplash.com/photo-1562157876-8d244f7b9a1f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Bell community park",
+      "distance": "2 miles northwest",
+      "avgHomePrice": "$580K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cudahy",
+      "type": "city",
+      "slug": "cudahy",
+      "description": "A compact city with affordable housing and community facilities.",
+      "image": "https://images.unsplash.com/photo-1581945729282-633e4be148b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Cudahy",
+      "distance": "2 miles south",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Vernon",
+      "type": "city",
+      "slug": "vernon",
+      "description": "Industrial city with limited residential areas, close to Huntington Park.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Industrial buildings in Vernon",
+      "distance": "4 miles north",
+      "avgHomePrice": "$500K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Huntington Park Farmers Market",
+      "description": "Weekly market featuring fresh produce, local vendors, and community activities.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Farmers market stalls with fresh fruits and vegetables"
+    },
+    {
+      "title": "Central Park",
+      "description": "Popular community park offering sports fields, playgrounds, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park with trees and playground equipment"
+    },
+    {
+      "title": "Local Murals and Art",
+      "description": "Colorful street art celebrating the city's heritage and community spirit.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Street mural in Huntington Park"
+    },
+    {
+      "title": "Huntington Park Community Center",
+      "description": "Hub for classes, events, and local gatherings.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Community center building"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Huntington Park known for?",
+      "answer": "Huntington Park is known for its strong Latino heritage, community events, and affordable housing options.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Huntington Park?",
+      "answer": "The market offers affordable homes and condos compared to many parts of Los Angeles County.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What activities are popular in Huntington Park?",
+      "answer": "Visiting the farmers market, enjoying Central Park, and appreciating local murals and events are popular.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Huntington Park?",
+      "answer": "Huntington Park has convenient access to the 710 and 5 freeways and local bus transit options.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Huntington Park CA Real Estate & Lifestyle | Community & Culture",
+    "metaDescription": "Explore Huntington Park's neighborhoods, cultural diversity, and affordable real estate options in Los Angeles County.",
+    "keywords": "Huntington Park real estate, Huntington Park community, living in Huntington Park, affordable homes Huntington Park",
+    "ogTitle": "Discover Huntington Park: Community Living & Cultural Diversity",
+    "ogDescription": "Find your home in Huntington Park with its rich heritage, parks, and local markets.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Street view of Huntington Park with colorful murals and local shops",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Huntington Park",
+      "description": "Explore real estate, neighborhoods, and highlights in Huntington Park, California.",
+      "url": "https://example.com/locations/huntington-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Street view of Huntington Park with colorful murals and local shops"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Huntington Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Huntington Park known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Park is known for its strong Latino heritage, community events, and affordable housing options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Huntington Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market offers affordable homes and condos compared to many parts of Los Angeles County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What activities are popular in Huntington Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visiting the farmers market, enjoying Central Park, and appreciating local murals and events are popular."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Huntington Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Park has convenient access to the 710 and 5 freeways and local bus transit options."
+          }
+        }
+      ]
+    }
+  ]
+}

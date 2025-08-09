@@ -1,0 +1,186 @@
+{
+  "slug": "huntington-beach",
+  "name": "Huntington Beach",
+  "state": "California",
+  "shortDescription": "Famous for its iconic pier, surf culture, and vibrant coastal lifestyle.",
+  "fullDescription": "Huntington Beach, known as 'Surf City USA,' is a lively coastal city with miles of sandy beaches, world-class surfing, and a vibrant downtown. It offers family-friendly parks, an active arts scene, and numerous outdoor activities. With excellent schools and a diverse community, Huntington Beach combines beachside relaxation with urban conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Huntington Beach pier at sunset",
+  "population": "200K+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Beach",
+    "Surfing",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Seal Beach",
+      "type": "city",
+      "slug": "seal-beach",
+      "description": "Quaint beach town with charming shops, a historic pier, and calm beaches.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Seal Beach pier and shoreline",
+      "distance": "7 miles northwest",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Costa Mesa",
+      "type": "city",
+      "slug": "costa-mesa",
+      "description": "Urban city known for arts, shopping, and diverse dining options.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Costa Mesa at night",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Newport Beach",
+      "type": "city",
+      "slug": "newport-beach",
+      "description": "Upscale coastal city with luxury homes, boating, and pristine beaches.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Yachts in Newport Beach harbor",
+      "distance": "10 miles southeast",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Harbour",
+      "type": "neighborhood",
+      "slug": "huntington-harbour",
+      "description": "Waterfront community featuring canals, luxury homes, and boating access.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Canals and homes in Huntington Harbour",
+      "distance": "3 miles south",
+      "avgHomePrice": "$1.8M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Huntington Beach Pier",
+      "description": "Iconic pier popular for fishing, surfing, and scenic ocean views.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sunset over Huntington Beach Pier"
+    },
+    {
+      "title": "Surfing Culture",
+      "description": "Host of the U.S. Open of Surfing and a hub for surfers worldwide.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfers riding waves at Huntington Beach"
+    },
+    {
+      "title": "Bolsa Chica Ecological Reserve",
+      "description": "Protected wetlands ideal for birdwatching, hiking, and nature walks.",
+      "icon": "🦅",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Birdwatching at Bolsa Chica wetlands"
+    },
+    {
+      "title": "Family-Friendly Beaches",
+      "description": "Wide sandy beaches with amenities and safe swimming areas for families.",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Families enjoying the beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Huntington Beach famous for?",
+      "answer": "Huntington Beach is famous for its surfing culture, iconic pier, and beautiful beaches.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Huntington Beach?",
+      "answer": "The city is served by Huntington Beach Union High School District and several highly rated elementary and middle schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular?",
+      "answer": "Surfing, beach volleyball, biking along the coast, and nature walks at Bolsa Chica Reserve are popular activities.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to Los Angeles?",
+      "answer": "Huntington Beach offers direct access to the 405 and 22 freeways, with typical commutes to LA ranging from 45 to 75 minutes depending on traffic.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Huntington Beach CA Real Estate & Lifestyle | Surf City USA & Coastal Living",
+    "metaDescription": "Explore Huntington Beach’s neighborhoods, surfing culture, beaches, schools, and real estate in Orange County.",
+    "keywords": "Huntington Beach real estate, Surf City USA, beach living Orange County, Huntington Beach schools",
+    "ogTitle": "Discover Huntington Beach: Surf Culture & Family Beaches",
+    "ogDescription": "Experience the vibrant coastal lifestyle, iconic pier, and outdoor adventures in Huntington Beach, California.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Huntington Beach pier at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Huntington Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Huntington Beach, California.",
+      "url": "https://example.com/locations/huntington-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Huntington Beach pier at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Huntington Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Huntington Beach famous for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Beach is famous for its surfing culture, iconic pier, and beautiful beaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Huntington Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by Huntington Beach Union High School District and several highly rated elementary and middle schools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surfing, beach volleyball, biking along the coast, and nature walks at Bolsa Chica Reserve are popular activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Beach offers direct access to the 405 and 22 freeways, with typical commutes to LA ranging from 45 to 75 minutes depending on traffic."
+          }
+        }
+      ]
+    }
+  ]
+}

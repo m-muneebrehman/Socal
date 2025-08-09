@@ -1,0 +1,186 @@
+{
+  "slug": "beverly-hills",
+  "name": "Beverly Hills",
+  "state": "California",
+  "shortDescription": "An iconic luxury city known for upscale shopping, celebrity homes, and beautiful palm-lined streets.",
+  "fullDescription": "Beverly Hills is synonymous with glamour, luxury, and world-class amenities. Famous for Rodeo Drive’s designer boutiques, stunning mansions, and lush landscaped neighborhoods, the city attracts visitors and residents who value privacy, exclusivity, and high-end living. Beyond the glitz, Beverly Hills offers beautiful parks, excellent schools, and a walkable downtown with fine dining and cultural attractions. Its central location makes it a prime spot for accessing Los Angeles’ entertainment and business hubs.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Palm trees lining a street in Beverly Hills",
+  "population": "34K+",
+  "avgHomePrice": "$4.5M",
+  "tags": [
+    "Luxury",
+    "Shopping",
+    "Celebrity Homes"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Hollywood",
+      "type": "city",
+      "slug": "west-hollywood",
+      "description": "Trendy urban area known for nightlife, entertainment, and the Sunset Strip.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sunset Strip in West Hollywood at night",
+      "distance": "2 miles east",
+      "avgHomePrice": "$2.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Coastal city famous for its pier, beaches, and vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Santa Monica pier at sunset",
+      "distance": "8 miles west",
+      "avgHomePrice": "$3.5M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Century City",
+      "type": "neighborhood",
+      "slug": "century-city",
+      "description": "Business district with upscale residences, shopping, and offices.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Century City skyline and offices",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$3.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Hollywood",
+      "type": "city",
+      "slug": "hollywood",
+      "description": "Famous entertainment district with theaters, studios, and tourist attractions.",
+      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hollywood sign and Walk of Fame",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Rodeo Drive",
+      "description": "World-renowned shopping street with luxury boutiques and designer brands.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rodeo Drive shopping district"
+    },
+    {
+      "title": "Beverly Gardens Park",
+      "description": "Beautiful landscaped park featuring the iconic Beverly Hills sign and walking paths.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Beverly Gardens Park with flowers and palm trees"
+    },
+    {
+      "title": "Celebrity Homes Tour",
+      "description": "Guided tours showcasing the famous residences of celebrities throughout the city.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Luxury mansion in Beverly Hills"
+    },
+    {
+      "title": "The Beverly Hills Hotel",
+      "description": "Historic luxury hotel known as the 'Pink Palace', popular among celebrities and visitors.",
+      "icon": "🏨",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Exterior of The Beverly Hills Hotel"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Beverly Hills famous for?",
+      "answer": "Beverly Hills is famous for luxury shopping, celebrity homes, and its iconic palm-lined streets.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Beverly Hills?",
+      "answer": "The real estate market is high-end, featuring multi-million dollar mansions and luxury condos.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are the best neighborhoods near Beverly Hills?",
+      "answer": "West Hollywood, Santa Monica, Century City, and Hollywood offer diverse lifestyle options close by.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is commuting from Beverly Hills?",
+      "answer": "Beverly Hills is centrally located with easy access to major freeways and public transit options throughout Los Angeles.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Beverly Hills CA Real Estate & Lifestyle | Luxury, Shopping & Celebrity Homes",
+    "metaDescription": "Explore Beverly Hills neighborhoods, luxury living, iconic shopping, and cultural highlights in this famed Los Angeles city.",
+    "keywords": "Beverly Hills real estate, luxury homes Beverly Hills, Rodeo Drive shopping, living in Beverly Hills",
+    "ogTitle": "Discover Beverly Hills: Luxury Living & Iconic Lifestyle",
+    "ogDescription": "Experience the glamour of Beverly Hills with upscale homes, shopping, and vibrant community life.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Palm trees lining a street in Beverly Hills",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Beverly Hills",
+      "description": "Explore real estate, neighborhoods, and highlights in Beverly Hills, California.",
+      "url": "https://example.com/locations/beverly-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Palm trees lining a street in Beverly Hills"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Beverly Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Beverly Hills famous for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beverly Hills is famous for luxury shopping, celebrity homes, and its iconic palm-lined streets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market is high-end, featuring multi-million dollar mansions and luxury condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods near Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood, Santa Monica, Century City, and Hollywood offer diverse lifestyle options close by."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beverly Hills is centrally located with easy access to major freeways and public transit options throughout Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}
