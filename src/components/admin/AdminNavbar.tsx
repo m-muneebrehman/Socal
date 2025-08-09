@@ -17,17 +17,16 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
     { id: 'cities', label: 'Cities', icon: MapPin },
     { id: 'blogs', label: 'Blogs', icon: FileText },
     { id: 'users', label: 'Users', icon: Users },
-    { id: 'settings', label: 'Settings', icon: Settings },
   ]
 
   return (
     <nav className="admin-navbar" style={{
-      background: '#ffffff',
-      borderBottom: '1px solid #e5e7eb',
+      background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
+      borderBottom: '1px solid rgba(212, 175, 55, 0.2)',
       position: 'sticky',
       top: 0,
       zIndex: 1000,
-      boxShadow: '0 8px 20px rgba(0, 0, 0, 0.06)'
+      boxShadow: '0 2px 20px rgba(0, 0, 0, 0.1)'
     }}>
       <div className="admin-navbar-container" style={{
         maxWidth: '1400px',
@@ -45,23 +44,21 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
           gap: '12px'
         }}>
           <div style={{
-            background: '#fff',
-            border: '1px solid #e5e7eb',
+            background: 'linear-gradient(135deg, #d4af37, #e6c34a)',
             borderRadius: '8px',
             padding: '8px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+            justifyContent: 'center'
           }}>
-            <Home size={20} color="#111827" />
+            <Home size={20} color="#1a1a1a" />
           </div>
           <div>
             <h1 style={{
               fontFamily: 'Playfair Display, serif',
               fontSize: '20px',
               fontWeight: '600',
-              color: '#111827',
+              color: '#ffffff',
               margin: '0',
               letterSpacing: '0.5px'
             }}>
@@ -69,7 +66,7 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
             </h1>
             <p style={{
               fontSize: '11px',
-              color: '#6b7280',
+              color: 'rgba(255, 255, 255, 0.7)',
               margin: '0',
               fontWeight: '400'
             }}>
@@ -96,10 +93,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                   alignItems: 'center',
                   gap: '8px',
                   padding: '12px 16px',
-                  background: isActive ? 'rgba(17, 24, 39, 0.04)' : 'transparent',
-                  border: isActive ? '1px solid #e5e7eb' : '1px solid transparent',
+                  background: isActive ? 'rgba(212, 175, 55, 0.15)' : 'transparent',
+                  border: isActive ? '1px solid rgba(212, 175, 55, 0.3)' : '1px solid transparent',
                   borderRadius: '8px',
-                  color: isActive ? '#111827' : '#374151',
+                  color: isActive ? '#d4af37' : 'rgba(255, 255, 255, 0.8)',
                   fontSize: '14px',
                   fontWeight: '500',
                   cursor: 'pointer',
@@ -108,14 +105,14 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                 }}
                 onMouseEnter={(e) => {
                   if (!isActive) {
-                    e.currentTarget.style.background = 'rgba(17, 24, 39, 0.04)'
-                    e.currentTarget.style.color = '#111827'
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)'
+                    e.currentTarget.style.color = '#ffffff'
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (!isActive) {
                     e.currentTarget.style.background = 'transparent'
-                    e.currentTarget.style.color = '#374151'
+                    e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'
                   }
                 }}
               >
@@ -139,8 +136,8 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
               alignItems: 'center',
               gap: '8px',
               padding: '10px 16px',
-              background: '#fff',
-              border: '1px solid #ef4444',
+              background: 'rgba(239, 68, 68, 0.1)',
+              border: '1px solid rgba(239, 68, 68, 0.3)',
               borderRadius: '8px',
               color: '#ef4444',
               fontSize: '14px',
@@ -149,10 +146,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
               transition: 'all 0.3s ease'
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = '#fef2f2'
+              e.currentTarget.style.background = 'rgba(239, 68, 68, 0.2)'
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.background = '#ffffff'
+              e.currentTarget.style.background = 'rgba(239, 68, 68, 0.1)'
             }}
           >
             <LogOut size={16} />
@@ -183,10 +180,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="admin-navbar-mobile" style={{
-          background: '#ffffff',
-          borderTop: '1px solid #e5e7eb',
+          background: 'rgba(26, 26, 26, 0.95)',
+          borderTop: '1px solid rgba(212, 175, 55, 0.2)',
           padding: '16px 24px',
-          backdropFilter: 'blur(4px)'
+          backdropFilter: 'blur(10px)'
         }}>
           <div style={{
             display: 'flex',
@@ -208,10 +205,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                     alignItems: 'center',
                     gap: '12px',
                     padding: '12px 16px',
-                    background: isActive ? 'rgba(17, 24, 39, 0.04)' : 'transparent',
-                    border: isActive ? '1px solid #e5e7eb' : '1px solid transparent',
+                    background: isActive ? 'rgba(212, 175, 55, 0.15)' : 'transparent',
+                    border: isActive ? '1px solid rgba(212, 175, 55, 0.3)' : '1px solid transparent',
                     borderRadius: '8px',
-                    color: isActive ? '#111827' : '#374151',
+                    color: isActive ? '#d4af37' : 'rgba(255, 255, 255, 0.8)',
                     fontSize: '14px',
                     fontWeight: '500',
                     cursor: 'pointer',
