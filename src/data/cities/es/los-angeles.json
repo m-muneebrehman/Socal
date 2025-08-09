@@ -1,0 +1,208 @@
+{
+  "slug": "los-angeles",
+  "name": "Los Ángeles",
+  "state": "California",
+  "shortDescription": "La capital del entretenimiento mundial, que ofrece barrios diversos, atracciones culturales y oportunidades infinitas.",
+  "fullDescription": "Los Ángeles es una extensa ciudad del sur de California y el centro de la industria cinematográfica y televisiva de Estados Unidos. Cerca de su icónico cartel de Hollywood, estudios como Paramount Pictures, Universal y Warner Brothers ofrecen recorridos entre bastidores. En el bulevar Hollywood, el Teatro Chino TCL muestra las huellas de manos y pies de celebridades, el Paseo de la Fama honra a miles de luminarias y los vendedores ofrecen mapas de las casas de las estrellas.",
+  "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Vista aérea del skyline del centro de Los Ángeles al atardecer",
+  "population": "4M+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Entretenimiento",
+    "Diversidad",
+    "Cultura"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Ciudad costera con un puerto activo, acuario del Pacífico y atracciones frente al mar.",
+      "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+      "imageAlt": "Línea costera de Long Beach con palmeras",
+      "distance": "35 km al sur",
+      "avgHomePrice": "$850K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Hogar del complejo Disneyland, el Angel Stadium y un vibrante centro de convenciones.",
+      "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+      "imageAlt": "Castillo de Disneyland por la noche",
+      "distance": "43 km al sureste",
+      "avgHomePrice": "$780K",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "city",
+      "slug": "irvine",
+      "description": "Ciudad planificada conocida por sus escuelas de primer nivel, centros empresariales y parques.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+      "imageAlt": "Distrito empresarial de Irvine con edificios modernos",
+      "distance": "64 km al sureste",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Mónica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Icónica ciudad playera con su famoso muelle, distritos comerciales y oficinas tecnológicas.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+      "imageAlt": "Muelle de Santa Mónica al atardecer",
+      "distance": "24 km al oeste",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Centro cultural con el Rose Bowl, Caltech y arquitectura histórica.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "imageAlt": "Ayuntamiento de Pasadena por la noche",
+      "distance": "16 km al noreste",
+      "avgHomePrice": "$1.3M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "La Ciudad del Surf de EE.UU. con 13.7 km de playas y un animado centro urbano.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+      "imageAlt": "Muelle de Huntington Beach con surfistas",
+      "distance": "56 km al sureste",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hollywood y Entretenimiento",
+      "description": "Hogar de la industria del entretenimiento más grande del mundo, con hitos icónicos como el Paseo de la Fama de Hollywood, el Teatro Chino TCL y los Universal Studios.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+      "bgImageAlt": "Cartel de Hollywood con vista a Los Ángeles y cielo azul"
+    },
+    {
+      "title": "Barrios Diversos",
+      "description": "Desde el trendy Venice Beach hasta el exclusivo Beverly Hills, LA ofrece barrios únicos cada uno con su propio carácter y encanto.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+      "bgImageAlt": "Calle en Beverly Hills bordeada de palmeras con casas de lujo"
+    },
+    {
+      "title": "Atracciones Culturales",
+      "description": "Museos de clase mundial como el Getty Center, LACMA y The Broad exhiben arte de todo el mundo.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+      "bgImageAlt": "Museo Getty Center con arquitectura moderna"
+    },
+    {
+      "title": "Estilo de Vida al Aire Libre",
+      "description": "Con 284 días soleados al año, LA ofrece infinitas actividades al aire libre desde senderismo en las colinas de Hollywood hasta surf en Malibú.",
+      "icon": "🌞",
+      "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "bgImageAlt": "Personas surfeando en la playa de Malibú en un día soleado"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuáles son los mejores barrios de Los Ángeles?",
+      "answer": "Los barrios populares incluyen Beverly Hills para lujo, Venice Beach para creatividad, Santa Mónica para vida playera y el centro de LA para vida urbana. Cada área ofrece comodidades y opciones de estilo de vida únicas.",
+      "category": "Barrios"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Los Ángeles?",
+      "answer": "El mercado inmobiliario de LA es competitivo con alta demanda y oferta limitada. El precio medio de una vivienda ronda los $1.2M, con propiedades de lujo en áreas privilegiadas alcanzando precios premium.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuál es el costo de vida en Los Ángeles?",
+      "answer": "Los Ángeles tiene un alto costo de vida, particularmente en vivienda. Sin embargo, la ciudad ofrece opciones diversas desde condominios de lujo hasta casas familiares, con varios rangos de precios en diferentes barrios.",
+      "category": "Costo de Vida"
+    },
+    {
+      "question": "¿Cómo es el clima en Los Ángeles?",
+      "answer": "LA disfruta de un clima mediterráneo con inviernos suaves y húmedos, y veranos calurosos y secos. La ciudad promedia 284 días soleados al año, haciéndola perfecta para actividades al aire libre.",
+      "category": "Clima"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Guía de Bienes Raíces y Estilo de Vida en Los Ángeles - Vida de Lujo en LA",
+    "metaDescription": "Explora bienes raíces de lujo, los mejores barrios y destacados culturales en Los Ángeles. Descubre por qué LA es un destino principal para vivir, invertir y disfrutar del estilo de vida.",
+    "keywords": "bienes raíces Los Ángeles, estilo de vida LA, Beverly Hills, Santa Mónica, Hollywood, Venice Beach, atracciones culturales, estilo de vida al aire libre",
+    "ogTitle": "Descubre Los Ángeles: Guía de Bienes Raíces de Lujo y Estilo de Vida",
+    "ogDescription": "Explora diversos barrios, perspectivas inmobiliarias y lo más destacado de Los Ángeles. Encuentra tu hogar soñado en el corazón de California.",
+    "ogImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Skyline de Los Ángeles al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Los Ángeles",
+      "description": "Explora bienes raíces, barrios y atracciones destacadas en Los Ángeles, California.",
+      "url": "https://example.com/locations/los-angeles",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista aérea del skyline de Los Ángeles al atardecer"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Los Ángeles",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores barrios de Los Ángeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los barrios populares incluyen Beverly Hills para lujo, Venice Beach para creatividad, Santa Mónica para vida playera y el centro de LA para vida urbana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Los Ángeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario de LA es competitivo con alta demanda y oferta limitada. El precio medio de una vivienda ronda los $1.2M."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es el costo de vida en Los Ángeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los Ángeles tiene un alto costo de vida, particularmente en vivienda. La ciudad ofrece opciones diversas con varios rangos de precios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el clima en Los Ángeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LA disfruta de un clima mediterráneo con 284 días soleados al año, haciéndola perfecta para actividades al aire libre."
+          }
+        }
+      ]
+    }
+  ]
+}

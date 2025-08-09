@@ -2,6 +2,77 @@ import fs from 'fs'
 import path from 'path'
 import { connectToDatabase } from './mongodb'
 
+export interface CityDocForFile {
+  slug: string
+  name: string
+  state: string
+  language?: string
+  shortDescription: string
+  fullDescription?: string
+  heroImage?: string
+  heroImageAlt?: string
+  population: string
+  avgHomePrice: string
+  tags?: string[]
+  neighborhoods?: any[]
+  highlights?: any[]
+  faqs?: any[]
+  clients?: any[]
+  canonicalUrl?: string
+  hreflang_tags?: any[]
+  seo?: any
+  schema_markup?: any[]
+  internal_links?: any[]
+}
+
+function ensureDirSync(dirPath: string) {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true })
+  }
+}
+
+export async function writeCityFile(city: CityDocForFile) {
+  const language = city.language || 'en'
+  const fileDir = path.join(process.cwd(), 'src', 'data', 'cities', language)
+  const filePath = path.join(fileDir, `${city.slug}.json`)
+  ensureDirSync(fileDir)
+  // Only persist the exact public JSON shape (no language inside file; exclude legacy fields)
+  const dataToWrite = {
+    slug: city.slug,
+    name: city.name,
+    state: city.state,
+    shortDescription: city.shortDescription,
+    fullDescription: city.fullDescription ?? city.shortDescription,
+    heroImage: city.heroImage ?? '',
+    heroImageAlt: city.heroImageAlt ?? '',
+    population: city.population,
+    avgHomePrice: city.avgHomePrice,
+    tags: Array.isArray(city.tags) ? city.tags : [],
+    neighborhoods: Array.isArray(city.neighborhoods) ? city.neighborhoods : [],
+    highlights: Array.isArray(city.highlights) ? city.highlights : [],
+    faqs: Array.isArray(city.faqs) ? city.faqs : [],
+    seo: city.seo ?? {},
+    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : []
+  }
+  fs.writeFileSync(filePath, JSON.stringify(dataToWrite, null, 2))
+  console.log(`✅ Wrote city file: ${filePath}`)
+}
+
+export async function deleteCityFileBySlugLanguage(slug: string, language?: string) {
+  const lang = language || 'en'
+  const filePath = path.join(process.cwd(), 'src', 'data', 'cities', lang, `${slug}.json`)
+  try {
+    if (fs.existsSync(filePath)) {
+      fs.unlinkSync(filePath)
+      console.log(`✅ Deleted city file: ${filePath}`)
+    } else {
+      console.log(`ℹ️ City file not found to delete: ${filePath}`)
+    }
+  } catch (err) {
+    console.error('❌ Error deleting city file:', err)
+  }
+}
+
 // Function to update cities.json file
 export async function updateCitiesJsonFile() {
   try {

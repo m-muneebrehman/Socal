@@ -1,0 +1,208 @@
+{
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "state": "Kalifornien",
+  "shortDescription": "Die Unterhaltungshauptstadt der Welt mit vielfältigen Vierteln, kulturellen Attraktionen und endlosen Möglichkeiten.",
+  "fullDescription": "Los Angeles ist eine weitläufige Stadt in Südkalifornien und das Zentrum der amerikanischen Film- und Fernsehindustrie. In der Nähe des berühmten Hollywood-Schilds bieten Studios wie Paramount Pictures, Universal und Warner Brothers Hintergrundführungen an. Auf dem Hollywood Boulevard zeigt das TCL Chinese Theatre Hand- und Fußabdrücke von Stars, der Walk of Fame ehrt Tausende von Berühmtheiten und Händler verkaufen Karten zu den Häusern der Stars.",
+  "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Luftaufnahme der Skyline von Downtown Los Angeles bei Sonnenuntergang",
+  "population": "4M+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Unterhaltung",
+    "Vielfalt",
+    "Kultur"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Küstenstadt mit einem geschäftigen Hafen, dem Aquarium des Pazifiks und Wasserattraktionen.",
+      "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+      "imageAlt": "Long Beach Küstenlinie mit Palmen",
+      "distance": "35 km südlich",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Heimat des Disneyland Resorts, des Angel Stadium und eines lebendigen Kongresszentrums.",
+      "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+      "imageAlt": "Disneyland Schloss bei Nacht",
+      "distance": "43 km südöstlich",
+      "avgHomePrice": "$780K",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "city",
+      "slug": "irvine",
+      "description": "Meisterhaft geplante Stadt bekannt für erstklassige Schulen, Geschäftszentren und Parks.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+      "imageAlt": "Geschäftsviertel von Irvine mit modernen Gebäuden",
+      "distance": "64 km südöstlich",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Ikone der Strandstädte mit berühmtem Pier, Einkaufsvierteln und Tech-Büros.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+      "imageAlt": "Santa Monica Pier bei Sonnenuntergang",
+      "distance": "24 km westlich",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Kulturelles Zentrum mit Rose Bowl, Caltech und historischer Architektur.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "imageAlt": "Pasadena Rathaus bei Nacht",
+      "distance": "16 km nordöstlich",
+      "avgHomePrice": "$1.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Surf City USA mit 13,7 km Stränden und lebendiger Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+      "imageAlt": "Huntington Beach Pier mit Surfern",
+      "distance": "56 km südöstlich",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hollywood & Unterhaltung",
+      "description": "Heimat der größten Unterhaltungsindustrie der Welt mit ikonischen Wahrzeichen wie dem Hollywood Walk of Fame, dem TCL Chinese Theatre und Universal Studios.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+      "bgImageAlt": "Hollywood-Schild mit Blick auf Los Angeles und blauem Himmel"
+    },
+    {
+      "title": "Vielfältige Viertel",
+      "description": "Vom trendigen Venice Beach bis zum vornehmen Beverly Hills bietet LA einzigartige Viertel mit jeweils eigenem Charakter und Charme.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+      "bgImageAlt": "Palmen gesäumte Straße in Beverly Hills mit Luxushäusern"
+    },
+    {
+      "title": "Kulturelle Attraktionen",
+      "description": "Weltklasse-Museen wie das Getty Center, LACMA und The Broad präsentieren Kunst aus aller Welt.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+      "bgImageAlt": "Das Getty Center Museum mit moderner Architektur"
+    },
+    {
+      "title": "Outdoor-Lebensstil",
+      "description": "Mit 284 Sonnentagen pro Jahr bietet LA endlose Outdoor-Aktivitäten von Wandern in den Hollywood Hills bis zum Surfen in Malibu.",
+      "icon": "🌞",
+      "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "bgImageAlt": "Surfer am Malibu Strand an einem sonnigen Tag"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Viertel in Los Angeles?",
+      "answer": "Beliebte Viertel sind Beverly Hills für Luxus, Venice Beach für Kreativität, Santa Monica für Strandleben und Downtown LA für urbanes Leben. Jedes Gebiet bietet einzigartige Annehmlichkeiten und Lebensstiloptionen.",
+      "category": "Viertel"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Los Angeles?",
+      "answer": "Der Immobilienmarkt in LA ist wettbewerbsintensiv mit hoher Nachfrage und begrenztem Angebot. Der mittlere Hauspreis liegt bei etwa $1,2M, wobei Luxusimmobilien in Top-Lagen Premiumpreise erzielen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Wie hoch sind die Lebenshaltungskosten in Los Angeles?",
+      "answer": "Los Angeles hat hohe Lebenshaltungskosten, insbesondere für Wohnraum. Die Stadt bietet jedoch vielfältige Optionen von Luxuswohnungen bis zu Familienhäusern mit verschiedenen Preisniveaus in verschiedenen Vierteln.",
+      "category": "Lebenshaltungskosten"
+    },
+    {
+      "question": "Wie ist das Wetter in Los Angeles?",
+      "answer": "LA genießt ein mediterranes Klima mit milden, feuchten Wintern und heißen, trockenen Sommern. Die Stadt hat durchschnittlich 284 Sonnentage pro Jahr, was sie perfekt für Outdoor-Aktivitäten macht.",
+      "category": "Wetter"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilien & Lebensstil in Los Angeles - Luxusleben in LA",
+    "metaDescription": "Entdecken Sie Luxusimmobilien, Top-Viertel und kulturelle Highlights in Los Angeles. Erfahren Sie, warum LA ein Top-Ziel für Leben, Investitionen und Lifestyle ist.",
+    "keywords": "Immobilien Los Angeles, LA Lebensstil, Beverly Hills, Santa Monica, Hollywood, Venice Beach, kulturelle Attraktionen, Outdoor-Lebensstil",
+    "ogTitle": "Entdecken Sie Los Angeles: Luxusimmobilien & Lebensstilführer",
+    "ogDescription": "Erkunden Sie vielfältige Viertel, Immobilieneinblicke und Highlights von Los Angeles. Finden Sie Ihr Traumhaus im Herzen Kaliforniens.",
+    "ogImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Skyline von Los Angeles bei Sonnenuntergang",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Los Angeles",
+      "description": "Erkunden Sie Immobilien, Viertel und Highlights in Los Angeles, Kalifornien.",
+      "url": "https://example.com/locations/los-angeles",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Luftaufnahme der Skyline von Los Angeles bei Sonnenuntergang"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Los Angeles",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Viertel in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beliebte Viertel sind Beverly Hills für Luxus, Venice Beach für Kreativität, Santa Monica für Strandleben und Downtown LA für urbanes Leben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Immobilienmarkt in LA ist wettbewerbsintensiv mit hoher Nachfrage und begrenztem Angebot. Der mittlere Hauspreis liegt bei etwa $1,2M."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie hoch sind die Lebenshaltungskosten in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los Angeles hat hohe Lebenshaltungskosten, insbesondere für Wohnraum. Die Stadt bietet jedoch vielfältige Optionen mit verschiedenen Preisniveaus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Wetter in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LA genießt ein mediterranes Klima mit 284 Sonnentagen pro Jahr, was es perfekt für Outdoor-Aktivitäten macht."
+          }
+        }
+      ]
+    }
+  ]
+}

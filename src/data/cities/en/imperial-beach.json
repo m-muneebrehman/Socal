@@ -1,0 +1,162 @@
+{
+    "slug": "imperial-beach",
+    "name": "Imperial Beach",
+    "state": "California",
+    "shortDescription": "Southernmost beach city in California with a laidback surf town vibe and affordable coastal living.",
+    "fullDescription": "Imperial Beach offers a relaxed beach lifestyle with the iconic pier, surf culture, and proximity to the Tijuana River National Estuarine Research Reserve. More affordable than neighboring coastal cities, IB maintains its authentic surf town character while being just 15 minutes from downtown San Diego.",
+    "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+    "heroImageAlt": "Imperial Beach pier and coastline",
+    "population": "26K+",
+    "avgHomePrice": "$850K+",
+    "tags": [
+      "Beach Town",
+      "Surfing",
+      "Affordable Coastal"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Chula Vista",
+        "type": "city",
+        "slug": "chula-vista",
+        "description": "Neighboring city to the north with Otay Ranch Town Center and bayfront parks.",
+        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "Chula Vista marina and bayfront",
+        "distance": "5 miles north",
+        "avgHomePrice": "$800K",
+        "county": "San Diego"
+      },
+      {
+        "name": "San Diego",
+        "type": "city",
+        "slug": "san-diego",
+        "description": "Major metropolitan center to the north with employment hubs and cultural attractions.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+        "imageAlt": "San Diego skyline viewed from the bay",
+        "distance": "15 miles north",
+        "avgHomePrice": "$950K",
+        "county": "San Diego"
+      },
+      {
+        "name": "Coronado",
+        "type": "city",
+        "slug": "coronado",
+        "description": "Iconic island community with pristine beaches and historic Hotel del Coronado.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+        "imageAlt": "Coronado sandy beach and shoreline",
+        "distance": "5 miles north",
+        "avgHomePrice": "$2.5M",
+        "county": "San Diego"
+      },
+      {
+        "name": "National City",
+        "type": "city",
+        "slug": "national-city",
+        "description": "Urban community with cultural diversity and waterfront parks.",
+        "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+        "imageAlt": "National City marina and bayfront",
+        "distance": "8 miles northeast",
+        "avgHomePrice": "$600K",
+        "county": "San Diego"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Surf Culture",
+        "description": "Legendary surf spot with consistent waves and laidback beach town atmosphere.",
+        "icon": "🏄‍♂️",
+        "bgImage": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Surfers at Imperial Beach"
+      },
+      {
+        "title": "IB Pier",
+        "description": "Iconic 1,491-foot pier offering fishing, dining and panoramic ocean views.",
+        "icon": "🎣",
+        "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Long wooden pier over the Pacific at sunset"
+      },
+      {
+        "title": "Estuary Preserve",
+        "description": "Tijuana River National Estuarine Research Reserve with hiking and birdwatching.",
+        "icon": "🐦",
+        "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Tijuana Estuary"
+      },
+      {
+        "title": "Affordable Coastal",
+        "description": "More budget-friendly than neighboring beach cities while offering authentic coastal living.",
+        "icon": "💰",
+        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "bgImageAlt": "Imperial Beach coastline"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in Imperial Beach?",
+        "answer": "Popular areas include the Seacoast area near the pier, Oneonta neighborhood, and Palm City area.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in Imperial Beach?",
+        "answer": "More affordable than other coastal cities with beach cottages, townhomes and some luxury waterfront properties.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What is there to do in Imperial Beach?",
+        "answer": "Surfing, pier fishing, beach activities, estuary hiking, and local events like the Sun & Sea Festival.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is commuting to downtown San Diego?",
+        "answer": "About 15-20 minutes via I-5, or take the Bayshore Bikeway for a scenic coastal bike ride.",
+        "category": "Transportation"
+      }
+    ],
+    "seo": {
+      "metaTitle": "Imperial Beach CA Real Estate & Lifestyle | Surf & Affordable Coastal",
+      "metaDescription": "Discover Imperial Beach neighborhoods, surf culture, iconic pier and more affordable coastal living near San Diego.",
+      "keywords": "Imperial Beach real estate, IB pier, Tijuana Estuary, San Diego County, Imperial Beach surf",
+      "ogTitle": "Explore Imperial Beach: Authentic Surf Town Living",
+      "ogDescription": "Learn about Imperial Beach neighborhoods, surf culture and coastal lifestyle.",
+      "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "ogImageAlt": "Imperial Beach pier and coastline",
+      "twitterCard": "summary_large_image"
+    },
+    "schema_markup": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Imperial Beach",
+        "description": "Explore real estate, neighborhoods, and highlights in Imperial Beach, California.",
+        "url": "https://example.com/locations/imperial-beach",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+          "caption": "Imperial Beach pier and coastline"
+        },
+        "inLanguage": "en",
+        "mainEntity": {
+          "@type": "City",
+          "name": "Imperial Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "CA",
+            "addressCountry": "USA"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes Imperial Beach special?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Imperial Beach offers authentic surf town character with more affordable coastal living than neighboring beach cities, just minutes from San Diego."
+            }
+          }
+        ]
+      }
+    ]
+  }

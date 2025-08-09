@@ -1,0 +1,186 @@
+{
+  "slug": "carlsbad",
+  "name": "Carlsbad",
+  "state": "California",
+  "shortDescription": "A coastal gem with beautiful beaches, family attractions, and a thriving village atmosphere in North County San Diego.",
+  "fullDescription": "Carlsbad offers a perfect mix of laid-back beach living, family-friendly attractions, and a vibrant local economy. Known for its scenic coastline, LEGOLAND California Resort, and the charming Carlsbad Village, this city is a top choice for those who value both leisure and community. Carlsbad also boasts excellent schools, a strong tech and life sciences sector, and easy access to both Los Angeles and San Diego.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Pacific waves and sandy shoreline at sunset near Carlsbad",
+  "population": "115K+",
+  "avgHomePrice": "$1.3M",
+  "tags": [
+    "Beaches",
+    "Family-friendly",
+    "Village"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Oceanside",
+      "type": "city",
+      "slug": "oceanside",
+      "description": "Neighboring coastal city with a bustling harbor, long pier, and an emerging dining and arts scene.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Oceanside pier and coastline at sunset",
+      "distance": "5 miles north",
+      "avgHomePrice": "$850K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "city",
+      "slug": "vista",
+      "description": "Inland community with parks, breweries, and family-oriented neighborhoods just minutes from Carlsbad.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood and tree-lined street in Vista",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$780K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "city",
+      "slug": "encinitas",
+      "description": "Beach town known for surfing culture, botanic gardens, and coastal dining just south of Carlsbad.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas surf waves at sunrise",
+      "distance": "7 miles south",
+      "avgHomePrice": "$1.4M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Education hub with Cal State San Marcos, hiking trails, and growing dining scene.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rolling green hills near San Marcos",
+      "distance": "10 miles east",
+      "avgHomePrice": "$820K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "LEGOLAND California Resort",
+      "description": "A top family destination with rides, attractions, and water park fun.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Roller coaster at theme park"
+    },
+    {
+      "title": "Carlsbad State Beach",
+      "description": "Beautiful stretch of sand perfect for surfing, swimming, or watching the sunset.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golden sunset over Pacific waves in Carlsbad"
+    },
+    {
+      "title": "The Flower Fields",
+      "description": "Seasonal burst of color with 50 acres of blooming ranunculus flowers.",
+      "icon": "🌸",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rows of blooming flowers under a blue sky"
+    },
+    {
+      "title": "Carlsbad Village",
+      "description": "Walkable downtown with boutiques, restaurants, live music, and community events.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Village street with string lights, shops and cafes"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Carlsbad?",
+      "answer": "Carlsbad Village, La Costa, and Aviara are popular for their amenities, schools, and proximity to the coast.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Carlsbad?",
+      "answer": "Carlsbad's real estate market is competitive, with high demand for coastal and family-oriented neighborhoods.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Carlsbad?",
+      "answer": "Enjoy the beaches, explore Carlsbad Village, visit LEGOLAND, or take in seasonal attractions like The Flower Fields.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Carlsbad?",
+      "answer": "Carlsbad is served by I-5, Coast Highway, and Coaster rail service, making it convenient for travel to San Diego or Orange County.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Carlsbad CA Real Estate & Lifestyle | Beaches, Village & Family Fun",
+    "metaDescription": "Discover Carlsbad's neighborhoods, stunning beaches, family attractions like LEGOLAND, and real estate options in North County San Diego.",
+    "keywords": "Carlsbad real estate, Carlsbad beaches, Carlsbad Village, living in Carlsbad, Carlsbad homes for sale",
+    "ogTitle": "Explore Carlsbad: Coastal Living & Family Fun",
+    "ogDescription": "Find your place in Carlsbad with its beaches, attractions, and vibrant community life.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Carlsbad shoreline and waves at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Carlsbad",
+      "description": "Explore real estate, neighborhoods, and highlights in Carlsbad, California.",
+      "url": "https://example.com/locations/carlsbad",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Carlsbad beach at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Carlsbad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carlsbad Village, La Costa, and Aviara are among the most sought-after neighborhoods for their amenities, schools, and proximity to the coast."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carlsbad offers a competitive market with high demand for both coastal homes and family-oriented neighborhoods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy Carlsbad's beaches, explore its charming village, visit LEGOLAND, and see The Flower Fields in bloom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I-5, Coast Highway, and Coaster rail make commuting to San Diego and Orange County straightforward."
+          }
+        }
+      ]
+    }
+  ]
+}

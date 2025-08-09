@@ -6,5 +6,13 @@
     "status": "Active",
     "createdAt": "2025-08-07T11:41:23.547Z",
     "updatedAt": "2025-08-07T11:41:23.547Z"
+  },
+  {
+    "id": "6895f8554b5062744da589f5",
+    "email": "bakhat@gmail.com",
+    "role": "Admin",
+    "status": "Active",
+    "createdAt": "2025-08-08T13:15:01.425Z",
+    "updatedAt": "2025-08-08T13:15:01.425Z"
   }
 ]

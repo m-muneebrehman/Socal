@@ -1,0 +1,183 @@
+{
+  "slug": "long-beach",
+  "name": "Long Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una vibrante ciudad costera con un puerto muy activo, atracciones frente al mar y una rica diversidad cultural.",
+  "fullDescription": "Long Beach es una dinámica ciudad costera en el sur de California, conocida por su bullicioso puerto, el Aquarium of the Pacific y el histórico transatlántico Queen Mary. La ciudad presenta un centro urbano animado, hermosas playas y una floreciente escena artística. Con su clima mediterráneo, gastronomía frente al mar y numerosas atracciones culturales, Long Beach ofrece una mezcla perfecta entre vida urbana y relajación junto a la playa.",
+  "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Orilla de Long Beach con palmeras y horizonte frente al mar",
+  "population": "450 mil+",
+  "avgHomePrice": "$850 mil",
+  "tags": ["Frente al mar", "Diversidad", "Cultura"],
+  "neighborhoods": [
+    {
+      "name": "Los Ángeles",
+      "type": "ciudad",
+      "slug": "los-angeles",
+      "description": "La capital del entretenimiento en el mundo, con diversos vecindarios y atracciones culturales.",
+      "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte de Los Ángeles al atardecer",
+      "distance": "22 millas al norte",
+      "avgHomePrice": "$1.2 M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "ciudad",
+      "slug": "huntington-beach",
+      "description": "Surf City USA, con 8.5 millas de playas y un centro vibrante.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Muelle de Huntington Beach con surfistas",
+      "distance": "12 millas al sureste",
+      "avgHomePrice": "$1.2 M",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "ciudad",
+      "slug": "anaheim",
+      "description": "Ciudad conocida por Disneyland, instalaciones deportivas y buena conectividad regional.",
+      "image": "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rueda de la fortuna de Disneyland en Anaheim",
+      "distance": "26 millas al este",
+      "avgHomePrice": "$1.0 M",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "ciudad",
+      "slug": "garden-grove",
+      "description": "Suburbio diverso con fuerte comunidad vietnamita-estadounidense y festivales distintivos.",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Catedral de Cristo en Garden Grove",
+      "distance": "16 millas al noreste",
+      "avgHomePrice": "$900 mil",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Vivir frente al mar",
+      "description": "Disfruta de millas de costa, el puerto Rainbow Harbor y el pintoresco Shoreline Village con opciones de comida y entretenimiento.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Frente marítimo en Long Beach con barcos y palmeras"
+    },
+    {
+      "title": "Atracciones culturales",
+      "description": "Visita el Aquarium of the Pacific, el Museo de Arte Latinoamericano y el histórico Queen Mary.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Exterior del Aquarium of the Pacific"
+    },
+    {
+      "title": "Barrios diversos",
+      "description": "Desde lofts urbanos en el centro hasta lujosas viviendas junto a los canales en Naples Island, Long Beach ofrece opciones variadas.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Coloridas casas históricas en Long Beach"
+    },
+    {
+      "title": "Actividades al aire libre",
+      "description": "Con 345 días soleados al año, disfruta de andar en bicicleta por el paseo marítimo, paddleboarding o visitar El Dorado Park.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Carril para bicicletas a lo largo de la costa de Long Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuáles son los mejores barrios en Long Beach?",
+      "answer": "Áreas populares incluyen Belmont Shore para vida junto al mar, Naples para viviendas lujosas junto a los canales y el centro para comodidades urbanas.",
+      "category": "Barrios"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Long Beach?",
+      "answer": "Long Beach ofrece opciones relativamente más accesibles que el cercano LA, con un precio medio de viviendas alrededor de $850 mil. Las propiedades frente al mar tienen precios superiores.",
+      "category": "Inmobiliaria"
+    },
+    {
+      "question": "¿Qué se puede hacer en Long Beach?",
+      "answer": "Disfruta de comida frente al mar, visita el Aquarium of the Pacific, explora el Queen Mary, compra en la 2nd Street o relájate en una de sus muchas playas y parques.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son los desplazamientos desde Long Beach?",
+      "answer": "Long Beach ofrece buen acceso a autopistas (710, 405) y la línea Metro Blue hacia el centro de LA. Los tiempos de desplazamiento varían entre 30 y 90 minutos a centros laborales clave.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Guía de estilo de vida e inmuebles en Long Beach | Vida costera cerca de LA",
+    "metaDescription": "Descubre la vida frente al mar, barrios diversos y atracciones culturales en Long Beach. Conoce por qué esta ciudad costera ofrece un estilo de vida ideal en el sur de California.",
+    "keywords": "inmuebles Long Beach, vida frente al mar, Belmont Shore, Naples Island, Aquarium of the Pacific, California costera",
+    "ogTitle": "Descubre Long Beach: vida costera cerca de Los Ángeles",
+    "ogDescription": "Explora los barrios, opciones inmobiliarias y estilo costero de Long Beach al sur de LA.",
+    "ogImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Horizonte frente al mar de Long Beach con palmeras",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Long Beach",
+      "description": "Descubre inmuebles, barrios y aspectos destacados de Long Beach, California.",
+      "url": "https://example.com/locations/long-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Orilla de Long Beach con palmeras y horizonte frente al mar"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Long Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores barrios en Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áreas populares incluyen Belmont Shore, Naples y el centro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Long Beach ofrece opciones más accesibles que LA, con un precio medio cerca de $850 mil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se puede hacer en Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disfruta de comida frente al mar, visita el acuario, explora el Queen Mary o relájate en las playas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son los desplazamientos desde Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buen acceso a autopistas y al Metro Blue Line hacia LA. Tiempos de desplazamiento entre 30 y 90 minutos."
+          }
+        }
+      ]
+    }
+  ]
+}

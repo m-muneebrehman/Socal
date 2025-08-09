@@ -1,0 +1,162 @@
+{
+  "slug": "vista",
+  "name": "Vista",
+  "state": "California",
+  "shortDescription": "An inland North County city known for parks, a growing craft‑beer scene, family events, and quick access to coastal communities.",
+  "fullDescription": "Vista is a family‑friendly inland city in North San Diego County with community parks, an active craft‑beer scene, and seasonal events. Residents enjoy proximity to Oceanside and Carlsbad beaches, nearby San Marcos trails and schools, and Escondido’s cultural attractions — offering a balanced lifestyle with suburban comfort and regional access.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree‑lined suburban street and neighborhood in Vista",
+  "population": "100K+",
+  "avgHomePrice": "$750K+",
+  "tags": [
+    "Parks",
+    "Family-friendly",
+    "Craft beer"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Oceanside",
+      "type": "city",
+      "slug": "oceanside",
+      "description": "Coastal city to the west with a historic pier, active harbor, and beach neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Oceanside pier and coastline at sunset",
+      "distance": "8 miles west",
+      "avgHomePrice": "$900K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Nearby coastal city with beaches, Carlsbad Village, and family attractions like LEGOLAND.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pacific waves along Carlsbad shoreline",
+      "distance": "7 miles southwest",
+      "avgHomePrice": "$1.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Education hub with Cal State San Marcos, trails, and growing dining options just east of Vista.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rolling green hills near San Marcos",
+      "distance": "6 miles east",
+      "avgHomePrice": "$820K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Escondido",
+      "type": "city",
+      "slug": "escondido",
+      "description": "Inland city with Daley Ranch hiking, a lively downtown on Grand Avenue, and the Safari Park.",
+      "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "California vineyard rows near Escondido",
+      "distance": "10 miles southeast",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks & Trails",
+      "description": "Community parks and nearby regional trails offer year‑round hiking, biking, and picnics.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scenic trail through North County hills"
+    },
+    {
+      "title": "Craft Beer & Dining",
+      "description": "Vista’s growing craft‑beer scene and local eateries make for lively evenings and weekend outings.",
+      "icon": "🍺",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with string lights, restaurants and patios"
+    },
+    {
+      "title": "Family Events & Arts",
+      "description": "Seasonal festivals, markets, and public art celebrate Vista’s community spirit.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Pedestrian street with shops and community activity"
+    },
+    {
+      "title": "Coastal Access",
+      "description": "Quick trips to Oceanside and Carlsbad beaches for surfing, sunsets, and harbor dining.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coastline and pier at sunset"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Vista?",
+      "answer": "Popular choices include family‑friendly suburban areas near parks and schools, and neighborhoods with quick access to San Marcos and coastal cities.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Vista?",
+      "answer": "Vista offers a range of homes from classic ranch styles to newer developments; prices are often more affordable than coastal towns while remaining close to the beach.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Vista?",
+      "answer": "Enjoy community parks, breweries and dining, seasonal events, and short drives to Oceanside and Carlsbad beaches.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Vista?",
+      "answer": "Vista connects via SR‑78 to I‑5 and I‑15 corridors, with COASTER rail and regional transit options to coastal and inland job centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Vista CA Real Estate & Lifestyle | Parks, Breweries & Coastal Access",
+    "metaDescription": "Discover Vista’s neighborhoods, parks, craft‑beer scene, and proximity to Oceanside and Carlsbad beaches in North San Diego County.",
+    "keywords": "Vista real estate, Vista parks, Vista breweries, North County San Diego, Vista neighborhoods",
+    "ogTitle": "Explore Vista: Family‑Friendly Living Near the Coast",
+    "ogDescription": "Learn about Vista neighborhoods, lifestyle, and easy access to coastal cities and regional trails.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista tree‑lined neighborhood street",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Vista",
+      "description": "Explore real estate, neighborhoods, and highlights in Vista, California.",
+      "url": "https://example.com/locations/vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista neighborhood street with trees"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Vista",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Family‑friendly areas near parks and schools, and locations with quick access to SR‑78 for coastal or inland commutes, are popular."
+          }
+        }
+      ]
+    }
+  ]
+}

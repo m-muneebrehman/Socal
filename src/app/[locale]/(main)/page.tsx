@@ -1,30 +1,32 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+
+import React, { useState, useEffect } from 'react'
+import { useParams } from 'next/navigation'
 import Hero from '@/components/sections/Hero/Hero'
 import Stats from '@/components/sections/Stats/Stats'
 import Cities from '@/components/sections/Cities/Cities'
 import Blog from '@/components/sections/Blog/Blog'
 import Services from '@/components/sections/Services/Services'
 import CTA from '@/components/sections/CTA/CTA'
-import { HomeData } from '@/types'
+import PrestigeLoading from '@/components/common/PrestigeLoading'
 
 const Home = () => {
-  const [homeData, setHomeData] = useState<HomeData | null>(null)
+  const params = useParams()
+  const [homeData, setHomeData] = useState<any>(null)
   const [loading, setLoading] = useState(true)
 
   const fetchHomeData = async () => {
     try {
-      console.log('🔄 Home page fetching data...')
-      // First try to fetch from API
+      // Try to fetch from the API first
       const response = await fetch('/api/home', {
         cache: 'no-store' // Disable caching
       })
+      
       if (response.ok) {
         const data = await response.json()
-        console.log('✅ Home page received data:', data)
+        console.log('✅ Home page received API data:', data)
         setHomeData(data)
       } else {
-        console.log('⚠️ API failed, trying JSON file...')
         // Fallback to local JSON file
         const localResponse = await fetch('/data/home.json', {
           cache: 'no-store' // Disable caching
@@ -89,14 +91,7 @@ const Home = () => {
   }, [])
 
   if (loading) {
-    return (
-      <main className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gold mx-auto"></div>
-          <p className="mt-4 text-lg">Loading...</p>
-        </div>
-      </main>
-    )
+    return <PrestigeLoading />
   }
 
   if (!homeData) {
@@ -120,7 +115,7 @@ const Home = () => {
     <main>
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
-      <Cities citiesData={homeData.cities} />
+      <Cities citiesData={homeData.cities} locale={(params as any).locale} />
       <Blog blogData={homeData.blog} />
       <Services servicesData={homeData.services} />
       <CTA ctaData={homeData.cta} />

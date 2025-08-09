@@ -1,17 +1,63 @@
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import citiesData from '@/data/cities.json'
+import { useParams } from 'next/navigation'
 import CitySearch from '@/components/sections/Cities/CitySearch'
 import CityGrid from '@/components/sections/Cities/CityGrid'
 import Pagination from '@/components/sections/Cities/Pagination'
+import PrestigeLoading from '@/components/common/PrestigeLoading'
+
+interface CityData {
+  slug: string
+  name: string
+  state: string
+  shortDescription: string
+  heroImage: string
+  population: string
+  avgHomePrice: string
+  tags: string[]
+  neighborhoods: any[]
+}
 
 const CitiesPage = () => {
   const t = useTranslations('cities')
+  const params = useParams()
+  const [citiesData, setCitiesData] = useState<CityData[]>([])
+  const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
   const citiesPerPage = 9
+
+  useEffect(() => {
+    const fetchCities = async () => {
+      try {
+        const locale = (params as any).locale || 'en'
+        const response = await fetch(`/api/cities/${locale}`)
+        
+        if (response.ok) {
+          const cities = await response.json()
+          setCitiesData(cities)
+        } else {
+          // Fallback to English if locale doesn't exist
+          const fallbackResponse = await fetch('/api/cities/en')
+          if (fallbackResponse.ok) {
+            const cities = await fallbackResponse.json()
+            setCitiesData(cities)
+          } else {
+            setCitiesData([])
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching cities:', error)
+        setCitiesData([])
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchCities()
+  }, [(params as any).locale])
 
   // Filter cities based on search term
   const filteredCities = useMemo(() => {
@@ -23,7 +69,7 @@ const CitiesPage = () => {
       city.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
       city.shortDescription.toLowerCase().includes(searchTerm.toLowerCase())
     )
-  }, [searchTerm])
+  }, [searchTerm, citiesData])
 
   // Calculate pagination
   const totalPages = Math.ceil(filteredCities.length / citiesPerPage)
@@ -35,6 +81,10 @@ const CitiesPage = () => {
   React.useEffect(() => {
     setCurrentPage(1)
   }, [searchTerm])
+
+  if (loading) {
+    return <PrestigeLoading />
+  }
 
   return (
     <main className="cities-page">
@@ -67,7 +117,7 @@ const CitiesPage = () => {
         <div className="cities-page-container">
           {filteredCities.length > 0 ? (
             <>
-              <CityGrid cities={currentCities} />
+              <CityGrid cities={currentCities} locale={(params as any).locale} />
               
               {/* Pagination */}
               {totalPages > 1 && (

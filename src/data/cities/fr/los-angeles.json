@@ -1,0 +1,208 @@
+{
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "state": "Californie",
+  "shortDescription": "La capitale mondiale du divertissement, offrant des quartiers diversifiés, des attractions culturelles et des opportunités infinies.",
+  "fullDescription": "Los Angeles est une vaste ville du sud de la Californie et le centre de l'industrie cinématographique et télévisuelle américaine. Près de son emblématique panneau Hollywood, des studios comme Paramount Pictures, Universal et Warner Brothers proposent des visites des coulisses. Sur Hollywood Boulevard, le TCL Chinese Theatre expose les empreintes de mains et de pieds de célébrités, le Walk of Fame honore des milliers de personnalités et des vendeurs proposent des cartes des maisons des stars.",
+  "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Vue aérienne du centre-ville de Los Angeles au coucher du soleil",
+  "population": "4M+",
+  "avgHomePrice": "1,2M$",
+  "tags": [
+    "Divertissement",
+    "Diversité",
+    "Culture"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Ville côtière avec un port animé, l'aquarium du Pacifique et des attractions en bord de mer.",
+      "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+      "imageAlt": "Littoral de Long Beach avec palmiers",
+      "distance": "35 km au sud",
+      "avgHomePrice": "850K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Accueille la station Disneyland, l'Angel Stadium et un centre de conventions animé.",
+      "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+      "imageAlt": "Château de Disneyland la nuit",
+      "distance": "43 km au sud-est",
+      "avgHomePrice": "780K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "city",
+      "slug": "irvine",
+      "description": "Ville planifiée réputée pour ses écoles excellentes, ses centres d'affaires et ses parcs.",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+      "imageAlt": "Quartier d'affaires d'Irvine avec bâtiments modernes",
+      "distance": "64 km au sud-est",
+      "avgHomePrice": "1,1M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Emblématique ville balnéaire avec son célèbre pier, quartiers commerçants et bureaux tech.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+      "imageAlt": "Pier de Santa Monica au coucher du soleil",
+      "distance": "24 km à l'ouest",
+      "avgHomePrice": "1,8M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Centre culturel avec le Rose Bowl, Caltech et une architecture historique.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "imageAlt": "Hôtel de ville de Pasadena la nuit",
+      "distance": "16 km au nord-est",
+      "avgHomePrice": "1,3M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Surf City USA avec 13,7 km de plages et un centre-ville animé.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+      "imageAlt": "Pier de Huntington Beach avec surfeurs",
+      "distance": "56 km au sud-est",
+      "avgHomePrice": "1,2M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hollywood et Divertissement",
+      "description": "Siège de la plus grande industrie du divertissement au monde, avec des lieux emblématiques comme le Walk of Fame, le TCL Chinese Theatre et Universal Studios.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+      "bgImageAlt": "Panneau Hollywood surplombant Los Angeles avec ciel bleu"
+    },
+    {
+      "title": "Quartiers Diversifiés",
+      "description": "Du branché Venice Beach au chic Beverly Hills, LA offre des quartiers uniques avec chacun son caractère et son charme.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+      "bgImageAlt": "Rue bordée de palmiers à Beverly Hills avec maisons de luxe"
+    },
+    {
+      "title": "Attractions Culturelles",
+      "description": "Musées de classe mondiale dont le Getty Center, le LACMA et The Broad présentant des œuvres du monde entier.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+      "bgImageAlt": "Musée Getty Center avec architecture moderne"
+    },
+    {
+      "title": "Mode de Vie en Plein Air",
+      "description": "Avec 284 jours d'ensoleillement par an, LA offre des activités outdoor sans fin des randonnées dans les collines d'Hollywood au surf à Malibu.",
+      "icon": "🌞",
+      "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "bgImageAlt": "Surfeurs à la plage de Malibu par journée ensoleillée"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quels sont les meilleurs quartiers de Los Angeles ?",
+      "answer": "Les quartiers populaires incluent Beverly Hills pour le luxe, Venice Beach pour la créativité, Santa Monica pour la vie balnéaire et Downtown LA pour la vie urbaine. Chaque zone offre des commodités et options de style de vie uniques.",
+      "category": "Quartiers"
+    },
+    {
+      "question": "Comment est le marché immobilier à Los Angeles ?",
+      "answer": "Le marché immobilier de LA est compétitif avec forte demande et offre limitée. Le prix médian d'une maison est d'environ 1,2M$, avec des propriétés de luxe dans les zones premium atteignant des prix élevés.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quel est le coût de la vie à Los Angeles ?",
+      "answer": "Los Angeles a un coût de la vie élevé, particulièrement pour le logement. Cependant, la ville offre des options variées allant des condos de luxe aux maisons familiales, avec différents niveaux de prix selon les quartiers.",
+      "category": "Coût de la vie"
+    },
+    {
+      "question": "Quel temps fait-il à Los Angeles ?",
+      "answer": "LA bénéficie d'un climat méditerranéen avec des hivers doux et humides, et des étés chauds et secs. La ville compte en moyenne 284 jours d'ensoleillement par an, idéal pour les activités en plein air.",
+      "category": "Météo"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Guide Immobilier & Lifestyle Los Angeles - Vie de Luxe à LA",
+    "metaDescription": "Découvrez l'immobilier de luxe, les meilleurs quartiers et les points culturels à Los Angeles. Explorez pourquoi LA est une destination phare pour vivre et investir.",
+    "keywords": "immobilier Los Angeles, lifestyle LA, Beverly Hills, Santa Monica, Hollywood, Venice Beach, attractions culturelles, mode de vie outdoor",
+    "ogTitle": "Découvrez Los Angeles : Guide Immobilier de Luxe & Lifestyle",
+    "ogDescription": "Explorez des quartiers diversifiés, des insights immobiliers et les points forts de Los Angeles. Trouvez votre maison de rêve au cœur de la Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Skyline de Los Angeles au coucher du soleil",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Los Angeles",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Los Angeles en Californie.",
+      "url": "https://example.com/locations/los-angeles",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue aérienne du centre-ville de Los Angeles au coucher du soleil"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Los Angeles",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les meilleurs quartiers de Los Angeles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les quartiers populaires incluent Beverly Hills pour le luxe, Venice Beach pour la créativité, Santa Monica pour la vie balnéaire et Downtown LA pour la vie urbaine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Los Angeles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier de LA est compétitif avec forte demande et offre limitée. Le prix médian d'une maison est d'environ 1,2M$."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel est le coût de la vie à Los Angeles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los Angeles a un coût de la vie élevé, particulièrement pour le logement. La ville offre des options variées avec différents niveaux de prix."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel temps fait-il à Los Angeles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LA compte 284 jours d'ensoleillement par an avec un climat méditerranéen, idéal pour les activités en plein air."
+          }
+        }
+      ]
+    }
+  ]
+}
