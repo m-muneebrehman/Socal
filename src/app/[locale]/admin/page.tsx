@@ -54,8 +54,8 @@ export default function AdminDashboard() {
   // Data states
   const [users, setUsers] = useState<User[]>([])
   const [blogs, setBlogs] = useState<Blog[]>([])
-  const [cities, setCities] = useState<City[]>([])
-  const [filteredCities, setFilteredCities] = useState<City[]>([])
+  const [cities, setCities] = useState<any[]>([])
+  const [filteredCities, setFilteredCities] = useState<any[]>([])
   const [filteredUsers, setFilteredUsers] = useState<User[]>([])
   const [searchQuery, setSearchQuery] = useState('')
   const [toasts, setToasts] = useState<Array<{ id: string; type: 'success' | 'error' | 'warning' | 'info'; message: string }>>([])
@@ -175,8 +175,40 @@ export default function AdminDashboard() {
     views: 0,
     likes: 0
   }
+  type AdminNeighborhood = {
+    name: string
+    type: 'neighborhood' | 'city'
+    slug: string
+    description: string
+    image: string
+    imageAlt?: string
+    distance: string
+    avgHomePrice: string
+    county: string
+  }
+
+  interface AdminCityForm {
+    _id?: string
+    slug: string
+    name: string
+    state: string
+    population: string
+    avgHomePrice: string
+    heroImage?: string
+    heroImageAlt?: string
+    shortDescription: string
+    fullDescription?: string
+    tags: string[] | string
+    neighborhoods: AdminNeighborhood[]
+    highlights: { title: string; description: string; icon: string; bgImage: string; bgImageAlt?: string }[]
+    faqs: { question: string; answer: string; category: string }[]
+    seo?: { metaTitle: string; metaDescription: string; keywords?: string; ogTitle?: string; ogDescription?: string; ogImage?: string; ogImageAlt?: string; twitterCard?: string }
+    schema_markup?: any[]
+    language?: string
+  }
+
   const [blogForm, setBlogForm] = useState<Blog>(emptyBlog)
-  const [cityForm, setCityForm] = useState<City>({
+  const [cityForm, setCityForm] = useState<AdminCityForm>({
     _id: '',
     slug: '',
     name: '',
@@ -186,11 +218,22 @@ export default function AdminDashboard() {
     heroImage: '',
     shortDescription: '',
     tags: [],
-    neighborhoods: [''],
+    neighborhoods: [
+      {
+        name: '',
+        type: 'neighborhood',
+        slug: '',
+        description: '',
+        image: '',
+        imageAlt: '',
+        distance: '',
+        avgHomePrice: '',
+        county: ''
+      }
+    ],
     highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
     faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-    fullDescription: '',
-    clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+    fullDescription: ''
   })
   
   const [loadingData, setLoadingData] = useState(false)
@@ -228,7 +271,9 @@ export default function AdminDashboard() {
 
   const fetchCities = async () => {
     try {
-      const response = await fetch('/admin/api/cities')
+      // default to 'en' if missing
+      const selectedLang = (typeof window !== 'undefined' && localStorage.getItem('adminCitiesLang')) || 'en'
+      const response = await fetch(`/admin/api/cities?language=${encodeURIComponent(selectedLang)}`)
       if (response.ok) {
         const data = await response.json()
         console.log('Fetched cities data:', data)
@@ -284,7 +329,7 @@ export default function AdminDashboard() {
   }
 
   // Function to handle adding new city
-  const handleAddCity = () => {
+  const handleAddCity = (preferredLanguage?: string) => {
     setEditingCity(null)
     setCityForm({
       _id: '',
@@ -296,11 +341,13 @@ export default function AdminDashboard() {
       heroImage: '',
       shortDescription: '',
       tags: [],
-      neighborhoods: [''],
+      neighborhoods: [
+        { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+      ],
       highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
       faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
       fullDescription: '',
-      clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+      language: preferredLanguage || (typeof window !== 'undefined' && (localStorage.getItem('adminCitiesLang') || 'en')) || 'en'
     })
     setShowCityModal(true)
   }
@@ -402,10 +449,10 @@ export default function AdminDashboard() {
     }
   }
 
-  const createCity = async (cityData: City) => {
+  const createCity = async (cityData: any) => {
     try {
       // Filter out empty values from arrays
-      const filteredNeighborhoods = cityData.neighborhoods.filter((n: string) => n.trim() !== '')
+      const filteredNeighborhoods = (cityData.neighborhoods as any[]).filter((n) => n && n.name && n.slug)
       const filteredHighlights = cityData.highlights.filter((h: { title: string; description: string; icon: string; bgImage: string }) => 
         h && h.title && h.description && h.title.trim() !== '' && h.description.trim() !== ''
       )
@@ -413,13 +460,17 @@ export default function AdminDashboard() {
         f && f.question && f.answer && 
         f.question.trim() !== '' && f.answer.trim() !== ''
       )
-      const filteredClients = cityData.clients?.filter((c: { name: string; description: string; image: string; rating: number; review: string }) => 
-        c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
-      ) || []
+      // clients removed
 
-      // Process tags safely - now tags is always an array
-      const processedTags = cityData.tags.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
+      // Process tags safely - tags may be string or array
+      const tagsArray = Array.isArray(cityData.tags)
+        ? (cityData.tags as string[])
+        : (typeof cityData.tags === 'string' && cityData.tags.length > 0
+            ? cityData.tags.split(',').map((t: string) => t.trim()).filter((t: string) => t !== '')
+            : [])
+      const processedTags = tagsArray.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
 
+      const selectedLang = (typeof window !== 'undefined' && localStorage.getItem('adminCitiesLang')) || 'en'
       const cityPayload = {
         slug: cityData.slug,
         name: cityData.name,
@@ -428,18 +479,16 @@ export default function AdminDashboard() {
         avgHomePrice: cityData.avgHomePrice,
         heroImage: cityData.heroImage,
         heroImageAlt: cityData.heroImageAlt,
-        canonicalUrl: cityData.canonicalUrl,
         shortDescription: cityData.shortDescription,
         fullDescription: cityData.fullDescription,
         tags: processedTags,
         neighborhoods: filteredNeighborhoods,
         highlights: filteredHighlights,
         faqs: filteredFaqs,
-        clients: filteredClients,
-        hreflang_tags: cityData.hreflang_tags,
+        
         seo: cityData.seo,
         schema_markup: cityData.schema_markup,
-        internal_links: cityData.internal_links
+        language: cityData.language || selectedLang
       }
 
       console.log('Sending city data:', cityPayload)
@@ -464,15 +513,14 @@ export default function AdminDashboard() {
           avgHomePrice: '',
           heroImage: '',
           heroImageAlt: '',
-          canonicalUrl: '',
           shortDescription: '',
           fullDescription: '',
           tags: [],
-          neighborhoods: [''],
+          neighborhoods: [
+            { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+          ],
           highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-          clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
-          hreflang_tags: [{ hreflang: 'en', href: '' }],
           seo: {
             metaTitle: '',
             metaDescription: '',
@@ -483,8 +531,7 @@ export default function AdminDashboard() {
             ogImageAlt: '',
             twitterCard: 'summary_large_image'
           },
-          schema_markup: [],
-          internal_links: [{ href: '', anchor: '', context: '' }]
+          schema_markup: []
         })
         addToast('success', 'City created successfully!')
       } else {
@@ -627,10 +674,10 @@ export default function AdminDashboard() {
     }
   }
 
-  const updateCity = async (cityData: City) => {
+  const updateCity = async (cityData: any) => {
     try {
       // Filter out empty values from arrays
-      const filteredNeighborhoods = cityData.neighborhoods.filter((n: string) => n.trim() !== '')
+      const filteredNeighborhoods = (cityData.neighborhoods as any[]).filter((n) => n && n.name && n.slug)
       const filteredHighlights = cityData.highlights.filter((h: { title: string; description: string; icon: string; bgImage: string }) => 
         h && h.title && h.description && h.title.trim() !== '' && h.description.trim() !== ''
       )
@@ -638,13 +685,17 @@ export default function AdminDashboard() {
         f && f.question && f.answer && 
         f.question.trim() !== '' && f.answer.trim() !== ''
       )
-      const filteredClients = cityData.clients?.filter((c: { name: string; description: string; image: string; rating: number; review: string }) => 
-        c && c.name && c.description && c.name.trim() !== '' && c.description.trim() !== ''
-      ) || []
+      // clients removed
 
-      // Process tags safely - now tags is always an array
-      const processedTags = cityData.tags.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
+      // Process tags safely - tags may be string or array
+      const tagsArray = Array.isArray(cityData.tags)
+        ? (cityData.tags as string[])
+        : (typeof cityData.tags === 'string' && cityData.tags.length > 0
+            ? cityData.tags.split(',').map((t: string) => t.trim()).filter((t: string) => t !== '')
+            : [])
+      const processedTags = tagsArray.filter((tag: string) => tag && typeof tag === 'string' && tag.trim() !== '')
 
+      const selectedLang = (typeof window !== 'undefined' && localStorage.getItem('adminCitiesLang')) || 'en'
       const cityPayload = {
         _id: cityData._id,
         slug: cityData.slug,
@@ -654,18 +705,16 @@ export default function AdminDashboard() {
         avgHomePrice: cityData.avgHomePrice,
         heroImage: cityData.heroImage,
         heroImageAlt: cityData.heroImageAlt,
-        canonicalUrl: cityData.canonicalUrl,
         shortDescription: cityData.shortDescription,
         fullDescription: cityData.fullDescription,
         tags: processedTags,
         neighborhoods: filteredNeighborhoods,
         highlights: filteredHighlights,
         faqs: filteredFaqs,
-        clients: filteredClients,
-        hreflang_tags: cityData.hreflang_tags,
+        
         seo: cityData.seo,
         schema_markup: cityData.schema_markup,
-        internal_links: cityData.internal_links
+        language: cityData.language || selectedLang
       }
 
       console.log('Updating city data:', cityPayload)
@@ -691,15 +740,14 @@ export default function AdminDashboard() {
           avgHomePrice: '',
           heroImage: '',
           heroImageAlt: '',
-          canonicalUrl: '',
           shortDescription: '',
           fullDescription: '',
           tags: [],
-          neighborhoods: [''],
+          neighborhoods: [
+            { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+          ],
           highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
           faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-          clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
-          hreflang_tags: [{ hreflang: 'en', href: '' }],
           seo: {
             metaTitle: '',
             metaDescription: '',
@@ -710,8 +758,7 @@ export default function AdminDashboard() {
             ogImageAlt: '',
             twitterCard: 'summary_large_image'
           },
-          schema_markup: [],
-          internal_links: [{ href: '', anchor: '', context: '' }]
+          schema_markup: []
         })
         addToast('success', 'City updated successfully!')
       } else {
@@ -756,6 +803,28 @@ export default function AdminDashboard() {
     }
   }, [user])
 
+  // Listen to language changes from CityManager and refetch cities
+  useEffect(() => {
+    const onLang = (e: any) => {
+      const lang = (e?.detail?.language as string) || 'en'
+      fetch(`/admin/api/cities?language=${encodeURIComponent(lang)}`)
+        .then(r => r.ok ? r.json() : [])
+        .then((data) => {
+          setCities(data)
+          setFilteredCities(data)
+        })
+        .catch((err) => console.error('Error refetching cities by lang:', err))
+    }
+    if (typeof window !== 'undefined') {
+      window.addEventListener('adminCitiesLangChanged', onLang as any)
+    }
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('adminCitiesLangChanged', onLang as any)
+      }
+    }
+  }, [])
+
   // Filter data based on search query
   useEffect(() => {
     if (searchQuery.trim() === '') {
@@ -763,11 +832,11 @@ export default function AdminDashboard() {
       setFilteredUsers(users)
     } else {
       // Filter cities
-      const filteredCities = cities.filter(city => 
+      const filteredCities = cities.filter((city: any) => 
         city.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         city.state.toLowerCase().includes(searchQuery.toLowerCase()) ||
         city.shortDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        city.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        (Array.isArray(city.tags) ? city.tags : (typeof city.tags === 'string' ? city.tags.split(',').map((t: string) => t.trim()) : [])).some((tag: string) => tag.toLowerCase().includes(searchQuery.toLowerCase()))
       )
       setFilteredCities(filteredCities)
 
@@ -1484,15 +1553,15 @@ export default function AdminDashboard() {
                   avgHomePrice: '',
                   heroImage: '',
                   heroImageAlt: '',
-                  canonicalUrl: '',
                   shortDescription: '',
                   fullDescription: '',
                   tags: [],
-                  neighborhoods: [''],
+                  neighborhoods: [
+                    { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+                  ],
                   highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-                  clients: [{ name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }],
-                  hreflang_tags: [{ hreflang: 'en', href: '' }],
+                  
                   seo: {
                     metaTitle: '',
                     metaDescription: '',
@@ -1503,8 +1572,7 @@ export default function AdminDashboard() {
                     ogImageAlt: '',
                     twitterCard: 'summary_large_image'
                   },
-                  schema_markup: [],
-                  internal_links: [{ href: '', anchor: '', context: '' }]
+                  schema_markup: []
                 })
               }} className="close-btn">
                 <X size={20} />
@@ -1598,15 +1666,19 @@ export default function AdminDashboard() {
                     />
                   </div>
                   <div className="form-group">
-                    <label className="form-label">Canonical URL <span className="required">*</span></label>
-                    <input 
-                      type="url" 
-                      className="form-input" 
-                      placeholder="https://example.com/locations/los-angeles"
-                      value={cityForm.canonicalUrl}
-                      onChange={(e) => setCityForm({...cityForm, canonicalUrl: e.target.value})}
-                      required
-                    />
+                    <label className="form-label">Language <span className="required">*</span></label>
+                    <select 
+                      className="form-select"
+                      value={cityForm.language || ((typeof window !== 'undefined' && (localStorage.getItem('adminCitiesLang') || 'en')) || 'en')}
+                      onChange={(e) => setCityForm({ ...cityForm, language: e.target.value })}
+                    >
+                      <option value="en">English</option>
+                      <option value="es">Spanish</option>
+                      <option value="fr">French</option>
+                      <option value="de">German</option>
+                      <option value="zh">Chinese</option>
+                      <option value="ar">Arabic</option>
+                    </select>
                   </div>
                 </div>
                 
@@ -1648,25 +1720,149 @@ export default function AdminDashboard() {
                 <div className="form-group">
                   <label className="form-label">Neighborhoods <span className="required">*</span></label>
                   {cityForm.neighborhoods.map((neighborhood, index) => (
-                    <div key={index} className="flex gap-2 mb-2">
+                    <div key={index} className="p-4 rounded mb-4">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">Name <span className="required">*</span></label>
                       <input 
                         type="text" 
-                        className="form-input flex-1" 
-                        placeholder="Hollywood"
-                        value={neighborhood}
+                            className="form-input"
+                            placeholder="Belmont Shore"
+                            value={neighborhood.name}
                         onChange={(e) => {
                           const newNeighborhoods = [...cityForm.neighborhoods]
-                          newNeighborhoods[index] = e.target.value
-                          setCityForm({...cityForm, neighborhoods: newNeighborhoods})
+                              newNeighborhoods[index] = { ...neighborhood, name: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
                         }}
                         required
                       />
+                        </div>
+                        <div>
+                          <label className="form-label">Slug <span className="required">*</span></label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="belmont-shore"
+                            value={neighborhood.slug}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, slug: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">Type <span className="required">*</span></label>
+                          <select
+                            className="form-input"
+                            value={neighborhood.type}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, type: e.target.value as any }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          >
+                            <option value="neighborhood">neighborhood</option>
+                            <option value="city">city</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label className="form-label">County</label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="Los Angeles"
+                            value={neighborhood.county || ''}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, county: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">Avg Home Price</label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="$1.2M"
+                            value={neighborhood.avgHomePrice || ''}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, avgHomePrice: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          />
+                        </div>
+                        <div>
+                          <label className="form-label">Distance</label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="3 miles southeast"
+                            value={neighborhood.distance || ''}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, distance: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div>
+                          <label className="form-label">Image</label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="https://..."
+                            value={neighborhood.image || ''}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, image: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          />
+                        </div>
+                        <div>
+                          <label className="form-label">Image Alt</label>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="Image description"
+                            value={neighborhood.imageAlt || ''}
+                            onChange={(e) => {
+                              const newNeighborhoods = [...cityForm.neighborhoods]
+                              newNeighborhoods[index] = { ...neighborhood, imageAlt: e.target.value }
+                              setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div className="mb-4">
+                        <label className="form-label">Description</label>
+                        <textarea
+                          className="form-textarea"
+                          placeholder="Neighborhood description..."
+                          value={neighborhood.description || ''}
+                          onChange={(e) => {
+                            const newNeighborhoods = [...cityForm.neighborhoods]
+                            newNeighborhoods[index] = { ...neighborhood, description: e.target.value }
+                            setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
+                          }}
+                        />
+                      </div>
                       {cityForm.neighborhoods.length > 1 && (
                         <button 
                           type="button"
                           onClick={() => {
                             const newNeighborhoods = cityForm.neighborhoods.filter((_, i) => i !== index)
-                            setCityForm({...cityForm, neighborhoods: newNeighborhoods})
+                            setCityForm({ ...cityForm, neighborhoods: newNeighborhoods })
                           }}
                           className="btn-remove"
                         >
@@ -1677,7 +1873,13 @@ export default function AdminDashboard() {
                   ))}
                   <button 
                     type="button"
-                    onClick={() => setCityForm({...cityForm, neighborhoods: [...cityForm.neighborhoods, '']})}
+                    onClick={() => setCityForm({
+                      ...cityForm,
+                      neighborhoods: [
+                        ...cityForm.neighborhoods,
+                        { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+                      ]
+                    })}
                     className="btn-add btn-add-neighborhood"
                   >
                     Add Neighborhood
@@ -1872,132 +2074,7 @@ export default function AdminDashboard() {
                   </button>
                 </div>
 
-                {/* Clients */}
-                <div className="form-group">
-                  <label className="form-label">Client Testimonials</label>
-                  {cityForm.clients?.map((client, index) => (
-                    <div key={index} className="p-4 rounded mb-4">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                        <div>
-                          <label className="form-label">Name <span className="required">*</span></label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            placeholder="Sarah Mitchell"
-                            value={client.name}
-                            onChange={(e) => {
-                              const newClients = [...(cityForm.clients || [])]
-                              newClients[index] = {...client, name: e.target.value}
-                              setCityForm({...cityForm, clients: newClients})
-                            }}
-                            required
-                          />
-                        </div>
-                        <div>
-                          <label className="form-label">Description <span className="required">*</span></label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            placeholder="Tech Entrepreneur"
-                            value={client.description}
-                            onChange={(e) => {
-                              const newClients = [...(cityForm.clients || [])]
-                              newClients[index] = {...client, description: e.target.value}
-                              setCityForm({...cityForm, clients: newClients})
-                            }}
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                        <div>
-                          <label className="form-label">Image URL <span className="required">*</span></label>
-                          <input 
-                            type="url" 
-                            className="form-input" 
-                            placeholder="https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80"
-                            value={client.image}
-                            onChange={(e) => {
-                              const newClients = [...(cityForm.clients || [])]
-                              newClients[index] = {...client, image: e.target.value}
-                              setCityForm({...cityForm, clients: newClients})
-                            }}
-                            required
-                          />
-                        </div>
-                        <div>
-                          <label className="form-label">Image Alt Text</label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            placeholder="Portrait of Sarah Mitchell smiling outdoors"
-                            value={client.imageAlt || ''}
-                            onChange={(e) => {
-                              const newClients = [...(cityForm.clients || [])]
-                              newClients[index] = {...client, imageAlt: e.target.value}
-                              setCityForm({...cityForm, clients: newClients})
-                            }}
-                          />
-                        </div>
-                        <div>
-                          <label className="form-label">Rating <span className="required">*</span></label>
-                          <select 
-                            className="form-select"
-                            value={client.rating}
-                            onChange={(e) => {
-                              const newClients = [...(cityForm.clients || [])]
-                              newClients[index] = {...client, rating: parseInt(e.target.value)}
-                              setCityForm({...cityForm, clients: newClients})
-                            }}
-                            required
-                          >
-                            <option value={1}>1 Star</option>
-                            <option value={2}>2 Stars</option>
-                            <option value={3}>3 Stars</option>
-                            <option value={4}>4 Stars</option>
-                            <option value={5}>5 Stars</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div className="mb-4">
-                        <label className="form-label">Review <span className="required">*</span></label>
-                        <textarea 
-                          className="form-textarea" 
-                          placeholder="Found my dream home in Venice Beach! The team understood exactly what I was looking for and made the process seamless."
-                          value={client.review}
-                          onChange={(e) => {
-                            const newClients = [...(cityForm.clients || [])]
-                            newClients[index] = {...client, review: e.target.value}
-                            setCityForm({...cityForm, clients: newClients})
-                          }}
-                          required
-                        ></textarea>
-                      </div>
-                      {(cityForm.clients?.length || 0) > 1 && (
-                        <button 
-                          type="button"
-                          onClick={() => {
-                            const newClients = (cityForm.clients || []).filter((_, i) => i !== index)
-                            setCityForm({...cityForm, clients: newClients})
-                          }}
-                          className="btn-remove"
-                        >
-                          Remove Client
-                        </button>
-                      )}
-                    </div>
-                  ))}
-                  <button 
-                    type="button"
-                    onClick={() => setCityForm({
-                      ...cityForm, 
-                      clients: [...(cityForm.clients || []), { name: '', description: '', image: '', imageAlt: '', rating: 5, review: '' }]
-                    })}
-                    className="btn-add btn-add-client"
-                  >
-                    Add Client
-                  </button>
-                </div>
+                {/* Clients removed */}
 
                 {/* SEO Section */}
                 <div className="form-group">
@@ -2191,155 +2268,17 @@ export default function AdminDashboard() {
                   </div>
                 </div>
 
-                {/* Hreflang Tags */}
-                <div className="form-group">
-                  <label className="form-label">Hreflang Tags <span className="required">*</span></label>
-                  {cityForm.hreflang_tags?.map((tag, index) => (
-                    <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-2">
-                      <div>
-                        <label className="form-label">Language <span className="required">*</span></label>
-                        <select 
-                          className="form-select"
-                          value={tag.hreflang}
-                          onChange={(e) => {
-                            const newTags = [...(cityForm.hreflang_tags || [])]
-                            newTags[index] = {...tag, hreflang: e.target.value}
-                            setCityForm({...cityForm, hreflang_tags: newTags})
-                          }}
-                          required
-                        >
-                          <option value="en">English</option>
-                          <option value="de">German</option>
-                          <option value="fr">French</option>
-                          <option value="zh">Chinese</option>
-                          <option value="ar">Arabic</option>
-                          <option value="es">Spanish</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="form-label">URL <span className="required">*</span></label>
-                        <input 
-                          type="url" 
-                          className="form-input" 
-                          placeholder="https://example.com/en/locations/los-angeles"
-                          value={tag.href}
-                          onChange={(e) => {
-                            const newTags = [...(cityForm.hreflang_tags || [])]
-                            newTags[index] = {...tag, href: e.target.value}
-                            setCityForm({...cityForm, hreflang_tags: newTags})
-                          }}
-                          required
-                        />
-                      </div>
-                      {(cityForm.hreflang_tags?.length || 0) > 1 && (
-                        <button 
-                          type="button"
-                          onClick={() => {
-                            const newTags = (cityForm.hreflang_tags || []).filter((_, i) => i !== index)
-                            setCityForm({...cityForm, hreflang_tags: newTags})
-                          }}
-                          className="btn-remove"
-                        >
-                          Remove
-                        </button>
-                      )}
-                    </div>
-                  ))}
-                  <button 
-                    type="button"
-                    onClick={() => setCityForm({
-                      ...cityForm, 
-                      hreflang_tags: [...(cityForm.hreflang_tags || []), { hreflang: 'en', href: '' }]
-                    })}
-                    className="btn-add"
-                  >
-                    Add Hreflang Tag
-                  </button>
-                </div>
+                {/* Hreflang Tags removed */}
+                
 
-                {/* Internal Links */}
-                <div className="form-group">
-                  <label className="form-label">Internal Links <span className="required">*</span></label>
-                  {cityForm.internal_links?.map((link, index) => (
-                    <div key={index} className="p-4 rounded mb-4">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                        <div>
-                          <label className="form-label">URL <span className="required">*</span></label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            placeholder="/real-estate/beverly-hills"
-                            value={link.href}
-                            onChange={(e) => {
-                              const newLinks = [...(cityForm.internal_links || [])]
-                              newLinks[index] = {...link, href: e.target.value}
-                              setCityForm({...cityForm, internal_links: newLinks})
-                            }}
-                            required
-                          />
-                        </div>
-                        <div>
-                          <label className="form-label">Anchor Text <span className="required">*</span></label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            placeholder="Luxury Homes in Beverly Hills"
-                            value={link.anchor}
-                            onChange={(e) => {
-                              const newLinks = [...(cityForm.internal_links || [])]
-                              newLinks[index] = {...link, anchor: e.target.value}
-                              setCityForm({...cityForm, internal_links: newLinks})
-                            }}
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="mb-4">
-                        <label className="form-label">Context</label>
-                        <input 
-                          type="text" 
-                          className="form-input" 
-                          placeholder="Explore exclusive real estate listings in Beverly Hills"
-                          value={link.context || ''}
-                          onChange={(e) => {
-                            const newLinks = [...(cityForm.internal_links || [])]
-                            newLinks[index] = {...link, context: e.target.value}
-                            setCityForm({...cityForm, internal_links: newLinks})
-                          }}
-                        />
-                      </div>
-                      {(cityForm.internal_links?.length || 0) > 1 && (
-                        <button 
-                          type="button"
-                          onClick={() => {
-                            const newLinks = (cityForm.internal_links || []).filter((_, i) => i !== index)
-                            setCityForm({...cityForm, internal_links: newLinks})
-                          }}
-                          className="btn-remove"
-                        >
-                          Remove Link
-                        </button>
-                      )}
-                    </div>
-                  ))}
-                  <button 
-                    type="button"
-                    onClick={() => setCityForm({
-                      ...cityForm, 
-                      internal_links: [...(cityForm.internal_links || []), { href: '', anchor: '', context: '' }]
-                    })}
-                    className="btn-add"
-                  >
-                    Add Internal Link
-                  </button>
-                </div>
+                {/* Internal Links removed */}
               </form>
             </div>
             <div className="form-actions">
               <button type="button" onClick={() => {
                 setShowCityModal(false)
                 setEditingCity(null)
-                setCityForm({
+                 setCityForm({
                   _id: '',
                   slug: '',
                   name: '',
@@ -2349,11 +2288,13 @@ export default function AdminDashboard() {
                   heroImage: '',
                   shortDescription: '',
                   tags: [],
-                  neighborhoods: [''],
+                  neighborhoods: [
+                    { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
+                  ],
                   highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
                   fullDescription: '',
-                  clients: [{ name: '', description: '', image: '', rating: 5, review: '' }]
+                   
                 })
               }} className="btn btn-secondary">Cancel</button>
               <button type="button" onClick={() => {

@@ -1,0 +1,198 @@
+{
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "state": "Kalifornien",
+    "language": "de",
+    "shortDescription": "Eine lebendige Küstenstadt mit einem geschäftigen Hafen, Uferpromenaden und kultureller Vielfalt.",
+    "fullDescription": "Long Beach ist eine dynamische Küstenstadt in Südkalifornien, bekannt für ihren großen Hafen, das Aquarium des Pazifiks und das historische Ozeandampferschiff Queen Mary. Die Stadt verfügt über eine lebhafte Innenstadt, schöne Strände und eine blühende Kunstszene. Mit ihrem mediterranen Klima, Restaurants am Wasser und zahlreichen kulturellen Attraktionen bietet Long Beach die perfekte Mischung aus urbanem Leben und Stranderholung.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "heroImageAlt": "Küstenlinie von Long Beach mit Palmen und Skyline am Wasser",
+    "population": "450.000+",
+    "avgHomePrice": "850.000$",
+    "tags": [
+        "Wasserlage",
+        "Vielfalt",
+        "Kultur"
+    ],
+    "neighborhoods": [
+        {
+            "name": "Downtown Long Beach",
+            "type": "neighborhood",
+            "slug": "downtown-long-beach",
+            "description": "Das urbane Zentrum mit Hochhauswohnungen, Nachtleben an der Pine Avenue und dem Convention Center.",
+            "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+            "imageAlt": "Skyline von Downtown Long Beach in der Dämmerung",
+            "distance": "Stadtzentrum",
+            "avgHomePrice": "950.000$",
+            "county": "Los Angeles"
+        },
+        {
+            "name": "Belmont Shore",
+            "type": "neighborhood",
+            "slug": "belmont-shore",
+            "description": "Strandnahe Gemeinschaft mit charmanten Bungalows, Einkaufsmöglichkeiten an der Second Street und Marina-Zugang.",
+            "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+            "imageAlt": "Strandhäuser und Palmen in Belmont Shore",
+            "distance": "5 km südöstlich",
+            "avgHomePrice": "1,2M$",
+            "county": "Los Angeles"
+        },
+        {
+            "name": "Naples",
+            "type": "neighborhood",
+            "slug": "naples-long-beach",
+            "description": "Exklusive Wohngegend an Kanälen mit Luxushäusern und Gondelfahrten.",
+            "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+            "imageAlt": "Kanäle auf Naples Island mit schönen Häusern",
+            "distance": "6 km südöstlich",
+            "avgHomePrice": "1,8M$",
+            "county": "Los Angeles"
+        },
+        {
+            "name": "Los Angeles",
+            "type": "city",
+            "slug": "los-angeles",
+            "description": "Die Welthauptstadt der Unterhaltung mit vielfältigen Vierteln und kulturellen Attraktionen.",
+            "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+            "imageAlt": "Skyline von Los Angeles bei Sonnenuntergang",
+            "distance": "35 km nördlich",
+            "avgHomePrice": "1,2M$",
+            "county": "Los Angeles"
+        },
+        {
+            "name": "Huntington Beach",
+            "type": "city",
+            "slug": "huntington-beach",
+            "description": "Surf City USA mit 13 km Stränden und lebendiger Innenstadt.",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "imageAlt": "Pier von Huntington Beach mit Surfern",
+            "distance": "19 km südöstlich",
+            "avgHomePrice": "1,2M$",
+            "county": "Orange"
+        }
+    ],
+    "highlights": [
+        {
+            "title": "Wohnen am Wasser",
+            "description": "Genießen Sie Kilometer von Küste, den Yachthafen Rainbow Harbor und die malerische Shoreline Village mit Restaurants und Unterhaltung.",
+            "icon": "⛵",
+            "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "Uferpromenade von Long Beach mit Booten und Palmen"
+        },
+        {
+            "title": "Kulturelle Attraktionen",
+            "description": "Besuchen Sie das Aquarium des Pazifiks, das Museum für Lateinamerikanische Kunst und das historische Ozeandampferschiff Queen Mary.",
+            "icon": "🎭",
+            "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "Außenansicht des Aquariums des Pazifiks"
+        },
+        {
+            "title": "Vielfältige Viertel",
+            "description": "Von urbanen Lofts in der Innenstadt bis zu kanalseitigem Luxus auf Naples Island - Long Beach bietet verschiedene Wohnoptionen.",
+            "icon": "🏡",
+            "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "Bunte historische Häuser in Long Beach"
+        },
+        {
+            "title": "Aktivitäten im Freien",
+            "description": "Mit 345 Sonnentagen pro Jahr können Sie den Strandweg mit dem Rad erkunden, Stand-Up-Paddling betreiben oder den El Dorado Park besuchen.",
+            "icon": "🚴",
+            "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "Fahrradweg entlang der Küste von Long Beach"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Was sind die besten Viertel in Long Beach?",
+            "answer": "Beliebte Gegenden sind Belmont Shore für Strandleben, Naples für kanalseitige Luxushäuser und Downtown für urbane Annehmlichkeiten. Jedes bietet unterschiedliche Lebensstiloptionen.",
+            "category": "Viertel"
+        },
+        {
+            "question": "Wie ist der Immobilienmarkt in Long Beach?",
+            "answer": "Long Beach bietet relativ erschwinglichere Optionen als das nahegelegene LA, mit mittleren Hauspreisen um 850.000$. Immobilien am Wasser erzielen Premiumpreise.",
+            "category": "Immobilien"
+        },
+        {
+            "question": "Was kann man in Long Beach unternehmen?",
+            "answer": "Genießen Sie Restaurants am Wasser, besuchen Sie das Aquarium des Pazifiks, erkunden Sie die Queen Mary, shoppen Sie an der 2nd Street oder entspannen Sie an einem der vielen Strände und Parks.",
+            "category": "Lifestyle"
+        },
+        {
+            "question": "Wie sind die Pendelzeiten von Long Beach?",
+            "answer": "Long Beach bietet gute Autobahnanbindungen (710, 405) und die Metro Blue Line nach Downtown LA. Die Pendelzeiten zu großen Arbeitszentren variieren zwischen 30-90 Minuten.",
+            "category": "Verkehr"
+        }
+    ],
+    "seo": {
+        "metaTitle": "Immobilien & Lebensstil in Long Beach | Küstenleben nahe LA",
+        "metaDescription": "Entdecken Sie das Leben am Wasser, vielfältige Viertel und kulturelle Attraktionen in Long Beach. Erfahren Sie, warum diese Küstenstadt einen idealen südkalifornischen Lebensstil bietet.",
+        "keywords": "Immobilien Long Beach, Wohnen am Wasser, Belmont Shore, Naples Island, Aquarium des Pazifiks, kalifornische Küste",
+        "ogTitle": "Entdecken Sie Long Beach: Leben am Wasser nahe Los Angeles",
+        "ogDescription": "Erkunden Sie die Viertel, Immobilienoptionen und das Küstenleben von Long Beach südlich von LA.",
+        "ogImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+        "ogImageAlt": "Skyline von Long Beach am Wasser mit Palmen",
+        "twitterCard": "summary_large_image"
+    },
+    "schema_markup": [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Long Beach",
+            "description": "Entdecken Sie Immobilien, Viertel und Highlights in Long Beach, Kalifornien.",
+            "url": "https://example.com/locations/long-beach",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+                "caption": "Küstenlinie von Long Beach mit Palmen und Skyline am Wasser"
+            },
+            "inLanguage": "de",
+            "mainEntity": {
+                "@type": "City",
+                "name": "Long Beach",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "CA",
+                    "addressCountry": "USA"
+                }
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Was sind die besten Viertel in Long Beach?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Beliebte Gegenden sind Belmont Shore für Strandleben, Naples für kanalseitige Luxushäuser und Downtown für urbane Annehmlichkeiten."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Wie ist der Immobilienmarkt in Long Beach?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Long Beach bietet relativ erschwinglichere Optionen als das nahegelegene LA, mit mittleren Hauspreisen um 850.000$."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Was kann man in Long Beach unternehmen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Genießen Sie Restaurants am Wasser, besuchen Sie das Aquarium des Pazifiks, erkunden Sie die Queen Mary, shoppen Sie an der 2nd Street oder entspannen Sie an Stränden und Parks."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Wie sind die Pendelzeiten von Long Beach?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Long Beach bietet gute Autobahnanbindungen und die Metro Blue Line nach Downtown LA, mit Pendelzeiten zwischen 30-90 Minuten."
+                    }
+                }
+            ]
+        }
+    ]
+}

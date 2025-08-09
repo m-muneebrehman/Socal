@@ -1,0 +1,209 @@
+{
+    "slug": "los-angeles",
+    "name": "洛杉矶",
+    "state": "加利福尼亚州",
+    "language": "zh",
+    "shortDescription": "世界娱乐之都，提供多元化的社区、文化景点和无限机遇",
+    "fullDescription": "洛杉矶是南加州一座广阔的城市，也是美国电影电视产业的中心。在其标志性的好莱坞标志附近，派拉蒙影业、环球影业和华纳兄弟等电影公司提供幕后参观。在好莱坞大道上，TCL中国剧院展示明星的手印和脚印，星光大道纪念数千位名人，商贩们出售明星住宅地图。",
+    "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "heroImageAlt": "日落时分洛杉矶市中心天际线的航拍图",
+    "population": "400万+",
+    "avgHomePrice": "120万美元",
+    "tags": [
+        "娱乐",
+        "多元化",
+        "文化"
+    ],
+    "neighborhoods": [
+        {
+            "name": "长滩",
+            "type": "city",
+            "slug": "long-beach",
+            "description": "海滨城市，拥有繁忙的港口、太平洋水族馆和海滨景点",
+            "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+            "imageAlt": "长滩海岸线与棕榈树",
+            "distance": "向南35公里",
+            "avgHomePrice": "85万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "阿纳海姆",
+            "type": "city",
+            "slug": "anaheim",
+            "description": "迪士尼乐园度假区所在地，拥有天使体育场和充满活力的会议中心",
+            "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+            "imageAlt": "夜幕下的迪士尼城堡",
+            "distance": "东南方向43公里",
+            "avgHomePrice": "78万美元",
+            "county": "橙县"
+        },
+        {
+            "name": "尔湾",
+            "type": "city",
+            "slug": "irvine",
+            "description": "规划完善的城市，以顶尖学校、商业中心和公园著称",
+            "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+            "imageAlt": "尔湾商务区现代建筑群",
+            "distance": "东南方向64公里",
+            "avgHomePrice": "110万美元",
+            "county": "橙县"
+        },
+        {
+            "name": "圣莫尼卡",
+            "type": "city",
+            "slug": "santa-monica",
+            "description": "标志性海滨城市，拥有著名码头、购物区和科技公司办公室",
+            "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+            "imageAlt": "日落时分的圣莫尼卡码头",
+            "distance": "向西24公里",
+            "avgHomePrice": "180万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "帕萨迪纳",
+            "type": "city",
+            "slug": "pasadena",
+            "description": "文化中心，拥有玫瑰碗体育场、加州理工学院和历史建筑",
+            "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+            "imageAlt": "夜幕下的帕萨迪纳市政厅",
+            "distance": "东北方向16公里",
+            "avgHomePrice": "130万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "亨廷顿海滩",
+            "type": "city",
+            "slug": "huntington-beach",
+            "description": "美国冲浪之城，拥有13.7公里海滩和充满活力的市中心",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "imageAlt": "亨廷顿海滩码头与冲浪者",
+            "distance": "东南方向56公里",
+            "avgHomePrice": "120万美元",
+            "county": "橙县"
+        }
+    ],
+    "highlights": [
+        {
+            "title": "好莱坞与娱乐",
+            "description": "全球最大娱乐产业的所在地，拥有好莱坞星光大道、TCL中国剧院和环球影城等标志性地标",
+            "icon": "🎬",
+            "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+            "bgImageAlt": "好莱坞标志俯瞰洛杉矶与蓝天"
+        },
+        {
+            "title": "多元化社区",
+            "description": "从时尚的威尼斯海滩到高档的比佛利山庄，洛杉矶提供各具特色的独特社区",
+            "icon": "🏘️",
+            "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "bgImageAlt": "比佛利山庄棕榈树成排的街道与豪宅"
+        },
+        {
+            "title": "文化景点",
+            "description": "盖蒂中心、洛杉矶县艺术博物馆和布罗德博物馆等世界级博物馆展示来自全球的艺术品",
+            "icon": "🎨",
+            "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+            "bgImageAlt": "现代建筑风格的盖蒂中心博物馆"
+        },
+        {
+            "title": "户外生活方式",
+            "description": "洛杉矶每年有284个晴天，提供从好莱坞山徒步到马里布冲浪等无尽的户外活动",
+            "icon": "🌞",
+            "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+            "bgImageAlt": "阳光明媚的马里布海滩上的冲浪者"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "洛杉矶最好的社区是哪些？",
+            "answer": "热门社区包括代表奢华的比佛利山庄、富有创意的威尼斯海滩、海滨生活的圣莫尼卡和城市生活的洛杉矶市中心。每个区域都提供独特的便利设施和生活方式选择。",
+            "category": "社区"
+        },
+        {
+            "question": "洛杉矶的房地产市场如何？",
+            "answer": "洛杉矶房地产市场供不应求，竞争激烈。房屋中位价约为120万美元，黄金地段的豪华房产价格更高。",
+            "category": "房地产"
+        },
+        {
+            "question": "洛杉矶的生活成本是多少？",
+            "answer": "洛杉矶生活成本很高，尤其是住房方面。不过城市提供从豪华公寓到家庭住宅的多样化选择，不同社区有不同价格区间。",
+            "category": "生活成本"
+        },
+        {
+            "question": "洛杉矶的天气如何？",
+            "answer": "洛杉矶属于地中海气候，冬季温和湿润，夏季炎热干燥。城市年均晴天284天，非常适合户外活动。",
+            "category": "天气"
+        }
+    ],
+    "seo": {
+        "metaTitle": "洛杉矶房地产与生活方式指南 - LA奢华生活",
+        "metaDescription": "探索洛杉矶的豪华房地产、顶级社区和文化亮点。了解为何洛杉矶是居住、投资和生活方式的顶级目的地。",
+        "keywords": "洛杉矶房地产,LA生活方式,比佛利山庄,圣莫尼卡,好莱坞,威尼斯海滩,文化景点,户外生活方式",
+        "ogTitle": "发现洛杉矶：豪华房地产与生活方式指南",
+        "ogDescription": "探索多元社区、房地产资讯和洛杉矶的亮点。在加州心脏地带找到您的梦想之家。",
+        "ogImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+        "ogImageAlt": "日落时分的洛杉矶城市天际线",
+        "twitterCard": "summary_large_image"
+    },
+    "schema_markup": [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "洛杉矶",
+            "description": "探索加利福尼亚州洛杉矶的房地产、社区和亮点",
+            "url": "https://example.com/locations/los-angeles",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+                "caption": "日落时分洛杉矶市中心天际线的航拍图"
+            },
+            "inLanguage": "zh",
+            "mainEntity": {
+                "@type": "City",
+                "name": "洛杉矶",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "CA",
+                    "addressCountry": "美国"
+                }
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "洛杉矶最好的社区是哪些？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "热门社区包括代表奢华的比佛利山庄、富有创意的威尼斯海滩、海滨生活的圣莫尼卡和城市生活的洛杉矶市中心。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "洛杉矶的房地产市场如何？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "洛杉矶房地产市场供不应求，竞争激烈。房屋中位价约为120万美元。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "洛杉矶的生活成本是多少？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "洛杉矶生活成本很高，尤其是住房方面。城市提供不同价位的多样化选择。"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "洛杉矶的天气如何？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "洛杉矶年均晴天284天，属于地中海气候，非常适合户外活动。"
+                    }
+                }
+            ]
+        }
+    ]
+}

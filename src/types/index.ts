@@ -93,6 +93,7 @@ export interface City {
   slug: string
   name: string
   state: string
+  language?: string
   shortDescription: string
   fullDescription?: string
   heroImage?: string

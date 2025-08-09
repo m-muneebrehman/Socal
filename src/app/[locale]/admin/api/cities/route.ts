@@ -1,15 +1,26 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { updateCitiesJsonFile } from '@/lib/json-updater'
+import { updateCitiesJsonFile, writeCityFile, deleteCityFileBySlugLanguage } from '@/lib/json-updater'
 import { ObjectId } from "mongodb";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
+    const { searchParams } = new URL(request.url)
+    const language = searchParams.get('language') || undefined
     console.log('Connecting to database...')
     const { db } = await connectToDatabase()
     console.log('Connected to database successfully')
     
-    const cities = await db.collection('cities').find({}).toArray()
+    let query: any = {}
+    if (language) {
+      if (language === 'en') {
+        // Treat missing language as English for legacy docs
+        query = { $or: [ { language: 'en' }, { language: { $exists: false } } ] }
+      } else {
+        query = { language }
+      }
+    }
+    const cities = await db.collection('cities').find(query).toArray()
     console.log('Cities from database:', cities)
     console.log('Number of cities in database:', cities.length)
     
@@ -45,9 +56,7 @@ export async function POST(request: NextRequest) {
     // Validate required fields according to new comprehensive schema
     const requiredFields = [
       'slug', 'name', 'state', 'population', 'avgHomePrice', 'shortDescription',
-      'fullDescription', 'heroImage', 'heroImageAlt', 'canonicalUrl', 'tags',
-      'neighborhoods', 'highlights', 'faqs', 'clients', 'hreflang_tags', 'seo',
-      'schema_markup', 'internal_links'
+      'tags', 'neighborhoods', 'highlights', 'faqs', 'seo'
     ]
     
     for (const field of requiredFields) {
@@ -88,18 +97,10 @@ export async function POST(request: NextRequest) {
       }
     }
     
-    // Validate clients structure
-    if (!Array.isArray(body.clients) || body.clients.length === 0) {
-      return NextResponse.json({ 
-        error: 'Clients must be a non-empty array' 
-      }, { status: 400 })
-    }
-    
-    for (const client of body.clients) {
-      if (!client.name || !client.description || !client.image || !client.review) {
-        return NextResponse.json({ 
-          error: 'Each client must include name, description, image, and review' 
-        }, { status: 400 })
+    // Clients optional
+    if (body.clients) {
+      if (!Array.isArray(body.clients)) {
+        return NextResponse.json({ error: 'Clients must be an array' }, { status: 400 })
       }
     }
     
@@ -110,41 +111,19 @@ export async function POST(request: NextRequest) {
       }, { status: 400 })
     }
     
-    // Validate hreflang tags
-    if (!Array.isArray(body.hreflang_tags) || body.hreflang_tags.length === 0) {
-      return NextResponse.json({ 
-        error: 'Hreflang tags must be a non-empty array' 
-      }, { status: 400 })
+    // hreflang_tags optional
+    if (body.hreflang_tags && !Array.isArray(body.hreflang_tags)) {
+      return NextResponse.json({ error: 'hreflang_tags must be an array' }, { status: 400 })
     }
     
-    for (const tag of body.hreflang_tags) {
-      if (!tag.hreflang || !tag.href) {
-        return NextResponse.json({ 
-          error: 'Each hreflang tag must include hreflang and href' 
-        }, { status: 400 })
-      }
+    // schema_markup optional
+    if (body.schema_markup && !Array.isArray(body.schema_markup)) {
+      return NextResponse.json({ error: 'schema_markup must be an array' }, { status: 400 })
     }
     
-    // Validate schema markup
-    if (!Array.isArray(body.schema_markup) || body.schema_markup.length === 0) {
-      return NextResponse.json({ 
-        error: 'Schema markup must be a non-empty array' 
-      }, { status: 400 })
-    }
-    
-    // Validate internal links
-    if (!Array.isArray(body.internal_links) || body.internal_links.length === 0) {
-      return NextResponse.json({ 
-        error: 'Internal links must be a non-empty array' 
-      }, { status: 400 })
-    }
-    
-    for (const link of body.internal_links) {
-      if (!link.href || !link.anchor) {
-        return NextResponse.json({ 
-          error: 'Each internal link must include href and anchor' 
-        }, { status: 400 })
-      }
+    // internal_links optional
+    if (body.internal_links && !Array.isArray(body.internal_links)) {
+      return NextResponse.json({ error: 'internal_links must be an array' }, { status: 400 })
     }
     
     const { db } = await connectToDatabase()
@@ -161,9 +140,9 @@ export async function POST(request: NextRequest) {
     const result = await db.collection('cities').insertOne(cityData)
     console.log('City inserted with ID:', result.insertedId)
 
-    // Update the JSON file after successful database insertion
+    // Write per-language per-slug JSON file and update aggregated file
+    await writeCityFile(cityData)
     await updateCitiesJsonFile()
-    console.log('JSON file updated')
 
     return NextResponse.json({ 
       message: 'City created successfully', 
@@ -213,7 +192,11 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: 'City not found' }, { status: 404 })
     }
 
-    // Update the JSON file after successful database update
+    // Read updated doc to write its JSON file
+    const updated = await db.collection('cities').findOne({ _id: new ObjectId(_id) })
+    if (updated) {
+      await writeCityFile(updated as any)
+    }
     await updateCitiesJsonFile()
 
     return NextResponse.json({ message: 'City updated successfully' })
@@ -247,13 +230,18 @@ export async function DELETE(request: NextRequest) {
 
     const { db } = await connectToDatabase()
     
+    // Find document to get slug/language before delete
+    const existing = await db.collection('cities').findOne({ _id: new ObjectId(_id) })
     const result = await db.collection('cities').deleteOne({ _id: new ObjectId(_id) })
 
     if (result.deletedCount === 0) {
       return NextResponse.json({ error: 'City not found' }, { status: 404 })
     }
 
-    // Update the JSON file after successful database deletion
+    // Delete per-language file and update aggregated file
+    if (existing) {
+      await deleteCityFileBySlugLanguage(existing.slug, (existing as any).language)
+    }
     await updateCitiesJsonFile()
 
     return NextResponse.json({ message: 'City deleted successfully' })

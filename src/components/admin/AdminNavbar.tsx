@@ -22,12 +22,12 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
 
   return (
     <nav className="admin-navbar" style={{
-      background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',
-      borderBottom: '1px solid rgba(212, 175, 55, 0.2)',
+      background: '#ffffff',
+      borderBottom: '1px solid #e5e7eb',
       position: 'sticky',
       top: 0,
       zIndex: 1000,
-      boxShadow: '0 2px 20px rgba(0, 0, 0, 0.1)'
+      boxShadow: '0 8px 20px rgba(0, 0, 0, 0.06)'
     }}>
       <div className="admin-navbar-container" style={{
         maxWidth: '1400px',
@@ -45,21 +45,23 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
           gap: '12px'
         }}>
           <div style={{
-            background: 'linear-gradient(135deg, #d4af37, #e6c34a)',
+            background: '#fff',
+            border: '1px solid #e5e7eb',
             borderRadius: '8px',
             padding: '8px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
           }}>
-            <Home size={20} color="#1a1a1a" />
+            <Home size={20} color="#111827" />
           </div>
           <div>
             <h1 style={{
               fontFamily: 'Playfair Display, serif',
               fontSize: '20px',
               fontWeight: '600',
-              color: '#ffffff',
+              color: '#111827',
               margin: '0',
               letterSpacing: '0.5px'
             }}>
@@ -67,7 +69,7 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
             </h1>
             <p style={{
               fontSize: '11px',
-              color: 'rgba(255, 255, 255, 0.7)',
+              color: '#6b7280',
               margin: '0',
               fontWeight: '400'
             }}>
@@ -94,10 +96,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                   alignItems: 'center',
                   gap: '8px',
                   padding: '12px 16px',
-                  background: isActive ? 'rgba(212, 175, 55, 0.15)' : 'transparent',
-                  border: isActive ? '1px solid rgba(212, 175, 55, 0.3)' : '1px solid transparent',
+                  background: isActive ? 'rgba(17, 24, 39, 0.04)' : 'transparent',
+                  border: isActive ? '1px solid #e5e7eb' : '1px solid transparent',
                   borderRadius: '8px',
-                  color: isActive ? '#d4af37' : 'rgba(255, 255, 255, 0.8)',
+                  color: isActive ? '#111827' : '#374151',
                   fontSize: '14px',
                   fontWeight: '500',
                   cursor: 'pointer',
@@ -106,14 +108,14 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                 }}
                 onMouseEnter={(e) => {
                   if (!isActive) {
-                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)'
-                    e.currentTarget.style.color = '#ffffff'
+                    e.currentTarget.style.background = 'rgba(17, 24, 39, 0.04)'
+                    e.currentTarget.style.color = '#111827'
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (!isActive) {
                     e.currentTarget.style.background = 'transparent'
-                    e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'
+                    e.currentTarget.style.color = '#374151'
                   }
                 }}
               >
@@ -137,8 +139,8 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
               alignItems: 'center',
               gap: '8px',
               padding: '10px 16px',
-              background: 'rgba(239, 68, 68, 0.1)',
-              border: '1px solid rgba(239, 68, 68, 0.3)',
+              background: '#fff',
+              border: '1px solid #ef4444',
               borderRadius: '8px',
               color: '#ef4444',
               fontSize: '14px',
@@ -147,10 +149,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
               transition: 'all 0.3s ease'
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.background = 'rgba(239, 68, 68, 0.2)'
+              e.currentTarget.style.background = '#fef2f2'
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.background = 'rgba(239, 68, 68, 0.1)'
+              e.currentTarget.style.background = '#ffffff'
             }}
           >
             <LogOut size={16} />
@@ -181,10 +183,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="admin-navbar-mobile" style={{
-          background: 'rgba(26, 26, 26, 0.95)',
-          borderTop: '1px solid rgba(212, 175, 55, 0.2)',
+          background: '#ffffff',
+          borderTop: '1px solid #e5e7eb',
           padding: '16px 24px',
-          backdropFilter: 'blur(10px)'
+          backdropFilter: 'blur(4px)'
         }}>
           <div style={{
             display: 'flex',
@@ -206,10 +208,10 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
                     alignItems: 'center',
                     gap: '12px',
                     padding: '12px 16px',
-                    background: isActive ? 'rgba(212, 175, 55, 0.15)' : 'transparent',
-                    border: isActive ? '1px solid rgba(212, 175, 55, 0.3)' : '1px solid transparent',
+                    background: isActive ? 'rgba(17, 24, 39, 0.04)' : 'transparent',
+                    border: isActive ? '1px solid #e5e7eb' : '1px solid transparent',
                     borderRadius: '8px',
-                    color: isActive ? '#d4af37' : 'rgba(255, 255, 255, 0.8)',
+                    color: isActive ? '#111827' : '#374151',
                     fontSize: '14px',
                     fontWeight: '500',
                     cursor: 'pointer',

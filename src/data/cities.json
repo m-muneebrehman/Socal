@@ -1,6 +1,143 @@
 [
   {
-    "id": "6894ecf1d030dedaafd9784f",
+    "id": "689675ffd030dedaafd978a1",
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "state": "California",
+    "shortDescription": "A vibrant coastal city with a bustling port, waterfront attractions, and rich cultural diversity.",
+    "fullDescription": "Long Beach is a dynamic coastal city in Southern California known for its busy port, the Aquarium of the Pacific, and the historic Queen Mary ocean liner. The city features a lively downtown area, beautiful beaches, and a thriving arts scene. With its Mediterranean climate, waterfront dining, and numerous cultural attractions, Long Beach offers a perfect blend of urban living and beachside relaxation.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "450K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Waterfront",
+      "Diversity",
+      "Culture"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown Long Beach",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "The urban core with high-rise living, Pine Avenue nightlife, and the Convention Center.",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "Downtown Long Beach skyline at dusk",
+        "distance": "City center",
+        "avgHomePrice": "$950K",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Belmont Shore",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "Beachside community with charming bungalows, Second Street shopping, and marina access.",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Belmont Shore beach houses and palm trees",
+        "distance": "3 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Naples",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "Upscale canalside neighborhood with luxury homes and gondola rides.",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Naples Island canals with beautiful homes",
+        "distance": "4 miles southeast",
+        "avgHomePrice": "$1.8M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Los Angeles",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "The entertainment capital of the world, offering diverse neighborhoods and cultural attractions.",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "Los Angeles skyline at sunset",
+        "distance": "22 miles north",
+        "avgHomePrice": "$1.2M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA with 8.5 miles of beaches and vibrant downtown.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Huntington Beach pier with surfers",
+        "distance": "12 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      },
+      {
+        "name": "d",
+        "type": "neighborhood",
+        "slug": "d",
+        "description": "d",
+        "image": "d",
+        "imageAlt": "d",
+        "distance": "d",
+        "avgHomePrice": "d",
+        "county": "d"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Waterfront Living",
+        "description": "Enjoy miles of coastline, the Rainbow Harbor marina, and scenic Shoreline Village with dining and entertainment.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Long Beach waterfront with boats and palm trees"
+      },
+      {
+        "title": "Cultural Attractions",
+        "description": "Visit the Aquarium of the Pacific, Museum of Latin American Art, and the historic Queen Mary ocean liner.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Aquarium of the Pacific exterior"
+      },
+      {
+        "title": "Diverse Neighborhoods",
+        "description": "From urban downtown lofts to canalside luxury in Naples Island, Long Beach offers varied living options.",
+        "icon": "🏡",
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Colorful historic homes in Long Beach"
+      },
+      {
+        "title": "Outdoor Activities",
+        "description": "With 345 sunny days per year, enjoy biking the beach path, paddleboarding, or visiting El Dorado Park.",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Bike path along Long Beach shoreline"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the best neighborhoods in Long Beach?",
+        "answer": "Popular areas include Belmont Shore for beach living, Naples for luxury canalside homes, and Downtown for urban amenities. Each offers distinct lifestyle options.",
+        "category": "Neighborhoods"
+      },
+      {
+        "question": "How is the real estate market in Long Beach?",
+        "answer": "Long Beach offers relatively more affordable options than nearby LA, with median home prices around $850K. Waterfront properties command premium prices.",
+        "category": "Real Estate"
+      },
+      {
+        "question": "What is there to do in Long Beach?",
+        "answer": "Enjoy waterfront dining, visit the Aquarium of the Pacific, explore the Queen Mary, shop at 2nd Street, or relax at one of many beaches and parks.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "How is the commute from Long Beach?",
+        "answer": "Long Beach offers good freeway access (710, 405) and the Metro Blue Line to downtown LA. Commute times vary from 30-90 minutes to major employment centers.",
+        "category": "Transportation"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68967614d030dedaafd978a2",
     "slug": "los-angeles",
     "name": "Los Angeles",
     "state": "California",
@@ -15,37 +152,101 @@
       "Culture"
     ],
     "neighborhoods": [
-      "Hollywood",
-      "Beverly Hills",
-      "Santa Monica",
-      "Venice",
-      "Downtown LA",
-      "West Hollywood"
+      {
+        "name": "Long Beach",
+        "type": "city",
+        "slug": "long-beach",
+        "description": "Coastal city with a busy port, aquarium of the Pacific, and waterfront attractions.",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "Long Beach shoreline with palm trees",
+        "distance": "22 miles south",
+        "avgHomePrice": "$850K",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Home to Disneyland Resort, Angel Stadium, and vibrant convention center.",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "Disneyland Castle at night",
+        "distance": "27 miles southeast",
+        "avgHomePrice": "$780K",
+        "county": "Orange"
+      },
+      {
+        "name": "Irvine",
+        "type": "city",
+        "slug": "irvine",
+        "description": "Master-planned city known for top-rated schools, business hubs, and parks.",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "Irvine business district with modern buildings",
+        "distance": "40 miles southeast",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Monica",
+        "type": "city",
+        "slug": "santa-monica",
+        "description": "Iconic beach city with famous pier, shopping districts, and tech offices.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "Santa Monica Pier at sunset",
+        "distance": "15 miles west",
+        "avgHomePrice": "$1.8M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Pasadena",
+        "type": "city",
+        "slug": "pasadena",
+        "description": "Cultural hub with Rose Bowl, Caltech, and historic architecture.",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "Pasadena City Hall at night",
+        "distance": "10 miles northeast",
+        "avgHomePrice": "$1.3M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA with 8.5 miles of beaches and vibrant downtown.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Huntington Beach pier with surfers",
+        "distance": "35 miles southeast",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
     ],
     "highlights": [
       {
         "title": "Hollywood & Entertainment",
         "description": "Home to the world's largest entertainment industry, featuring iconic landmarks like the Hollywood Walk of Fame, TCL Chinese Theatre, and Universal Studios.",
         "icon": "🎬",
-        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "Hollywood sign overlooking Los Angeles with blue sky"
       },
       {
         "title": "Diverse Neighborhoods",
         "description": "From the trendy Venice Beach to the upscale Beverly Hills, LA offers unique neighborhoods each with their own character and charm.",
         "icon": "🏘️",
-        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "Palm-lined street in Beverly Hills with luxury homes"
       },
       {
         "title": "Cultural Attractions",
         "description": "World-class museums including The Getty Center, LACMA, and The Broad showcase art from around the world.",
         "icon": "🎨",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "The Getty Center museum with modern architecture"
       },
       {
         "title": "Outdoor Lifestyle",
         "description": "With 284 sunny days per year, LA offers endless outdoor activities from hiking in the Hollywood Hills to surfing at Malibu.",
         "icon": "🌞",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "People surfing in Malibu beach during sunny day"
       }
     ],
     "faqs": [
@@ -70,2063 +271,1321 @@
         "category": "Weather"
       }
     ],
-    "clients": [
-      {
-        "name": "Sarah Mitchell",
-        "description": "Tech Entrepreneur",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Found my dream home in Venice Beach! The team understood exactly what I was looking for and made the process seamless."
-      },
-      {
-        "name": "David Chen",
-        "description": "Entertainment Executive",
-        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80",
-        "rating": 5,
-        "review": "Exceptional service in finding a luxury property in Beverly Hills. Professional, knowledgeable, and always available."
-      },
-      {
-        "name": "Maria Rodriguez",
-        "description": "International Investor",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Incredible market insights and investment opportunities. Helped me build a diverse LA real estate portfolio."
-      },
-      {
-        "name": "James Wilson",
-        "description": "Young Professional",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect first-time buying experience in Santa Monica. Patient, informative, and truly cared about finding the right fit."
-      }
-    ]
+    "clients": []
   },
   {
-    "id": "6894ecf1d030dedaafd97850",
-    "slug": "san-francisco",
-    "name": "San Francisco",
-    "state": "California",
-    "shortDescription": "The tech hub of the world, known for its iconic Golden Gate Bridge, diverse culture, and innovative spirit.",
-    "fullDescription": "San Francisco is a cultural, commercial, and financial center in Northern California. The city is known for its cool summers, fog, steep rolling hills, eclectic mix of architecture, and landmarks, including the Golden Gate Bridge, cable cars, Alcatraz, and Chinatown.",
-    "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "873K+",
-    "avgHomePrice": "$1.8M",
+    "id": "689676d7d030dedaafd978a6",
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "state": "Kalifornien",
+    "shortDescription": "Eine lebendige Küstenstadt mit einem geschäftigen Hafen, Uferpromenaden und kultureller Vielfalt.",
+    "fullDescription": "Long Beach ist eine dynamische Küstenstadt in Südkalifornien, bekannt für ihren großen Hafen, das Aquarium des Pazifiks und das historische Ozeandampferschiff Queen Mary. Die Stadt verfügt über eine lebhafte Innenstadt, schöne Strände und eine blühende Kunstszene. Mit ihrem mediterranen Klima, Restaurants am Wasser und zahlreichen kulturellen Attraktionen bietet Long Beach die perfekte Mischung aus urbanem Leben und Stranderholung.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "450.000+",
+    "avgHomePrice": "850.000$",
     "tags": [
-      "Technology",
-      "Innovation",
+      "Wasserlage",
+      "Vielfalt",
+      "Kultur"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown Long Beach",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "Das urbane Zentrum mit Hochhauswohnungen, Nachtleben an der Pine Avenue und dem Convention Center.",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "Skyline von Downtown Long Beach in der Dämmerung",
+        "distance": "Stadtzentrum",
+        "avgHomePrice": "950.000$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Belmont Shore",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "Strandnahe Gemeinschaft mit charmanten Bungalows, Einkaufsmöglichkeiten an der Second Street und Marina-Zugang.",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Strandhäuser und Palmen in Belmont Shore",
+        "distance": "5 km südöstlich",
+        "avgHomePrice": "1,2M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Naples",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "Exklusive Wohngegend an Kanälen mit Luxushäusern und Gondelfahrten.",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Kanäle auf Naples Island mit schönen Häusern",
+        "distance": "6 km südöstlich",
+        "avgHomePrice": "1,8M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Los Angeles",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "Die Welthauptstadt der Unterhaltung mit vielfältigen Vierteln und kulturellen Attraktionen.",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "Skyline von Los Angeles bei Sonnenuntergang",
+        "distance": "35 km nördlich",
+        "avgHomePrice": "1,2M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA mit 13 km Stränden und lebendiger Innenstadt.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Pier von Huntington Beach mit Surfern",
+        "distance": "19 km südöstlich",
+        "avgHomePrice": "1,2M$",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Wohnen am Wasser",
+        "description": "Genießen Sie Kilometer von Küste, den Yachthafen Rainbow Harbor und die malerische Shoreline Village mit Restaurants und Unterhaltung.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Uferpromenade von Long Beach mit Booten und Palmen"
+      },
+      {
+        "title": "Kulturelle Attraktionen",
+        "description": "Besuchen Sie das Aquarium des Pazifiks, das Museum für Lateinamerikanische Kunst und das historische Ozeandampferschiff Queen Mary.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Außenansicht des Aquariums des Pazifiks"
+      },
+      {
+        "title": "Vielfältige Viertel",
+        "description": "Von urbanen Lofts in der Innenstadt bis zu kanalseitigem Luxus auf Naples Island - Long Beach bietet verschiedene Wohnoptionen.",
+        "icon": "🏡",
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Bunte historische Häuser in Long Beach"
+      },
+      {
+        "title": "Aktivitäten im Freien",
+        "description": "Mit 345 Sonnentagen pro Jahr können Sie den Strandweg mit dem Rad erkunden, Stand-Up-Paddling betreiben oder den El Dorado Park besuchen.",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Fahrradweg entlang der Küste von Long Beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Was sind die besten Viertel in Long Beach?",
+        "answer": "Beliebte Gegenden sind Belmont Shore für Strandleben, Naples für kanalseitige Luxushäuser und Downtown für urbane Annehmlichkeiten. Jedes bietet unterschiedliche Lebensstiloptionen.",
+        "category": "Viertel"
+      },
+      {
+        "question": "Wie ist der Immobilienmarkt in Long Beach?",
+        "answer": "Long Beach bietet relativ erschwinglichere Optionen als das nahegelegene LA, mit mittleren Hauspreisen um 850.000$. Immobilien am Wasser erzielen Premiumpreise.",
+        "category": "Immobilien"
+      },
+      {
+        "question": "Was kann man in Long Beach unternehmen?",
+        "answer": "Genießen Sie Restaurants am Wasser, besuchen Sie das Aquarium des Pazifiks, erkunden Sie die Queen Mary, shoppen Sie an der 2nd Street oder entspannen Sie an einem der vielen Strände und Parks.",
+        "category": "Lifestyle"
+      },
+      {
+        "question": "Wie sind die Pendelzeiten von Long Beach?",
+        "answer": "Long Beach bietet gute Autobahnanbindungen (710, 405) und die Metro Blue Line nach Downtown LA. Die Pendelzeiten zu großen Arbeitszentren variieren zwischen 30-90 Minuten.",
+        "category": "Verkehr"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "689676e4d030dedaafd978a7",
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "state": "Kalifornien",
+    "shortDescription": "Die Unterhaltungshauptstadt der Welt mit vielfältigen Vierteln, kulturellen Attraktionen und endlosen Möglichkeiten.",
+    "fullDescription": "Los Angeles ist eine weitläufige Stadt in Südkalifornien und das Zentrum der amerikanischen Film- und Fernsehindustrie. In der Nähe des berühmten Hollywood-Schilds bieten Studios wie Paramount Pictures, Universal und Warner Brothers Hintergrundführungen an. Auf dem Hollywood Boulevard zeigt das TCL Chinese Theatre Hand- und Fußabdrücke von Stars, der Walk of Fame ehrt Tausende von Berühmtheiten und Händler verkaufen Karten zu den Häusern der Stars.",
+    "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "4M+",
+    "avgHomePrice": "$1.2M",
+    "tags": [
+      "Unterhaltung",
+      "Vielfalt",
+      "Kultur"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Long Beach",
+        "type": "city",
+        "slug": "long-beach",
+        "description": "Küstenstadt mit einem geschäftigen Hafen, dem Aquarium des Pazifiks und Wasserattraktionen.",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "Long Beach Küstenlinie mit Palmen",
+        "distance": "35 km südlich",
+        "avgHomePrice": "$850K",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Heimat des Disneyland Resorts, des Angel Stadium und eines lebendigen Kongresszentrums.",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "Disneyland Schloss bei Nacht",
+        "distance": "43 km südöstlich",
+        "avgHomePrice": "$780K",
+        "county": "Orange"
+      },
+      {
+        "name": "Irvine",
+        "type": "city",
+        "slug": "irvine",
+        "description": "Meisterhaft geplante Stadt bekannt für erstklassige Schulen, Geschäftszentren und Parks.",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "Geschäftsviertel von Irvine mit modernen Gebäuden",
+        "distance": "64 km südöstlich",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Monica",
+        "type": "city",
+        "slug": "santa-monica",
+        "description": "Ikone der Strandstädte mit berühmtem Pier, Einkaufsvierteln und Tech-Büros.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "Santa Monica Pier bei Sonnenuntergang",
+        "distance": "24 km westlich",
+        "avgHomePrice": "$1.8M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Pasadena",
+        "type": "city",
+        "slug": "pasadena",
+        "description": "Kulturelles Zentrum mit Rose Bowl, Caltech und historischer Architektur.",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "Pasadena Rathaus bei Nacht",
+        "distance": "16 km nordöstlich",
+        "avgHomePrice": "$1.3M",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA mit 13,7 km Stränden und lebendiger Innenstadt.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Huntington Beach Pier mit Surfern",
+        "distance": "56 km südöstlich",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Hollywood & Unterhaltung",
+        "description": "Heimat der größten Unterhaltungsindustrie der Welt mit ikonischen Wahrzeichen wie dem Hollywood Walk of Fame, dem TCL Chinese Theatre und Universal Studios.",
+        "icon": "🎬",
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "Hollywood-Schild mit Blick auf Los Angeles und blauem Himmel"
+      },
+      {
+        "title": "Vielfältige Viertel",
+        "description": "Vom trendigen Venice Beach bis zum vornehmen Beverly Hills bietet LA einzigartige Viertel mit jeweils eigenem Charakter und Charme.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "Palmen gesäumte Straße in Beverly Hills mit Luxushäusern"
+      },
+      {
+        "title": "Kulturelle Attraktionen",
+        "description": "Weltklasse-Museen wie das Getty Center, LACMA und The Broad präsentieren Kunst aus aller Welt.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "Das Getty Center Museum mit moderner Architektur"
+      },
+      {
+        "title": "Outdoor-Lebensstil",
+        "description": "Mit 284 Sonnentagen pro Jahr bietet LA endlose Outdoor-Aktivitäten von Wandern in den Hollywood Hills bis zum Surfen in Malibu.",
+        "icon": "🌞",
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "Surfer am Malibu Strand an einem sonnigen Tag"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Was sind die besten Viertel in Los Angeles?",
+        "answer": "Beliebte Viertel sind Beverly Hills für Luxus, Venice Beach für Kreativität, Santa Monica für Strandleben und Downtown LA für urbanes Leben. Jedes Gebiet bietet einzigartige Annehmlichkeiten und Lebensstiloptionen.",
+        "category": "Viertel"
+      },
+      {
+        "question": "Wie ist der Immobilienmarkt in Los Angeles?",
+        "answer": "Der Immobilienmarkt in LA ist wettbewerbsintensiv mit hoher Nachfrage und begrenztem Angebot. Der mittlere Hauspreis liegt bei etwa $1,2M, wobei Luxusimmobilien in Top-Lagen Premiumpreise erzielen.",
+        "category": "Immobilien"
+      },
+      {
+        "question": "Wie hoch sind die Lebenshaltungskosten in Los Angeles?",
+        "answer": "Los Angeles hat hohe Lebenshaltungskosten, insbesondere für Wohnraum. Die Stadt bietet jedoch vielfältige Optionen von Luxuswohnungen bis zu Familienhäusern mit verschiedenen Preisniveaus in verschiedenen Vierteln.",
+        "category": "Lebenshaltungskosten"
+      },
+      {
+        "question": "Wie ist das Wetter in Los Angeles?",
+        "answer": "LA genießt ein mediterranes Klima mit milden, feuchten Wintern und heißen, trockenen Sommern. Die Stadt hat durchschnittlich 284 Sonnentage pro Jahr, was sie perfekt für Outdoor-Aktivitäten macht.",
+        "category": "Wetter"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896770ad030dedaafd978a8",
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "state": "California",
+    "shortDescription": "Una vibrante ciudad costera con un puerto activo, atracciones frente al mar y rica diversidad cultural.",
+    "fullDescription": "Long Beach es una dinámica ciudad costera en el sur de California conocida por su ajetreado puerto, el Acuario del Pacífico y el histórico transatlántico Queen Mary. La ciudad cuenta con un animado centro urbano, hermosas playas y una escena artística próspera. Con su clima mediterráneo, restaurantes frente al mar y numerosas atracciones culturales, Long Beach ofrece la combinación perfecta de vida urbana y relajación playera.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "450K+",
+    "avgHomePrice": "$850K",
+    "tags": [
+      "Frente al mar",
+      "Diversidad",
+      "Cultura"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown Long Beach",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "El núcleo urbano con edificios de gran altura, vida nocturna en Pine Avenue y el Centro de Convenciones.",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "Skyline del centro de Long Beach al atardecer",
+        "distance": "Centro de la ciudad",
+        "avgHomePrice": "$950K",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Belmont Shore",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "Comunidad costera con encantadores bungalows, tiendas en Second Street y acceso a la marina.",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Casas en Belmont Shore con palmeras",
+        "distance": "5 km al sureste",
+        "avgHomePrice": "$1.2M",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Naples",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "Exclusivo vecindario junto a canales con casas de lujo y paseos en góndola.",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Canales de Naples Island con hermosas casas",
+        "distance": "6 km al sureste",
+        "avgHomePrice": "$1.8M",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Los Ángeles",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "La capital del entretenimiento mundial, con diversos barrios y atracciones culturales.",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "Skyline de Los Ángeles al atardecer",
+        "distance": "35 km al norte",
+        "avgHomePrice": "$1.2M",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA con 13 km de playas y un animado centro urbano.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Muelle de Huntington Beach con surfistas",
+        "distance": "19 km al sureste",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Vida frente al mar",
+        "description": "Disfruta de kilómetros de costa, el puerto deportivo Rainbow Harbor y el pintoresco Shoreline Village con restaurantes y entretenimiento.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Paseo marítimo de Long Beach con barcos y palmeras"
+      },
+      {
+        "title": "Atracciones culturales",
+        "description": "Visita el Acuario del Pacífico, el Museo de Arte Latinoamericano y el histórico transatlántico Queen Mary.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Exterior del Acuario del Pacífico"
+      },
+      {
+        "title": "Barrios diversos",
+        "description": "Desde lofts urbanos en el centro hasta lujosas casas junto a canales en Naples Island - Long Beach ofrece diversas opciones de vivienda.",
+        "icon": "🏡",
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Casas históricas coloridas en Long Beach"
+      },
+      {
+        "title": "Actividades al aire libre",
+        "description": "Con 345 días soleados al año, puedes recorrer el paseo costero en bicicleta, hacer paddle surf o visitar el Parque El Dorado.",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Carril bici a lo largo de la costa de Long Beach"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuáles son los mejores barrios de Long Beach?",
+        "answer": "Las áreas populares incluyen Belmont Shore para vida playera, Naples para casas de lujo junto a canales, y el centro para comodidades urbanas. Cada una ofrece diferentes estilos de vida.",
+        "category": "Barrios"
+      },
+      {
+        "question": "¿Cómo está el mercado inmobiliario en Long Beach?",
+        "answer": "Long Beach ofrece opciones relativamente más asequibles que el cercano LA, con precios medios de vivienda alrededor de $850K. Las propiedades frente al mar alcanzan precios premium.",
+        "category": "Bienes Raíces"
+      },
+      {
+        "question": "¿Qué hacer en Long Beach?",
+        "answer": "Disfruta de restaurantes frente al mar, visita el Acuario del Pacífico, explora el Queen Mary, compra en Second Street o relájate en sus numerosas playas y parques.",
+        "category": "Estilo de Vida"
+      },
+      {
+        "question": "¿Cómo son los trayectos desde Long Beach?",
+        "answer": "Long Beach tiene buen acceso a autopistas (710, 405) y la línea Metro Blue Line al centro de LA. Los trayectos a centros laborales varían entre 30-90 minutos.",
+        "category": "Transporte"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "68967727d030dedaafd978a9",
+    "slug": "los-angeles",
+    "name": "Los Ángeles",
+    "state": "California",
+    "shortDescription": "La capital del entretenimiento mundial, que ofrece barrios diversos, atracciones culturales y oportunidades infinitas.",
+    "fullDescription": "Los Ángeles es una extensa ciudad del sur de California y el centro de la industria cinematográfica y televisiva de Estados Unidos. Cerca de su icónico cartel de Hollywood, estudios como Paramount Pictures, Universal y Warner Brothers ofrecen recorridos entre bastidores. En el bulevar Hollywood, el Teatro Chino TCL muestra las huellas de manos y pies de celebridades, el Paseo de la Fama honra a miles de luminarias y los vendedores ofrecen mapas de las casas de las estrellas.",
+    "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "4M+",
+    "avgHomePrice": "$1.2M",
+    "tags": [
+      "Entretenimiento",
+      "Diversidad",
+      "Cultura"
+    ],
+    "neighborhoods": [
+      {
+        "name": "Long Beach",
+        "type": "city",
+        "slug": "long-beach",
+        "description": "Ciudad costera con un puerto activo, acuario del Pacífico y atracciones frente al mar.",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "Línea costera de Long Beach con palmeras",
+        "distance": "35 km al sur",
+        "avgHomePrice": "$850K",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Hogar del complejo Disneyland, el Angel Stadium y un vibrante centro de convenciones.",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "Castillo de Disneyland por la noche",
+        "distance": "43 km al sureste",
+        "avgHomePrice": "$780K",
+        "county": "Orange"
+      },
+      {
+        "name": "Irvine",
+        "type": "city",
+        "slug": "irvine",
+        "description": "Ciudad planificada conocida por sus escuelas de primer nivel, centros empresariales y parques.",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "Distrito empresarial de Irvine con edificios modernos",
+        "distance": "64 km al sureste",
+        "avgHomePrice": "$1.1M",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Mónica",
+        "type": "city",
+        "slug": "santa-monica",
+        "description": "Icónica ciudad playera con su famoso muelle, distritos comerciales y oficinas tecnológicas.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "Muelle de Santa Mónica al atardecer",
+        "distance": "24 km al oeste",
+        "avgHomePrice": "$1.8M",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Pasadena",
+        "type": "city",
+        "slug": "pasadena",
+        "description": "Centro cultural con el Rose Bowl, Caltech y arquitectura histórica.",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "Ayuntamiento de Pasadena por la noche",
+        "distance": "16 km al noreste",
+        "avgHomePrice": "$1.3M",
+        "county": "Los Ángeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "La Ciudad del Surf de EE.UU. con 13.7 km de playas y un animado centro urbano.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Muelle de Huntington Beach con surfistas",
+        "distance": "56 km al sureste",
+        "avgHomePrice": "$1.2M",
+        "county": "Orange"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Hollywood y Entretenimiento",
+        "description": "Hogar de la industria del entretenimiento más grande del mundo, con hitos icónicos como el Paseo de la Fama de Hollywood, el Teatro Chino TCL y los Universal Studios.",
+        "icon": "🎬",
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "Cartel de Hollywood con vista a Los Ángeles y cielo azul"
+      },
+      {
+        "title": "Barrios Diversos",
+        "description": "Desde el trendy Venice Beach hasta el exclusivo Beverly Hills, LA ofrece barrios únicos cada uno con su propio carácter y encanto.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "Calle en Beverly Hills bordeada de palmeras con casas de lujo"
+      },
+      {
+        "title": "Atracciones Culturales",
+        "description": "Museos de clase mundial como el Getty Center, LACMA y The Broad exhiben arte de todo el mundo.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "Museo Getty Center con arquitectura moderna"
+      },
+      {
+        "title": "Estilo de Vida al Aire Libre",
+        "description": "Con 284 días soleados al año, LA ofrece infinitas actividades al aire libre desde senderismo en las colinas de Hollywood hasta surf en Malibú.",
+        "icon": "🌞",
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "Personas surfeando en la playa de Malibú en un día soleado"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuáles son los mejores barrios de Los Ángeles?",
+        "answer": "Los barrios populares incluyen Beverly Hills para lujo, Venice Beach para creatividad, Santa Mónica para vida playera y el centro de LA para vida urbana. Cada área ofrece comodidades y opciones de estilo de vida únicas.",
+        "category": "Barrios"
+      },
+      {
+        "question": "¿Cómo está el mercado inmobiliario en Los Ángeles?",
+        "answer": "El mercado inmobiliario de LA es competitivo con alta demanda y oferta limitada. El precio medio de una vivienda ronda los $1.2M, con propiedades de lujo en áreas privilegiadas alcanzando precios premium.",
+        "category": "Bienes Raíces"
+      },
+      {
+        "question": "¿Cuál es el costo de vida en Los Ángeles?",
+        "answer": "Los Ángeles tiene un alto costo de vida, particularmente en vivienda. Sin embargo, la ciudad ofrece opciones diversas desde condominios de lujo hasta casas familiares, con varios rangos de precios en diferentes barrios.",
+        "category": "Costo de Vida"
+      },
+      {
+        "question": "¿Cómo es el clima en Los Ángeles?",
+        "answer": "LA disfruta de un clima mediterráneo con inviernos suaves y húmedos, y veranos calurosos y secos. La ciudad promedia 284 días soleados al año, haciéndola perfecta para actividades al aire libre.",
+        "category": "Clima"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896774ad030dedaafd978aa",
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "state": "Californie",
+    "shortDescription": "Une ville côtière dynamique avec un port animé, des attractions en bord de mer et une riche diversité culturelle.",
+    "fullDescription": "Long Beach est une ville côtière dynamique du sud de la Californie, connue pour son port actif, l'Aquarium du Pacifique et le paquebot historique Queen Mary. La ville possède un centre-ville animé, de belles plages et une scène artistique florissante. Avec son climat méditerranéen, ses restaurants en bord de mer et ses nombreuses attractions culturelles, Long Beach offre le mélange parfait entre vie urbaine et détente balnéaire.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "450 000+",
+    "avgHomePrice": "850 000 $",
+    "tags": [
+      "Front de mer",
+      "Diversité",
       "Culture"
     ],
     "neighborhoods": [
-      "SOMA",
-      "Mission District",
-      "Pacific Heights",
-      "Nob Hill",
-      "Castro",
-      "Chinatown"
+      {
+        "name": "Centre-ville de Long Beach",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "Le cœur urbain avec des immeubles résidentiels, la vie nocturne de Pine Avenue et le centre des congrès.",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "Skyline du centre-ville de Long Beach au crépuscule",
+        "distance": "Centre-ville",
+        "avgHomePrice": "950 000 $",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Belmont Shore",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "Communauté balnéaire avec des bungalows charmants, des commerces sur Second Street et un accès à la marina.",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Maisons de Belmont Shore avec palmiers",
+        "distance": "5 km au sud-est",
+        "avgHomePrice": "1,2 M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Naples",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "Quartier exclusif avec des maisons de luxe le long des canaux et des promenades en gondole.",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "Canaux de Naples Island avec belles maisons",
+        "distance": "6 km au sud-est",
+        "avgHomePrice": "1,8 M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Los Angeles",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "La capitale mondiale du divertissement avec des quartiers diversifiés et des attractions culturelles.",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "Skyline de Los Angeles au coucher du soleil",
+        "distance": "35 km au nord",
+        "avgHomePrice": "1,2 M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA avec 13 km de plages et un centre-ville animé.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Jetée de Huntington Beach avec surfeurs",
+        "distance": "19 km au sud-est",
+        "avgHomePrice": "1,2 M$",
+        "county": "Orange"
+      }
     ],
     "highlights": [
       {
-        "title": "Tech Innovation Hub",
-        "description": "Home to Silicon Valley giants and innovative startups, SF leads the world in technology and entrepreneurship.",
-        "icon": "💻",
-        "bgImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
+        "title": "Vie en bord de mer",
+        "description": "Profitez de kilomètres de côte, de la marina Rainbow Harbor et du pittoresque Shoreline Village avec ses restaurants et divertissements.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Front de mer de Long Beach avec bateaux et palmiers"
       },
       {
-        "title": "Iconic Landmarks",
-        "description": "The Golden Gate Bridge, Alcatraz Island, and cable cars are just a few of the city's world-famous attractions.",
-        "icon": "🌉",
-        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
+        "title": "Attractions culturelles",
+        "description": "Visitez l'Aquarium du Pacifique, le Musée d'art latino-américain et le paquebot historique Queen Mary.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Extérieur de l'Aquarium du Pacifique"
       },
       {
-        "title": "Diverse Neighborhoods",
-        "description": "From the historic Chinatown to the trendy Mission District, each neighborhood offers unique character and culture.",
-        "icon": "🏙️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Culinary Excellence",
-        "description": "SF is a food lover's paradise with world-class restaurants, farmers markets, and diverse international cuisine.",
-        "icon": "🍽️",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best areas to live in San Francisco?",
-        "answer": "Popular areas include Pacific Heights for luxury homes, North Beach for Italian culture, the Mission for trendy dining, and Nob Hill for classic San Francisco charm.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How expensive is housing in San Francisco?",
-        "answer": "San Francisco has one of the highest housing costs in the US, with median home prices around $1.8M. The competitive market reflects the city's desirability and limited space.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is the job market like in San Francisco?",
-        "answer": "SF has a strong job market, particularly in technology, finance, and healthcare. The city attracts top talent from around the world.",
-        "category": "Employment"
-      },
-      {
-        "question": "How is the public transportation in San Francisco?",
-        "answer": "SF offers excellent public transportation including BART, Muni buses and light rail, and iconic cable cars. The city is also very walkable and bike-friendly.",
-        "category": "Transportation"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Alex Thompson",
-        "description": "Software Engineer",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Amazing experience buying in SOMA! The team's tech industry knowledge was invaluable in finding the perfect loft."
-      },
-      {
-        "name": "Jennifer Liu",
-        "description": "Startup Founder",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&q=80",
-        "rating": 5,
-        "review": "Found a beautiful Victorian in Pacific Heights. The process was smooth and the market insights were spot-on."
-      },
-      {
-        "name": "Michael Foster",
-        "description": "Investment Banker",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Excellent service for luxury property investment. Deep understanding of SF's unique market dynamics."
-      },
-      {
-        "name": "Emily Chang",
-        "description": "Creative Director",
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect Mission District condo with amazing city views. Professional team that truly listens to your needs."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97851",
-    "slug": "san-diego",
-    "name": "San Diego",
-    "state": "California",
-    "shortDescription": "America's Finest City, offering perfect weather, beautiful beaches, and a laid-back lifestyle with world-class amenities.",
-    "fullDescription": "San Diego is a city on the Pacific coast of California known for its beaches, parks and warm climate. Immense Balboa Park is the site of the renowned San Diego Zoo, as well as numerous art galleries, artist studios, museums and gardens.",
-    "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "1.4M+",
-    "avgHomePrice": "$950K",
-    "tags": [
-      "Beaches",
-      "Weather",
-      "Lifestyle"
-    ],
-    "neighborhoods": [
-      "La Jolla",
-      "Del Mar",
-      "Coronado",
-      "Gaslamp Quarter",
-      "Mission Beach",
-      "Hillcrest"
-    ],
-    "highlights": [
-      {
-        "title": "Perfect Weather",
-        "description": "With an average of 266 sunny days per year and temperatures between 65-75°F, San Diego offers ideal year-round weather.",
-        "icon": "☀️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Beautiful Beaches",
-        "description": "From La Jolla's pristine shores to Pacific Beach's vibrant scene, San Diego offers 70 miles of coastline to explore.",
-        "icon": "🏖️",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      },
-      {
-        "title": "Outdoor Activities",
-        "description": "Hiking, surfing, sailing, and golf are just a few of the outdoor activities available year-round in San Diego.",
-        "icon": "🏄‍♂️",
-        "bgImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-      },
-      {
-        "title": "Cultural Attractions",
-        "description": "Balboa Park, the San Diego Zoo, and world-class museums offer endless cultural experiences.",
-        "icon": "🦁",
-        "bgImage": "https://images.unsplash.com/photo-1520637836862-4d197d17c89a?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best neighborhoods in San Diego?",
-        "answer": "La Jolla offers luxury and beaches, Del Mar provides upscale coastal living, Coronado offers island charm, and Downtown provides urban convenience.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in San Diego?",
-        "answer": "San Diego's real estate market is strong with steady appreciation. The median home price is around $950K, with luxury properties in coastal areas commanding premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is the cost of living in San Diego?",
-        "answer": "While expensive compared to national averages, San Diego offers better value than other California coastal cities while maintaining high quality of life.",
-        "category": "Cost of Living"
-      },
-      {
-        "question": "How is the job market in San Diego?",
-        "answer": "San Diego has diverse industries including biotechnology, defense, tourism, and technology, providing strong employment opportunities.",
-        "category": "Employment"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Commander Roberts",
-        "description": "Navy Officer",
-        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect family home near the base in Coronado. The team understood our military timeline and made it happen smoothly."
-      },
-      {
-        "name": "Dr. Patricia Kim",
-        "description": "Biotech Executive",
-        "image": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful La Jolla property with ocean views. Exceptional market knowledge and professional service throughout."
-      },
-      {
-        "name": "Robert Martinez",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Found our retirement dream home in Del Mar. Patient, understanding, and helped us navigate from out of state."
-      },
-      {
-        "name": "Lisa Johnson",
-        "description": "Young Family",
-        "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=150&q=80",
-        "rating": 5,
-        "review": "Great schools, safe neighborhood, beach access - everything we wanted for our kids. Couldn't be happier!"
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97852",
-    "slug": "beverly-hills",
-    "name": "Beverly Hills",
-    "state": "California",
-    "shortDescription": "The epitome of luxury living, featuring world-class shopping, fine dining, and some of the most prestigious real estate in the world.",
-    "fullDescription": "Beverly Hills is a city in Los Angeles County, California, United States. It is known for its luxury shopping, fine dining, and the famous Rodeo Drive shopping district. The city is home to many celebrities and is one of the most prestigious addresses in the world.",
-    "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "32K+",
-    "avgHomePrice": "$4.2M",
-    "tags": [
-      "Luxury",
-      "Shopping",
-      "Celebrities"
-    ],
-    "neighborhoods": [
-      "Beverly Hills Flats",
-      "Beverly Hills Post Office",
-      "Trousdale Estates",
-      "Beverly Park",
-      "Holmby Hills",
-      "Bel Air"
-    ],
-    "highlights": [
-      {
-        "title": "Rodeo Drive Shopping",
-        "description": "World-famous shopping district featuring luxury brands like Gucci, Prada, and Louis Vuitton in an elegant setting.",
-        "icon": "🛍️",
-        "bgImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
-      },
-      {
-        "title": "Celebrity Lifestyle",
-        "description": "Home to many Hollywood celebrities and entertainment industry professionals seeking privacy and luxury.",
-        "icon": "⭐",
-        "bgImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-      },
-      {
-        "title": "Fine Dining",
-        "description": "Exceptional restaurants offering world-class cuisine from celebrity chefs and international flavors.",
-        "icon": "🍾",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      },
-      {
-        "title": "Luxury Real Estate",
-        "description": "Some of the most prestigious and expensive real estate in the world, featuring architectural masterpieces.",
-        "icon": "🏰",
-        "bgImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What makes Beverly Hills real estate so expensive?",
-        "answer": "Beverly Hills offers unparalleled luxury, privacy, and prestige. The limited supply of properties, combined with high demand from celebrities and wealthy individuals, drives premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "Is Beverly Hills a good place to raise a family?",
-        "answer": "Yes, Beverly Hills offers excellent schools, safe neighborhoods, and family-friendly amenities while maintaining its luxury appeal.",
-        "category": "Family Life"
-      },
-      {
-        "question": "What are the main attractions in Beverly Hills?",
-        "answer": "Rodeo Drive shopping, the Beverly Hills Hotel, fine dining restaurants, and beautiful residential architecture are major attractions.",
-        "category": "Attractions"
-      },
-      {
-        "question": "How is the security in Beverly Hills?",
-        "answer": "Beverly Hills has one of the highest police-to-resident ratios in the country, providing excellent security and peace of mind.",
-        "category": "Safety"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Amanda Sterling",
-        "description": "Hollywood Producer",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Incredible Trousdale Estates property with complete privacy. The team's discretion and luxury market expertise were perfect."
-      },
-      {
-        "name": "Hassan Al-Rashid",
-        "description": "International Investor",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
-        "rating": 5,
-        "review": "Exceptional service for our Beverly Park estate purchase. White glove treatment from start to finish."
-      },
-      {
-        "name": "Victoria Chen",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful home in the flats perfect for entertaining. Professional team that understands luxury living."
-      },
-      {
-        "name": "Marcus Williams",
-        "description": "Investment Banker",
-        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80",
-        "rating": 5,
-        "review": "Premium investment property with excellent appreciation potential. Market insights were invaluable."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97853",
-    "slug": "malibu",
-    "name": "Malibu",
-    "state": "California",
-    "shortDescription": "A pristine coastal paradise offering stunning ocean views, celebrity homes, and the ultimate California beach lifestyle.",
-    "fullDescription": "Malibu is a beach city in Los Angeles County, California, situated 30 miles west of Downtown Los Angeles. Known for its 21-mile strip of beaches, celebrity homes, and laid-back lifestyle, Malibu is one of the most exclusive and desirable coastal communities in the world.",
-    "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "12K+",
-    "avgHomePrice": "$3.8M",
-    "tags": [
-      "Beach",
-      "Privacy",
-      "Celebrities"
-    ],
-    "neighborhoods": [
-      "The Colony",
-      "Point Dume",
-      "Broad Beach",
-      "Malibu West",
-      "Carbon Beach",
-      "Ramirez Canyon"
-    ],
-    "highlights": [
-      {
-        "title": "Pristine Beaches",
-        "description": "21 miles of beautiful coastline with some of the best surfing spots in California, including Surfrider Beach and Zuma Beach.",
-        "icon": "🌊",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      },
-      {
-        "title": "Celebrity Privacy",
-        "description": "Home to many celebrities who value the privacy and seclusion that Malibu's gated communities and large properties provide.",
+        "title": "Quartiers diversifiés",
+        "description": "Des lofts urbains du centre-ville aux maisons de luxe le long des canaux de Naples Island - Long Beach offre diverses options de logement.",
         "icon": "🏡",
-        "bgImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Maisons historiques colorées à Long Beach"
       },
       {
-        "title": "Natural Beauty",
-        "description": "Stunning ocean views, rolling hills, and the Santa Monica Mountains create a breathtaking natural setting.",
-        "icon": "🏔️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Exclusive Lifestyle",
-        "description": "A relaxed, sophisticated lifestyle with access to world-class dining, shopping, and outdoor activities.",
-        "icon": "🥂",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+        "title": "Activités en plein air",
+        "description": "Avec 345 jours de soleil par an, vous pouvez faire du vélo le long de la promenade côtière, du paddle ou visiter le parc El Dorado.",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "Piste cyclable le long du littoral de Long Beach"
       }
     ],
     "faqs": [
       {
-        "question": "What are the different areas of Malibu?",
-        "answer": "Malibu includes areas like the Colony (gated community), Point Dume, Broad Beach, and Malibu West, each offering different lifestyles and property types.",
-        "category": "Neighborhoods"
+        "question": "Quels sont les meilleurs quartiers de Long Beach ?",
+        "answer": "Les quartiers populaires incluent Belmont Shore pour la vie balnéaire, Naples pour les maisons de luxe le long des canaux, et le centre-ville pour les commodités urbaines. Chacun offre des options de style de vie différentes.",
+        "category": "Quartiers"
       },
       {
-        "question": "How is the real estate market in Malibu?",
-        "answer": "Malibu's real estate market is highly competitive with limited inventory. Properties often command premium prices due to the exclusive location and ocean views.",
-        "category": "Real Estate"
+        "question": "Comment est le marché immobilier à Long Beach ?",
+        "answer": "Long Beach propose des options relativement plus abordables que Los Angeles voisine, avec des prix médians de maisons autour de 850 000 $. Les propriétés en bord de mer atteignent des prix premium.",
+        "category": "Immobilier"
       },
       {
-        "question": "What outdoor activities are available in Malibu?",
-        "answer": "Surfing, hiking in the Santa Monica Mountains, beach activities, and water sports are popular year-round activities in Malibu.",
-        "category": "Lifestyle"
+        "question": "Que faire à Long Beach ?",
+        "answer": "Profitez des restaurants en bord de mer, visitez l'Aquarium du Pacifique, explorez le Queen Mary, faites du shopping sur Second Street ou détendez-vous sur ses nombreuses plages et parcs.",
+        "category": "Mode de vie"
       },
       {
-        "question": "How is the weather in Malibu?",
-        "answer": "Malibu enjoys a Mediterranean climate with mild temperatures year-round, cool ocean breezes, and plenty of sunshine.",
-        "category": "Weather"
+        "question": "Comment sont les trajets depuis Long Beach ?",
+        "answer": "Long Beach dispose d'un bon accès aux autoroutes (710, 405) et de la ligne Metro Blue Line vers le centre de Los Angeles. Les trajets vers les centres d'emploi varient entre 30-90 minutes.",
+        "category": "Transport"
       }
     ],
-    "clients": [
-      {
-        "name": "Jake Morrison",
-        "description": "Professional Surfer",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect beachfront property at Point Dume! Wake up to waves every morning. The team understood my lifestyle perfectly."
-      },
-      {
-        "name": "Isabella Rodriguez",
-        "description": "Celebrity Chef",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning home in The Colony with complete privacy. Professional service with absolute discretion - exactly what I needed."
-      },
-      {
-        "name": "Thomas Wright",
-        "description": "Tech Mogul",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Incredible Broad Beach compound with panoramic ocean views. The investment potential and lifestyle are unmatched."
-      },
-      {
-        "name": "Sophia Chen",
-        "description": "Nature Photographer",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Found my creative sanctuary in Ramirez Canyon. Peaceful, inspiring, and still close to the city when needed."
-      }
-    ]
+    "clients": []
   },
   {
-    "id": "6894ecf1d030dedaafd97854",
-    "slug": "palo-alto",
-    "name": "Palo Alto",
-    "state": "California",
-    "shortDescription": "The heart of Silicon Valley, combining world-class education, technological innovation, and upscale suburban living.",
-    "fullDescription": "Palo Alto is a charter city in the northwestern corner of Santa Clara County, California, in the San Francisco Bay Area. Home to Stanford University and headquarters of many high-tech companies, Palo Alto is one of the most expensive cities in the United States and its residents are among the highest educated.",
+    "id": "689677c5d030dedaafd978ab",
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "state": "Californie",
+    "shortDescription": "La capitale mondiale du divertissement, offrant des quartiers diversifiés, des attractions culturelles et des opportunités infinies.",
+    "fullDescription": "Los Angeles est une vaste ville du sud de la Californie et le centre de l'industrie cinématographique et télévisuelle américaine. Près de son emblématique panneau Hollywood, des studios comme Paramount Pictures, Universal et Warner Brothers proposent des visites des coulisses. Sur Hollywood Boulevard, le TCL Chinese Theatre expose les empreintes de mains et de pieds de célébrités, le Walk of Fame honore des milliers de personnalités et des vendeurs proposent des cartes des maisons des stars.",
     "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "68K+",
-    "avgHomePrice": "$3.5M",
+    "population": "4M+",
+    "avgHomePrice": "1,2M$",
     "tags": [
-      "Technology",
-      "Education",
-      "Innovation"
+      "Divertissement",
+      "Diversité",
+      "Culture"
     ],
     "neighborhoods": [
-      "Old Palo Alto",
-      "Professorville",
-      "Crescent Park",
-      "Barron Park",
-      "Downtown Palo Alto",
-      "College Terrace"
+      {
+        "name": "Long Beach",
+        "type": "city",
+        "slug": "long-beach",
+        "description": "Ville côtière avec un port animé, l'aquarium du Pacifique et des attractions en bord de mer.",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "Littoral de Long Beach avec palmiers",
+        "distance": "35 km au sud",
+        "avgHomePrice": "850K$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Anaheim",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "Accueille la station Disneyland, l'Angel Stadium et un centre de conventions animé.",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "Château de Disneyland la nuit",
+        "distance": "43 km au sud-est",
+        "avgHomePrice": "780K$",
+        "county": "Orange"
+      },
+      {
+        "name": "Irvine",
+        "type": "city",
+        "slug": "irvine",
+        "description": "Ville planifiée réputée pour ses écoles excellentes, ses centres d'affaires et ses parcs.",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "Quartier d'affaires d'Irvine avec bâtiments modernes",
+        "distance": "64 km au sud-est",
+        "avgHomePrice": "1,1M$",
+        "county": "Orange"
+      },
+      {
+        "name": "Santa Monica",
+        "type": "city",
+        "slug": "santa-monica",
+        "description": "Emblématique ville balnéaire avec son célèbre pier, quartiers commerçants et bureaux tech.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "Pier de Santa Monica au coucher du soleil",
+        "distance": "24 km à l'ouest",
+        "avgHomePrice": "1,8M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Pasadena",
+        "type": "city",
+        "slug": "pasadena",
+        "description": "Centre culturel avec le Rose Bowl, Caltech et une architecture historique.",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "Hôtel de ville de Pasadena la nuit",
+        "distance": "16 km au nord-est",
+        "avgHomePrice": "1,3M$",
+        "county": "Los Angeles"
+      },
+      {
+        "name": "Huntington Beach",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "Surf City USA avec 13,7 km de plages et un centre-ville animé.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "Pier de Huntington Beach avec surfeurs",
+        "distance": "56 km au sud-est",
+        "avgHomePrice": "1,2M$",
+        "county": "Orange"
+      }
     ],
     "highlights": [
       {
-        "title": "Silicon Valley Hub",
-        "description": "Home to Stanford University and headquarters of tech giants like Tesla and HP, driving global innovation.",
-        "icon": "💡",
-        "bgImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
+        "title": "Hollywood et Divertissement",
+        "description": "Siège de la plus grande industrie du divertissement au monde, avec des lieux emblématiques comme le Walk of Fame, le TCL Chinese Theatre et Universal Studios.",
+        "icon": "🎬",
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "Panneau Hollywood surplombant Los Angeles avec ciel bleu"
       },
       {
-        "title": "Top-Rated Schools",
-        "description": "Exceptional public and private schools, including nationally-ranked Palo Alto High School and Gunn High School.",
-        "icon": "🎓",
-        "bgImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
-      },
-      {
-        "title": "Upscale Suburban Living",
-        "description": "Beautiful tree-lined streets, historic homes, and a vibrant downtown with excellent dining and shopping.",
-        "icon": "🌳",
-        "bgImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
-      },
-      {
-        "title": "Cultural Attractions",
-        "description": "Stanford University's Cantor Arts Center, the Palo Alto Art Center, and numerous performing arts venues.",
-        "icon": "🎭",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Why is Palo Alto real estate so expensive?",
-        "answer": "Palo Alto's combination of top schools, proximity to Silicon Valley jobs, limited housing supply, and desirable quality of life create extremely high demand.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is the job market like in Palo Alto?",
-        "answer": "Palo Alto has one of the strongest job markets in the country, centered around technology, education, and professional services.",
-        "category": "Employment"
-      },
-      {
-        "question": "How are the schools in Palo Alto?",
-        "answer": "Palo Alto schools are consistently ranked among the best in California and the nation, with exceptional academic programs.",
-        "category": "Education"
-      },
-      {
-        "question": "What is there to do in Palo Alto?",
-        "answer": "Stanford shopping, university events, hiking in the foothills, excellent dining, and cultural attractions provide abundant activities.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Raj Patel",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect family home near Stanford. The team's knowledge of school districts was invaluable."
-      },
-      {
-        "name": "Natalie Wong",
-        "description": "Venture Capitalist",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful historic home in Professorville. The investment potential in Palo Alto is unmatched."
-      },
-      {
-        "name": "Dr. Michael Chen",
-        "description": "Stanford Professor",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Walking distance to campus in College Terrace. The process was smooth despite the competitive market."
-      },
-      {
-        "name": "Sophia Rodriguez",
-        "description": "Entrepreneur",
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
-        "rating": 5,
-        "review": "Modern downtown condo perfect for my startup lifestyle. Location is everything in Palo Alto!"
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97855",
-    "slug": "santa-barbara",
-    "name": "Santa Barbara",
-    "state": "California",
-    "shortDescription": "The American Riviera, offering Mediterranean charm, stunning coastline, and a relaxed yet sophisticated lifestyle.",
-    "fullDescription": "Santa Barbara is a city on the central California coast, with the Santa Ynez Mountains as dramatic backdrop. Downtown features Mediterranean-style white stucco buildings with red-tile roofs, a legacy of the city's Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line State Street.",
-    "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "90K+",
-    "avgHomePrice": "$2.1M",
-    "tags": [
-      "Coastal",
-      "Luxury",
-      "Wine Country"
-    ],
-    "neighborhoods": [
-      "Montecito",
-      "Hope Ranch",
-      "Downtown",
-      "Mission Canyon",
-      "Riviera",
-      "Goleta"
-    ],
-    "highlights": [
-      {
-        "title": "Mediterranean Climate",
-        "description": "Year-round pleasant weather with ocean breezes and over 300 days of sunshine annually.",
-        "icon": "☀️",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
-      },
-      {
-        "title": "Wine Country",
-        "description": "Gateway to the Santa Ynez Valley wine region with over 200 wineries producing world-class wines.",
-        "icon": "🍷",
-        "bgImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80"
-      },
-      {
-        "title": "Historic Architecture",
-        "description": "Spanish colonial revival architecture throughout the city creates a distinctive European charm.",
-        "icon": "🏛️",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
-      },
-      {
-        "title": "Coastal Beauty",
-        "description": "Stunning beaches, harbor views, and oceanfront living with the Santa Ynez Mountains as backdrop.",
-        "icon": "🌊",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best neighborhoods in Santa Barbara?",
-        "answer": "Montecito offers luxury estates, Hope Ranch provides equestrian properties, Downtown offers urban living, and the Riviera features stunning views.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Santa Barbara?",
-        "answer": "Santa Barbara's market is highly desirable with limited inventory, especially for coastal properties. Prices reflect the premium lifestyle and location.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do in Santa Barbara?",
-        "answer": "Wine tasting, beach activities, hiking, cultural events, shopping on State Street, and enjoying the vibrant dining scene.",
-        "category": "Lifestyle"
-      },
-      {
-        "question": "How is the weather in Santa Barbara?",
-        "answer": "Santa Barbara enjoys a Mediterranean climate with mild temperatures year-round, rarely too hot or cold.",
-        "category": "Weather"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Olivia Martinez",
-        "description": "Retired Executive",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Found our dream retirement home in Montecito. The team understood exactly what we wanted in this next chapter."
-      },
-      {
-        "name": "Ethan Thompson",
-        "description": "Vineyard Owner",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect property near wine country with room for expansion. The agricultural expertise was invaluable."
-      },
-      {
-        "name": "Ava Wilson",
-        "description": "Tech Remote Worker",
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful downtown loft with ocean views. I can walk to everything and still have peace when I need to work."
-      },
-      {
-        "name": "Noah Johnson",
-        "description": "University Professor",
-        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80",
-        "rating": 5,
-        "review": "Historic home in Mission Canyon near UCSB. The character and location are perfect for our academic lifestyle."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97856",
-    "slug": "newport-beach",
-    "name": "Newport Beach",
-    "state": "California",
-    "shortDescription": "An upscale coastal city known for its harbor, beaches, and luxury lifestyle, offering premier waterfront living.",
-    "fullDescription": "Newport Beach is a coastal city in Orange County, California, known for its large harbor and upscale lifestyle. The city includes Balboa Peninsula with the historic Balboa Pavilion and Newport Pier, as well as the upscale communities of Corona del Mar and Newport Coast.",
-    "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "86K+",
-    "avgHomePrice": "$3.2M",
-    "tags": [
-      "Waterfront",
-      "Luxury",
-      "Boating"
-    ],
-    "neighborhoods": [
-      "Balboa Peninsula",
-      "Corona del Mar",
-      "Newport Coast",
-      "Lido Isle",
-      "Harbor View",
-      "Crystal Cove"
-    ],
-    "highlights": [
-      {
-        "title": "Waterfront Living",
-        "description": "Over 10 miles of coastline and one of the largest recreational harbors on the West Coast offering premier boating access.",
-        "icon": "⛵",
-        "bgImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
-      },
-      {
-        "title": "Luxury Lifestyle",
-        "description": "High-end shopping at Fashion Island, fine dining, and exclusive gated communities cater to discerning tastes.",
-        "icon": "💎",
-        "bgImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
-      },
-      {
-        "title": "Beach Culture",
-        "description": "Iconic beaches including The Wedge for bodysurfing, Corona del Mar State Beach, and family-friendly Balboa Beach.",
-        "icon": "🏖️",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      },
-      {
-        "title": "Outdoor Activities",
-        "description": "Sailing, paddleboarding, golfing at Pelican Hill, and hiking in the Back Bay Nature Preserve.",
-        "icon": "🏌️‍♂️",
-        "bgImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the different areas of Newport Beach?",
-        "answer": "Balboa Peninsula offers beachfront living, Corona del Mar has village charm, Newport Coast features luxury estates, and Lido Isle is an exclusive island community.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the boating scene in Newport Beach?",
-        "answer": "Newport Harbor is one of the largest recreational boat harbors on the West Coast, with excellent marina facilities and yacht clubs.",
-        "category": "Lifestyle"
-      },
-      {
-        "question": "What are the schools like in Newport Beach?",
-        "answer": "Newport Beach has excellent public and private schools, with Corona del Mar High School consistently ranked among California's best.",
-        "category": "Education"
-      },
-      {
-        "question": "How is the real estate market in Newport Beach?",
-        "answer": "Newport Beach has a strong luxury market with high demand for waterfront properties. Prices reflect the premium coastal location and lifestyle.",
-        "category": "Real Estate"
-      }
-    ],
-    "clients": [
-      {
-        "name": "William Carter",
-        "description": "Yacht Owner",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect harborfront home with private dock. The team's knowledge of waterfront properties was exceptional."
-      },
-      {
-        "name": "Sophie Bennett",
-        "description": "Retired CEO",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning Newport Coast villa with panoramic ocean views. The luxury market expertise made all the difference."
-      },
-      {
-        "name": "Ryan Park",
-        "description": "Finance Executive",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
-        "rating": 5,
-        "review": "Found our dream family home in Corona del Mar. Walkable to the village with top schools - couldn't be happier!"
-      },
-      {
-        "name": "Emily Foster",
-        "description": "Tech Entrepreneur",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Modern Lido Isle home perfect for entertaining. The investment potential in Newport Beach is outstanding."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97857",
-    "slug": "carmel-by-the-sea",
-    "name": "Carmel-by-the-Sea",
-    "state": "California",
-    "shortDescription": "A storybook coastal village known for its fairytale cottages, white sand beaches, and artistic heritage.",
-    "fullDescription": "Carmel-by-the-Sea is a small beach city on California's Monterey Peninsula known for its fairytale cottages, artistic heritage, and scenic beauty. The town's downtown area, centered around Ocean Avenue, is filled with art galleries, boutique shops, and fine dining restaurants, all within walking distance of the famous white sand Carmel Beach.",
-    "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "3K+",
-    "avgHomePrice": "$2.8M",
-    "tags": [
-      "Artsy",
-      "Coastal",
-      "Charming"
-    ],
-    "neighborhoods": [
-      "Downtown Village",
-      "North Carmel",
-      "Carmel Point",
-      "Carmel Woods",
-      "Scenic Road",
-      "Carmel Highlands"
-    ],
-    "highlights": [
-      {
-        "title": "Storybook Charm",
-        "description": "Quaint fairytale cottages, hidden courtyards, and whimsical architecture create a magical village atmosphere.",
-        "icon": "🏡",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
-      },
-      {
-        "title": "Artistic Heritage",
-        "description": "Home to over 100 art galleries and the historic Carmel Art Association, continuing the town's legacy as an artists' colony.",
-        "icon": "🎨",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
-      },
-      {
-        "title": "Natural Beauty",
-        "description": "Stunning white sand beaches, cypress trees, and dramatic coastal views along Scenic Road and 17-Mile Drive.",
-        "icon": "🌲",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Culinary Excellence",
-        "description": "World-class restaurants and wine tasting rooms showcasing Monterey County's agricultural bounty.",
-        "icon": "🍽️",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What makes Carmel-by-the-Sea unique?",
-        "answer": "Carmel's fairytale cottages, lack of street addresses (houses have names instead), ban on chain stores, and artistic heritage create a truly unique coastal village.",
-        "category": "Culture"
-      },
-      {
-        "question": "How is the real estate market in Carmel?",
-        "answer": "Carmel's real estate market features unique historic properties with strong demand from second-home buyers. Limited inventory keeps prices high.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What are the best areas in Carmel?",
-        "answer": "The village offers walkable charm, Carmel Point has oceanfront homes, and Carmel Highlands provides dramatic cliffside properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "What is there to do in Carmel?",
-        "answer": "Art gallery hopping, beach walks, wine tasting, golf at Pebble Beach, and exploring the charming downtown filled with unique shops.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Charles Whitmore",
-        "description": "Retired Executive",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Found our perfect fairytale cottage in the village. The team's knowledge of Carmel's unique properties was invaluable."
-      },
-      {
-        "name": "Eleanor Sinclair",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Charming studio with garden near the galleries. Exactly the creative sanctuary I envisioned in Carmel."
-      },
-      {
-        "name": "Benjamin Hart",
-        "description": "Tech Investor",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning oceanfront home on Scenic Road. The investment potential in Carmel is as beautiful as the views."
-      },
-      {
-        "name": "Victoria Moore",
-        "description": "Writer",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Quiet cottage in the woods perfect for writing. The team understood exactly what I needed for inspiration."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97858",
-    "slug": "napa",
-    "name": "Napa",
-    "state": "California",
-    "shortDescription": "The heart of California wine country, offering world-class vineyards, gourmet dining, and a relaxed upscale lifestyle.",
-    "fullDescription": "Napa is the largest city in California's Wine Country, located in Napa County. It's known for its hundreds of hillside vineyards in the surrounding Napa Valley region. The downtown area features the Napa River waterfront with upscale restaurants and tasting rooms, plus the Oxbow Public Market for gourmet foods.",
-    "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "78K+",
-    "avgHomePrice": "$1.1M",
-    "tags": [
-      "Wine Country",
-      "Culinary",
-      "Vineyards"
-    ],
-    "neighborhoods": [
-      "Downtown Napa",
-      "Silverado",
-      "Carneros",
-      "Browns Valley",
-      "Westwood",
-      "Alta Heights"
-    ],
-    "highlights": [
-      {
-        "title": "Wine Country Living",
-        "description": "Surrounded by over 400 wineries producing some of the world's finest wines, with many offering exclusive tastings.",
-        "icon": "🍷",
-        "bgImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80"
-      },
-      {
-        "title": "Culinary Excellence",
-        "description": "Michelin-starred restaurants, the Oxbow Public Market, and farm-to-table dining showcase Wine Country cuisine.",
-        "icon": "🍽️",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      },
-      {
-        "title": "Scenic Beauty",
-        "description": "Rolling vineyards, the Napa River, and the Mayacamas Mountains create breathtaking landscapes.",
-        "icon": "🏞️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Relaxed Luxury",
-        "description": "Upscale yet unpretentious lifestyle with world-class spas, resorts, and cultural events.",
-        "icon": "🧖‍♀️",
-        "bgImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the different areas of Napa?",
-        "answer": "Downtown offers urban wine country living, Silverado features estate properties, Carneros has vineyard homes, and Browns Valley offers family neighborhoods.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Napa?",
-        "answer": "Napa's market is strong with demand from wine industry professionals and second-home buyers. Vineyard properties command premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do in Napa besides wine tasting?",
-        "answer": "Hot air ballooning, spa treatments, gourmet dining, hiking, biking, and cultural events like the Napa Valley Film Festival.",
-        "category": "Lifestyle"
-      },
-      {
-        "question": "How is the weather in Napa?",
-        "answer": "Napa enjoys a Mediterranean climate with warm days and cool nights - ideal for grape growing and outdoor activities.",
-        "category": "Weather"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Robert Delacroix",
-        "description": "Winemaker",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect vineyard property in Carneros. The team's wine country expertise was invaluable."
-      },
-      {
-        "name": "Isabelle Martin",
-        "description": "Restaurateur",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Charming downtown loft near the Oxbow Market. Perfect location for our food and wine lifestyle."
-      },
-      {
-        "name": "Thomas Beaumont",
-        "description": "Retired Executive",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Silverado estate with vineyard views. The retirement home we've always dreamed of in wine country."
-      },
-      {
-        "name": "Sophie Laurent",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Creative space in Alta Hills with inspiring views. The team understood exactly what I needed for my studio."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97859",
-    "slug": "santa-monica",
-    "name": "Santa Monica",
-    "state": "California",
-    "shortDescription": "A vibrant beach city offering perfect weather, a walkable downtown, and the iconic Santa Monica Pier.",
-    "fullDescription": "Santa Monica is a coastal city west of downtown Los Angeles known for its iconic pier featuring a small amusement park and the Pacific Park Ferris wheel. The beachfront pathway, Palisades Park, has ocean views and the upscale open-air shopping area Third Street Promenade offers retail stores, restaurants and street performers.",
-    "heroImage": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "93K+",
-    "avgHomePrice": "$1.8M",
-    "tags": [
-      "Beach",
-      "Walkable",
-      "Urban"
-    ],
-    "neighborhoods": [
-      "North of Montana",
-      "Ocean Park",
-      "Mid-City",
-      "Downtown",
-      "Sunset Park",
-      "Wilshire/Montana"
-    ],
-    "highlights": [
-      {
-        "title": "Beachfront Living",
-        "description": "3.5 miles of beautiful coastline with the famous Santa Monica Beach and iconic pier with Pacific Park.",
-        "icon": "🏖️",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      },
-      {
-        "title": "Walkable Urbanism",
-        "description": "Highly walkable with excellent public transit including the Expo Line to downtown LA and vibrant pedestrian areas.",
-        "icon": "🚶‍♀️",
-        "bgImage": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&q=80"
-      },
-      {
-        "title": "Cultural Attractions",
-        "description": "Bergamot Station arts center, Santa Monica Museum of Art, and numerous theaters and music venues.",
-        "icon": "🎭",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
-      },
-      {
-        "title": "Dining & Shopping",
-        "description": "Third Street Promenade, Montana Avenue, and Main Street offer world-class shopping and dining options.",
-        "icon": "🛍️",
-        "bgImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best neighborhoods in Santa Monica?",
-        "answer": "North of Montana offers luxury homes, Ocean Park has a bohemian vibe, Downtown provides urban living, and Sunset Park is great for families.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Santa Monica?",
-        "answer": "Santa Monica has a strong market with high demand for its beach proximity and quality of life. Prices reflect the premium coastal location.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is the commute like to downtown LA?",
-        "answer": "The Expo Line light rail provides easy access to downtown LA in about 45 minutes, avoiding freeway traffic.",
-        "category": "Transportation"
-      },
-      {
-        "question": "How are the schools in Santa Monica?",
-        "answer": "Santa Monica has excellent public schools and several top private schools, making it popular with families.",
-        "category": "Education"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Daniel Kim",
-        "description": "Tech Entrepreneur",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect modern loft near the Promenade. I can walk to work and the beach - ideal for my startup lifestyle."
-      },
-      {
-        "name": "Amanda Johnson",
-        "description": "Film Producer",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful historic home North of Montana. Close enough to studios but with neighborhood charm."
-      },
-      {
-        "name": "Marcus Chen",
-        "description": "Finance Executive",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Ocean Park bungalow with studio space. The team understood our creative-professional hybrid needs."
-      },
-      {
-        "name": "Sophia Williams",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Dream beachfront condo for our retirement. Walkable to everything with amazing ocean views."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd9785a",
-    "slug": "paso-robles",
-    "name": "Paso Robles",
-    "state": "California",
-    "shortDescription": "A charming wine country town known for its hot springs, olive oil, and over 200 wineries in the surrounding hills.",
-    "fullDescription": "Paso Robles is a city in California's Central Coast region known for its hot springs, olive oil production, and over 200 wineries specializing in Rhône and Bordeaux-style wines. The downtown area features historic buildings housing tasting rooms, restaurants, and boutique shops, while the surrounding countryside offers rolling vineyards and oak-studded hills.",
-    "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "32K+",
-    "avgHomePrice": "$750K",
-    "tags": [
-      "Wine Country",
-      "Rural",
-      "Hot Springs"
-    ],
-    "neighborhoods": [
-      "Downtown",
-      "Vineyard Estates",
-      "Westside",
-      "Creston",
-      "Templeton",
-      "Adelaida"
-    ],
-    "highlights": [
-      {
-        "title": "Wine Country Value",
-        "description": "Over 200 wineries producing world-class wines at more accessible prices than Napa or Sonoma.",
-        "icon": "🍷",
-        "bgImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80"
-      },
-      {
-        "title": "Hot Springs",
-        "description": "Natural mineral hot springs that have made Paso Robles a wellness destination since the 1800s.",
-        "icon": "♨️",
-        "bgImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80"
-      },
-      {
-        "title": "Agricultural Bounty",
-        "description": "Olive oil, almonds, grass-fed beef, and farm-fresh produce complement the wine country experience.",
-        "icon": "🌾",
-        "bgImage": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?w=800&q=80"
-      },
-      {
-        "title": "Small Town Charm",
-        "description": "Historic downtown square with boutique shops, restaurants, and a friendly community atmosphere.",
+        "title": "Quartiers Diversifiés",
+        "description": "Du branché Venice Beach au chic Beverly Hills, LA offre des quartiers uniques avec chacun son caractère et son charme.",
         "icon": "🏘️",
-        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How does Paso Robles compare to Napa?",
-        "answer": "Paso offers a more relaxed, affordable wine country experience with fewer crowds while still producing world-class wines, especially Rhône varietals.",
-        "category": "Wine Country"
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "Rue bordée de palmiers à Beverly Hills avec maisons de luxe"
       },
       {
-        "question": "What are the different areas of Paso Robles?",
-        "answer": "Downtown offers walkable living, Westside has boutique wineries, Adelaida features mountain vineyards, and Creston provides ranch properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Paso Robles?",
-        "answer": "Paso offers excellent value compared to coastal California, with vineyard properties at a fraction of Napa prices. The market is growing as more discover the area.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do besides wine tasting?",
-        "answer": "Hot springs, olive oil tasting, farm tours, hiking, horseback riding, and enjoying the downtown square's shops and restaurants.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Michael Rodriguez",
-        "description": "Winemaker",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect Westside vineyard property at a fraction of Napa prices. The terroir here is exceptional."
-      },
-      {
-        "name": "Elizabeth Carter",
-        "description": "Olive Farmer",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Creston ranch with olive groves. The agricultural expertise was invaluable for our business."
-      },
-      {
-        "name": "David Park",
-        "description": "Remote Worker",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Charming downtown cottage with office space. I can walk to coffee shops and still have peace to work."
-      },
-      {
-        "name": "Sarah Thompson",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Vineyard estate in Adelaida for our retirement. The wine country lifestyle at a comfortable pace."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd9785b",
-    "slug": "laguna-beach",
-    "name": "Laguna Beach",
-    "state": "California",
-    "shortDescription": "A picturesque coastal enclave known for its artist colony heritage, coves, and vibrant arts scene.",
-    "fullDescription": "Laguna Beach is a small coastal city in Orange County known for its artist community, beautiful coves, and art festivals. The city has over 20 beaches and coves along its 7 miles of coastline, including Main Beach at the center of town and Thousand Steps Beach with its dramatic cliffs. Downtown features art galleries, boutique shops, and restaurants along Pacific Coast Highway.",
-    "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "23K+",
-    "avgHomePrice": "$3.5M",
-    "tags": [
-      "Artsy",
-      "Coastal",
-      "Luxury"
-    ],
-    "neighborhoods": [
-      "North Laguna",
-      "Three Arch Bay",
-      "Laguna Village",
-      "Arch Beach Heights",
-      "Mystic Hills",
-      "Victoria Beach"
-    ],
-    "highlights": [
-      {
-        "title": "Artist Colony",
-        "description": "Continuing its legacy as an artists' colony with numerous galleries, art festivals, and public art installations.",
+        "title": "Attractions Culturelles",
+        "description": "Musées de classe mondiale dont le Getty Center, le LACMA et The Broad présentant des œuvres du monde entier.",
         "icon": "🎨",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "Musée Getty Center avec architecture moderne"
       },
       {
-        "title": "Coastal Beauty",
-        "description": "Stunning coves, tide pools, and dramatic cliffs along 7 miles of pristine coastline.",
-        "icon": "🌊",
-        "bgImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
-      },
-      {
-        "title": "Festivals & Events",
-        "description": "Pageant of the Masters, Sawdust Art Festival, and Festival of Arts showcase the vibrant creative community.",
-        "icon": "🎪",
-        "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80"
-      },
-      {
-        "title": "Luxury Lifestyle",
-        "description": "Exclusive beachfront estates, fine dining, and high-end shopping in a relaxed coastal setting.",
-        "icon": "💎",
-        "bgImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
+        "title": "Mode de Vie en Plein Air",
+        "description": "Avec 284 jours d'ensoleillement par an, LA offre des activités outdoor sans fin des randonnées dans les collines d'Hollywood au surf à Malibu.",
+        "icon": "🌞",
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "Surfeurs à la plage de Malibu par journée ensoleillée"
       }
     ],
     "faqs": [
       {
-        "question": "What are the different areas of Laguna Beach?",
-        "answer": "North Laguna offers walkable village living, Three Arch Bay is an exclusive gated community, Mystic Hills has canyon views, and Victoria Beach features dramatic coastline.",
-        "category": "Neighborhoods"
+        "question": "Quels sont les meilleurs quartiers de Los Angeles ?",
+        "answer": "Les quartiers populaires incluent Beverly Hills pour le luxe, Venice Beach pour la créativité, Santa Monica pour la vie balnéaire et Downtown LA pour la vie urbaine. Chaque zone offre des commodités et options de style de vie uniques.",
+        "category": "Quartiers"
       },
       {
-        "question": "How is the real estate market in Laguna Beach?",
-        "answer": "Laguna has a strong luxury market with high demand for coastal properties. Limited inventory and unique architectural styles command premium prices.",
-        "category": "Real Estate"
+        "question": "Comment est le marché immobilier à Los Angeles ?",
+        "answer": "Le marché immobilier de LA est compétitif avec forte demande et offre limitée. Le prix médian d'une maison est d'environ 1,2M$, avec des propriétés de luxe dans les zones premium atteignant des prix élevés.",
+        "category": "Immobilier"
       },
       {
-        "question": "What makes Laguna Beach unique?",
-        "answer": "The combination of artist colony heritage, dramatic coastal geography, and commitment to preserving its small-town charm sets Laguna apart.",
-        "category": "Culture"
+        "question": "Quel est le coût de la vie à Los Angeles ?",
+        "answer": "Los Angeles a un coût de la vie élevé, particulièrement pour le logement. Cependant, la ville offre des options variées allant des condos de luxe aux maisons familiales, avec différents niveaux de prix selon les quartiers.",
+        "category": "Coût de la vie"
       },
       {
-        "question": "How are the schools in Laguna Beach?",
-        "answer": "Laguna Beach schools are highly rated, with the high school known for strong arts programs complementing academic excellence.",
-        "category": "Education"
+        "question": "Quel temps fait-il à Los Angeles ?",
+        "answer": "LA bénéficie d'un climat méditerranéen avec des hivers doux et humides, et des étés chauds et secs. La ville compte en moyenne 284 jours d'ensoleillement par an, idéal pour les activités en plein air.",
+        "category": "Météo"
       }
     ],
-    "clients": [
-      {
-        "name": "Jonathan Hart",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect live-work space in North Laguna near the galleries. The creative energy here is inspiring."
-      },
-      {
-        "name": "Amanda Sinclair",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning Three Arch Bay estate with private beach access. The ultimate coastal retreat."
-      },
-      {
-        "name": "Robert Chen",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful hillside home with ocean views. The team understood our desire for both privacy and community."
-      },
-      {
-        "name": "Sophia Williams",
-        "description": "Family",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Found our dream family home near Top of the World schools. The kids can walk to school and the beach!"
-      }
-    ]
+    "clients": []
   },
   {
-    "id": "6894ecf1d030dedaafd9785c",
-    "slug": "sonoma",
-    "name": "Sonoma",
-    "state": "California",
-    "shortDescription": "The historic heart of Wine Country, offering a charming plaza, world-class wineries, and a relaxed pace of life.",
-    "fullDescription": "Sonoma is a city in California's Wine Country, known for its historic Spanish mission and sprawling plaza surrounded by 19th-century adobe buildings. The city is home to numerous tasting rooms, upscale restaurants, and boutique shops, while the surrounding countryside features vineyards, olive groves, and rolling hills.",
-    "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "11K+",
-    "avgHomePrice": "$1.3M",
+    "id": "689677ded030dedaafd978ac",
+    "slug": "long-beach",
+    "name": "长滩",
+    "state": "加利福尼亚州",
+    "shortDescription": "一座充满活力的海滨城市，拥有繁忙港口、海滨景点和丰富的文化多样性",
+    "fullDescription": "长滩是南加州一座充满活力的海滨城市，以其繁忙的港口、太平洋水族馆和历史悠久的玛丽皇后号邮轮而闻名。这座城市拥有热闹的市中心区、美丽的海滩和繁荣的艺术景观。凭借其地中海气候、海滨餐厅和众多文化景点，长滩完美融合了都市生活和海滩休闲。",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "45万+",
+    "avgHomePrice": "85万美元",
     "tags": [
-      "Wine Country",
-      "Historic",
-      "Charming"
+      "海滨",
+      "多元化",
+      "文化"
     ],
     "neighborhoods": [
-      "Sonoma Plaza",
-      "Bennett Valley",
-      "Glen Ellen",
-      "Boyes Hot Springs",
-      "Agua Caliente",
-      "Vineyard Estates"
+      {
+        "name": "长滩市中心",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "城市核心区，拥有高层住宅、松树大道的夜生活和会议中心",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "黄昏时分的长滩市中心天际线",
+        "distance": "市中心",
+        "avgHomePrice": "95万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "贝尔蒙特海岸",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "海滨社区，拥有迷人的平房、第二街购物区和游艇码头",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "贝尔蒙特海岸的沙滩房屋和棕榈树",
+        "distance": "东南方向5公里",
+        "avgHomePrice": "120万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "那不勒斯岛",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "高档运河社区，拥有豪华住宅和贡多拉游船",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "那不勒斯岛运河旁的美丽住宅",
+        "distance": "东南方向6公里",
+        "avgHomePrice": "180万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "洛杉矶",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "世界娱乐之都，拥有多元化的社区和文化景点",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "洛杉矶天际线日落景观",
+        "distance": "北面35公里",
+        "avgHomePrice": "120万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "亨廷顿海滩",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "美国冲浪之城，拥有13公里长的海滩和热闹的市中心",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "亨廷顿海滩码头与冲浪者",
+        "distance": "东南方向19公里",
+        "avgHomePrice": "120万美元",
+        "county": "橙县"
+      }
     ],
     "highlights": [
       {
-        "title": "Historic Plaza",
-        "description": "The largest plaza in California, surrounded by historic buildings, tasting rooms, and excellent restaurants.",
-        "icon": "🏛️",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
+        "title": "海滨生活",
+        "description": "享受数公里长的海岸线、彩虹港码头和风景如画的海岸线村餐饮娱乐区",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "长滩海滨风光，游艇与棕榈树"
       },
       {
-        "title": "Wine Country Living",
-        "description": "Over 100 wineries within easy reach, many specializing in Pinot Noir and Chardonnay from the Sonoma Valley.",
-        "icon": "🍷",
-        "bgImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80"
-      },
-      {
-        "title": "Culinary Excellence",
-        "description": "Farm-to-table dining showcasing Sonoma's agricultural bounty, from cheeses to olive oils to grass-fed meats.",
-        "icon": "🍽️",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      },
-      {
-        "title": "Relaxed Pace",
-        "description": "A more laid-back alternative to Napa, with less traffic and crowds but equal quality wine and food.",
-        "icon": "🌿",
-        "bgImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How does Sonoma compare to Napa?",
-        "answer": "Sonoma offers a more relaxed, less commercialized wine country experience with equally excellent wines and dining at slightly lower prices.",
-        "category": "Wine Country"
-      },
-      {
-        "question": "What are the different areas of Sonoma?",
-        "answer": "The Plaza offers walkable village living, Bennett Valley has family neighborhoods, Glen Ellen provides rural charm, and Vineyard Estates feature wine country properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Sonoma?",
-        "answer": "Sonoma offers better value than Napa while still providing premium wine country living. The market is strong with demand from retirees and second-home buyers.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do besides wine tasting?",
-        "answer": "Exploring historic sites, hiking in Jack London State Park, hot air ballooning, and enjoying the plaza's shops and restaurants.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Michael Delacroix",
-        "description": "Winemaker",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect vineyard property in Glen Ellen. The terroir here produces exceptional Pinot Noir."
-      },
-      {
-        "name": "Isabelle Martin",
-        "description": "Restaurateur",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Charming commercial space near the plaza for our new restaurant. The location couldn't be better."
-      },
-      {
-        "name": "Thomas Beaumont",
-        "description": "Retired Executive",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Bennett Valley home with vineyard views. The wine country retirement we've always dreamed of."
-      },
-      {
-        "name": "Sophie Laurent",
-        "description": "Writer",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Quiet cottage near the plaza perfect for writing. Walkable to everything yet peaceful when needed."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd9785d",
-    "slug": "san-jose",
-    "name": "San Jose",
-    "state": "California",
-    "shortDescription": "The capital of Silicon Valley, offering tech-driven prosperity, diverse neighborhoods, and access to world-class innovation.",
-    "fullDescription": "San Jose is a large city in Silicon Valley, a global technology center in California's Bay Area. Architectural landmarks include the 1883 Italianate-style Oddfellows building and the 1892 Romanesque Revival Cathedral Basilica of St. Joseph. The downtown area is home to the Tech Museum of Innovation, devoted to the exploration of science and technology.",
-    "heroImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "1M+",
-    "avgHomePrice": "$1.4M",
-    "tags": [
-      "Technology",
-      "Diversity",
-      "Innovation"
-    ],
-    "neighborhoods": [
-      "Willow Glen",
-      "Almaden Valley",
-      "Santana Row",
-      "Downtown",
-      "Evergreen",
-      "Campbell"
-    ],
-    "highlights": [
-      {
-        "title": "Tech Hub",
-        "description": "Headquarters of tech giants like Adobe, Cisco, and eBay, driving innovation and economic growth.",
-        "icon": "💻",
-        "bgImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
-      },
-      {
-        "title": "Diverse Communities",
-        "description": "Neighborhoods ranging from historic Willow Glen to upscale Almaden Valley to vibrant Santana Row.",
-        "icon": "🏘️",
-        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
-      },
-      {
-        "title": "Cultural Attractions",
-        "description": "San Jose Museum of Art, Tech Interactive, and numerous performing arts venues.",
+        "title": "文化景点",
+        "description": "参观太平洋水族馆、拉丁美洲艺术博物馆和历史悠久的玛丽皇后号邮轮",
         "icon": "🎭",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "太平洋水族馆外景"
       },
       {
-        "title": "Outdoor Access",
-        "description": "Proximity to Santa Cruz Mountains, numerous parks, and year-round pleasant weather.",
-        "icon": "🌳",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best neighborhoods in San Jose?",
-        "answer": "Willow Glen offers historic charm, Almaden Valley has luxury homes, Santana Row provides urban living, and Evergreen is great for families.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the job market in San Jose?",
-        "answer": "San Jose has one of the strongest job markets in the country, centered around technology but with opportunities across diverse industries.",
-        "category": "Employment"
-      },
-      {
-        "question": "What is there to do in San Jose?",
-        "answer": "Tech museums, Santana Row shopping, wineries in the Santa Cruz Mountains, and easy access to San Francisco and the coast.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Raj Patel",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect Almaden Valley home near work. The team's knowledge of school districts was invaluable."
-      },
-      {
-        "name": "Natalie Wong",
-        "description": "Engineer",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&q=80",
-        "rating": 5,
-        "review": "Modern condo near Santana Row. Walkable to shopping and restaurants - perfect for my busy lifestyle."
-      },
-      {
-        "name": "Sophia Rodriguez",
-        "description": "Family",
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Willow Glen home with excellent schools. The historic charm won us over."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd9785e",
-    "slug": "sausalito",
-    "name": "Sausalito",
-    "state": "California",
-    "shortDescription": "A picturesque waterfront town with Mediterranean charm, houseboat communities, and stunning San Francisco views.",
-    "fullDescription": "Sausalito is a charming waterfront town in Marin County, just north of San Francisco across the Golden Gate Bridge. Known for its Mediterranean-style architecture, houseboat communities, and stunning bay views, Sausalito offers a relaxed yet sophisticated lifestyle with easy access to the city.",
-    "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "7K+",
-    "avgHomePrice": "$2.2M",
-    "tags": [
-      "Waterfront",
-      "Artsy",
-      "Views"
-    ],
-    "neighborhoods": [
-      "Downtown",
-      "Hillside",
-      "Marinship",
-      "Houseboat Communities",
-      "Wolfback Ridge",
-      "Hurricane Gulch"
-    ],
-    "highlights": [
-      {
-        "title": "Waterfront Living",
-        "description": "Stunning bay views, houseboat communities, and a picturesque harbor create a unique coastal atmosphere.",
-        "icon": "⛵",
-        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
-      },
-      {
-        "title": "Artistic Community",
-        "description": "Galleries, studios, and the historic Heath Ceramics showcase Sausalito's creative spirit.",
-        "icon": "🎨",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
-      },
-      {
-        "title": "Mediterranean Charm",
-        "description": "Hillside homes with terracotta roofs, lush gardens, and winding stair streets evoke the Riviera.",
+        "title": "多元化社区",
+        "description": "从市中心的都市公寓到那不勒斯岛的运河豪宅，长滩提供多样化的居住选择",
         "icon": "🏡",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "长滩色彩缤纷的历史住宅"
       },
       {
-        "title": "City Access",
-        "description": "Easy ferry or bridge access to San Francisco while maintaining a relaxed small-town feel.",
-        "icon": "🌉",
-        "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80"
+        "title": "户外活动",
+        "description": "每年有345天阳光明媚，您可以骑行海滨步道、体验立式划桨或游览埃尔 Dorado公园",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "长滩海岸自行车道"
       }
     ],
     "faqs": [
       {
-        "question": "What are the different areas of Sausalito?",
-        "answer": "Downtown offers walkable village living, Hillside has panoramic views, Marinship features waterfront properties, and Houseboat Communities provide unique floating homes.",
-        "category": "Neighborhoods"
+        "question": "长滩最好的社区是哪些？",
+        "answer": "热门区域包括适合海滩生活的贝尔蒙特海岸、适合运河豪宅的那不勒斯岛，以及提供城市便利设施的市中心区，每个区域都提供不同的生活方式选择",
+        "category": "社区"
       },
       {
-        "question": "How is the commute to San Francisco?",
-        "answer": "The ferry provides a scenic 30-minute commute to downtown SF, while driving across the Golden Gate Bridge takes about 20 minutes.",
-        "category": "Transportation"
+        "question": "长滩的房地产市场如何？",
+        "answer": "与邻近的洛杉矶相比，长滩的房价相对更实惠，房屋中位价约为85万美元，海滨房产价格更高",
+        "category": "房地产"
       },
       {
-        "question": "What makes Sausalito unique?",
-        "answer": "The combination of Mediterranean charm, houseboat living, artistic heritage, and stunning bay views creates a one-of-a-kind community.",
-        "category": "Culture"
+        "question": "在长滩可以做什么？",
+        "answer": "您可以享受海滨餐厅、参观太平洋水族馆、探索玛丽皇后号、在第二街购物或在众多海滩和公园放松身心",
+        "category": "生活方式"
       },
       {
-        "question": "How is the real estate market in Sausalito?",
-        "answer": "Sausalito has a strong market with high demand for its unique properties and location. Waterfront and view homes command premium prices.",
-        "category": "Real Estate"
+        "question": "从长滩通勤方便吗？",
+        "answer": "长滩交通便利，可通过710、405号高速公路和地铁蓝线前往洛杉矶市中心，前往主要就业中心的通勤时间在30-90分钟之间",
+        "category": "交通"
       }
     ],
-    "clients": [
-      {
-        "name": "Jonathan Hart",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect live-work space in the Marinship district. The creative energy here is inspiring."
-      },
-      {
-        "name": "Amanda Sinclair",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning hillside home with Golden Gate views. Easy commute to the city but feels like a world apart."
-      },
-      {
-        "name": "Robert Chen",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Charming houseboat in the floating homes community. The team understood our desire for unique waterfront living."
-      },
-      {
-        "name": "Sophia Williams",
-        "description": "Family",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful downtown home near the ferry. We can walk to everything and still have easy city access."
-      }
-    ]
+    "clients": []
   },
   {
-    "id": "6894ecf1d030dedaafd9785f",
-    "slug": "tahoe",
-    "name": "Lake Tahoe",
-    "state": "California",
-    "shortDescription": "A stunning alpine lake offering year-round outdoor recreation, from world-class skiing to summer water sports.",
-    "fullDescription": "Lake Tahoe is a large freshwater lake in the Sierra Nevada mountains, straddling the border of California and Nevada. Known for its clear blue water and surrounding ski resorts, Tahoe offers year-round recreation from world-class skiing in winter to hiking, boating and beach-going in summer.",
-    "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "Varies",
-    "avgHomePrice": "$1.5M",
-    "tags": [
-      "Mountain",
-      "Lake",
-      "Outdoors"
-    ],
-    "neighborhoods": [
-      "Tahoe City",
-      "Incline Village",
-      "South Lake Tahoe",
-      "Alpine Meadows",
-      "Homewood",
-      "Kings Beach"
-    ],
-    "highlights": [
-      {
-        "title": "Year-Round Recreation",
-        "description": "World-class skiing in winter, hiking and mountain biking in summer, with stunning scenery year-round.",
-        "icon": "⛷️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Natural Beauty",
-        "description": "Crystal-clear blue waters surrounded by snow-capped peaks in one of the most beautiful alpine settings.",
-        "icon": "🏔️",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Outdoor Lifestyle",
-        "description": "A community centered around outdoor activities and appreciation for the natural environment.",
-        "icon": "🌲",
-        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
-      },
-      {
-        "title": "Resort Amenities",
-        "description": "Luxury resorts, casinos on the Nevada side, and excellent dining options complement the natural attractions.",
-        "icon": "🎰",
-        "bgImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the different areas of Lake Tahoe?",
-        "answer": "Tahoe City offers village charm, Incline Village has luxury homes, South Lake Tahoe provides casinos and nightlife, and Alpine Meadows features ski-in/ski-out properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Lake Tahoe?",
-        "answer": "Tahoe has a strong second-home market with high demand for lakefront and ski-access properties. Prices reflect the premium recreational location.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do in summer?",
-        "answer": "Hiking, mountain biking, boating, paddleboarding, beach-going, golfing, and enjoying the many outdoor concerts and events.",
-        "category": "Summer Activities"
-      },
-      {
-        "question": "How are the winters?",
-        "answer": "Tahoe receives significant snowfall, creating excellent conditions for skiing and snowboarding at numerous world-class resorts.",
-        "category": "Winter Activities"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Michael Johnson",
-        "description": "Ski Enthusiast",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect ski-in/ski-out condo in Alpine Meadows. Waking up to fresh powder days is a dream come true."
-      },
-      {
-        "name": "Sarah Williams",
-        "description": "Remote Worker",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Tahoe City cabin with office space. I can work with lake views and hit the trails after hours."
-      },
-      {
-        "name": "David Chen",
-        "description": "Retiree",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning Incline Village home for our retirement. The active lifestyle here keeps us young."
-      },
-      {
-        "name": "Emily Park",
-        "description": "Family",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "South Lake Tahoe home perfect for our family vacations. The kids love the beach and ski school!"
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97860",
-    "slug": "monterey",
-    "name": "Monterey",
-    "state": "California",
-    "shortDescription": "A historic coastal city known for its world-class aquarium, Cannery Row, and stunning Pacific Ocean views.",
-    "fullDescription": "Monterey is a city on California's rugged central coast known for its historic Cannery Row waterfront district, the world-class Monterey Bay Aquarium, and scenic 17-Mile Drive through Pebble Beach. The city's historic downtown features adobe buildings from the 1800s, while the coastline offers dramatic views of the Pacific Ocean.",
-    "heroImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "30K+",
-    "avgHomePrice": "$1.2M",
-    "tags": [
-      "Coastal",
-      "Historic",
-      "Marine Life"
-    ],
-    "neighborhoods": [
-      "Old Town",
-      "New Monterey",
-      "Pacific Grove",
-      "Pebble Beach",
-      "Del Monte",
-      "Lighthouse District"
-    ],
-    "highlights": [
-      {
-        "title": "Marine Wonderland",
-        "description": "The Monterey Bay Aquarium and abundant marine life including sea otters, whales, and dolphins.",
-        "icon": "🐋",
-        "bgImage": "https://images.unsplash.com/photo-1520637836862-4d197d17c89a?w=800&q=80"
-      },
-      {
-        "title": "Historic Charm",
-        "description": "California's first capital with well-preserved adobe buildings and the historic Cannery Row.",
-        "icon": "🏛️",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
-      },
-      {
-        "title": "Coastal Beauty",
-        "description": "Dramatic rocky coastline, cypress trees, and the famous 17-Mile Drive through Pebble Beach.",
-        "icon": "🌊",
-        "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
-      },
-      {
-        "title": "Cultural Events",
-        "description": "Monterey Jazz Festival, Car Week, and numerous other events celebrating the area's heritage.",
-        "icon": "🎪",
-        "bgImage": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the different areas of Monterey?",
-        "answer": "Old Town offers historic charm, New Monterey has Cannery Row, Pacific Grove provides Victorian homes, and Pebble Beach features luxury golf properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Monterey?",
-        "answer": "Monterey has a strong market with high demand for coastal properties. Historic homes and ocean-view properties command premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do in Monterey?",
-        "answer": "Visit the aquarium, explore Cannery Row, golf at Pebble Beach, whale watching, and enjoy the coastal scenery and historic sites.",
-        "category": "Attractions"
-      },
-      {
-        "question": "How is the weather?",
-        "answer": "Monterey has mild temperatures year-round with cool ocean breezes and morning fog that burns off by afternoon.",
-        "category": "Weather"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Robert Delacroix",
-        "description": "Retired Teacher",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found our perfect historic cottage in Pacific Grove. The team understood our love for the area's character."
-      },
-      {
-        "name": "Isabelle Martin",
-        "description": "Marine Biologist",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Oceanview condo near the aquarium. Ideal location for my work and passion for marine conservation."
-      },
-      {
-        "name": "Thomas Beaumont",
-        "description": "Golf Enthusiast",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Pebble Beach home near the links. Living the golf lifestyle I've always dreamed of."
-      },
-      {
-        "name": "Sophie Laurent",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Charming studio in the Lighthouse District. The coastal light here is perfect for painting."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97861",
-    "slug": "healdsburg",
-    "name": "Healdsburg",
-    "state": "California",
-    "shortDescription": "A charming Wine Country town offering world-class wineries, a historic plaza, and relaxed sophistication.",
-    "fullDescription": "Healdsburg is a charming town in Sonoma County's Wine Country known for its historic plaza surrounded by 19th-century buildings that now house boutique shops, wine tasting rooms and restaurants. The surrounding countryside features vineyards producing world-class Zinfandel, Cabernet Sauvignon and Chardonnay.",
-    "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "12K+",
-    "avgHomePrice": "$1.4M",
-    "tags": [
-      "Wine Country",
-      "Charming",
-      "Culinary"
-    ],
-    "neighborhoods": [
-      "Downtown Plaza",
-      "Dry Creek Valley",
-      "Alexander Valley",
-      "Fitch Mountain",
-      "Westside",
-      "Mill District"
-    ],
-    "highlights": [
-      {
-        "title": "Wine Country Hub",
-        "description": "Surrounded by three premier wine-growing regions: Dry Creek Valley, Alexander Valley, and Russian River Valley.",
-        "icon": "🍷",
-        "bgImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80"
-      },
-      {
-        "title": "Historic Plaza",
-        "description": "The town center features excellent restaurants, tasting rooms, and boutique shops in a walkable setting.",
-        "icon": "🏛️",
-        "bgImage": "https://images.unsplash.com/photo-1519602035691-16ac091344ef?w=800&q=80"
-      },
-      {
-        "title": "Culinary Excellence",
-        "description": "Farm-to-table dining showcasing Sonoma County's agricultural bounty and wine pairings.",
-        "icon": "🍽️",
-        "bgImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
-      },
-      {
-        "title": "Relaxed Sophistication",
-        "description": "Upscale yet unpretentious atmosphere with excellent hospitality and quality of life.",
-        "icon": "🌿",
-        "bgImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How does Healdsburg compare to other Wine Country towns?",
-        "answer": "Healdsburg offers a more intimate, less commercialized experience than Napa with equally excellent wines and dining in a charming small-town setting.",
-        "category": "Wine Country"
-      },
-      {
-        "question": "What are the different areas of Healdsburg?",
-        "answer": "The Plaza offers walkable village living, Dry Creek Valley has vineyard homes, Fitch Mountain provides hilltop views, and Alexander Valley features estate properties.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Healdsburg?",
-        "answer": "Healdsburg has a strong market with demand from wine industry professionals and second-home buyers. Vineyard properties command premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What is there to do besides wine tasting?",
-        "answer": "Exploring the plaza's shops, dining at farm-to-table restaurants, hiking in nearby parks, and biking through the vineyards.",
-        "category": "Lifestyle"
-      }
-    ],
-    "clients": [
-      {
-        "name": "Michael Delacroix",
-        "description": "Winemaker",
-        "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect vineyard property in Dry Creek Valley. The terroir here is exceptional for Zinfandel."
-      },
-      {
-        "name": "Isabelle Martin",
-        "description": "Restaurateur",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-        "rating": 5,
-        "review": "Charming commercial space near the plaza for our new restaurant. The location couldn't be better."
-      },
-      {
-        "name": "Thomas Beaumont",
-        "description": "Retired Executive",
-        "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful Fitch Mountain home with valley views. The wine country retirement we've always dreamed of."
-      },
-      {
-        "name": "Sophie Laurent",
-        "description": "Artist",
-        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b353?w=150&q=80",
-        "rating": 5,
-        "review": "Quaint downtown studio perfect for painting. Walkable to everything yet peaceful when needed."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97862",
-    "slug": "coronado",
-    "name": "Coronado",
-    "state": "California",
-    "shortDescription": "An idyllic island community known for its pristine beaches, historic Hotel del Coronado, and small-town charm.",
-    "fullDescription": "Coronado is a resort city on a peninsula connected to San Diego by the Coronado Bridge. Known for its long, flat Coronado Beach, it's home to the historic Hotel del Coronado, built in 1888. The city's main street, Orange Avenue, is lined with shops and restaurants, while the neighborhoods feature charming cottages and luxury waterfront homes.",
-    "heroImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "20K+",
-    "avgHomePrice": "$2.9M",
-    "tags": [
-      "Island",
-      "Beach",
-      "Historic"
-    ],
-    "neighborhoods": [
-      "Coronado Village",
-      "Coronado Cays",
-      "Country Club",
-      "Bayview",
-      "Glorietta",
-      "Shoreline"
-    ],
-    "highlights": [
-      {
-        "title": "Pristine Beaches",
-        "description": "Coronado Beach consistently ranked among America's best, with fine golden sand and gentle surf.",
-        "icon": "🏖️",
-        "bgImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
-      },
-      {
-        "title": "Historic Grandeur",
-        "description": "The iconic Hotel del Coronado, a National Historic Landmark that has hosted presidents and celebrities.",
-        "icon": "🏨",
-        "bgImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80"
-      },
-      {
-        "title": "Island Lifestyle",
-        "description": "Small-town charm with excellent schools, safe neighborhoods, and a strong sense of community.",
-        "icon": "🏝️",
-        "bgImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
-      },
-      {
-        "title": "Waterfront Living",
-        "description": "Bayfront and oceanfront properties with stunning views and access to boating and water sports.",
-        "icon": "⛵",
-        "bgImage": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the different areas of Coronado?",
-        "answer": "Coronado Village offers historic charm, Coronado Cays features waterfront homes, Country Club has golf course properties, and Shoreline provides beachfront living.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the real estate market in Coronado?",
-        "answer": "Coronado has a strong luxury market with high demand for its limited inventory. Waterfront properties command premium prices.",
-        "category": "Real Estate"
-      },
-      {
-        "question": "What makes Coronado unique?",
-        "answer": "The combination of island lifestyle, historic architecture, top-rated schools, and pristine beaches creates a truly special community.",
-        "category": "Community"
-      },
-      {
-        "question": "How is the commute to San Diego?",
-        "answer": "The Coronado Bridge provides quick access to downtown San Diego, while the ferry offers a scenic alternative.",
-        "category": "Transportation"
-      }
-    ],
-    "clients": [
-      {
-        "name": "William Carter",
-        "description": "Navy Officer",
-        "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&q=80",
-        "rating": 5,
-        "review": "Perfect family home near the base. The team understood our military needs and timeline perfectly."
-      },
-      {
-        "name": "Sophie Bennett",
-        "description": "Retired CEO",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
-        "rating": 5,
-        "review": "Stunning Coronado Cays waterfront home. The island lifestyle exceeded all our expectations."
-      },
-      {
-        "name": "Ryan Park",
-        "description": "Family",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
-        "rating": 5,
-        "review": "Found our dream home in the Village near top schools. The kids can bike to the beach after school!"
-      },
-      {
-        "name": "Emily Foster",
-        "description": "Investor",
-        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&q=80",
-        "rating": 5,
-        "review": "Historic cottage near the Hotel Del. The rental potential in Coronado is outstanding."
-      }
-    ]
-  },
-  {
-    "id": "6894ecf1d030dedaafd97863",
-    "slug": "menlo-park",
-    "name": "Menlo Park",
-    "state": "California",
-    "shortDescription": "An affluent Silicon Valley community known for top schools, tech headquarters, and tree-lined neighborhoods.",
-    "fullDescription": "Menlo Park is an affluent city in San Mateo County in the heart of Silicon Valley. Home to Facebook's headquarters and near Stanford University, Menlo Park features tree-lined streets, excellent schools, and a charming downtown with restaurants and shops along Santa Cruz Avenue.",
+    "id": "68967ad1d030dedaafd978ae",
+    "slug": "los-angeles",
+    "name": "洛杉矶",
+    "state": "加利福尼亚州",
+    "shortDescription": "世界娱乐之都，提供多元化的社区、文化景点和无限机遇",
+    "fullDescription": "洛杉矶是南加州一座广阔的城市，也是美国电影电视产业的中心。在其标志性的好莱坞标志附近，派拉蒙影业、环球影业和华纳兄弟等电影公司提供幕后参观。在好莱坞大道上，TCL中国剧院展示明星的手印和脚印，星光大道纪念数千位名人，商贩们出售明星住宅地图。",
     "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    "population": "35K+",
-    "avgHomePrice": "$3.2M",
+    "population": "400万+",
+    "avgHomePrice": "120万美元",
     "tags": [
-      "Technology",
-      "Education",
-      "Suburban"
+      "娱乐",
+      "多元化",
+      "文化"
     ],
     "neighborhoods": [
-      "Sharon Heights",
-      "West Menlo",
-      "Downtown",
-      "Allied Arts",
-      "Felton Gables",
-      "Stanford Hills"
+      {
+        "name": "长滩",
+        "type": "city",
+        "slug": "long-beach",
+        "description": "海滨城市，拥有繁忙的港口、太平洋水族馆和海滨景点",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "长滩海岸线与棕榈树",
+        "distance": "向南35公里",
+        "avgHomePrice": "85万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "阿纳海姆",
+        "type": "city",
+        "slug": "anaheim",
+        "description": "迪士尼乐园度假区所在地，拥有天使体育场和充满活力的会议中心",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "夜幕下的迪士尼城堡",
+        "distance": "东南方向43公里",
+        "avgHomePrice": "78万美元",
+        "county": "橙县"
+      },
+      {
+        "name": "尔湾",
+        "type": "city",
+        "slug": "irvine",
+        "description": "规划完善的城市，以顶尖学校、商业中心和公园著称",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "尔湾商务区现代建筑群",
+        "distance": "东南方向64公里",
+        "avgHomePrice": "110万美元",
+        "county": "橙县"
+      },
+      {
+        "name": "圣莫尼卡",
+        "type": "city",
+        "slug": "santa-monica",
+        "description": "标志性海滨城市，拥有著名码头、购物区和科技公司办公室",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "日落时分的圣莫尼卡码头",
+        "distance": "向西24公里",
+        "avgHomePrice": "180万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "帕萨迪纳",
+        "type": "city",
+        "slug": "pasadena",
+        "description": "文化中心，拥有玫瑰碗体育场、加州理工学院和历史建筑",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "夜幕下的帕萨迪纳市政厅",
+        "distance": "东北方向16公里",
+        "avgHomePrice": "130万美元",
+        "county": "洛杉矶县"
+      },
+      {
+        "name": "亨廷顿海滩",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "美国冲浪之城，拥有13.7公里海滩和充满活力的市中心",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "亨廷顿海滩码头与冲浪者",
+        "distance": "东南方向56公里",
+        "avgHomePrice": "120万美元",
+        "county": "橙县"
+      }
     ],
     "highlights": [
       {
-        "title": "Tech Hub",
-        "description": "Headquarters of Facebook and numerous other tech companies, driving innovation and economic growth.",
-        "icon": "💻",
-        "bgImage": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
+        "title": "好莱坞与娱乐",
+        "description": "全球最大娱乐产业的所在地，拥有好莱坞星光大道、TCL中国剧院和环球影城等标志性地标",
+        "icon": "🎬",
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "好莱坞标志俯瞰洛杉矶与蓝天"
       },
       {
-        "title": "Top-Rated Schools",
-        "description": "Exceptional public and private schools including Menlo-Atherton High School, consistently ranked among California's best.",
-        "icon": "🎓",
-        "bgImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80"
+        "title": "多元化社区",
+        "description": "从时尚的威尼斯海滩到高档的比佛利山庄，洛杉矶提供各具特色的独特社区",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "比佛利山庄棕榈树成排的街道与豪宅"
       },
       {
-        "title": "Upscale Suburban Living",
-        "description": "Beautiful tree-lined neighborhoods with architecturally significant homes and a strong sense of community.",
-        "icon": "🌳",
-        "bgImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+        "title": "文化景点",
+        "description": "盖蒂中心、洛杉矶县艺术博物馆和布罗德博物馆等世界级博物馆展示来自全球的艺术品",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "现代建筑风格的盖蒂中心博物馆"
       },
       {
-        "title": "Cultural Attractions",
-        "description": "Allied Arts Guild, Menlo Park Library, and numerous parks and recreational facilities.",
-        "icon": "🎭",
-        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80"
+        "title": "户外生活方式",
+        "description": "洛杉矶每年有284个晴天，提供从好莱坞山徒步到马里布冲浪等无尽的户外活动",
+        "icon": "🌞",
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "阳光明媚的马里布海滩上的冲浪者"
       }
     ],
     "faqs": [
       {
-        "question": "Why is Menlo Park real estate so expensive?",
-        "answer": "Menlo Park's combination of top schools, proximity to Silicon Valley jobs, limited housing supply, and desirable quality of life create extremely high demand.",
-        "category": "Real Estate"
+        "question": "洛杉矶最好的社区是哪些？",
+        "answer": "热门社区包括代表奢华的比佛利山庄、富有创意的威尼斯海滩、海滨生活的圣莫尼卡和城市生活的洛杉矶市中心。每个区域都提供独特的便利设施和生活方式选择。",
+        "category": "社区"
       },
       {
-        "question": "What is the job market like in Menlo Park?",
-        "answer": "Menlo Park has one of the strongest job markets in the country, centered around technology but with opportunities across diverse industries.",
-        "category": "Employment"
+        "question": "洛杉矶的房地产市场如何？",
+        "answer": "洛杉矶房地产市场供不应求，竞争激烈。房屋中位价约为120万美元，黄金地段的豪华房产价格更高。",
+        "category": "房地产"
       },
       {
-        "question": "How are the schools in Menlo Park?",
-        "answer": "Menlo Park schools are consistently ranked among the best in California, with exceptional academic programs and resources.",
-        "category": "Education"
+        "question": "洛杉矶的生活成本是多少？",
+        "answer": "洛杉矶生活成本很高，尤其是住房方面。不过城市提供从豪华公寓到家庭住宅的多样化选择，不同社区有不同价格区间。",
+        "category": "生活成本"
       },
       {
-        "question": "What is there to do in Menlo Park?",
-        "answer": "Enjoying downtown shops and restaurants, visiting Stanford University, hiking in the nearby hills, and easy access to San Francisco.",
-        "category": "Lifestyle"
+        "question": "洛杉矶的天气如何？",
+        "answer": "洛杉矶属于地中海气候，冬季温和湿润，夏季炎热干燥。城市年均晴天284天，非常适合户外活动。",
+        "category": "天气"
       }
     ],
-    "clients": [
+    "clients": []
+  },
+  {
+    "id": "68967d67d030dedaafd978af",
+    "slug": "long-beach",
+    "name": "لونج بيتش",
+    "state": "كاليفورنيا",
+    "shortDescription": "مدينة ساحلية نابضة بالحياة مع ميناء نشط ومعالم جذب على الواجهة البحرية وتنوع ثقافي غني.",
+    "fullDescription": "لونج بيتش هي مدينة ساحلية ديناميكية في جنوب كاليفورنيا تشتهر بمينائها الكبير، وأكواريوم المحيط الهادئ، والسفينة التاريخية كوين ماري. تتميز المدينة بمنطقة وسط مدينة نابضة بالحياة، وشواطئ جميلة، ومشهد فني مزدهر. بفضل مناخها المتوسطي، ومطاعمها على الواجهة البحرية، والعديد من المعالم الثقافية، تقدم لونج بيتش مزيجًا مثاليًا من الحياة الحضرية والاسترخاء على الشاطئ.",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "+450 ألف",
+    "avgHomePrice": "850 ألف دولار",
+    "tags": [
+      "الواجهة البحرية",
+      "التنوع",
+      "الثقافة"
+    ],
+    "neighborhoods": [
       {
-        "name": "Raj Patel",
-        "description": "Tech Executive",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80",
-        "rating": 5,
-        "review": "Found the perfect family home in Sharon Heights. The team's knowledge of school districts was invaluable."
+        "name": "وسط مدينة لونج بيتش",
+        "type": "neighborhood",
+        "slug": "downtown-long-beach",
+        "description": "القلب الحضري مع سكن في أبراج، حياة ليلية في شارع باين، ومركز المؤتمرات.",
+        "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+        "imageAlt": "أفق وسط مدينة لونج بيتش عند الغسق",
+        "distance": "مركز المدينة",
+        "avgHomePrice": "950 ألف دولار",
+        "county": "لوس أنجلوس"
       },
       {
-        "name": "Natalie Wong",
-        "description": "Venture Capitalist",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&q=80",
-        "rating": 5,
-        "review": "Beautiful historic home in Allied Arts. The investment potential in Menlo Park is unmatched."
+        "name": "بلمونت شور",
+        "type": "neighborhood",
+        "slug": "belmont-shore",
+        "description": "مجتمع ساحلي مع بيوت أنيقة، تسوق في شارع سيكوند، وإمكانية الوصول إلى المارينا.",
+        "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "منازل شاطئية وأشجار نخيل في بلمونت شور",
+        "distance": "5 كم جنوب شرق",
+        "avgHomePrice": "1.2 مليون دولار",
+        "county": "لوس أنجلوس"
       },
       {
-        "name": "Dr. Michael Chen",
-        "description": "Stanford Professor",
-        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&q=80",
-        "rating": 5,
-        "review": "Walking distance to campus in Stanford Hills. The process was smooth despite the competitive market."
+        "name": "نابولي",
+        "type": "neighborhood",
+        "slug": "naples-long-beach",
+        "description": "حي راق على القنوات مع منازل فاخرة ورحلات بالقوارب.",
+        "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+        "imageAlt": "قنوات جزيرة نابولي مع منازل جميلة",
+        "distance": "6 كم جنوب شرق",
+        "avgHomePrice": "1.8 مليون دولار",
+        "county": "لوس أنجلوس"
       },
       {
-        "name": "Sophia Rodriguez",
-        "description": "Entrepreneur",
-        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&q=80",
-        "rating": 5,
-        "review": "Modern downtown condo perfect for my startup lifestyle. Location is everything in Menlo Park!"
+        "name": "لوس أنجلوس",
+        "type": "city",
+        "slug": "los-angeles",
+        "description": "عاصمة الترفيه في العالم، تقدم أحياء متنوعة ومعالم ثقافية.",
+        "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+        "imageAlt": "أفق لوس أنجلوس عند الغروب",
+        "distance": "35 كم شمالاً",
+        "avgHomePrice": "1.2 مليون دولار",
+        "county": "لوس أنجلوس"
+      },
+      {
+        "name": "هنتنغتون بيتش",
+        "type": "city",
+        "slug": "huntington-beach",
+        "description": "مدينة ركوب الأمواج الأمريكية بشواطئ طولها 13 كم ووسط مدينة نابض بالحياة.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "رصيف هنتنغتون بيتش مع راكبي الأمواج",
+        "distance": "19 كم جنوب شرق",
+        "avgHomePrice": "1.2 مليون دولار",
+        "county": "أورانج"
       }
-    ]
+    ],
+    "highlights": [
+      {
+        "title": "العيش على الواجهة البحرية",
+        "description": "استمتع بكيلومترات من الساحل، مارينا رينبو هاربور، وقرية شورلاين الساحرة مع المطاعم والترفيه.",
+        "icon": "⛵",
+        "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "واجهة لونج بيتش البحرية مع قوارب وأشجار نخيل"
+      },
+      {
+        "title": "المعالم الثقافية",
+        "description": "قم بزيارة أكواريوم المحيط الهادئ، متحف الفن اللاتيني الأمريكي، والسفينة التاريخية كوين ماري.",
+        "icon": "🎭",
+        "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "الواجهة الخارجية لأكواريوم المحيط الهادئ"
+      },
+      {
+        "title": "أحياء متنوعة",
+        "description": "من الشقق الحضرية في وسط المدينة إلى المنازل الفاخرة على القنوات في جزيرة نابولي - تقدم لونج بيتش خيارات سكنية متنوعة.",
+        "icon": "🏡",
+        "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "منازل تاريخية ملونة في لونج بيتش"
+      },
+      {
+        "title": "الأنشطة الخارجية",
+        "description": "مع 345 يوم مشمس سنويًا، يمكنك استكشاف مسار الشاطئ بالدراجة، ممارسة التجديف، أو زيارة منتزه إل دورادو.",
+        "icon": "🚴",
+        "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+        "bgImageAlt": "مسار دراجات على طول ساحل لونج بيتش"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "ما هي أفضل الأحياء في لونج بيتش؟",
+        "answer": "تشمل المناطق الشهيرة بلمونت شور للحياة الشاطئية، نابولي للمنازل الفاخرة على القنوات، ووسط المدينة للمرافق الحضرية. كل منها يوفر خيارات نمط حياة مختلفة.",
+        "category": "الأحياء"
+      },
+      {
+        "question": "كيف هو سوق العقارات في لونج بيتش؟",
+        "answer": "تقدم لونج بيتش خيارات أكثر بأسعار معقولة مقارنة بلوس أنجلوس القريبة، مع متوسط أسعار المنازل حوالي 850 ألف دولار. العقارات على الواجهة البحرية تحقق أسعارًا مميزة.",
+        "category": "العقارات"
+      },
+      {
+        "question": "ما الذي يمكن فعله في لونج بيتش؟",
+        "answer": "استمتع بتناول الطعام على الواجهة البحرية، قم بزيارة أكواريوم المحيط الهادئ، استكشف كوين ماري، تسوق في شارع سيكوند، أو استرخِ في أحد الشواطئ أو المتنزهات العديدة.",
+        "category": "نمط الحياة"
+      },
+      {
+        "question": "كيف هي أوقات التنقل من لونج بيتش؟",
+        "answer": "توفر لونج بيتش وصولاً جيدًا للطرق السريعة (710، 405) وخط مترو بلو لاين إلى وسط لوس أنجلوس. تتراوح أوقات التنقل إلى مراكز العمل الرئيسية بين 30-90 دقيقة.",
+        "category": "المواصلات"
+      }
+    ],
+    "clients": []
+  },
+  {
+    "id": "6896a21ad030dedaafd978b2",
+    "slug": "los-angeles",
+    "name": "لوس أنجلوس",
+    "state": "كاليفورنيا",
+    "shortDescription": "عاصمة الترفيه في العالم، تقدم أحياء متنوعة ومعالم ثقافية وفرص لا حصر لها.",
+    "fullDescription": "لوس أنجلوس هي مدينة مترامية الأطراف في جنوب كاليفورنيا ومركز صناعة الأفلام والتلفزيون في البلاد. بالقرب من لافتة هوليوود الشهيرة، تقدم استوديوهات مثل باراماونت بيكتشرز ويونيفرسال ووارنر براذرز جولات خلف الكواليس. في جادة هوليوود، يعرض مسرح TCL الصيني بصمات أيدي وأقدام المشاهير، ويخلد ممشى المشاهير آلاف الشخصيات البارزة بينما يبيع الباعة خرائط لمنازل النجوم.",
+    "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "population": "4 مليون+",
+    "avgHomePrice": "1.2 مليون دولار",
+    "tags": [
+      "الترفيه",
+      "التنوع",
+      "الثقافة"
+    ],
+    "neighborhoods": [
+      {
+        "name": "لونج بيتش",
+        "type": "مدينة",
+        "slug": "long-beach",
+        "description": "مدينة ساحلية بها ميناء مزدحم وأكواريوم المحيط الهادئ ومعالم على الواجهة البحرية.",
+        "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+        "imageAlt": "شاطئ لونج بيتش مع أشجار النخيل",
+        "distance": "22 ميل جنوباً",
+        "avgHomePrice": "850 ألف دولار",
+        "county": "مقاطعة لوس أنجلوس"
+      },
+      {
+        "name": "أناهايم",
+        "type": "مدينة",
+        "slug": "anaheim",
+        "description": "موطن منتجع ديزني لاند وملعب أنجل ومجمع المؤتمرات النابض بالحياة.",
+        "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+        "imageAlt": "قلعة ديزني لاند ليلاً",
+        "distance": "27 ميل جنوب شرق",
+        "avgHomePrice": "780 ألف دولار",
+        "county": "مقاطعة أورانج"
+      },
+      {
+        "name": "إيرفاين",
+        "type": "مدينة",
+        "slug": "irvine",
+        "description": "مدينة مخططة بعناية تشتهر بمدارسها المتميزة ومراكز الأعمال والحدائق.",
+        "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+        "imageAlt": "منطقة الأعمال في إيرفاين مع مباني حديثة",
+        "distance": "40 ميل جنوب شرق",
+        "avgHomePrice": "1.1 مليون دولار",
+        "county": "مقاطعة أورانج"
+      },
+      {
+        "name": "سانتا مونيكا",
+        "type": "مدينة",
+        "slug": "santa-monica",
+        "description": "مدينة شاطئية أيقونية بها رصيف شهير ومناطق تسوق ومكاتب تكنولوجية.",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+        "imageAlt": "رصيف سانتا مونيكا عند غروب الشمس",
+        "distance": "15 ميل غرباً",
+        "avgHomePrice": "1.8 مليون دولار",
+        "county": "مقاطعة لوس أنجلوس"
+      },
+      {
+        "name": "باسادينا",
+        "type": "مدينة",
+        "slug": "pasadena",
+        "description": "مركز ثقافي يحتضن ملعب روز بول ومعهد كاليفورنيا للتكنولوجيا والهندسة المعمارية التاريخية.",
+        "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+        "imageAlt": "مبنى بلدية باسادينا ليلاً",
+        "distance": "10 ميل شمال شرق",
+        "avgHomePrice": "1.3 مليون دولار",
+        "county": "مقاطعة لوس أنجلوس"
+      },
+      {
+        "name": "هنتنغتون بيتش",
+        "type": "مدينة",
+        "slug": "huntington-beach",
+        "description": "مدينة ركوب الأمواج في الولايات المتحدة مع 8.5 ميل من الشواطئ ووسط مدينة نابض بالحياة.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+        "imageAlt": "رصيف هنتنغتون بيتش مع راكبي الأمواج",
+        "distance": "35 ميل جنوب شرق",
+        "avgHomePrice": "1.2 مليون دولار",
+        "county": "مقاطعة أورانج"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "هوليوود والترفيه",
+        "description": "موطن أكبر صناعة ترفيهية في العالم، تضم معالم شهيرة مثل ممشى المشاهير ومسرح TCL الصيني واستوديوهات يونيفرسال.",
+        "icon": "🎬",
+        "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+        "bgImageAlt": "لافتة هوليوود تطل على لوس أنجلوس مع سماء زرقاء"
+      },
+      {
+        "title": "أحياء متنوعة",
+        "description": "من شاطئ فينيسيا العصري إلى بيفرلي هيلز الفاخرة، تقدم لوس أنجلوس أحياء فريدة لكل منها طابعها وسحرها الخاص.",
+        "icon": "🏘️",
+        "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+        "bgImageAlt": "شارع في بيفرلي هيلز بأشجار النخيل ومنازل فاخرة"
+      },
+      {
+        "title": "معالم ثقافية",
+        "description": "تضم متاحف عالمية المستوى بما في ذلك مركز جيتي ومتحف لوس أنجلوس للفنون وذا برود التي تعرض فنوناً من جميع أنحاء العالم.",
+        "icon": "🎨",
+        "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+        "bgImageAlt": "متحف مركز جيتي بهندسة معمارية حديثة"
+      },
+      {
+        "title": "نمط الحياة الخارجي",
+        "description": "مع 284 يوماً مشمساً في السنة، تقدم لوس أنجلوس أنشطة خارجية لا حصر لها من التنزه في تلال هوليوود إلى ركوب الأمواج في ماليبو.",
+        "icon": "🌞",
+        "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+        "bgImageAlt": "أشخاص يمارسون ركوب الأمواج في شاطئ ماليبو خلال يوم مشمس"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "ما هي أفضل الأحياء في لوس أنجلوس؟",
+        "answer": "تشمل الأحياء الشهيرة بيفرلي هيلز للرفاهية، فينيسيا بيتش للإبداع، سانتا مونيكا لحياة الشاطئ، ووسط لوس أنجلوس للحياة الحضرية. كل منطقة تقدم مرافق وخيارات معيشة فريدة.",
+        "category": "الأحياء"
+      },
+      {
+        "question": "كيف هو سوق العقارات في لوس أنجلوس؟",
+        "answer": "سوق العقارات في لوس أنجلوس تنافسي مع طلب مرتفع وعرض محدود. متوسط سعر المنزل حوالي 1.2 مليون دولار، مع ارتفاع أسعار العقارات الفاخرة في المناطق المتميزة.",
+        "category": "العقارات"
+      },
+      {
+        "question": "ما هي تكلفة المعيشة في لوس أنجلوس؟",
+        "answer": "لوس أنجلوس لديها تكلفة معيشة مرتفعة، خاصة بالنسبة للسكن. ومع ذلك، تقدم المدينة خيارات متنوعة من الشقق الفاخرة إلى المنازل العائلية، مع نقاط سعر مختلفة في أحياء متعددة.",
+        "category": "تكلفة المعيشة"
+      },
+      {
+        "question": "كيف هو الطقس في لوس أنجلوس؟",
+        "answer": "تتمتع لوس أنجلوس بمناخ متوسطي مع شتاء معتدل ورطب وصيف حار وجاف. متوسط الأيام المشمسة في المدينة 284 يومًا في السنة، مما يجعلها مثالية للأنشطة الخارجية.",
+        "category": "الطقس"
+      }
+    ],
+    "clients": []
   }
 ]

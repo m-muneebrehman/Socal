@@ -1,0 +1,198 @@
+{
+    "slug": "long-beach",
+    "name": "长滩",
+    "state": "加利福尼亚州",
+    "language": "zh",
+    "shortDescription": "一座充满活力的海滨城市，拥有繁忙港口、海滨景点和丰富的文化多样性",
+    "fullDescription": "长滩是南加州一座充满活力的海滨城市，以其繁忙的港口、太平洋水族馆和历史悠久的玛丽皇后号邮轮而闻名。这座城市拥有热闹的市中心区、美丽的海滩和繁荣的艺术景观。凭借其地中海气候、海滨餐厅和众多文化景点，长滩完美融合了都市生活和海滩休闲。",
+    "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    "heroImageAlt": "长滩海滨风光，棕榈树与城市天际线",
+    "population": "45万+",
+    "avgHomePrice": "85万美元",
+    "tags": [
+        "海滨",
+        "多元化",
+        "文化"
+    ],
+    "neighborhoods": [
+        {
+            "name": "长滩市中心",
+            "type": "neighborhood",
+            "slug": "downtown-long-beach",
+            "description": "城市核心区，拥有高层住宅、松树大道的夜生活和会议中心",
+            "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+            "imageAlt": "黄昏时分的长滩市中心天际线",
+            "distance": "市中心",
+            "avgHomePrice": "95万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "贝尔蒙特海岸",
+            "type": "neighborhood",
+            "slug": "belmont-shore",
+            "description": "海滨社区，拥有迷人的平房、第二街购物区和游艇码头",
+            "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+            "imageAlt": "贝尔蒙特海岸的沙滩房屋和棕榈树",
+            "distance": "东南方向5公里",
+            "avgHomePrice": "120万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "那不勒斯岛",
+            "type": "neighborhood",
+            "slug": "naples-long-beach",
+            "description": "高档运河社区，拥有豪华住宅和贡多拉游船",
+            "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+            "imageAlt": "那不勒斯岛运河旁的美丽住宅",
+            "distance": "东南方向6公里",
+            "avgHomePrice": "180万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "洛杉矶",
+            "type": "city",
+            "slug": "los-angeles",
+            "description": "世界娱乐之都，拥有多元化的社区和文化景点",
+            "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+            "imageAlt": "洛杉矶天际线日落景观",
+            "distance": "北面35公里",
+            "avgHomePrice": "120万美元",
+            "county": "洛杉矶县"
+        },
+        {
+            "name": "亨廷顿海滩",
+            "type": "city",
+            "slug": "huntington-beach",
+            "description": "美国冲浪之城，拥有13公里长的海滩和热闹的市中心",
+            "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "imageAlt": "亨廷顿海滩码头与冲浪者",
+            "distance": "东南方向19公里",
+            "avgHomePrice": "120万美元",
+            "county": "橙县"
+        }
+    ],
+    "highlights": [
+        {
+            "title": "海滨生活",
+            "description": "享受数公里长的海岸线、彩虹港码头和风景如画的海岸线村餐饮娱乐区",
+            "icon": "⛵",
+            "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "长滩海滨风光，游艇与棕榈树"
+        },
+        {
+            "title": "文化景点",
+            "description": "参观太平洋水族馆、拉丁美洲艺术博物馆和历史悠久的玛丽皇后号邮轮",
+            "icon": "🎭",
+            "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "太平洋水族馆外景"
+        },
+        {
+            "title": "多元化社区",
+            "description": "从市中心的都市公寓到那不勒斯岛的运河豪宅，长滩提供多样化的居住选择",
+            "icon": "🏡",
+            "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "长滩色彩缤纷的历史住宅"
+        },
+        {
+            "title": "户外活动",
+            "description": "每年有345天阳光明媚，您可以骑行海滨步道、体验立式划桨或游览埃尔 Dorado公园",
+            "icon": "🚴",
+            "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+            "bgImageAlt": "长滩海岸自行车道"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "长滩最好的社区是哪些？",
+            "answer": "热门区域包括适合海滩生活的贝尔蒙特海岸、适合运河豪宅的那不勒斯岛，以及提供城市便利设施的市中心区，每个区域都提供不同的生活方式选择",
+            "category": "社区"
+        },
+        {
+            "question": "长滩的房地产市场如何？",
+            "answer": "与邻近的洛杉矶相比，长滩的房价相对更实惠，房屋中位价约为85万美元，海滨房产价格更高",
+            "category": "房地产"
+        },
+        {
+            "question": "在长滩可以做什么？",
+            "answer": "您可以享受海滨餐厅、参观太平洋水族馆、探索玛丽皇后号、在第二街购物或在众多海滩和公园放松身心",
+            "category": "生活方式"
+        },
+        {
+            "question": "从长滩通勤方便吗？",
+            "answer": "长滩交通便利，可通过710、405号高速公路和地铁蓝线前往洛杉矶市中心，前往主要就业中心的通勤时间在30-90分钟之间",
+            "category": "交通"
+        }
+    ],
+    "seo": {
+        "metaTitle": "长滩房产与生活指南 | 洛杉矶附近的海滨生活",
+        "metaDescription": "探索长滩的海滨生活、多元化社区和文化景点。了解为何这座海滨城市能提供理想的南加州生活方式",
+        "keywords": "长滩房产,海滨生活,贝尔蒙特海岸,那不勒斯岛,太平洋水族馆,加州海岸",
+        "ogTitle": "发现长滩：洛杉矶附近的海滨生活",
+        "ogDescription": "探索长滩的社区、房产选择和在洛杉矶南部的海滨生活方式",
+        "ogImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+        "ogImageAlt": "长滩海滨天际线与棕榈树",
+        "twitterCard": "summary_large_image"
+    },
+    "schema_markup": [
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "长滩",
+            "description": "探索加利福尼亚州长滩的房产、社区和景点",
+            "url": "https://example.com/locations/long-beach",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+                "caption": "长滩海滨风光，棕榈树与城市天际线"
+            },
+            "inLanguage": "zh",
+            "mainEntity": {
+                "@type": "City",
+                "name": "长滩",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "CA",
+                    "addressCountry": "美国"
+                }
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "长滩最好的社区是哪些？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "热门区域包括适合海滩生活的贝尔蒙特海岸、适合运河豪宅的那不勒斯岛，以及提供城市便利设施的市中心区"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "长滩的房地产市场如何？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "与邻近的洛杉矶相比，长滩的房价相对更实惠，房屋中位价约为85万美元"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "在长滩可以做什么？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "您可以享受海滨餐厅、参观太平洋水族馆、探索玛丽皇后号、在第二街购物或在海滩和公园放松身心"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "从长滩通勤方便吗？",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "长滩交通便利，可通过高速公路和地铁蓝线前往洛杉矶市中心，通勤时间在30-90分钟之间"
+                    }
+                }
+            ]
+        }
+    ]
+}

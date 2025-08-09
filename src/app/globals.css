@@ -99,6 +99,13 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.logo-container:hover {
+  transform: translateY(-1px);
 }
 
 .logo-icon {
@@ -2218,6 +2225,35 @@ body {
   font-weight: 600;
 }
 
+.city-distance-badge-beautiful {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--charcoal);
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.distance-icon {
+  display: flex;
+  align-items: center;
+  color: var(--gold);
+}
+
+.distance-text {
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
 .city-content-beautiful {
   padding: 30px;
   flex: 1;
@@ -2378,6 +2414,18 @@ body {
   .cities-grid-beautiful {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+  
+  .city-distance-badge-beautiful {
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+  
+  .distance-icon svg {
+    width: 12px;
+    height: 12px;
   }
 }
 
@@ -4787,6 +4835,147 @@ body {
 /* Main Content Area */
 .admin-content {
   padding: 24px;
+}
+/* Admin toolbar (cities) - dark glass theme */
+.admin-toolbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  background: #0f172a;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Light theme variant for admin toolbar (Cities) */
+.admin-toolbar--light {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.admin-toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-search-input {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: #0b1220;
+  color: #e5e7eb;
+  outline: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.admin-search-input::placeholder {
+  color: #94a3b8;
+}
+
+.admin-search-input:focus {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.25);
+}
+
+/* Light variant for search input */
+.admin-search-input--light {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+.admin-search-input--light::placeholder {
+  color: #9ca3af;
+}
+.admin-search-input--light:focus {
+  border-color: #d1d5db;
+  box-shadow: 0 0 0 3px rgba(209, 213, 219, 0.5);
+}
+
+.admin-label {
+  color: #e5e7eb;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.admin-label--light {
+  color: #374151;
+}
+
+.admin-select {
+  padding: 12px 34px 12px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: #0b1220;
+  color: #e5e7eb;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none !important;
+  line-height: 20px;
+  height: 44px;
+  font-size: 14px;
+}
+
+.admin-select option {
+  background-color: #0b1220;
+  color: #e5e7eb;
+}
+
+.admin-select--light {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #e5e7eb;
+}
+
+/* Hide default arrow in legacy Edge/IE */
+.admin-select::-ms-expand {
+  display: none;
+}
+
+/* Custom chevron via wrapper */
+.admin-select-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.admin-select-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+.admin-select--light option {
+  background: #ffffff;
+  color: #111827;
+}
+
+.admin-muted {
+  color: #94a3b8;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Better icon color/position for the search input */
+.admin-search-wrapper .admin-search-icon svg {
+  width: 18px;
+  height: 18px;
+  color: #9ca3af;
 }
 
 .content-section {

@@ -1,0 +1,198 @@
+{
+  "slug": "long-beach",
+  "name": "Long Beach",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A vibrant coastal city with a bustling port, waterfront attractions, and rich cultural diversity.",
+  "fullDescription": "Long Beach is a dynamic coastal city in Southern California known for its busy port, the Aquarium of the Pacific, and the historic Queen Mary ocean liner. The city features a lively downtown area, beautiful beaches, and a thriving arts scene. With its Mediterranean climate, waterfront dining, and numerous cultural attractions, Long Beach offers a perfect blend of urban living and beachside relaxation.",
+  "heroImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Long Beach shoreline with palm trees and waterfront skyline",
+  "population": "450K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Waterfront",
+    "Diversity",
+    "Culture"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downtown Long Beach",
+      "type": "neighborhood",
+      "slug": "downtown-long-beach",
+      "description": "The urban core with high-rise living, Pine Avenue nightlife, and the Convention Center.",
+      "image": "https://images.unsplash.com/photo-1626371710199-4d3a1e9b0e3d?w=800&q=80",
+      "imageAlt": "Downtown Long Beach skyline at dusk",
+      "distance": "City center",
+      "avgHomePrice": "$950K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Belmont Shore",
+      "type": "neighborhood",
+      "slug": "belmont-shore",
+      "description": "Beachside community with charming bungalows, Second Street shopping, and marina access.",
+      "image": "https://images.unsplash.com/photo-1626371710203-0f0e8b0e3d3?w=800&q=80",
+      "imageAlt": "Belmont Shore beach houses and palm trees",
+      "distance": "3 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Naples",
+      "type": "neighborhood",
+      "slug": "naples-long-beach",
+      "description": "Upscale canalside neighborhood with luxury homes and gondola rides.",
+      "image": "https://images.unsplash.com/photo-1626371710205-0f0e8b0e3d3?w=800&q=80",
+      "imageAlt": "Naples Island canals with beautiful homes",
+      "distance": "4 miles southeast",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Los Angeles",
+      "type": "city",
+      "slug": "los-angeles",
+      "description": "The entertainment capital of the world, offering diverse neighborhoods and cultural attractions.",
+      "image": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      "imageAlt": "Los Angeles skyline at sunset",
+      "distance": "22 miles north",
+      "avgHomePrice": "$1.2M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Surf City USA with 8.5 miles of beaches and vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+      "imageAlt": "Huntington Beach pier with surfers",
+      "distance": "12 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Waterfront Living",
+      "description": "Enjoy miles of coastline, the Rainbow Harbor marina, and scenic Shoreline Village with dining and entertainment.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1626371710207-0f0e8b0e3d3?w=800&q=80",
+      "bgImageAlt": "Long Beach waterfront with boats and palm trees"
+    },
+    {
+      "title": "Cultural Attractions",
+      "description": "Visit the Aquarium of the Pacific, Museum of Latin American Art, and the historic Queen Mary ocean liner.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1626371710209-0f0e8b0e3d3?w=800&q=80",
+      "bgImageAlt": "Aquarium of the Pacific exterior"
+    },
+    {
+      "title": "Diverse Neighborhoods",
+      "description": "From urban downtown lofts to canalside luxury in Naples Island, Long Beach offers varied living options.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1626371710211-0f0e8b0e3d3?w=800&q=80",
+      "bgImageAlt": "Colorful historic homes in Long Beach"
+    },
+    {
+      "title": "Outdoor Activities",
+      "description": "With 345 sunny days per year, enjoy biking the beach path, paddleboarding, or visiting El Dorado Park.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1626371710213-0f0e8b0e3d3?w=800&q=80",
+      "bgImageAlt": "Bike path along Long Beach shoreline"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Long Beach?",
+      "answer": "Popular areas include Belmont Shore for beach living, Naples for luxury canalside homes, and Downtown for urban amenities. Each offers distinct lifestyle options.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Long Beach?",
+      "answer": "Long Beach offers relatively more affordable options than nearby LA, with median home prices around $850K. Waterfront properties command premium prices.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What is there to do in Long Beach?",
+      "answer": "Enjoy waterfront dining, visit the Aquarium of the Pacific, explore the Queen Mary, shop at 2nd Street, or relax at one of many beaches and parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the commute from Long Beach?",
+      "answer": "Long Beach offers good freeway access (710, 405) and the Metro Blue Line to downtown LA. Commute times vary from 30-90 minutes to major employment centers.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Long Beach Real Estate & Lifestyle Guide | Coastal Living Near LA",
+    "metaDescription": "Explore waterfront living, diverse neighborhoods, and cultural attractions in Long Beach. Discover why this coastal city offers an ideal Southern California lifestyle.",
+    "keywords": "Long Beach real estate, waterfront living, Belmont Shore, Naples Island, Aquarium of the Pacific, coastal California",
+    "ogTitle": "Discover Long Beach: Waterfront Living Near Los Angeles",
+    "ogDescription": "Explore Long Beach's neighborhoods, real estate options, and coastal lifestyle just south of LA.",
+    "ogImage": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Long Beach waterfront skyline with palm trees",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Long Beach",
+      "description": "Explore real estate, neighborhoods, and highlights in Long Beach, California.",
+      "url": "https://example.com/locations/long-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Long Beach shoreline with palm trees and waterfront skyline"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Long Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular areas include Belmont Shore for beach living, Naples for luxury canalside homes, and Downtown for urban amenities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Long Beach offers relatively more affordable options than nearby LA, with median home prices around $850K."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is there to do in Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy waterfront dining, visit the Aquarium of the Pacific, explore the Queen Mary, shop at 2nd Street, or relax at beaches and parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Long Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Long Beach offers good freeway access and the Metro Blue Line to downtown LA, with commute times varying from 30-90 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "The entertainment capital of the world, offering diverse neighborhoods, cultural attractions, and endless opportunities.",
+  "fullDescription": "Los Angeles is a sprawling Southern California city and the center of the nation's film and television industry. Near its iconic Hollywood sign, studios such as Paramount Pictures, Universal and Warner Brothers offer behind-the-scenes tours. On Hollywood Boulevard, TCL Chinese Theatre displays celebrities' hand- and footprints, the Walk of Fame honors thousands of luminaries and vendors sell maps to stars' homes.",
+  "heroImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+  "heroImageAlt": "Aerial view of downtown Los Angeles skyline at sunset",
+  "population": "4M+",
+  "avgHomePrice": "$1.2M",
+  "tags": [
+    "Entertainment",
+    "Diversity",
+    "Culture"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "city",
+      "slug": "long-beach",
+      "description": "Coastal city with a busy port, aquarium of the Pacific, and waterfront attractions.",
+      "image": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?w=800&q=80",
+      "imageAlt": "Long Beach shoreline with palm trees",
+      "distance": "22 miles south",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Home to Disneyland Resort, Angel Stadium, and vibrant convention center.",
+      "image": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=800&q=80",
+      "imageAlt": "Disneyland Castle at night",
+      "distance": "27 miles southeast",
+      "avgHomePrice": "$780K",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "city",
+      "slug": "irvine",
+      "description": "Master-planned city known for top-rated schools, business hubs, and parks.",
+      "image": "https://images.unsplash.com/photo-1620231109641-8d8a0a3e578e?w=800&q=80",
+      "imageAlt": "Irvine business district with modern buildings",
+      "distance": "40 miles southeast",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "city",
+      "slug": "santa-monica",
+      "description": "Iconic beach city with famous pier, shopping districts, and tech offices.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80",
+      "imageAlt": "Santa Monica Pier at sunset",
+      "distance": "15 miles west",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "city",
+      "slug": "pasadena",
+      "description": "Cultural hub with Rose Bowl, Caltech, and historic architecture.",
+      "image": "https://images.unsplash.com/photo-1558515147-5a9ab9a8d5b5?w=800&q=80",
+      "imageAlt": "Pasadena City Hall at night",
+      "distance": "10 miles northeast",
+      "avgHomePrice": "$1.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Surf City USA with 8.5 miles of beaches and vibrant downtown.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+      "imageAlt": "Huntington Beach pier with surfers",
+      "distance": "35 miles southeast",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hollywood & Entertainment",
+      "description": "Home to the world's largest entertainment industry, featuring iconic landmarks like the Hollywood Walk of Fame, TCL Chinese Theatre, and Universal Studios.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=800&q=80",
+      "bgImageAlt": "Hollywood sign overlooking Los Angeles with blue sky"
+    },
+    {
+      "title": "Diverse Neighborhoods",
+      "description": "From the trendy Venice Beach to the upscale Beverly Hills, LA offers unique neighborhoods each with their own character and charm.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+      "bgImageAlt": "Palm-lined street in Beverly Hills with luxury homes"
+    },
+    {
+      "title": "Cultural Attractions",
+      "description": "World-class museums including The Getty Center, LACMA, and The Broad showcase art from around the world.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1554072675-66db59dba46f?w=800&q=80",
+      "bgImageAlt": "The Getty Center museum with modern architecture"
+    },
+    {
+      "title": "Outdoor Lifestyle",
+      "description": "With 284 sunny days per year, LA offers endless outdoor activities from hiking in the Hollywood Hills to surfing at Malibu.",
+      "icon": "🌞",
+      "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "bgImageAlt": "People surfing in Malibu beach during sunny day"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Los Angeles?",
+      "answer": "Popular neighborhoods include Beverly Hills for luxury, Venice Beach for creativity, Santa Monica for beach life, and Downtown LA for urban living. Each area offers unique amenities and lifestyle options.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Los Angeles?",
+      "answer": "LA's real estate market is competitive with high demand and limited supply. The median home price is around $1.2M, with luxury properties in prime areas commanding premium prices.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What is the cost of living in Los Angeles?",
+      "answer": "Los Angeles has a high cost of living, particularly for housing. However, the city offers diverse options from luxury condos to family homes, with various price points across different neighborhoods.",
+      "category": "Cost of Living"
+    },
+    {
+      "question": "How is the weather in Los Angeles?",
+      "answer": "LA enjoys a Mediterranean climate with mild, wet winters and hot, dry summers. The city averages 284 sunny days per year, making it perfect for outdoor activities.",
+      "category": "Weather"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Los Angeles Real Estate & Lifestyle Guide - Luxury Living in LA",
+    "metaDescription": "Explore luxury real estate, top neighborhoods, and cultural highlights in Los Angeles. Discover why LA is a top destination for living, investing, and lifestyle.",
+    "keywords": "Los Angeles real estate, LA lifestyle, Beverly Hills, Santa Monica, Hollywood, Venice Beach, cultural attractions, outdoor lifestyle",
+    "ogTitle": "Discover Los Angeles: Luxury Real Estate & Lifestyle Guide",
+    "ogDescription": "Explore diverse neighborhoods, real estate insights, and highlights of Los Angeles. Find your dream home in the heart of California.",
+    "ogImage": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Los Angeles city skyline at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Los Angeles",
+      "description": "Explore real estate, neighborhoods, and highlights in Los Angeles, California.",
+      "url": "https://example.com/locations/los-angeles",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Aerial view of Los Angeles city skyline at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Los Angeles",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular neighborhoods include Beverly Hills for luxury, Venice Beach for creativity, Santa Monica for beach life, and Downtown LA for urban living."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LA's real estate market is competitive with high demand and limited supply. The median home price is around $1.2M."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of living in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los Angeles has a high cost of living, particularly for housing. However, the city offers diverse options with various price points."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the weather in Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LA enjoys a Mediterranean climate with 284 sunny days per year, making it perfect for outdoor activities."
+          }
+        }
+      ]
+    }
+  ]
+}

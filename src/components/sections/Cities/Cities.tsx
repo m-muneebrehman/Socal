@@ -10,9 +10,10 @@ interface CitiesProps {
     title: string
     subtitle: string
   }
+  locale?: string
 }
 
-const Cities = ({ citiesData }: CitiesProps) => {
+const Cities = ({ citiesData, locale }: CitiesProps) => {
   const t = useTranslations('cities');
   
   // Use API data if available, otherwise fall back to translations
@@ -36,6 +37,7 @@ const Cities = ({ citiesData }: CitiesProps) => {
             <Link 
               key={city.slug} 
               href={`/cities/${city.slug}`}
+              locale={locale}
               className="city-card-beautiful"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -78,7 +80,7 @@ const Cities = ({ citiesData }: CitiesProps) => {
         </div>
         
         <div className="cities-section-footer-beautiful">
-          <Link href="/cities" className="see-more-btn-beautiful">
+          <Link href="/cities" locale={locale} className="see-more-btn-beautiful">
             <span>See All Cities</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
