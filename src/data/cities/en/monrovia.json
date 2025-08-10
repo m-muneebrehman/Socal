@@ -2,6 +2,7 @@
   "slug": "monrovia",
   "name": "Monrovia",
   "state": "California",
+  "language": "en",
   "shortDescription": "A historic city in the foothills of the San Gabriel Mountains, known for its charming downtown and community spirit.",
   "fullDescription": "Monrovia offers a welcoming small-town atmosphere with a vibrant historic downtown featuring unique shops, restaurants, and community events. Nestled against the San Gabriel Mountains, the city provides easy access to hiking trails, parks, and outdoor recreation. With excellent schools and a tight-knit community, Monrovia appeals to families and professionals seeking a balanced lifestyle close to Los Angeles.",
   "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
@@ -26,33 +27,11 @@
       "county": "Los Angeles"
     },
     {
-      "name": "Bradbury",
-      "type": "city",
-      "slug": "bradbury",
-      "description": "A small, upscale community with large estates and quiet surroundings.",
-      "image": "https://images.unsplash.com/photo-1486308510493-cb4f0d71d5d5?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Bradbury large estates with greenery",
-      "distance": "3 miles northeast",
-      "avgHomePrice": "$2.5M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Duarte",
-      "type": "city",
-      "slug": "duarte",
-      "description": "Suburban city with parks, hiking trails, and a community-focused lifestyle.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hiking trails near Duarte",
-      "distance": "3 miles southeast",
-      "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Pasadena",
       "type": "city",
       "slug": "pasadena",
       "description": "Cultural and historic city known for the Rose Parade and vibrant arts scene.",
-      "image": "https://images.unsplash.com/photo-1576698483491-8a84b6e0f5d4?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
       "imageAlt": "Historic Pasadena architecture",
       "distance": "5 miles northwest",
       "avgHomePrice": "$1.1M",

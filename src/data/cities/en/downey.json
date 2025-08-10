@@ -2,6 +2,7 @@
   "slug": "downey",
   "name": "Downey",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-friendly city with rich aerospace history, parks, and a vibrant community atmosphere.",
   "fullDescription": "Downey is a well-established city in southeast Los Angeles County, known for its aerospace heritage and welcoming neighborhoods. It offers abundant parks, cultural attractions, and community events that make it ideal for families and professionals alike. The city's central location provides easy access to freeways and nearby employment hubs, while its historic sites and diverse dining options add to its charm.",
   "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
@@ -34,17 +35,6 @@
       "imageAlt": "Downtown area in Norwalk",
       "distance": "4 miles southeast",
       "avgHomePrice": "$680K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Paramount",
-      "type": "city",
-      "slug": "paramount",
-      "description": "Small city with close-knit neighborhoods and convenient freeway access.",
-      "image": "https://images.unsplash.com/photo-1523359346064-81db77d9d8c6?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban street in Paramount",
-      "distance": "3 miles south",
-      "avgHomePrice": "$650K",
       "county": "Los Angeles"
     },
     {

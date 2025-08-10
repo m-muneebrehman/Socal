@@ -2,6 +2,7 @@
   "slug": "la-habra",
   "name": "La Habra",
   "state": "California",
+  "language": "en",
   "shortDescription": "A vibrant city blending suburban living with local parks, shopping, and community events.",
   "fullDescription": "La Habra offers a welcoming community with affordable housing, well-maintained parks, and easy access to major freeways. Known for its family-friendly atmosphere and diverse neighborhoods, La Habra balances small-town charm with convenient proximity to Orange County and Los Angeles. The city features active community programs, cultural events, and a variety of shopping and dining options.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -35,17 +36,6 @@
       "distance": "6 miles southeast",
       "avgHomePrice": "$900K",
       "county": "Orange"
-    },
-    {
-      "name": "Whittier",
-      "type": "city",
-      "slug": "whittier",
-      "description": "Community with historic homes, parks, and a strong arts and education presence.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Historic homes in Whittier",
-      "distance": "5 miles northeast",
-      "avgHomePrice": "$800K",
-      "county": "Los Angeles"
     },
     {
       "name": "La Mirada",

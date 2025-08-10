@@ -2,6 +2,7 @@
   "slug": "bellflower",
   "name": "Bellflower",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-friendly city in southeastern Los Angeles County known for its parks, shopping, and community events.",
   "fullDescription": "Bellflower offers a welcoming suburban atmosphere with plenty of parks, recreational facilities, and convenient shopping areas. The city features a mix of residential neighborhoods and commercial districts, making it a popular choice for families and commuters alike. With its central location, Bellflower provides easy access to Long Beach, Lakewood, and downtown Los Angeles. Community events and local amenities contribute to a strong sense of belonging for residents.",
   "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
@@ -41,7 +42,7 @@
       "type": "city",
       "slug": "cerritos",
       "description": "Community known for its shopping mall, parks, and quality schools.",
-      "image": "https://images.unsplash.com/photo-1520975695893-b5aa0b017ccf?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
       "imageAlt": "Cerritos mall and city center",
       "distance": "7 miles southeast",
       "avgHomePrice": "$750K",
@@ -78,7 +79,7 @@
       "title": "Annual Bellflower Festival",
       "description": "Community event featuring music, food, and family activities.",
       "icon": "🎉",
-      "bgImage": "https://images.unsplash.com/photo-1516912484587-20a94a528c0c?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
       "bgImageAlt": "Festival crowd with decorations"
     },
     {

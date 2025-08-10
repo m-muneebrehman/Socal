@@ -2,6 +2,7 @@
   "slug": "manhattan-beach",
   "name": "Manhattan Beach",
   "state": "California",
+  "language": "en",
   "shortDescription": "A stylish coastal city known for its sandy beaches, vibrant downtown, and active outdoor lifestyle.",
   "fullDescription": "Manhattan Beach is a picturesque seaside community famous for its wide sandy beaches, scenic pier, and a lively downtown area filled with boutique shops, restaurants, and cafes. The city offers excellent schools, a family-friendly environment, and numerous recreational opportunities including volleyball, surfing, and biking along The Strand. Close to Los Angeles, it blends a relaxed beach vibe with sophisticated urban amenities, making it a desirable location for residents and visitors alike.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -45,17 +46,6 @@
       "imageAlt": "El Segundo beach and pier",
       "distance": "6 miles north",
       "avgHomePrice": "$1.2M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Torrance",
-      "type": "city",
-      "slug": "torrance",
-      "description": "Diverse city with parks, shopping centers, and coastal neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Torrance coastal neighborhood",
-      "distance": "7 miles east",
-      "avgHomePrice": "$900K",
       "county": "Los Angeles"
     }
   ],

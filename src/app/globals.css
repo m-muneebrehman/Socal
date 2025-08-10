@@ -6040,11 +6040,60 @@ body {
   background: #f3f4f6;
   color: #6b7280;
   border: 1px solid #d1d5db;
+  transition: all 0.3s ease;
 }
 
 .action-btn.toggle-status:hover {
   background: #e5e7eb;
   color: #374151;
+}
+
+.action-btn.toggle-status.published {
+  background: #10b981;
+  color: white;
+  border-color: #10b981;
+}
+
+.action-btn.toggle-status.published:hover {
+  background: #059669;
+  border-color: #059669;
+}
+
+.action-btn.toggle-status.draft {
+  background: #f3f4f6;
+  color: #6b7280;
+  border-color: #d1d5db;
+}
+
+.action-btn.toggle-status.draft:hover {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.action-btn.toggle-status.publishing {
+  background: #f59e0b;
+  color: white;
+  border-color: #f59e0b;
+  cursor: not-allowed;
+}
+
+.action-btn.toggle-status.publishing:hover {
+  background: #f59e0b;
+  color: white;
+}
+
+/* Animation for the spinning loader */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
 
 /* Responsive adjustments */

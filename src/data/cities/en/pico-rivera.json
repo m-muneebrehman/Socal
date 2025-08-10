@@ -2,6 +2,7 @@
   "slug": "pico-rivera",
   "name": "Pico Rivera",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-oriented city in Southeast Los Angeles County known for its parks and community spirit.",
   "fullDescription": "Pico Rivera is a welcoming city located southeast of downtown Los Angeles. Known for its strong sense of community, numerous parks, and family-friendly environment, it offers affordable living with easy access to major freeways and neighboring cities. The city hosts annual cultural events and prides itself on its diverse population and local schools. Pico Rivera is ideal for those looking for a suburban lifestyle within reach of the greater Los Angeles area.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -15,33 +16,11 @@
   ],
   "neighborhoods": [
     {
-      "name": "Whittier",
-      "type": "city",
-      "slug": "whittier",
-      "description": "Neighboring city known for its historic downtown, colleges, and parks.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Historic downtown Whittier",
-      "distance": "4 miles southeast",
-      "avgHomePrice": "$650K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Santa Fe Springs",
-      "type": "city",
-      "slug": "santa-fe-springs",
-      "description": "Industrial and residential city with parks and community centers nearby.",
-      "image": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Cityscape of Santa Fe Springs",
-      "distance": "3 miles east",
-      "avgHomePrice": "$580K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Montebello",
       "type": "city",
       "slug": "montebello",
       "description": "City with diverse neighborhoods, shopping, and recreational parks.",
-      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Neighborhood in Montebello",
       "distance": "5 miles west",
       "avgHomePrice": "$620K",

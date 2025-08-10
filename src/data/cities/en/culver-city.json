@@ -2,6 +2,7 @@
   "slug": "culver-city",
   "name": "Culver City",
   "state": "California",
+  "language": "en",
   "shortDescription": "A dynamic city known for its entertainment industry roots, trendy dining, and arts scene.",
   "fullDescription": "Culver City combines a rich history in film and television production with a modern vibe full of vibrant restaurants, art galleries, and boutique shops. Centrally located in Los Angeles County, it offers a walkable downtown area, beautiful parks, and excellent public transportation. Its diverse community and thriving creative economy make it a sought-after destination for families, professionals, and creatives.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -26,17 +27,6 @@
       "county": "Los Angeles"
     },
     {
-      "name": "Marina del Rey",
-      "type": "city",
-      "slug": "marina-del-rey",
-      "description": "Coastal community known for its marina, water sports, and waterfront dining.",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Boats at Marina del Rey harbor",
-      "distance": "4 miles southwest",
-      "avgHomePrice": "$1.4M",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Santa Monica",
       "type": "city",
       "slug": "santa-monica",
@@ -45,17 +35,6 @@
       "imageAlt": "Santa Monica pier and beach",
       "distance": "5 miles west",
       "avgHomePrice": "$2.3M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Palms",
-      "type": "neighborhood",
-      "slug": "palms",
-      "description": "Diverse and centrally located neighborhood known for its convenient transit options and eclectic dining.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Residential street in Palms",
-      "distance": "2 miles east",
-      "avgHomePrice": "$950K",
       "county": "Los Angeles"
     }
   ],

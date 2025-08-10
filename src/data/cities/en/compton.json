@@ -2,6 +2,7 @@
   "slug": "compton",
   "name": "Compton",
   "state": "California",
+  "language": "en",
   "shortDescription": "A historically rich city known for its cultural contributions, community spirit, and evolving urban landscape.",
   "fullDescription": "Compton is a city in southern Los Angeles County known for its deep cultural roots, vibrant arts scene, and strong community identity. Despite challenges, the city has seen revitalization efforts focusing on public safety, education, and economic development. Compton offers diverse neighborhoods, parks, and cultural events that celebrate its heritage. It provides convenient access to Downtown LA and other surrounding cities, making it an important part of the region's urban fabric.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -53,7 +54,7 @@
       "title": "Compton College",
       "description": "Community college providing education and career opportunities to residents.",
       "icon": "🎓",
-      "bgImage": "https://images.unsplash.com/photo-1573164574399-ffb8b2a3a8d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
       "bgImageAlt": "Compton College campus"
     },
     {

@@ -1,19 +1,77 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from '@/i18n/navigation'
-import blogsData from '@/data/blogs.json'
 import { useParams } from 'next/navigation'
 
 interface RelatedArticlesProps {
   currentBlogId: string
 }
 
+interface Blog {
+  id: string
+  slug: string
+  title: string
+  subtitle: string
+  heroImage: string
+  category: string
+  date: string
+  author: {
+    name: string
+  }
+  readTime: string
+  language: string
+}
+
 const RelatedArticles = ({ currentBlogId }: RelatedArticlesProps) => {
   const params = useParams() as any
   const locale = params?.locale || 'en'
-  // Prefer same-locale blogs if present in data
-  const sameLocale = blogsData.filter((b: any) => (b as any).language === locale)
+  const [blogsData, setBlogsData] = useState<Blog[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const loadBlogsData = async () => {
+      try {
+        setLoading(true)
+        // Dynamically import the language-specific blogs.json file
+        const blogsModule = await import(`@/data/blogs/${locale}/blogs.json`)
+        setBlogsData(blogsModule.default || blogsModule)
+      } catch (error) {
+        console.error(`Failed to load blogs for locale ${locale}:`, error)
+        // Fallback to English if the locale-specific file doesn't exist
+        try {
+          const fallbackModule = await import('@/data/blogs/en/blogs.json')
+          setBlogsData(fallbackModule.default || fallbackModule)
+        } catch (fallbackError) {
+          console.error('Failed to load fallback blogs:', fallbackError)
+          setBlogsData([])
+        }
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadBlogsData()
+  }, [locale])
+
+  // Filter blogs by current locale and exclude current blog
+  const sameLocale = blogsData.filter((blog: Blog) => blog.language === locale)
   const pool = sameLocale.length > 0 ? sameLocale : blogsData
   const relatedBlogs = pool.filter(blog => blog.id !== currentBlogId).slice(0, 3)
+
+  if (loading) {
+    return (
+      <section className="related-section">
+        <div className="related-container">
+          <div className="section-header">
+            <h2 className="section-title">Related Insights</h2>
+            <p className="section-subtitle">Continue exploring our latest analysis and trends in luxury real estate markets worldwide</p>
+          </div>
+          <div className="related-grid">
+            <div className="loading-placeholder">Loading related articles...</div>
+          </div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className="related-section">

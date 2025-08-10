@@ -2,6 +2,7 @@
   "slug": "santa-clarita",
   "name": "Santa Clarita",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-friendly city known for its parks, excellent schools, and outdoor recreational opportunities.",
   "fullDescription": "Santa Clarita is a thriving suburban city located north of Los Angeles. Known for its master-planned communities, top-rated schools, and abundant parks and trails, it offers a high quality of life for families and professionals alike. The city features attractions like Six Flags Magic Mountain and has a growing economy with diverse shopping and dining options. Its safe neighborhoods and community events make Santa Clarita a sought-after destination for those seeking a balanced lifestyle close to nature yet with urban conveniences.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -15,47 +16,47 @@
   ],
   "neighborhoods": [
     {
-      "name": "Valencia",
+      "name": "Glendale",
       "type": "city",
-      "slug": "valencia",
-      "description": "Master-planned community known for shopping centers, parks, and family amenities.",
-      "image": "https://images.unsplash.com/photo-1520975699530-74f0b27076b7?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Residential neighborhood in Valencia",
-      "distance": "5 miles south",
-      "avgHomePrice": "$850K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Canyon Country",
-      "type": "city",
-      "slug": "canyon-country",
-      "description": "Residential area with hiking trails and suburban neighborhoods.",
+      "slug": "glendale",
+      "description": "Vibrant city with shopping districts, parks, and a thriving arts and dining scene.",
       "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hiking trail and hills in Canyon Country",
-      "distance": "7 miles east",
-      "avgHomePrice": "$720K",
+      "imageAlt": "Downtown Glendale street",
+      "distance": "28 miles southeast",
+      "avgHomePrice": "$1.1M",
       "county": "Los Angeles"
     },
     {
-      "name": "Saugus",
+      "name": "Burbank",
       "type": "city",
-      "slug": "saugus",
-      "description": "Community with shopping, parks, and family-friendly neighborhoods.",
+      "slug": "burbank",
+      "description": "Media hub known for studios, family neighborhoods, and convenient commuting.",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Burbank neighborhood street",
+      "distance": "22 miles south",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Calabasas",
+      "type": "city",
+      "slug": "calabasas",
+      "description": "Upscale community with scenic hills, shopping, and top-rated schools.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hillside homes in Calabasas",
+      "distance": "24 miles southwest",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Palmdale",
+      "type": "city",
+      "slug": "palmdale",
+      "description": "High-desert city offering affordable housing and growing amenities.",
       "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban street in Saugus",
-      "distance": "6 miles southwest",
-      "avgHomePrice": "$750K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Newhall",
-      "type": "city",
-      "slug": "newhall",
-      "description": "Historic district with arts venues, shops, and dining options.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Historic buildings in Newhall",
-      "distance": "8 miles west",
-      "avgHomePrice": "$780K",
+      "imageAlt": "Palmdale desert landscape",
+      "distance": "38 miles northeast",
+      "avgHomePrice": "$550K",
       "county": "Los Angeles"
     }
   ],
@@ -102,7 +103,7 @@
     },
     {
       "question": "What can you do in Santa Clarita?",
-      "answer": "Visit Six Flags Magic Mountain, explore nature parks, enjoy shopping and dining in Valencia and Old Town Newhall.",
+      "answer": "Visit Six Flags Magic Mountain, explore nature parks, and enjoy shopping and dining in nearby Glendale and Burbank.",
       "category": "Lifestyle"
     },
     {
@@ -169,7 +170,7 @@
           "name": "What can you do in Santa Clarita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Visit Six Flags Magic Mountain, explore nature parks, enjoy shopping and dining in Valencia and Old Town Newhall."
+            "text": "Visit Six Flags Magic Mountain, explore nature parks, and enjoy shopping and dining in nearby Glendale and Burbank."
           }
         },
         {

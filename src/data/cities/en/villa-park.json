@@ -1,0 +1,187 @@
+{
+  "slug": "villa-park",
+  "name": "Villa Park",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A quiet, primarily residential Orange County city known for large lots, tree-lined streets, and top-rated schools.",
+  "fullDescription": "Villa Park is a small, serene community nestled within the City of Orange in Orange County. Known for its spacious homes, lush landscaping, and strong sense of community, it offers a peaceful suburban lifestyle with convenient access to shopping, dining, and major freeways. Residents enjoy proximity to regional parks, quality schools, and nearby destinations across the county.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree-lined residential street in a quiet suburban neighborhood",
+  "population": "6K+",
+  "avgHomePrice": "$1.6M",
+  "tags": [
+    "Quiet",
+    "Residential",
+    "Schools"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Orange",
+      "type": "city",
+      "slug": "orange",
+      "description": "Historic city with a vibrant Old Towne district, shopping, and parks; surrounds Villa Park.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic commercial street in the City of Orange",
+      "distance": "Adjacent",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "city",
+      "slug": "anaheim",
+      "description": "Major city known for entertainment, shopping districts, and diverse neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Urban district and palm-lined street in Anaheim",
+      "distance": "7 miles west",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Tustin",
+      "type": "city",
+      "slug": "tustin",
+      "description": "Well-situated city with historic Old Town, shopping, and family-friendly parks.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Shopping and dining area in Tustin",
+      "distance": "6 miles south",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "city",
+      "slug": "yorba-linda",
+      "description": "Upscale suburban city with equestrian trails, parks, and spacious neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood and open space in Yorba Linda",
+      "distance": "8 miles north",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Villa Park Town Center",
+      "description": "Local hub with shops, dining, and everyday services right in the community.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor shopping center walkway"
+    },
+    {
+      "title": "Parks & Open Spaces",
+      "description": "Neighborhood parks and nearby regional trails for walking, biking, and outdoor relaxation.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tree-shaded path through a suburban park"
+    },
+    {
+      "title": "Top-Rated Schools",
+      "description": "Served by highly regarded schools in the Orange Unified School District.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Academic building and campus greenery"
+    },
+    {
+      "title": "Convenient Access",
+      "description": "Close to SR-55, SR-91 and major OC destinations including shopping and entertainment.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Freeway interchange and skyline at dusk"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Villa Park known for?",
+      "answer": "Villa Park is known for its quiet residential character, large lots, and proximity to top-rated schools and parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Villa Park?",
+      "answer": "The market primarily features single-family homes on larger lots, with strong demand for spacious properties.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do nearby?",
+      "answer": "Explore Old Towne Orange, shop and dine in Anaheim and Tustin, and enjoy nearby regional parks and trails.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Villa Park?",
+      "answer": "Villa Park offers quick access to SR-55 and SR-91, connecting to employment centers across Orange County and beyond.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Villa Park CA Real Estate & Lifestyle | Quiet Residential Living",
+    "metaDescription": "Discover Villa Park’s serene neighborhoods, top schools, and nearby amenities in Orange County.",
+    "keywords": "Villa Park real estate, Villa Park homes, living in Villa Park, Orange County residential",
+    "ogTitle": "Explore Villa Park: Quiet Residential Community in Orange County",
+    "ogDescription": "Find your home in Villa Park with spacious properties, parks, and convenient access to OC destinations.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Tree-lined residential street in a quiet suburban neighborhood",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Villa Park",
+      "description": "Explore real estate, neighborhoods, and highlights in Villa Park, California.",
+      "url": "https://example.com/locations/villa-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Tree-lined residential street in a quiet suburban neighborhood"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Villa Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Villa Park known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Villa Park is known for its quiet residential character, large lots, and proximity to top-rated schools and parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Villa Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market primarily features single-family homes on larger lots, with strong demand for spacious properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do nearby?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explore Old Towne Orange, shop and dine in Anaheim and Tustin, and enjoy nearby regional parks and trails."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Villa Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Villa Park offers quick access to SR-55 and SR-91, connecting to employment centers across Orange County and beyond."
+          }
+        }
+      ]
+    }
+  ]
+}

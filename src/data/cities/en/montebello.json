@@ -2,6 +2,7 @@
   "slug": "montebello",
   "name": "Montebello",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse city with a rich history, offering a mix of residential neighborhoods, parks, and local culture.",
   "fullDescription": "Montebello is a vibrant community located in the eastern part of Los Angeles County. Known for its friendly neighborhoods, abundant parks, and diverse population, Montebello offers a suburban feel with convenient access to the greater Los Angeles area. The city hosts various cultural events and has a strong focus on family life, making it a welcoming place for residents of all ages.",
   "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
@@ -15,17 +16,6 @@
   ],
   "neighborhoods": [
     {
-      "name": "Whittier",
-      "type": "city",
-      "slug": "whittier",
-      "description": "A historic city with charming neighborhoods, parks, and a vibrant downtown.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Downtown Whittier street with shops",
-      "distance": "5 miles southeast",
-      "avgHomePrice": "$720K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Pico Rivera",
       "type": "city",
       "slug": "pico-rivera",
@@ -34,28 +24,6 @@
       "imageAlt": "Pico Rivera neighborhood with houses",
       "distance": "3 miles south",
       "avgHomePrice": "$600K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Montebello Hills",
-      "type": "neighborhood",
-      "slug": "montebello-hills",
-      "description": "Residential neighborhood with scenic views and family homes.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hilly residential area in Montebello",
-      "distance": "Within city",
-      "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "East Los Angeles",
-      "type": "city",
-      "slug": "east-los-angeles",
-      "description": "Community rich in Latino heritage, known for vibrant murals and authentic cuisine.",
-      "image": "https://images.unsplash.com/photo-1601758173925-44cf5a3d3b07?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Street mural in East Los Angeles",
-      "distance": "4 miles northwest",
-      "avgHomePrice": "$720K",
       "county": "Los Angeles"
     }
   ],

@@ -2,6 +2,7 @@
   "slug": "san-gabriel",
   "name": "San Gabriel",
   "state": "California",
+  "language": "en",
   "shortDescription": "A historic city in the San Gabriel Valley known for its rich cultural heritage and the famous San Gabriel Mission.",
   "fullDescription": "San Gabriel is celebrated for its blend of cultural history and suburban charm. The city is home to the historic San Gabriel Mission, beautiful parks, and a thriving Asian dining scene. With a walkable downtown area and family-friendly neighborhoods, San Gabriel attracts residents who value community, good schools, and convenient access to nearby Los Angeles and Pasadena. Its diverse population contributes to a vibrant cultural atmosphere and numerous local festivals.",
   "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
@@ -30,32 +31,10 @@
       "type": "city",
       "slug": "rosemead",
       "description": "A family-oriented city with parks, schools, and a growing Asian-American community.",
-      "image": "https://images.unsplash.com/photo-1581561074015-2db6f5cdedbd?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Residential street in Rosemead with trees",
       "distance": "3 miles south",
       "avgHomePrice": "$780K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Temple City",
-      "type": "city",
-      "slug": "temple-city",
-      "description": "Suburban city with a focus on family-friendly amenities and community events.",
-      "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbe9?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Tree-lined street in Temple City",
-      "distance": "4 miles east",
-      "avgHomePrice": "$800K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "West Covina",
-      "type": "city",
-      "slug": "west-covina",
-      "description": "City with shopping centers, parks, and diverse neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1539698488997-0bb6c912d0b1?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "West Covina commercial area with shops",
-      "distance": "6 miles southeast",
-      "avgHomePrice": "$700K",
       "county": "Los Angeles"
     }
   ],

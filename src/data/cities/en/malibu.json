@@ -2,6 +2,7 @@
   "slug": "malibu",
   "name": "Malibu",
   "state": "California",
+  "language": "en",
   "shortDescription": "A scenic coastal city famous for its stunning beaches, celebrity homes, and outdoor lifestyle.",
   "fullDescription": "Malibu is a beautiful beachfront city known for its picturesque coastline, luxury estates, and relaxed lifestyle. Stretching along the Pacific Coast Highway, Malibu offers world-renowned surfing spots, hiking trails in the Santa Monica Mountains, and exclusive dining and shopping experiences. This city combines natural beauty with a high-end community vibe, making it a coveted location for residents and visitors alike. Malibu also provides access to excellent schools and a close-knit community atmosphere, all just a short drive from Los Angeles.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -14,17 +15,6 @@
     "Outdoor lifestyle"
   ],
   "neighborhoods": [
-    {
-      "name": "Pacific Palisades",
-      "type": "city",
-      "slug": "pacific-palisades",
-      "description": "Upscale coastal community with beaches, hiking trails, and a village atmosphere.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Pacific Palisades coastline at sunset",
-      "distance": "8 miles southeast",
-      "avgHomePrice": "$3.8M",
-      "county": "Los Angeles"
-    },
     {
       "name": "Santa Monica",
       "type": "city",
@@ -45,17 +35,6 @@
       "imageAlt": "Calabasas residential neighborhood",
       "distance": "10 miles east",
       "avgHomePrice": "$1.9M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Topanga",
-      "type": "city",
-      "slug": "topanga",
-      "description": "Quaint mountain community with a bohemian vibe and scenic nature preserves.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Topanga Canyon landscape",
-      "distance": "7 miles northeast",
-      "avgHomePrice": "$1.5M",
       "county": "Los Angeles"
     }
   ],

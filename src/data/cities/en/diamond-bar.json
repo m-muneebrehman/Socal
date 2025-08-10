@@ -2,6 +2,7 @@
   "slug": "diamond-bar",
   "name": "Diamond Bar",
   "state": "California",
+  "language": "en",
   "shortDescription": "A suburban city known for its scenic hills, family-friendly environment, and excellent schools.",
   "fullDescription": "Diamond Bar offers a peaceful suburban lifestyle with plenty of parks, hiking trails, and community events. Located in eastern Los Angeles County, it features well-maintained neighborhoods, strong public schools, and easy access to the 60 and 57 freeways. The city is popular with families and professionals seeking a quieter setting close to urban amenities.",
   "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
@@ -23,39 +24,6 @@
       "imageAlt": "Downtown Pomona street view",
       "distance": "5 miles east",
       "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Walnut",
-      "type": "city",
-      "slug": "walnut",
-      "description": "Family-oriented community known for excellent schools and parks.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban park in Walnut",
-      "distance": "3 miles north",
-      "avgHomePrice": "$1.1M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Chino Hills",
-      "type": "city",
-      "slug": "chino-hills",
-      "description": "Hilly community with outdoor recreational opportunities and family neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hills and homes in Chino Hills",
-      "distance": "7 miles southeast",
-      "avgHomePrice": "$900K",
-      "county": "San Bernardino"
-    },
-    {
-      "name": "Rowland Heights",
-      "type": "city",
-      "slug": "rowland-heights",
-      "description": "Diverse community known for shopping centers and suburban neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Commercial area in Rowland Heights",
-      "distance": "4 miles west",
-      "avgHomePrice": "$800K",
       "county": "Los Angeles"
     }
   ],

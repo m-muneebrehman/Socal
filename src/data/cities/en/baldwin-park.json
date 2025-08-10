@@ -2,9 +2,10 @@
   "slug": "baldwin-park",
   "name": "Baldwin Park",
   "state": "California",
+  "language": "en",
   "shortDescription": "A historic city in the San Gabriel Valley with a strong community spirit, parks, and family-friendly amenities.",
   "fullDescription": "Baldwin Park is a vibrant community known for its diverse population, well-maintained parks, and convenient location within the San Gabriel Valley. The city offers affordable housing options, schools, and community programs, making it popular for families and young professionals. Baldwin Park is also close to major freeways, providing easy access to Los Angeles and surrounding areas.",
-  "heroImage": "https://images.unsplash.com/photo-1494522331057-1518a92e2b45?auto=format&fit=crop&w=1920&q=80",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
   "heroImageAlt": "Baldwin Park cityscape with parks and residential areas",
   "population": "75K+",
   "avgHomePrice": "$580K",
@@ -15,22 +16,11 @@
   ],
   "neighborhoods": [
     {
-      "name": "West Covina",
-      "type": "city",
-      "slug": "west-covina",
-      "description": "A family-friendly city with shopping, dining, and recreational parks.",
-      "image": "https://images.unsplash.com/photo-1534103251354-7ca4538b55d7?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Downtown West Covina shopping area",
-      "distance": "4 miles south",
-      "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Covina",
       "type": "city",
       "slug": "covina",
       "description": "Historic city with a vibrant downtown and cultural events.",
-      "image": "https://images.unsplash.com/photo-1556400709-5f9fcd0c1a27?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Main street in Covina",
       "distance": "5 miles east",
       "avgHomePrice": "$700K",
@@ -41,7 +31,7 @@
       "type": "city",
       "slug": "el-monte",
       "description": "Diverse community with parks, schools, and growing residential areas.",
-      "image": "https://images.unsplash.com/photo-1549893079-2b6c49283ca4?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "El Monte residential neighborhood",
       "distance": "6 miles west",
       "avgHomePrice": "$600K",
@@ -71,7 +61,7 @@
       "title": "Baldwin Park Historical Society",
       "description": "Organization dedicated to preserving the city’s rich history.",
       "icon": "🏛️",
-      "bgImage": "https://images.unsplash.com/photo-1568742279221-bbd9cc3e452b?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
       "bgImageAlt": "Historic building in Baldwin Park"
     },
     {
@@ -85,7 +75,7 @@
       "title": "Community Events",
       "description": "Festivals, farmers markets, and neighborhood gatherings throughout the year.",
       "icon": "🎉",
-      "bgImage": "https://images.unsplash.com/photo-1516912484587-20a94a528c0c?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
       "bgImageAlt": "Community event with people and decorations"
     }
   ],

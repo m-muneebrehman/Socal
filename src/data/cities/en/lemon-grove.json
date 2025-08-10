@@ -1,0 +1,163 @@
+{
+  "slug": "lemon-grove",
+  "name": "Lemon Grove",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "Charming suburban city known for its historic Lemon Grove Arch and tight-knit community near San Diego.",
+  "fullDescription": "Lemon Grove offers affordable suburban living with a strong sense of community, highlighted by its iconic Lemon Grove Arch. Residents enjoy convenient access to both San Diego and East County amenities while maintaining a distinct small-town character with local events and parks.",
+  "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Lemon Grove Arch with suburban neighborhood",
+  "population": "27K+",
+  "avgHomePrice": "$700K+",
+  "tags": [
+    "Historic",
+    "Family-friendly",
+    "Affordable"
+  ],
+  "neighborhoods": [
+    {
+      "name": "La Mesa",
+      "type": "city",
+      "slug": "la-mesa",
+      "description": "Adjacent city with historic downtown village and walkable neighborhoods.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "La Mesa Boulevard downtown village",
+      "distance": "3 miles east",
+      "avgHomePrice": "$850K",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major metropolitan center with employment hubs and cultural attractions.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego skyline viewed from the bay",
+      "distance": "10 miles west",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    },
+    {
+      "name": "El Cajon",
+      "type": "city",
+      "slug": "el-cajon",
+      "description": "Neighboring city with diverse dining options and affordable housing.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Downtown street scene in El Cajon",
+      "distance": "5 miles east",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "National City",
+      "type": "city",
+      "slug": "national-city",
+      "description": "Urban city to the southwest with bayfront access and diverse dining.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "National City marina and bayfront",
+      "distance": "7 miles southwest",
+      "avgHomePrice": "$600K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Historic Arch",
+      "description": "The iconic Lemon Grove Arch has welcomed visitors since 1928 as a symbol of community pride.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lemon Grove Arch"
+    },
+    {
+      "title": "Community Events",
+      "description": "Annual Lemon Festival and other local gatherings foster small-town connections.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lemon Grove community event"
+    },
+    {
+      "title": "Affordable Living",
+      "description": "More budget-friendly than neighboring cities while offering convenient location.",
+      "icon": "💰",
+      "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lemon Grove neighborhood"
+    },
+    {
+      "title": "Central Location",
+      "description": "Easy access to both San Diego and East County via I-94 and SR-125.",
+      "icon": "📍",
+      "bgImage": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lemon Grove freeway access"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Lemon Grove?",
+      "answer": "Popular areas include the downtown area near the Arch, Palm Ranch, and neighborhoods near San Miguel Elementary.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How are the schools in Lemon Grove?",
+      "answer": "Served by the Lemon Grove School District and Grossmont Union High School District with several award-winning schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What is there to do in Lemon Grove?",
+      "answer": "Enjoy community events like the Lemon Festival, local parks, and easy access to San Diego attractions.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting to downtown San Diego?",
+      "answer": "About 15-20 minutes via I-94 depending on traffic, with trolley access from nearby La Mesa.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lemon Grove CA Real Estate & Lifestyle | Historic & Affordable Living",
+    "metaDescription": "Discover Lemon Grove neighborhoods, historic charm, and affordable living near San Diego.",
+    "keywords": "Lemon Grove real estate, Lemon Grove Arch, San Diego County, Lemon Grove homes",
+    "ogTitle": "Explore Lemon Grove: Small-Town Charm Near San Diego",
+    "ogDescription": "Learn about Lemon Grove neighborhoods, community events and convenient location.",
+    "ogImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Lemon Grove Arch and neighborhood",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lemon Grove",
+      "description": "Explore real estate, neighborhoods, and highlights in Lemon Grove, California.",
+      "url": "https://example.com/locations/lemon-grove",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Lemon Grove Arch and neighborhood"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lemon Grove",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Lemon Grove special?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lemon Grove offers small-town community feel with its historic Arch and local events, while providing affordable living near San Diego."
+          }
+        }
+      ]
+    }
+  ]
+}

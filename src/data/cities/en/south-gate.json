@@ -1,0 +1,187 @@
+{
+  "slug": "south-gate",
+  "name": "South Gate",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A diverse, urban community in southeast Los Angeles County with parks, shopping, and commuter access.",
+  "fullDescription": "South Gate offers an urban-suburban mix with active commercial corridors, neighborhood parks, and community centers. Its central location provides convenient access to nearby employment hubs and freeways, while local events and amenities support a tight-knit community feel. Residents enjoy proximity to regional shopping, dining, and public services across southeast LA County.",
+  "heroImage": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Urban boulevard lined with palm trees and traffic",
+  "population": "93K+",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Urban",
+    "Parks",
+    "Community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downey",
+      "type": "city",
+      "slug": "downey",
+      "description": "City with parks, shopping, and a growing dining scene.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Retail and dining district in Downey",
+      "distance": "6 miles east",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lynwood",
+      "type": "city",
+      "slug": "lynwood",
+      "description": "Urban city with community programs, parks, and convenient access to freeways.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "City streetscape in Lynwood",
+      "distance": "3 miles south",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Park",
+      "type": "city",
+      "slug": "huntington-park",
+      "description": "Vibrant city with commercial corridors, neighborhood parks, and community services.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Commercial street in Huntington Park",
+      "distance": "4 miles northwest",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "city",
+      "slug": "compton",
+      "description": "Historic city with cultural institutions, parks, and regional connectivity.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Urban street view in Compton",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$570K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "South Gate Park",
+      "description": "Expansive community park with sports fields, aquatic center, and recreation programs.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Large park with trees and open fields"
+    },
+    {
+      "title": "Azalea Regional Shopping Center",
+      "description": "Modern retail center offering shopping, dining, and everyday services.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor shopping plaza"
+    },
+    {
+      "title": "Community Events",
+      "description": "City-hosted activities, classes, and seasonal celebrations for all ages.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Crowd enjoying a community festival"
+    },
+    {
+      "title": "Central Location",
+      "description": "Quick access to I-710, I-105, and surrounding southeast LA cities.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Freeway interchange at dusk"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is South Gate known for?",
+      "answer": "South Gate is known for South Gate Park, active community programs, and central access to southeast LA County.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in South Gate?",
+      "answer": "The market features primarily single-family homes and smaller multifamily properties with competitive pricing for LA County.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in South Gate?",
+      "answer": "Enjoy South Gate Park, shop at Azalea, and explore dining and services along main corridors.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from South Gate?",
+      "answer": "Proximity to I-710 and I-105 provides convenient routes to employment centers across LA.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "South Gate CA Real Estate & Lifestyle | Parks, Shopping & Access",
+    "metaDescription": "Discover South Gate’s parks, shopping, and commuter access in a diverse southeast LA community.",
+    "keywords": "South Gate real estate, South Gate park, living in South Gate, southeast LA homes",
+    "ogTitle": "Explore South Gate: Community, Parks, and Central Access",
+    "ogDescription": "Find your home in South Gate with community amenities, parks, and great regional connectivity.",
+    "ogImage": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Urban boulevard lined with palm trees and traffic",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "South Gate",
+      "description": "Explore real estate, neighborhoods, and highlights in South Gate, California.",
+      "url": "https://example.com/locations/south-gate",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Urban boulevard lined with palm trees and traffic"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "South Gate",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is South Gate known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "South Gate is known for South Gate Park, active community programs, and central access to southeast LA County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in South Gate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market features primarily single-family homes and smaller multifamily properties with competitive pricing for LA County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in South Gate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enjoy South Gate Park, shop at Azalea, and explore dining and services along main corridors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from South Gate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proximity to I-710 and I-105 provides convenient routes to employment centers across LA."
+          }
+        }
+      ]
+    }
+  ]
+}

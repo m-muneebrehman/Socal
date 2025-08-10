@@ -2,6 +2,7 @@
   "slug": "norwalk",
   "name": "Norwalk",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-oriented city with parks, shopping, and convenient access to Los Angeles and Orange County.",
   "fullDescription": "Norwalk is a vibrant city in southeast Los Angeles County known for its community parks, diverse shopping centers, and family-friendly atmosphere. Offering a suburban feel with easy access to major freeways, Norwalk is ideal for commuters working in Los Angeles or Orange County. The city hosts annual community events and provides quality schools and recreational facilities.",
   "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
@@ -34,17 +35,6 @@
       "imageAlt": "Shopping area in Cerritos",
       "distance": "6 miles south",
       "avgHomePrice": "$800K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Santa Fe Springs",
-      "type": "city",
-      "slug": "santa-fe-springs",
-      "description": "Industrial and residential community with parks and schools.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban neighborhood in Santa Fe Springs",
-      "distance": "3 miles east",
-      "avgHomePrice": "$680K",
       "county": "Los Angeles"
     },
     {

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { updateHomeJsonFile } from '@/lib/json-updater'
+
 
 export async function GET() {
   try {
@@ -70,9 +70,6 @@ export async function POST(request: NextRequest) {
       { upsert: true }
     )
 
-    // Update the JSON file
-    await updateHomeJsonFile(homeData)
-
     return NextResponse.json({ 
       message: 'Home data updated successfully',
       _id: result.upsertedId || 'updated'
@@ -97,9 +94,6 @@ export async function PUT(request: NextRequest) {
     if (result.matchedCount === 0) {
       return NextResponse.json({ error: 'No home data found to update' }, { status: 404 })
     }
-
-    // Update the JSON file
-    await updateHomeJsonFile(homeData)
 
     return NextResponse.json({ message: 'Home data updated successfully' })
   } catch (error) {

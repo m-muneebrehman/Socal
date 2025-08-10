@@ -2,6 +2,7 @@
   "slug": "lake-forest",
   "name": "Lake Forest",
   "state": "California",
+  "language": "en",
   "shortDescription": "A master-planned community known for its scenic lakes, parks, and family-friendly atmosphere.",
   "fullDescription": "Lake Forest is a vibrant city in Orange County featuring beautiful man-made lakes, numerous parks, and well-maintained neighborhoods. The city offers a welcoming environment for families, with quality schools, shopping centers, and recreational opportunities. Its strategic location provides convenient access to nearby beaches, freeways, and employment hubs, making it an ideal place to live and work.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -14,28 +15,6 @@
     "Suburban"
   ],
   "neighborhoods": [
-    {
-      "name": "Foothill Ranch",
-      "type": "neighborhood",
-      "slug": "foothill-ranch",
-      "description": "Planned community with parks, schools, and shopping nearby.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Neighborhood street in Foothill Ranch",
-      "distance": "3 miles northeast",
-      "avgHomePrice": "$950K",
-      "county": "Orange"
-    },
-    {
-      "name": "Portola Hills",
-      "type": "neighborhood",
-      "slug": "portola-hills",
-      "description": "Hillside community with scenic views and hiking trails.",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hillside homes in Portola Hills",
-      "distance": "4 miles northwest",
-      "avgHomePrice": "$1.0M",
-      "county": "Orange"
-    },
     {
       "name": "Mission Viejo",
       "type": "city",

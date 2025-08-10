@@ -2,6 +2,7 @@
   "slug": "covina",
   "name": "Covina",
   "state": "California",
+  "language": "en",
   "shortDescription": "A charming San Gabriel Valley city known for its historic downtown, family-friendly atmosphere, and scenic foothill views.",
   "fullDescription": "Covina offers a suburban lifestyle with a welcoming community feel. It features a historic downtown with shops and eateries, multiple parks, and good schools. Nestled near the San Gabriel Mountains, residents enjoy outdoor activities and easy access to Los Angeles. Covina blends small-town charm with convenient urban amenities, making it a popular choice for families and professionals alike.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -45,17 +46,6 @@
       "imageAlt": "Suburban neighborhood in Azusa",
       "distance": "6 miles northeast",
       "avgHomePrice": "$600K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "West Covina",
-      "type": "city",
-      "slug": "west-covina",
-      "description": "Neighboring city offering shopping, parks, and community events.",
-      "image": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Shopping area in West Covina",
-      "distance": "3 miles west",
-      "avgHomePrice": "$650K",
       "county": "Los Angeles"
     }
   ],

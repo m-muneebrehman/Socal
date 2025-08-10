@@ -6,9 +6,10 @@ interface AdminFooterProps {
   onUpdateJson: () => void
   onRefreshData: () => void
   lastUpdated?: string
+  isUpdatingJson?: boolean
 }
 
-export default function AdminFooter({ onUpdateJson, onRefreshData, lastUpdated }: AdminFooterProps) {
+export default function AdminFooter({ onUpdateJson, onRefreshData, lastUpdated, isUpdatingJson = false }: AdminFooterProps) {
   return (
     <footer className="admin-footer" style={{
       background: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)',

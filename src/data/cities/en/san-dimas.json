@@ -2,6 +2,7 @@
   "slug": "san-dimas",
   "name": "San Dimas",
   "state": "California",
+  "language": "en",
   "shortDescription": "A charming city nestled in the foothills of the San Gabriel Mountains, known for its small-town feel and outdoor activities.",
   "fullDescription": "San Dimas offers residents a peaceful suburban lifestyle with a strong sense of community. Known for its scenic mountain backdrop, parks, and historic downtown area, the city is popular among families and outdoor enthusiasts. With convenient access to hiking trails, golf courses, and local events, San Dimas balances natural beauty with a friendly neighborhood atmosphere. The city also benefits from proximity to larger cities like Pasadena and Pomona, making it a great choice for commuters seeking tranquility and convenience.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -23,17 +24,6 @@
       "imageAlt": "Downtown Pomona streets with historic buildings",
       "distance": "6 miles south",
       "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "La Verne",
-      "type": "city",
-      "slug": "la-verne",
-      "description": "Quiet suburban city known for its college town vibe and family-friendly neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "La Verne residential street with trees",
-      "distance": "4 miles west",
-      "avgHomePrice": "$850K",
       "county": "Los Angeles"
     },
     {

@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
-import citiesList from '@/data/cities.json'
 
 interface CitiesProps {
   citiesData?: {
@@ -58,8 +57,42 @@ const Cities = ({ citiesData, locale }: CitiesProps) => {
     return () => { isMounted = false }
   }, [locale])
 
-  // Fallback to bundled cities.json (may contain mixed locales)
-  const displayedCities: any[] = fetchedCities.length > 0 ? fetchedCities : citiesList.slice(0, 3)
+  // Use fetched cities or show loading/empty state
+  const displayedCities: CityListing[] = fetchedCities
+
+  if (loading) {
+    return (
+      <section className="cities-section-beautiful" id="cities">
+        <div className="cities-container-beautiful">
+          <div className="section-header-beautiful">
+            <span className="section-eyebrow-beautiful">Destinations</span>
+            <h2 className="section-title-beautiful">{title}</h2>
+            <p className="section-subtitle-beautiful">{subtitle}</p>
+          </div>
+          <div className="cities-grid-beautiful">
+            <div className="loading-placeholder">Loading cities...</div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  if (displayedCities.length === 0) {
+    return (
+      <section className="cities-section-beautiful" id="cities">
+        <div className="cities-container-beautiful">
+          <div className="section-header-beautiful">
+            <span className="section-eyebrow-beautiful">Destinations</span>
+            <h2 className="section-title-beautiful">{title}</h2>
+            <p className="section-subtitle-beautiful">{subtitle}</p>
+          </div>
+          <div className="cities-grid-beautiful">
+            <div className="no-cities-placeholder">No cities available at the moment.</div>
+          </div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className="cities-section-beautiful" id="cities">

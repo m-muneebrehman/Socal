@@ -2,6 +2,7 @@
   "slug": "burbank",
   "name": "Burbank",
   "state": "California",
+  "language": "en",
   "shortDescription": "A media capital known for its studios, family-friendly neighborhoods, and vibrant downtown.",
   "fullDescription": "Burbank is a bustling city in the San Fernando Valley that serves as the home to major entertainment studios like Warner Bros. and Disney. With its rich media industry presence, the city offers a unique blend of creative energy and suburban comfort. Burbank’s well-maintained parks, excellent schools, and walkable downtown filled with shops, restaurants, and theaters make it a favorite among families and professionals alike. Its central location provides easy access to both Los Angeles and the greater Southern California region.",
   "heroImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
@@ -19,7 +20,7 @@
       "type": "city",
       "slug": "glendale",
       "description": "Neighboring city known for its shopping, dining, and cultural diversity.",
-      "image": "https://images.unsplash.com/photo-1486308510493-cb1a53c81a36?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Glendale cityscape at dusk",
       "distance": "5 miles southeast",
       "avgHomePrice": "$1.1M",
@@ -34,28 +35,6 @@
       "imageAlt": "Historic Pasadena buildings",
       "distance": "7 miles northeast",
       "avgHomePrice": "$1.1M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "North Hollywood",
-      "type": "city",
-      "slug": "north-hollywood",
-      "description": "Known for its arts district, theaters, and eclectic dining scene.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "North Hollywood arts district murals",
-      "distance": "8 miles west",
-      "avgHomePrice": "$850K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Toluca Lake",
-      "type": "neighborhood",
-      "slug": "toluca-lake",
-      "description": "Upscale residential neighborhood known for its celebrity residents and lakefront homes.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Toluca Lake residential area",
-      "distance": "4 miles southwest",
-      "avgHomePrice": "$2.1M",
       "county": "Los Angeles"
     }
   ],

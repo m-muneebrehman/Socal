@@ -2,6 +2,7 @@
   "slug": "calabasas",
   "name": "Calabasas",
   "state": "California",
+  "language": "en",
   "shortDescription": "An upscale city known for its scenic beauty, gated communities, and celebrity residents.",
   "fullDescription": "Calabasas is a prestigious city located in the hills west of the San Fernando Valley. Known for its affluent neighborhoods, beautiful landscapes, and a strong sense of community, it offers a peaceful suburban lifestyle with easy access to Los Angeles. Calabasas boasts excellent schools, luxury shopping centers like The Commons, and ample outdoor activities such as hiking in nearby parks and nature preserves. It’s a favorite spot for families and celebrities seeking privacy and quality living.",
   "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
@@ -23,39 +24,6 @@
       "imageAlt": "Hills and homes in Agoura Hills",
       "distance": "5 miles east",
       "avgHomePrice": "$1.8M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Westlake Village",
-      "type": "city",
-      "slug": "westlake-village",
-      "description": "Community known for its lake, parks, and upscale living.",
-      "image": "https://images.unsplash.com/photo-1526481280690-3a7f8a3da1a1?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Lake view in Westlake Village",
-      "distance": "7 miles west",
-      "avgHomePrice": "$1.9M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Hidden Hills",
-      "type": "city",
-      "slug": "hidden-hills",
-      "description": "Exclusive gated community known for privacy and luxury estates.",
-      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Gated entrance in Hidden Hills",
-      "distance": "4 miles south",
-      "avgHomePrice": "$4.2M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "West Hills",
-      "type": "city",
-      "slug": "west-hills",
-      "description": "Residential area with parks and easy access to the city.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban homes in West Hills",
-      "distance": "8 miles northeast",
-      "avgHomePrice": "$900K",
       "county": "Los Angeles"
     }
   ],

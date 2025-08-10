@@ -9,7 +9,11 @@
   "heroImageAlt": "Long Beach Uferpromenade mit Palmen und Uferlinie",
   "population": "450 Tsd.+",
   "avgHomePrice": "850 Tsd. $",
-  "tags": ["Wasserfront", "Vielfalt", "Kultur"],
+  "tags": [
+    "Wasserfront",
+    "Vielfalt",
+    "Kultur"
+  ],
   "neighborhoods": [
     {
       "name": "Los Angeles",
