@@ -21,10 +21,10 @@ export async function POST(request: NextRequest) {
     
     // Validate required fields according to new schema
     const requiredFields = [
-      'slug', 'title', 'category', 'author', 'date', 'readTime', 'featured',
-      'heroImage', 'heroImageAlt', 'canonicalUrl', 'language', 'city', 'topic',
+      'slug', 'title', 'category', 'author', 'date', 'readTime', 
+      'heroImage', 'heroimagealt', 'canonicalurl', 'language', 'city', 'topic',
       'keyword', 'group_id', 'seo', 'hreflang_tags', 
-      'images', 'word_count', 'ctaSection', 'content'
+       'wordcount', 'ctaSection', 'content'
     ]
     
     for (const field of requiredFields) {
