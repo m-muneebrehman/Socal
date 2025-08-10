@@ -2,6 +2,7 @@
   "slug": "la-palma",
   "name": "La Palma",
   "state": "California",
+  "language": "en",
   "shortDescription": "A small, quiet city known for its family-friendly neighborhoods and well-maintained parks.",
   "fullDescription": "La Palma offers a peaceful suburban environment with strong community values, excellent public services, and convenient access to major freeways. Known as the 'City of Trees and Parks,' it boasts a variety of recreational facilities, top-rated schools, and safe neighborhoods. With a focus on family living and community events, La Palma appeals to residents looking for a tranquil yet connected lifestyle in Orange County.",
   "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
@@ -45,17 +46,6 @@
       "imageAlt": "Beach and pier in Seal Beach",
       "distance": "5 miles southwest",
       "avgHomePrice": "$1.1M",
-      "county": "Orange"
-    },
-    {
-      "name": "Rossmoor",
-      "type": "community",
-      "slug": "rossmoor",
-      "description": "A gated community with golf courses and active adult living options.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Golf course in Rossmoor",
-      "distance": "1 mile south",
-      "avgHomePrice": "$900K",
       "county": "Orange"
     }
   ],

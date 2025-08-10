@@ -2,6 +2,7 @@
   "slug": "agoura-hills",
   "name": "Agoura Hills",
   "state": "California",
+  "language": "en",
   "shortDescription": "A scenic gateway to the Santa Monica Mountains offering outdoor adventures, equestrian culture, and family-friendly neighborhoods.",
   "fullDescription": "Nestled in the Conejo Valley, Agoura Hills blends natural beauty with suburban comfort. Known for its rolling hills, hiking trails through the Santa Monica Mountains, and equestrian-friendly communities, this city offers a peaceful retreat with easy freeway access. Home to renowned entertainment tech companies and top-rated schools, Agoura Hills attracts families and professionals seeking a balanced lifestyle between nature and urban conveniences.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -26,17 +27,6 @@
       "county": "Los Angeles"
     },
     {
-      "name": "Westlake Village",
-      "type": "city",
-      "slug": "westlake-village",
-      "description": "Upscale community featuring a scenic lake, golf courses, and corporate campuses.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Scenic lake in Westlake Village",
-      "distance": "6 miles northwest",
-      "avgHomePrice": "$1.8M",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Malibu",
       "type": "city",
       "slug": "malibu",
@@ -46,17 +36,6 @@
       "distance": "12 miles south",
       "avgHomePrice": "$3.9M",
       "county": "Los Angeles"
-    },
-    {
-      "name": "Thousand Oaks",
-      "type": "city",
-      "slug": "thousand-oaks",
-      "description": "Family-oriented community with parks, shopping centers, and California Lutheran University.",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban neighborhood in Thousand Oaks",
-      "distance": "8 miles west",
-      "avgHomePrice": "$1.1M",
-      "county": "Ventura"
     }
   ],
   "highlights": [

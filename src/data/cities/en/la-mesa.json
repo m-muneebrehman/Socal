@@ -1,162 +1,163 @@
 {
-    "slug": "la-mesa",
-    "name": "La Mesa",
-    "state": "California",
-    "shortDescription": "A charming inland city known as the \"Jewel of the Hills\" with a historic downtown, walkable villages, and easy access to San Diego.",
-    "fullDescription": "La Mesa is a vibrant community in San Diego County, offering a small-town feel with tree-lined streets, a thriving downtown village, and proximity to major employment centers. Residents enjoy local boutiques, farmers' markets, and quick access to Mission Trails Regional Park, while being just 15 minutes from downtown San Diego.",
-    "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
-    "heroImageAlt": "La Mesa Boulevard downtown village",
-    "population": "60K+",
-    "avgHomePrice": "$850K+",
-    "tags": [
-      "Walkable Downtown",
-      "Family-friendly",
-      "Hiking Trails"
-    ],
-    "neighborhoods": [
-      {
-        "name": "San Diego",
-        "type": "city",
-        "slug": "san-diego",
-        "description": "Major metropolitan center to the west with diverse neighborhoods, cultural attractions, and employment hubs.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
-        "imageAlt": "San Diego skyline viewed from the bay",
-        "distance": "9 miles west",
-        "avgHomePrice": "$950K",
-        "county": "San Diego"
-      },
-      {
-        "name": "El Cajon",
-        "type": "city",
-        "slug": "el-cajon",
-        "description": "Neighboring city to the east with affordable housing options and growing commercial districts.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
-        "imageAlt": "Downtown street scene in El Cajon",
-        "distance": "5 miles east",
-        "avgHomePrice": "$650K",
-        "county": "San Diego"
-      },
-      {
-        "name": "Santee",
-        "type": "city",
-        "slug": "santee",
-        "description": "Family-oriented community to the north with parks, lakes, and the West Hills Shopping Center.",
-        "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
-        "imageAlt": "Trail through rolling hills near Santee",
-        "distance": "7 miles north",
-        "avgHomePrice": "$750K",
-        "county": "San Diego"
-      },
-      {
-        "name": "Lemon Grove",
-        "type": "city",
-        "slug": "lemon-grove",
-        "description": "Small adjacent city to the south known for its historic Lemon Grove Arch and tight-knit community.",
-        "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-        "imageAlt": "Tree-lined suburban street in Lemon Grove",
-        "distance": "3 miles south",
-        "avgHomePrice": "$700K",
-        "county": "San Diego"
-      }
-    ],
-    "highlights": [
-      {
-        "title": "Historic Downtown Village",
-        "description": "Charming walkable district with local shops, restaurants, and seasonal events like the Oktoberfest.",
-        "icon": "🏘️",
-        "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
-        "bgImageAlt": "La Mesa Boulevard village street"
-      },
-      {
-        "title": "Outdoor Recreation",
-        "description": "Access to Mission Trails Regional Park and Lake Murray for hiking, biking, and water activities.",
-        "icon": "🌄",
-        "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
-        "bgImageAlt": "Hiking trail in Mission Trails area"
-      },
-      {
-        "title": "Central Location",
-        "description": "Easy freeway access to downtown San Diego, beaches, and East County communities.",
-        "icon": "📍",
-        "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
-        "bgImageAlt": "Green hills and open-space near La Mesa"
-      },
-      {
-        "title": "Community Events",
-        "description": "Weekly farmers' markets, summer concerts, and the famous La Mesa Walkway of the Stars.",
-        "icon": "🎪",
-        "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
-        "bgImageAlt": "Evening street with string lights and market vibe"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What are the best areas to live in La Mesa?",
-        "answer": "Popular neighborhoods include the Village area near downtown, Mount Helix with its views, and the more affordable areas near El Cajon.",
-        "category": "Neighborhoods"
-      },
-      {
-        "question": "How is the commute to downtown San Diego?",
-        "answer": "About 15-20 minutes via I-8 or the Trolley's Orange Line, making La Mesa ideal for downtown workers.",
-        "category": "Transportation"
-      },
-      {
-        "question": "What makes La Mesa special?",
-        "answer": "Its combination of small-town charm, walkable downtown, and convenient location between San Diego and East County.",
-        "category": "Lifestyle"
-      },
-      {
-        "question": "Are there good schools in La Mesa?",
-        "answer": "Yes, La Mesa is served by the highly-rated La Mesa-Spring Valley School District and Grossmont Union High School District.",
-        "category": "Education"
-      }
-    ],
-    "seo": {
-      "metaTitle": "La Mesa CA Real Estate & Lifestyle | Walkable Village & Outdoor Living",
-      "metaDescription": "Discover La Mesa's neighborhoods, historic downtown village, outdoor recreation, and convenient location near San Diego.",
-      "keywords": "La Mesa real estate, La Mesa Village, Mission Trails, San Diego County, La Mesa schools",
-      "ogTitle": "Explore La Mesa: The Jewel of the Hills",
-      "ogDescription": "Learn about La Mesa's walkable downtown, outdoor activities, and ideal location between San Diego and East County.",
-      "ogImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
-      "ogImageAlt": "La Mesa Boulevard downtown village",
-      "twitterCard": "summary_large_image"
+  "slug": "la-mesa",
+  "name": "La Mesa",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A charming inland city known as the \"Jewel of the Hills\" with a historic downtown, walkable villages, and easy access to San Diego.",
+  "fullDescription": "La Mesa is a vibrant community in San Diego County, offering a small-town feel with tree-lined streets, a thriving downtown village, and proximity to major employment centers. Residents enjoy local boutiques, farmers' markets, and quick access to Mission Trails Regional Park, while being just 15 minutes from downtown San Diego.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+  "heroImageAlt": "La Mesa Boulevard downtown village",
+  "population": "60K+",
+  "avgHomePrice": "$850K+",
+  "tags": [
+    "Walkable Downtown",
+    "Family-friendly",
+    "Hiking Trails"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major metropolitan center to the west with diverse neighborhoods, cultural attractions, and employment hubs.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego skyline viewed from the bay",
+      "distance": "9 miles west",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
     },
-    "schema_markup": [
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
+    {
+      "name": "El Cajon",
+      "type": "city",
+      "slug": "el-cajon",
+      "description": "Neighboring city to the east with affordable housing options and growing commercial districts.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Downtown street scene in El Cajon",
+      "distance": "5 miles east",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Santee",
+      "type": "city",
+      "slug": "santee",
+      "description": "Family-oriented community to the north with parks, lakes, and the West Hills Shopping Center.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Trail through rolling hills near Santee",
+      "distance": "7 miles north",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "city",
+      "slug": "lemon-grove",
+      "description": "Small adjacent city to the south known for its historic Lemon Grove Arch and tight-knit community.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined suburban street in Lemon Grove",
+      "distance": "3 miles south",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Historic Downtown Village",
+      "description": "Charming walkable district with local shops, restaurants, and seasonal events like the Oktoberfest.",
+      "icon": "🏘️",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "bgImageAlt": "La Mesa Boulevard village street"
+    },
+    {
+      "title": "Outdoor Recreation",
+      "description": "Access to Mission Trails Regional Park and Lake Murray for hiking, biking, and water activities.",
+      "icon": "🌄",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail in Mission Trails area"
+    },
+    {
+      "title": "Central Location",
+      "description": "Easy freeway access to downtown San Diego, beaches, and East County communities.",
+      "icon": "📍",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green hills and open-space near La Mesa"
+    },
+    {
+      "title": "Community Events",
+      "description": "Weekly farmers' markets, summer concerts, and the famous La Mesa Walkway of the Stars.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Evening street with string lights and market vibe"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best areas to live in La Mesa?",
+      "answer": "Popular neighborhoods include the Village area near downtown, Mount Helix with its views, and the more affordable areas near El Cajon.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the commute to downtown San Diego?",
+      "answer": "About 15-20 minutes via I-8 or the Trolley's Orange Line, making La Mesa ideal for downtown workers.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What makes La Mesa special?",
+      "answer": "Its combination of small-town charm, walkable downtown, and convenient location between San Diego and East County.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Are there good schools in La Mesa?",
+      "answer": "Yes, La Mesa is served by the highly-rated La Mesa-Spring Valley School District and Grossmont Union High School District.",
+      "category": "Education"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Mesa CA Real Estate & Lifestyle | Walkable Village & Outdoor Living",
+    "metaDescription": "Discover La Mesa's neighborhoods, historic downtown village, outdoor recreation, and convenient location near San Diego.",
+    "keywords": "La Mesa real estate, La Mesa Village, Mission Trails, San Diego County, La Mesa schools",
+    "ogTitle": "Explore La Mesa: The Jewel of the Hills",
+    "ogDescription": "Learn about La Mesa's walkable downtown, outdoor activities, and ideal location between San Diego and East County.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+    "ogImageAlt": "La Mesa Boulevard downtown village",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Mesa",
+      "description": "Explore real estate, neighborhoods, and highlights in La Mesa, California.",
+      "url": "https://example.com/locations/la-mesa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+        "caption": "La Mesa Boulevard downtown village"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
         "name": "La Mesa",
-        "description": "Explore real estate, neighborhoods, and highlights in La Mesa, California.",
-        "url": "https://example.com/locations/la-mesa",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
-          "caption": "La Mesa Boulevard downtown village"
-        },
-        "inLanguage": "en",
-        "mainEntity": {
-          "@type": "City",
-          "name": "La Mesa",
-          "address": {
-            "@type": "PostalAddress",
-            "addressRegion": "CA",
-            "addressCountry": "USA"
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are La Mesa's most walkable areas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The downtown Village area and neighborhoods near Grossmont Trolley Station offer the most walkable lifestyles."
           }
         }
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What are La Mesa's most walkable areas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The downtown Village area and neighborhoods near Grossmont Trolley Station offer the most walkable lifestyles."
-            }
-          }
-        ]
-      }
-    ]
-  }
+      ]
+    }
+  ]
+}

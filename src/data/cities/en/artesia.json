@@ -2,9 +2,10 @@
   "slug": "artesia",
   "name": "Artesia",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse city in southeast Los Angeles County known for its cultural heritage and community events.",
   "fullDescription": "Artesia is a vibrant community celebrated for its rich cultural diversity, particularly its strong Indian and Southeast Asian influence. The city hosts various festivals, has a thriving local business scene, and offers a variety of parks and recreational facilities. Conveniently located near major freeways, Artesia provides easy access to neighboring cities and the greater Los Angeles area, making it an attractive place for families and professionals alike.",
-  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80",
   "heroImageAlt": "Street view with shops and palm trees in Artesia",
   "population": "16K+",
   "avgHomePrice": "$700K",
@@ -14,17 +15,6 @@
     "Convenient location"
   ],
   "neighborhoods": [
-    {
-      "name": "Cerritos",
-      "type": "city",
-      "slug": "cerritos",
-      "description": "A well-planned city known for excellent schools, shopping, and parks.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Cerritos cityscape with shopping centers",
-      "distance": "3 miles southeast",
-      "avgHomePrice": "$800K",
-      "county": "Los Angeles"
-    },
     {
       "name": "Lakewood",
       "type": "city",
@@ -52,7 +42,7 @@
       "type": "city",
       "slug": "norwalk",
       "description": "City featuring parks, community centers, and easy freeway access.",
-      "image": "https://images.unsplash.com/photo-1565230475834-0ef8a60e28d2?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Norwalk city park and walking paths",
       "distance": "6 miles east",
       "avgHomePrice": "$720K",
@@ -71,14 +61,14 @@
       "title": "Artesia Park",
       "description": "Popular local park with sports fields, playgrounds, and picnic areas.",
       "icon": "🌳",
-      "bgImage": "https://images.unsplash.com/photo-1522057306600-71a3a4debc87?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
       "bgImageAlt": "Green park area with trees and playground"
     },
     {
       "title": "Cultural Shopping District",
       "description": "Shops and restaurants offering authentic Indian and Southeast Asian goods and cuisine.",
       "icon": "🛍️",
-      "bgImage": "https://images.unsplash.com/photo-1560867016-7d4b4d7966ff?auto=format&fit=crop&w=1200&q=80",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
       "bgImageAlt": "Colorful market stalls and shops"
     },
     {

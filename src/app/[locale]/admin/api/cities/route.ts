@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { updateCitiesJsonFile, writeCityFile, deleteCityFileBySlugLanguage } from '@/lib/json-updater'
+import { writeCityFile, deleteCityFileBySlugLanguage, updateIndividualCityFiles } from '@/lib/json-updater'
 import { ObjectId } from "mongodb";
 
 export async function GET(request: NextRequest) {
@@ -24,21 +24,10 @@ export async function GET(request: NextRequest) {
     console.log('Cities from database:', cities)
     console.log('Number of cities in database:', cities.length)
     
-    // If database is empty, try to read from JSON file as fallback
+    // If database is empty, return empty array
     if (cities.length === 0) {
-      console.log('Database is empty, checking JSON file...')
-      try {
-        const fs = require('fs')
-        const path = require('path')
-        const jsonPath = path.join(process.cwd(), 'src', 'data', 'cities.json')
-        const jsonData = fs.readFileSync(jsonPath, 'utf8')
-        const jsonCities = JSON.parse(jsonData)
-        console.log('Cities from JSON file:', jsonCities)
-        console.log('Number of cities in JSON file:', jsonCities.length)
-        return NextResponse.json(jsonCities)
-      } catch (jsonError) {
-        console.error('Error reading JSON file:', jsonError)
-      }
+      console.log('Database is empty, returning empty array')
+      return NextResponse.json([])
     }
     
     return NextResponse.json(cities)
@@ -140,9 +129,9 @@ export async function POST(request: NextRequest) {
     const result = await db.collection('cities').insertOne(cityData)
     console.log('City inserted with ID:', result.insertedId)
 
-    // Write per-language per-slug JSON file and update aggregated file
+    // Write per-language per-slug JSON file and update individual city files
     await writeCityFile(cityData)
-    await updateCitiesJsonFile()
+    await updateIndividualCityFiles()
 
     return NextResponse.json({ 
       message: 'City created successfully', 
@@ -197,7 +186,7 @@ export async function PUT(request: NextRequest) {
     if (updated) {
       await writeCityFile(updated as any)
     }
-    await updateCitiesJsonFile()
+    await updateIndividualCityFiles()
 
     return NextResponse.json({ message: 'City updated successfully' })
   } catch (error) {
@@ -238,11 +227,11 @@ export async function DELETE(request: NextRequest) {
       return NextResponse.json({ error: 'City not found' }, { status: 404 })
     }
 
-    // Delete per-language file and update aggregated file
+    // Delete per-language file and update individual city files
     if (existing) {
       await deleteCityFileBySlugLanguage(existing.slug, (existing as any).language)
     }
-    await updateCitiesJsonFile()
+    await updateIndividualCityFiles()
 
     return NextResponse.json({ message: 'City deleted successfully' })
   } catch (error) {

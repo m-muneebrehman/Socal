@@ -2,6 +2,7 @@
   "slug": "beverly-hills",
   "name": "Beverly Hills",
   "state": "California",
+  "language": "en",
   "shortDescription": "An iconic luxury city known for upscale shopping, celebrity homes, and beautiful palm-lined streets.",
   "fullDescription": "Beverly Hills is synonymous with glamour, luxury, and world-class amenities. Famous for Rodeo Drive’s designer boutiques, stunning mansions, and lush landscaped neighborhoods, the city attracts visitors and residents who value privacy, exclusivity, and high-end living. Beyond the glitz, Beverly Hills offers beautiful parks, excellent schools, and a walkable downtown with fine dining and cultural attractions. Its central location makes it a prime spot for accessing Los Angeles’ entertainment and business hubs.",
   "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
@@ -34,28 +35,6 @@
       "imageAlt": "Santa Monica pier at sunset",
       "distance": "8 miles west",
       "avgHomePrice": "$3.5M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Century City",
-      "type": "neighborhood",
-      "slug": "century-city",
-      "description": "Business district with upscale residences, shopping, and offices.",
-      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Century City skyline and offices",
-      "distance": "3 miles southeast",
-      "avgHomePrice": "$3.8M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Hollywood",
-      "type": "city",
-      "slug": "hollywood",
-      "description": "Famous entertainment district with theaters, studios, and tourist attractions.",
-      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hollywood sign and Walk of Fame",
-      "distance": "5 miles northeast",
-      "avgHomePrice": "$1.5M",
       "county": "Los Angeles"
     }
   ],

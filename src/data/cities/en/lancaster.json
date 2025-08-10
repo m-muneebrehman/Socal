@@ -2,6 +2,7 @@
   "slug": "lancaster",
   "name": "Lancaster",
   "state": "California",
+  "language": "en",
   "shortDescription": "A high desert city known for its aerospace industry, outdoor recreation, and growing arts scene.",
   "fullDescription": "Lancaster is a vibrant city located in the Antelope Valley of the western Mojave Desert. It has a rich aerospace heritage and offers residents a mix of suburban and rural lifestyles. The city is known for its numerous parks, hiking and biking trails, and a growing cultural community with theaters and public art. Lancaster’s affordable housing market and family-friendly environment make it an attractive option for those seeking a blend of nature, industry, and community in Southern California’s high desert.",
   "heroImage": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1920&q=80",
@@ -19,44 +20,11 @@
       "type": "city",
       "slug": "palmdale",
       "description": "Neighboring city known for its aerospace industry and community parks.",
-      "image": "https://images.unsplash.com/photo-1558211583-d3e02e194d1b?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Suburban neighborhood in Palmdale",
       "distance": "7 miles east",
       "avgHomePrice": "$470K",
       "county": "Los Angeles"
-    },
-    {
-      "name": "Lancaster West",
-      "type": "neighborhood",
-      "slug": "lancaster-west",
-      "description": "Residential area with access to parks and schools.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban homes in Lancaster West",
-      "distance": "Within city",
-      "avgHomePrice": "$460K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Quartz Hill",
-      "type": "neighborhood",
-      "slug": "quartz-hill",
-      "description": "Known for its open spaces and community farms.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Open fields in Quartz Hill",
-      "distance": "5 miles northwest",
-      "avgHomePrice": "$440K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Rosamond",
-      "type": "city",
-      "slug": "rosamond",
-      "description": "A nearby community with desert landscapes and local shops.",
-      "image": "https://images.unsplash.com/photo-1549887535-412f3e1934b7?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Desert landscape near Rosamond",
-      "distance": "12 miles northeast",
-      "avgHomePrice": "$400K",
-      "county": "Kern"
     }
   ],
   "highlights": [

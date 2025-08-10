@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-woods",
+  "name": "Laguna Woods",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A tranquil, primarily 55+ community known for its amenities, parks, and convenient access to coastal OC.",
+  "fullDescription": "Laguna Woods is a peaceful city in Orange County best known for Laguna Woods Village, a large 55+ community offering extensive amenities including golf courses, clubhouses, pools, and social clubs. With nearby shopping centers, medical facilities, and easy access to beaches and trails, Laguna Woods provides a relaxed lifestyle with strong community engagement and ample recreational opportunities.",
+  "heroImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sunny walking path lined with trees in a suburban community",
+  "population": "18K+",
+  "avgHomePrice": "$600K",
+  "tags": [
+    "55+ Community",
+    "Parks",
+    "Suburban"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "city",
+      "slug": "laguna-hills",
+      "description": "Family-friendly suburban city with parks, shopping, and convenient access across OC.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Neighborhood street in Laguna Hills",
+      "distance": "2 miles north",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Aliso Viejo",
+      "type": "city",
+      "slug": "aliso-viejo",
+      "description": "Planned community with parks, shopping centers, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park and homes in Aliso Viejo",
+      "distance": "4 miles west",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Beach",
+      "type": "city",
+      "slug": "laguna-beach",
+      "description": "Coastal city known for beaches, art galleries, and scenic coves.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ocean cove at Laguna Beach",
+      "distance": "7 miles southwest",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "city",
+      "slug": "lake-forest",
+      "description": "Suburban city with well-kept parks, lakes, and community facilities.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined neighborhood in Lake Forest",
+      "distance": "5 miles northeast",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Laguna Woods Village Amenities",
+      "description": "Golf courses, clubhouses, pools, fitness centers, and hundreds of social clubs.",
+      "icon": "🏌️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golf course with green fairways"
+    },
+    {
+      "title": "Parks & Greenbelts",
+      "description": "Shaded walking paths, neighborhood parks, and nearby regional trail access.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tree-lined walking path in a park"
+    },
+    {
+      "title": "Proximity to Beaches",
+      "description": "Quick drive to Laguna Beach and Dana Point for coastal walks and ocean views.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coastal shoreline at sunset"
+    },
+    {
+      "title": "Nearby Shopping & Healthcare",
+      "description": "Close to shopping centers, markets, and medical facilities for everyday convenience.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Shopping plaza with storefronts"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Laguna Woods known for?",
+      "answer": "Laguna Woods is known for Laguna Woods Village, a premier 55+ community with resort-style amenities and active social life.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Laguna Woods?",
+      "answer": "The market features primarily condos and co-ops, offering comparatively affordable options within Orange County.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What recreational options are nearby?",
+      "answer": "Residents enjoy on-site amenities plus quick access to regional parks, hiking trails, and coastal beaches.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How convenient is commuting from Laguna Woods?",
+      "answer": "Located near I-5 and SR-73, with nearby transit options connecting to surrounding OC cities.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Woods CA Real Estate & Lifestyle | 55+ Community & Parks",
+    "metaDescription": "Explore Laguna Woods amenities, nearby cities, and real estate options in a peaceful 55+ community in Orange County.",
+    "keywords": "Laguna Woods real estate, 55+ community Orange County, living in Laguna Woods, Laguna Woods Village homes",
+    "ogTitle": "Discover Laguna Woods: Relaxed 55+ Living in Orange County",
+    "ogDescription": "Find your home in Laguna Woods with resort-style amenities, parks, and quick access to the coast.",
+    "ogImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sunny walking path lined with trees in a suburban community",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Woods",
+      "description": "Explore real estate, neighborhoods, and highlights in Laguna Woods, California.",
+      "url": "https://example.com/locations/laguna-woods",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sunny walking path lined with trees in a suburban community"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Woods",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Laguna Woods known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Woods is known for Laguna Woods Village, a premier 55+ community with resort-style amenities and active social life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Laguna Woods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market features primarily condos and co-ops, offering comparatively affordable options within Orange County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What recreational options are nearby?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy on-site amenities plus quick access to regional parks, hiking trails, and coastal beaches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How convenient is commuting from Laguna Woods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Located near I-5 and SR-73, with nearby transit options connecting to surrounding OC cities."
+          }
+        }
+      ]
+    }
+  ]
+}

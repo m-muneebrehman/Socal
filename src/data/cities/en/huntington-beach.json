@@ -2,6 +2,7 @@
   "slug": "huntington-beach",
   "name": "Huntington Beach",
   "state": "California",
+  "language": "en",
   "shortDescription": "Famous for its iconic pier, surf culture, and vibrant coastal lifestyle.",
   "fullDescription": "Huntington Beach, known as 'Surf City USA,' is a lively coastal city with miles of sandy beaches, world-class surfing, and a vibrant downtown. It offers family-friendly parks, an active arts scene, and numerous outdoor activities. With excellent schools and a diverse community, Huntington Beach combines beachside relaxation with urban conveniences.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -45,17 +46,6 @@
       "imageAlt": "Yachts in Newport Beach harbor",
       "distance": "10 miles southeast",
       "avgHomePrice": "$2.5M",
-      "county": "Orange"
-    },
-    {
-      "name": "Huntington Harbour",
-      "type": "neighborhood",
-      "slug": "huntington-harbour",
-      "description": "Waterfront community featuring canals, luxury homes, and boating access.",
-      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Canals and homes in Huntington Harbour",
-      "distance": "3 miles south",
-      "avgHomePrice": "$1.8M",
       "county": "Orange"
     }
   ],

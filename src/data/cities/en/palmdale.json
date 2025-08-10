@@ -2,6 +2,7 @@
   "slug": "palmdale",
   "name": "Palmdale",
   "state": "California",
+  "language": "en",
   "shortDescription": "A growing city in the Antelope Valley known for affordable housing, outdoor recreation, and a family-friendly atmosphere.",
   "fullDescription": "Palmdale, located in northern Los Angeles County, offers residents a suburban lifestyle with expanding amenities. Known for its accessible housing market, proximity to the Angeles National Forest, and community parks, Palmdale is ideal for families and outdoor enthusiasts. The city is developing rapidly with new schools, shopping centers, and recreational facilities, while maintaining a welcoming small-town feel within the Greater Los Angeles area.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -23,39 +24,6 @@
       "imageAlt": "Cityscape of Lancaster",
       "distance": "10 miles west",
       "avgHomePrice": "$520K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Quartz Hill",
-      "type": "city",
-      "slug": "quartz-hill",
-      "description": "Community known for rural charm, open spaces, and equestrian properties.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Rural landscape in Quartz Hill",
-      "distance": "6 miles southwest",
-      "avgHomePrice": "$480K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Lake Los Angeles",
-      "type": "city",
-      "slug": "lake-los-angeles",
-      "description": "A rural community with desert landscapes and affordable housing options.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Desert landscape near Lake Los Angeles",
-      "distance": "20 miles northeast",
-      "avgHomePrice": "$350K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Acton",
-      "type": "city",
-      "slug": "acton",
-      "description": "A semi-rural community with horse ranches and outdoor recreational opportunities.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Horses grazing in Acton",
-      "distance": "15 miles south",
-      "avgHomePrice": "$600K",
       "county": "Los Angeles"
     }
   ],

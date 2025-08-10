@@ -2,6 +2,7 @@
   "slug": "azusa",
   "name": "Azusa",
   "state": "California",
+  "language": "en",
   "shortDescription": "A gateway city to the San Gabriel Mountains offering a blend of outdoor recreation, historic charm, and community living.",
   "fullDescription": "Azusa is nestled at the base of the San Gabriel Mountains and is known for its scenic beauty, hiking trails, and a vibrant downtown area. The city offers a mix of historic neighborhoods, parks, and convenient access to both Los Angeles and Inland Empire. Azusa’s community hosts cultural events, farmers markets, and provides a family-friendly atmosphere with schools and recreational facilities.",
   "heroImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1920&q=80",
@@ -14,17 +15,6 @@
     "Community"
   ],
   "neighborhoods": [
-    {
-      "name": "Glendora",
-      "type": "city",
-      "slug": "glendora",
-      "description": "A charming city known for its quaint downtown, parks, and excellent schools.",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Downtown Glendora street with shops",
-      "distance": "4 miles west",
-      "avgHomePrice": "$850K",
-      "county": "Los Angeles"
-    },
     {
       "name": "Covina",
       "type": "city",
@@ -45,17 +35,6 @@
       "imageAlt": "Suburban street and park in San Dimas",
       "distance": "6 miles east",
       "avgHomePrice": "$720K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Azusa Highlands",
-      "type": "neighborhood",
-      "slug": "azusa-highlands",
-      "description": "Residential neighborhood offering mountain views and quiet streets.",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Mountain view from a residential street in Azusa Highlands",
-      "distance": "2 miles north",
-      "avgHomePrice": "$680K",
       "county": "Los Angeles"
     }
   ],

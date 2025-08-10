@@ -9,7 +9,11 @@
   "heroImageAlt": "Orilla de Long Beach con palmeras y horizonte frente al mar",
   "population": "450 mil+",
   "avgHomePrice": "$850 mil",
-  "tags": ["Frente al mar", "Diversidad", "Cultura"],
+  "tags": [
+    "Frente al mar",
+    "Diversidad",
+    "Cultura"
+  ],
   "neighborhoods": [
     {
       "name": "Los Ángeles",

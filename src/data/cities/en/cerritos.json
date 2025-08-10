@@ -1,0 +1,187 @@
+{
+  "slug": "cerritos",
+  "name": "Cerritos",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A well-planned suburban city known for its shopping, parks, public art, and top-rated schools.",
+  "fullDescription": "Cerritos, located in southeastern Los Angeles County, is recognized for its thoughtfully planned neighborhoods, excellent public schools, and a strong sense of community. The city features extensive parks and recreation programs, a renowned performing arts center, and the popular Los Cerritos Center shopping mall. With convenient freeway access, Cerritos offers an attractive balance of suburban comfort and urban connectivity for families and professionals.",
+  "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Tree-lined suburban street and homes in Cerritos",
+  "population": "49K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Schools",
+    "Shopping",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Norwalk",
+      "type": "city",
+      "slug": "norwalk",
+      "description": "Family-oriented city with parks, shopping, and convenient access to freeways.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Norwalk",
+      "distance": "3 miles north",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lakewood",
+      "type": "city",
+      "slug": "lakewood",
+      "description": "Suburban city noted for well-kept parks and family-friendly neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined neighborhood in Lakewood",
+      "distance": "4 miles southwest",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "city",
+      "slug": "bellflower",
+      "description": "Community-focused city with parks, shopping, and local events.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "City park and walking paths in Bellflower",
+      "distance": "5 miles west",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "city",
+      "slug": "la-mirada",
+      "description": "Residential city known for parks, schools, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban street in La Mirada",
+      "distance": "4 miles east",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Los Cerritos Center",
+      "description": "Major shopping destination featuring retail, dining, and entertainment.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Indoor shopping mall with shoppers"
+    },
+    {
+      "title": "Cerritos Center for the Performing Arts",
+      "description": "Renowned venue hosting concerts, theater, and cultural performances.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Performing arts stage with lighting"
+    },
+    {
+      "title": "Cerritos Sculpture Garden",
+      "description": "Public art garden featuring sculptures set among landscaped pathways.",
+      "icon": "🗿",
+      "bgImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Outdoor sculpture in landscaped garden"
+    },
+    {
+      "title": "Heritage Park",
+      "description": "Community park with walking paths, green spaces, and family activities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park with trees and open lawn"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Cerritos known for?",
+      "answer": "Cerritos is known for its top-rated schools, public art, shopping destinations, and well-maintained parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in Cerritos?",
+      "answer": "The market is competitive with primarily single-family homes, reflecting high demand for schools and amenities.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Cerritos?",
+      "answer": "Shop at Los Cerritos Center, attend performances at the Performing Arts Center, and stroll the Sculpture Garden.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Cerritos?",
+      "answer": "Cerritos offers quick access to I-605, SR-91, and I-5, making commutes to LA and Orange County convenient.",
+      "category": "Transportation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cerritos CA Real Estate & Lifestyle | Schools, Shopping & Parks",
+    "metaDescription": "Discover Cerritos’s neighborhoods, top-rated schools, shopping, and real estate options in Los Angeles County.",
+    "keywords": "Cerritos real estate, Cerritos schools, living in Cerritos, Cerritos homes for sale",
+    "ogTitle": "Explore Cerritos: Suburban Comfort, Great Schools & Amenities",
+    "ogDescription": "Find your home in Cerritos with excellent schools, shopping, and parks in a well-planned community.",
+    "ogImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Tree-lined suburban street and homes in Cerritos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cerritos",
+      "description": "Explore real estate, neighborhoods, and highlights in Cerritos, California.",
+      "url": "https://example.com/locations/cerritos",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Tree-lined suburban street and homes in Cerritos"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Cerritos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Cerritos known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos is known for its top-rated schools, public art, shopping destinations, and well-maintained parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is competitive with primarily single-family homes, reflecting high demand for schools and amenities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shop at Los Cerritos Center, attend performances at the Performing Arts Center, and stroll the Sculpture Garden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos offers quick access to I-605, SR-91, and I-5, making commutes to LA and Orange County convenient."
+          }
+        }
+      ]
+    }
+  ]
+}

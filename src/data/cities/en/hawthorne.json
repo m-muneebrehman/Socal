@@ -2,6 +2,7 @@
   "slug": "hawthorne",
   "name": "Hawthorne",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse and historic city in the South Bay region of Los Angeles County known for aerospace history and community spirit.",
   "fullDescription": "Hawthorne is a vibrant city located in Los Angeles County's South Bay area. Known for its rich aerospace heritage, including ties to SpaceX and the former Hughes Aircraft Company, the city offers a diverse community with affordable housing and easy access to Los Angeles and the coast. Hawthorne features several parks, schools, and shopping centers, making it a practical and welcoming choice for families and professionals alike.",
   "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
@@ -34,17 +35,6 @@
       "imageAlt": "Downtown Inglewood street view",
       "distance": "4 miles east",
       "avgHomePrice": "$750K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Lawndale",
-      "type": "city",
-      "slug": "lawndale",
-      "description": "Small city with suburban neighborhoods and community parks.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban street in Lawndale",
-      "distance": "2 miles south",
-      "avgHomePrice": "$700K",
       "county": "Los Angeles"
     },
     {

@@ -2,6 +2,7 @@
   "slug": "la-mirada",
   "name": "La Mirada",
   "state": "California",
+  "language": "en",
   "shortDescription": "A family-friendly suburb known for parks, good schools, and a welcoming community atmosphere.",
   "fullDescription": "La Mirada is a residential city in southeastern Los Angeles County offering a suburban lifestyle with plenty of parks, quality schools, and community amenities. Known for its quiet neighborhoods, family-oriented events, and convenient location near major freeways, La Mirada provides easy access to Los Angeles, Orange County, and surrounding areas. The city boasts well-maintained public spaces, a vibrant civic center, and a strong sense of community making it an ideal place for families and professionals alike.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -14,39 +15,6 @@
     "Good schools"
   ],
   "neighborhoods": [
-    {
-      "name": "Norwalk",
-      "type": "city",
-      "slug": "norwalk",
-      "description": "Neighboring city known for its parks, shopping centers, and community events.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Community park in Norwalk",
-      "distance": "3 miles west",
-      "avgHomePrice": "$650K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Whittier",
-      "type": "city",
-      "slug": "whittier",
-      "description": "Historic city with vibrant downtown, cultural sites, and residential neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Downtown Whittier street scene",
-      "distance": "5 miles southeast",
-      "avgHomePrice": "$720K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Santa Fe Springs",
-      "type": "city",
-      "slug": "santa-fe-springs",
-      "description": "Industrial and residential community with parks and local businesses.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Park area in Santa Fe Springs",
-      "distance": "4 miles south",
-      "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
     {
       "name": "La Habra",
       "type": "city",

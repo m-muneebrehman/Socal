@@ -2,6 +2,7 @@
   "slug": "west-hollywood",
   "name": "West Hollywood",
   "state": "California",
+  "language": "en",
   "shortDescription": "A trendy, vibrant city known for its nightlife, arts scene, and inclusive community.",
   "fullDescription": "West Hollywood, or WeHo, is a dynamic urban enclave celebrated for its lively nightlife, cutting-edge art galleries, and diverse cultural events. Situated between Beverly Hills and Hollywood, it features walkable streets lined with trendy boutiques, popular restaurants, and iconic music venues. Known for its progressive spirit and strong LGBTQ+ community, West Hollywood offers a unique blend of entertainment, history, and modern living. The city is also home to beautiful residential neighborhoods, excellent public transit options, and a thriving creative scene.",
   "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
@@ -16,17 +17,6 @@
   ],
   "neighborhoods": [
     {
-      "name": "Hollywood",
-      "type": "city",
-      "slug": "hollywood",
-      "description": "Famous entertainment district with theaters, nightlife, and tourist attractions.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hollywood Walk of Fame at night",
-      "distance": "2 miles east",
-      "avgHomePrice": "$1.5M",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Beverly Hills",
       "type": "city",
       "slug": "beverly-hills",
@@ -35,28 +25,6 @@
       "imageAlt": "Rodeo Drive shopping street in Beverly Hills",
       "distance": "1 mile west",
       "avgHomePrice": "$3.5M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Silver Lake",
-      "type": "city",
-      "slug": "silver-lake",
-      "description": "Hip neighborhood with trendy cafes, arts scene, and scenic reservoir.",
-      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Silver Lake Reservoir and park",
-      "distance": "4 miles northeast",
-      "avgHomePrice": "$1.4M",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Westwood",
-      "type": "city",
-      "slug": "westwood",
-      "description": "Home to UCLA, with theaters, museums, and lively college town vibe.",
-      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "UCLA campus buildings",
-      "distance": "6 miles southwest",
-      "avgHomePrice": "$1.8M",
       "county": "Los Angeles"
     }
   ],

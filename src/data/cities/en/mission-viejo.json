@@ -2,6 +2,7 @@
   "slug": "mission-viejo",
   "name": "Mission Viejo",
   "state": "California",
+  "language": "en",
   "shortDescription": "A master-planned community known for its family-friendly environment, extensive parks, and beautiful lake.",
   "fullDescription": "Mission Viejo is one of Southern California’s largest master-planned communities, offering a suburban lifestyle with abundant parks, recreational facilities, and a vibrant cultural scene. Known for its scenic Lake Mission Viejo, excellent schools, and active community events, the city attracts families and professionals alike. Conveniently located with access to major freeways, residents enjoy proximity to beaches, shopping centers, and employment hubs.",
   "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
@@ -34,17 +35,6 @@
       "imageAlt": "Park and neighborhood in Lake Forest",
       "distance": "6 miles north",
       "avgHomePrice": "$800K",
-      "county": "Orange"
-    },
-    {
-      "name": "Trabuco Canyon",
-      "type": "community",
-      "slug": "trabuco-canyon",
-      "description": "Rural area known for hiking, open space, and equestrian activities.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Hiking trail in Trabuco Canyon",
-      "distance": "7 miles northeast",
-      "avgHomePrice": "$1.1M",
       "county": "Orange"
     },
     {

@@ -2,6 +2,7 @@
   "slug": "claremont",
   "name": "Claremont",
   "state": "California",
+  "language": "en",
   "shortDescription": "A charming college town known for its tree-lined streets, prestigious colleges, and vibrant arts scene.",
   "fullDescription": "Claremont is a picturesque city in eastern Los Angeles County, famous for The Claremont Colleges, beautiful neighborhoods, and a strong sense of community. Its historic downtown area features boutique shops, cafes, and cultural venues, making it a cultural and educational hub. Residents enjoy abundant parks, walking trails, and local events throughout the year. With easy access to nearby cities and freeways, Claremont offers a perfect blend of small-town charm and urban convenience.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -23,39 +24,6 @@
       "imageAlt": "Downtown Pomona streetscape",
       "distance": "5 miles west",
       "avgHomePrice": "$700K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Upland",
-      "type": "city",
-      "slug": "upland",
-      "description": "City known for its historic downtown, outdoor activities, and suburban living.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Historic buildings in Upland",
-      "distance": "6 miles northeast",
-      "avgHomePrice": "$750K",
-      "county": "San Bernardino"
-    },
-    {
-      "name": "La Verne",
-      "type": "city",
-      "slug": "la-verne",
-      "description": "Suburban city featuring parks, local shops, and a college campus.",
-      "image": "https://images.unsplash.com/photo-1520975690363-7aaf840e7f3d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Residential neighborhood in La Verne",
-      "distance": "4 miles southeast",
-      "avgHomePrice": "$730K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Claremont Village",
-      "type": "neighborhood",
-      "slug": "claremont-village",
-      "description": "Historic downtown area with shops, cafes, and cultural events.",
-      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Claremont Village street with shops and string lights",
-      "distance": "Central",
-      "avgHomePrice": "$900K",
       "county": "Los Angeles"
     }
   ],

@@ -2,6 +2,7 @@
   "slug": "los-alamitos",
   "name": "Los Alamitos",
   "state": "California",
+  "language": "en",
   "shortDescription": "A small, charming city known for its community spirit, equestrian culture, and proximity to major Southern California hubs.",
   "fullDescription": "Los Alamitos offers a friendly, small-town atmosphere with well-maintained neighborhoods and a focus on community events. The city is known for its equestrian culture, historic landmarks, and local parks. Conveniently located near the 605 and 405 freeways, residents enjoy easy access to the beaches, Disneyland, and major employment centers in Orange and Los Angeles counties. Quality schools and local shopping add to the city’s appeal for families and professionals.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -34,17 +35,6 @@
       "imageAlt": "Park area in Cypress",
       "distance": "3 miles north",
       "avgHomePrice": "$800K",
-      "county": "Orange"
-    },
-    {
-      "name": "Rossmoor",
-      "type": "community",
-      "slug": "rossmoor",
-      "description": "Gated community with golf courses and recreational facilities.",
-      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Golf course in Rossmoor",
-      "distance": "2 miles east",
-      "avgHomePrice": "$1.1M",
       "county": "Orange"
     },
     {

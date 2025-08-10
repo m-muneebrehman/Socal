@@ -901,14 +901,21 @@ export default function AdminDashboard() {
 
   const handleUpdateJson = async () => {
     try {
+      addToast('info', 'Updating JSON files... This may take a moment.')
+      
       const response = await fetch('/admin/api/update-json', { method: 'POST' })
       if (response.ok) {
+        const result = await response.json()
         setLastUpdated(new Date().toLocaleString())
-        addToast('success', 'JSON files updated successfully')
+        addToast('success', `JSON files updated successfully at ${new Date().toLocaleString()}`)
+        console.log('JSON update result:', result)
+      } else {
+        const errorData = await response.json()
+        addToast('error', `Failed to update JSON files: ${errorData.error || 'Unknown error'}`)
       }
     } catch (error) {
       console.error('Error updating JSON files:', error)
-      addToast('error', 'Failed to update JSON files')
+      addToast('error', 'Failed to update JSON files: Network error')
     }
   }
 
@@ -1039,6 +1046,13 @@ export default function AdminDashboard() {
               setBlogForm={(form: Blog) => setBlogForm(form)}
               deleteBlog={deleteBlog}
               handleAddBlog={handleAddBlog}
+              onBlogStatusUpdate={(blogId: string, newStatus: string) => {
+                setBlogs(prevBlogs => 
+                  prevBlogs.map(blog => 
+                    blog._id === blogId ? { ...blog, status: newStatus } : blog
+                  )
+                )
+              }}
             />
           )}
         </main>

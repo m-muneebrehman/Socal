@@ -2,6 +2,7 @@
   "slug": "pomona",
   "name": "Pomona",
   "state": "California",
+  "language": "en",
   "shortDescription": "A historic city in the eastern part of Los Angeles County known for its arts scene and diverse community.",
   "fullDescription": "Pomona is a vibrant city situated in the Pomona Valley, offering a mix of historic charm, cultural attractions, and a growing arts scene. Home to several colleges and a revitalized downtown, Pomona combines urban convenience with suburban comfort. The city hosts numerous events and festivals throughout the year, making it a hub for community and creativity. With its diverse population and range of housing options, Pomona is an appealing choice for families, students, and professionals alike.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -26,37 +27,15 @@
       "county": "Los Angeles"
     },
     {
-      "name": "La Verne",
-      "type": "city",
-      "slug": "la-verne",
-      "description": "Suburban city known for its quiet neighborhoods, parks, and community events.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Residential neighborhood in La Verne",
-      "distance": "7 miles southeast",
-      "avgHomePrice": "$650K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "San Dimas",
       "type": "city",
       "slug": "san-dimas",
       "description": "Small city with a historic downtown, family-friendly parks, and a semi-rural feel.",
-      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80",
       "imageAlt": "Downtown San Dimas street view",
       "distance": "8 miles northeast",
       "avgHomePrice": "$620K",
       "county": "Los Angeles"
-    },
-    {
-      "name": "Montclair",
-      "type": "city",
-      "slug": "montclair",
-      "description": "Community known for shopping centers, parks, and proximity to the Inland Empire.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Shopping plaza in Montclair",
-      "distance": "6 miles east",
-      "avgHomePrice": "$580K",
-      "county": "San Bernardino"
     }
   ],
   "highlights": [

@@ -2,6 +2,7 @@
   "slug": "gardena",
   "name": "Gardena",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse city in the South Bay region known for its strong community, parks, and convenient location.",
   "fullDescription": "Gardena is a vibrant city located in Los Angeles County’s South Bay area. Known for its cultural diversity and friendly neighborhoods, Gardena offers a mix of residential communities, shopping centers, and recreational parks. The city benefits from its proximity to major freeways and the Los Angeles International Airport, making it a convenient location for commuters. Gardena is also recognized for its well-maintained parks and a variety of local events that bring the community together.",
   "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
@@ -26,36 +27,14 @@
       "county": "Los Angeles"
     },
     {
-      "name": "Torrance",
-      "type": "city",
-      "slug": "torrance",
-      "description": "City with large shopping centers, beaches, and residential areas.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Beach and cityscape in Torrance",
-      "distance": "5 miles south",
-      "avgHomePrice": "$900K",
-      "county": "Los Angeles"
-    },
-    {
       "name": "Compton",
       "type": "city",
       "slug": "compton",
       "description": "Historic city with diverse culture and rich musical heritage.",
-      "image": "https://images.unsplash.com/photo-1563201518-47b8c7c2c865?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Urban neighborhood in Compton",
       "distance": "5 miles east",
       "avgHomePrice": "$550K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Lawndale",
-      "type": "city",
-      "slug": "lawndale",
-      "description": "Small city known for its beaches and family-friendly environment.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Beachfront in Lawndale",
-      "distance": "4 miles southwest",
-      "avgHomePrice": "$700K",
       "county": "Los Angeles"
     }
   ],

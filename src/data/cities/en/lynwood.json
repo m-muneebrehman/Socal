@@ -2,6 +2,7 @@
   "slug": "lynwood",
   "name": "Lynwood",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse and vibrant city in Southeast Los Angeles known for its community spirit and convenient location.",
   "fullDescription": "Lynwood is a densely populated city in Los Angeles County offering a strong sense of community and cultural diversity. Located near major freeways and public transit, Lynwood provides easy access to Downtown Los Angeles and surrounding neighborhoods. The city features a mix of residential neighborhoods, local businesses, parks, and community centers. Lynwood continues to grow with new housing developments and revitalization efforts, making it a practical choice for families and professionals seeking affordability and convenience in the South Bay region.",
   "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
@@ -19,21 +20,10 @@
       "type": "city",
       "slug": "compton",
       "description": "Neighboring city known for its rich cultural history and growing arts scene.",
-      "image": "https://images.unsplash.com/photo-1595526114034-b59a92cba353?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Downtown Compton with street art and buildings",
       "distance": "3 miles south",
       "avgHomePrice": "$600K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "South Gate",
-      "type": "city",
-      "slug": "south-gate",
-      "description": "Residential city with parks, schools, and a diverse community.",
-      "image": "https://images.unsplash.com/photo-1526483360341-3bcb32f0326d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban neighborhood in South Gate",
-      "distance": "2 miles west",
-      "avgHomePrice": "$620K",
       "county": "Los Angeles"
     },
     {

@@ -2,6 +2,7 @@
   "slug": "carson",
   "name": "Carson",
   "state": "California",
+  "language": "en",
   "shortDescription": "A diverse city known for its industrial base, parks, and convenient location near Los Angeles and Long Beach.",
   "fullDescription": "Carson is a dynamic city in Los Angeles County offering a mix of industrial, residential, and commercial areas. It is home to major sports facilities, including Dignity Health Sports Park, and provides ample park space and community centers. With its diverse population and central location near major freeways, Carson serves as a hub for business and family life alike. The city features a variety of shopping and dining options, with easy access to nearby beach cities and downtown Los Angeles.",
   "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
@@ -41,21 +42,10 @@
       "type": "city",
       "slug": "gardena",
       "description": "Suburban city known for its diverse population and business centers.",
-      "image": "https://images.unsplash.com/photo-1520975690363-7aaf840e7f3d?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
       "imageAlt": "Gardena residential street with trees",
       "distance": "3 miles northwest",
       "avgHomePrice": "$650K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Wilmington",
-      "type": "city",
-      "slug": "wilmington",
-      "description": "Port community with maritime history and industrial development.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Port of Los Angeles area in Wilmington",
-      "distance": "7 miles south",
-      "avgHomePrice": "$550K",
       "county": "Los Angeles"
     }
   ],

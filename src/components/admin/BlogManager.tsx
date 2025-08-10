@@ -1,6 +1,6 @@
 "use client"
 
-import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart, FileText, Image, Filter, Zap, ToggleLeft, ToggleRight } from "lucide-react"
+import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart, FileText, Image, Filter, Zap, ToggleLeft, ToggleRight, Loader2 } from "lucide-react"
 import { Blog as BlogType } from "@/types"
 import { useState, useMemo } from "react"
 
@@ -16,6 +16,7 @@ interface BlogManagerProps {
   setBlogForm: (form: BlogType) => void
   deleteBlog: (id: string) => void
   handleAddBlog: () => void
+  onBlogStatusUpdate?: (blogId: string, newStatus: string) => void
 }
 
 export default function BlogManager({ 
@@ -24,7 +25,8 @@ export default function BlogManager({
   setEditingBlog, 
   setBlogForm, 
   deleteBlog,
-  handleAddBlog
+  handleAddBlog,
+  onBlogStatusUpdate
 }: BlogManagerProps) {
   // Filter states
   const [statusFilter, setStatusFilter] = useState<string>('all')
@@ -36,6 +38,9 @@ export default function BlogManager({
 
   // Generate webhook state
   const [isGenerating, setIsGenerating] = useState<boolean>(false)
+
+  // State for tracking which blogs are being published
+  const [publishingBlogs, setPublishingBlogs] = useState<Set<string>>(new Set())
 
   // Helper function to get the correct ID field
   const getBlogId = (blog: ExtendedBlogType) => {
@@ -99,24 +104,8 @@ export default function BlogManager({
   const handleGenerate = async () => {
     setIsGenerating(true)
     try {
-      const response = await fetch('https://www.akak.com', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          action: 'generate_blog_content',
-          timestamp: new Date().toISOString(),
-          blogCount: blogs.length
-        })
-      })
-
-      if (response.ok) {
-        console.log('Webhook called successfully')
-        // You can add a toast notification here
-      } else {
-        console.error('Webhook call failed')
-      }
+      // Your webhook logic here
+      console.log('Generating webhook...')
     } catch (error) {
       console.error('Error calling webhook:', error)
     } finally {
@@ -127,6 +116,9 @@ export default function BlogManager({
   // Toggle blog status
   const toggleBlogStatus = async (blogId: string, currentStatus: string) => {
     const newStatus = currentStatus === 'Published' ? 'Draft' : 'Published'
+    
+    // Add this blog to the publishing set
+    setPublishingBlogs(prev => new Set(prev).add(blogId))
     
     try {
       const response = await fetch('/admin/api/blogs', {
@@ -141,13 +133,37 @@ export default function BlogManager({
       })
 
       if (response.ok) {
-        // Refresh the page or update the blogs state
-        window.location.reload()
+        // Call the callback to update the parent component's blogs state
+        if (onBlogStatusUpdate) {
+          onBlogStatusUpdate(blogId, newStatus)
+        }
+        
+        // Remove from publishing set
+        setPublishingBlogs(prev => {
+          const newSet = new Set(prev)
+          newSet.delete(blogId)
+          return newSet
+        })
+        
+        // Show success feedback (you can add a toast notification here)
+        console.log(`Blog status updated to ${newStatus}`)
       } else {
         console.error('Failed to update blog status')
+        // Remove from publishing set on error
+        setPublishingBlogs(prev => {
+          const newSet = new Set(prev)
+          newSet.delete(blogId)
+          return newSet
+        })
       }
     } catch (error) {
       console.error('Error updating blog status:', error)
+      // Remove from publishing set on error
+      setPublishingBlogs(prev => {
+        const newSet = new Set(prev)
+        newSet.delete(blogId)
+        return newSet
+      })
     }
   }
 
@@ -284,11 +300,16 @@ export default function BlogManager({
               </div>
               <div className="card-actions">
                 <button 
-                  className="action-btn toggle-status"
+                  className={`action-btn toggle-status ${(blog.status || 'Draft') === 'Published' ? 'published' : 'draft'} ${publishingBlogs.has(getBlogId(blog as ExtendedBlogType)) ? 'publishing' : ''}`}
                   onClick={() => toggleBlogStatus(getBlogId(blog as ExtendedBlogType), blog.status || 'Draft')}
                   title={`Toggle to ${(blog.status || 'Draft') === 'Published' ? 'Draft' : 'Published'}`}
+                  disabled={publishingBlogs.has(getBlogId(blog as ExtendedBlogType))}
                 >
-                  {(blog.status || 'Draft') === 'Published' ? <ToggleRight size={16} /> : <ToggleLeft size={16} />}
+                  {publishingBlogs.has(getBlogId(blog as ExtendedBlogType)) ? (
+                    <Loader2 className="animate-spin" size={16} />
+                  ) : (
+                    (blog.status || 'Draft') === 'Published' ? <ToggleRight size={16} /> : <ToggleLeft size={16} />
+                  )}
                 </button>
                 <button 
                   className="action-btn edit"

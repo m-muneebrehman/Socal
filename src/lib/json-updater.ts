@@ -80,11 +80,12 @@ export async function writeCityFile(city: CityDocForFile) {
   const fileDir = path.join(process.cwd(), 'src', 'data', 'cities', language)
   const filePath = path.join(fileDir, `${city.slug}.json`)
   ensureDirSync(fileDir)
-  // Only persist the exact public JSON shape (no language inside file; exclude legacy fields)
+  // Only persist the exact public JSON shape (include language field below state)
   const dataToWrite = {
     slug: city.slug,
     name: city.name,
     state: city.state,
+    language: city.language || 'en',
     shortDescription: city.shortDescription,
     fullDescription: city.fullDescription ?? city.shortDescription,
     heroImage: city.heroImage ?? '',
@@ -117,45 +118,13 @@ export async function deleteCityFileBySlugLanguage(slug: string, language?: stri
   }
 }
 
-// Function to update cities.json file
-export async function updateCitiesJsonFile() {
-  try {
-    const { db } = await connectToDatabase()
-    const cities = await db.collection('cities').find({}).toArray()
-    
-    // Transform the data to match the expected format
-    const transformedCities = cities.map(city => ({
-      id: city._id.toString(),
-      slug: city.slug,
-      name: city.name,
-      state: city.state,
-      shortDescription: city.shortDescription,
-      fullDescription: city.fullDescription || city.shortDescription,
-      heroImage: city.heroImage || '',
-      population: city.population,
-      avgHomePrice: city.avgHomePrice,
-      tags: city.tags || [],
-      neighborhoods: city.neighborhoods || [],
-      highlights: city.highlights || [],
-      faqs: city.faqs || [],
-      clients: city.clients || []
-    }))
-
-    // Write to cities.json file
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'cities.json')
-    fs.writeFileSync(jsonPath, JSON.stringify(transformedCities, null, 2))
-    
-    console.log('✅ cities.json updated successfully')
-  } catch (error) {
-    console.error('❌ Error updating cities.json:', error)
-  }
-}
-
-// Function to update blogs.json file
+// Function to update blogs.json files for each language (no global file)
 export async function updateBlogsJsonFile() {
   try {
+    console.log('🔄 Starting updateBlogsJsonFile...')
     const { db } = await connectToDatabase()
     const blogs = await db.collection('blogs').find({}).toArray()
+    console.log(`📊 Found ${blogs.length} blogs in database`)
     
     // Group blogs by language
     const blogsByLanguage: { [key: string]: Blog[] } = {}
@@ -219,7 +188,7 @@ export async function updateBlogsJsonFile() {
       }
     })
     
-    // Write language-specific JSON files
+    // Write language-specific JSON files only
     for (const [language, blogs] of Object.entries(blogsByLanguage)) {
       const languageDir = path.join(process.cwd(), 'src', 'data', 'blogs', language)
       ensureDirSync(languageDir)
@@ -229,14 +198,10 @@ export async function updateBlogsJsonFile() {
       console.log(`✅ blogs.json updated for language: ${language} (${blogs.length} published blogs)`)
     }
     
-    // Also update the main blogs.json with all published blogs across languages
-    const allPublishedBlogs = Object.values(blogsByLanguage).flat()
-    const mainJsonPath = path.join(process.cwd(), 'src', 'data', 'blogs.json')
-    fs.writeFileSync(mainJsonPath, JSON.stringify(allPublishedBlogs, null, 2))
-    console.log(`✅ Main blogs.json updated with ${allPublishedBlogs.length} published blogs across all languages`)
-    
+    console.log('✅ All language-specific blog JSON files updated successfully')
   } catch (error) {
-    console.error('❌ Error updating blogs.json:', error)
+    console.error('❌ Error updating blog JSON files:', error)
+    throw error
   }
 }
 
@@ -306,82 +271,8 @@ export async function updateBlogsJsonFileByLanguage(language: string) {
     fs.writeFileSync(jsonPath, JSON.stringify(transformedBlogs, null, 2))
     console.log(`✅ blogs.json updated for language: ${language} (${transformedBlogs.length} published blogs)`)
     
-    // Also update the main blogs.json to include this language's blogs
-    await updateBlogsJsonFile()
-    
   } catch (error) {
     console.error(`❌ Error updating blogs.json for language ${language}:`, error)
-  }
-}
-
-// Function to create individual blog JSON files for each published blog
-export async function createIndividualBlogFiles() {
-  try {
-    const { db } = await connectToDatabase()
-    const blogs = await db.collection('blogs')
-      .find({ status: 'Published' })
-      .toArray()
-    
-    for (const blog of blogs) {
-      const language = blog.language || 'en'
-      const languageDir = path.join(process.cwd(), 'src', 'data', 'blogs', language)
-      ensureDirSync(languageDir)
-      
-      // Create individual blog file
-      const blogFilePath = path.join(languageDir, `${blog.slug}.json`)
-      const blogData = {
-        id: blog._id.toString(),
-        slug: blog.slug,
-        title: blog.title,
-        subtitle: blog.subtitle || '',
-        category: blog.category,
-        author: blog.author,
-        date: blog.date,
-        readTime: blog.readTime || '5 min read',
-        status: blog.status,
-        featured: blog.featured || false,
-        heroImage: blog.heroImage || '',
-        heroImageAlt: blog.heroImageAlt || '',
-        canonicalUrl: blog.canonicalUrl || '',
-        language: blog.language || 'en',
-        city: blog.city || '',
-        topic: blog.topic || '',
-        keyword: blog.keyword || '',
-        group_id: blog.group_id || 1,
-        seo: blog.seo || {
-          metaTitle: '',
-          metaDescription: '',
-          keywords: '',
-          ogTitle: '',
-          ogDescription: '',
-          ogImage: '',
-          twitterCard: ''
-        },
-        hreflang_tags: blog.hreflang_tags || [],
-        internal_links: blog.internal_links || [],
-        schema_markup: blog.schema_markup || {},
-        images: blog.images || [],
-        word_count: blog.word_count || 0,
-        ctaSection: blog.ctaSection || {
-          title: '',
-          subtitle: '',
-          ctaText: '',
-          ctaLink: ''
-        },
-        content: blog.content || { lead: '', sections: [] },
-        views: blog.views || 0,
-        likes: blog.likes || 0,
-        createdAt: blog.createdAt || new Date().toISOString(),
-        updatedAt: blog.updatedAt || new Date().toISOString()
-      }
-      
-      fs.writeFileSync(blogFilePath, JSON.stringify(blogData, null, 2))
-    }
-    
-    console.log(`✅ Created individual blog files for ${blogs.length} published blogs`)
-    
-  } catch (error) {
-    console.error('❌ Error creating individual blog files:', error)
   }
 }
 
@@ -437,39 +328,258 @@ export async function updateUsersJsonFile() {
     console.error('❌ Error updating users.json:', error)
     console.error('❌ Error details:', error instanceof Error ? error.message : 'Unknown error')
     console.error('❌ Error stack:', error instanceof Error ? error.stack : 'No stack trace')
+    throw error
   }
 }
 
-// Function to update home.json file
-export async function updateHomeJsonFile(homeData: HomeData) {
-  try {
-    console.log('🔄 Starting updateHomeJsonFile...')
-    
-    // Write to home.json file
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'home.json')
-    fs.writeFileSync(jsonPath, JSON.stringify(homeData, null, 2))
-    
-    console.log('✅ home.json updated successfully')
-  } catch (error) {
-    console.error('❌ Error updating home.json:', error)
-  }
-}
-
-// Function to update all JSON files
+// Function to update all JSON files (only language-specific directories)
 export async function updateAllJsonFiles() {
-  await Promise.all([
-    updateCitiesJsonFile(),
-    updateBlogsJsonFile(),
-    updateUsersJsonFile()
-  ])
-  console.log('✅ All JSON files updated successfully')
+  try {
+    console.log('🔄 Starting comprehensive JSON update...')
+    
+    // Update users.json (keep this as it's needed for admin functionality)
+    await updateUsersJsonFile()
+    
+    // Update language-specific blog files
+    await updateBlogsJsonFile()
+    
+    // Update individual city files for each language
+    await updateIndividualCityFiles()
+    
+    // Update home data for each language
+    await updateHomeDataForAllLanguages()
+    
+    console.log('✅ All language-specific JSON files updated successfully')
+  } catch (error) {
+    console.error('❌ Error in updateAllJsonFiles:', error)
+    throw error
+  }
 }
 
 // Function to update all blog-related JSON files
 export async function updateAllBlogJsonFiles() {
-  await Promise.all([
-    updateBlogsJsonFile(),
-    createIndividualBlogFiles()
-  ])
-  console.log('✅ All blog JSON files updated successfully')
+  await updateBlogsJsonFile()
+  console.log('✅ All language-specific blog JSON files updated successfully')
+}
+
+// Function to update JSON files for a specific language only
+export async function updateJsonFilesForLanguage(language: string) {
+  try {
+    console.log(`🔄 Starting JSON update for language: ${language}`)
+    
+    // Update language-specific files
+    await Promise.all([
+      updateBlogsJsonFileByLanguage(language),
+      updateHomeDataForLanguage(language)
+    ])
+    
+    // Update individual city files for this language
+    await updateIndividualCityFilesForLanguage(language)
+    
+    console.log(`✅ JSON files updated successfully for language: ${language}`)
+  } catch (error) {
+    console.error(`❌ Error updating JSON files for language ${language}:`, error)
+    throw error
+  }
+}
+
+// Function to update individual city files for a specific language
+export async function updateIndividualCityFilesForLanguage(language: string) {
+  try {
+    console.log(`🔄 Starting updateIndividualCityFilesForLanguage for: ${language}`)
+    const { db } = await connectToDatabase()
+    
+    // Get cities for this specific language
+    const cities = await db.collection('cities').find({ language: language }).toArray()
+    console.log(`📊 Found ${cities.length} cities for language: ${language}`)
+    
+    const languageDir = path.join(process.cwd(), 'src', 'data', 'cities', language)
+    ensureDirSync(languageDir)
+    
+    // Process each city in this language
+    for (const city of cities) {
+      const cityData: CityDocForFile = {
+        slug: city.slug,
+        name: city.name,
+        state: city.state,
+        language: city.language || 'en',
+        shortDescription: city.shortDescription,
+        fullDescription: city.fullDescription || city.shortDescription,
+        heroImage: city.heroImage || '',
+        heroImageAlt: city.heroImageAlt || '',
+        population: city.population,
+        avgHomePrice: city.avgHomePrice,
+        tags: Array.isArray(city.tags) ? city.tags : [],
+        neighborhoods: Array.isArray(city.neighborhoods) ? city.neighborhoods : [],
+        highlights: Array.isArray(city.highlights) ? city.highlights : [],
+        faqs: Array.isArray(city.faqs) ? city.faqs : [],
+        clients: city.clients || [],
+        canonicalUrl: city.canonicalUrl || '',
+        hreflang_tags: city.hreflang_tags || [],
+        seo: city.seo || {},
+        schema_markup: city.schema_markup || [],
+        internal_links: city.internal_links || []
+      }
+      
+      await writeCityFile(cityData)
+    }
+    
+    console.log(`✅ Updated ${cities.length} city files for language: ${language}`)
+  } catch (error) {
+    console.error(`❌ Error updating individual city files for language ${language}:`, error)
+    throw error
+  }
+}
+
+// Function to update home data for a specific language
+export async function updateHomeDataForLanguage(language: string) {
+  try {
+    console.log(`🔄 Starting updateHomeDataForLanguage for: ${language}`)
+    const { db } = await connectToDatabase()
+    
+    // Get home data for this specific language
+    const homeData = await db.collection('home').findOne({ language: language })
+    
+    if (!homeData) {
+      console.log(`⚠️ No home data found for language: ${language}`)
+      return
+    }
+    
+    const languageDir = path.join(process.cwd(), 'src', 'data', 'home', language)
+    ensureDirSync(languageDir)
+    
+    const jsonPath = path.join(languageDir, 'home.json')
+    
+    // Clean up the data to match the expected format
+    const cleanHomeData = {
+      hero: homeData.hero || {},
+      stats: homeData.stats || {},
+      services: homeData.services || {},
+      cities: homeData.cities || {},
+      blog: homeData.blog || {},
+      testimonials: homeData.testimonials || {},
+      cta: homeData.cta || {}
+    }
+    
+    fs.writeFileSync(jsonPath, JSON.stringify(cleanHomeData, null, 2))
+    console.log(`✅ Updated home.json for language: ${language}`)
+  } catch (error) {
+    console.error(`❌ Error updating home data for language ${language}:`, error)
+    throw error
+  }
+}
+
+// Function to update individual city files for each language
+export async function updateIndividualCityFiles() {
+  try {
+    console.log('🔄 Starting updateIndividualCityFiles...')
+    const { db } = await connectToDatabase()
+    
+    // Get all cities from the database
+    const cities = await db.collection('cities').find({}).toArray()
+    console.log(`📊 Found ${cities.length} cities in database`)
+    
+    // Group cities by language
+    const citiesByLanguage: { [key: string]: any[] } = {}
+    
+    cities.forEach(city => {
+      const language = city.language || 'en'
+      if (!citiesByLanguage[language]) {
+        citiesByLanguage[language] = []
+      }
+      citiesByLanguage[language].push(city)
+    })
+    
+    // Update individual city files for each language
+    for (const [language, citiesInLang] of Object.entries(citiesByLanguage)) {
+      console.log(`🌍 Processing language: ${language} with ${citiesInLang.length} cities`)
+      
+      const languageDir = path.join(process.cwd(), 'src', 'data', 'cities', language)
+      ensureDirSync(languageDir)
+      
+      // Process each city in this language
+      for (const city of citiesInLang) {
+        const cityData: CityDocForFile = {
+          slug: city.slug,
+          name: city.name,
+          state: city.state,
+          language: city.language || 'en',
+          shortDescription: city.shortDescription,
+          fullDescription: city.fullDescription || city.shortDescription,
+          heroImage: city.heroImage || '',
+          heroImageAlt: city.heroImageAlt || '',
+          population: city.population,
+          avgHomePrice: city.avgHomePrice,
+          tags: Array.isArray(city.tags) ? city.tags : [],
+          neighborhoods: Array.isArray(city.neighborhoods) ? city.neighborhoods : [],
+          highlights: Array.isArray(city.highlights) ? city.highlights : [],
+          faqs: Array.isArray(city.faqs) ? city.faqs : [],
+          clients: city.clients || [],
+          canonicalUrl: city.canonicalUrl || '',
+          hreflang_tags: city.hreflang_tags || [],
+          seo: city.seo || {},
+          schema_markup: city.schema_markup || [],
+          internal_links: city.internal_links || []
+        }
+        
+        await writeCityFile(cityData)
+      }
+      
+      console.log(`✅ Updated ${citiesInLang.length} city files for language: ${language}`)
+    }
+    
+    console.log('✅ All individual city files updated successfully')
+  } catch (error) {
+    console.error('❌ Error updating individual city files:', error)
+    throw error
+  }
+}
+
+// Function to update home data for all languages (no global file)
+export async function updateHomeDataForAllLanguages() {
+  try {
+    console.log('🔄 Starting updateHomeDataForAllLanguages...')
+    const { db } = await connectToDatabase()
+    
+    // Get all home data from the database
+    const homeDataCollection = await db.collection('home').find({}).toArray()
+    console.log(`📊 Found ${homeDataCollection.length} home data entries in database`)
+    
+    // Group home data by language
+    const homeDataByLanguage: { [key: string]: any } = {}
+    
+    homeDataCollection.forEach(homeDoc => {
+      const language = homeDoc.language || 'en'
+      homeDataByLanguage[language] = homeDoc
+    })
+    
+    // Update home.json files for each language only
+    for (const [language, homeData] of Object.entries(homeDataByLanguage)) {
+      console.log(`🏠 Processing home data for language: ${language}`)
+      
+      const languageDir = path.join(process.cwd(), 'src', 'data', 'home', language)
+      ensureDirSync(languageDir)
+      
+      const jsonPath = path.join(languageDir, 'home.json')
+      
+      // Clean up the data to match the expected format
+      const cleanHomeData = {
+        hero: homeData.hero || {},
+        stats: homeData.stats || {},
+        services: homeData.services || {},
+        cities: homeData.cities || {},
+        blog: homeData.blog || {},
+        testimonials: homeData.testimonials || {},
+        cta: homeData.cta || {}
+      }
+      
+      fs.writeFileSync(jsonPath, JSON.stringify(cleanHomeData, null, 2))
+      console.log(`✅ Updated home.json for language: ${language}`)
+    }
+    
+    console.log('✅ All language-specific home data files updated successfully')
+  } catch (error) {
+    console.error('❌ Error updating home data files:', error)
+    throw error
+  }
 }

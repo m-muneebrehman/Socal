@@ -2,6 +2,7 @@
   "slug": "el-segundo",
   "name": "El Segundo",
   "state": "California",
+  "language": "en",
   "shortDescription": "A coastal city known for its aerospace industry, beaches, and close-knit community atmosphere.",
   "fullDescription": "El Segundo is located along the Pacific Coast just south of Los Angeles International Airport. It offers a unique blend of industrial innovation and beach town charm, with a thriving aerospace sector and a growing number of tech companies. The city boasts beautiful beaches, parks, and a walkable downtown with shops and restaurants. Its proximity to LAX and major freeways makes it a prime location for commuters and businesses alike.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
@@ -41,21 +42,10 @@
       "type": "city",
       "slug": "inglewood",
       "description": "Vibrant city known for sports venues, entertainment, and diverse neighborhoods.",
-      "image": "https://images.unsplash.com/photo-1526403222776-0ac2b30d731f?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
       "imageAlt": "Downtown Inglewood at night",
       "distance": "5 miles east",
       "avgHomePrice": "$750K",
-      "county": "Los Angeles"
-    },
-    {
-      "name": "Torrance",
-      "type": "city",
-      "slug": "torrance",
-      "description": "City with large shopping centers, beaches, and residential areas.",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Beach and cityscape in Torrance",
-      "distance": "6 miles south",
-      "avgHomePrice": "$900K",
       "county": "Los Angeles"
     }
   ],
