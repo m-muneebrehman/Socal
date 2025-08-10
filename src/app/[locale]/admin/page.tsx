@@ -27,7 +27,6 @@ import {
 import { User, Blog, City, DashboardStats, HomeSection, Toast, HomeData } from "@/types"
 
 // Import components
-import Sidebar from "@/components/admin/Sidebar"
 import Header from "@/components/admin/Header"
 import Dashboard from "@/components/admin/Dashboard"
 import UserManager from "@/components/admin/UserManager"
@@ -69,40 +68,41 @@ export default function AdminDashboard() {
   // Home data
   const [homeData, setHomeData] = useState<HomeData>({
     hero: {
-      badge: 'Global Luxury Real Estate',
-      title: 'Exclusive Properties for Discerning Clients',
-      subtitle: 'With over 20 years of experience, we connect international buyers with the finest properties across the world\'s most desirable locations.',
+      badge: 'Premium Destination',
+      title: 'Discover the Magic of',
+      subtitle: 'Experience luxury living in the most prestigious locations across Southern California',
       viewProperties: 'View Properties',
       contactUs: 'Contact Us',
-      scrollDown: 'Scroll Down'
+      scrollDown: 'Scroll Down',
+      backgroundImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
     },
     stats: {
       yearsExperience: '25+',
       yearsExperienceLabel: 'Years Experience',
-      billionInSales: '4.2B',
+      billionInSales: '$2.5B+',
       billionInSalesLabel: 'Billion in Sales',
-      countriesServed: '50+',
-      countriesServedLabel: 'Countries Served',
-      clientSatisfaction: '100%',
+      countriesServed: '500+',
+      countriesServedLabel: 'Properties Sold',
+      clientSatisfaction: '98%',
       clientSatisfactionLabel: 'Client Satisfaction'
     },
     services: {
       title: 'Our Services',
-      subtitle: 'Comprehensive real estate solutions tailored to your unique needs.',
+      subtitle: 'Comprehensive real estate solutions tailored to your needs',
       propertyAcquisition: {
-        title: 'Property Acquisition',
-        description: 'Our global network and market expertise ensures you find the perfect property that meets all your requirements.',
-        icon: '🏡'
+        title: 'Luxury Real Estate',
+        description: 'Exclusive properties in the most prestigious neighborhoods',
+        icon: '🏠'
       },
       investmentAdvisory: {
-        title: 'Investment Advisory',
-        description: 'Strategic guidance to maximize returns on your real estate investments with our data-driven approach.',
+        title: 'Investment Properties',
+        description: 'Strategic investment opportunities with high returns',
         icon: '💰'
       },
       relocationServices: {
-        title: 'Relocation Services',
-        description: 'Comprehensive support for international clients moving to new countries, including legal and logistical assistance.',
-        icon: '🌎'
+        title: 'Property Management',
+        description: 'Professional management services for property owners',
+        icon: '🔧'
       }
     },
     cities: {
@@ -113,12 +113,42 @@ export default function AdminDashboard() {
       title: 'Latest Insights',
       subtitle: 'Discover our expert perspectives on luxury real estate markets worldwide.'
     },
+    testimonials: {
+      title: 'What Our Clients Say',
+      subtitle: 'Trusted by thousands of satisfied clients',
+      items: [
+        {
+          id: 't1',
+          quote: 'SoCal Prime Homes helped us find our dream home in Beverly Hills. The service was exceptional!',
+          author: 'Sarah Johnson',
+          rating: 5,
+          image: '/testimonials/client1.jpg'
+        },
+        {
+          id: 't2',
+          quote: 'Professional, reliable, and truly understands the luxury market. Highly recommended!',
+          author: 'Michael Chen',
+          rating: 5,
+          image: '/testimonials/client2.jpg'
+        },
+        {
+          id: 't3',
+          quote: 'Outstanding experience from start to finish. They made the entire process seamless.',
+          author: 'Emily Rodriguez',
+          rating: 5,
+          image: '/testimonials/client3.jpg'
+        }
+      ]
+    },
     cta: {
-      title: 'Ready to Find Your Dream Property?',
-      text: 'Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property.',
-      button: 'Schedule Consultation'
+      title: 'Ready to Find Your Dream Home?',
+      text: 'Let our experts guide you to the perfect property in Southern California',
+      button: 'Get Started'
     }
   })
+  
+  // Home data locale state
+  const [homeDataLocale, setHomeDataLocale] = useState<string>('en')
   
   // Form states
   const [userForm, setUserForm] = useState({ _id: '', email: '', password: '', role: '', status: '' })
@@ -298,15 +328,20 @@ export default function AdminDashboard() {
     }
   }
 
-  const fetchHomeData = async () => {
+  const fetchHomeData = async (locale: string = 'en') => {
     try {
-      const response = await fetch('/api/home')
+      console.log('🔄 Fetching home data for locale:', locale)
+      const response = await fetch(`/api/home?locale=${encodeURIComponent(locale)}`)
       if (response.ok) {
         const data = await response.json()
+        console.log('✅ Home data fetched for locale:', locale, data)
         setHomeData(data)
+        setHomeDataLocale(locale)
+      } else {
+        console.error('❌ Failed to fetch home data for locale:', locale, response.status)
       }
     } catch (error) {
-      console.error('Error fetching home data:', error)
+      console.error('❌ Error fetching home data for locale:', locale, error)
     }
   }
 
@@ -360,15 +395,16 @@ export default function AdminDashboard() {
   }
 
   // Function to update home data
-  const updateHomeData = async (newHomeData: HomeData) => {
+  const updateHomeData = async (newHomeData: HomeData, locale: string = 'en') => {
     try {
-      const response = await fetch('/api/home', {
+      const response = await fetch(`/api/home?locale=${encodeURIComponent(locale)}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newHomeData)
       })
       if (response.ok) {
         setHomeData(newHomeData)
+        setHomeDataLocale(locale)
         addToast('success', 'Home data updated successfully!')
         
         // Trigger refresh on home page by setting localStorage flag
@@ -379,7 +415,7 @@ export default function AdminDashboard() {
         }
         
         // Also refresh the home data to ensure consistency
-        await fetchHomeData()
+        await fetchHomeData(locale)
       } else {
         addToast('error', 'Failed to update home data')
       }
@@ -794,11 +830,11 @@ export default function AdminDashboard() {
     checkAuth()
   }, [router])
 
-  // Fetch data when component mounts
+  // Fetch data on component mount
   useEffect(() => {
     if (user) {
       setLoadingData(true)
-      Promise.all([fetchUsers(), fetchBlogs(), fetchCities(), fetchStats(), fetchHomeData()])
+      Promise.all([fetchUsers(), fetchBlogs(), fetchCities(), fetchStats(), fetchHomeData('en')])
         .finally(() => setLoadingData(false))
     }
   }, [user])
@@ -884,7 +920,7 @@ export default function AdminDashboard() {
         fetchBlogs(),
         fetchCities(),
         fetchStats(),
-        fetchHomeData()
+        fetchHomeData(homeDataLocale)
       ])
       setLastUpdated(new Date().toLocaleString())
       addToast('success', 'Data refreshed successfully')
@@ -936,16 +972,8 @@ export default function AdminDashboard() {
 
   return (
     <div className="admin-dashboard" style={{ display: 'flex', minHeight: '100vh' }}>
-        {/* Sidebar */}
-        <Sidebar 
-          activeSection={activeSection}
-          setActiveSection={setActiveSection}
-          sidebarCollapsed={sidebarCollapsed}
-          setSidebarCollapsed={setSidebarCollapsed}
-        />
-
         {/* Main Content Area */}
-        <div className={`admin-main-content ${sidebarCollapsed ? 'collapsed' : ''}`} style={{ 
+        <div className="admin-main-content" style={{ 
           flex: 1, 
           display: 'flex', 
           flexDirection: 'column',
@@ -970,6 +998,11 @@ export default function AdminDashboard() {
             <HomeManager 
               homeData={homeData}
               updateHomeData={updateHomeData}
+              currentLocale={homeDataLocale}
+              onLocaleChange={async (locale) => {
+                await fetchHomeData(locale)
+                setHomeDataLocale(locale)
+              }}
             />
           )}
 

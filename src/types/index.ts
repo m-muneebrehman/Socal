@@ -215,6 +215,17 @@ export interface HomeData {
     title: string
     subtitle: string
   }
+  testimonials: {
+    title: string
+    subtitle: string
+    items: Array<{
+      id: string
+      quote: string
+      author: string
+      rating: number
+      image: string
+    }>
+  }
   cta: {
     title: string
     text: string

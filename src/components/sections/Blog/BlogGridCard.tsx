@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from '@/i18n/navigation'
+import { useParams } from 'next/navigation'
 
 interface Blog {
   id: string
@@ -22,8 +23,10 @@ interface BlogGridCardProps {
 }
 
 const BlogGridCard = ({ blog }: BlogGridCardProps) => {
+  const params = useParams() as any
+  const locale = params?.locale || 'en'
   return (
-    <Link href={`/blog/${blog.slug}`} className="blog-listing-card">
+    <Link href={`/blog/${blog.slug}`} locale={locale} className="blog-listing-card">
       <div 
         className="blog-listing-card-image" 
         style={{ backgroundImage: `url('${blog.heroImage}')` }}

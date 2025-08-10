@@ -1,36 +1,36 @@
 San Diego County (18 cities)
 
-San Diego
+San Diego .
 
-Chula Vista
+Chula Vista .
 
-Oceanside
+Oceanside .
 
-Escondido
+Escondido .
 
-Carlsbad
+Carlsbad .
 
-El Cajon
+El Cajon .
 
-Vista
+Vista .
 
-San Marcos
+San Marcos .
 
-Encinitas
+Encinitas .
 
-La Mesa
+La Mesa .
 
-Santee
+Santee .
 
-National City
+National City .
 
-Poway
+Poway .
 
-Coronado
+Coronado .
 
-Imperial Beach
+Imperial Beach .
 
-Lemon Grove
+Lemon Grove .
 
 Solana Beach
 

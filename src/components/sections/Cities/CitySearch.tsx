@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import { useTranslations } from 'next-intl'
 
 interface CitySearchProps {
   searchTerm: string
@@ -13,12 +14,14 @@ const CitySearch: React.FC<CitySearchProps> = ({
   onSearchChange, 
   totalCities 
 }) => {
+  const t = useTranslations('cities')
+
   return (
     <div className="city-search-container">
       <div className="search-header">
-        <h2 className="search-title">Find Your Perfect City</h2>
+        <h2 className="search-title">{t('search.title')}</h2>
         <p className="search-subtitle">
-          Search by city name, state, or features
+          {t('search.subtitle')}
         </p>
       </div>
       

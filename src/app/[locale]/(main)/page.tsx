@@ -8,17 +8,19 @@ import Cities from '@/components/sections/Cities/Cities'
 import Blog from '@/components/sections/Blog/Blog'
 import Services from '@/components/sections/Services/Services'
 import CTA from '@/components/sections/CTA/CTA'
+import Testimonials from '@/components/sections/Testimonials/Testimonials'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 
 const Home = () => {
   const params = useParams()
   const [homeData, setHomeData] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const locale = (params as any).locale || 'en'
 
   const fetchHomeData = async () => {
     try {
-      // Try to fetch from the API first
-      const response = await fetch('/api/home', {
+      // Try to fetch from the API first with locale
+      const response = await fetch(`/api/home?locale=${locale}`, {
         cache: 'no-store' // Disable caching
       })
       
@@ -27,27 +29,47 @@ const Home = () => {
         console.log('✅ Home page received API data:', data)
         setHomeData(data)
       } else {
-        // Fallback to local JSON file
-        const localResponse = await fetch('/data/home.json', {
+        // Fallback to local JSON file based on locale
+        const localResponse = await fetch(`/data/home/${locale}/home.json`, {
           cache: 'no-store' // Disable caching
         })
         if (localResponse.ok) {
           const localData = await localResponse.json()
-          console.log('✅ Home page received JSON data:', localData)
+          console.log('✅ Home page received localized JSON data:', localData)
           setHomeData(localData)
+        } else {
+          // Final fallback to English
+          const englishResponse = await fetch('/data/home/en/home.json', {
+            cache: 'no-store' // Disable caching
+          })
+          if (englishResponse.ok) {
+            const englishData = await englishResponse.json()
+            console.log('✅ Home page received English fallback data:', englishData)
+            setHomeData(englishData)
+          }
         }
       }
     } catch (error) {
       console.error('❌ Error fetching home data:', error)
-      // Fallback to local JSON file
+      // Fallback to local JSON file based on locale
       try {
-        const localResponse = await fetch('/data/home.json', {
+        const localResponse = await fetch(`/data/home/${locale}/home.json`, {
           cache: 'no-store' // Disable caching
         })
         if (localResponse.ok) {
           const localData = await localResponse.json()
-          console.log('✅ Home page received fallback JSON data:', localData)
+          console.log('✅ Home page received fallback localized JSON data:', localData)
           setHomeData(localData)
+        } else {
+          // Final fallback to English
+          const englishResponse = await fetch('/data/home/en/home.json', {
+            cache: 'no-store' // Disable caching
+          })
+          if (englishResponse.ok) {
+            const englishData = await englishResponse.json()
+            console.log('✅ Home page received English fallback data:', englishData)
+            setHomeData(englishData)
+          }
         }
       } catch (localError) {
         console.error('❌ Error fetching local home data:', localError)
@@ -59,7 +81,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchHomeData()
-  }, [])
+  }, [locale])
 
   // Add a refresh function that can be called
   const refreshData = () => {
@@ -115,9 +137,14 @@ const Home = () => {
     <main>
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
-      <Cities citiesData={homeData.cities} locale={(params as any).locale} />
+      <Cities citiesData={homeData.cities} locale={locale} />
       <Blog blogData={homeData.blog} />
       <Services servicesData={homeData.services} />
+      <Testimonials 
+        title={homeData.testimonials?.title}
+        subtitle={homeData.testimonials?.subtitle}
+        items={homeData.testimonials?.items}
+      />
       <CTA ctaData={homeData.cta} />
     </main>
   )

@@ -1,16 +1,19 @@
 import React from 'react'
 import { Link } from '@/i18n/navigation'
 import blogsData from '@/data/blogs.json'
+import { useParams } from 'next/navigation'
 
 interface RelatedArticlesProps {
   currentBlogId: string
 }
 
 const RelatedArticles = ({ currentBlogId }: RelatedArticlesProps) => {
-  // Get 3 random related articles (excluding current blog)
-  const relatedBlogs = blogsData
-    .filter(blog => blog.id !== currentBlogId)
-    .slice(0, 3)
+  const params = useParams() as any
+  const locale = params?.locale || 'en'
+  // Prefer same-locale blogs if present in data
+  const sameLocale = blogsData.filter((b: any) => (b as any).language === locale)
+  const pool = sameLocale.length > 0 ? sameLocale : blogsData
+  const relatedBlogs = pool.filter(blog => blog.id !== currentBlogId).slice(0, 3)
 
   return (
     <section className="related-section">
@@ -22,7 +25,7 @@ const RelatedArticles = ({ currentBlogId }: RelatedArticlesProps) => {
 
         <div className="related-grid">
           {relatedBlogs.map((blog) => (
-            <Link key={blog.id} href={`/blog/${blog.slug}`} className="related-card fade-in">
+            <Link key={blog.id} href={`/blog/${blog.slug}`} locale={locale} className="related-card fade-in">
               <div className="related-card-image">
                 <img src={blog.heroImage} alt={blog.title} />
               </div>

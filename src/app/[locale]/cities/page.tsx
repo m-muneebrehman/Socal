@@ -92,10 +92,10 @@ const CitiesPage = () => {
       <section className="cities-page-header">
         <div className="cities-page-container">
           <div className="page-header-content">
-            <span className="page-eyebrow">All Cities</span>
-            <h1 className="page-title">Discover California's Finest Cities</h1>
+            <span className="page-eyebrow">{t('pageHeader.eyebrow')}</span>
+            <h1 className="page-title">{t('pageHeader.title')}</h1>
             <p className="page-subtitle">
-              Explore our curated selection of premium destinations across the Golden State
+              {t('pageHeader.subtitle')}
             </p>
           </div>
         </div>
@@ -133,15 +133,15 @@ const CitiesPage = () => {
           ) : (
             <div className="no-results">
               <div className="no-results-icon">🔍</div>
-              <h3 className="no-results-title">No cities found</h3>
+              <h3 className="no-results-title">{t('noResults.title')}</h3>
               <p className="no-results-text">
-                Try adjusting your search terms or browse all cities below
+                {t('noResults.text')}
               </p>
               <button 
                 className="reset-search-btn"
                 onClick={() => setSearchTerm('')}
               >
-                Clear Search
+                {t('noResults.button')}
               </button>
             </div>
           )}

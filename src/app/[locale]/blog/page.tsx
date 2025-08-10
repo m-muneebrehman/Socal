@@ -2,29 +2,62 @@
 
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import { Link } from '@/i18n/navigation'
-import blogsData from '@/data/blogs.json'
+import { useParams } from 'next/navigation'
 import HeroBlogCard from '@/components/sections/Blog/HeroBlogCard'
 import BlogGridCard from '@/components/sections/Blog/BlogGridCard'
 
 const BlogPage = () => {
   const t = useTranslations('blog')
+  const params = useParams()
+  const locale = (params as any)?.locale || 'en'
   const [currentPage, setCurrentPage] = useState(1)
   const blogsPerPage = 8
-  const featuredBlog = blogsData.find(blog => blog.featured)
-  const regularBlogs = blogsData.filter(blog => !blog.featured)
+  const [blogs, setBlogs] = useState<any[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    let isMounted = true
+    const fetchBlogs = async () => {
+      try {
+        setLoading(true)
+        const res = await fetch(`/api/blogs/${locale}`)
+        if (res.ok) {
+          const data = await res.json()
+          if (isMounted) setBlogs(Array.isArray(data) ? data : [])
+        } else {
+          const fallback = await fetch(`/api/blogs/en`)
+          if (fallback.ok) {
+            const data = await fallback.json()
+            if (isMounted) setBlogs(Array.isArray(data) ? data : [])
+          } else if (isMounted) {
+            setBlogs([])
+          }
+        }
+      } catch {
+        if (isMounted) setBlogs([])
+      } finally {
+        if (isMounted) setLoading(false)
+      }
+    }
+    fetchBlogs()
+    return () => { isMounted = false }
+  }, [locale])
+
+  const featuredBlog = blogs.find(blog => blog.featured)
+  // Show every blog in the grid except the one used as the hero
+  const gridBlogs = blogs.filter(blog => !featuredBlog || blog.id !== featuredBlog.id)
 
   // Calculate pagination
-  const totalPages = Math.ceil(regularBlogs.length / blogsPerPage)
+  const totalPages = Math.ceil(gridBlogs.length / blogsPerPage)
   const startIndex = (currentPage - 1) * blogsPerPage
   const endIndex = startIndex + blogsPerPage
-  const currentBlogs = regularBlogs.slice(startIndex, endIndex)
+  const currentBlogs = gridBlogs.slice(startIndex, endIndex)
 
   // Sticky navigation effect
   useEffect(() => {
     const handleScroll = () => {
       const nav = document.querySelector('.navigation')
-      if (nav) {
+      if (nav instanceof HTMLElement) {
         if (window.scrollY > 50) {
           nav.style.padding = '15px 0'
           nav.style.background = 'rgba(26, 26, 26, 0.98)'
@@ -40,6 +73,14 @@ const BlogPage = () => {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  if (loading) {
+    return (
+      <main className="blog-page">
+        <section className="blog-listing-hero"><div className="blog-listing-hero-container" /></section>
+      </main>
+    )
+  }
 
   return (
     <main className="blog-page">
@@ -59,8 +100,8 @@ const BlogPage = () => {
       <section className="blog-grid-section">
         <div className="blog-grid-container">
           <div className="section-header">
-            <h2 className="section-title">Latest Market Insights</h2>
-            <p className="section-subtitle">Stay informed with our expert analysis and trending topics in luxury real estate markets worldwide.</p>
+            <h2 className="section-title">{t('sectionHeader.title')}</h2>
+            <p className="section-subtitle">{t('sectionHeader.subtitle')}</p>
           </div>
 
           <div className="blog-grid" id="blogGrid">
@@ -82,7 +123,7 @@ const BlogPage = () => {
                 disabled={currentPage === 1}
                 onClick={() => setCurrentPage(currentPage - 1)}
               >
-                ← Previous
+                ← {t('pagination.previous')}
               </button>
               
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
@@ -100,7 +141,7 @@ const BlogPage = () => {
                 disabled={currentPage === totalPages}
                 onClick={() => setCurrentPage(currentPage + 1)}
               >
-                Next →
+                {t('pagination.next')} →
               </button>
             </div>
           )}

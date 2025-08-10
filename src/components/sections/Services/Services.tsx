@@ -52,29 +52,54 @@ const Services = ({ servicesData }: ServicesProps) => {
         <p className="section-subtitle">{subtitle}</p>
       </div>
       <div className="services-grid">
-        <div className="service-card">
-          <div className="service-premium-leaves">
-            <div className="service-leaf-top-right"></div>
+        {/* Property Acquisition */}
+        <div className="service-card relative overflow-hidden group">
+          {/* Subtle hover background image */}
+          <div
+            className="absolute inset-0 bg-center bg-cover opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-0 pointer-events-none"
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=60')",
+            }}
+          />
+          {/* Content */}
+          <div className="relative z-10">
+            <div className="service-icon">{propertyAcquisition.icon}</div>
+            <h3 className="service-title">{propertyAcquisition.title}</h3>
+            <p className="service-description">{propertyAcquisition.description}</p>
           </div>
-          <div className="service-icon">{propertyAcquisition.icon}</div>
-          <h3 className="service-title">{propertyAcquisition.title}</h3>
-          <p className="service-description">{propertyAcquisition.description}</p>
         </div>
-        <div className="service-card">
-          <div className="service-premium-leaves">
-            <div className="service-leaf-top-right"></div>
+
+        {/* Investment Advisory */}
+        <div className="service-card relative overflow-hidden group">
+          <div
+            className="absolute inset-0 bg-center bg-cover opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-0 pointer-events-none"
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1600&q=60')",
+            }}
+          />
+          <div className="relative z-10">
+            <div className="service-icon">{investmentAdvisory.icon}</div>
+            <h3 className="service-title">{investmentAdvisory.title}</h3>
+            <p className="service-description">{investmentAdvisory.description}</p>
           </div>
-          <div className="service-icon">{investmentAdvisory.icon}</div>
-          <h3 className="service-title">{investmentAdvisory.title}</h3>
-          <p className="service-description">{investmentAdvisory.description}</p>
         </div>
-        <div className="service-card">
-          <div className="service-premium-leaves">
-            <div className="service-leaf-top-right"></div>
+
+        {/* Relocation Services */}
+        <div className="service-card relative overflow-hidden group">
+          <div
+            className="absolute inset-0 bg-center bg-cover opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-0 pointer-events-none"
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=60')",
+            }}
+          />
+          <div className="relative z-10">
+            <div className="service-icon">{relocationServices.icon}</div>
+            <h3 className="service-title">{relocationServices.title}</h3>
+            <p className="service-description">{relocationServices.description}</p>
           </div>
-          <div className="service-icon">{relocationServices.icon}</div>
-          <h3 className="service-title">{relocationServices.title}</h3>
-          <p className="service-description">{relocationServices.description}</p>
         </div>
       </div>
     </section>

@@ -3,20 +3,19 @@
     "cities": "Cities",
     "services": "Services",
     "insights": "Insights",
-    "about": "About",
-    "contact": "Contact"
+    "reviews": "Reviews"
   },
   "hero": {
     "badge": "Global Luxury Real Estate",
     "title": "Exclusive Properties for Discerning Clients",
-    "subtitle": "With over 20 years of experience, we connect international buyers with the finest properties across the world's most desirable locations.",
+    "subtitle": "With over 20 years of experience, we connect international buyers with the finest properties in the world's most desirable locations.",
     "viewProperties": "View Properties",
     "contactUs": "Contact Us",
     "scrollDown": "Scroll Down"
   },
   "stats": {
     "yearsExperience": "Years Experience",
-    "billionInSales": "Billion in Sales",
+    "billionInSales": "Billions in Sales",
     "countriesServed": "Countries Served",
     "clientSatisfaction": "Client Satisfaction"
   },
@@ -25,6 +24,21 @@
     "subtitle": "Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.",
     "population": "Population",
     "avgHomePrice": "Avg Home Price",
+    "neighborhoods": "neighborhoods",
+    "pageHeader": {
+      "eyebrow": "All Cities",
+      "title": "Discover California's Finest Cities",
+      "subtitle": "Explore our curated selection of premium destinations across the Golden State"
+    },
+    "search": {
+      "title": "Find Your Perfect City",
+      "subtitle": "Search by city name, state, or features"
+    },
+    "noResults": {
+      "title": "No cities found",
+      "text": "Try adjusting your search terms or browse all cities below",
+      "button": "Clear Search"
+    },
     "hero": {
       "title": "Welcome to {cityName}",
       "subtitle": "Discover the unique charm and opportunities of this vibrant California city",
@@ -42,14 +56,37 @@
     "clients": {
       "title": "Our Clients in {cityName}",
       "subtitle": "The diverse community of professionals and families we serve"
+    },
+    "cityPage": {
+      "residents": "residents",
+      "avgPrice": "avg price",
+      "premiumDestination": "Premium Destination",
+      "discoverMagicOf": "Discover the Magic of",
+      "exploreProperties": "Explore Properties",
+      "contactAgent": "Contact Agent",
+      "population": "Population",
+      "avgHomePrice": "Avg Home Price",
+      "neighborhoods": "Neighborhoods",
+      "highlights": "Highlights",
+      "about": "About",
+      "whatMakesSpecial": "What Makes {cityName} Special",
+      "noHighlightsAvailable": "No highlights available for {cityName}",
+      "nearbyCities": "Nearby Cities",
+      "exploreSurroundingAreas": "Explore Surrounding Areas",
+      "discoverDiverseNeighborhoods": "Discover the diverse neighborhoods and cities around {cityName}",
+      "county": "County",
+      "faq": "FAQ",
+      "everythingYouNeedToKnow": "Everything You Need to Know",
+      "allQuestions": "All Questions",
+      "exploreAllCities": "Explore All Cities"
     }
   },
   "blog": {
     "title": "Latest Insights",
-    "subtitle": "Discover our expert perspectives on luxury real estate markets worldwide.",
+    "subtitle": "Discover our expert perspectives on luxury real estate markets around the world.",
     "date": "June 15, 2023",
     "articleTitle": "The Future of Luxury: Emerging Markets to Watch in 2024",
-    "excerpt": "As global wealth patterns shift, we analyze the rising stars in luxury real estate that savvy investors should have on their radar for the coming year.",
+    "excerpt": "With shifting global wealth patterns, we analyze the rising stars in luxury real estate that smart investors should have on their radar for the coming year.",
     "readArticle": "Read Article",
     "exploreMore": "Explore More Insights",
     "meta": {
@@ -57,14 +94,22 @@
       "description": "Stay informed with expert analysis, market trends, and exclusive insights from the world of luxury real estate investments."
     },
     "featured": "Featured",
-    "by": "By"
+    "by": "By",
+    "sectionHeader": {
+      "title": "Latest Market Insights",
+      "subtitle": "Stay informed with our expert analysis and trending topics in luxury real estate markets around the world."
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive real estate solutions tailored to your unique needs.",
+    "subtitle": "Comprehensive real estate solutions designed specifically for your unique needs.",
     "propertyAcquisition": {
       "title": "Property Acquisition",
-      "description": "Our global network and market expertise ensures you find the perfect property that meets all your requirements."
+      "description": "Our global network and market expertise ensure you find the perfect property that meets all your requirements."
     },
     "investmentAdvisory": {
       "title": "Investment Advisory",
@@ -72,16 +117,16 @@
     },
     "relocationServices": {
       "title": "Relocation Services",
-      "description": "Comprehensive support for international clients moving to new countries, including legal and logistical assistance."
+      "description": "Comprehensive support for international clients relocating to new countries, including legal and logistical assistance."
     }
   },
   "cta": {
     "title": "Ready to Find Your Dream Property?",
-    "text": "Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property.",
+    "text": "Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.",
     "button": "Schedule Consultation"
   },
   "footer": {
-    "about": "With over two decades of experience, Prestige Estates is a leading global real estate consultancy specializing in luxury properties and bespoke relocation services.",
+    "about": "With over two decades of experience, Prestige Estates is a leading global real estate consulting company specializing in luxury real estate and customized relocation services.",
     "quickLinks": "Quick Links",
     "locations": "Locations",
     "contact": "Contact",

@@ -18,6 +18,17 @@ const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleSmoothScroll = (targetId: string) => {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest'
+      });
+    }
+  };
+
   return (
     <nav className={`navigation ${scrolled ? 'py-3 bg-[rgba(26,26,26,0.98)] backdrop-blur-[15px]' : 'py-5 bg-[rgba(26,26,26,0.95)] backdrop-blur-[10px]'}`}>
       <div className="nav-container">
@@ -27,11 +38,10 @@ const Navigation = () => {
         </Link>
         
         <ul className="nav-menu">
-          <li><Link href="#cities" className="nav-link">{t('cities')}</Link></li>
-          <li><Link href="#services" className="nav-link">{t('services')}</Link></li>
-          <li><Link href="#blog" className="nav-link">{t('insights')}</Link></li>
-          <li><Link href="#about" className="nav-link">{t('about')}</Link></li>
-          <li><Link href="#contact" className="nav-link">{t('contact')}</Link></li>
+          <li><button onClick={() => handleSmoothScroll('cities')} className="nav-link">{t('cities')}</button></li>
+          <li><button onClick={() => handleSmoothScroll('blog')} className="nav-link">{t('insights')}</button></li>
+          <li><button onClick={() => handleSmoothScroll('services')} className="nav-link">{t('services')}</button></li>
+          <li><button onClick={() => handleSmoothScroll('testimonials')} className="nav-link">{t('reviews')}</button></li>
         </ul>
 
         <LanguageSelector />

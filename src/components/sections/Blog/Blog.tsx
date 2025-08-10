@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import { useParams } from 'next/navigation'
 
 interface BlogProps {
   blogData?: {
@@ -11,6 +12,32 @@ interface BlogProps {
 
 const Blog = ({ blogData }: BlogProps) => {
   const t = useTranslations('blog');
+  const params = useParams() as any
+  const locale = params?.locale || 'en'
+  const [firstBlog, setFirstBlog] = useState<any | null>(null)
+
+  useEffect(() => {
+    let isMounted = true
+    const load = async () => {
+      try {
+        const res = await fetch(`/api/blogs/${locale}`)
+        if (res.ok) {
+          const data = await res.json()
+          if (Array.isArray(data) && data.length > 0 && isMounted) {
+            setFirstBlog(data[0])
+          } else if (isMounted) {
+            setFirstBlog(null)
+          }
+        } else if (isMounted) {
+          setFirstBlog(null)
+        }
+      } catch {
+        if (isMounted) setFirstBlog(null)
+      }
+    }
+    load()
+    return () => { isMounted = false }
+  }, [locale])
 
   // Use API data if available, otherwise fall back to translations
   const title = blogData?.title || t('title')
@@ -23,18 +50,30 @@ const Blog = ({ blogData }: BlogProps) => {
         <p className="section-subtitle">{subtitle}</p>
       </div>
       <div className="blog-container">
-        <div className="blog-card">
-          <div className="blog-image" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80')" }}></div>
-          <div className="blog-content">
-            <div className="blog-date">{t('date')}</div>
-            <h3 className="blog-title">{t('articleTitle')}</h3>
-            <p className="blog-excerpt">{t('excerpt')}</p>
-            <Link href="/blog" className="blog-link">{t('readArticle')}</Link>
+        {firstBlog ? (
+          <div className="blog-card">
+            <div className="blog-image" style={{ backgroundImage: `url('${firstBlog.heroImage}')` }}></div>
+            <div className="blog-content">
+              <div className="blog-date">{firstBlog.date}</div>
+              <h3 className="blog-title">{firstBlog.title}</h3>
+              <p className="blog-excerpt">{firstBlog.subtitle}</p>
+              <Link href={`/blog/${firstBlog.slug}`} locale={locale} className="blog-link">{t('readArticle')}</Link>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="blog-card">
+            <div className="blog-image" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2940&q=80')" }}></div>
+            <div className="blog-content">
+              <div className="blog-date">{t('date')}</div>
+              <h3 className="blog-title">{t('articleTitle')}</h3>
+              <p className="blog-excerpt">{t('excerpt')}</p>
+              <Link href="/blog" locale={locale} className="blog-link">{t('readArticle')}</Link>
+            </div>
+          </div>
+        )}
       </div>
       <div className="see-more">
-        <Link href="/blog" className="see-more-link">{t('exploreMore')}</Link>
+        <Link href="/blog" locale={locale} className="see-more-link">{t('exploreMore')}</Link>
       </div>
     </section>
   )

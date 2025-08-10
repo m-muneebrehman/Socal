@@ -3,31 +3,45 @@
     "cities": "Villes",
     "services": "Services",
     "insights": "Perspectives",
-    "about": "À propos",
-    "contact": "Contact"
+    "reviews": "Avis"
   },
   "hero": {
     "badge": "Immobilier de Luxe Mondial",
-    "title": "Propriétés Exclusives pour Clients Exigeants",
-    "subtitle": "Avec plus de 20 ans d'expérience, nous connectons les acheteurs internationaux avec les plus belles propriétés dans les emplacements les plus désirables du monde.",
+    "title": "Propriétés Exclusives pour des Clients Exigeants",
+    "subtitle": "Avec plus de 20 ans d'expérience, nous connectons les acheteurs internationaux aux meilleures propriétés dans les emplacements les plus recherchés du monde.",
     "viewProperties": "Voir les Propriétés",
-    "contactUs": "Nous Contacter",
-    "scrollDown": "Faire défiler"
+    "contactUs": "Contactez-nous",
+    "scrollDown": "Faites défiler vers le bas"
   },
   "stats": {
     "yearsExperience": "Années d'Expérience",
-    "billionInSales": "Milliards de Ventes",
+    "billionInSales": "Milliards en Ventes",
     "countriesServed": "Pays Servis",
     "clientSatisfaction": "Satisfaction Client"
   },
   "cities": {
     "title": "Explorez les Villes de Californie",
-    "subtitle": "Découvrez les emplacements les plus désirables de l'État d'Or, chacun offrant des opportunités de style de vie uniques et un potentiel d'investissement.",
+    "subtitle": "Découvrez les emplacements les plus recherchés dans l'État Doré, chacun offrant des opportunités de style de vie uniques et un potentiel d'investissement.",
     "population": "Population",
     "avgHomePrice": "Prix Moyen des Maisons",
+    "neighborhoods": "Quartiers",
+    "pageHeader": {
+      "eyebrow": "Toutes les Villes",
+      "title": "Découvrez les Meilleures Villes de Californie",
+      "subtitle": "Explorez notre sélection organisée de destinations premium dans l'État Doré"
+    },
+    "search": {
+      "title": "Trouvez votre Ville Parfaite",
+      "subtitle": "Recherchez par nom de ville, état ou caractéristiques"
+    },
+    "noResults": {
+      "title": "Aucune ville trouvée",
+      "text": "Essayez d'ajuster vos termes de recherche ou parcourez toutes les villes ci-dessous",
+      "button": "Effacer la Recherche"
+    },
     "hero": {
       "title": "Bienvenue à {cityName}",
-      "subtitle": "Découvrez le charme unique et les opportunités de cette ville vibrante de Californie",
+      "subtitle": "Découvrez le charme unique et les opportunités de cette ville californienne dynamique",
       "exploreProperties": "Explorer les Propriétés",
       "contactAgent": "Contacter l'Agent"
     },
@@ -41,41 +55,78 @@
     },
     "clients": {
       "title": "Nos Clients à {cityName}",
-      "subtitle": "La communauté diverse de professionnels et familles que nous servons"
+      "subtitle": "La communauté diversifiée de professionnels et de familles que nous servons"
+    },
+    "cityPage": {
+      "residents": "résidents",
+      "avgPrice": "prix moyen",
+      "premiumDestination": "Destination Premium",
+      "discoverMagicOf": "Découvrez la Magie de",
+      "exploreProperties": "Explorer les Propriétés",
+      "contactAgent": "Contacter l'Agent",
+      "population": "Population",
+      "avgHomePrice": "Prix Moyen des Maisons",
+      "neighborhoods": "Quartiers",
+      "highlights": "Points Forts",
+      "about": "À propos de",
+      "whatMakesSpecial": "Ce qui rend {cityName} spéciale",
+      "noHighlightsAvailable": "Aucun point fort disponible pour {cityName}",
+      "nearbyCities": "Villes Proches",
+      "exploreSurroundingAreas": "Explorer les Zones Environnantes",
+      "discoverDiverseNeighborhoods": "Découvrez les quartiers et villes diversifiés autour de {cityName}",
+      "county": "Comté",
+      "faq": "FAQ",
+      "everythingYouNeedToKnow": "Tout ce que Vous Devez Savoir",
+      "allQuestions": "Toutes les Questions",
+      "exploreAllCities": "Explorer Toutes les Villes"
     }
   },
   "blog": {
     "title": "Dernières Perspectives",
-    "subtitle": "Découvrez nos perspectives d'experts sur les marchés immobiliers de luxe dans le monde.",
-    "date": "15 juin 2023",
+    "subtitle": "Découvrez nos perspectives d'experts sur les marchés immobiliers de luxe dans le monde entier.",
+    "date": "15 Juin 2023",
     "articleTitle": "L'Avenir du Luxe : Marchés Émergents à Surveiller en 2024",
-    "excerpt": "Alors que les modèles de richesse mondiale évoluent, nous analysons les étoiles montantes de l'immobilier de luxe que les investisseurs avisés devraient avoir à l'horizon pour l'année à venir.",
+    "excerpt": "Avec l'évolution des modèles de richesse mondiale, nous analysons les étoiles montantes dans l'immobilier de luxe que les investisseurs intelligents devraient avoir sur leur radar pour l'année à venir.",
     "readArticle": "Lire l'Article",
-    "exploreMore": "Explorer Plus de Perspectives"
+    "exploreMore": "Explorer Plus de Perspectives",
+    "meta": {
+      "title": "Perspectives et Actualités Immobilières de Luxe | Prestige Estates",
+      "description": "Restez informé avec notre analyse d'experts, les tendances du marché et les perspectives exclusives du monde des investissements immobiliers de luxe."
+    },
+    "featured": "En Vedette",
+    "by": "Par",
+    "sectionHeader": {
+      "title": "Dernières Perspectives du Marché",
+      "subtitle": "Restez informé avec notre analyse d'experts et les sujets tendance dans les marchés immobiliers de luxe dans le monde entier."
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Solutions immobilières complètes adaptées à vos besoins uniques.",
+    "subtitle": "Solutions immobilières complètes conçues spécifiquement pour vos besoins uniques.",
     "propertyAcquisition": {
       "title": "Acquisition de Propriétés",
       "description": "Notre réseau mondial et notre expertise du marché garantissent que vous trouviez la propriété parfaite qui répond à tous vos besoins."
     },
     "investmentAdvisory": {
       "title": "Conseil en Investissement",
-      "description": "Conseils stratégiques pour maximiser les rendements de vos investissements immobiliers avec notre approche basée sur les données."
+      "description": "Orientation stratégique pour maximiser les rendements de vos investissements immobiliers avec notre approche basée sur les données."
     },
     "relocationServices": {
       "title": "Services de Relocalisation",
-      "description": "Support complet pour les clients internationaux déménageant vers de nouveaux pays, incluant l'assistance légale et logistique."
+      "description": "Support complet pour les clients internationaux qui déménagent vers de nouveaux pays, incluant l'assistance légale et logistique."
     }
   },
   "cta": {
-    "title": "Prêt à Trouver Votre Propriété de Rêve ?",
-    "text": "Contactez notre équipe d'experts aujourd'hui pour une consultation personnalisée et commencez votre voyage vers la maison ou propriété d'investissement parfaite.",
+    "title": "Prêt à Trouver votre Propriété de Rêve ?",
+    "text": "Contactez notre équipe d'experts aujourd'hui pour une consultation personnalisée et commencez votre voyage pour trouver la maison ou propriété d'investissement parfaite.",
     "button": "Planifier une Consultation"
   },
   "footer": {
-    "about": "Avec plus de deux décennies d'expérience, Prestige Estates est un cabinet de conseil immobilier mondial de premier plan spécialisé dans les propriétés de luxe et les services de relocalisation sur mesure.",
+    "about": "Avec plus de deux décennies d'expérience, Prestige Estates est une entreprise leader mondiale de conseil immobilier spécialisée dans l'immobilier de luxe et les services de relocalisation personnalisés.",
     "quickLinks": "Liens Rapides",
     "locations": "Emplacements",
     "contact": "Contact",
@@ -87,7 +138,7 @@
     "middleEast": "Moyen-Orient",
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
-    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "address": "123 Avenue du Luxe<br />Beverly Hills, CA 90210",
     "copyright": "© 2023 Prestige Estates. Tous droits réservés.",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions de Service"

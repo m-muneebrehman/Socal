@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Menu, X, Home, MapPin, FileText, Users, Settings, LogOut } from "lucide-react"
+import { Menu, X, Home, MapPin, FileText, Users, Settings, LogOut, BarChart3 } from "lucide-react"
 
 interface AdminNavbarProps {
   onLogout: () => void
@@ -13,6 +13,7 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const navItems = [
+    { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'home', label: 'Home', icon: Home },
     { id: 'cities', label: 'Cities', icon: MapPin },
     { id: 'blogs', label: 'Blogs', icon: FileText },

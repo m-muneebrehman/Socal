@@ -1,0 +1,225 @@
+.testimonialsSection {
+  position: relative;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.slider { position: relative; padding: 0 28px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 44px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, #bfa16b, #d9b878, #bfa16b);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.star {
+  color: #ffd700;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover .star {
+  transform: scale(1.08);
+}
+
+.quoteWrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.quoteWrap::before {
+  content: '\"';
+  font-size: 3.5rem;
+  color: #e8e8e8;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  font-family: serif;
+}
+
+.quote {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 22px;
+  font-style: italic;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.quoteScroll {
+  max-height: 200px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.quoteScroll::-webkit-scrollbar { display: none; }
+
+.fadeBottom {
+  position: absolute;
+  left: 0; right: 0; bottom: 6px;
+  height: 36px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.85));
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.scrollHint {
+  position: absolute;
+  left: 0; right: 0; bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #2c3e50; /* default, arrow gets gold */
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.chevron {
+  display: inline-block;
+  animation: hintBounce 1.6s ease-in-out infinite;
+  color: #bfa16b; /* gold accent */
+  font-weight: 700;
+}
+
+.scrollText {
+  color: #0f172a; /* slate-900 style for strong contrast */
+}
+
+@keyframes hintBounce {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(-4px); opacity: 1; }
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.clientImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.clientName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.clientRole {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  padding: 10px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 1px solid rgba(191, 161, 107, 0.3);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.navLeft { left: -28px; }
+.navRight { right: -28px; }
+
+/* Background image removed per request */
+
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+  .sectionTitle { font-size: 2rem; }
+  .card { padding: 30px; }
+}
+
+/* Slide transition stage */
+.stage { position: relative; min-height: 360px; }
+.stack { position: absolute; inset: 0; }
+
+@keyframes slideOutLeft { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(-60px); } }
+@keyframes slideInRight { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes slideOutRight { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(60px); } }
+@keyframes slideInLeft { from { opacity: 0; transform: translateX(-60px); } to { opacity: 1; transform: translateX(0); } }
+
+.outLeft { animation: slideOutLeft 0.45s ease both; }
+.inRight { animation: slideInRight 0.45s ease both; }
+.outRight { animation: slideOutRight 0.45s ease both; }
+.inLeft { animation: slideInLeft 0.45s ease both; }
+
+

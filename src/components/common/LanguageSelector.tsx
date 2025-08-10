@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useRef, useEffect } from 'react'
 import { useLocale } from 'next-intl'
+import { useRouter, usePathname } from '@/i18n/navigation'
 
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -15,6 +16,8 @@ const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
 
   const currentLanguage = languages.find(lang => lang.code === locale) || languages[0]
 
@@ -29,30 +32,29 @@ const LanguageSelector = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const handleLanguageChange = (languageCode: string) => {
-    // Get current pathname
-    const currentPath = window.location.pathname
-    
-    // Remove current locale from pathname
-    let pathWithoutLocale = currentPath
-    for (const lang of languages) {
-      if (currentPath.startsWith(`/${lang.code}/`)) {
-        pathWithoutLocale = currentPath.replace(`/${lang.code}`, '')
-        break
-      } else if (currentPath === `/${lang.code}`) {
-        pathWithoutLocale = '/'
-        break
-      }
+  const handleLanguageChange = async (languageCode: string) => {
+    // Persist preferred locale globally for middleware defaults
+    try {
+      document.cookie = `NEXT_LOCALE=${languageCode}; path=/; max-age=31536000; samesite=lax`;
+    } catch {}
+    // If on a blog detail, map slug to target locale by group_id
+    const match = pathname.match(/^\/(?:\w{2}\/)?blog\/([^/?#]+)/)
+    if (match) {
+      const currentLocale = locale
+      const currentSlug = decodeURIComponent(match[1])
+      try {
+        const res = await fetch(`/api/blogs/map/${currentLocale}/${languageCode}/${encodeURIComponent(currentSlug)}`)
+        if (res.ok) {
+          const data = await res.json()
+          const targetSlug: string = data?.slug || currentSlug
+          router.replace(`/blog/${encodeURIComponent(targetSlug)}`, { locale: languageCode })
+          setIsOpen(false)
+          return
+        }
+      } catch {}
     }
-    
-    // Ensure pathWithoutLocale starts with /
-    if (!pathWithoutLocale.startsWith('/')) {
-      pathWithoutLocale = '/' + pathWithoutLocale
-    }
-    
-    // Navigate to new locale
-    const newPath = `/${languageCode}${pathWithoutLocale}`
-    window.location.href = newPath
+    // Default: replace to same pathname with new locale
+    router.replace(pathname, { locale: languageCode })
     setIsOpen(false)
   }
 

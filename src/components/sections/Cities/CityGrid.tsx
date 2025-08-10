@@ -1,17 +1,19 @@
 'use client'
 
 import React from 'react'
+import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 
 interface City {
   slug: string
   name: string
   state: string
-  heroImage: string
-  avgHomePrice: string
   shortDescription: string
-  neighborhoods: string[]
+  heroImage: string
+  population: string
+  avgHomePrice: string
   tags: string[]
+  neighborhoods: string[]
 }
 
 interface CityGridProps {
@@ -20,6 +22,8 @@ interface CityGridProps {
 }
 
 const CityGrid: React.FC<CityGridProps> = ({ cities, locale }) => {
+  const t = useTranslations('cities')
+
   return (
     <div className="city-grid-container">
       <div className="cities-grid-beautiful">
@@ -44,7 +48,7 @@ const CityGrid: React.FC<CityGridProps> = ({ cities, locale }) => {
                 <div className="city-header-beautiful">
                   <h3 className="city-name-beautiful">{city.name}</h3>
                   <div className="city-neighborhoods-count-beautiful">
-                    {city.neighborhoods?.length || 0} neighborhoods
+                    {city.neighborhoods?.length || 0} {t('neighborhoods')}
                   </div>
                 </div>
                 

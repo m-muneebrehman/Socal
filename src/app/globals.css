@@ -2,8 +2,12 @@
 
 /* src/app/globals.css */
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
+
+/* Smooth scrolling for the entire application */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Custom colors - exact match from index2.html */
 :root {
@@ -4747,7 +4751,7 @@ body {
 
 /* Main Content */
 .admin-main-content {
-  margin-left: 288px;
+  margin-left: 0;
   transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   flex: 1;
   display: flex;

@@ -195,12 +195,12 @@ const CityPage = () => {
                 <div className="hero-quick-stats">
                   <div className="quick-stat">
                     <span className="stat-number">{city.population}</span>
-                    <span className="stat-label">residents</span>
+                    <span className="stat-label">{t('cityPage.residents')}</span>
                   </div>
                   <div className="stat-divider"></div>
                   <div className="quick-stat">
                     <span className="stat-number">{city.avgHomePrice}</span>
-                    <span className="stat-label">avg price</span>
+                    <span className="stat-label">{t('cityPage.avgPrice')}</span>
                   </div>
                 </div>
               </div>
@@ -208,12 +208,12 @@ const CityPage = () => {
               {/* Main Title Section */}
               <div className="hero-title-section">
                 <div className="hero-eyebrow">
-                  <span className="eyebrow-text">Premium Destination</span>
+                  <span className="eyebrow-text">{t('cityPage.premiumDestination')}</span>
                   <div className="eyebrow-line"></div>
                 </div>
                 
                 <h1 className="hero-main-title">
-                  <span className="title-line-1">Discover the Magic of</span>
+                  <span className="title-line-1">{t('cityPage.discoverMagicOf')}</span>
                   <span className="title-line-2">{city.name}</span>
                 </h1>
                 
@@ -224,7 +224,7 @@ const CityPage = () => {
               <div className="hero-actions">
                 <button className="hero-btn-primary">
                   <div className="btn-content">
-                    <span className="btn-text">Explore Properties</span>
+                    <span className="btn-text">{t('cityPage.exploreProperties')}</span>
                     <div className="btn-icon">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -236,7 +236,7 @@ const CityPage = () => {
                 
                 <button className="hero-btn-secondary">
                   <div className="btn-content">
-                    <span className="btn-text">Contact Agent</span>
+                    <span className="btn-text">{t('cityPage.contactAgent')}</span>
                     <div className="btn-icon">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                         <path d="M22 2H2L10 12.46V19L14 17V12.46L22 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -263,7 +263,7 @@ const CityPage = () => {
                   </svg>
                 </div>
                 <div className="stat-number">{city.population}</div>
-                <div className="stat-label">Population</div>
+                <div className="stat-label">{t('cityPage.population')}</div>
               </div>
               
               <div className="stat-card">
@@ -274,7 +274,7 @@ const CityPage = () => {
                   </svg>
                 </div>
                 <div className="stat-number">{city.avgHomePrice}</div>
-                <div className="stat-label">Avg Home Price</div>
+                <div className="stat-label">{t('cityPage.avgHomePrice')}</div>
               </div>
               
               <div className="stat-card">
@@ -285,7 +285,7 @@ const CityPage = () => {
                   </svg>
                 </div>
                 <div className="stat-number">{city.neighborhoods.length}</div>
-                <div className="stat-label">Neighborhoods</div>
+                <div className="stat-label">{t('cityPage.neighborhoods')}</div>
               </div>
               
               <div className="stat-card">
@@ -297,7 +297,7 @@ const CityPage = () => {
                   </svg>
                 </div>
                 <div className="stat-number">{city.highlights.length}</div>
-                <div className="stat-label">Highlights</div>
+                <div className="stat-label">{t('cityPage.highlights')}</div>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ const CityPage = () => {
         {/* City About Section */}
         <section className="city-about-section">
           <div className="city-about-container">
-            <h2 className="section-title-large">About {city.name}</h2>
+            <h2 className="section-title-large">{t('cityPage.about')} {city.name}</h2>
             <p className="about-description">{city.fullDescription}</p>
             
             <div className="city-tags-enhanced">
@@ -321,8 +321,8 @@ const CityPage = () => {
         <section className="city-highlights-enhanced">
           <div className="highlights-container">
             <div className="section-header-center">
-              <span className="section-eyebrow">Highlights</span>
-              <h2 className="section-title-large">What Makes {city.name} Special</h2>
+              <span className="section-eyebrow">{t('cityPage.highlights')}</span>
+              <h2 className="section-title-large">{t('cityPage.whatMakesSpecial', { cityName: city.name })}</h2>
             </div>
             
             <div className="highlights-grid">
@@ -344,7 +344,7 @@ const CityPage = () => {
                 ))
               ) : (
                 <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#666' }}>
-                  <p>No highlights available for {city.name}</p>
+                  <p>{t('cityPage.noHighlightsAvailable', { cityName: city.name })}</p>
                 </div>
               )}
             </div>
@@ -355,9 +355,9 @@ const CityPage = () => {
         <section className="cities-section-beautiful" id="neighborhoods">
           <div className="cities-container-beautiful">
             <div className="section-header-beautiful">
-              <span className="section-eyebrow-beautiful">Nearby Cities</span>
-              <h2 className="section-title-beautiful">Explore Surrounding Areas</h2>
-              <p className="section-subtitle-beautiful">Discover the diverse neighborhoods and cities around {city.name}</p>
+              <span className="section-eyebrow-beautiful">{t('cityPage.nearbyCities')}</span>
+              <h2 className="section-title-beautiful">{t('cityPage.exploreSurroundingAreas')}</h2>
+              <p className="section-subtitle-beautiful">{t('cityPage.discoverDiverseNeighborhoods', { cityName: city.name })}</p>
             </div>
             
             <div className="cities-grid-beautiful">
@@ -373,7 +373,7 @@ const CityPage = () => {
                     <div className="city-image-beautiful" style={{ backgroundImage: `url('${neighborhood.image}')` }}>
                       <div className="city-gradient-overlay-beautiful"></div>
                       <div className="city-badges-beautiful">
-                        <span className="city-state-badge-beautiful">{neighborhood.county} County</span>
+                        <span className="city-state-badge-beautiful">{neighborhood.county} {t('cityPage.county')}</span>
                         <span className="city-price-badge-beautiful">{neighborhood.avgHomePrice}</span>
                       </div>
                     </div>
@@ -389,7 +389,7 @@ const CityPage = () => {
                       <p className="city-description-beautiful">{neighborhood.description}</p>
                       
                       <div className="city-tags-row-beautiful">
-                        <span className="city-tag-beautiful">{neighborhood.county} County</span>
+                        <span className="city-tag-beautiful">{neighborhood.county} {t('cityPage.county')}</span>
                         <span className="city-tag-beautiful">{neighborhood.distance}</span>
                       </div>
                       
@@ -412,8 +412,8 @@ const CityPage = () => {
         <section className="city-faqs-enhanced">
           <div className="faqs-container">
             <div className="section-header-center">
-              <span className="section-eyebrow">FAQ</span>
-              <h2 className="section-title-large">Everything You Need to Know</h2>
+              <span className="section-eyebrow">{t('cityPage.faq')}</span>
+              <h2 className="section-title-large">{t('cityPage.everythingYouNeedToKnow')}</h2>
             </div>
             
             {/* FAQ Categories */}
@@ -424,7 +424,7 @@ const CityPage = () => {
                   className={`faq-category-btn ${activeTab === category ? 'active' : ''}`}
                   onClick={() => setActiveTab(category)}
                 >
-                  {category === 'all' ? 'All Questions' : category}
+                  {category === 'all' ? t('cityPage.allQuestions') : category}
                 </button>
               ))}
             </div>
@@ -449,7 +449,7 @@ const CityPage = () => {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span>Explore All Cities</span>
+              <span>{t('cityPage.exploreAllCities')}</span>
             </Link>
           </div>
         </section>

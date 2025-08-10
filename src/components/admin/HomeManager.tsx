@@ -1,20 +1,38 @@
 "use client"
 
-import { useState } from "react"
-import { Edit2, Save, X } from "lucide-react"
+import { useState, useEffect } from "react"
+import { Edit2, Save, X, Globe } from "lucide-react"
 import { HomeData } from "@/types"
 
 interface HomeManagerProps {
   homeData: HomeData
-  updateHomeData: (data: HomeData) => void
+  updateHomeData: (data: HomeData, locale: string) => void
+  currentLocale: string
+  onLocaleChange: (locale: string) => void
 }
 
 export default function HomeManager({ 
   homeData, 
-  updateHomeData
+  updateHomeData,
+  currentLocale,
+  onLocaleChange
 }: HomeManagerProps) {
   const [editingSection, setEditingSection] = useState<string | null>(null)
   const [editData, setEditData] = useState<HomeData>(homeData)
+
+  // Update editData whenever homeData changes (e.g., when locale changes)
+  useEffect(() => {
+    setEditData(homeData)
+  }, [homeData])
+
+  const availableLocales = [
+    { code: 'en', name: 'English', flag: '🇺🇸' },
+    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'ar', name: 'العربية', flag: '🇸🇦' },
+    { code: 'zh', name: '中文', flag: '🇨🇳' }
+  ]
 
   const handleEdit = (section: string) => {
     setEditingSection(section)
@@ -22,7 +40,7 @@ export default function HomeManager({
   }
 
   const handleSave = () => {
-    updateHomeData(editData)
+    updateHomeData(editData, currentLocale)
     setEditingSection(null)
   }
 
@@ -31,8 +49,60 @@ export default function HomeManager({
     setEditData(homeData)
   }
 
+  const handleLocaleChange = (locale: string) => {
+    onLocaleChange(locale)
+    setEditingSection(null) // Close any open editing sections when changing locale
+  }
+
   return (
     <div className="admin-home-content">
+      {/* Locale Selector */}
+      <div className="locale-selector" style={{
+        background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
+        borderRadius: '16px',
+        padding: '20px 24px',
+        marginBottom: '24px',
+        border: '1px solid #e2e8f0',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)'
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <Globe size={20} color="#64748b" />
+          <span style={{ fontSize: '14px', fontWeight: '500', color: '#64748b' }}>
+            Edit Home Page Content for:
+          </span>
+        </div>
+        <div style={{ display: 'flex', gap: '8px' }}>
+          {availableLocales.map((locale) => (
+            <button
+              key={locale.code}
+              onClick={() => handleLocaleChange(locale.code)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 16px',
+                borderRadius: '8px',
+                border: currentLocale === locale.code ? '2px solid #d4af37' : '1px solid #e2e8f0',
+                background: currentLocale === locale.code ? 'rgba(212, 175, 55, 0.1)' : 'white',
+                color: currentLocale === locale.code ? '#d4af37' : '#64748b',
+                fontSize: '14px',
+                fontWeight: currentLocale === locale.code ? '600' : '500',
+                cursor: 'pointer',
+                transition: 'all 0.2s ease',
+                minWidth: '80px',
+                justifyContent: 'center'
+              }}
+            >
+              <span style={{ fontSize: '16px' }}>{locale.flag}</span>
+              <span>{locale.name}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="section-header" style={{
         background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
         borderRadius: '16px',
@@ -59,12 +129,12 @@ export default function HomeManager({
             fontWeight: '600',
             color: '#1a1a1a',
             marginBottom: '8px'
-          }}>Home Page Content</h2>
+          }}>Home Page Content - {availableLocales.find(l => l.code === currentLocale)?.name}</h2>
           <p style={{
             fontSize: '14px',
             color: '#64748b',
             margin: 0
-          }}>Manage and customize your home page content</p>
+          }}>Manage and customize your home page content for {availableLocales.find(l => l.code === currentLocale)?.name}</p>
         </div>
       </div>
 
@@ -458,12 +528,12 @@ export default function HomeManager({
                 <input
                   type="text"
                   className="form-input"
-                  value={editData.cities?.title || 'Explore California Cities'}
+                  value={editData.cities?.title || ''}
                   onChange={(e) => setEditData(prev => ({
                     ...prev,
                     cities: { 
                       title: e.target.value,
-                      subtitle: prev.cities?.subtitle || 'Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.'
+                      subtitle: prev.cities?.subtitle || ''
                     }
                   }))}
                 />
@@ -473,11 +543,11 @@ export default function HomeManager({
                 <label className="form-label">Section Subtitle</label>
                 <textarea
                   className="form-textarea"
-                  value={editData.cities?.subtitle || 'Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.'}
+                  value={editData.cities?.subtitle || ''}
                   onChange={(e) => setEditData(prev => ({
                     ...prev,
                     cities: { 
-                      title: prev.cities?.title || 'Explore California Cities',
+                      title: prev.cities?.title || '',
                       subtitle: e.target.value
                     }
                   }))}
@@ -502,7 +572,7 @@ export default function HomeManager({
                   letterSpacing: '0.5px',
                   textAlign: 'center'
                 }}>
-                  {editData.cities?.title || 'Explore California Cities'}
+                  {homeData.cities?.title || ''}
                 </h2>
                 <p className="section-subtitle" style={{
                   fontSize: '18px',
@@ -512,7 +582,7 @@ export default function HomeManager({
                   maxWidth: '600px',
                   textAlign: 'center'
                 }}>
-                  {editData.cities?.subtitle || 'Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.'}
+                  {homeData.cities?.subtitle || ''}
                 </p>
               </div>
               <div style={{
@@ -596,12 +666,12 @@ export default function HomeManager({
                 <input
                   type="text"
                   className="form-input"
-                  value={editData.blog?.title || 'Latest Insights'}
+                  value={editData.blog?.title || ''}
                   onChange={(e) => setEditData(prev => ({
                     ...prev,
                     blog: { 
                       title: e.target.value,
-                      subtitle: prev.blog?.subtitle || 'Discover our expert perspectives on luxury real estate markets worldwide.'
+                      subtitle: prev.blog?.subtitle || ''
                     }
                   }))}
                 />
@@ -611,11 +681,11 @@ export default function HomeManager({
                 <label className="form-label">Section Subtitle</label>
                 <textarea
                   className="form-textarea"
-                  value={editData.blog?.subtitle || 'Discover our expert perspectives on luxury real estate markets worldwide.'}
+                  value={editData.blog?.subtitle || ''}
                   onChange={(e) => setEditData(prev => ({
                     ...prev,
                     blog: { 
-                      title: prev.blog?.title || 'Latest Insights',
+                      title: prev.blog?.title || '',
                       subtitle: e.target.value
                     }
                   }))}
@@ -640,7 +710,7 @@ export default function HomeManager({
                   letterSpacing: '0.5px',
                   textAlign: 'center'
                 }}>
-                  {editData.blog?.title || 'Latest Insights'}
+                  {homeData.blog?.title || ''}
                 </h2>
                 <p className="section-subtitle" style={{
                   fontSize: '18px',
@@ -650,7 +720,7 @@ export default function HomeManager({
                   maxWidth: '600px',
                   textAlign: 'center'
                 }}>
-                  {editData.blog?.subtitle || 'Discover our expert perspectives on luxury real estate markets worldwide.'}
+                  {homeData.blog?.subtitle || ''}
                 </p>
               </div>
               <div style={{
@@ -1145,6 +1215,367 @@ export default function HomeManager({
                     {homeData.services.relocationServices.description}
                   </p>
                 </div>
+              </div>
+            </div>
+          )}
+        </div>
+
+        
+
+        {/* Testimonials Section */}
+        <div className="card home-section-card">
+          <div className="card-header">
+            <div>
+              <h3 className="card-title">Testimonials Section</h3>
+              <p className="card-subtitle">Customer testimonials and reviews</p>
+            </div>
+            <div className="card-actions">
+              {editingSection === 'testimonials' ? (
+                <>
+                  <button className="action-btn save" onClick={handleSave}>
+                    <Save size={16} />
+                  </button>
+                  <button className="action-btn cancel" onClick={handleCancel}>
+                    <X size={16} />
+                  </button>
+                </>
+              ) : (
+                <button className="action-btn edit" onClick={() => handleEdit('testimonials')}>
+                  <Edit2 size={16} />
+                </button>
+              )}
+            </div>
+          </div>
+
+          {editingSection === 'testimonials' ? (
+            <div className="edit-form">
+              <div className="form-group">
+                <label className="form-label">Section Title</label>
+                <input
+                  type="text"
+                  className="form-input"
+                  value={editData.testimonials.title}
+                  onChange={(e) => setEditData(prev => ({
+                    ...prev,
+                    testimonials: { ...prev.testimonials, title: e.target.value }
+                  }))}
+                />
+              </div>
+
+              <div className="form-group">
+                <label className="form-label">Section Subtitle</label>
+                <textarea
+                  className="form-textarea"
+                  value={editData.testimonials.subtitle}
+                  onChange={(e) => setEditData(prev => ({
+                    ...prev,
+                    testimonials: { ...prev.testimonials, subtitle: e.target.value }
+                  }))}
+                />
+              </div>
+
+              <div className="form-group">
+                <label className="form-label">Testimonials Management</label>
+                <div className="testimonials-management">
+                  <div className="testimonials-list">
+                    {editData.testimonials.items.map((testimonial, index) => (
+                      <div key={testimonial.id} className="testimonial-item" style={{
+                        border: '1px solid #e2e8f0',
+                        borderRadius: '8px',
+                        padding: '16px',
+                        marginBottom: '16px',
+                        background: '#f8fafc'
+                      }}>
+                        <div className="testimonial-header" style={{
+                          display: 'flex',
+                          justifyContent: 'space-between',
+                          alignItems: 'center',
+                          marginBottom: '12px'
+                        }}>
+                          <h4 style={{ margin: 0, fontSize: '16px', fontWeight: '600' }}>
+                            Testimonial {index + 1}
+                          </h4>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              const newItems = editData.testimonials.items.filter((_, i) => i !== index)
+                              setEditData(prev => ({
+                                ...prev,
+                                testimonials: { 
+                                  ...prev.testimonials,
+                                  items: newItems
+                                }
+                              }))
+                            }}
+                            style={{
+                              background: '#ef4444',
+                              color: 'white',
+                              border: 'none',
+                              borderRadius: '4px',
+                              padding: '4px 8px',
+                              fontSize: '12px',
+                              cursor: 'pointer'
+                            }}
+                          >
+                            Remove
+                          </button>
+                        </div>
+                        
+                        <div className="testimonial-fields" style={{
+                          display: 'grid',
+                          gridTemplateColumns: '1fr 1fr',
+                          gap: '12px'
+                        }}>
+                          <div className="form-group">
+                            <label className="form-label" style={{ fontSize: '12px' }}>Author Name</label>
+                            <input
+                              type="text"
+                              className="form-input"
+                              value={testimonial.author}
+                              onChange={(e) => {
+                                const newItems = [...editData.testimonials.items]
+                                newItems[index] = { ...newItems[index], author: e.target.value }
+                                setEditData(prev => ({
+                                  ...prev,
+                                  testimonials: { 
+                                    ...prev.testimonials,
+                                    items: newItems
+                                  }
+                                }))
+                              }}
+                            />
+                          </div>
+                          
+                          <div className="form-group">
+                            <label className="form-label" style={{ fontSize: '12px' }}>Rating (1-5)</label>
+                            <input
+                              type="number"
+                              min="1"
+                              max="5"
+                              className="form-input"
+                              value={testimonial.rating}
+                              onChange={(e) => {
+                                const newItems = [...editData.testimonials.items]
+                                newItems[index] = { ...newItems[index], rating: parseInt(e.target.value) || 5 }
+                                setEditData(prev => ({
+                                  ...prev,
+                                  testimonials: { 
+                                    ...prev.testimonials,
+                                    items: newItems
+                                  }
+                                }))
+                              }}
+                            />
+                          </div>
+                          
+                          <div className="form-group" style={{ gridColumn: '1 / -1' }}>
+                            <label className="form-label" style={{ fontSize: '12px' }}>Quote</label>
+                            <textarea
+                              className="form-textarea"
+                              value={testimonial.quote}
+                              onChange={(e) => {
+                                const newItems = [...editData.testimonials.items]
+                                newItems[index] = { ...newItems[index], quote: e.target.value }
+                                setEditData(prev => ({
+                                  ...prev,
+                                  testimonials: { 
+                                    ...prev.testimonials,
+                                    items: newItems
+                                  }
+                                }))
+                              }}
+                              placeholder="Customer testimonial quote"
+                              rows={3}
+                            />
+                          </div>
+                          
+                          <div className="form-group" style={{ gridColumn: '1 / -1' }}>
+                            <label className="form-label" style={{ fontSize: '12px' }}>Author Image</label>
+                            <input
+                              type="text"
+                              className="form-input"
+                              value={testimonial.image}
+                              onChange={(e) => {
+                                const newItems = [...editData.testimonials.items]
+                                newItems[index] = { ...newItems[index], image: e.target.value }
+                                setEditData(prev => ({
+                                  ...prev,
+                                  testimonials: { 
+                                    ...prev.testimonials,
+                                    items: newItems
+                                  }
+                                }))
+                              }}
+                              placeholder="Image URL or path (e.g., /testimonials/author1.jpg)"
+                            />
+                            <small className="form-help">Enter image URL or upload path</small>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const newTestimonial = {
+                        id: `t${Date.now()}`,
+                        quote: 'New testimonial quote',
+                        author: 'New Author',
+                        rating: 5,
+                        image: '/testimonials/author-default.jpg'
+                      }
+                      const newItems = [...editData.testimonials.items, newTestimonial]
+                      setEditData(prev => ({
+                        ...prev,
+                        testimonials: { 
+                          ...prev.testimonials,
+                          items: newItems
+                        }
+                      }))
+                    }}
+                    style={{
+                      background: '#10b981',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '8px',
+                      padding: '12px 20px',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      cursor: 'pointer',
+                      marginTop: '16px',
+                      width: '100%'
+                    }}
+                  >
+                    + Add New Testimonial
+                  </button>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div className="section-preview">
+              <div className="section-header" style={{
+                textAlign: 'center',
+                marginBottom: '40px',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <h2 style={{
+                  fontFamily: 'Playfair Display, serif',
+                  fontSize: '36px',
+                  fontWeight: '600',
+                  color: '#1a1a1a',
+                  margin: '0 0 16px 0',
+                  letterSpacing: '0.5px',
+                  textAlign: 'center'
+                }}>
+                  {homeData.testimonials.title}
+                </h2>
+                <p className="section-subtitle" style={{
+                  fontSize: '18px',
+                  color: 'rgba(26, 26, 26, 0.7)',
+                  margin: '0',
+                  lineHeight: '1.6',
+                  maxWidth: '600px',
+                  textAlign: 'center'
+                }}>
+                  {homeData.testimonials.subtitle}
+                </p>
+              </div>
+              
+              <div className="testimonials-grid" style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                gap: '30px',
+                maxWidth: '1200px',
+                margin: '0 auto'
+              }}>
+                {homeData.testimonials.items.map((testimonial) => (
+                  <div key={testimonial.id} className="testimonial-card" style={{
+                    background: '#ffffff',
+                    borderRadius: '12px',
+                    padding: '20px',
+                    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
+                    transition: 'all 0.3s ease',
+                    border: '1px solid #e2e8f0'
+                  }}>
+                    <div className="testimonial-rating" style={{
+                      display: 'flex',
+                      gap: '4px',
+                      marginBottom: '12px',
+                      justifyContent: 'center'
+                    }}>
+                      {[...Array(5)].map((_, i) => (
+                        <span key={i} style={{
+                          color: i < testimonial.rating ? '#fbbf24' : '#d1d5db',
+                          fontSize: '18px'
+                        }}>
+                          ★
+                        </span>
+                      ))}
+                    </div>
+                    
+                    <blockquote style={{
+                      fontSize: '16px',
+                      lineHeight: '1.6',
+                      color: '#374151',
+                      margin: '0 0 16px 0',
+                      fontStyle: 'italic',
+                      textAlign: 'center',
+                      maxHeight: '80px',
+                      overflow: 'hidden',
+                      display: '-webkit-box',
+                      WebkitLineClamp: 3,
+                      WebkitBoxOrient: 'vertical'
+                    }}>
+                      "{testimonial.quote.length > 120 ? testimonial.quote.substring(0, 120) + '...' : testimonial.quote}"
+                    </blockquote>
+                    
+                    <div className="testimonial-author" style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      gap: '12px'
+                    }}>
+                      <div className="author-image" style={{
+                        width: '48px',
+                        height: '48px',
+                        borderRadius: '50%',
+                        overflow: 'hidden',
+                        background: '#f1f5f9',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        fontSize: '16px',
+                        color: '#64748b'
+                      }}>
+                        {testimonial.image && testimonial.image !== '/testimonials/author-default.jpg' ? (
+                          <img 
+                            src={testimonial.image} 
+                            alt={testimonial.author}
+                            style={{
+                              width: '100%',
+                              height: '100%',
+                              objectFit: 'cover'
+                            }}
+                          />
+                        ) : (
+                          '👤'
+                        )}
+                      </div>
+                      <div className="author-info">
+                        <div className="author-name" style={{
+                          fontSize: '16px',
+                          fontWeight: '600',
+                          color: '#1a1a1a'
+                        }}>
+                          {testimonial.author}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           )}

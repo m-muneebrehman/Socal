@@ -5,11 +5,12 @@
     "role": "User",
     "status": "Active",
     "createdAt": "2025-08-07T11:41:23.547Z",
-    "updatedAt": "2025-08-07T11:41:23.547Z"
+    "updatedAt": "2025-08-09T18:53:45.787Z"
   },
   {
     "id": "6895f8554b5062744da589f5",
     "email": "bakhat@gmail.com",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
     "role": "Admin",
     "status": "Active",
     "createdAt": "2025-08-08T13:15:01.425Z",

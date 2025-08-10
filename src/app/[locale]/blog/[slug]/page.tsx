@@ -3,22 +3,48 @@
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
-import { notFound } from 'next/navigation'
-import blogsData from '@/data/blogs.json'
+import { notFound, useParams } from 'next/navigation'
 import RelatedArticles from '@/components/sections/Blog/RelatedArticles'
 import NewsletterSignup from '@/components/sections/Blog/NewsletterSignup'
+import type { Blog as BlogType } from '@/types'
 
-interface BlogPageProps {
-  params: {
-    slug: string
-  }
-}
-
-const BlogPage = ({ params }: BlogPageProps) => {
+const BlogPage = () => {
   const t = useTranslations('blog')
-  const blog = blogsData.find(b => b.slug === params.slug)
+  const routeParams = useParams() as any
+  const locale = routeParams?.locale || 'en'
+  const slug = routeParams?.slug
+  const [blog, setBlog] = useState<BlogType | null>(null)
+  const [loading, setLoading] = useState(true)
 
-  if (!blog) {
+  useEffect(() => {
+    let isMounted = true
+    const fetchBlog = async () => {
+      try {
+        setLoading(true)
+        if (!slug) return
+        const res = await fetch(`/api/blogs/${locale}/${slug}`)
+        if (res.ok) {
+          const data = await res.json()
+          if (isMounted) setBlog(data)
+        } else {
+          const fallback = await fetch(`/api/blogs/en/${slug}`)
+          if (fallback.ok) {
+            const data = await fallback.json()
+            if (isMounted) setBlog(data)
+            else if (isMounted) setBlog(null)
+          } else if (isMounted) setBlog(null)
+        }
+      } catch {
+        if (isMounted) setBlog(null)
+      } finally {
+        if (isMounted) setLoading(false)
+      }
+    }
+    fetchBlog()
+    return () => { isMounted = false }
+  }, [locale, slug])
+
+  if (!loading && !blog) {
     notFound()
   }
 
@@ -26,7 +52,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
   useEffect(() => {
     const updateReadingProgress = () => {
       const article = document.querySelector('.article-content')
-      if (!article) return
+      if (!(article instanceof HTMLElement)) return
 
       const scrollTop = window.scrollY
       const articleTop = article.getBoundingClientRect().top + window.scrollY
@@ -73,6 +99,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
   }, [])
 
   const handleShare = () => {
+    if (!blog) return
     if (navigator.share) {
       navigator.share({
         title: blog.title,
@@ -88,6 +115,10 @@ const BlogPage = ({ params }: BlogPageProps) => {
 
   const handleSave = () => {
     alert('Article saved to your reading list!')
+  }
+
+  if (loading || !blog) {
+    return <main className="blog-post-page" />
   }
 
   return (
@@ -187,7 +218,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
             <>
               <p className="lead">{blog.content.lead}</p>
               
-              {blog.content.sections.map((section, index) => (
+              {blog.content.sections.map((section: any, index: number) => (
                 <div key={index}>
                   <h2>{section.title}</h2>
                   <p>{section.content}</p>
@@ -203,7 +234,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
                   
                   {section.subsections && (
                     <>
-                      {section.subsections.map((subsection, subIndex) => (
+                      {section.subsections.map((subsection: any, subIndex: number) => (
                         <div key={subIndex}>
                           <h3>{subsection.title}</h3>
                           <p>{subsection.content}</p>
@@ -214,7 +245,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
                   
                   {section.list && (
                     <ul>
-                      {section.list.map((item, listIndex) => (
+                      {section.list.map((item: any, listIndex: number) => (
                         <li key={listIndex}>{item}</li>
                       ))}
                     </ul>
@@ -248,7 +279,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
             <div className="sidebar-card toc">
               <h3>Table of Contents</h3>
               <ul className="toc-list">
-                {blog.content.sections.map((section, index) => (
+                {blog.content.sections.map((section: any, index: number) => (
                   <li key={index}>
                     <a href={`#${section.title.toLowerCase().replace(/\s+/g, '-')}`}>
                       {section.title}
@@ -262,7 +293,7 @@ const BlogPage = ({ params }: BlogPageProps) => {
       </div>
 
       {/* Related Articles */}
-      <RelatedArticles currentBlogId={blog.id} />
+      <RelatedArticles currentBlogId={(blog as any).id ?? blog.slug} />
 
       {/* Newsletter Subscription */}
       <NewsletterSignup />

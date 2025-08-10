@@ -59,3 +59,14 @@
 .animate-fadeInOut {
   animation: fadeInOut 2s ease-in-out infinite;
 }
+
+@keyframes swipeLeft {
+  from { transform: translateX(40px); opacity: 0.01; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@keyframes swipeRight {
+  from { transform: translateX(-40px); opacity: 0.01; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.animate-swipeLeft { animation: swipeLeft 0.35s ease-out; }
+.animate-swipeRight { animation: swipeRight 0.35s ease-out; }
