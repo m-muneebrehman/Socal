@@ -979,6 +979,22 @@ export default function AdminDashboard() {
 
   return (
     <div className="admin-dashboard" style={{ display: 'flex', minHeight: '100vh' }}>
+        {/* Mobile Sidebar Overlay */}
+        <div 
+          className={`admin-sidebar-overlay ${sidebarCollapsed ? '' : 'show'}`}
+          onClick={() => setSidebarCollapsed(true)}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(0, 0, 0, 0.5)',
+            zIndex: 1000,
+            display: 'none'
+          }}
+        />
+        
         {/* Main Content Area */}
         <div className="admin-main-content" style={{ 
           flex: 1, 

@@ -77,11 +77,31 @@ const Testimonials: React.FC<TestimonialsProps> = ({
   const [page, setPage] = React.useState(0)
   const [direction, setDirection] = React.useState<'left' | 'right' | null>(null)
   const [anim, setAnim] = React.useState<'outLeft' | 'inRight' | 'outRight' | 'inLeft' | ''>('')
+  const [pageSize, setPageSize] = React.useState(3)
 
-  const pageSize = 3
+  const computePageSize = React.useCallback(() => {
+    if (typeof window === 'undefined') return 3
+    const width = window.innerWidth
+    if (width <= 640) return 1
+    if (width <= 1024) return 2
+    return 3
+  }, [])
+
+  React.useEffect(() => {
+    setPageSize(computePageSize())
+    const onResize = () => setPageSize(computePageSize())
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [computePageSize])
+
   const totalPages = Math.max(1, Math.ceil(items.length / pageSize))
 
+  React.useEffect(() => {
+    if (page >= totalPages) setPage(0)
+  }, [totalPages, page])
+
   const handleNext = () => {
+    if (items.length <= pageSize) return
     setDirection('left')
     setAnim('outLeft')
     setTimeout(() => {
@@ -92,6 +112,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({
   }
 
   const handlePrev = () => {
+    if (items.length <= pageSize) return
     setDirection('right')
     setAnim('outRight')
     setTimeout(() => {
@@ -104,7 +125,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({
   const startIndex = page * pageSize
   const current = items.slice(startIndex, startIndex + pageSize)
 
-  // If fewer than 3 remain, optionally wrap to show 3
+  // If fewer than pageSize remain, optionally wrap to show a full page
   const display = current.length < pageSize
     ? [...current, ...items.slice(0, pageSize - current.length)]
     : current
@@ -118,6 +139,8 @@ const Testimonials: React.FC<TestimonialsProps> = ({
     }
   }, [direction])
 
+  const navDisabled = items.length <= pageSize
+
   return (
     <section id="testimonials" className={styles.testimonialsSection}>
       <div className={styles.container}>
@@ -127,57 +150,73 @@ const Testimonials: React.FC<TestimonialsProps> = ({
         </div>
 
         {/* Left Arrow */}
-        <button className={`${styles.navBtn} ${styles.navLeft}`} aria-label="Previous" onClick={handlePrev}>
+        <button
+          className={`${styles.navBtn} ${styles.navLeft}`}
+          aria-label="Previous"
+          onClick={handlePrev}
+          disabled={navDisabled}
+        >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </button>
 
-        {/* Cards Grid (3 fixed) */}
+        {/* Cards Grid */}
         <div className={`${styles.slider}`}>
           <div className={`${styles.stage}`}>
             <div className={`${styles.grid} ${styles.stack} ${animationClass}`}>
-            {display.map((t) => (
-              <div key={t.id} className={styles.card}>
-                {/* Stars */}
-                {t.rating ? (
-                  <div className={styles.stars}>
-                    {Array.from({ length: t.rating }).map((_, i) => (
-                      <span key={i} className={styles.star}>★</span>
-                    ))}
-                  </div>
-                ) : null}
+              {display.map((t) => (
+                <div key={t.id} className={styles.card}>
+                  {/* Stars */}
+                  {t.rating ? (
+                    <div className={styles.stars}>
+                      {Array.from({ length: t.rating }).map((_, i) => (
+                        <span key={i} className={styles.star}>★</span>
+                      ))}
+                    </div>
+                  ) : null}
 
-                                 {/* Client (moved above quote) */}
-                 <div className={styles.client}>
-                   <div className={styles.avatar}>
-                     <img src={t.image} alt={t.author} className={styles.clientImage} />
-                   </div>
-                   <div>
-                     <div className={styles.clientName}>{t.author}</div>
-                     <div className={styles.clientRole}>Happy Client</div>
-                   </div>
-                 </div>
-
-                {/* Quote (glass container with scroll, full card width starting near top) */}
-                <div className={styles.quoteWrap}>
-                  <div className={`${styles.glass} ${styles.quoteScroll}`}>
-                    <p className={styles.quote}>{t.quote}</p>
+                  {/* Client */}
+                  <div className={styles.client}>
+                    <div className={styles.avatar}>
+                      {t.image ? (
+                        <img src={t.image} alt={t.author} className={styles.clientImage} />
+                      ) : (
+                        <div className={styles.clientImage} aria-label={t.author}>
+                          {getInitials(t.author)}
+                        </div>
+                      )}
+                    </div>
+                    <div>
+                      <div className={styles.clientName}>{t.author}</div>
+                      <div className={styles.clientRole}>Happy Client</div>
+                    </div>
                   </div>
-                  <div className={styles.fadeBottom} />
-                  <div className={styles.scrollHint}>
-                    <span className={styles.chevron}>↑</span>
-                    <span className={styles.scrollText}>Scroll</span>
+
+                  {/* Quote */}
+                  <div className={styles.quoteWrap}>
+                    <div className={`${styles.glass} ${styles.quoteScroll}`}>
+                      <p className={styles.quote}>{t.quote}</p>
+                    </div>
+                    <div className={styles.fadeBottom} />
+                    <div className={styles.scrollHint}>
+                      <span className={styles.chevron}>↑</span>
+                      <span className={styles.scrollText}>Scroll</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
             </div>
           </div>
         </div>
 
         {/* Right Arrow */}
-        <button className={`${styles.navBtn} ${styles.navRight}`} aria-label="Next" onClick={handleNext}>
+        <button
+          className={`${styles.navBtn} ${styles.navRight}`}
+          aria-label="Next"
+          onClick={handleNext}
+          disabled={navDisabled}
+        >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
