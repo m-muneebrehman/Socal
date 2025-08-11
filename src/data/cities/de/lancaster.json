@@ -1,0 +1,154 @@
+{
+  "slug": "lancaster",
+  "name": "Lancaster",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Stadt in der Hochwüste, bekannt für ihre Luft- und Raumfahrtindustrie, Outdoor-Aktivitäten und eine wachsende Kunstszene.",
+  "fullDescription": "Lancaster ist eine lebendige Stadt im Antelope Valley der westlichen Mojave-Wüste. Sie verfügt über ein reiches Erbe in der Luft- und Raumfahrt und bietet den Bewohnern eine Mischung aus vorstädtischem und ländlichem Lebensstil. Die Stadt ist bekannt für ihre zahlreichen Parks, Wander- und Radwege sowie eine wachsende Kulturszene mit Theatern und öffentlicher Kunst. Der erschwingliche Immobilienmarkt und das familienfreundliche Umfeld machen Lancaster zu einer attraktiven Option für alle, die in Südkaliforniens Hochwüste eine Mischung aus Natur, Industrie und Gemeinschaft suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Stadtbild von Lancaster mit Wüstenhügeln im Hintergrund",
+  "population": "160.000+",
+  "avgHomePrice": "480.000 $",
+  "tags": [
+    "Hochwüste",
+    "Luft- und Raumfahrt",
+    "Freizeit im Freien"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Palmdale",
+      "type": "Stadt",
+      "slug": "palmdale",
+      "description": "Nachbarstadt, bekannt für ihre Luft- und Raumfahrtindustrie und Gemeinschaftsparks.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Vorstadtviertel in Palmdale",
+      "distance": "11 km östlich",
+      "avgHomePrice": "470.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Antelope Valley California Poppy Reserve",
+      "description": "Ein beeindruckendes Naturschutzgebiet mit leuchtenden Mohnblumen im Frühling.",
+      "icon": "🌺",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Feld mit blühenden Mohnblumen"
+    },
+    {
+      "title": "Lancaster Performing Arts Center",
+      "description": "Ein Veranstaltungsort für Theater, Konzerte und Gemeindeveranstaltungen im Herzen der Stadt.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Theatergebäude nachts beleuchtet"
+    },
+    {
+      "title": "Prime Desert Woodland Preserve",
+      "description": "Ein Naturreservat mit Wanderwegen und Möglichkeiten zur Vogelbeobachtung.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Waldweg mit Bäumen"
+    },
+    {
+      "title": "Lancaster City Park",
+      "description": "Ein großer Park mit Sportanlagen, Spielplätzen und Picknickbereichen.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Familien genießen einen sonnigen Tag im Park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Lancaster bekannt?",
+      "answer": "Lancaster ist bekannt für seine Luft- und Raumfahrtindustrie, Outdoor-Aktivitäten und eine lebendige Hochwüstengemeinschaft.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Lancaster?",
+      "answer": "Lancaster bietet im Vergleich zu weiten Teilen Südkaliforniens erschwingliche Wohnmöglichkeiten mit einem wachsenden Markt.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Freizeitaktivitäten sind in Lancaster beliebt?",
+      "answer": "Outdoor-Fans genießen Wandern, Radfahren und den Besuch des nahegelegenen Mohnblumen-Reservats und anderer Naturgebiete.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist Lancaster gut an das Pendeln angebunden?",
+      "answer": "Lancaster verfügt über eine gute Autobahnanbindung und öffentliche Verkehrsmittel, die es mit Los Angeles und dem Antelope Valley verbinden.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lancaster CA Immobilien & Lebensstil | Leben in der Hochwüste & Outdoor-Spaß",
+    "metaDescription": "Entdecken Sie die Stadtviertel, die Naturschönheiten und die Immobilienoptionen in Lancaster im Antelope Valley, Kalifornien.",
+    "keywords": "Lancaster Immobilien, Lancaster Kalifornien, Leben im Antelope Valley, Hochwüste Häuser",
+    "ogTitle": "Entdecken Sie Lancaster: Hochwüstengemeinschaft & Freizeit im Freien",
+    "ogDescription": "Finden Sie Ihr Zuhause in Lancaster mit erschwinglichen Immobilien, Parks und Luft- und Raumfahrterbe.",
+    "ogImage": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Stadtbild von Lancaster mit Wüstenhügeln",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lancaster",
+      "description": "Entdecken Sie Immobilien, Stadtviertel und Highlights in Lancaster, Kalifornien.",
+      "url": "https://example.com/locations/lancaster",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Stadtbild von Lancaster mit Wüstenhügeln"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lancaster",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Lancaster bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lancaster ist bekannt für seine Luft- und Raumfahrtindustrie, Outdoor-Aktivitäten und eine lebendige Hochwüstengemeinschaft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Lancaster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lancaster bietet im Vergleich zu weiten Teilen Südkaliforniens erschwingliche Wohnmöglichkeiten mit einem wachsenden Markt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Freizeitaktivitäten sind in Lancaster beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outdoor-Fans genießen Wandern, Radfahren und den Besuch des nahegelegenen Mohnblumen-Reservats und anderer Naturgebiete."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Lancaster gut an das Pendeln angebunden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lancaster verfügt über eine gute Autobahnanbindung und öffentliche Verkehrsmittel, die es mit Los Angeles und dem Antelope Valley verbinden."
+          }
+        }
+      ]
+    }
+  ]
+}

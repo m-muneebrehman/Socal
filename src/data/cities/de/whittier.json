@@ -1,0 +1,187 @@
+{
+  "slug": "whittier",
+  "name": "Whittier",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine historische Stadt mit lebendigem Uptown, Wanderwegen und Gemeinschaftsgeist im Südosten von Los Angeles County.",
+  "fullDescription": "Whittier verbindet historischen Charme mit vorstädtischem Komfort. Im Zentrum steht Uptown Whittier mit seinen Geschäften und Restaurants. Die Stadt bietet zudem den Whittier Greenway Trail, lokale Parks und kulturelle Sehenswürdigkeiten. Mit bequemer Anbindung an Nachbarstädte und wichtige Autobahnen spricht Whittier Familien, Berufstätige und Studierende nahegelegener Hochschulen gleichermaßen an.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Baumgesäumte Straße mit Geschäften und Fußgängern in einem historischen Viertel",
+  "population": "87T+",
+  "avgHomePrice": "850.000 $",
+  "tags": [
+    "Historisch",
+    "Parks",
+    "Gemeinschaft"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pico Rivera",
+      "type": "Stadt",
+      "slug": "pico-rivera",
+      "description": "Nachbarstadt mit Gemeinschaftsparks und praktischen Einzelhandelsstraßen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gemeinschaftspark und Freifläche",
+      "distance": "3 Meilen westlich",
+      "avgHomePrice": "750.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Norwalk",
+      "type": "Stadt",
+      "slug": "norwalk",
+      "description": "Familienorientierte Stadt mit Parks, Einkaufsmöglichkeiten und guter Anbindung für Pendler.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnstraßen in einem Wohnviertel",
+      "distance": "6 Meilen südwestlich",
+      "avgHomePrice": "700.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "Stadt",
+      "slug": "la-mirada",
+      "description": "Wohnstadt, bekannt für Parks, Schulen und familienfreundliche Einrichtungen.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorortstraße und Grünflächen",
+      "distance": "7 Meilen südlich",
+      "avgHomePrice": "720.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "Stadt",
+      "slug": "downey",
+      "description": "Stadt mit Parks, Einkaufsmöglichkeiten und wachsender Gastronomieszene.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Einzelhandels- und Gastronomiebereich",
+      "distance": "8 Meilen westlich",
+      "avgHomePrice": "750.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Uptown Whittier",
+      "description": "Historisches Viertel mit Cafés, Boutiquen, Wochenendmärkten und Gemeinschaftsveranstaltungen.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historische Hauptstraße mit Geschäften"
+    },
+    {
+      "title": "Whittier Greenway Trail",
+      "description": "Beliebter Mehrzweckweg zum Gehen und Radfahren quer durch die Stadt.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gepflasterter Weg gesäumt von Bäumen"
+    },
+    {
+      "title": "Pio Pico State Historic Park",
+      "description": "Landesgeschichtlicher Park, der die Geschichte Kaliforniens und das Leben von Pío Pico würdigt.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historisches Gebäude und Innenhof"
+    },
+    {
+      "title": "Parks & Freizeit",
+      "description": "Mehrere Stadtteilparks, Sportanlagen und Gemeinschaftsprogramme.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Park mit Gehwegen"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Whittier bekannt?",
+      "answer": "Whittier ist bekannt für sein historisches Uptown-Viertel, den Whittier Greenway Trail und ein starkes Gemeinschaftsgefühl.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Whittier?",
+      "answer": "Whittier bietet eine Mischung aus historischen Häusern und vorstädtischen Wohngebieten zu wettbewerbsfähigen Preisen im LA County.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Whittier unternehmen?",
+      "answer": "Spazieren Sie durch Uptown Whittier, radeln Sie den Greenway Trail, besuchen Sie den Pio Pico State Historic Park und genießen Sie lokale Restaurants.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Whittier?",
+      "answer": "Bequeme Anbindung an die I-605 und SR-60 mit Verbindungen nach Los Angeles, Orange County und ins San Gabriel Valley.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Whittier CA Immobilien & Lebensstil | Historisches Uptown & Wanderwege",
+    "metaDescription": "Entdecken Sie Whittiers historisches Uptown, Parks, Greenway Trail und Immobilienoptionen im Südosten von Los Angeles County.",
+    "keywords": "Whittier Immobilien, Uptown Whittier, Whittier Greenway Trail, Leben in Whittier",
+    "ogTitle": "Entdecken Sie Whittier: Geschichte, Gemeinschaft und Leben im Freien",
+    "ogDescription": "Finden Sie Ihr Zuhause in Whittier mit lebendigem Uptown, Wanderwegen und günstiger Lage.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Baumgesäumte Straße mit Geschäften und Fußgängern",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Whittier",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Whittier, Kalifornien.",
+      "url": "https://example.com/locations/whittier",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Baumgesäumte Straße mit Geschäften und Fußgängern in einem historischen Viertel"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Whittier",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Whittier bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whittier ist bekannt für sein historisches Uptown-Viertel, den Whittier Greenway Trail und ein starkes Gemeinschaftsgefühl."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whittier bietet eine Mischung aus historischen Häusern und vorstädtischen Wohngebieten zu wettbewerbsfähigen Preisen im LA County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in Whittier unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spazieren Sie durch Uptown Whittier, radeln Sie den Greenway Trail, besuchen Sie den Pio Pico State Historic Park und genießen Sie lokale Restaurants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bequeme Anbindung an die I-605 und SR-60 mit Verbindungen nach Los Angeles, Orange County und ins San Gabriel Valley."
+          }
+        }
+      ]
+    }
+  ]
+}

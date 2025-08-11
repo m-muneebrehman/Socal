@@ -1,0 +1,176 @@
+{
+  "slug": "san-clemente",
+  "name": "San Clemente",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Küstenstadt, bekannt für ihre spanische Architektur, schöne Strände und eine lebhafte Innenstadt.",
+  "fullDescription": "San Clemente bietet eine charmante Mischung aus Küstenleben und historischer Architektur. Berühmt für seine atemberaubenden Meerblicke, Surfspots und mediterran inspirierte Gebäude, ist diese Stadt sowohl bei Familien als auch bei Outdoor-Enthusiasten beliebt. Mit einer lebhaften Innenstadt, die Boutiquen, Restaurants und kulturelle Veranstaltungen bietet, verbindet San Clemente den Charme einer Kleinstadt mit modernen Annehmlichkeiten. Die gute Anbindung an wichtige Autobahnen macht es zu einem praktischen Standort für Pendler.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sonnenuntergang über der Küste und dem Pier von San Clemente",
+  "population": "65T+",
+  "avgHomePrice": "1,1 Mio. $",
+  "tags": [
+    "Küste",
+    "Historisch",
+    "Outdoor"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Talega",
+      "type": "Gemeinschaft",
+      "slug": "talega",
+      "description": "Geplante Gemeinde mit Golfplätzen, Parks und familienfreundlichen Einrichtungen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golfplatz und Häuser in Talega",
+      "distance": "8 km nordöstlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "North Beach",
+      "type": "Stadtteil",
+      "slug": "north-beach",
+      "description": "Beliebtes Küstenvierteil mit Strandzugang, Surfspots und Restaurants.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Strandfront und Surfbretter am North Beach",
+      "distance": "3 km westlich",
+      "avgHomePrice": "1,5 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Mariner's Mile",
+      "type": "Gewerbegebiet",
+      "slug": "mariners-mile",
+      "description": "Wasserfront-Gewerbegebiet mit Geschäften, Gastronomie und Zugang zum Hafen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hafen und Gastronomie an der Wasserfront bei Mariner's Mile",
+      "distance": "5 km südlich",
+      "avgHomePrice": "1,3 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "San Clemente Pier",
+      "description": "Ikonischer Pier mit Angelmöglichkeiten, Gastronomie und Panoramablick auf den Ozean.",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sonnenuntergang über dem Pier von San Clemente"
+    },
+    {
+      "title": "Casa Romantica",
+      "description": "Historisches Anwesen im spanischen Stil und kulturelles Kunstzentrum mit Blick auf den Ozean.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Anwesen Casa Romantica mit Meerblick"
+    },
+    {
+      "title": "Strände und Surfen",
+      "description": "Weltklasse-Surfspots und Sandstrände, ideal zum Sonnenbaden und für Freizeitaktivitäten.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer reiten Wellen am Strand von San Clemente"
+    },
+    {
+      "title": "Innenstadt San Clemente",
+      "description": "Charmantes Viertel mit Boutiquen, Restaurants und regelmäßigen Gemeinschaftsveranstaltungen.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Straße in der Innenstadt von San Clemente mit Geschäften und Cafés"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist San Clemente bekannt?",
+      "answer": "San Clemente ist bekannt für seine schönen Strände, die spanische Architektur und den ikonischen Pier von San Clemente.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in San Clemente?",
+      "answer": "Die Stadt wird vom Capistrano Unified School District versorgt, der mehrere hoch bewertete Schulen umfasst.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind in San Clemente beliebt?",
+      "answer": "Einwohner und Besucher genießen Surfen, Wandern entlang der Küstenpfade, Angeln und Strandaktivitäten.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von San Clemente?",
+      "answer": "San Clemente bietet einfachen Zugang zur Autobahn I-5, wobei die Pendelzeiten typischerweise zwischen 30 und 60 Minuten zu großen Arbeitszentren in Orange County und Los Angeles liegen.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Clemente CA Immobilien & Lebensstil | Küstenleben & historischer Charme",
+    "metaDescription": "Entdecken Sie San Clementes Stadtteile, Strände, Schulen und kulturelle Attraktionen in Orange County, Kalifornien.",
+    "keywords": "San Clemente Immobilien, Küstenleben San Clemente, Orange County Häuser, Surfen San Clemente",
+    "ogTitle": "Entdecken Sie San Clemente: Küstencharme & Outdoor-Abenteuer",
+    "ogDescription": "Erleben Sie die malerischen Strände und das lebhafte Gemeinschaftsleben von San Clemente, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sonnenuntergang über der Küste und dem Pier von San Clemente",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Clemente",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in San Clemente, Kalifornien.",
+      "url": "https://example.com/locations/san-clemente",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sonnenuntergang über der Küste und dem Pier von San Clemente"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Clemente",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist San Clemente bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Clemente ist bekannt für seine schönen Strände, die spanische Architektur und den ikonischen Pier von San Clemente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in San Clemente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom Capistrano Unified School District versorgt, der mehrere hoch bewertete Schulen umfasst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind in San Clemente beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Einwohner und Besucher genießen Surfen, Wandern entlang der Küstenpfade, Angeln und Strandaktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von San Clemente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Clemente bietet einfachen Zugang zur Autobahn I-5, wobei die Pendelzeiten typischerweise zwischen 30 und 60 Minuten zu großen Arbeitszentren in Orange County und Los Angeles liegen."
+          }
+        }
+      ]
+    }
+  ]
+}

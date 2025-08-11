@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-hills",
+  "name": "Laguna Hills",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine familienfreundliche Vorstadtstadt, bekannt für Parks, Einkaufsmöglichkeiten und bequemen Zugang zu Attraktionen im Orange County.",
+  "fullDescription": "Laguna Hills bietet einen komfortablen Vorstadtlebensstil mit zahlreichen Parks, gepflegten Wohnvierteln und einer Vielzahl von Einkaufs- und Speisemöglichkeiten. Gelegen im Saddleback Valley, ermöglicht die Stadt einfachen Zugang zu nahegelegenen Stränden, Wanderwegen und Veranstaltungsorten. Die Stadt ist bekannt für Gemeinschaftsveranstaltungen und qualitativ hochwertige Schulen, was sie bei Familien und Berufstätigen gleichermaßen beliebt macht.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vorortviertel in Laguna Hills mit Grünflächen",
+  "population": "31.000+",
+  "avgHomePrice": "900.000 $",
+  "tags": [
+    "Familienfreundlich",
+    "Parks & Freizeit",
+    "Vorstadt"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "stadt",
+      "slug": "aliso-viejo",
+      "description": "Geplante Gemeinde mit Parks, Einkaufsmöglichkeiten und familienfreundlichem Wohnen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park im Stadtteil Aliso Viejo",
+      "distance": "3 Meilen südwestlich",
+      "avgHomePrice": "950.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "stadt",
+      "slug": "laguna-niguel",
+      "description": "Wohlhabende Gemeinde, bekannt für Parks, Golfplätze und Einkaufszentren.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnviertel in Laguna Niguel",
+      "distance": "4 Meilen südlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "stadt",
+      "slug": "mission-viejo",
+      "description": "Masterplan-Gemeinde mit umfangreichen Parks, Seen und familienfreundlichen Einrichtungen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "See und Parks in Mission Viejo",
+      "distance": "5 Meilen südöstlich",
+      "avgHomePrice": "1,0 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "stadt",
+      "slug": "irvine",
+      "description": "Große Masterplan-Stadt mit Firmenzentren, Schulen und Parks.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Geschäftsviertel und Wohngebiet in Irvine",
+      "distance": "12 Meilen nordwestlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks und Wanderwege",
+      "description": "Mehrere Parks und Spazierwege, die Freizeitmöglichkeiten für alle Altersgruppen bieten.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park mit Bäumen und Gehweg in Laguna Hills"
+    },
+    {
+      "title": "Laguna Hills Gemeindezentrum",
+      "description": "Bietet Sportanlagen, Veranstaltungsräume und Gemeinschaftsprogramme.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gebäude des Gemeindezentrums in Laguna Hills"
+    },
+    {
+      "title": "Einkaufen und Essen",
+      "description": "Bequemer Zugang zu Einkaufszentren und einer Vielzahl von Restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Einkaufszentrum mit Außenbereich und Gastronomie"
+    },
+    {
+      "title": "Nähe zu Stränden",
+      "description": "Kurze Fahrt zu beliebten Stränden im Orange County wie Laguna Beach und Dana Point.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Meeresblick in der Nähe von Laguna Hills"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Welchen Lebensstil bietet Laguna Hills?",
+      "answer": "Laguna Hills bietet einen vorstädtischen, familienfreundlichen Lebensstil mit vielen Parks, Einkaufsmöglichkeiten und Gemeinschaftsveranstaltungen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Laguna Hills?",
+      "answer": "Die Stadt wird vom Capistrano Unified School District bedient, der gut bewertete Grund-, Mittel- und Oberschulen umfasst.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind in Laguna Hills beliebt?",
+      "answer": "Die Bewohner genießen Wandern, Radfahren, Sport in lokalen Parks und den Besuch nahegelegener Strände.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie praktisch ist das Pendeln von Laguna Hills?",
+      "answer": "Laguna Hills bietet einfachen Zugang zu den mautpflichtigen Straßen 73 und 241 und ermöglicht bequeme Fahrten im gesamten Orange County und darüber hinaus.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Hills CA Immobilien & Familienleben | Parks & Bequemer Zugang",
+    "metaDescription": "Entdecken Sie die Stadtteile, Parks, Schulen und Immobilien von Laguna Hills in der familienfreundlichen Gemeinschaft des Orange County.",
+    "keywords": "Laguna Hills Immobilien, Familienleben Laguna Hills, Orange County Häuser, Laguna Hills Parks",
+    "ogTitle": "Entdecken Sie Laguna Hills: Familienfreundliches Vorstadtleben im Orange County",
+    "ogDescription": "Genießen Sie Parks, Gemeinschaftseinrichtungen und bequemen Zugang zu den besten Attraktionen des Orange County in Laguna Hills.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Laguna Hills Viertel mit Grünflächen",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Hills",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Laguna Hills, Kalifornien.",
+      "url": "https://example.com/locations/laguna-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vorortviertel in Laguna Hills mit Grünflächen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welchen Lebensstil bietet Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills bietet einen vorstädtischen, familienfreundlichen Lebensstil mit vielen Parks, Einkaufsmöglichkeiten und Gemeinschaftsveranstaltungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom Capistrano Unified School District bedient, der gut bewertete Grund-, Mittel- und Oberschulen umfasst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind in Laguna Hills beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner genießen Wandern, Radfahren, Sport in lokalen Parks und den Besuch nahegelegener Strände."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie praktisch ist das Pendeln von Laguna Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills bietet einfachen Zugang zu den mautpflichtigen Straßen 73 und 241 und ermöglicht bequeme Fahrten im gesamten Orange County und darüber hinaus."
+          }
+        }
+      ]
+    }
+  ]
+}

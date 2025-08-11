@@ -1,0 +1,165 @@
+{
+  "slug": "orange",
+  "name": "Orange",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Historische Stadt, bekannt für ihren charmanten Old Town Bezirk, baumgesäumte Straßen und eine starke Gemeinschaftsatmosphäre.",
+  "fullDescription": "Orange ist eine lebendige Stadt, die historischen Charme mit modernen Annehmlichkeiten verbindet. Berühmt für den erhaltenen Old Towne Bezirk mit Antiquitätengeschäften, Cafés und dem jährlichen Orange International Street Fair, bietet die Stadt eine einladende Gemeinschaftsatmosphäre. Mit guten Schulen, Parks und einfachem Zugang zu den Hauptverkehrsadern des Orange County spricht Orange Familien und Berufstätige an, die Tradition und Komfort suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Historisches Old Towne Orange mit alten Gebäuden und Bäumen",
+  "population": "140T+",
+  "avgHomePrice": "900.000 $",
+  "tags": [
+    "Historisch",
+    "Familienfreundlich",
+    "Gemeinschaft"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "Gemeinde",
+      "slug": "anaheim",
+      "description": "Vorstadtgebiet mit großzügigen Häusern, Parks und hoch bewerteten Schulen.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Disneyland Eingang in Anaheim",
+      "distance": "8 km südöstlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "Stadtteil",
+      "slug": "santa-ana",
+      "description": "Der Verwaltungssitz mit reichem kulturellem Erbe, lebendigem Stadtzentrum und vielfältigen Gemeinden.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Skyline von Downtown Santa Ana",
+      "distance": "10 km südlich",
+      "avgHomePrice": "650.000 $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Old Towne Orange Historic District",
+      "description": "Erhaltener Bezirk mit Antiquitätengeschäften, Restaurants und jährlichen Straßenfesten.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Historische Gebäude und Straße in Old Towne Orange"
+    },
+    {
+      "title": "Irvine Regional Park",
+      "description": "Großer Park mit Wanderwegen, Picknickplätzen und einem kleinen Zoo.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüne Landschaft im Irvine Regional Park"
+    },
+    {
+      "title": "Orange Plaza",
+      "description": "Stadtplatz mit Gemeinschaftsveranstaltungen, Bauernmärkten und Live-Musik.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gemeinschaftsveranstaltung auf dem Orange Plaza"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Beliebte Veranstaltungen sind der Orange International Street Fair und festliche Paraden.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Straßenfest mit Menschenmengen und Ständen"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Orange bekannt?",
+      "answer": "Orange ist bekannt für seinen historischen Old Towne Bezirk, Gemeinschaftsveranstaltungen und familienfreundliche Stadtteile.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Orange?",
+      "answer": "Der Orange Unified School District bietet eine Reihe von hoch bewerteten öffentlichen Schulen für die Stadt.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Parks und Freizeitmöglichkeiten gibt es?",
+      "answer": "Der Irvine Regional Park bietet Wanderwege, Picknickmöglichkeiten und einen kleinen Zoo sowie verschiedene Gemeinschaftsparks in der ganzen Stadt.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist das Pendeln von Orange aus?",
+      "answer": "Orange ist gut an die Freeways 55 und 22 angebunden, mit durchschnittlichen Pendelzeiten von 30–45 Minuten zu nahegelegenen Arbeitszentren.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Orange CA Immobilien & Lebensstil | Historischer Charme & Familienleben",
+    "metaDescription": "Entdecken Sie Oranges historischen Old Towne Bezirk, familienfreundliche Viertel, Parks und Gemeinschaftsveranstaltungen im Orange County, Kalifornien.",
+    "keywords": "Orange CA Immobilien, Old Towne Orange, Orange County Häuser, familienfreundliche Stadtteile Orange",
+    "ogTitle": "Erkunden Sie Orange: Historischer Charme & Familiengemeinschaft",
+    "ogDescription": "Erleben Sie die einzigartige Mischung aus Geschichte und Gemeinschaft in Orange, CA, mit hochwertigen Schulen und Parks.",
+    "ogImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Historisches Old Towne Orange mit alten Gebäuden und Bäumen",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Orange",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Orange, Kalifornien.",
+      "url": "https://example.com/locations/orange",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historisches Old Towne Orange mit alten Gebäuden und Bäumen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Orange",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Orange bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange ist bekannt für seinen historischen Old Towne Bezirk, Gemeinschaftsveranstaltungen und familienfreundliche Stadtteile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Orange Unified School District bietet eine Reihe von hoch bewerteten öffentlichen Schulen für die Stadt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Parks und Freizeitmöglichkeiten gibt es?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Irvine Regional Park bietet Wanderwege, Picknickmöglichkeiten und einen kleinen Zoo sowie verschiedene Gemeinschaftsparks in der ganzen Stadt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Orange aus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange ist gut an die Freeways 55 und 22 angebunden, mit durchschnittlichen Pendelzeiten von 30–45 Minuten zu nahegelegenen Arbeitszentren."
+          }
+        }
+      ]
+    }
+  ]
+}

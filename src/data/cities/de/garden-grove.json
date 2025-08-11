@@ -1,0 +1,187 @@
+{
+  "slug": "garden-grove",
+  "name": "Garden Grove",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine vielfältige Stadt mit reichem kulturellem Erbe, familienfreundlichen Parks und lebendigen Gemeinschaftsveranstaltungen.",
+  "fullDescription": "Garden Grove ist eine dynamische Stadt im Orange County, bekannt für ihre große vietnamesisch-amerikanische Gemeinschaft, belebte Einkaufsviertel und familienorientierte Stadtteile. Die Stadt verfügt über zahlreiche Parks, ausgezeichnete Schulen und veranstaltet das jährliche Erdbeerfestival, das lokale Kultur und Landwirtschaft feiert. Mit bequemen Autobahnanschlüssen bietet Garden Grove die ideale Balance zwischen suburbanem Komfort und urbanen Annehmlichkeiten.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Üppiger Park und Stadtansicht in Garden Grove",
+  "population": "175.000+",
+  "avgHomePrice": "700.000 $",
+  "tags": [
+    "Vielfältig",
+    "Familienfreundlich",
+    "Kulturell"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "stadt",
+      "slug": "anaheim",
+      "description": "Heimat des Disneyland Resorts und ein bedeutendes Unterhaltungs- und Messezentrum.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Disneyland-Eingang in Anaheim",
+      "distance": "5 Meilen nordöstlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Westminster",
+      "type": "stadt",
+      "slug": "westminster",
+      "description": "Bekannt für sein Little Saigon Viertel, lebendige vietnamesische Kultur und vielfältige Küche.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Belebte Straße im Little Saigon von Westminster",
+      "distance": "3 Meilen westlich",
+      "avgHomePrice": "650.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "stadt",
+      "slug": "fountain-valley",
+      "description": "Vorstadtstadt bekannt für Parks, Golfplätze und familienfreundliche Nachbarschaften.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park und Wohnhäuser in Fountain Valley",
+      "distance": "4 Meilen südlich",
+      "avgHomePrice": "750.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "stadt",
+      "slug": "santa-ana",
+      "description": "Landkreis-Hauptstadt bekannt für sein Kunstviertel, historische Gebäude und Kulturfestivals.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Santa Ana bei Dämmerung",
+      "distance": "6 Meilen südöstlich",
+      "avgHomePrice": "650.000 $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Erdbeerfestival",
+      "description": "Jährliche Veranstaltung, die Garden Groves landwirtschaftliches Erbe mit Essen, Musik und Fahrgeschäften feiert.",
+      "icon": "🍓",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschenmenge beim Erdbeerfestival"
+    },
+    {
+      "title": "Garden Grove Park",
+      "description": "Großer Park mit Picknickplätzen, Spielplätzen und Wanderwegen, ideal für Familien.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüne Freiflächen und Spielplatz im Garden Grove Park"
+    },
+    {
+      "title": "Historisches Viertel",
+      "description": "Gebiet mit erhaltenen Gebäuden, Museen und lokalen Geschäften, die die Geschichte von Garden Grove widerspiegeln.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historische Gebäude in Garden Grove"
+    },
+    {
+      "title": "Kulturelle Vielfalt",
+      "description": "Reiche multikulturelle Gemeinschaft, gefeiert durch Küche, Festivals und öffentliche Kunst.",
+      "icon": "🌍",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Multikulturelle Gemeinschaftsveranstaltung"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Garden Grove bekannt?",
+      "answer": "Garden Grove ist bekannt für seine kulturelle Vielfalt, das jährliche Erdbeerfestival und familienfreundliche Angebote.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Garden Grove?",
+      "answer": "Die Stadt wird vom Garden Grove Unified School District bedient, der mehrere hoch bewertete öffentliche Schulen anbietet.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Parks und Freizeitmöglichkeiten gibt es?",
+      "answer": "Garden Grove bietet mehrere Parks, Sportanlagen, Wanderwege und Gemeindezentren für die Bewohner.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr zu nahegelegenen Städten?",
+      "answer": "Garden Grove bietet bequemen Zugang zu wichtigen Autobahnen wie der 22 und 405, was einfache Pendelstrecken im Orange County ermöglicht.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Garden Grove CA Immobilien & Lebensstil | Vielfältige Gemeinschaft & Familienleben",
+    "metaDescription": "Entdecken Sie Garden Groves Stadtteile, Parks, kulturelle Veranstaltungen, Schulen und Immobilienoptionen im Orange County.",
+    "keywords": "Garden Grove Immobilien, Erdbeerfestival, familienfreundliches Orange County, Garden Grove Schulen",
+    "ogTitle": "Entdecken Sie Garden Grove: Kulturelle Vielfalt & familienfreundliche Gemeinschaft",
+    "ogDescription": "Erleben Sie den lebendigen Lebensstil, Festivals und Stadtteile von Garden Grove, Kalifornien.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Park und Stadtansicht in Garden Grove",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Garden Grove",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Garden Grove, Kalifornien.",
+      "url": "https://example.com/locations/garden-grove",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Üppiger Park und Stadtansicht in Garden Grove"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Garden Grove",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Garden Grove bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove ist bekannt für seine kulturelle Vielfalt, das jährliche Erdbeerfestival und familienfreundliche Angebote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Garden Grove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom Garden Grove Unified School District bedient, der mehrere hoch bewertete öffentliche Schulen anbietet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Parks und Freizeitmöglichkeiten gibt es?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove bietet mehrere Parks, Sportanlagen, Wanderwege und Gemeindezentren für die Bewohner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr zu nahegelegenen Städten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove bietet bequemen Zugang zu wichtigen Autobahnen wie der 22 und 405, was einfache Pendelstrecken im Orange County ermöglicht."
+          }
+        }
+      ]
+    }
+  ]
+}

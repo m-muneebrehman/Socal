@@ -1,0 +1,176 @@
+{
+  "slug": "huntington-beach",
+  "name": "Huntington Beach",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Berühmt für seinen ikonischen Pier, die Surfkultur und den lebendigen Küsten-Lebensstil.",
+  "fullDescription": "Huntington Beach, bekannt als 'Surf City USA', ist eine lebhafte Küstenstadt mit Meilen von Sandstränden, erstklassigem Surfen und einer pulsierenden Innenstadt. Die Stadt bietet familienfreundliche Parks, eine aktive Kunstszene und zahlreiche Outdoor-Aktivitäten. Mit exzellenten Schulen und einer vielfältigen Gemeinschaft vereint Huntington Beach Strandentspannung mit urbanem Komfort.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Huntington Beach Pier bei Sonnenuntergang",
+  "population": "200.000+",
+  "avgHomePrice": "1,2 Mio. $",
+  "tags": [
+    "Strand",
+    "Surfen",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Seal Beach",
+      "type": "stadt",
+      "slug": "seal-beach",
+      "description": "Charmante Strandstadt mit hübschen Geschäften, einem historischen Pier und ruhigen Stränden.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pier und Küstenlinie von Seal Beach",
+      "distance": "7 Meilen nordwestlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Costa Mesa",
+      "type": "stadt",
+      "slug": "costa-mesa",
+      "description": "Städtische Stadt bekannt für Kunst, Einkaufsmöglichkeiten und vielfältige Gastronomie.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadt von Costa Mesa bei Nacht",
+      "distance": "5 Meilen nordöstlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Newport Beach",
+      "type": "stadt",
+      "slug": "newport-beach",
+      "description": "Exklusive Küstenstadt mit Luxusimmobilien, Bootfahren und unberührten Stränden.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Yachten im Hafen von Newport Beach",
+      "distance": "10 Meilen südöstlich",
+      "avgHomePrice": "2,5 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Huntington Beach Pier",
+      "description": "Ikonischer Pier, beliebt zum Angeln, Surfen und für malerische Meeresblicke.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sonnenuntergang über dem Huntington Beach Pier"
+    },
+    {
+      "title": "Surfkultur",
+      "description": "Austragungsort der U.S. Open of Surfing und ein Zentrum für Surfer weltweit.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer reiten Wellen bei Huntington Beach"
+    },
+    {
+      "title": "Bolsa Chica Ökologisches Reservat",
+      "description": "Geschützte Feuchtgebiete, ideal zum Vogelbeobachten, Wandern und Naturspaziergängen.",
+      "icon": "🦅",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vogelbeobachtung im Bolsa Chica Feuchtgebiet"
+    },
+    {
+      "title": "Familienfreundliche Strände",
+      "description": "Breite Sandstrände mit Annehmlichkeiten und sicheren Badebereichen für Familien.",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Familien genießen den Strand"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Huntington Beach berühmt?",
+      "answer": "Huntington Beach ist berühmt für seine Surfkultur, den ikonischen Pier und die schönen Strände.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Huntington Beach?",
+      "answer": "Die Stadt wird vom Huntington Beach Union High School District und mehreren hoch bewerteten Grund- und Mittelschulen bedient.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind beliebt?",
+      "answer": "Surfen, Beachvolleyball, Radfahren entlang der Küste und Naturspaziergänge im Bolsa Chica Reservat sind beliebte Aktivitäten.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Arbeitsweg nach Los Angeles?",
+      "answer": "Huntington Beach bietet direkten Zugang zu den Freeways 405 und 22, mit typischen Pendelzeiten nach LA von 45 bis 75 Minuten, abhängig vom Verkehr.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Huntington Beach CA Immobilien & Lebensstil | Surf City USA & Küstenleben",
+    "metaDescription": "Entdecken Sie die Stadtteile, Surfkultur, Strände, Schulen und Immobilien von Huntington Beach im Orange County.",
+    "keywords": "Huntington Beach Immobilien, Surf City USA, Strandleben Orange County, Huntington Beach Schulen",
+    "ogTitle": "Entdecken Sie Huntington Beach: Surfkultur & Familienstrände",
+    "ogDescription": "Erleben Sie den lebendigen Küsten-Lebensstil, den ikonischen Pier und Outdoor-Abenteuer in Huntington Beach, Kalifornien.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Huntington Beach Pier bei Sonnenuntergang",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Huntington Beach",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Huntington Beach, Kalifornien.",
+      "url": "https://example.com/locations/huntington-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Huntington Beach Pier bei Sonnenuntergang"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Huntington Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Huntington Beach berühmt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Beach ist berühmt für seine Surfkultur, den ikonischen Pier und die schönen Strände."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Huntington Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom Huntington Beach Union High School District und mehreren hoch bewerteten Grund- und Mittelschulen bedient."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surfen, Beachvolleyball, Radfahren entlang der Küste und Naturspaziergänge im Bolsa Chica Reservat sind beliebte Aktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Arbeitsweg nach Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Beach bietet direkten Zugang zu den Freeways 405 und 22, mit typischen Pendelzeiten nach LA von 45 bis 75 Minuten, abhängig vom Verkehr."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "santa-ana",
+  "name": "Santa Ana",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Ciudad urbana vibrante conocida por su rica herencia cultural, escena artística y comunidades diversas.",
+  "fullDescription": "Santa Ana es la sede del condado de Orange y una de sus ciudades más grandes. Conocida por su centro histórico, instituciones culturales y artísticas florecientes, y población diversa, Santa Ana ofrece un entorno urbano dinámico. La ciudad cuenta con numerosos museos, teatros y eventos comunitarios que celebran su patrimonio. Con una mezcla de vecindarios residenciales y centros comerciales, Santa Ana proporciona una alternativa animada y asequible a las ciudades costeras del condado de Orange, manteniendo además un fácil acceso a las autopistas hacia las áreas circundantes.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Horizonte del centro de Santa Ana al atardecer",
+  "population": "Más de 310K",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Urbana",
+    "Cultural",
+    "Diversa"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Centro de Santa Ana",
+      "type": "distrito",
+      "slug": "downtown-santa-ana",
+      "description": "Núcleo histórico con teatros, galerías, restaurantes y una vibrante vida nocturna.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centro de Santa Ana de noche con edificios iluminados",
+      "distance": "Central",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Norte de Santa Ana",
+      "type": "residencial",
+      "slug": "north-santa-ana",
+      "description": "Área predominantemente residencial con escuelas, parques y comodidades para familias.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Casas residenciales y parque en el norte de Santa Ana",
+      "distance": "Norte",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "Sur de Santa Ana",
+      "type": "uso mixto",
+      "slug": "south-santa-ana",
+      "description": "Mezcla de áreas residenciales, comerciales e industriales ligeras con desarrollo en curso.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario urbano mixto en el sur de Santa Ana",
+      "distance": "Sur",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Museo Bowers",
+      "description": "Museo de clase mundial que exhibe arte y artefactos culturales de todo el mundo.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior del Museo Bowers en Santa Ana"
+    },
+    {
+      "title": "Zoológico de Santa Ana",
+      "description": "Atracción familiar popular con animales nativos de Centro y Sudamérica.",
+      "icon": "🐒",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Animales y hábitat en el Zoológico de Santa Ana"
+    },
+    {
+      "title": "Artist Village",
+      "description": "Distrito creativo con galerías, murales, estudios y eventos artísticos.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Murales coloridos en el Artist Village de Santa Ana"
+    },
+    {
+      "title": "Discovery Cube Orange County",
+      "description": "Museo de ciencia interactivo que ofrece exhibiciones prácticas para niños y familias.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exhibiciones de ciencia interactivas en Discovery Cube"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Santa Ana?",
+      "answer": "Santa Ana es conocida por su vibrante escena artística, su centro histórico, su cultura diversa y sus atracciones familiares.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Santa Ana?",
+      "answer": "La ciudad es atendida principalmente por el Distrito Escolar Unificado de Santa Ana, que ofrece una variedad de escuelas públicas y charter.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre hay disponibles?",
+      "answer": "Los residentes pueden disfrutar de parques, eventos comunitarios y visitas al Zoológico de Santa Ana y senderos locales.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el traslado a las ciudades cercanas?",
+      "answer": "Santa Ana tiene excelente acceso a autopistas vía la I-5, SR-55 y SR-22, con tiempos de viaje a ciudades cercanas del condado de Orange y Los Ángeles que varían entre 20 y 60 minutos.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Santa Ana CA | Artes, Cultura y Vida Urbana",
+    "metaDescription": "Explora los vecindarios diversos, atracciones culturales, escuelas y opciones inmobiliarias en Santa Ana, condado de Orange.",
+    "keywords": "Bienes raíces Santa Ana, artes y cultura Santa Ana, vivir en Santa Ana, casas condado de Orange",
+    "ogTitle": "Descubre Santa Ana: Cultura Urbana y Comunidad en el Condado de Orange",
+    "ogDescription": "Experimenta la vibrante escena artística, distritos históricos y ambiente familiar de Santa Ana.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Horizonte del centro de Santa Ana al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Santa Ana",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Santa Ana, California.",
+      "url": "https://example.com/locations/santa-ana",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Horizonte del centro de Santa Ana al atardecer"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Santa Ana",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana es conocida por su vibrante escena artística, su centro histórico, su cultura diversa y sus atracciones familiares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ciudad es atendida principalmente por el Distrito Escolar Unificado de Santa Ana, que ofrece una variedad de escuelas públicas y charter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre hay disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes pueden disfrutar de parques, eventos comunitarios y visitas al Zoológico de Santa Ana y senderos locales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado a las ciudades cercanas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana tiene excelente acceso a autopistas vía la I-5, SR-55 y SR-22, con tiempos de viaje a ciudades cercanas del condado de Orange y Los Ángeles que varían entre 20 y 60 minutos."
+          }
+        }
+      ]
+    }
+  ]
+}

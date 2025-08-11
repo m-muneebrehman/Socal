@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-woods",
+  "name": "拉古纳伍兹",
+  "state": "加利福尼亚",
+  "language": "zh",
+  "shortDescription": "一个宁静的55岁以上社区，以其设施、公园和便捷通往橙县海岸线而闻名。",
+  "fullDescription": "拉古纳伍兹是橙县的一个安静城市，最著名的是拉古纳伍兹村，这是一个大型55岁以上社区，提供丰富的设施，包括高尔夫球场、会所、游泳池和社交俱乐部。附近有购物中心、医疗设施，且便于前往海滩和徒步小径，拉古纳伍兹提供一种轻松的生活方式，社区参与度高，娱乐活动丰富。",
+  "heroImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "阳光照耀下林荫步道的郊区社区景观",
+  "population": "1.8万+",
+  "avgHomePrice": "60万美元",
+  "tags": [
+    "55岁以上社区",
+    "公园",
+    "郊区"
+  ],
+  "neighborhoods": [
+    {
+      "name": "拉古纳山",
+      "type": "城市",
+      "slug": "laguna-hills",
+      "description": "适合家庭居住的郊区城市，拥有公园、购物区，并便于橙县各地通勤。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "拉古纳山的社区街道",
+      "distance": "北部2英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "阿里索维耶霍",
+      "type": "城市",
+      "slug": "aliso-viejo",
+      "description": "规划完善的社区，拥有公园、购物中心和适合家庭的设施。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "阿里索维耶霍的公园和住宅",
+      "distance": "西部4英里",
+      "avgHomePrice": "95万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "拉古纳海滩",
+      "type": "城市",
+      "slug": "laguna-beach",
+      "description": "沿海城市，以海滩、艺术画廊和风景如画的海湾闻名。",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "拉古纳海滩的海湾",
+      "distance": "西南7英里",
+      "avgHomePrice": "250万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "湖森林",
+      "type": "城市",
+      "slug": "lake-forest",
+      "description": "郊区城市，拥有维护良好的公园、湖泊和社区设施。",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "湖森林的林荫社区",
+      "distance": "东北5英里",
+      "avgHomePrice": "85万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "拉古纳伍兹村设施",
+      "description": "高尔夫球场、会所、游泳池、健身中心及数百个社交俱乐部。",
+      "icon": "🏌️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "绿草如茵的高尔夫球场"
+    },
+    {
+      "title": "公园与绿地",
+      "description": "林荫步道、社区公园及附近区域性徒步小径。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "公园中的林荫步道"
+    },
+    {
+      "title": "靠近海滩",
+      "description": "驾车快速抵达拉古纳海滩和达纳角，享受海滨散步和海景。",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "日落时分的海岸线"
+    },
+    {
+      "title": "附近购物与医疗",
+      "description": "临近购物中心、市场和医疗设施，生活便利。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "带有商店的购物广场"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "拉古纳伍兹以什么闻名？",
+      "answer": "拉古纳伍兹以拉古纳伍兹村闻名，这是一处顶级55岁以上社区，拥有度假式设施和活跃的社交生活。",
+      "category": "生活方式"
+    },
+    {
+      "question": "拉古纳伍兹的房地产市场如何？",
+      "answer": "市场主要由公寓和合作公寓构成，在橙县内提供相对经济实惠的选择。",
+      "category": "房地产"
+    },
+    {
+      "question": "附近有哪些娱乐选择？",
+      "answer": "居民可以享受社区内设施，以及快速前往区域公园、徒步小径和海滨海滩。",
+      "category": "娱乐"
+    },
+    {
+      "question": "从拉古纳伍兹通勤方便吗？",
+      "answer": "靠近I-5和SR-73高速公路，且有附近的交通选择，连接橙县周边城市。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "拉古纳伍兹加州房地产与生活方式 | 55岁以上社区与公园",
+    "metaDescription": "探索橙县宁静的55岁以上社区拉古纳伍兹的设施、邻里和房地产选择。",
+    "keywords": "拉古纳伍兹房地产, 橙县55岁以上社区, 拉古纳伍兹生活, 拉古纳伍兹村住宅",
+    "ogTitle": "发现拉古纳伍兹：橙县轻松的55岁以上生活",
+    "ogDescription": "在拉古纳伍兹找到您的家，享受度假式设施、公园及便捷的海岸通达。",
+    "ogImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "阳光明媚的林荫步道郊区社区",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "拉古纳伍兹",
+      "description": "探索橙县拉古纳伍兹的房地产、社区和亮点。",
+      "url": "https://example.com/locations/laguna-woods",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+        "caption": "阳光明媚的林荫步道郊区社区"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "拉古纳伍兹",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "拉古纳伍兹以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "拉古纳伍兹以拉古纳伍兹村闻名，这是一处顶级55岁以上社区，拥有度假式设施和活跃的社交生活。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "拉古纳伍兹的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "市场主要由公寓和合作公寓构成，在橙县内提供相对经济实惠的选择。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "附近有哪些娱乐选择？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民可以享受社区内设施，以及快速前往区域公园、徒步小径和海滨海滩。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从拉古纳伍兹通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "靠近I-5和SR-73高速公路，且有附近的交通选择，连接橙县周边城市。"
+          }
+        }
+      ]
+    }
+  ]
+}

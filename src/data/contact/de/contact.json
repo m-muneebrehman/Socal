@@ -1,0 +1,100 @@
+{
+  "locale": "de",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "Bereit für Kontakt",
+      "title": "Crown Coastal Concierge Kontaktieren",
+      "subtitle": "Bereit, Ihre Immobilienreise zu beginnen? Kontaktieren Sie uns noch heute und lassen Sie uns über Ihre Traumimmobilie in San Diego sprechen."
+    },
+    "fields": {
+      "name": {
+        "label": "Vollständiger Name",
+        "placeholder": "Geben Sie Ihren vollständigen Namen ein",
+        "required": "*"
+      },
+      "phone": {
+        "label": "Telefonnummer",
+        "placeholder": "Geben Sie Ihre Telefonnummer ein",
+        "required": "*"
+      },
+      "email": {
+        "label": "E-Mail-Adresse",
+        "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+        "required": "*"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Erzählen Sie uns von Ihren Immobilienbedürfnissen, bevorzugten Standorten, Budget und spezifischen Anforderungen...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "Datenschutz und Einverständnis",
+      "text": "Durch das Übermitteln Ihrer Informationen stimmen Sie zu, dass der oben genannte Immobilienfachmann Sie bezüglich Ihrer Suche anrufen/Textnachrichten senden kann, was die Verwendung automatisierter Mittel und voraufgezeichneter/künstlicher Stimmen beinhalten kann. Sie müssen nicht als Bedingung für den Kauf einer Immobilie, Waren oder Dienstleistungen zustimmen. Nachrichten-/Datentarife können anfallen. Sie stimmen auch unseren Nutzungsbedingungen zu."
+    },
+    "submit": {
+      "sending": "Nachricht wird gesendet...",
+      "send": "Nachricht senden"
+    },
+    "footer": {
+      "responseTime": "Wir antworten normalerweise innerhalb von 2 Stunden während der Geschäftszeiten"
+    }
+  },
+  "hero": {
+    "profileStatus": "Jetzt Verfügbar",
+    "profileCompany": "eXp von Kalifornien",
+    "profileTitle": "Leiter von Crown Coastal Concierge",
+    "profileBadges": {
+      "topProducer": "Top Produzent",
+      "fiveStarRated": "5-Sterne Bewertet"
+    },
+    "recentSales": {
+      "title": "Aktuelle Verkäufe",
+      "seeAll": "Alle Anzeigen",
+      "sold": "Verkauft",
+      "properties": [
+        {
+          "address": "1234 Ocean View Dr, La Jolla",
+          "price": "$2,450,000",
+          "year": "2024",
+          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "9012 Sunset Cliffs Rd, Point Loma",
+          "price": "$3,120,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "3456 Pacific Coast Hwy, Encinitas",
+          "price": "$2,850,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "Lernen Sie Crown Coastal Concierge kennen",
+      "subtitle": "Immobilienfachmann",
+      "text1": "Mit einer Reise, die ihn durch 32 Länder und über hundert Städte geführt hat, bringt Reza eine Welt voller Erfahrung und eine einzigartige globale Perspektive auf den Immobilienmarkt von San Diego. Er glaubt fest daran, dass es keinen Ort wie San Diego gibt, mit seinen unvergleichlichen Küstenlinien, der lebendigen Stadtlandschaft und den endlosen Abenteuern.",
+      "text2": "Mit 17 Jahren Erfahrung in Kundenmanagement und Verhandlung hat Reza die Kunst perfektioniert, die Bedürfnisse seiner Kunden zu verstehen und ihre Erwartungen zu übertreffen. Aber für ihn geht es nicht nur um Transaktionen. Ob er Verkäufer dabei unterstützt, den Wert ihres Hauses zu maximieren, oder Käufern hilft, ihre Traumimmobilie zu finden, Rezas wahre Leidenschaft liegt darin, große Erfolge für seine Kunden zu erzielen.",
+      "text3": "Über Immobilien hinaus ist Reza tief in das Gefüge der San Diego-Gemeinschaft eingebettet. Er hat gerechte Anliegen durch Basis-Petitionen unterstützt, aktiv an Strandreinigungen teilgenommen und unermüdlich daran gearbeitet, unterversorgte Gemeinschaften über verschiedene staatlich subventionierte Programme zu fördern. Für Reza ist Immobilien nicht nur ein Geschäft - es ist eine Plattform, um die Gemeinschaft, die er am meisten schätzt, weiter zu dienen und zu bereichern."
+    },
+    "specialties": {
+      "title": "Spezialitäten",
+      "tags": [
+        "Käufervertreter",
+        "Verkaufsvertreter",
+        "Umzug",
+        "Urlaub / Kurzzeitmieten"
+      ],
+      "languages": "Spricht: Englisch, Arabisch, Farsi, Türkisch"
+    }
+  }
+}

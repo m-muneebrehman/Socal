@@ -1,102 +1,101 @@
 {
-  "locale": "en",
-  "blog": {
-    "title": "Latest Insights",
-    "subtitle": "Discover our expert perspectives on luxury real estate markets worldwide."
-  },
-  "cities": {
-    "title": "Explore California Cities",
-    "subtitle": "Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential."
-  },
-  "cta": {
-    "title": "Ready to Find Your Dream Property?",
-    "text": "Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property.",
-    "button": "Schedule Consultation"
-  },
   "hero": {
-    "badge": "Global Luxury Real Estatee",
-    "title": "Exclusive Properties for Discerning Clients",
-    "subtitle": "With over 20 years of experience, we connect international buyers with the finest properties across the world's most desirable locations.",
-    "viewProperties": "View Properties",
-    "contactUs": "Contact Us",
-    "scrollDown": "Scroll Down",
+    "badge": "العقارات الفاخرة العالمية",
+    "title": "عقارات حصرية للعملاء المميزين",
+    "subtitle": "مع أكثر من 20 عاماً من الخبرة، نربط المشترين الدوليين بأفضل العقارات في أكثر المواقع المرغوبة في العالم.",
+    "viewProperties": "عرض العقارات",
+    "contactUs": "تواصل معنا",
+    "scrollDown": "مرر للأسفل",
     "backgroundImage": "https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80"
-  },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Comprehensive real estate solutions tailored to your unique needs.",
-    "propertyAcquisition": {
-      "title": "Property Acquisition",
-      "description": "Our global network and market expertise ensures you find the perfect property that meets all your requirements.",
-      "icon": "🏡"
-    },
-    "investmentAdvisory": {
-      "title": "Investment Advisory",
-      "description": "Strategic guidance to maximize returns on your real estate investments with our data-driven approach.",
-      "icon": "💰"
-    },
-    "relocationServices": {
-      "title": "Relocation Services",
-      "description": "Comprehensive support for international clients moving to new countries, including legal and logistical assistance.",
-      "icon": "🌎"
-    }
   },
   "stats": {
     "yearsExperience": "22+",
     "billionInSales": "4.1B",
     "countriesServed": "50+",
     "clientSatisfaction": "90%",
-    "yearsExperienceLabel": "Years Experience",
-    "billionInSalesLabel": "Billion in Sales",
-    "countriesServedLabel": "Countries Served",
-    "clientSatisfactionLabel": "Client Satisfaction"
+    "yearsExperienceLabel": "سنوات الخبرة",
+    "billionInSalesLabel": "مليار في المبيعات",
+    "countriesServedLabel": "الدول المخدومة",
+    "clientSatisfactionLabel": "رضا العملاء"
+  },
+  "services": {
+    "title": "خدماتنا",
+    "subtitle": "حلول عقارية شاملة مصممة خصيصاً لاحتياجاتك الفريدة.",
+    "propertyAcquisition": {
+      "title": "اقتناء العقارات",
+      "description": "شبكتنا العالمية وخبرتنا في السوق تضمن لك إيجاد العقار المثالي الذي يلبي جميع متطلباتك.",
+      "icon": "🏡"
+    },
+    "investmentAdvisory": {
+      "title": "الاستشارات الاستثمارية",
+      "description": "إرشادات استراتيجية لتعظيم العوائد على استثماراتك العقارية مع نهجنا القائم على البيانات.",
+      "icon": "💰"
+    },
+    "relocationServices": {
+      "title": "خدمات الانتقال",
+      "description": "دعم شامل للعملاء الدوليين الذين ينتقلون إلى بلدان جديدة، بما في ذلك المساعدة القانونية واللوجستية.",
+      "icon": "🌎"
+    }
+  },
+  "cities": {
+    "title": "استكشاف مدن كاليفورنيا",
+    "subtitle": "اكتشف أكثر المواقع المرغوبة في الولاية الذهبية، كل منها يوفر فرص نمط حياة فريدة وإمكانات استثمارية."
+  },
+  "blog": {
+    "title": "أحدث الرؤى",
+    "subtitle": "اكتشف وجهات نظر خبرائنا حول أسواق العقارات الفاخرة في جميع أنحاء العالم."
   },
   "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Real stories from families who found their dream homes with us",
+    "title": "ماذا يقول عملاؤنا",
+    "subtitle": "قصص حقيقية من العائلات التي وجدت منازل أحلامها معنا",
     "items": [
       {
         "id": "t1",
-        "quote": "Working with Reza meant to be working with excellency! We had an incredible experience, due to his professionalism, was very knowledgeable, and truly invested his willingness and time in helping us find the place we chose. One of the things that personally liked the most, was his charisma, very approachable whenever we came to him with questions. But best of all, he's very respectful in our requests whether they were religious faith, which was very important for us. He always took the time to understand exactly what we were looking for and guided us through every step of the process with patience and professionalism. We appreciated his sharp eye for detail, another plus for us, and more importantly, his honest advice gave us confidence in our decision to go for the place in Temecula, where we could be closer to our children. We couldn't have asked for a better agent and we highly recommend Reza Barghlameno to anyone looking to buy a home.",
-        "author": "Silvia Jacobo",
+        "quote": "العمل مع رضا يعني العمل مع التميز! كانت لدينا تجربة لا تُنسى، بفضل احترافيته ومعرفته الواسعة، واستثماره الحقيقي لرغبته ووقته في مساعدتنا في العثور على المكان الذي اخترناه. من الأشياء التي أعجبتني شخصياً، كانت شخصيته الجذابة، وسهولة الوصول إليه كلما لجأنا إليه بأسئلة. لكن الأفضل من ذلك كله، أنه محترم جداً لطلباتنا سواء كانت دينية، وهو أمر مهم جداً بالنسبة لنا. كان دائماً يأخذ الوقت لفهم ما نبحث عنه بالضبط ويوجهنا خلال كل خطوة من العملية بالصبر والاحترافية. نقدر عينه الحادة للتفاصيل، وهي ميزة إضافية بالنسبة لنا، والأهم من ذلك، نصائحه الصادقة أعطتنا الثقة في قرارنا بالذهاب للمكان في تيميكولا، حيث يمكننا أن نكون أقرب لأطفالنا. لم نتمكن من طلب وكيل أفضل ونوصي بشدة برضا برغلامينو لأي شخص يبحث عن شراء منزل.",
+        "author": "سيلفيا جاكوبو",
         "rating": 5,
         "image": "/clients/client1.png"
       },
       {
         "id": "t2",
-        "quote": "Reza Barghlalmeno made buying our home such an incredible experience—one of the best we've had as a family, and I've been through quite a few home purchases in my 80+ years! When my daughter came across this Kensington home online, we weren't sure about working with the agent Zillow paired us with. But from the first phone call, Reza completely put us at ease. He was kind, professional, and so detail-oriented that the entire process felt seamless. We closed in just 18 days, and everything went so smoothly on our end, thanks to his hard work behind the scenes. This house is everything we dreamed of. There's a charming little casita where my daughter can stay when she visits from out of state. It's also close to my son, who has developmental disabilities, so we can finally gather together as a family. I'm already imagining hosting book clubs, spending time with my grandson when he visits, and making so many new memories here. Reza wasn't just helping us buy a house—he was helping us find a home for the next chapter of our lives. He went above and beyond at every step, from handling negotiations to managing all the small details to checking in with us even after the sale was done. I honestly couldn't be more grateful. If you get the chance to work with Reza, you're in the best hands possible.",
-        "author": "Fern Siegel",
+        "quote": "جعل رضا برغلامينو شراء منزلنا تجربة لا تُنسى—واحدة من أفضل التجارب التي مررنا بها كعائلة، وقد مررت بالكثير من عمليات شراء المنازل في أكثر من 80 عاماً! عندما وجدت ابنتي هذا المنزل في كينسينجتون عبر الإنترنت، لم نكن متأكدين من العمل مع الوكيل الذي ربطنا به زيلو. لكن من أول مكالمة هاتفية، وضع رضا راحتنا تماماً. كان لطيفاً، محترفاً، ومهتماً بالتفاصيل لدرجة أن العملية بأكملها شعرت بأنها سلسة. أغلقنا الصفقة في 18 يوماً فقط، وكل شيء سار بسلاسة من جانبنا، بفضل عمله الشاق خلف الكواليس. هذا المنزل هو كل ما حلمنا به. هناك كاسيتا صغيرة ساحرة حيث يمكن لابنتي البقاء عندما تزور من خارج الولاية. كما أنه قريب من ابني، الذي يعاني من إعاقات في النمو، لذا يمكننا أخيراً الاجتماع معاً كعائلة. أتخيل بالفعل استضافة نوادي الكتاب، وقضاء الوقت مع حفيدي عندما يزور، وصنع الكثير من الذكريات الجديدة هنا. رضا لم يكن يساعدنا فقط في شراء منزل—كان يساعدنا في العثور على منزل للفصل التالي من حياتنا. ذهب إلى أبعد الحدود في كل خطوة، من التعامل مع المفاوضات إلى إدارة جميع التفاصيل الصغيرة إلى التواصل معنا حتى بعد انتهاء البيع. بصراحة لا يمكنني أن أكون أكثر امتناناً. إذا حصلت على فرصة للعمل مع رضا، فأنت في أفضل الأيدي الممكنة.",
+        "author": "فرن سيجل",
         "rating": 5,
         "image": "/clients/client2.png"
       },
       {
         "id": "t3",
-        "quote": "I recently had the pleasure of working with Reza and I cannot speak highly enough of the exceptional experience I had. From start to finish, Reza went above and beyond to ensure that my home buying process was as smooth as possible. I met Reza by luck while he was going around my parent's neighborhood introducing himself to the community. Right from our first meeting, it was clear that Reza was not just knowledgeable, but truly passionate about helping clients find the perfect home. He took the time to listen to my needs, preferences, and concerns, and provided insightful advice on every property we viewed. His attention to detail, responsiveness, and dedication were truly impressive. Whether it was answering questions late at night or scheduling last-minute viewings, Reza was always there for me. One thing that really set them apart was their ability to negotiate on my behalf. I was blown away by the way they handled the entire process — from creating the perfect offer to ensuring that all the paperwork and logistics were taken care of. His expertise and professionalism gave me the confidence I needed to get through the home buying process even during the various setbacks we encountered. Reza was there and fought for us every step of the way through the entire transaction. Beyond the business aspect, Reza made me feel like family. His warmth, patience, and positive attitude made a potentially stressful experience feel much lighter. They truly cared about my family and I finding the right home, and it showed in every interaction. If you are looking for a realtor who will go the extra mile and ensure you have an outstanding experience, I cannot recommend Reza enough. He truly is a standout in the industry!",
-        "author": "Maxim Gantman",
+        "quote": "كان لدي مؤخراً متعة العمل مع رضا ولا يمكنني التحدث عنه بما فيه الكفاية من التجربة الاستثنائية التي مررت بها. من البداية إلى النهاية، ذهب رضا إلى أبعد الحدود لضمان أن عملية شراء منزلي كانت سلسة قدر الإمكان. قابلت رضا بالصدفة بينما كان يتجول في حي والديّ يعرّف نفسه على المجتمع. منذ لقائنا الأول، كان واضحاً أن رضا لم يكن فقط على دراية، بل كان شغوفاً حقاً بمساعدة العملاء في العثور على المنزل المثالي. أخذ الوقت للاستماع لاحتياجاتي، وتفضيلاتي، ومخاوفي، وقدم نصائح ثاقبة حول كل عقار شاهدناه. انتباهه للتفاصيل، واستجابته، وتفانيه كانت مثيرة للإعجاب حقاً. سواء كان يجيب على الأسئلة في وقت متأخر من الليل أو يجدول المشاهدات في اللحظة الأخيرة، كان رضا دائماً موجوداً من أجلي. شيء واحد ميزه حقاً هو قدرته على التفاوض نيابة عني. انبهرت بالطريقة التي تعامل بها مع العملية بأكملها—من إنشاء العرض المثالي إلى ضمان أن جميع الأوراق والخدمات اللوجستية تم الاعتناء بها. خبرته واحترافيته أعطتني الثقة التي احتجتها للوصول عبر عملية شراء المنزل حتى خلال النكسات المختلفة التي واجهناها. رضا كان موجوداً وقاتل من أجلنا في كل خطوة خلال المعاملة بأكملها. إلى جانب الجانب التجاري، جعلني رضا أشعر كأنني عائلة. دفئه، وصبره، وموقفه الإيجابي جعل تجربة مرهقة محتملة تشعر بأنها أخف بكثير. كانوا يهتمون حقاً بعائلتي وأنا في العثور على المنزل المناسب، وظهر ذلك في كل تفاعل. إذا كنت تبحث عن وسيط عقاري سيذهب إلى أبعد الحدود ويضمن لك تجربة استثنائية، لا يمكنني التوصية برضا بما فيه الكفاية. هو حقاً متميز في الصناعة!",
+        "author": "ماكسيم جانتمان",
         "rating": 5,
         "image": "/clients/client3.png"
       },
       {
         "id": "t4",
-        "quote": "My husband and I are first time buyers in San Diego which, as those of us fortunate enough to live here know, has one of the most expensive and competitive housing markets in the nation. We came into this process with very high hopes and very little knowledge. From the moment we met him, Reza has been helpful, understanding, patient, professional, empathetic, and has operated with the highest level of integrity. Our experience was a difficult one, and Reza did a phenomenal job of managing our expectations without squashing our excitement. He helped us maintain our momentum through frustrating loses, and allowed us the space and humanity to grieve when things did not turn out in the ways we expected it. Reza stuck through a huge amount of hurdles with us over the last 7 months. We had the pleasure of entering escrow twice during our hunt for the perfect house. The first time we entered escrow was for a house that had a deed attached to it. It was not until after we had entered escrow that Reza discovered there was a significant limit placed on the total annual family income for this house (something both the sellers AND the city of San Marcos were unaware of at the time) that made our family ineligible to live there. He fought for our family, going as far as meeting with a representative of the City of San Marcos at town hall to determine what the issue was with our purchasing of this property. Reza kept us updated both by text and over the phone during every step, and was able to explain the issues at hand in language that allowed us to understand the legalities and complications. He helped us navigate exiting escrow, and grieved with us when our disappointment became overwhelming. The second house we entered escrow (which is now our family home) also had a arduous process that Reza helped us navigate. We had so many issues arise that were completely out of ours, and his, hands; he tackled each one with professionalism and never gave up on our family. We have navigated issues with the seller, disappointing inspection results, a canceled loan, issues with the title that resulted in the loss of our investor, issues with expired HOA documents, and more. The number of times we thought we were going to have to restart this process was overwhelming, but with each new challenge, Reza helped keep us level-headed, fought for us, and found creative ways to work around and through them. His diligence has allowed us to find the home that we are excited to raise our children in, and a community in which we can thrive. In the future, we look forward to working with Reza again, and will continue to recommend him to anyone and everyone we meet that is also going through this process. Purchasing a home is a very frustrating process, and is definitely not for the main. Knowing that there are people like Reza out there makes it just that much better, safer, enjoyable, and helpful. Thank you, Reza, for all that you have done for our family. We can't wait to have you over for dinner once we are moved in!",
-        "author": "Mary Jane Gantman",
+        "quote": "أنا وزوجي من المشترين لأول مرة في سان دييغو والتي، كما يعرف أولئك منا المحظوظين بما فيه الكفاية للعيش هنا، لديها واحدة من أكثر أسواق الإسكان تكلفة وتنافسية في الأمة. دخلنا هذه العملية مع آمال عالية جداً ومعرفة قليلة جداً. من اللحظة التي قابلناه فيها، كان رضا مفيداً، فهماً، صبوراً، محترفاً، متعاطفاً، وعمل بأعلى مستوى من النزاهة. كانت تجربتنا صعبة، وقام رضا بعمل رائع في إدارة توقعاتنا دون سحق إثارةنا. ساعدنا في الحفاظ على زخمنا خلال الخسائر المحبطة، وسمح لنا بالمساحة والإنسانية للحزن عندما لم تسر الأمور بالطرق التي توقعناها. تمسك رضا بالكثير من العقبات معنا على مدى الأشهر السبعة الماضية. كان لدينا متعة الدخول في الضمان مرتين خلال بحثنا عن المنزل المثالي. المرة الأولى التي دخلنا فيها الضمان كانت لمنزل كان له سند مرتبط به. لم يكن حتى بعد أن دخلنا الضمان أن اكتشف رضا أن هناك حداً كبيراً مفروضاً على إجمالي الدخل السنوي للعائلة لهذا المنزل (شيء لم يكن على علم به البائعون والمدينة في سان ماركوس في ذلك الوقت) مما جعل عائلتنا غير مؤهلة للعيش هناك. قاتل من أجل عائلتنا، ذاهباً إلى حد الاجتماع مع ممثل مدينة سان ماركوس في قاعة المدينة لتحديد ما هي المشكلة مع شرائنا لهذا العقار. حافظ رضا على تحديثنا سواء عبر النص أو عبر الهاتف خلال كل خطوة، وكان قادراً على شرح المشاكل في متناول اليد بلغة سمحت لنا بفهم القانونيات والتعقيدات. ساعدنا في التنقل في الخروج من الضمان، وحزن معنا عندما أصبح خيبة أملنا ساحقة. المنزل الثاني الذي دخلنا فيه الضمان (والذي هو الآن منزل عائلتنا) كان له أيضاً عملية شاقة ساعدنا رضا في التنقل فيها. كان لدينا الكثير من المشاكل تنشأ التي كانت خارجة تماماً عن أيدينا، وأيديه؛ تعامل مع كل واحدة بالاحترافية ولم يستسلم أبداً لعائلتنا. لقد تنقلنا في مشاكل مع البائع، نتائج تفتيش مخيبة للأمل، قرض ملغي، مشاكل مع العنوان أدت إلى فقدان مستثمرنا، مشاكل مع وثائق HOA منتهية الصلاحية، والمزيد. عدد المرات التي اعتقدنا فيها أننا سنضطر لإعادة تشغيل هذه العملية كان ساحقاً، لكن مع كل تحد جديد، ساعد رضا في الحفاظ على هدوئنا، وقاتل من أجلنا، ووجد طرقاً إبداعية للعمل حولها وخلالها. دأبه سمح لنا بالعثور على المنزل الذي نحن متحمسون لتربية أطفالنا فيه، ومجتمع يمكننا فيه الازدهار. في المستقبل، نتطلع للعمل مع رضا مرة أخرى، وسنستمر في التوصية به لأي شخص وكل شخص نلتقيه والذي يمر أيضاً بهذه العملية. شراء منزل هو عملية محبطة جداً، وهي بالتأكيد ليست للضعفاء. معرفة أن هناك أشخاص مثل رضا في الخارج يجعلها أفضل، وأكثر أماناً، وممتعة، ومفيدة. شكراً لك، رضا، على كل ما فعلته لعائلتنا. لا يمكننا الانتظار لاستضافتك لتناول العشاء بمجرد أن ننتقل!",
+        "author": "ماري جين جانتمان",
         "rating": 5,
         "image": "/clients/client4.png"
       },
       {
         "id": "t5",
-        "quote": "Reza was the best agent we have ever worked with. His expertise was beyond belief. He had an approach working with a new realty group that allowed us to make updates to our home and within 3 weeks we had one three day showing and we had 5 offers over asking price. His thoughtfulness kept us on track without stressing us and assured us we would reach our goal to not only sell our home but he worked diligently to find a new home in an area that is 150 miles north of his area. We are forever grateful for him and FAM Realtor Group for all the personal efforts they all put in to help us sell our home and find an new home.",
-        "author": "Russell MacQueen",
+        "quote": "كان رضا أفضل وكيل عملنا معه على الإطلاق. خبرته كانت تتجاوز المعتقد. كان لديه نهج في العمل مع مجموعة عقارية جديدة سمح لنا بإجراء تحديثات لمنزلنا وخلال 3 أسابيع كان لدينا عرض واحد لمدة ثلاثة أيام وكان لدينا 5 عروض فوق السعر المطلوب. تفكيره الحذر أبقانا على المسار الصحيح دون إجهادنا وطمأننا أننا سنصل لهدفنا ليس فقط لبيع منزلنا لكنه عمل بجد للعثور على منزل جديد في منطقة تبعد 150 ميل شمال منطقته. نحن ممتنون له إلى الأبد ولمجموعة FAM العقارية على كل الجهود الشخصية التي بذلوها جميعاً لمساعدتنا في بيع منزلنا والعثور على منزل جديد.",
+        "author": "راسل ماكوين",
         "rating": 5,
         "image": "/clients/client5.png"
       },
       {
         "id": "t6",
-        "quote": "Reza was incredibly helpful in our home search and in securing our first house! He had knowledge about the area and was always responsive to our questions. He made our first time homeownership process very seamless and handled contact with the seller's agent easily. We highly recommend Reza as he treats his clients as if they were family and wants to make sure the best service is given to them. We really appreciate all his efforts and him being our agent for our first home!",
-        "author": "Pulkit Kaushal",
+        "quote": "كان رضا مفيداً بشكل لا يصدق في بحثنا عن المنزل وفي تأمين منزلنا الأول! كان لديه معرفة بالمنطقة وكان دائماً يستجيب لأسئلتنا. جعل عملية امتلاك المنزل لأول مرة سلسة جداً وتعامل مع الاتصال بوكيل البائع بسهولة. نوصي بشدة برضا لأنه يعامل عملاءه كأنهم عائلة ويريد التأكد من تقديم أفضل خدمة لهم. نحن نقدر حقاً كل جهوده وكونه وكيلنا لمنزلنا الأول!",
+        "author": "بولكيت كوشال",
         "rating": 5,
         "image": "/clients/client6.png"
       }
     ]
+  },
+  "cta": {
+    "title": "هل أنت مستعد لإيجاد عقار أحلامك؟",
+    "text": "تواصل مع فريق الخبراء لدينا اليوم للحصول على استشارة شخصية وابدأ رحلتك لإيجاد المنزل المثالي أو عقار الاستثمار.",
+    "button": "جدولة استشارة"
   }
 }

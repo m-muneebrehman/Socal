@@ -1,0 +1,180 @@
+{
+  "slug": "fountain-valley",
+  "name": "Fountain Valley",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Vorstadtstadt, bekannt für Parks, familienfreundliche Viertel und die Nähe zu Stränden.",
+  "fullDescription": "Fountain Valley liegt im Orange County und bietet eine Mischung aus Wohnkomfort und Freizeitmöglichkeiten. Die Stadt ist bekannt für ihre zahlreichen Parks, ausgezeichneten Schulen und Gemeinschaftsveranstaltungen. Mit bequemer Autobahnanbindung an Huntington Beach und Costa Mesa zieht Fountain Valley Familien und Berufstätige an, die einen ausgewogenen Vorstadtlebensstil in Küstennähe suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Parkbereich in Fountain Valley mit grünen Bäumen und Spazierwegen",
+  "population": "55.000+",
+  "avgHomePrice": "850.000 $",
+  "tags": [
+    "Familienfreundlich",
+    "Parks",
+    "Vorstädtisch"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Huntington Beach",
+      "type": "Stadt",
+      "slug": "huntington-beach",
+      "description": "Küstenstadt, berühmt für Surfen, Strände und eine lebendige Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Strand und Pier in Huntington Beach",
+      "distance": "4 Meilen südwestlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Costa Mesa",
+      "type": "Stadt",
+      "slug": "costa-mesa",
+      "description": "Dynamische Stadt, bekannt für Kunst, Einkaufsmöglichkeiten und vielfältige Gastronomie.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadtbereich in Costa Mesa",
+      "distance": "5 Meilen südöstlich",
+      "avgHomePrice": "950.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Westminster",
+      "type": "Stadt",
+      "slug": "westminster",
+      "description": "Kulturelles Zentrum mit lebendiger vietnamesischer Gemeinschaft und Einkaufszentren.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Einkaufsbereich in Westminster",
+      "distance": "6 Meilen nördlich",
+      "avgHomePrice": "700.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "Stadt",
+      "slug": "garden-grove",
+      "description": "Familienorientierte Stadt mit Parks, Schulen und kulturellen Festivals.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gemeindepark in Garden Grove",
+      "distance": "5 Meilen nordöstlich",
+      "avgHomePrice": "650.000 $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Fountain Valley Park",
+      "description": "Großer Gemeinschaftspark mit Spielplätzen, Sportfeldern und Picknickbereichen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüne Freifläche im Fountain Valley Park"
+    },
+    {
+      "title": "Huntington Beach Zugang",
+      "description": "Kurze Fahrt zu weltberühmten Stränden, Surfspots und Restaurants direkt am Meer.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer, der in Huntington Beach eine Welle reitet"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Jährliche Festivals, Bauernmärkte und kulturelle Events bringen die Bewohner zusammen.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschenmenge bei einem Gemeindefest"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Fountain Valley bekannt?",
+      "answer": "Fountain Valley ist bekannt für seine familienfreundliche Atmosphäre, Parks und die Nähe zur Küste.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Fountain Valley?",
+      "answer": "Die Stadt wird vom hoch bewerteten Fountain Valley School District mit mehreren ausgezeichneten öffentlichen Schulen versorgt.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten gibt es?",
+      "answer": "Die Bewohner genießen Parks, Spazierwege und schnellen Zugang zum Huntington Beach zum Surfen und Schwimmen.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Arbeitsweg von Fountain Valley?",
+      "answer": "Bequemer Autobahnzugang zu nahegelegenen Städten wie Costa Mesa und Huntington Beach macht das Pendeln einfach.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Fountain Valley CA Immobilien & Familienleben | Parks & Küstenzugang",
+    "metaDescription": "Entdecken Sie die Stadtteile, Parks, Schulen und Immobilien in Fountain Valley im Orange County.",
+    "keywords": "Fountain Valley Immobilien, familienfreundliche Stadtteile, Orange County Parks, Küstenzugang",
+    "ogTitle": "Entdecken Sie Fountain Valley: Familienfreundliche Stadt mit Parks & Strandnähe",
+    "ogDescription": "Genießen Sie das Vorstadtleben mit Parks und nahegelegenen Stränden in Fountain Valley, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Grünfläche im Fountain Valley Park",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Fountain Valley",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Fountain Valley, Kalifornien.",
+      "url": "https://example.com/locations/fountain-valley",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parkbereich in Fountain Valley mit grünen Bäumen und Spazierwegen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Fountain Valley",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Fountain Valley bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fountain Valley ist bekannt für seine familienfreundliche Atmosphäre, Parks und die Nähe zur Küste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Fountain Valley?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom hoch bewerteten Fountain Valley School District mit mehreren ausgezeichneten öffentlichen Schulen versorgt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten gibt es?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner genießen Parks, Spazierwege und schnellen Zugang zum Huntington Beach zum Surfen und Schwimmen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Arbeitsweg von Fountain Valley?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bequemer Autobahnzugang zu nahegelegenen Städten wie Costa Mesa und Huntington Beach macht das Pendeln einfach."
+          }
+        }
+      ]
+    }
+  ]
+}

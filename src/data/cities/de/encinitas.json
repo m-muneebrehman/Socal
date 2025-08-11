@@ -1,0 +1,163 @@
+{
+  "slug": "encinitas",
+  "name": "Encinitas",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Ein Küstenjuwel im nördlichen County, bekannt für Surfkultur, Boutiquen und entspannte Strandviertel mit lebendigem, lokalem Charme.",
+  "fullDescription": "Encinitas ist eine malerische Strandstadt im nördlichen San Diego County, berühmt für Surfspots wie Swami’s Beach, die vielseitige Innenstadt entlang des Highway 101 und üppige botanische Gärten. Die Bewohner genießen eine Mischung aus Küstenentspannung und aktivem Lebensstil, mit einfachem Zugang zu den Attraktionen von Carlsbad sowie den Annehmlichkeiten im Landesinneren in San Marcos und Vista.",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Küste von Encinitas mit Surfern bei Sonnenuntergang",
+  "population": "60.000+",
+  "avgHomePrice": "1,5 Mio. USD+",
+  "tags": [
+    "Strandstadt",
+    "Surfen",
+    "Boutiquen"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Carlsbad",
+      "type": "Stadt",
+      "slug": "carlsbad",
+      "description": "Angrenzende Küstenstadt im Norden mit LEGOLAND, Tamarack Beach und der Gastronomieszene im Carlsbad Village.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Carlsbad-Küste mit Wellen",
+      "distance": "6 Meilen nördlich",
+      "avgHomePrice": "1,3 Mio. USD",
+      "county": "San Diego"
+    },
+    {
+      "name": "Solana Beach",
+      "type": "Stadt",
+      "slug": "solana-beach",
+      "description": "Charmanter Küstennachbar im Süden mit dem Cedros Design District und Fletcher Cove Beach.",
+      "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Küstenklippen und Ozean in Solana Beach",
+      "distance": "4 Meilen südlich",
+      "avgHomePrice": "2 Mio. USD",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "Stadt",
+      "slug": "san-marcos",
+      "description": "Stadt im Landesinneren mit der California State University San Marcos, Wanderwegen und familienfreundlichen Vororten.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hügel und Wohngebiete von San Marcos",
+      "distance": "10 Meilen östlich",
+      "avgHomePrice": "820.000 USD",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "Stadt",
+      "slug": "vista",
+      "description": "Nahegelegene Stadt im Landesinneren mit Brauereien, Gemeinschaftsparks und erschwinglicheren Häusern im Vergleich zu den Küstenstädten.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorortstraße in Vista",
+      "distance": "12 Meilen nordöstlich",
+      "avgHomePrice": "750.000 USD",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Surfen & Strände",
+      "description": "Weltklasse-Surfspots wie Swami’s und Moonlight Beach sowie ganzjährig spektakuläre Sonnenuntergänge an der Küste.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer, der an Swami’s Beach eine Welle reitet"
+    },
+    {
+      "title": "Highway-101-Flair",
+      "description": "Vielseitige Boutiquen, Cafés und Galerien entlang des historischen Highway 101 in der Encinitas Boulevard Gegend.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bunte Innenstadtstraße von Encinitas mit Geschäften"
+    },
+    {
+      "title": "Botanische Wunder",
+      "description": "37 Hektar thematisch gestaltete Gärten und Wege mit Meerblick im San Diego Botanic Garden.",
+      "icon": "🌵",
+      "bgImage": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Üppige Gärten im San Diego Botanic Garden"
+    },
+    {
+      "title": "Balance zwischen Küste und Inland",
+      "description": "Schneller Zugang zu den Stränden von Carlsbad oder zu Schulen und Wanderwegen in San Marcos über die I-5 und SR-78.",
+      "icon": "⚖️",
+      "bgImage": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Blick auf die Küste von Encinitas von den Hügeln aus"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was ist besonders an den Vierteln von Encinitas?",
+      "answer": "Unterschiedliche Strandgemeinden wie Leucadia und Cardiff-by-the-Sea verbinden Surfkultur mit Boutique-Charme, während Gebiete im Landesinneren erschwinglicher sind.",
+      "category": "Stadtviertel"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Encinitas?",
+      "answer": "Ein sehr wettbewerbsintensiver Küstenmarkt mit Premiumpreisen für Häuser mit Meerblick, aber erschwinglichere Optionen im Landesinneren nahe der Vulcan Avenue.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Wie ist der Lebensstil in Encinitas?",
+      "answer": "Aktiv, naturverbunden und gemeinschaftsorientiert – denken Sie an Surf-Morgende, Bauernmärkte und Strandspaziergänge bei Sonnenuntergang.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist die Pendelstrecke nach San Diego?",
+      "answer": "30–45 Minuten über die I-5 ins Zentrum von San Diego, mit COASTER-Zugverbindungen vom Bahnhof Encinitas.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Encinitas CA Immobilien & Lebensstil | Strände, Surfen & Boutique-Leben",
+    "metaDescription": "Entdecken Sie die Strandviertel von Encinitas, die Surfkultur, den Charme des Highway 101 und die Nähe zu Carlsbad und San Marcos im nördlichen San Diego County.",
+    "keywords": "Encinitas Immobilien, Encinitas Surfen, Cardiff-by-the-Sea, North County San Diego, Encinitas Strände",
+    "ogTitle": "Entdecken Sie Encinitas: Küstenleben mit Surf & Stil",
+    "ogDescription": "Erfahren Sie mehr über die Strandorte, Innenstadtvibes und den ausgewogenen Zugang zu Küsten- und Inlandattraktionen in Encinitas.",
+    "ogImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Küste von Encinitas mit Surfern",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Encinitas",
+      "description": "Erkunden Sie Immobilien, Stadtviertel und Highlights in Encinitas, Kalifornien.",
+      "url": "https://example.com/locations/encinitas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Küste von Encinitas mit Surfern"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Encinitas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die beliebtesten Gegenden in Encinitas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Leucadia, Cardiff-by-the-Sea und die Innenstadt entlang des Highway 101 sind ikonisch für die Surfkultur und lokale Geschäfte."
+          }
+        }
+      ]
+    }
+  ]
+}

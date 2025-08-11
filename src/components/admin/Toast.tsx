@@ -59,7 +59,7 @@ export default function Toast({ type, message, onClose, duration = 4000 }: Toast
   }, [duration, onClose])
 
   return (
-    <div className={`fixed top-4 right-4 z-50 transform transition-all duration-300 ${
+    <div className={`fixed top-4 right-4 z-[9999] transform transition-all duration-300 ${
       isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
     }`}>
       <div className={`${config.bgColor} ${config.borderColor} border-l-4 rounded-lg shadow-2xl p-4 min-w-80 max-w-md backdrop-blur-sm`}>
@@ -104,7 +104,7 @@ interface ToastContainerProps {
 
 export function ToastContainer({ toasts, removeToast }: ToastContainerProps) {
   return (
-    <div className="fixed top-4 right-4 z-50 space-y-2">
+    <div className="fixed top-4 right-4 z-[9999] space-y-2">
       {toasts.map((toast) => (
         <Toast
           key={toast.id}

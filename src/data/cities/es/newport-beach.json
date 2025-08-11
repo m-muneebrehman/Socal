@@ -1,0 +1,187 @@
+{
+  "slug": "newport-beach",
+  "name": "Newport Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad costera conocida por sus hermosas playas, puerto de lujo y estilo de vida exclusivo.",
+  "fullDescription": "Newport Beach ofrece un estilo de vida costero de primer nivel con playas impresionantes, un puerto vibrante lleno de yates y una variedad de restaurantes y tiendas de alta gama. Reconocida por su excelente clima y recreación al aire libre, que incluye surf, navegación y ciclismo, la ciudad atrae a residentes que buscan una mezcla de ocio y lujo. Sus vecindarios bien planificados y escuelas de calidad la convierten en una comunidad muy deseada en el condado de Orange.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista aérea de la costa de Newport Beach con yates y playas arenosas",
+  "population": "Más de 85K",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Costera",
+    "Lujo",
+    "Recreación al aire libre"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Costa Mesa",
+      "type": "ciudad",
+      "slug": "costa-mesa",
+      "description": "Ciudad vecina con artes, tiendas y restaurantes; hogar de South Coast Plaza y la feria OC Fair.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Bulevar de la ciudad representativo de Costa Mesa",
+      "distance": "2 millas al norte",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "ciudad",
+      "slug": "irvine",
+      "description": "Ciudad planificada conocida por parques, escuelas y centros de negocios al noreste de Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Colinas verdes y vecindarios suburbanos representativos de Irvine",
+      "distance": "8 millas al noreste",
+      "avgHomePrice": "$1.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "ciudad",
+      "slug": "huntington-beach",
+      "description": "Surf City USA con largas playas, un área animada de muelle y vecindarios costeros al noroeste de Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Olas del océano al atardecer representativas de Huntington Beach",
+      "distance": "6 millas al noroeste",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Beach",
+      "type": "ciudad",
+      "slug": "laguna-beach",
+      "description": "Ciudad costera artística con calas, galerías y colinas escénicas al sureste de Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Acantilado costero y océano representativos de Laguna Beach",
+      "distance": "10 millas al sureste",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Puerto de Newport",
+      "description": "Uno de los puertos recreativos más grandes de la costa oeste, perfecto para navegar y cenar frente al agua.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Yates atracados en el puerto de Newport"
+    },
+    {
+      "title": "Muelle y Playa Balboa",
+      "description": "Lugar popular para pescar, surfear y pasear junto a la playa.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Muelle Balboa extendiéndose hacia el océano"
+    },
+    {
+      "title": "Fashion Island",
+      "description": "Centro comercial al aire libre de lujo con tiendas, restaurantes y entretenimiento.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centro comercial Fashion Island en Newport Beach"
+    },
+    {
+      "title": "Actividades al Aire Libre",
+      "description": "Surf, paddleboarding, ciclismo por la costa y tours para avistamiento de ballenas.",
+      "icon": "🏄",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfistas montando olas en Newport Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Newport Beach?",
+      "answer": "Newport Beach es famosa por sus hermosas playas, puerto de lujo, cultura náutica y estilo de vida exclusivo.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Hay buenas escuelas en Newport Beach?",
+      "answer": "Sí, el Distrito Escolar Unificado Newport-Mesa sirve a la ciudad con escuelas públicas y privadas altamente calificadas.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre puedo hacer en Newport Beach?",
+      "answer": "Residentes y visitantes disfrutan del surf, la navegación, el ciclismo, el paddleboarding y paseos a lo largo de la costa escénica.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el transporte desde Newport Beach?",
+      "answer": "Newport Beach tiene fácil acceso a autopistas principales como la 405 y la 55, con tiempos de viaje que varían según el destino.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Newport Beach CA Bienes Raíces y Estilo de Vida | Lujo Costero y Vida al Aire Libre",
+    "metaDescription": "Explora los vecindarios de lujo, puerto, playas, actividades al aire libre y las mejores escuelas en Newport Beach, Condado de Orange.",
+    "keywords": "bienes raíces Newport Beach, vida costera Newport Beach, puerto de Newport, casas en el Condado de Orange",
+    "ogTitle": "Descubre Newport Beach: Lujo Costero y Estilo de Vida al Aire Libre",
+    "ogDescription": "Experimenta el lujo costero, la navegación y las playas escénicas en Newport Beach, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista aérea de la costa de Newport Beach con yates y playas arenosas",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Newport Beach",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Newport Beach, California.",
+      "url": "https://example.com/locations/newport-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista aérea de la costa de Newport Beach con yates y playas arenosas"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Newport Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach es famosa por sus hermosas playas, puerto de lujo, cultura náutica y estilo de vida exclusivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay buenas escuelas en Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, el Distrito Escolar Unificado Newport-Mesa sirve a la ciudad con escuelas públicas y privadas altamente calificadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre puedo hacer en Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residentes y visitantes disfrutan del surf, la navegación, el ciclismo, el paddleboarding y paseos a lo largo de la costa escénica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach tiene fácil acceso a autopistas principales como la 405 y la 55, con tiempos de viaje que varían según el destino."
+          }
+        }
+      ]
+    }
+  ]
+}

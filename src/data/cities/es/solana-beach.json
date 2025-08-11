@@ -1,0 +1,187 @@
+{
+  "slug": "solana-beach",
+  "name": "Solana Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una encantadora comunidad costera conocida por sus playas pristinas, ambiente artístico y tiendas boutique en el Norte del Condado de San Diego.",
+  "fullDescription": "Solana Beach ofrece una combinación única de relajación costera y sofisticación cultural. Famosa por sus acantilados escénicos, el vibrante Distrito de Diseño Cedros Avenue y el histórico local de música Belly Up Tavern, esta ciudad atrae a quienes buscan un estilo de vida playero sofisticado pero relajado. Con excelentes escuelas, tiendas boutique y fácil acceso a la autopista, Solana Beach mantiene un equilibrio perfecto entre el encanto de un pueblo pequeño y las comodidades modernas.",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+  "heroImageAlt": "Atardecer sobre la costa de Solana Beach con olas rompiendo",
+  "population": "Más de 13K",
+  "avgHomePrice": "$2.1M",
+  "tags": [
+    "Playas",
+    "Boutique",
+    "Artes"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Del Mar",
+      "type": "ciudad",
+      "slug": "del-mar",
+      "description": "Vecindario costero exclusivo conocido por el Hipódromo de Del Mar, resorts de lujo y playas pristinas.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Acantilados y vista al océano en Del Mar",
+      "distance": "3 millas al sur",
+      "avgHomePrice": "$3.4M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "ciudad",
+      "slug": "encinitas",
+      "description": "Pueblo bohemio de playa con spots de surf reconocidos, jardines de meditación y restaurantes costeros.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cultura de surf y escena de playa en Encinitas",
+      "distance": "3 millas al norte",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "ciudad",
+      "slug": "carlsbad",
+      "description": "Ciudad costera familiar con LEGOLAND, campos de flores y playas extensas.",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Costa y atardecer en Carlsbad",
+      "distance": "12 millas al norte",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "ciudad",
+      "slug": "san-diego",
+      "description": "Centro metropolitano importante con gastronomía de clase mundial, atracciones culturales y playas urbanas.",
+      "image": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte y puerto de San Diego",
+      "distance": "20 millas al sur",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Playa Fletcher Cove",
+      "description": "Icónica cala de arena con canchas de voleibol, áreas para picnic y vistas impresionantes al océano.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Playa Fletcher Cove en Solana Beach"
+    },
+    {
+      "title": "Distrito de Diseño Cedros Avenue",
+      "description": "Corredor boutique para caminar que cuenta con galerías de arte, tiendas de diseñador y cafés gourmet.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Distrito comercial de Cedros Avenue"
+    },
+    {
+      "title": "Belly Up Tavern",
+      "description": "Legendario local de conciertos íntimo que alberga músicos mundialmente famosos y artistas emergentes.",
+      "icon": "🎵",
+      "bgImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Concierto en vivo en Belly Up Tavern"
+    },
+    {
+      "title": "Senda Costera Rail Trail",
+      "description": "Camino escénico para bicicletas y caminatas a lo largo de los acantilados con vistas panorámicas del Océano Pacífico.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Camino para bicicletas costero en Solana Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué hace única a Solana Beach?",
+      "answer": "Su combinación de belleza costera, el Distrito de Diseño Cedros y atracciones culturales como Belly Up Tavern crean un ambiente distintivo, sofisticado pero relajado.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Solana Beach?",
+      "answer": "Escuelas públicas altamente calificadas (Distrito Escolar de Solana Beach) y opciones privadas sirven a esta comunidad familiar.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Cómo es el transporte desde Solana Beach?",
+      "answer": "El acceso conveniente a la autopista I-5 y al tren Coaster proporciona conexiones fáciles a San Diego (25 minutos) y a los centros de empleo del Norte del Condado.",
+      "category": "Transporte"
+    },
+    {
+      "question": "¿Existen restricciones en las playas?",
+      "answer": "La mayoría de las playas son públicas, con algunos puntos de acceso en los acantilados. Está prohibido el consumo de alcohol y encender fogatas en las playas de la ciudad.",
+      "category": "Recreación"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Solana Beach CA | Vida Costera y Cultura Boutique",
+    "metaDescription": "Descubre el encanto costero de Solana Beach, el Distrito de Diseño Cedros, bienes raíces de lujo y un estilo de vida relajado en el Norte del Condado de San Diego.",
+    "keywords": "Bienes raíces Solana Beach, Cedros Avenue, Belly Up Tavern, casas en Solana Beach, vida costera",
+    "ogTitle": "Experimenta Solana Beach: Encanto Costero y Cultura Boutique",
+    "ogDescription": "Explora la vida de lujo en Solana Beach con sus playas, distrito de diseño y comunidad vibrante.",
+    "ogImage": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Costa de Solana Beach al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Solana Beach",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Solana Beach, California.",
+      "url": "https://example.com/locations/solana-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Costa de Solana Beach al atardecer"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Solana Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué hace única a Solana Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solana Beach ofrece una combinación distintiva de belleza costera, el Distrito de Diseño Cedros y atracciones culturales como Belly Up Tavern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Solana Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ciudad cuenta con escuelas públicas altamente calificadas en el Distrito Escolar de Solana Beach junto con excelentes opciones de escuelas privadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde Solana Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El acceso conveniente a la autopista y al tren vía la I-5 y la línea Coaster hace que el transporte sea eficiente en todo el Condado de San Diego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Existen restricciones en las playas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La mayoría de las playas son accesibles públicamente con restricciones sobre alcohol y fogatas para mantener la seguridad y limpieza."
+          }
+        }
+      ]
+    }
+  ]
+}

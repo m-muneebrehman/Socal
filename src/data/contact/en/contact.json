@@ -1,0 +1,106 @@
+{
+  "locale": "en",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "Ready to Connect",
+      "title": "Contact Crown Coastal Concierge",
+      "subtitle": "Ready to start your real estate journey? Get in touch today and let's discuss your dream property in San Diego."
+    },
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "required": "*"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": "*"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "required": "*"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your real estate needs, preferred locations, budget, and any specific requirements...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "Privacy & Consent",
+      "text": "By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our Terms of Use."
+    },
+    "submit": {
+      "sending": "Sending Message...",
+      "send": "Send Message"
+    },
+    "footer": {
+      "responseTime": "We typically respond within 2 hours during business hours"
+    }
+  },
+  "hero": {
+    "profileStatus": "Available Now",
+    "profileCompany": "eXp of California",
+    "profileTitle": "Lead of Crown Coastal Concierge",
+    "profileBadges": {
+      "topProducer": "Top Producer",
+      "fiveStarRated": "5-Star Rated"
+    },
+    "recentSales": {
+      "title": "Recent Sales",
+      "seeAll": "See All",
+      "sold": "Sold",
+      "properties": [
+        {
+          "address": "1234 Ocean View Dr, La Jolla",
+          "price": "$2,450,000",
+          "year": "2024",
+          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "9012 Sunset Cliffs Rd, Point Loma",
+          "price": "$3,120,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "3456 Pacific Coast Hwy, Encinitas",
+          "price": "$2,850,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "Get to know Crown Coastal Concierge",
+      "subtitle": "Real Estate Professional",
+      "text1": "With a journey that has taken him across 32 countries and over a hundred cities, Reza brings a world of experience and a unique global perspective to San Diego's real estate market. He firmly believes there's no place like San Diego, with its unparalleled coastal lines, vibrant cityscape, and endless adventures.",
+      "text2": "Utilizing 17 years of client management & negotiation expertise, Reza has perfected the art of understanding his clients' needs and exceeding their expectations. But it's not just about transactions for him. Whether guiding sellers to maximize their home's value or helping buyers find their dream property, Reza's true passion lies in scoring big for his clients.",
+      "text3": "Beyond real estate, Reza is deeply embedded in the fabric of the San Diego community. He's championed righteous causes through grassroots petitions, actively participated in beach clean-ups, and tirelessly worked to uplift underserved communities via various government-subsidized programs. For Reza, real estate isn't just business—it's a platform to further serve and enrich the community he cherishes most."
+    },
+    "specialties": {
+      "title": "Specialties",
+      "tags": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Vacation / Short-term Rentals"
+      ],
+      "languages": "Speaks: English, Arabic, Farsi, Turkish"
+    }
+  },
+  "newProperty": {
+    "address": "",
+    "price": "",
+    "year": "",
+    "imageUrl": ""
+  }
+}

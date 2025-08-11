@@ -1,0 +1,187 @@
+{
+  "slug": "garden-grove",
+  "name": "Garden Grove",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad diversa con un rico patrimonio cultural, parques familiares y eventos comunitarios vibrantes.",
+  "fullDescription": "Garden Grove es una ciudad dinámica del Condado de Orange conocida por su rica comunidad vietnamita-estadounidense, bulliciosos distritos comerciales y vecindarios orientados a la familia. La ciudad cuenta con numerosos parques, excelentes escuelas y alberga el festival anual de la Fresa que celebra la cultura y agricultura local. Con acceso conveniente a la autopista, Garden Grove ofrece un equilibrio ideal entre comodidad suburbana y servicios urbanos.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Parque exuberante y paisaje urbano en Garden Grove",
+  "population": "175K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Diversa",
+    "Familiar",
+    "Cultural"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "ciudad",
+      "slug": "anaheim",
+      "description": "Hogar del Disneyland Resort y un importante centro de entretenimiento y convenciones.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Entrada de Disneyland en Anaheim",
+      "distance": "5 millas al noreste",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Westminster",
+      "type": "ciudad",
+      "slug": "westminster",
+      "description": "Conocida por su distrito Little Saigon, cultura vietnamita vibrante y cocina diversa.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle concurrida en Little Saigon, Westminster",
+      "distance": "3 millas al oeste",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "ciudad",
+      "slug": "fountain-valley",
+      "description": "Ciudad suburbana conocida por sus parques, campos de golf y vecindarios familiares.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque y casas en Fountain Valley",
+      "distance": "4 millas al sur",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "ciudad",
+      "slug": "santa-ana",
+      "description": "Sede del condado conocida por su distrito de artes, edificios históricos y festivales culturales.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centro de Santa Ana al anochecer",
+      "distance": "6 millas al sureste",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Festival de la Fresa",
+      "description": "Evento anual que celebra la herencia agrícola de Garden Grove con comida, música y atracciones.",
+      "icon": "🍓",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Multitud disfrutando del Festival de la Fresa"
+    },
+    {
+      "title": "Parque Garden Grove",
+      "description": "Parque espacioso con áreas de picnic, juegos infantiles y senderos para caminar, ideal para familias.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Espacios verdes y parque infantil en el Parque Garden Grove"
+    },
+    {
+      "title": "Distrito Histórico",
+      "description": "Área con edificios preservados, museos y tiendas locales que reflejan el pasado de Garden Grove.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificios históricos en Garden Grove"
+    },
+    {
+      "title": "Diversidad Cultural",
+      "description": "Comunidad multicultural rica celebrada a través de la gastronomía, festivales y arte público.",
+      "icon": "🌍",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Evento comunitario multicultural"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Garden Grove?",
+      "answer": "Garden Grove es conocido por su diversidad cultural, el festival anual de la Fresa y sus comodidades para familias.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Garden Grove?",
+      "answer": "La ciudad está servida por el Distrito Escolar Unificado de Garden Grove, que ofrece varias escuelas públicas altamente calificadas.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué parques y opciones recreativas hay disponibles?",
+      "answer": "Garden Grove ofrece múltiples parques, instalaciones deportivas, senderos para caminar y centros comunitarios para sus residentes.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el transporte hacia las ciudades cercanas?",
+      "answer": "Garden Grove ofrece acceso conveniente a las autopistas principales como la 22 y la 405, facilitando desplazamientos fáciles por todo el Condado de Orange.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Garden Grove CA | Comunidad Diversa y Vida Familiar",
+    "metaDescription": "Explora los vecindarios, parques, eventos culturales, escuelas y opciones inmobiliarias de Garden Grove en el Condado de Orange.",
+    "keywords": "bienes raíces Garden Grove, Festival de la Fresa, vida familiar en Condado de Orange, escuelas de Garden Grove",
+    "ogTitle": "Descubre Garden Grove: Diversidad Cultural y Comunidad Familiar",
+    "ogDescription": "Experimenta el estilo de vida vibrante, festivales y vecindarios de Garden Grove, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Parque y paisaje urbano en Garden Grove",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Garden Grove",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Garden Grove, California.",
+      "url": "https://example.com/locations/garden-grove",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parque exuberante y paisaje urbano en Garden Grove"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Garden Grove",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Garden Grove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove es conocido por su diversidad cultural, el festival anual de la Fresa y sus comodidades para familias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Garden Grove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ciudad está servida por el Distrito Escolar Unificado de Garden Grove, que ofrece varias escuelas públicas altamente calificadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué parques y opciones recreativas hay disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove ofrece múltiples parques, instalaciones deportivas, senderos para caminar y centros comunitarios para sus residentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte hacia las ciudades cercanas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garden Grove ofrece acceso conveniente a las autopistas principales como la 22 y la 405, facilitando desplazamientos fáciles por todo el Condado de Orange."
+          }
+        }
+      ]
+    }
+  ]
+}

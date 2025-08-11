@@ -1,0 +1,176 @@
+{
+  "slug": "tustin",
+  "name": "Tustin",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad vibrante conocida por su histórico Old Town, vecindarios diversos y comodidades comunitarias para familias.",
+  "fullDescription": "Tustin combina una rica historia con la vida suburbana moderna, presentando el encantador distrito Old Town con tiendas únicas, restaurantes y lugares culturales. La ciudad ofrece una variedad de opciones de vivienda, excelentes escuelas y numerosos parques e instalaciones recreativas. Ubicada convenientemente cerca de las principales autopistas y centros de empleo, Tustin atrae a familias, profesionales y jubilados que buscan una comunidad acogedora con fácil acceso a las atracciones y playas del Condado de Orange.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista de Old Town Tustin y vecindarios cercanos",
+  "population": "Más de 80K",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Histórico",
+    "Familiar",
+    "Conveniente"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Town Tustin",
+      "type": "distrito",
+      "slug": "old-town-tustin",
+      "description": "Área histórica del centro con boutiques, restaurantes y eventos comunitarios.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Edificios históricos y tiendas en Old Town Tustin",
+      "distance": "Central",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Tustin Ranch",
+      "type": "distrito",
+      "slug": "tustin-ranch",
+      "description": "Comunidad planificada con campo de golf, parques y escuelas.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Campo de golf y casas en Tustin Ranch",
+      "distance": "Este",
+      "avgHomePrice": "$920K",
+      "county": "Orange"
+    },
+    {
+      "name": "North Tustin",
+      "type": "distrito",
+      "slug": "north-tustin",
+      "description": "Área residencial con lotes grandes y casas de lujo.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Casas de lujo en North Tustin",
+      "distance": "Norte",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Old Town Tustin",
+      "description": "Distrito histórico con tiendas, restaurantes y festivales estacionales.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle principal en Old Town Tustin"
+    },
+    {
+      "title": "Tustin Ranch Golf Club",
+      "description": "Campo de golf y club campestre popular que sirve a la comunidad.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campo de golf con fairways verdes"
+    },
+    {
+      "title": "Parques y Recreación",
+      "description": "Numerosos parques, senderos e instalaciones recreativas para familias y residentes activos.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Área de juegos y picnic en parque de Tustin"
+    },
+    {
+      "title": "Eventos Comunitarios",
+      "description": "Mercados de agricultores, paseos de arte y eventos culturales durante todo el año.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival comunitario en Tustin"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Tustin?",
+      "answer": "Tustin es conocido por su histórico distrito Old Town, vecindarios amigables para familias y su ubicación conveniente en el Condado de Orange.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Tustin?",
+      "answer": "El Distrito Escolar Unificado de Tustin atiende a la ciudad, ofreciendo escuelas primarias, secundarias y preparatorias altamente calificadas.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre son populares en Tustin?",
+      "answer": "Los residentes disfrutan del golf, parques, senderos comunitarios y eventos estacionales como mercados de agricultores y paseos de arte.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el transporte desde Tustin?",
+      "answer": "Tustin tiene fácil acceso a las autopistas 5 y 55, ofreciendo traslados a Irvine, Orange y centros de empleo cercanos.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Tustin CA | Comunidad Histórica y Familiar",
+    "metaDescription": "Descubre los vecindarios, escuelas, parques y bienes raíces de Tustin en el Condado de Orange, California.",
+    "keywords": "Bienes raíces Tustin, vivir en Tustin CA, casas en el Condado de Orange, escuelas en Tustin",
+    "ogTitle": "Explora Tustin: Encanto Histórico y Vida Moderna en el Condado de Orange",
+    "ogDescription": "Experimenta la combinación única de Old Town histórico y vecindarios suburbanos de Tustin con fácil acceso a las atracciones del Condado de Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista de Old Town Tustin y vecindarios cercanos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Tustin",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Tustin, California.",
+      "url": "https://example.com/locations/tustin",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista de Old Town Tustin y vecindarios cercanos"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Tustin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tustin es conocido por su histórico distrito Old Town, vecindarios amigables para familias y su ubicación conveniente en el Condado de Orange."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Distrito Escolar Unificado de Tustin atiende a la ciudad, ofreciendo escuelas primarias, secundarias y preparatorias altamente calificadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre son populares en Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes disfrutan del golf, parques, senderos comunitarios y eventos estacionales como mercados de agricultores y paseos de arte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde Tustin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tustin tiene fácil acceso a las autopistas 5 y 55, ofreciendo traslados a Irvine, Orange y centros de empleo cercanos."
+          }
+        }
+      ]
+    }
+  ]
+}

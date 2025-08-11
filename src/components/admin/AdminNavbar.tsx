@@ -15,6 +15,7 @@ export default function AdminNavbar({ onLogout, onSectionChange, activeSection }
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'home', label: 'Home', icon: Home },
+    { id: 'contact', label: 'Contact', icon: Users },
     { id: 'cities', label: 'Cities', icon: MapPin },
     { id: 'blogs', label: 'Blogs', icon: FileText },
     { id: 'users', label: 'Users', icon: Users },

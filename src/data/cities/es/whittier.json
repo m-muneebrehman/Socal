@@ -1,0 +1,187 @@
+{
+  "slug": "whittier",
+  "name": "Whittier",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad histórica con un vibrante Uptown, senderos y espíritu comunitario en el sureste del Condado de Los Ángeles.",
+  "fullDescription": "Whittier combina el encanto histórico con la comodidad suburbana. Centrada alrededor de las tiendas y restaurantes de Uptown Whittier, la ciudad también cuenta con el Whittier Greenway Trail, parques locales y atracciones culturales. Con acceso conveniente a ciudades vecinas y principales autopistas, Whittier atrae a familias, profesionales y estudiantes de colegios cercanos por igual.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle arbolada con tiendas y peatones en un distrito histórico",
+  "population": "Más de 87K",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Histórica",
+    "Parques",
+    "Comunidad"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pico Rivera",
+      "type": "ciudad",
+      "slug": "pico-rivera",
+      "description": "Ciudad vecina con parques comunitarios y corredores comerciales convenientes.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque comunitario y espacio abierto",
+      "distance": "3 millas al oeste",
+      "avgHomePrice": "$750K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Norwalk",
+      "type": "ciudad",
+      "slug": "norwalk",
+      "description": "Ciudad orientada a familias con parques, tiendas y buen acceso para viajeros.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle residencial en vecindario",
+      "distance": "6 millas al suroeste",
+      "avgHomePrice": "$700K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "ciudad",
+      "slug": "la-mirada",
+      "description": "Ciudad residencial conocida por sus parques, escuelas y comodidades familiares.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle suburbana y áreas verdes",
+      "distance": "7 millas al sur",
+      "avgHomePrice": "$720K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Downey",
+      "type": "ciudad",
+      "slug": "downey",
+      "description": "Ciudad con parques, tiendas y una escena gastronómica en crecimiento.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Distrito comercial y de restaurantes",
+      "distance": "8 millas al oeste",
+      "avgHomePrice": "$750K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Uptown Whittier",
+      "description": "Distrito histórico con cafeterías, boutiques, mercados de fin de semana y eventos comunitarios.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle principal histórica con tiendas"
+    },
+    {
+      "title": "Whittier Greenway Trail",
+      "description": "Popular sendero de uso múltiple para caminar y andar en bicicleta a lo largo de la ciudad.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Camino pavimentado bordeado de árboles"
+    },
+    {
+      "title": "Parque Histórico Estatal Pio Pico",
+      "description": "Sitio histórico estatal que celebra la historia de California y la vida de Pío Pico.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio histórico y patio"
+    },
+    {
+      "title": "Parques y Recreación",
+      "description": "Múltiples parques vecinales, instalaciones deportivas y programas comunitarios.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque verde con senderos para caminar"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Whittier?",
+      "answer": "Whittier es conocido por su distrito histórico Uptown, el sendero Whittier Greenway y su fuerte sentido comunitario.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Whittier?",
+      "answer": "Whittier ofrece una mezcla de casas históricas y vecindarios suburbanos con precios competitivos para el Condado de Los Ángeles.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué se puede hacer en Whittier?",
+      "answer": "Pasear por Uptown Whittier, andar en bicicleta por el Greenway Trail, visitar el Parque Histórico Estatal Pio Pico y disfrutar de los restaurantes locales.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Whittier?",
+      "answer": "Acceso conveniente a la I-605 y SR-60 con rutas hacia Los Ángeles, el Condado de Orange y el Valle de San Gabriel.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Whittier CA | Uptown Histórico y Senderos",
+    "metaDescription": "Explora Uptown histórico de Whittier, parques, Whittier Greenway Trail y opciones inmobiliarias en el sureste del Condado de Los Ángeles.",
+    "keywords": "Bienes raíces Whittier, Uptown Whittier, Whittier Greenway Trail, vivir en Whittier",
+    "ogTitle": "Descubre Whittier: Historia, Comunidad y Vida al Aire Libre",
+    "ogDescription": "Encuentra tu hogar en Whittier con su vibrante Uptown, senderos y ubicación conveniente.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle arbolada con tiendas y peatones",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Whittier",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Whittier, California.",
+      "url": "https://example.com/locations/whittier",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle arbolada con tiendas y peatones en un distrito histórico"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Whittier",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whittier es conocido por su distrito histórico Uptown, el sendero Whittier Greenway y su fuerte sentido comunitario."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whittier ofrece una mezcla de casas históricas y vecindarios suburbanos con precios competitivos para el Condado de Los Ángeles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se puede hacer en Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pasear por Uptown Whittier, andar en bicicleta por el Greenway Trail, visitar el Parque Histórico Estatal Pio Pico y disfrutar de los restaurantes locales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Whittier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Acceso conveniente a la I-605 y SR-60 con rutas hacia Los Ángeles, el Condado de Orange y el Valle de San Gabriel."
+          }
+        }
+      ]
+    }
+  ]
+}

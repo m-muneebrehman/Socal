@@ -1,0 +1,187 @@
+{
+  "slug": "south-gate",
+  "name": "South Gate",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine vielfältige, urbane Gemeinschaft im Südosten von Los Angeles County mit Parks, Einkaufsmöglichkeiten und Pendlerzugang.",
+  "fullDescription": "South Gate bietet eine Mischung aus urbanem und vorstädtischem Leben mit aktiven Geschäftsstraßen, Nachbarschaftsparks und Gemeindezentren. Die zentrale Lage ermöglicht einen bequemen Zugang zu nahegelegenen Beschäftigungszentren und Autobahnen, während lokale Veranstaltungen und Einrichtungen ein eng verbundenes Gemeinschaftsgefühl fördern. Die Bewohner profitieren von der Nähe zu regionalen Einkaufsmöglichkeiten, Restaurants und öffentlichen Dienstleistungen im Südosten von LA County.",
+  "heroImage": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Urbaner Boulevard mit Palmen und Verkehr",
+  "population": "93T+",
+  "avgHomePrice": "650.000 $",
+  "tags": [
+    "Urban",
+    "Parks",
+    "Gemeinschaft"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downey",
+      "type": "Stadt",
+      "slug": "downey",
+      "description": "Stadt mit Parks, Einkaufsmöglichkeiten und einer wachsenden Gastronomieszene.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Einzelhandels- und Gastronomiebereich in Downey",
+      "distance": "6 Meilen östlich",
+      "avgHomePrice": "750.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lynwood",
+      "type": "Stadt",
+      "slug": "lynwood",
+      "description": "Urbane Stadt mit Gemeinschaftsprogrammen, Parks und günstiger Autobahnanbindung.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtansicht in Lynwood",
+      "distance": "3 Meilen südlich",
+      "avgHomePrice": "600.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Park",
+      "type": "Stadt",
+      "slug": "huntington-park",
+      "description": "Lebendige Stadt mit Geschäftsstraßen, Nachbarschaftsparks und Gemeindediensten.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Geschäftsstraße in Huntington Park",
+      "distance": "4 Meilen nordwestlich",
+      "avgHomePrice": "600.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "Stadt",
+      "slug": "compton",
+      "description": "Historische Stadt mit kulturellen Einrichtungen, Parks und regionaler Anbindung.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtansicht in Compton",
+      "distance": "5 Meilen südwestlich",
+      "avgHomePrice": "570.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "South Gate Park",
+      "description": "Großer Gemeinschaftspark mit Sportplätzen, Aquatic Center und Freizeitprogrammen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Großer Park mit Bäumen und offenen Feldern"
+    },
+    {
+      "title": "Azalea Regional Shopping Center",
+      "description": "Modernes Einkaufszentrum mit Geschäften, Restaurants und Alltagsdiensten.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Freiluft-Einkaufszentrum"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Von der Stadt organisierte Aktivitäten, Kurse und saisonale Feiern für alle Altersgruppen.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschenmenge bei einem Gemeindefest"
+    },
+    {
+      "title": "Zentrale Lage",
+      "description": "Schneller Zugang zu den Autobahnen I-710, I-105 und den umliegenden Städten im Südosten von LA.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Autobahnkreuz bei Dämmerung"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist South Gate bekannt?",
+      "answer": "South Gate ist bekannt für den South Gate Park, aktive Gemeinschaftsprogramme und die zentrale Lage im Südosten von LA County.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in South Gate?",
+      "answer": "Der Markt besteht hauptsächlich aus Einfamilienhäusern und kleineren Mehrfamilienhäusern mit wettbewerbsfähigen Preisen für LA County.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in South Gate unternehmen?",
+      "answer": "Genießen Sie den South Gate Park, shoppen Sie im Azalea Einkaufszentrum und erkunden Sie Gastronomie und Dienstleistungen entlang der Hauptstraßen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von South Gate?",
+      "answer": "Die Nähe zu den Autobahnen I-710 und I-105 bietet bequeme Verbindungen zu Beschäftigungszentren in ganz Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "South Gate CA Immobilien & Lebensstil | Parks, Shopping & Anbindung",
+    "metaDescription": "Entdecken Sie South Gates Parks, Einkaufsmöglichkeiten und Pendlerzugang in einer vielfältigen Gemeinschaft im Südosten von LA.",
+    "keywords": "South Gate Immobilien, South Gate Park, Leben in South Gate, Häuser im Südosten von LA",
+    "ogTitle": "Entdecken Sie South Gate: Gemeinschaft, Parks und zentrale Anbindung",
+    "ogDescription": "Finden Sie Ihr Zuhause in South Gate mit Gemeinschaftseinrichtungen, Parks und hervorragender regionaler Anbindung.",
+    "ogImage": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Urbaner Boulevard mit Palmen und Verkehr",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "South Gate",
+      "description": "Erkunden Sie Immobilien, Stadtviertel und Highlights in South Gate, Kalifornien.",
+      "url": "https://example.com/locations/south-gate",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1519682577862-22b62b24e493?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Urbaner Boulevard mit Palmen und Verkehr"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "South Gate",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist South Gate bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "South Gate ist bekannt für den South Gate Park, aktive Gemeinschaftsprogramme und die zentrale Lage im Südosten von LA County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in South Gate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt besteht hauptsächlich aus Einfamilienhäusern und kleineren Mehrfamilienhäusern mit wettbewerbsfähigen Preisen für LA County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in South Gate unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genießen Sie den South Gate Park, shoppen Sie im Azalea Einkaufszentrum und erkunden Sie Gastronomie und Dienstleistungen entlang der Hauptstraßen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von South Gate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Nähe zu den Autobahnen I-710 und I-105 bietet bequeme Verbindungen zu Beschäftigungszentren in ganz Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "san-marcos",
+  "name": "San Marcos",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine wachsende Stadt im North County, bekannt für ihre Universität, Wanderwege und familienfreundlichen Viertel mit einfachem Zugang zu Küsten- und Inlandattraktionen.",
+  "fullDescription": "San Marcos ist eine dynamische Stadt im Norden von San Diego County, Heimat der California State University San Marcos (CSUSM), malerischer Wanderwege und einer Mischung aus Vorstadt- und modernen Entwicklungen. Die Bewohner genießen die Nähe zu Vistas Brauereien, den Stränden von Carlsbad und den kulturellen Stätten von Escondido, was einen ausgewogenen Lebensstil mit Bildung, Erholung und Bequemlichkeit bietet.",
+  "heroImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Hügel und Wohnviertel in San Marcos",
+  "population": "100T+",
+  "avgHomePrice": "820.000 $+",
+  "tags": [
+    "Universitätsstadt",
+    "Wanderwege",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Vista",
+      "type": "Stadt",
+      "slug": "vista",
+      "description": "Angrenzende Stadt mit Gemeinschaftsparks, Craft-Brauereien und Familienveranstaltungen westlich von San Marcos.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Baumgesäumte Vorstadtstraße in Vista",
+      "distance": "6 Meilen westlich",
+      "avgHomePrice": "750.000 $",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "Stadt",
+      "slug": "carlsbad",
+      "description": "Küstenstadt mit Stränden, LEGOLAND und Carlsbad Village mit Einkaufsmöglichkeiten und Restaurants.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Küste von Carlsbad mit Wellen",
+      "distance": "10 Meilen südwestlich",
+      "avgHomePrice": "1,3 Mio. $",
+      "county": "San Diego"
+    },
+    {
+      "name": "Escondido",
+      "type": "Stadt",
+      "slug": "escondido",
+      "description": "Inlandsstadt mit Daley Ranch Wanderwegen, Gastronomie an der Grand Avenue und dem San Diego Safari Park.",
+      "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Weinberge bei Escondido",
+      "distance": "8 Meilen südöstlich",
+      "avgHomePrice": "800.000 $",
+      "county": "San Diego"
+    },
+    {
+      "name": "Oceanside",
+      "type": "Stadt",
+      "slug": "oceanside",
+      "description": "Strandstadt mit historischem Pier, Hafen und lebendigem Stadtzentrum, erreichbar über die SR-78.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Oceanside Pier bei Sonnenuntergang",
+      "distance": "12 Meilen westlich",
+      "avgHomePrice": "900.000 $",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "CSUSM & Bildung",
+      "description": "Die California State University San Marcos bildet das akademische Herz der Stadt und bietet kulturelle Veranstaltungen.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1541178735493-479c1a27ed24?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Universitätscampus mit moderner Architektur"
+    },
+    {
+      "title": "Wandern & Outdoor Trails",
+      "description": "Erkunden Sie den Double Peak Park, den Discovery Lake und die nahegelegene Daley Ranch für Wanderungen und Panoramablicke.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Malerischer Wanderweg mit Blick auf North County"
+    },
+    {
+      "title": "Familienfreundliches Leben",
+      "description": "Hoch bewertete Schulen, Parks und Gemeinschaftsveranstaltungen machen San Marcos ideal für Familien.",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vorstadtviertel mit Spielplatz"
+    },
+    {
+      "title": "Zugang zu Küste & Inland",
+      "description": "Schnelle Fahrten zu den Stränden von Carlsbad oder den Attraktionen von Escondido über die SR-78 und I-15.",
+      "icon": "🚗",
+      "bgImage": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Autobahn mit Bergkulisse"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht San Marcos im North County einzigartig?",
+      "answer": "Die Kombination aus universitärer Energie, Outdoor-Erholung und familienfreundlichen Vierteln – plus bezahlbar im Vergleich zu Küstenstädten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in San Marcos?",
+      "answer": "Der San Marcos Unified School District bedient die Region mit hoch bewerteten öffentlichen Schulen und Nähe zur CSUSM.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Wie ist der Arbeitsweg nach San Diego?",
+      "answer": "Ca. 30–45 Minuten über die I-15 bis zur Innenstadt von San Diego, mit COASTER-Zugverbindungen vom nahegelegenen Oceanside.",
+      "category": "Verkehr"
+    },
+    {
+      "question": "Gibt es neue Wohnentwicklungen?",
+      "answer": "Ja, San Marcos hat neuere Vorstadtgemeinden, insbesondere in der Nähe der Universität und entlang der SR-78.",
+      "category": "Immobilien"
+    }
+  ],
+  "seo": {
+    "metaTitle": "San Marcos CA Immobilien & Lebensstil | Wanderwege, Universität & Familienleben",
+    "metaDescription": "Entdecken Sie San Marcos Stadtviertel, Wanderwege, den CSUSM-Campus und die Nähe zu Carlsbad und Vista im North San Diego County.",
+    "keywords": "San Marcos Immobilien, CSUSM, San Marcos Wandern, North County San Diego, San Marcos Schulen",
+    "ogTitle": "Entdecken Sie San Marcos: Bildung, Natur & Familienleben",
+    "ogDescription": "Erfahren Sie mehr über San Marcos Stadtviertel, Outdoor-Trails und das Gleichgewicht zwischen Vorstadt- und Universitätsleben.",
+    "ogImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "San Marcos Hügel und Wohngebiete",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Marcos",
+      "description": "Erkunden Sie Immobilien, Stadtviertel und Highlights in San Marcos, Kalifornien.",
+      "url": "https://example.com/locations/san-marcos",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+        "caption": "San Marcos Hügel und Wohngebiete"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Marcos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Stadtviertel in San Marcos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gebiete in der Nähe der CSUSM, des Double Peak Parks und entlang der SR-78 für leichten Küstenzugang sind beliebte Optionen."
+          }
+        }
+      ]
+    }
+  ]
+}

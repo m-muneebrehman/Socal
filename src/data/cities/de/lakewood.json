@@ -1,0 +1,187 @@
+{
+  "slug": "lakewood",
+  "name": "Lakewood",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine gut geplante Vorstadtstadt, bekannt für ihre Parks, familienfreundliche Umgebung und günstige Lage im Los Angeles County.",
+  "fullDescription": "Lakewood bietet einen ruhigen Vorstadt-Lebensstil mit starkem Fokus auf Gemeinschaft, Parks und Freizeiteinrichtungen. Die Stadt verfügt über ruhige Wohnviertel, gute Schulen und eine günstige Anbindung an wichtige Autobahnen, was sie zu einer attraktiven Wahl für Familien und Pendler macht. Ihre zentrale Lage ermöglicht einen bequemen Zugang zu Long Beach, Downey und anderen nahegelegenen Städten. Lakewood veranstaltet zudem zahlreiche Gemeindeveranstaltungen und bietet gut gepflegte öffentliche Einrichtungen für Bewohner aller Altersgruppen.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vorstadtviertel und Grünfläche in Lakewood",
+  "population": "82.000+",
+  "avgHomePrice": "720.000 $",
+  "tags": [
+    "Familienfreundlich",
+    "Parks",
+    "Vorstädtisch"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "Stadt",
+      "slug": "long-beach",
+      "description": "Küstenstadt, bekannt für ihre Uferpromenade, kulturellen Attraktionen und die lebendige Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Skyline und Uferpromenade von Downtown Long Beach",
+      "distance": "8 km südwestlich",
+      "avgHomePrice": "750.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "Stadt",
+      "slug": "downey",
+      "description": "Vorstadtstadt mit Parks, Einkaufszentren und einer familienorientierten Gemeinschaft.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorstadtstraße in Downey",
+      "distance": "5 km östlich",
+      "avgHomePrice": "710.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "Stadt",
+      "slug": "bellflower",
+      "description": "Stadt mit vielfältigen Wohnvierteln, Einkaufsmöglichkeiten und Gemeinschaftsparks.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohngebiet in Bellflower",
+      "distance": "6 km nördlich",
+      "avgHomePrice": "680.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "Stadt",
+      "slug": "cerritos",
+      "description": "Gemeinde, bekannt für Einkaufszentren, Parks und familienfreundliche Angebote.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Einkaufszentrum in Cerritos",
+      "distance": "10 km südöstlich",
+      "avgHomePrice": "730.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Lakewood Center Mall",
+      "description": "Ein großes Einkaufszentrum mit einer Vielzahl von Geschäften, Restaurants und Unterhaltungsmöglichkeiten.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Innenansicht eines Einkaufszentrums mit Besuchern"
+    },
+    {
+      "title": "Parks und Erholung",
+      "description": "Lakewood verfügt über zahlreiche Parks, Sportplätze und Spazierwege für Outdoor-Aktivitäten.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Park mit Spazierweg"
+    },
+    {
+      "title": "Gemeindeveranstaltungen",
+      "description": "Ganzjährige Veranstaltungen, die die Gemeinschaft zusammenbringen, darunter Feste, Konzerte und Feiertagsfeiern.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschen auf einem Gemeindefest"
+    },
+    {
+      "title": "Gute Schulen",
+      "description": "Lakewood wird von mehreren hoch bewerteten öffentlichen und privaten Schulen versorgt und unterstützt damit das Familienleben.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Schüler im Klassenzimmer"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht Lakewood zu einem großartigen Wohnort?",
+      "answer": "Lakewood bietet eine familienfreundliche Vorstadtumgebung mit vielen Parks, guten Schulen und starkem Gemeinschaftsgeist.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Lakewood?",
+      "answer": "Der Immobilienmarkt ist stabil, mit Nachfrage nach Einfamilienhäusern in ruhigen Wohngegenden.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Freizeitmöglichkeiten gibt es in Lakewood?",
+      "answer": "Bewohner genießen Parks, Sportplätze, Gemeindeveranstaltungen und Shopping im Lakewood Center Mall.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist das Pendeln von Lakewood aus einfach?",
+      "answer": "Ja, Lakewood hat eine gute Autobahnanbindung und liegt in der Nähe von Städten wie Long Beach und Downey.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Lakewood CA Immobilien & Lebensstil | Familienfreundliche Parks & Gemeinschaft",
+    "metaDescription": "Entdecken Sie Lakewoods Parks, Schulen, Einkaufsmöglichkeiten und Immobilienangebote im Los Angeles County.",
+    "keywords": "Lakewood Immobilien, Lakewood Parks, Leben in Lakewood, Lakewood Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Lakewood: Vorstadtleben mit Gemeinschaftscharme",
+    "ogDescription": "Finden Sie Ihr Zuhause in Lakewood mit Parks, Einkaufsmöglichkeiten und familienfreundlichen Vierteln.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vorstadtviertel und Grünfläche in Lakewood",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lakewood",
+      "description": "Erkunden Sie Immobilien, Stadtviertel und Highlights in Lakewood, Kalifornien.",
+      "url": "https://example.com/locations/lakewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vorstadtviertel und Grünfläche in Lakewood"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lakewood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was macht Lakewood zu einem großartigen Wohnort?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lakewood bietet eine familienfreundliche Vorstadtumgebung mit vielen Parks, guten Schulen und starkem Gemeinschaftsgeist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Lakewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Immobilienmarkt ist stabil, mit Nachfrage nach Einfamilienhäusern in ruhigen Wohngegenden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Freizeitmöglichkeiten gibt es in Lakewood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bewohner genießen Parks, Sportplätze, Gemeindeveranstaltungen und Shopping im Lakewood Center Mall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist das Pendeln von Lakewood aus einfach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Lakewood hat eine gute Autobahnanbindung und liegt in der Nähe von Städten wie Long Beach und Downey."
+          }
+        }
+      ]
+    }
+  ]
+}

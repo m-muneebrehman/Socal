@@ -1,0 +1,165 @@
+{
+  "slug": "malibu",
+  "name": "Malibu",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Küstenstadt, berühmt für ihre atemberaubenden Strände, Promi-Villen und den Outdoor-Lifestyle.",
+  "fullDescription": "Malibu ist eine wunderschöne Stadt am Meer, bekannt für ihre malerische Küstenlinie, luxuriösen Anwesen und entspannten Lebensstil. Entlang des Pacific Coast Highway gelegen, bietet Malibu weltberühmte Surfspots, Wanderwege in den Santa-Monica-Bergen sowie exklusive Gastronomie- und Einkaufsmöglichkeiten. Diese Stadt verbindet natürliche Schönheit mit einem gehobenen Gemeinschaftsgefühl und ist sowohl bei Bewohnern als auch bei Besuchern sehr begehrt. Malibu bietet zudem Zugang zu exzellenten Schulen und einem engen Gemeinschaftsgefühl – nur eine kurze Fahrt von Los Angeles entfernt.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sonnenuntergang über der Küste von Malibu mit Wellen, die an den Strand schlagen",
+  "population": "13T+",
+  "avgHomePrice": "4,5 Mio. $",
+  "tags": [
+    "Strände",
+    "Luxus",
+    "Outdoor-Lifestyle"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Santa Monica",
+      "type": "Stadt",
+      "slug": "santa-monica",
+      "description": "Beliebte Strandstadt mit berühmtem Pier, Einkaufsmöglichkeiten und lebendigem Stadtleben.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Santa Monica Pier und Strand",
+      "distance": "24 km südöstlich",
+      "avgHomePrice": "2,5 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Calabasas",
+      "type": "Stadt",
+      "slug": "calabasas",
+      "description": "Wohlhabende Stadt, bekannt für bewachte Wohnanlagen, Einkaufsmöglichkeiten und Wanderwege.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnviertel in Calabasas",
+      "distance": "16 km östlich",
+      "avgHomePrice": "1,9 Mio. $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Malibu Lagoon State Beach",
+      "description": "Ein wunderschönes Mündungsgebiet mit Vogelbeobachtung, Spazierwegen und Strandzugang.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ruhiger Strand und Lagune bei Sonnenuntergang"
+    },
+    {
+      "title": "El Matador State Beach",
+      "description": "Abgelegener Strand mit beeindruckenden Meeresgrotten, Klippen und Gezeitenbecken.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rauhe Klippen und Meer am El Matador Beach"
+    },
+    {
+      "title": "Malibu Pier",
+      "description": "Ikonischer Pier mit Angelplätzen, Restaurants und Meerblick.",
+      "icon": "🎣",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Malibu Pier bei Sonnenuntergang"
+    },
+    {
+      "title": "Santa Monica Mountains National Recreation Area",
+      "description": "Weitläufige Wander- und Radwege mit atemberaubendem Meerblick.",
+      "icon": "🚶",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wanderweg mit Blick auf das Meer"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht Malibu besonders?",
+      "answer": "Malibu ist bekannt für seine atemberaubenden Strände, luxuriösen Villen und vielfältigen Outdoor-Aktivitäten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Malibu?",
+      "answer": "Der Immobilienmarkt in Malibu ist hochpreisig und wettbewerbsintensiv, mit Anwesen direkt am Meer und luxuriösen Immobilien.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Aktivitäten kann man in Malibu unternehmen?",
+      "answer": "Surfen, Wandern in den Santa-Monica-Bergen, Entspannen am Strand und Essen in gehobenen Restaurants genießen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist Malibu für Pendler gut erreichbar?",
+      "answer": "Malibu ist über den Pacific Coast Highway und nahegelegene Autobahnen erreichbar, allerdings kann der Verkehr zu Stoßzeiten stark sein.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Malibu CA Immobilien & Lifestyle | Strände, Luxus & Outdoor-Leben",
+    "metaDescription": "Entdecken Sie Malibus Stadtviertel, atemberaubende Strände und luxuriöse Immobilien entlang der kalifornischen Küste.",
+    "keywords": "Malibu Immobilien, Malibu Strände, Malibu Luxusvillen, Leben in Malibu, Malibu Outdoor-Aktivitäten",
+    "ogTitle": "Entdecken Sie Malibu: Küstenluxus und natürliche Schönheit",
+    "ogDescription": "Finden Sie Ihr Traumhaus in Malibu mit atemberaubendem Meerblick und Outdoor-Abenteuern.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sonnenuntergang über der Küste von Malibu mit Wellen, die an den Strand schlagen",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Malibu",
+      "description": "Erkunden Sie Immobilien, Stadtviertel und Highlights in Malibu, Kalifornien.",
+      "url": "https://example.com/locations/malibu",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sonnenuntergang über der Küste von Malibu mit Wellen, die an den Strand schlagen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Malibu",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was macht Malibu besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu ist bekannt für seine atemberaubenden Strände, luxuriösen Villen und vielfältigen Outdoor-Aktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Malibu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Immobilienmarkt in Malibu ist hochpreisig und wettbewerbsintensiv, mit Anwesen direkt am Meer und luxuriösen Immobilien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Aktivitäten kann man in Malibu unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Surfen, Wandern in den Santa-Monica-Bergen, Entspannen am Strand und Essen in gehobenen Restaurants genießen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Malibu für Pendler gut erreichbar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu ist über den Pacific Coast Highway und nahegelegene Autobahnen erreichbar, allerdings kann der Verkehr zu Stoßzeiten stark sein."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "la-palma",
+  "name": "La Palma",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine kleine, ruhige Stadt, bekannt für familienfreundliche Viertel und gepflegte Parks.",
+  "fullDescription": "La Palma bietet eine friedliche vorstädtische Umgebung mit starken Gemeinschaftswerten, ausgezeichneten öffentlichen Dienstleistungen und bequemen Zugang zu wichtigen Autobahnen. Bekannt als die ‚Stadt der Bäume und Parks‘, verfügt sie über eine Vielzahl von Freizeiteinrichtungen, erstklassige Schulen und sichere Wohngebiete. Mit Fokus auf Familienleben und Gemeinschaftsveranstaltungen spricht La Palma Bewohner an, die einen ruhigen und dennoch gut angebundenen Lebensstil im Orange County suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Baumgesäumte Vorortstraße in La Palma",
+  "population": "16.000+",
+  "avgHomePrice": "800.000 $",
+  "tags": [
+    "Familienfreundlich",
+    "Parks & Freizeit",
+    "Vorstadt"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Cypress",
+      "type": "stadt",
+      "slug": "cypress",
+      "description": "Gemeinschaft mit familienfreundlichen Vierteln, Parks und einer starken lokalen Wirtschaft.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorortviertel in Cypress",
+      "distance": "2 Meilen östlich",
+      "avgHomePrice": "850.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Buena Park",
+      "type": "stadt",
+      "slug": "buena-park",
+      "description": "Heimat von Unterhaltungsmöglichkeiten, Einkaufsmöglichkeiten und vielfältigen Wohngebieten.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtbild von Buena Park",
+      "distance": "3 Meilen nördlich",
+      "avgHomePrice": "700.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Seal Beach",
+      "type": "stadt",
+      "slug": "seal-beach",
+      "description": "Küstenstadt, bekannt für ihre charmante Hauptstraße, Strände und entspannte Lebensweise.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Strand und Pier in Seal Beach",
+      "distance": "5 Meilen südwestlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "La Palma Park",
+      "description": "Gemeinschaftspark mit Sportanlagen, Picknickplätzen und Spielplätzen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Spielplatz und Grünfläche im La Palma Park"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Jährliche Stadtveranstaltungen einschließlich Sommerkonzerte, Feiertagsfeste und Bauernmärkte.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gemeinschaftsfest mit Menschen und Dekorationen"
+    },
+    {
+      "title": "La Palma Stadtbibliothek",
+      "description": "Moderne Bibliothek mit Bildungsprogrammen und Ressourcen für alle Altersgruppen.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Außenansicht der La Palma Stadtbibliothek"
+    },
+    {
+      "title": "Wander- und Radwege",
+      "description": "Gut gepflegte Wege, die Outdoor-Training und Gemeinschaftsverbindung fördern.",
+      "icon": "🚴‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Radfahrer auf einem vorstädtischen Radweg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist La Palma bekannt?",
+      "answer": "La Palma ist als ‚Stadt der Bäume und Parks‘ bekannt, wegen seiner Grünflächen, familienfreundlichen Atmosphäre und Gemeinschaftsveranstaltungen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in La Palma?",
+      "answer": "La Palma wird von den hoch bewerteten Schulbezirken Centralia und Los Alamitos Unified bedient.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten gibt es in La Palma?",
+      "answer": "Die Bewohner genießen Parks, Wander- und Radwege, Gemeinschaftsveranstaltungen und Sportanlagen.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist das Pendeln von La Palma aus?",
+      "answer": "La Palma bietet einfachen Zugang zu den Autobahnen 22 und 405, mit typischen Pendelzeiten zu nahegelegenen Arbeitszentren von 20 bis 45 Minuten.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Palma CA Immobilien & Gemeinschaft | Familienfreundliches Vorstadtleben",
+    "metaDescription": "Entdecken Sie La Palmas Stadtteile, Parks, Schulen und Häuser in dieser ruhigen Stadt im Orange County.",
+    "keywords": "La Palma Immobilien, Orange County Häuser, Familienleben La Palma, La Palma Parks",
+    "ogTitle": "Entdecken Sie La Palma: Vorstadtcharme & Gemeinschaftsgeist",
+    "ogDescription": "Erfahren Sie mehr über La Palmas familienfreundliche Viertel, Parks und Gemeinschaftsveranstaltungen im Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Baumgesäumte Vorortstraße in La Palma",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Palma",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in La Palma, Kalifornien.",
+      "url": "https://example.com/locations/la-palma",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Baumgesäumte Vorortstraße in La Palma"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Palma",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist La Palma bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma ist als ‚Stadt der Bäume und Parks‘ bekannt, wegen seiner Grünflächen, familienfreundlichen Atmosphäre und Gemeinschaftsveranstaltungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in La Palma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma wird von den hoch bewerteten Schulbezirken Centralia und Los Alamitos Unified bedient."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten gibt es in La Palma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner genießen Parks, Wander- und Radwege, Gemeinschaftsveranstaltungen und Sportanlagen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von La Palma aus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma bietet einfachen Zugang zu den Autobahnen 22 und 405, mit typischen Pendelzeiten zu nahegelegenen Arbeitszentren von 20 bis 45 Minuten."
+          }
+        }
+      ]
+    }
+  ]
+}

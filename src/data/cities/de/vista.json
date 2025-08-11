@@ -1,0 +1,163 @@
+{
+  "slug": "vista",
+  "name": "Vista",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Stadt im Binnenland des nördlichen Countys, bekannt für Parks, eine wachsende Craft-Bier-Szene, Familienveranstaltungen und schnellen Zugang zu Küstengemeinden.",
+  "fullDescription": "Vista ist eine familienfreundliche Stadt im Binnenland im Norden von San Diego County mit Gemeinschaftsparks, einer aktiven Craft-Bier-Szene und saisonalen Veranstaltungen. Die Bewohner genießen die Nähe zu den Stränden von Oceanside und Carlsbad, den Wanderwegen und Schulen in San Marcos sowie den kulturellen Attraktionen von Escondido – ein ausgewogenes Leben mit vorstädtischem Komfort und regionaler Anbindung.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Baumgesäumte Vorstadtstraße und Nachbarschaft in Vista",
+  "population": "100T+",
+  "avgHomePrice": "750.000 $+",
+  "tags": [
+    "Parks",
+    "Familienfreundlich",
+    "Craft-Bier"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Oceanside",
+      "type": "Stadt",
+      "slug": "oceanside",
+      "description": "Küstenstadt im Westen mit historischem Pier, aktivem Hafen und Strandvierteln.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pier und Küste von Oceanside bei Sonnenuntergang",
+      "distance": "8 Meilen westlich",
+      "avgHomePrice": "900.000 $",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "Stadt",
+      "slug": "carlsbad",
+      "description": "Nahegelegene Küstenstadt mit Stränden, Carlsbad Village und Familienattraktionen wie LEGOLAND.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pazifik-Wellen entlang der Küste von Carlsbad",
+      "distance": "7 Meilen südwestlich",
+      "avgHomePrice": "1,3 Mio. $",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "Stadt",
+      "slug": "san-marcos",
+      "description": "Bildungszentrum mit der Cal State San Marcos, Wanderwegen und wachsendem Gastronomieangebot östlich von Vista.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sanfte grüne Hügel nahe San Marcos",
+      "distance": "6 Meilen östlich",
+      "avgHomePrice": "820.000 $",
+      "county": "San Diego"
+    },
+    {
+      "name": "Escondido",
+      "type": "Stadt",
+      "slug": "escondido",
+      "description": "Stadt im Inland mit Daley Ranch Wanderwegen, lebendigem Zentrum an der Grand Avenue und dem Safari Park.",
+      "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Reihen von Weinbergen in Kalifornien nahe Escondido",
+      "distance": "10 Meilen südöstlich",
+      "avgHomePrice": "800.000 $",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks & Wanderwege",
+      "description": "Gemeinschaftsparks und nahegelegene regionale Wanderwege bieten ganzjährig Möglichkeiten zum Wandern, Radfahren und Picknicken.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Landschaftlicher Wanderweg durch Hügel im Norden des Countys"
+    },
+    {
+      "title": "Craft-Bier & Gastronomie",
+      "description": "Vistas wachsende Craft-Bier-Szene und lokale Restaurants sorgen für lebendige Abende und Wochenendausflüge.",
+      "icon": "🍺",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Innenstadtstraße mit Lichterketten, Restaurants und Terrassen"
+    },
+    {
+      "title": "Familienveranstaltungen & Kunst",
+      "description": "Saisonale Festivals, Märkte und öffentliche Kunst feiern den Gemeinschaftsgeist von Vista.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fußgängerstraße mit Geschäften und Gemeinschaftsaktivitäten"
+    },
+    {
+      "title": "Zugang zur Küste",
+      "description": "Schnelle Ausflüge zu den Stränden von Oceanside und Carlsbad zum Surfen, Sonnenuntergang und Hafenrestaurants.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Küste und Pier bei Sonnenuntergang"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Stadtteile in Vista?",
+      "answer": "Beliebte Optionen sind familienfreundliche Vorstadtgebiete in der Nähe von Parks und Schulen sowie Stadtteile mit schnellem Zugang zu San Marcos und Küstenstädten.",
+      "category": "Stadtteile"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Vista?",
+      "answer": "Vista bietet eine Bandbreite von Häusern von klassischen Ranch-Stilen bis zu neueren Entwicklungen; die Preise sind oft erschwinglicher als in Küstenstädten und trotzdem nah am Strand.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Vista unternehmen?",
+      "answer": "Genießen Sie Gemeinschaftsparks, Brauereien und Gastronomie, saisonale Veranstaltungen und kurze Fahrten zu den Stränden von Oceanside und Carlsbad.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Vista aus?",
+      "answer": "Vista ist über SR-78 an die Korridore I-5 und I-15 angeschlossen, mit COASTER-Bahn und regionalen Verkehrsmitteln zu Küsten- und Binnenarbeitsplätzen.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Vista CA Immobilien & Lebensstil | Parks, Brauereien & Küstenzugang",
+    "metaDescription": "Entdecken Sie Vistas Stadtteile, Parks, Craft-Bier-Szene und die Nähe zu den Stränden von Oceanside und Carlsbad im nördlichen San Diego County.",
+    "keywords": "Vista Immobilien, Vista Parks, Vista Brauereien, North County San Diego, Vista Stadtteile",
+    "ogTitle": "Entdecken Sie Vista: Familienfreundliches Leben nahe der Küste",
+    "ogDescription": "Erfahren Sie mehr über Vistas Stadtteile, Lebensstil und einfachen Zugang zu Küstenstädten und regionalen Wanderwegen.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Baumgesäumte Nachbarschaftsstraße in Vista",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Vista",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Vista, Kalifornien.",
+      "url": "https://example.com/locations/vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Nachbarschaftsstraße mit Bäumen in Vista"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Vista",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Stadtteile in Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Familienfreundliche Gebiete nahe Parks und Schulen sowie Orte mit schnellem Zugang zu SR-78 für Küsten- oder Binnenpendler sind beliebt."
+          }
+        }
+      ]
+    }
+  ]
+}

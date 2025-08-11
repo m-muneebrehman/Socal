@@ -1,0 +1,176 @@
+{
+  "slug": "glendale",
+  "name": "Glendale",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad próspera conocida por sus centros comerciales, parques y diversa comunidad cultural en la región de Verdugos.",
+  "fullDescription": "Glendale es una ciudad vibrante ubicada en el condado de Los Ángeles, al pie de las montañas San Gabriel. Conocida por sus bulliciosos distritos comerciales como The Americana at Brand, una fuerte comunidad armenia y abundantes parques, Glendale ofrece un estilo de vida equilibrado con comodidades urbanas y oportunidades recreativas al aire libre. La ciudad cuenta con excelentes escuelas, un centro revitalizado y fácil acceso al centro de Los Ángeles y Pasadena, lo que la convierte en un lugar atractivo para vivir y trabajar.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista del skyline de la ciudad de Glendale con montañas al fondo",
+  "population": "200K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Compras",
+    "Parques",
+    "Diversidad Cultural"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Burbank",
+      "type": "ciudad",
+      "slug": "burbank",
+      "description": "Capital del entretenimiento con estudios importantes y vecindarios familiares.",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Centro de Burbank con palmeras",
+      "distance": "4 millas al noroeste",
+      "avgHomePrice": "$950K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "La Cañada Flintridge",
+      "type": "ciudad",
+      "slug": "la-canada-flintridge",
+      "description": "Comunidad exclusiva conocida por sus vistas panorámicas y actividades al aire libre.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle residencial con montañas en La Cañada Flintridge",
+      "distance": "6 millas al norte",
+      "avgHomePrice": "$1.5M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "ciudad",
+      "slug": "pasadena",
+      "description": "Ciudad histórica famosa por el Rose Bowl y sus atracciones culturales.",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Panorámica de Pasadena y edificios históricos",
+      "distance": "7 millas al este",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Americana at Brand",
+      "description": "Un destino principal de compras y entretenimiento al aire libre.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centro comercial al aire libre al atardecer"
+    },
+    {
+      "title": "Glendale Galleria",
+      "description": "Gran centro comercial interior con una variedad de tiendas y restaurantes.",
+      "icon": "🏬",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centro comercial Glendale Galleria"
+    },
+    {
+      "title": "Brand Park",
+      "description": "Parque histórico con senderos, jardines botánicos y áreas para picnic.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Área verde con árboles y caminos"
+    },
+    {
+      "title": "Diversidad Cultural",
+      "description": "Glendale alberga una gran comunidad armenia y una rica mezcla de culturas.",
+      "icon": "🌏",
+      "bgImage": "https://images.unsplash.com/photo-1563201518-47b8c7c2c865?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival cultural con decoraciones coloridas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Glendale?",
+      "answer": "Glendale es conocida por sus centros comerciales, diversidad cultural y proximidad a las montañas San Gabriel.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Glendale?",
+      "answer": "El mercado inmobiliario en Glendale ofrece una mezcla de casas históricas, condominios y nuevos desarrollos con precios competitivos.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué actividades recreativas son populares en Glendale?",
+      "answer": "Los residentes disfrutan del senderismo en las montañas cercanas, las compras en The Americana at Brand y la exploración de parques locales.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Glendale?",
+      "answer": "Glendale tiene buen acceso a las principales autopistas y opciones de transporte público hacia Los Ángeles y áreas circundantes.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Glendale CA | Compras, Parques y Cultura",
+    "metaDescription": "Descubre los vecindarios, atracciones culturales y bienes raíces en la región Verdugos del condado de Los Ángeles.",
+    "keywords": "bienes raíces Glendale, compras en Glendale, vivir en Glendale, casas en venta en Glendale",
+    "ogTitle": "Explora Glendale: Cultura, Compras y Vida al Aire Libre",
+    "ogDescription": "Encuentra tu hogar en Glendale con su comunidad diversa, excelentes tiendas y entorno escénico.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista del skyline de la ciudad de Glendale con montañas al fondo",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Glendale",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Glendale, California.",
+      "url": "https://example.com/locations/glendale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista del skyline de la ciudad de Glendale con montañas al fondo"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Glendale",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Glendale es conocida por sus centros comerciales, diversidad cultural y proximidad a las montañas San Gabriel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario en Glendale ofrece una mezcla de casas históricas, condominios y nuevos desarrollos con precios competitivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades recreativas son populares en Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes disfrutan del senderismo en las montañas cercanas, las compras en The Americana at Brand y la exploración de parques locales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Glendale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Glendale tiene buen acceso a las principales autopistas y opciones de transporte público hacia Los Ángeles y áreas circundantes."
+          }
+        }
+      ]
+    }
+  ]
+}

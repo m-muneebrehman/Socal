@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-beach",
+  "name": "Laguna Beach",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Küstenstadt, bekannt für ihre Kunstgemeinschaft, Strände und malerische Meeresblicke.",
+  "fullDescription": "Laguna Beach ist bekannt für seine atemberaubende Küstenlinie, lebendige Kunstszene und die einzigartige Kombination aus natürlicher Schönheit und kulturellen Attraktionen. Mit unberührten Stränden, Gezeitenbecken und Wanderwegen bietet diese Stadt einen entspannten und dennoch anspruchsvollen Lebensstil. Besucher und Einwohner genießen Kunstgalerien, jährliche Festivals und gehobene Gastronomie, was Laguna Beach zu einem begehrten Ziel im Orange County zum Leben und Urlauben macht.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Malereiche Küstenlinie und Klippen bei Laguna Beach",
+  "population": "23.000+",
+  "avgHomePrice": "3,5 Mio. $",
+  "tags": [
+    "Küstenstadt",
+    "Kunst & Kultur",
+    "Freizeit im Freien"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "stadt",
+      "slug": "aliso-viejo",
+      "description": "Geplante Gemeinde, bekannt für Parks, Einkaufsmöglichkeiten und familienfreundliches Wohnen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park im Stadtteil Aliso Viejo",
+      "distance": "7 Meilen nordöstlich",
+      "avgHomePrice": "950.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Dana Point",
+      "type": "stadt",
+      "slug": "dana-point",
+      "description": "Küstenstadt mit einem Hafen, Stränden und Walbeobachtung.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hafenblick in Dana Point",
+      "distance": "8 Meilen südöstlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "stadt",
+      "slug": "laguna-niguel",
+      "description": "Wohngebiet mit Parks, Einkaufszentren und Golfplätzen.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorortviertel in Laguna Niguel",
+      "distance": "9 Meilen östlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "stadt",
+      "slug": "san-clemente",
+      "description": "Küstenstadt, bekannt für ihre Pier, Strände und spanisch inspirierte Architektur.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Pier von San Clemente bei Sonnenuntergang",
+      "distance": "14 Meilen südöstlich",
+      "avgHomePrice": "1,0 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Strände und Gezeitenbecken",
+      "description": "Wunderschöne Sandstrände und Gezeitenbecken, ideal zum Erkunden des Meereslebens.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Küstenlinie von Laguna Beach mit Gezeitenbecken"
+    },
+    {
+      "title": "Kunstgalerien und Festivals",
+      "description": "Lebendige Kunstszene mit zahlreichen Galerien und jährlichen Veranstaltungen wie dem Pageant of the Masters.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Innenraum einer Kunstgalerie in Laguna Beach"
+    },
+    {
+      "title": "Wanderwege",
+      "description": "Malereiche Wanderwege im nahegelegenen Laguna Coast Wilderness Park mit Meerblick und Wildtierbeobachtungen.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wanderweg mit Meerblick im Laguna Coast Wilderness Park"
+    },
+    {
+      "title": "Geschützte Meeresgebiete",
+      "description": "Ausgewiesene Meeresschutzgebiete zum Schutz des lokalen Meereslebens und der Lebensräume.",
+      "icon": "🐠",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Unterwasser-Meeresleben in der Nähe von Laguna Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Laguna Beach berühmt?",
+      "answer": "Laguna Beach ist berühmt für seine atemberaubende Küstenlinie, lebendige Kunstgemeinschaft, Strände und Outdoor-Freizeitaktivitäten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Laguna Beach?",
+      "answer": "Der Laguna Beach Unified School District ist hoch bewertet und bietet exzellente öffentliche Bildung vom Grund- bis zum Highschool-Niveau.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten kann ich in Laguna Beach genießen?",
+      "answer": "Sie können Strandaktivitäten, Erkundung von Gezeitenbecken, Wandern, Walbeobachtung und den Besuch von Kunstfestivals genießen.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Laguna Beach?",
+      "answer": "Laguna Beach bietet bequemen Zugang zu den Freeways 73 und 405 mit typischen Pendelstrecken zu nahegelegenen Städten im Orange County und Los Angeles.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Beach CA Immobilien & Küstenleben | Kunst & Outdoor-Freizeit",
+    "metaDescription": "Entdecken Sie die Küstenviertel, Kunstszene, Strände und Outdoor-Aktivitäten von Laguna Beach im Orange County.",
+    "keywords": "Laguna Beach Immobilien, Orange County Küstenhäuser, Laguna Beach Kunst, Leben in Laguna Beach",
+    "ogTitle": "Entdecken Sie Laguna Beach: Küsten Schönheit & lebendige Kunstgemeinschaft",
+    "ogDescription": "Erleben Sie die atemberaubenden Strände, die blühende Kunstszene und Outdoor-Abenteuer von Laguna Beach im Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Küstenlinie von Laguna Beach mit Gezeitenbecken",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Beach",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Laguna Beach, Kalifornien.",
+      "url": "https://example.com/locations/laguna-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Malereiche Küstenlinie und Klippen bei Laguna Beach"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Laguna Beach berühmt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach ist berühmt für seine atemberaubende Küstenlinie, lebendige Kunstgemeinschaft, Strände und Outdoor-Freizeitaktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Laguna Beach Unified School District ist hoch bewertet und bietet exzellente öffentliche Bildung vom Grund- bis zum Highschool-Niveau."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten kann ich in Laguna Beach genießen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sie können Strandaktivitäten, Erkundung von Gezeitenbecken, Wandern, Walbeobachtung und den Besuch von Kunstfestivals genießen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach bietet bequemen Zugang zu den Freeways 73 und 405 mit typischen Pendelstrecken zu nahegelegenen Städten im Orange County und Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}
