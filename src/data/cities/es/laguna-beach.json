@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-beach",
+  "name": "Laguna Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una pintoresca ciudad costera famosa por su comunidad artística, playas y vistas escénicas al océano.",
+  "fullDescription": "Laguna Beach es reconocida por su impresionante costa, vibrante escena artística y una combinación única de belleza natural y atracciones culturales. Con playas prístinas, pozas de marea y senderos para caminatas, esta ciudad ofrece un estilo de vida relajado pero sofisticado. Visitantes y residentes disfrutan de galerías de arte, festivales anuales y gastronomía de alta calidad, haciendo de Laguna Beach un destino muy solicitado en el condado de Orange tanto para vivir como para vacacionar.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Costa escénica y acantilados en Laguna Beach",
+  "population": "23K+",
+  "avgHomePrice": "$3.5M",
+  "tags": [
+    "Costera",
+    "Arte y Cultura",
+    "Recreación al Aire Libre"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "ciudad",
+      "slug": "aliso-viejo",
+      "description": "Comunidad planificada conocida por sus parques, centros comerciales y vida familiar.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque del vecindario de Aliso Viejo",
+      "distance": "7 millas al noreste",
+      "avgHomePrice": "$950K",
+      "county": "Orange"
+    },
+    {
+      "name": "Dana Point",
+      "type": "ciudad",
+      "slug": "dana-point",
+      "description": "Ciudad costera con marina, playas y avistamiento de ballenas.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista del puerto en Dana Point",
+      "distance": "8 millas al sureste",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "ciudad",
+      "slug": "laguna-niguel",
+      "description": "Comunidad residencial con parques, centros comerciales y campos de golf.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario suburbano en Laguna Niguel",
+      "distance": "9 millas al este",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "ciudad",
+      "slug": "san-clemente",
+      "description": "Ciudad costera conocida por su muelle, playas y arquitectura de estilo español.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Muelle de San Clemente al atardecer",
+      "distance": "14 millas al sureste",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Playas y Pozas de Marea",
+      "description": "Hermosas playas de arena y pozas de marea perfectas para explorar la vida marina.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Costa de Laguna Beach con pozas de marea"
+    },
+    {
+      "title": "Galerías de Arte y Festivales",
+      "description": "Escena artística vibrante con numerosas galerías y eventos anuales como el Pageant of the Masters.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Interior de una galería de arte en Laguna Beach"
+    },
+    {
+      "title": "Senderos para Caminatas",
+      "description": "Senderos escénicos en el cercano Parque de la Reserva Natural Laguna Coast que ofrecen vistas al océano y avistamiento de vida silvestre.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero con vista al océano en el Parque Laguna Coast Wilderness"
+    },
+    {
+      "title": "Áreas Marinas Protegidas",
+      "description": "Reservas marinas designadas que protegen la vida marina local y sus hábitats.",
+      "icon": "🐠",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vida marina submarina cerca de Laguna Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es famosa Laguna Beach?",
+      "answer": "Laguna Beach es famosa por su impresionante costa, vibrante comunidad artística, playas y actividades recreativas al aire libre.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Laguna Beach?",
+      "answer": "El Distrito Escolar Unificado de Laguna Beach tiene una alta calificación, ofreciendo excelente educación pública desde primaria hasta secundaria.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre puedo disfrutar en Laguna Beach?",
+      "answer": "Puedes disfrutar de actividades en la playa, exploración de pozas de marea, caminatas, avistamiento de ballenas y visitas a festivales de arte.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Laguna Beach?",
+      "answer": "Laguna Beach ofrece acceso conveniente a las autopistas 73 y 405, con desplazamientos típicos a ciudades cercanas del condado de Orange y Los Ángeles.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Vida Costera en Laguna Beach CA | Arte y Recreación al Aire Libre",
+    "metaDescription": "Descubre los vecindarios costeros, la escena artística, playas y actividades al aire libre de Laguna Beach en el condado de Orange.",
+    "keywords": "bienes raíces Laguna Beach, casas costeras condado de Orange, arte en Laguna Beach, vivir en Laguna Beach",
+    "ogTitle": "Explora Laguna Beach: Belleza Costera y Comunidad Artística Vibrante",
+    "ogDescription": "Experimenta las impresionantes playas, la próspera escena artística y las aventuras al aire libre de Laguna Beach en el condado de Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Costa de Laguna Beach con pozas de marea",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Beach",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Laguna Beach, California.",
+      "url": "https://example.com/locations/laguna-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Costa escénica y acantilados en Laguna Beach"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es famosa Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach es famosa por su impresionante costa, vibrante comunidad artística, playas y actividades recreativas al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Distrito Escolar Unificado de Laguna Beach tiene una alta calificación, ofreciendo excelente educación pública desde primaria hasta secundaria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre puedo disfrutar en Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puedes disfrutar de actividades en la playa, exploración de pozas de marea, caminatas, avistamiento de ballenas y visitas a festivales de arte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Laguna Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Beach ofrece acceso conveniente a las autopistas 73 y 405, con desplazamientos típicos a ciudades cercanas del condado de Orange y Los Ángeles."
+          }
+        }
+      ]
+    }
+  ]
+}

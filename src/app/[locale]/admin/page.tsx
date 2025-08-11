@@ -24,7 +24,7 @@ import {
 } from "lucide-react"
 
 // Import types
-import { User, Blog, City, DashboardStats, HomeSection, Toast, HomeData } from "@/types"
+import { User, Blog, City, DashboardStats, HomeSection, Toast, HomeData, ContactData } from "@/types"
 
 // Import components
 import Header from "@/components/admin/Header"
@@ -33,6 +33,7 @@ import UserManager from "@/components/admin/UserManager"
 import CityManager from "@/components/admin/CityManager"
 import BlogManager from "@/components/admin/BlogManager"
 import HomeManager from "@/components/admin/HomeManager"
+import ContactManager from "@/components/admin/ContactManager"
 import UserModal from "@/components/admin/UserModal"
 import { ToastContainer } from "@/components/admin/Toast"
 import AdminNavbar from "@/components/admin/AdminNavbar"
@@ -149,6 +150,110 @@ export default function AdminDashboard() {
   
   // Home data locale state
   const [homeDataLocale, setHomeDataLocale] = useState<string>('en')
+
+  // Contact data state
+  const [contactData, setContactData] = useState<ContactData>({
+    hero: {
+      profileStatus: "Available Now",
+      profileCompany: "eXp of California",
+      profileTitle: "Lead of Crown Coastal Concierge",
+      profileBadges: {
+        topProducer: "Top Producer",
+        fiveStarRated: "5-Star Rated"
+      },
+      recentSales: {
+        title: "Recent Sales",
+        seeAll: "See All",
+        sold: "Sold",
+        properties: [
+          {
+            address: "1234 Ocean View Dr, La Jolla",
+            price: "$2,450,000",
+            year: "2024"
+          },
+          {
+            address: "5678 Coastal Blvd, Del Mar",
+            price: "$1,890,000",
+            year: "2024"
+          },
+          {
+            address: "9012 Sunset Cliffs Rd, Point Loma",
+            price: "$3,120,000",
+            year: "2023"
+          },
+          {
+            address: "3456 Pacific Coast Hwy, Encinitas",
+            price: "$2,850,000",
+            year: "2023"
+          }
+        ]
+      }
+    },
+    form: {
+      header: {
+        badge: "Ready to Connect",
+        title: "Contact Crown Coastal Concierge",
+        subtitle: "Ready to start your real estate journey? Get in touch today and let's discuss your dream property in San Diego."
+      },
+      fields: {
+        name: {
+          label: "Full Name",
+          placeholder: "Enter your full name",
+          required: "*"
+        },
+        phone: {
+          label: "Phone Number",
+          placeholder: "Enter your phone number",
+          required: "*"
+        },
+        email: {
+          label: "Email Address",
+          placeholder: "Enter your email address",
+          required: "*"
+        },
+        message: {
+          label: "Message",
+          placeholder: "Tell us about your real estate needs, preferred locations, budget, and any specific requirements...",
+          required: "*"
+        }
+      },
+      consent: {
+        title: "Privacy & Consent",
+        text: "By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our Terms of Use."
+      },
+      submit: {
+        sending: "Sending Message...",
+        send: "Send Message"
+      },
+      footer: {
+        responseTime: "We typically respond within 2 hours during business hours"
+      }
+    },
+    info: {
+      description: {
+        title: "Get to know Crown Coastal Concierge",
+        subtitle: "Real Estate Professional",
+        text1: "With a journey that has taken him across 32 countries and over a hundred cities, Reza brings a world of experience and a unique global perspective to San Diego's real estate market. He firmly believes there's no place like San Diego, with its unparalleled coastal lines, vibrant cityscape, and endless adventures.",
+        text2: "Utilizing 17 years of client management & negotiation expertise, Reza has perfected the art of understanding his clients' needs and exceeding their expectations. But it's not just about transactions for him. Whether guiding sellers to maximize their home's value or helping buyers find their dream property, Reza's true passion lies in scoring big for his clients.",
+        text3: "Beyond real estate, Reza is deeply embedded in the fabric of the San Diego community. He's championed righteous causes through grassroots petitions, actively participated in beach clean-ups, and tirelessly worked to uplift underserved communities via various government-subsidized programs. For Reza, real estate isn't just business—it's a platform to further serve and enrich the community he cherishes most."
+      },
+      specialties: {
+        title: "Specialties",
+        tags: [
+          "Buyer's Agent",
+          "Listing Agent",
+          "Relocation",
+          "Vacation / Short-term Rentals"
+        ],
+        languages: "Speaks: English, Arabic, Farsi, Turkish"
+      }
+    },
+    author: {
+      name: "Reza Barghlameno",
+      photo: "/raza.jpg"
+    }
+  })
+  const [contactDataLocale, setContactDataLocale] = useState<string>('en')
   
   // Form states
   const [userForm, setUserForm] = useState({ _id: '', email: '', password: '', role: '', status: '' })
@@ -345,6 +450,23 @@ export default function AdminDashboard() {
     }
   }
 
+  const fetchContactData = async (locale: string = 'en') => {
+    try {
+      console.log('🔄 Fetching contact data for locale:', locale)
+      const response = await fetch(`/api/contact?locale=${encodeURIComponent(locale)}`)
+      if (response.ok) {
+        const data = await response.json()
+        console.log('✅ Contact data fetched for locale:', locale, data)
+        setContactData(data)
+        setContactDataLocale(locale)
+      } else {
+        console.error('❌ Failed to fetch contact data for locale:', locale, response.status)
+      }
+    } catch (error) {
+      console.error('❌ Error fetching contact data for locale:', locale, error)
+    }
+  }
+
   const addToast = (type: 'success' | 'error' | 'warning' | 'info', message: string) => {
     const id = Math.random().toString(36).substr(2, 9)
     setToasts(prev => [...prev, { id, type, message }])
@@ -422,6 +544,37 @@ export default function AdminDashboard() {
     } catch (error) {
       console.error('Error updating home data:', error)
       addToast('error', 'Failed to update home data')
+    }
+  }
+
+  // Function to update contact data
+  const updateContactData = async (newContactData: ContactData, locale: string = 'en') => {
+    try {
+      const response = await fetch(`/api/contact?locale=${encodeURIComponent(locale)}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newContactData)
+      })
+      if (response.ok) {
+        setContactData(newContactData)
+        setContactDataLocale(locale)
+        addToast('success', 'Contact data updated successfully!')
+        
+        // Trigger refresh on contact page by setting localStorage flag
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('contactDataUpdated', Date.now().toString())
+          // Dispatch a custom event to notify other tabs/windows
+          window.dispatchEvent(new CustomEvent('contactDataUpdated'))
+        }
+        
+        // Also refresh the contact data to ensure consistency
+        await fetchContactData(locale)
+      } else {
+        addToast('error', 'Failed to update contact data')
+      }
+    } catch (error) {
+      console.error('Error updating contact data:', error)
+      addToast('error', 'Failed to update contact data')
     }
   }
 
@@ -834,7 +987,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     if (user) {
       setLoadingData(true)
-      Promise.all([fetchUsers(), fetchBlogs(), fetchCities(), fetchStats(), fetchHomeData('en')])
+              Promise.all([fetchUsers(), fetchBlogs(), fetchCities(), fetchStats(), fetchHomeData('en'), fetchContactData('en')])
         .finally(() => setLoadingData(false))
     }
   }, [user])
@@ -979,6 +1132,22 @@ export default function AdminDashboard() {
 
   return (
     <div className="admin-dashboard" style={{ display: 'flex', minHeight: '100vh' }}>
+        {/* Mobile Sidebar Overlay */}
+        <div 
+          className={`admin-sidebar-overlay ${sidebarCollapsed ? '' : 'show'}`}
+          onClick={() => setSidebarCollapsed(true)}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(0, 0, 0, 0.5)',
+            zIndex: 1000,
+            display: 'none'
+          }}
+        />
+        
         {/* Main Content Area */}
         <div className="admin-main-content" style={{ 
           flex: 1, 
@@ -1009,6 +1178,19 @@ export default function AdminDashboard() {
               onLocaleChange={async (locale) => {
                 await fetchHomeData(locale)
                 setHomeDataLocale(locale)
+              }}
+            />
+          )}
+
+          {/* Contact Section */}
+          {activeSection === "contact" && (
+            <ContactManager 
+              contactData={contactData}
+              updateContactData={updateContactData}
+              currentLocale={contactDataLocale}
+              onLocaleChange={async (locale) => {
+                await fetchContactData(locale)
+                setContactDataLocale(locale)
               }}
             />
           )}

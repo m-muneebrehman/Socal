@@ -1,0 +1,176 @@
+{
+  "slug": "san-diego",
+  "name": "San Diego",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une métropole côtière ensoleillée et diversifiée avec plages, parcs, une importante présence navale et une riche scène culturelle.",
+  "fullDescription": "San Diego est une grande ville côtière du sud de la Californie, connue pour son climat agréable toute l’année, son vaste littoral, le parc Balboa, ses grands musées et une scène florissante de bières artisanales. La ville mêle quartiers urbains, districts historiques et kilomètres de plages. Avec son port en eau profonde, son style de vie en plein air et ses attractions culturelles, San Diego offre une expérience emblématique du sud de la Californie.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+  "heroImageAlt": "Vue de la skyline de San Diego depuis la baie",
+  "population": "1,4M+",
+  "avgHomePrice": "900K$+",
+  "tags": [
+    "Plages",
+    "Parcs",
+    "Adapté aux familles"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Chula Vista",
+      "type": "ville",
+      "slug": "chula-vista",
+      "description": "Ville en forte croissance dans la baie sud avec parcs en bord de mer, développement Bayfront et accès facile aux transports régionaux.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chula_Vista_Skyline.jpg",
+      "imageAlt": "Skyline et bord de mer de Chula Vista",
+      "distance": "Sud (~7–10 miles)",
+      "avgHomePrice": "700K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "La Mesa",
+      "type": "ville",
+      "slug": "la-mesa",
+      "description": "Charmant centre-ville style 'village' (La Mesa Village), festivals locaux, rues bordées d’arbres et ambiance conviviale à l’est de San Diego.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "Boulevard de La Mesa et tram à hauteur de rue",
+      "distance": "Est (~10 miles)",
+      "avgHomePrice": "700K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "El Cajon",
+      "type": "ville",
+      "slug": "el-cajon",
+      "description": "Ville intérieure à l’est de San Diego avec quartiers suburbains, parcs et centres commerciaux régionaux.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Scène de rue dans le centre-ville d’El Cajon",
+      "distance": "Est (~15 miles)",
+      "avgHomePrice": "650K$",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Littoral & Plages",
+      "description": "Des kilomètres de côtes — de Coronado à Pacific Beach — ainsi que des marinas, parcs en bord de baie et attractions portuaires.",
+      "icon": "🌊",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "bgImageAlt": "Plage de Coronado avec dunes et océan"
+    },
+    {
+      "title": "Parcs & Culture",
+      "description": "Le parc Balboa (musées, jardins, arts du spectacle) et de nombreuses institutions culturelles font de San Diego un centre culturel majeur.",
+      "icon": "🎨",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "bgImageAlt": "Skyline du centre-ville avec parc et baie"
+    },
+    {
+      "title": "Quartiers Diversifiés",
+      "description": "Des districts historiques et quartiers piétons aux banlieues familiales et communautés en bord de mer — des options pour tous les styles de vie.",
+      "icon": "🏘️",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chula_Vista_Skyline.jpg",
+      "bgImageAlt": "Bord de mer et skyline de Chula Vista"
+    },
+    {
+      "title": "Vie en Plein Air",
+      "description": "Un climat idéal toute l’année pour le surf, la randonnée, le vélo, le kayak et l’exploration des parcs d’État et sentiers côtiers à proximité.",
+      "icon": "🚴",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "bgImageAlt": "Scène de rue et zone piétonne à La Mesa"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quels sont les meilleurs quartiers de San Diego ?",
+      "answer": "Les zones populaires incluent Coronado et le centre-ville pour la vie en bord de mer, North Park et Hillcrest pour la vie nocturne et la gastronomie, ainsi que La Mesa ou Chula Vista pour des banlieues plus familiales.",
+      "category": "Quartiers"
+    },
+    {
+      "question": "Comment est le marché immobilier à San Diego ?",
+      "answer": "San Diego est un marché côtier très demandé ; les prix médians varient selon les quartiers, mais sont généralement supérieurs à la moyenne nationale en raison du style de vie et du marché de l’emploi attractifs.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que faire à San Diego ?",
+      "answer": "Visitez le parc Balboa et ses musées, le musée USS Midway, explorez les plages et criques, profitez des brasseries artisanales ou partez en excursions dans les villes côtières et parcs alentours.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le trajet depuis San Diego ?",
+      "answer": "San Diego dispose d’un réseau d’autoroutes et d’un tramway ; les temps de trajet varient de courts trajets locaux à 30–90 minutes pour des déplacements inter-comtés.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Guide immobilier et style de vie à San Diego | Vie côtière & parcs",
+    "metaDescription": "Découvrez les plages, quartiers, parcs et attractions culturelles de San Diego. Trouvez la zone idéale pour vivre au bord de l’eau, en famille ou avec des commodités urbaines.",
+    "keywords": "immobilier San Diego, Coronado, parc Balboa, quartiers San Diego, bord de mer San Diego",
+    "ogTitle": "Découvrez San Diego : plages, parcs & quartiers",
+    "ogDescription": "Explorez les quartiers, le bord de mer et le style de vie en plein air de San Diego grâce à ce guide de la ville.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+    "ogImageAlt": "Skyline de San Diego avec la baie",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Diego",
+      "description": "Découvrez l’immobilier, les quartiers et les points forts de San Diego, Californie.",
+      "url": "https://example.com/locations/san-diego",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+        "caption": "Vue de la skyline de San Diego depuis la baie"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Diego",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les meilleurs quartiers de San Diego ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les zones populaires incluent Coronado et le centre-ville pour la vie en bord de mer, North Park et Hillcrest pour la vie nocturne, ainsi que La Mesa ou Chula Vista pour des banlieues familiales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à San Diego ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Diego est un marché fort et compétitif avec des prix de l’immobilier supérieurs à la moyenne, notamment près du bord de mer et dans les quartiers urbains prisés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que faire à San Diego ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitez le parc Balboa, le USS Midway, les plages, et profitez de la gastronomie locale et des brasseries artisanales dans toute la ville."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis San Diego ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Diego propose des trajets via autoroutes et réseau de tramway ; les temps varient de courts trajets locaux à 30–90 minutes pour des déplacements plus longs."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "newport-beach",
+  "name": "Newport Beach",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Küstenstadt, bekannt für ihre schönen Strände, den luxuriösen Hafen und den gehobenen Lebensstil.",
+  "fullDescription": "Newport Beach bietet einen erstklassigen Küstenlebensstil mit atemberaubenden Stränden, einem lebhaften Hafen voller Yachten und einer Vielzahl von gehobenen Restaurants und Einkaufsmöglichkeiten. Die Stadt ist bekannt für ihr hervorragendes Wetter und Outdoor-Aktivitäten wie Surfen, Bootfahren und Radfahren und zieht Bewohner an, die Freizeit und Luxus verbinden möchten. Die gut geplanten Stadtteile und hochwertigen Schulen machen es zu einer begehrten Gemeinde im Orange County.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Luftaufnahme der Küstenlinie von Newport Beach mit Yachten und Sandstränden",
+  "population": "85T+",
+  "avgHomePrice": "2,5 Mio. $",
+  "tags": [
+    "Küste",
+    "Luxus",
+    "Outdoor-Aktivitäten"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Costa Mesa",
+      "type": "Stadt",
+      "slug": "costa-mesa",
+      "description": "Nachbarstadt mit Kunst, Einkaufsmöglichkeiten und Gastronomie; Heimat des South Coast Plaza und der OC Fair.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtboulevard repräsentativ für Costa Mesa",
+      "distance": "3 km nördlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "Stadt",
+      "slug": "irvine",
+      "description": "Master-planned Stadt bekannt für Parks, Schulen und Wirtschaftszentren nordöstlich von Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Grüne Hügel und Vorstadtviertel repräsentativ für Irvine",
+      "distance": "13 km nordöstlich",
+      "avgHomePrice": "1,5 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "Stadt",
+      "slug": "huntington-beach",
+      "description": "Surf City USA mit langen Stränden, einer lebhaften Pier-Region und Küstennachbarschaften nordwestlich von Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Meereswellen bei Sonnenuntergang repräsentativ für Huntington Beach",
+      "distance": "10 km nordwestlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Beach",
+      "type": "Stadt",
+      "slug": "laguna-beach",
+      "description": "Künstlerische Küstenstadt mit Buchten, Galerien und malerischen Hügeln südöstlich von Newport Beach.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Küstenklippe und Ozean repräsentativ für Laguna Beach",
+      "distance": "16 km südöstlich",
+      "avgHomePrice": "2,5 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Newport Hafen",
+      "description": "Einer der größten Freizeitboothäfen an der Westküste, perfekt zum Bootfahren und für Speisen am Wasser.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Yachten im Newport Hafen angelegt"
+    },
+    {
+      "title": "Balboa Pier & Strand",
+      "description": "Beliebter Ort zum Angeln, Surfen und Strandspaziergängen.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Balboa Pier, der ins Meer hinausführt"
+    },
+    {
+      "title": "Fashion Island",
+      "description": "Gehobenes Einkaufszentrum im Freien mit Luxusgeschäften, Restaurants und Unterhaltung.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fashion Island Einkaufszentrum in Newport Beach"
+    },
+    {
+      "title": "Outdoor-Aktivitäten",
+      "description": "Surfen, Paddleboarding, Radfahren entlang der Küste und Walbeobachtungstouren.",
+      "icon": "🏄",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfer reiten Wellen in Newport Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Newport Beach bekannt?",
+      "answer": "Newport Beach ist berühmt für seine schönen Strände, den luxuriösen Hafen, die Bootskultur und den gehobenen Lebensstil.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Gibt es gute Schulen in Newport Beach?",
+      "answer": "Ja, der Newport-Mesa Unified School District versorgt die Stadt mit hoch bewerteten öffentlichen und privaten Schulen.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten kann ich in Newport Beach machen?",
+      "answer": "Einwohner und Besucher genießen Surfen, Segeln, Radfahren, Paddleboarding und Spaziergänge entlang der malerischen Küstenlinien.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Newport Beach?",
+      "answer": "Newport Beach hat einen guten Zugang zu wichtigen Autobahnen, darunter die 405 und 55, wobei die Pendelzeiten je nach Ziel variieren.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Newport Beach CA Immobilien & Lebensstil | Küstenluxus & Outdoor-Leben",
+    "metaDescription": "Entdecken Sie Newport Beachs luxuriöse Stadtteile, Hafen, Strände, Outdoor-Aktivitäten und Top-Schulen im Orange County.",
+    "keywords": "Newport Beach Immobilien, Küstenleben Newport Beach, Newport Hafen, Orange County Häuser",
+    "ogTitle": "Entdecken Sie Newport Beach: Küstenluxus & Outdoor-Lebensstil",
+    "ogDescription": "Erleben Sie luxuriöses Küstenleben, Bootfahren und malerische Strände in Newport Beach, CA.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Luftaufnahme der Küstenlinie von Newport Beach mit Yachten und Sandstränden",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Newport Beach",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Newport Beach, Kalifornien.",
+      "url": "https://example.com/locations/newport-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Luftaufnahme der Küstenlinie von Newport Beach mit Yachten und Sandstränden"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Newport Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Newport Beach bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach ist berühmt für seine schönen Strände, den luxuriösen Hafen, die Bootskultur und den gehobenen Lebensstil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es gute Schulen in Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, der Newport-Mesa Unified School District versorgt die Stadt mit hoch bewerteten öffentlichen und privaten Schulen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten kann ich in Newport Beach machen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Einwohner und Besucher genießen Surfen, Segeln, Radfahren, Paddleboarding und Spaziergänge entlang der malerischen Küstenlinien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Newport Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Newport Beach hat einen guten Zugang zu wichtigen Autobahnen, darunter die 405 und 55, wobei die Pendelzeiten je nach Ziel variieren."
+          }
+        }
+      ]
+    }
+  ]
+}

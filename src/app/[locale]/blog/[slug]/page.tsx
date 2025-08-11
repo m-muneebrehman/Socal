@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { notFound, useParams } from 'next/navigation'
 import RelatedArticles from '@/components/sections/Blog/RelatedArticles'
-import NewsletterSignup from '@/components/sections/Blog/NewsletterSignup'
+import PrestigeLoading from '@/components/common/PrestigeLoading'
 import type { Blog as BlogType } from '@/types'
 
 const BlogPage = () => {
@@ -37,7 +37,9 @@ const BlogPage = () => {
       } catch {
         if (isMounted) setBlog(null)
       } finally {
-        if (isMounted) setLoading(false)
+        if (isMounted) {
+          setLoading(false)
+        }
       }
     }
     fetchBlog()
@@ -113,12 +115,10 @@ const BlogPage = () => {
     }
   }
 
-  const handleSave = () => {
-    alert('Article saved to your reading list!')
-  }
+
 
   if (loading || !blog) {
-    return <main className="blog-post-page" />
+    return <PrestigeLoading />
   }
 
   return (
@@ -174,24 +174,10 @@ const BlogPage = () => {
                 </svg>
                 {blog.readTime}
               </div>
-              {blog.views && (
-                <div className="meta-item">
-                  <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                  {blog.views}
-                </div>
-              )}
+
             </div>
 
             <div className="action-buttons">
-              <button className="btn btn-outline" onClick={handleSave}>
-                <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
-                </svg>
-                Save
-              </button>
               <button className="btn btn-primary" onClick={handleShare}>
                 <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
@@ -295,8 +281,7 @@ const BlogPage = () => {
       {/* Related Articles */}
       <RelatedArticles currentBlogId={(blog as any).id ?? blog.slug} />
 
-      {/* Newsletter Subscription */}
-      <NewsletterSignup />
+
     </main>
   )
 }

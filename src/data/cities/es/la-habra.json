@@ -1,0 +1,176 @@
+{
+  "slug": "la-habra",
+  "name": "La Habra",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad vibrante que combina vida suburbana con parques locales, tiendas y eventos comunitarios.",
+  "fullDescription": "La Habra ofrece una comunidad acogedora con viviendas asequibles, parques bien mantenidos y fácil acceso a autopistas principales. Conocida por su ambiente familiar y vecindarios diversos, La Habra equilibra el encanto de un pueblo pequeño con la proximidad conveniente al Condado de Orange y Los Ángeles. La ciudad cuenta con programas comunitarios activos, eventos culturales y una variedad de opciones para comprar y comer.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle de la ciudad y parque comunitario en La Habra",
+  "population": "62K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Asequible",
+    "Familiar",
+    "Enfocado en la comunidad"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "ciudad",
+      "slug": "fullerton",
+      "description": "Ciudad universitaria conocida por su centro histórico, escena artística y Cal State Fullerton.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centro histórico de Fullerton",
+      "distance": "5 millas al oeste",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "ciudad",
+      "slug": "brea",
+      "description": "Conocida por su vibrante centro, centros comerciales y festivales artísticos.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista de la calle del centro de Brea",
+      "distance": "6 millas al sureste",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "La Mirada",
+      "type": "ciudad",
+      "slug": "la-mirada",
+      "description": "Ciudad residencial con parques, campos de golf y vecindarios familiares.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Campo de golf en La Mirada",
+      "distance": "4 millas al sur",
+      "avgHomePrice": "$700K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centro Comunitario de La Habra",
+      "description": "Centro para eventos locales, clases y actividades recreativas.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio del Centro Comunitario de La Habra"
+    },
+    {
+      "title": "Parque La Habra",
+      "description": "Parque popular con campos deportivos, áreas de picnic y áreas de juego.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Espacio verde y área de juegos en el Parque La Habra"
+    },
+    {
+      "title": "Centro Histórico de La Habra",
+      "description": "Área encantadora con tiendas locales, restaurantes y eventos culturales.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle del centro de La Habra con tiendas"
+    },
+    {
+      "title": "Mercado de Agricultores de La Habra",
+      "description": "Mercado semanal que ofrece productos frescos, artesanías y participación comunitaria.",
+      "icon": "🥕",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Puestos de mercado de agricultores con frutas y verduras frescas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida La Habra?",
+      "answer": "La Habra es conocida por su estilo de vida enfocado en la comunidad, viviendas asequibles y comodidades para familias.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en La Habra?",
+      "answer": "La Habra cuenta con los distritos escolares La Habra City School District y Fullerton Joint Union High School District, que ofrecen opciones educativas de calidad.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre hay disponibles en La Habra?",
+      "answer": "Los residentes pueden disfrutar de parques, campos deportivos y eventos comunitarios durante todo el año.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el traslado a Los Ángeles y al Condado de Orange?",
+      "answer": "La Habra ofrece acceso conveniente a las autopistas 91 y 605, con tiempos de traslado al centro de Los Ángeles o al Condado de Orange que varían entre 30 y 60 minutos dependiendo del tráfico.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Comunidad en La Habra CA | Vida Familiar Asequible",
+    "metaDescription": "Descubre los vecindarios, parques, escuelas y viviendas asequibles de La Habra, una ciudad vibrante en el Condado de Orange.",
+    "keywords": "Bienes raíces La Habra, vida familiar La Habra, vecindarios Condado de Orange, parques La Habra",
+    "ogTitle": "Explora La Habra: Vida Familiar Asequible en el Condado de Orange",
+    "ogDescription": "Conoce el estilo de vida enfocado en la comunidad, los parques y la ubicación conveniente de La Habra en el Condado de Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle de la ciudad y parque en La Habra",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Habra",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en La Habra, California.",
+      "url": "https://example.com/locations/la-habra",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle de la ciudad y parque comunitario en La Habra"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Habra",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra es conocida por su estilo de vida enfocado en la comunidad, viviendas asequibles y comodidades para familias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra cuenta con los distritos escolares La Habra City School District y Fullerton Joint Union High School District, que ofrecen opciones educativas de calidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre hay disponibles en La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes pueden disfrutar de parques, campos deportivos y eventos comunitarios durante todo el año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado a Los Ángeles y al Condado de Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra ofrece acceso conveniente a las autopistas 91 y 605, con tiempos de traslado al centro de Los Ángeles o al Condado de Orange que varían entre 30 y 60 minutos dependiendo del tráfico."
+          }
+        }
+      ]
+    }
+  ]
+}

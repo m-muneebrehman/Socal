@@ -1,0 +1,176 @@
+{
+  "slug": "carson",
+  "name": "Carson",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville diversifiée connue pour sa base industrielle, ses parcs et son emplacement pratique près de Los Angeles et Long Beach.",
+  "fullDescription": "Carson est une ville dynamique du comté de Los Angeles offrant un mélange de zones industrielles, résidentielles et commerciales. Elle abrite d'importantes installations sportives, dont le Dignity Health Sports Park, et propose de nombreux espaces verts et centres communautaires. Avec sa population diversifiée et son emplacement central près des grandes autoroutes, Carson sert de plaque tournante pour les affaires et la vie familiale. La ville offre une variété d'options de shopping et de restauration, avec un accès facile aux villes balnéaires voisines et au centre-ville de Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue du paysage urbain de Carson avec des bâtiments et un ciel clair",
+  "population": "92K+",
+  "avgHomePrice": "700 K$",
+  "tags": [
+    "Pôle industriel",
+    "Parcs",
+    "Installations sportives"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "ville",
+      "slug": "long-beach",
+      "description": "Ville côtière avec plages, centre-ville dynamique et attractions culturelles.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue du centre-ville de Long Beach avec le front de mer",
+      "distance": "6 miles au sud",
+      "avgHomePrice": "750 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "ville",
+      "slug": "compton",
+      "description": "Ville riche en histoire avec une forte communauté et une identité culturelle marquée.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier résidentiel à Compton",
+      "distance": "5 miles à l’est",
+      "avgHomePrice": "600 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Gardena",
+      "type": "ville",
+      "slug": "gardena",
+      "description": "Ville suburbaine connue pour sa population diversifiée et ses centres d'affaires.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Rue résidentielle avec arbres à Gardena",
+      "distance": "3 miles au nord-ouest",
+      "avgHomePrice": "650 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Dignity Health Sports Park",
+      "description": "Domicile des équipes professionnelles de soccer et des grands événements sportifs.",
+      "icon": "⚽",
+      "bgImage": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Stade sportif éclairé"
+    },
+    {
+      "title": "Centre communautaire de Carson",
+      "description": "Un lieu central pour les événements, les loisirs et les activités culturelles.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment du centre communautaire"
+    },
+    {
+      "title": "Parc régional de Carson",
+      "description": "Grand parc avec aires de pique-nique, terrains de sport et aires de jeux.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc vert avec arbres et espace ouvert"
+    },
+    {
+      "title": "South Bay Pavilion",
+      "description": "Centre commercial avec boutiques, restaurants et divertissements.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Intérieur d'un centre commercial"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Carson est-elle connue ?",
+      "answer": "Carson est connue pour ses installations sportives, sa communauté diversifiée et sa base industrielle.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Carson ?",
+      "answer": "Le marché propose des maisons abordables avec une demande croissante grâce à son emplacement et ses commodités.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités sont populaires à Carson ?",
+      "answer": "Assister à des événements sportifs, visiter les parcs et faire du shopping dans les centres commerciaux locaux sont des activités courantes.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Carson ?",
+      "answer": "Carson offre un bon accès aux autoroutes et une proximité avec les transports en commun reliant Los Angeles et Long Beach.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Carson CA | Sports, parcs & communauté",
+    "metaDescription": "Découvrez les quartiers, les installations sportives, les parcs et les options immobilières de Carson dans le comté de Los Angeles.",
+    "keywords": "immobilier Carson, installations sportives Carson, vivre à Carson, maisons à vendre à Carson",
+    "ogTitle": "Découvrez Carson : vie communautaire & installations sportives",
+    "ogDescription": "Trouvez votre maison à Carson avec sa communauté dynamique, ses parcs et ses grandes installations sportives.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Paysage urbain de Carson avec bâtiments et ciel clair",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Carson",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Carson, Californie.",
+      "url": "https://example.com/locations/carson",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue du paysage urbain de Carson avec des bâtiments et un ciel clair"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Carson",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Carson est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carson est connue pour ses installations sportives, sa communauté diversifiée et sa base industrielle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Carson ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché propose des maisons abordables avec une demande croissante grâce à son emplacement et ses commodités."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités sont populaires à Carson ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assister à des événements sportifs, visiter les parcs et faire du shopping dans les centres commerciaux locaux sont des activités courantes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Carson ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carson offre un bon accès aux autoroutes et une proximité avec les transports en commun reliant Los Angeles et Long Beach."
+          }
+        }
+      ]
+    }
+  ]
+}

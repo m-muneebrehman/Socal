@@ -1,0 +1,187 @@
+{
+  "slug": "huntington-park",
+  "name": "亨廷顿公园",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "位于门户城市地区的历史名城，以其强大的社区、文化多样性和经济实惠的生活闻名。",
+  "fullDescription": "亨廷顿公园是洛杉矶市中心东南部的一个充满活力的城市社区。该市以丰富的拉丁裔文化遗产著称，拥有各种本地商铺、公园和社区活动，营造了紧密团结的氛围。亨廷顿公园交通便利，靠近主要高速公路和公共交通，是希望靠近洛杉矶县中心的家庭和年轻专业人士的经济实惠选择。",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "亨廷顿公园街景，彩色壁画与本地商店",
+  "population": "5.8万+",
+  "avgHomePrice": "65万美元",
+  "tags": [
+    "文化多样性",
+    "社区",
+    "经济实惠的生活"
+  ],
+  "neighborhoods": [
+    {
+      "name": "南门市",
+      "type": "城市",
+      "slug": "south-gate",
+      "description": "邻近城市，拥有住宅区与商业区混合及社区公园。",
+      "image": "https://images.unsplash.com/photo-1590080877777-3e9bcdd1c814?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "南门市住宅区",
+      "distance": "东南3英里",
+      "avgHomePrice": "62万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "贝尔市",
+      "type": "城市",
+      "slug": "bell",
+      "description": "以工薪阶层社区和本地公园闻名的小城市。",
+      "image": "https://images.unsplash.com/photo-1562157876-8d244f7b9a1f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "贝尔社区公园",
+      "distance": "西北2英里",
+      "avgHomePrice": "58万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "卡达希市",
+      "type": "城市",
+      "slug": "cudahy",
+      "description": "紧凑型城市，提供经济实惠的住房和社区设施。",
+      "image": "https://images.unsplash.com/photo-1581945729282-633e4be148b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "卡达希住宅街道",
+      "distance": "南2英里",
+      "avgHomePrice": "60万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "弗农市",
+      "type": "城市",
+      "slug": "vernon",
+      "description": "工业城市，住宅区有限，靠近亨廷顿公园。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "弗农的工业建筑",
+      "distance": "北4英里",
+      "avgHomePrice": "50万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "亨廷顿公园农夫市场",
+      "description": "每周市场，提供新鲜农产品、本地商贩和社区活动。",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "农夫市场摊位，摆满新鲜水果和蔬菜"
+    },
+    {
+      "title": "中央公园",
+      "description": "受欢迎的社区公园，设有运动场、游乐场和野餐区。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "绿树成荫的公园，配有游乐设备"
+    },
+    {
+      "title": "本地壁画与艺术",
+      "description": "色彩丰富的街头艺术，庆祝城市的文化遗产和社区精神。",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "亨廷顿公园的街头壁画"
+    },
+    {
+      "title": "亨廷顿公园社区中心",
+      "description": "举办课程、活动和本地聚会的中心。",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "社区中心建筑"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "亨廷顿公园以什么闻名？",
+      "answer": "亨廷顿公园以其浓厚的拉丁裔文化遗产、社区活动和经济实惠的住房选项闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "亨廷顿公园的房地产市场如何？",
+      "answer": "相比洛杉矶县的许多地区，这里的房屋和公寓价格更实惠。",
+      "category": "房地产"
+    },
+    {
+      "question": "亨廷顿公园有哪些受欢迎的活动？",
+      "answer": "参观农夫市场、享受中央公园和欣赏本地壁画及社区活动都很受欢迎。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从亨廷顿公园通勤如何？",
+      "answer": "亨廷顿公园交通便利，可直达710号和5号高速公路，并有本地公交选项。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州亨廷顿公园房地产与生活方式 | 社区与文化",
+    "metaDescription": "探索洛杉矶县亨廷顿公园的社区、文化多样性和经济实惠的房地产选择。",
+    "keywords": "亨廷顿公园房地产, 亨廷顿公园社区, 亨廷顿公园生活, 经济实惠住房亨廷顿公园",
+    "ogTitle": "发现亨廷顿公园：社区生活与文化多样性",
+    "ogDescription": "在亨廷顿公园找到您的家园，体验丰富的文化遗产、公园和本地市场。",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "亨廷顿公园街景，彩色壁画与本地商店",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "亨廷顿公园",
+      "description": "探索加利福尼亚州亨廷顿公园的房地产、社区和亮点。",
+      "url": "https://example.com/locations/huntington-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "亨廷顿公园街景，彩色壁画与本地商店"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "亨廷顿公园",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "亨廷顿公园以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "亨廷顿公园以其浓厚的拉丁裔文化遗产、社区活动和经济实惠的住房选项闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "亨廷顿公园的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "相比洛杉矶县的许多地区，这里的房屋和公寓价格更实惠。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "亨廷顿公园有哪些受欢迎的活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "参观农夫市场、享受中央公园和欣赏本地壁画及社区活动都很受欢迎。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从亨廷顿公园通勤如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "亨廷顿公园交通便利，可直达710号和5号高速公路，并有本地公交选项。"
+          }
+        }
+      ]
+    }
+  ]
+}

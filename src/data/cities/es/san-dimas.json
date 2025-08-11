@@ -1,0 +1,169 @@
+{
+  "slug": "san-dimas",
+  "name": "San Dimas",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una encantadora ciudad situada en las estribaciones de las montañas San Gabriel, conocida por su ambiente de pueblo pequeño y actividades al aire libre.",
+  "fullDescription": "San Dimas ofrece a sus residentes un estilo de vida suburbano tranquilo con un fuerte sentido de comunidad. Conocida por su pintoresco paisaje montañoso, parques y su centro histórico, la ciudad es popular entre familias y amantes de la naturaleza. Con fácil acceso a senderos para caminatas, campos de golf y eventos locales, San Dimas equilibra la belleza natural con un ambiente vecinal amigable. La ciudad también se beneficia de su proximidad a ciudades más grandes como Pasadena y Pomona, lo que la convierte en una excelente opción para quienes buscan tranquilidad y comodidad en sus desplazamientos.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista panorámica de San Dimas con montañas y casas suburbanas",
+  "population": "Más de 34K",
+  "avgHomePrice": "$820K",
+  "tags": [
+    "Suburbano",
+    "Actividades al aire libre",
+    "Centro histórico"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "ciudad",
+      "slug": "pomona",
+      "description": "Una ciudad con una vibrante escena artística, arquitectura histórica y una presencia universitaria en crecimiento.",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calles del centro de Pomona con edificios históricos",
+      "distance": "6 millas al sur",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Claremont",
+      "type": "ciudad",
+      "slug": "claremont",
+      "description": "Ciudad famosa por sus campus universitarios, calles arboladas y un centro vibrante.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle arbolada de Claremont en otoño",
+      "distance": "5 millas al oeste",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Glendora",
+      "type": "ciudad",
+      "slug": "glendora",
+      "description": "Conocida como el 'Orgullo de las estribaciones', Glendora ofrece un encantador centro y un ambiente familiar.",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centro de Glendora con tiendas y cafés",
+      "distance": "7 millas al este",
+      "avgHomePrice": "$880K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Raging Waters Los Angeles",
+      "description": "El parque acuático más grande del sur de California que ofrece diversión para toda la familia.",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque acuático con toboganes y piscinas"
+    },
+    {
+      "title": "San Dimas Canyon Park",
+      "description": "Un hermoso espacio natural perfecto para caminatas, picnics y disfrutar del aire libre.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero en un parque de cañón con árboles y colinas"
+    },
+    {
+      "title": "Centro histórico de San Dimas",
+      "description": "Con encantadoras tiendas, restaurantes y eventos comunitarios en un ambiente de pueblo pequeño.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle del centro de pueblo pequeño con tiendas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido San Dimas?",
+      "answer": "San Dimas es conocido por sus actividades al aire libre, su centro histórico y su comunidad familiar.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en San Dimas?",
+      "answer": "El mercado inmobiliario en San Dimas ofrece casas suburbanas con un enfoque en familias y estilos de vida al aire libre.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares en San Dimas?",
+      "answer": "Visita Raging Waters, camina en San Dimas Canyon Park o explora las tiendas y restaurantes en el centro histórico.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde San Dimas?",
+      "answer": "San Dimas ofrece acceso conveniente a las autopistas 57 y 210, conectando a los residentes con el área metropolitana de Los Ángeles.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en San Dimas CA | Actividades al Aire Libre y Comunidad",
+    "metaDescription": "Explora los vecindarios, parques, centro histórico y bienes raíces de San Dimas en el Valle de San Gabriel.",
+    "keywords": "Bienes raíces San Dimas, parques San Dimas, vivir en San Dimas, casas en venta San Dimas",
+    "ogTitle": "Descubre San Dimas: Encanto de Pueblo Pequeño y Diversión al Aire Libre",
+    "ogDescription": "Encuentra tu hogar en San Dimas con sus vecindarios familiares y hermosos espacios al aire libre.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista panorámica de San Dimas con montañas y casas",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Dimas",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en San Dimas, California.",
+      "url": "https://example.com/locations/san-dimas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista panorámica de San Dimas con montañas y casas suburbanas"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Dimas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Dimas es conocido por sus actividades al aire libre, su centro histórico y su comunidad familiar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario en San Dimas ofrece casas suburbanas con un enfoque en familias y estilos de vida al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares en San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visita Raging Waters, camina en San Dimas Canyon Park o explora las tiendas y restaurantes en el centro histórico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde San Dimas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Dimas ofrece acceso conveniente a las autopistas 57 y 210, conectando a los residentes con el área metropolitana de Los Ángeles."
+          }
+        }
+      ]
+    }
+  ]
+}

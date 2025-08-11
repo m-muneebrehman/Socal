@@ -16,28 +16,6 @@
   ],
   "neighborhoods": [
     {
-      "name": "Coronado",
-      "type": "city",
-      "slug": "coronado",
-      "description": "Island city connected by the Coronado Bridge — famous for its wide, sandy beaches and the Hotel del Coronado.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
-      "imageAlt": "Sandy Coronado beach with blue sky",
-      "distance": "Across the bay (~3 miles)",
-      "avgHomePrice": "$1.8M",
-      "county": "San Diego"
-    },
-    {
-      "name": "National City",
-      "type": "city",
-      "slug": "national-city",
-      "description": "Historic, walkable city south of downtown San Diego with a long commercial history and waterfront views.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/National_City.jpg",
-      "imageAlt": "National City and part of the San Diego skyline",
-      "distance": "Just south of downtown (~6–8 miles)",
-      "avgHomePrice": "$650K",
-      "county": "San Diego"
-    },
-    {
       "name": "Chula Vista",
       "type": "city",
       "slug": "chula-vista",

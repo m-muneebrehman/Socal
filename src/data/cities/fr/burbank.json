@@ -1,0 +1,165 @@
+{
+  "slug": "burbank",
+  "name": "Burbank",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une capitale des médias connue pour ses studios, ses quartiers adaptés aux familles et son centre-ville dynamique.",
+  "fullDescription": "Burbank est une ville animée de la vallée de San Fernando qui abrite de grands studios de divertissement comme Warner Bros. et Disney. Avec sa forte présence dans l’industrie des médias, la ville offre un mélange unique d’énergie créative et de confort suburbain. Les parcs bien entretenus de Burbank, ses excellentes écoles et son centre-ville piétonnier rempli de boutiques, restaurants et théâtres en font un lieu prisé des familles comme des professionnels. Sa situation centrale permet un accès facile à Los Angeles et à la grande région de Californie du Sud.",
+  "heroImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "Vue du centre-ville de Burbank avec montagnes en arrière-plan",
+  "population": "108K+",
+  "avgHomePrice": "950 K$",
+  "tags": [
+    "Divertissement",
+    "Adapté aux familles",
+    "Centre-ville"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Glendale",
+      "type": "ville",
+      "slug": "glendale",
+      "description": "Ville voisine connue pour son shopping, sa gastronomie et sa diversité culturelle.",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Paysage urbain de Glendale au crépuscule",
+      "distance": "5 miles au sud-est",
+      "avgHomePrice": "1,1 M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "ville",
+      "slug": "pasadena",
+      "description": "Célèbre pour la Rose Parade, son architecture historique et sa scène artistique vibrante.",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Bâtiments historiques de Pasadena",
+      "distance": "7 miles au nord-est",
+      "avgHomePrice": "1,1 M$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Visite des studios Warner Bros.",
+      "description": "Découvrez les coulisses de films et séries célèbres grâce à des visites guidées des studios.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Entrée du studio Warner Bros."
+    },
+    {
+      "title": "Centre-ville de Burbank",
+      "description": "Quartier animé avec restaurants, boutiques et options de divertissement.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vue de rue du centre-ville de Burbank"
+    },
+    {
+      "title": "Starlight Bowl",
+      "description": "Amphithéâtre en plein air accueillant concerts et événements culturels toute l’année.",
+      "icon": "🎵",
+      "bgImage": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Amphithéâtre Starlight Bowl au crépuscule"
+    },
+    {
+      "title": "Parc Wildwood Canyon",
+      "description": "Espace naturel avec sentiers de randonnée et vues panoramiques sur les montagnes Verdugo.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier et arbres dans le parc Wildwood Canyon"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Burbank est-elle connue ?",
+      "answer": "Burbank est connue comme la capitale des médias avec ses grands studios et sa communauté adaptée aux familles.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Burbank ?",
+      "answer": "Burbank offre un mélange de maisons individuelles et de condos avec des prix compétitifs pour son emplacement.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles sont les activités populaires à Burbank ?",
+      "answer": "Visiter les studios, profiter des restaurants du centre-ville, assister à des concerts au Starlight Bowl et faire des randonnées dans les parcs locaux.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les trajets depuis Burbank ?",
+      "answer": "Burbank bénéficie d’un accès facile aux autoroutes principales, aux transports en commun et à l’aéroport Bob Hope pour les voyages régionaux.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Burbank CA | Studios, centre-ville & vie familiale",
+    "metaDescription": "Découvrez les pôles de divertissement, les quartiers adaptés aux familles et les options immobilières de Burbank dans la vallée de San Fernando.",
+    "keywords": "immobilier Burbank, studios Warner Bros, maisons à Burbank, vivre à Burbank",
+    "ogTitle": "Découvrez Burbank : capitale des médias & communauté familiale",
+    "ogDescription": "Trouvez votre place à Burbank avec ses studios médias, son centre-ville animé et ses quartiers accueillants.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue du centre-ville de Burbank avec montagnes",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Burbank",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Burbank, Californie.",
+      "url": "https://example.com/locations/burbank",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue du centre-ville de Burbank avec montagnes"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Burbank",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Burbank est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank est connue comme la capitale des médias avec ses grands studios et sa communauté adaptée aux familles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Burbank ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank offre un mélange de maisons individuelles et de condos avec des prix compétitifs pour son emplacement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les activités populaires à Burbank ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visiter les studios, profiter des restaurants du centre-ville, assister à des concerts au Starlight Bowl et faire des randonnées dans les parcs locaux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les trajets depuis Burbank ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Burbank bénéficie d’un accès facile aux autoroutes principales, aux transports en commun et à l’aéroport Bob Hope pour les voyages régionaux."
+          }
+        }
+      ]
+    }
+  ]
+}

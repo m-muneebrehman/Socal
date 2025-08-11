@@ -1,0 +1,154 @@
+{
+  "slug": "montebello",
+  "name": "Montebello",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad diversa con una rica historia, que ofrece una mezcla de vecindarios residenciales, parques y cultura local.",
+  "fullDescription": "Montebello es una comunidad vibrante ubicada en la parte este del condado de Los Ángeles. Conocida por sus vecindarios amigables, abundantes parques y población diversa, Montebello ofrece un ambiente suburbano con acceso conveniente a la gran área de Los Ángeles. La ciudad alberga varios eventos culturales y tiene un fuerte enfoque en la vida familiar, lo que la convierte en un lugar acogedor para residentes de todas las edades.",
+  "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle de vecindario residencial en Montebello",
+  "population": "Más de 62K",
+  "avgHomePrice": "$650K",
+  "tags": [
+    "Comunidad diversa",
+    "Parques y recreación",
+    "Familiar"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pico Rivera",
+      "type": "ciudad",
+      "slug": "pico-rivera",
+      "description": "Ciudad enfocada en la comunidad con parques, escuelas y áreas residenciales.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario de Pico Rivera con casas",
+      "distance": "3 millas al sur",
+      "avgHomePrice": "$600K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Montebello Country Club",
+      "description": "Un campo de golf pintoresco y lugar para eventos que ofrece actividades recreativas.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campo de golf en Montebello"
+    },
+    {
+      "title": "Montebello Hills Park",
+      "description": "Un parque popular con áreas de juegos, zonas para picnic y senderos para caminar.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Área de parque con árboles y zona de juegos"
+    },
+    {
+      "title": "Museo Histórico de Montebello",
+      "description": "Exhibe la rica historia y patrimonio cultural de la ciudad.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior del edificio del museo histórico"
+    },
+    {
+      "title": "Festivales Comunitarios",
+      "description": "Eventos anuales que celebran la cultura local, la comida y la música.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival comunitario con gente"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Montebello?",
+      "answer": "Montebello es conocido por sus vecindarios familiares, parques y rica diversidad cultural.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Montebello?",
+      "answer": "El mercado ofrece opciones accesibles con una mezcla de casas unifamiliares y condominios.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué actividades recreativas hay en Montebello?",
+      "answer": "El golf, las actividades en parques y los festivales comunitarios son populares en Montebello.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Es Montebello conveniente para el traslado diario?",
+      "answer": "Sí, tiene acceso a autopistas principales como la I-5 y opciones de transporte público.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Montebello CA Bienes Raíces y Estilo de Vida | Familiar y Parques",
+    "metaDescription": "Explora los vecindarios, parques y opciones inmobiliarias de Montebello en el condado de Los Ángeles.",
+    "keywords": "bienes raíces Montebello, vivir en Montebello, vecindarios de Montebello, casas en Montebello",
+    "ogTitle": "Descubre Montebello: Comunidad Familiar y Parques",
+    "ogDescription": "Encuentra tu hogar en Montebello con sus vecindarios acogedores y rica herencia cultural.",
+    "ogImage": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle de vecindario residencial en Montebello",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Montebello",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Montebello, California.",
+      "url": "https://example.com/locations/montebello",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle de vecindario residencial en Montebello"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Montebello",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Montebello?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Montebello es conocido por sus vecindarios familiares, parques y rica diversidad cultural."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Montebello?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado ofrece opciones accesibles con una mezcla de casas unifamiliares y condominios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades recreativas hay en Montebello?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El golf, las actividades en parques y los festivales comunitarios son populares en Montebello."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es Montebello conveniente para el traslado diario?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, tiene acceso a autopistas principales como la I-5 y opciones de transporte público."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "covina",
+  "name": "Covina",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une charmante ville de la vallée de San Gabriel connue pour son centre-ville historique, son ambiance familiale et ses vues pittoresques sur les contreforts.",
+  "fullDescription": "Covina offre un style de vie suburbain avec une atmosphère communautaire accueillante. Elle possède un centre-ville historique avec des boutiques et des restaurants, plusieurs parcs et de bonnes écoles. Nichée près des montagnes de San Gabriel, les habitants profitent des activités de plein air et d’un accès facile à Los Angeles. Covina allie le charme d’une petite ville à des commodités urbaines pratiques, ce qui en fait un choix populaire pour les familles et les professionnels.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rue du centre-ville de Covina avec des bâtiments historiques et des arbres",
+  "population": "51K+",
+  "avgHomePrice": "650 K$",
+  "tags": [
+    "Centre-ville historique",
+    "Adapté aux familles",
+    "Activités de plein air"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Glendora",
+      "type": "ville",
+      "slug": "glendora",
+      "description": "Ville voisine avec une rue principale animée, des boutiques et des sentiers de randonnée dans les contreforts.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue principale de Glendora avec boutiques et passants",
+      "distance": "5 miles à l’est",
+      "avgHomePrice": "700 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Dimas",
+      "type": "ville",
+      "slug": "san-dimas",
+      "description": "Ville connue pour les loisirs de plein air incluant parcs et sentiers équestres.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Collines verdoyantes près de San Dimas",
+      "distance": "4 miles au sud-est",
+      "avgHomePrice": "720 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Azusa",
+      "type": "ville",
+      "slug": "azusa",
+      "description": "Ville aux contreforts avec un mélange de quartiers résidentiels et un accès à la nature.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier suburbain à Azusa",
+      "distance": "6 miles au nord-est",
+      "avgHomePrice": "600 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centre-ville de Covina",
+      "description": "Quartier historique avec boutiques locales, restaurants et événements communautaires.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville de Covina avec boutiques"
+    },
+    {
+      "title": "Parc Fallas",
+      "description": "Parc communautaire avec aires de jeux, zones de pique-nique et installations sportives.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc verdoyant avec arbres et espace ouvert"
+    },
+    {
+      "title": "Vues sur les montagnes de San Gabriel",
+      "description": "Vues pittoresques et opportunités de randonnée et de vélo à proximité.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Paysage montagneux avec sentiers"
+    },
+    {
+      "title": "Marché fermier de Covina",
+      "description": "Marché hebdomadaire proposant des produits locaux, de l'artisanat et des stands de nourriture.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Stands de marché fermier avec des produits frais"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Covina est-elle connue ?",
+      "answer": "Covina est connue pour son centre-ville historique, sa communauté adaptée aux familles et sa proximité avec les montagnes de San Gabriel.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Covina ?",
+      "answer": "Le marché propose un mélange de maisons individuelles et de condos avec des prix modérés comparés aux villes voisines.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités sont disponibles à Covina ?",
+      "answer": "Les résidents profitent des parcs, des événements communautaires, des activités de plein air dans les montagnes proches et des restaurants locaux.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le trajet depuis Covina ?",
+      "answer": "Covina dispose d’un accès aux principales autoroutes et stations Metrolink, facilitant les trajets vers Los Angeles et les environs.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Covina CA | Centre-ville historique & loisirs en plein air",
+    "metaDescription": "Découvrez les quartiers, parcs et biens immobiliers de Covina dans la pittoresque vallée de San Gabriel.",
+    "keywords": "immobilier Covina, parcs Covina, vivre à Covina, maisons à vendre à Covina",
+    "ogTitle": "Explorez Covina : Vie communautaire & vues pittoresques",
+    "ogDescription": "Trouvez votre maison à Covina avec son centre-ville charmant, ses activités de plein air et son ambiance familiale.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue historique du centre-ville de Covina",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Covina",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Covina, Californie.",
+      "url": "https://example.com/locations/covina",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rue du centre-ville de Covina avec bâtiments historiques et arbres"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Covina",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Covina est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Covina est connue pour son centre-ville historique, sa communauté adaptée aux familles et sa proximité avec les montagnes de San Gabriel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Covina ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché propose un mélange de maisons individuelles et de condos avec des prix modérés comparés aux villes voisines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités sont disponibles à Covina ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent des parcs, des événements communautaires, des activités de plein air dans les montagnes proches et des restaurants locaux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Covina ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Covina dispose d’un accès aux principales autoroutes et stations Metrolink, facilitant les trajets vers Los Angeles et les environs."
+          }
+        }
+      ]
+    }
+  ]
+}

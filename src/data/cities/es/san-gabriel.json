@@ -1,0 +1,165 @@
+{
+  "slug": "san-gabriel",
+  "name": "San Gabriel",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad histórica en el Valle de San Gabriel conocida por su rica herencia cultural y la famosa Misión San Gabriel.",
+  "fullDescription": "San Gabriel es reconocida por su combinación de historia cultural y encanto suburbano. La ciudad alberga la histórica Misión San Gabriel, hermosos parques y una floreciente escena gastronómica asiática. Con un centro caminable y vecindarios familiares, San Gabriel atrae a residentes que valoran la comunidad, buenas escuelas y acceso conveniente a Los Ángeles y Pasadena. Su población diversa contribuye a una vibrante atmósfera cultural y numerosos festivales locales.",
+  "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Histórica Misión San Gabriel rodeada de vegetación",
+  "population": "Más de 41K",
+  "avgHomePrice": "$820K",
+  "tags": [
+    "Histórica",
+    "Herencia cultural",
+    "Gastronomía"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Alhambra",
+      "type": "ciudad",
+      "slug": "alhambra",
+      "description": "Ciudad conocida por su diversidad cultural y su animada escena gastronómica.",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista de la calle en Alhambra con palmeras y tiendas",
+      "distance": "2 millas al oeste",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Rosemead",
+      "type": "ciudad",
+      "slug": "rosemead",
+      "description": "Una ciudad orientada a familias con parques, escuelas y una creciente comunidad asiático-americana.",
+      "image": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Calle residencial en Rosemead con árboles",
+      "distance": "3 millas al sur",
+      "avgHomePrice": "$780K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Misión San Gabriel",
+      "description": "Histórica misión española fundada en 1771 con hermosos jardines y un museo.",
+      "icon": "⛪",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Edificio histórico de la Misión San Gabriel"
+    },
+    {
+      "title": "Parque San Gabriel",
+      "description": "Parque comunitario con senderos para caminar, áreas de picnic e instalaciones deportivas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Área verde del parque con árboles y bancos"
+    },
+    {
+      "title": "Distrito Gastronómico Asiático",
+      "description": "Una zona vibrante conocida por auténticas cocinas china, vietnamita y otras asiáticas.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tazón de sopa asiática de fideos"
+    },
+    {
+      "title": "Centro de San Gabriel",
+      "description": "Zona caminable con tiendas, cafés y eventos comunitarios durante todo el año.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle comercial del centro con gente caminando"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido San Gabriel?",
+      "answer": "San Gabriel es conocido por su misión histórica, diversidad cultural y excelentes opciones gastronómicas.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en San Gabriel?",
+      "answer": "El mercado inmobiliario es competitivo con una mezcla de casas históricas y desarrollos más nuevos.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares en San Gabriel?",
+      "answer": "Visitar la Misión San Gabriel, cenar en el Distrito Gastronómico Asiático y explorar parques y tiendas locales.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el transporte desde San Gabriel?",
+      "answer": "San Gabriel tiene fácil acceso a la autopista I-10 y opciones de transporte público cercanas para desplazarse a Los Ángeles y Pasadena.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en San Gabriel CA | Misión Histórica y Gastronomía",
+    "metaDescription": "Descubre los vecindarios, la misión histórica, las atracciones culturales y los bienes raíces en el Valle de San Gabriel.",
+    "keywords": "Bienes raíces San Gabriel, Misión San Gabriel, vivir en San Gabriel, casas en venta en San Gabriel",
+    "ogTitle": "Explora San Gabriel: Cultura, Historia y Vecindarios",
+    "ogDescription": "Encuentra tu hogar en San Gabriel con su rica historia, gastronomía y comunidad acogedora.",
+    "ogImage": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Histórica Misión San Gabriel rodeada de vegetación",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Gabriel",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en San Gabriel, California.",
+      "url": "https://example.com/locations/san-gabriel",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Histórica Misión San Gabriel rodeada de vegetación"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Gabriel",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel es conocido por su misión histórica, diversidad cultural y excelentes opciones gastronómicas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario es competitivo con una mezcla de casas históricas y desarrollos más nuevos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares en San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitar la Misión San Gabriel, cenar en el Distrito Gastronómico Asiático y explorar parques y tiendas locales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel tiene fácil acceso a la autopista I-10 y opciones de transporte público cercanas para desplazarse a Los Ángeles y Pasadena."
+          }
+        }
+      ]
+    }
+  ]
+}

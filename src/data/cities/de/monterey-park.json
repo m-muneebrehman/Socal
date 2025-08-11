@@ -1,0 +1,187 @@
+{
+  "slug": "monterey-park",
+  "name": "Monterey Park",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Stadt, bekannt für ihre authentische asiatische Küche, Parks und familienfreundliche Gemeinschaftsatmosphäre.",
+  "fullDescription": "Monterey Park ist eine kulturell reiche Stadt im Los Angeles County, bekannt für ihre vielfältige Bevölkerung und die renommierte asiatische Gastronomieszene. Die Stadt bietet gepflegte Parks, qualitativ hochwertige Schulen sowie vielfältige Einkaufs- und Unterhaltungsmöglichkeiten. Die Nähe zur Innenstadt von Los Angeles und zu benachbarten Gemeinden macht Monterey Park zu einem praktischen und begehrten Wohnort für Familien und Berufstätige.",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Moderne Stadtsilhouette mit asiatischen architektonischen Einflüssen in Monterey Park",
+  "population": "60T+",
+  "avgHomePrice": "900.000 $",
+  "tags": [
+    "Asiatische Küche",
+    "Familienfreundlich",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Alhambra",
+      "type": "Stadt",
+      "slug": "alhambra",
+      "description": "Stadt, bekannt für kulturelle Vielfalt, historische Architektur und Gastronomie.",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Straße mit Palmen und Geschäften in Alhambra",
+      "distance": "5 km westlich",
+      "avgHomePrice": "850.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Gabriel",
+      "type": "Stadt",
+      "slug": "san-gabriel",
+      "description": "Bekannt für seine historische Mission, asiatische Gastronomie und vorstädtisches Flair.",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Historische Mission in San Gabriel",
+      "distance": "6 km nordöstlich",
+      "avgHomePrice": "880.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Rosemead",
+      "type": "Stadt",
+      "slug": "rosemead",
+      "description": "Wohngebiet, bekannt für Parks, Schulen und lokale Geschäfte.",
+      "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnstraße in Rosemead",
+      "distance": "8 km südöstlich",
+      "avgHomePrice": "700.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Montebello",
+      "type": "Stadt",
+      "slug": "montebello",
+      "description": "Vielfältige Gemeinschaft mit Parks und familienfreundlichen Angeboten.",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Nachbarschaftsstraße in Montebello",
+      "distance": "10 km südlich",
+      "avgHomePrice": "650.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Garvey Ranch Park",
+      "description": "Großer Park mit Spielplätzen, Sportfeldern und Picknickplätzen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Spielplatz und grüne Felder im Garvey Ranch Park"
+    },
+    {
+      "title": "Monterey Park Bibliothek",
+      "description": "Gemeinschaftszentrum mit Bildungsressourcen und Programmen.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Modernes Bibliotheksgebäude außen"
+    },
+    {
+      "title": "Asiatische Gastronomieszene",
+      "description": "Große Vielfalt an authentischen asiatischen Restaurants und Märkten.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Asiatisches Nudelgericht in einer Schüssel"
+    },
+    {
+      "title": "Rathaus-Platz",
+      "description": "Zentraler Bereich für Gemeinde-Events und Versammlungen.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rathausgebäude mit Platz davor"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht Monterey Park besonders?",
+      "answer": "Monterey Park ist bekannt für seine authentische asiatische Küche, familienfreundliche Parks und die Gemeinschaftsatmosphäre.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Monterey Park?",
+      "answer": "Der Markt bietet eine Vielzahl von Häusern, darunter Eigentumswohnungen und Einfamilienhäuser, zu wettbewerbsfähigen Preisen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Parks gibt es in Monterey Park?",
+      "answer": "Garvey Ranch Park und Barnes Park sind beliebte Orte für Freizeit- und Familienaktivitäten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist Monterey Park für Pendler gut erreichbar?",
+      "answer": "Ja, es bietet guten Zugang zur Autobahn I-10 und zu nahegelegenen öffentlichen Verkehrsmitteln.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Monterey Park CA Immobilien & Lebensstil | Asiatische Küche & Familienfreundlich",
+    "metaDescription": "Entdecken Sie Monterey Parks Stadtteile, Parks und Gastronomieangebote im Los Angeles County.",
+    "keywords": "Monterey Park Immobilien, Monterey Park Gastronomie, Leben in Monterey Park, Monterey Park Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Monterey Park: Familienfreundliche Gemeinschaft & Authentische Küche",
+    "ogDescription": "Finden Sie Ihr Zuhause in Monterey Park mit seiner lebendigen asiatischen Küche und einladenden Nachbarschaften.",
+    "ogImage": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Moderne Stadtsilhouette mit asiatischen architektonischen Einflüssen in Monterey Park",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Monterey Park",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Monterey Park, Kalifornien.",
+      "url": "https://example.com/locations/monterey-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Moderne Stadtsilhouette mit asiatischen architektonischen Einflüssen in Monterey Park"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Monterey Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was macht Monterey Park besonders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monterey Park ist bekannt für seine authentische asiatische Küche, familienfreundliche Parks und die Gemeinschaftsatmosphäre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Monterey Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt bietet eine Vielzahl von Häusern, darunter Eigentumswohnungen und Einfamilienhäuser, zu wettbewerbsfähigen Preisen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Parks gibt es in Monterey Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garvey Ranch Park und Barnes Park sind beliebte Orte für Freizeit- und Familienaktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Monterey Park für Pendler gut erreichbar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, es bietet guten Zugang zur Autobahn I-10 und zu nahegelegenen öffentlichen Verkehrsmitteln."
+          }
+        }
+      ]
+    }
+  ]
+}

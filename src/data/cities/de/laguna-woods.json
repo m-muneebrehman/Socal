@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-woods",
+  "name": "Laguna Woods",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine ruhige, hauptsächlich für 55+ Gemeinschaft bekannte Stadt mit Annehmlichkeiten, Parks und bequemem Zugang zur Küste von Orange County.",
+  "fullDescription": "Laguna Woods ist eine friedliche Stadt in Orange County, die vor allem für Laguna Woods Village bekannt ist, eine große 55+ Gemeinschaft mit umfangreichen Annehmlichkeiten wie Golfplätzen, Clubhäusern, Schwimmbädern und Sozialclubs. Mit nahegelegenen Einkaufszentren, medizinischen Einrichtungen sowie einfachem Zugang zu Stränden und Wanderwegen bietet Laguna Woods einen entspannten Lebensstil mit starkem Gemeinschaftsengagement und vielfältigen Freizeitmöglichkeiten.",
+  "heroImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sonniger Spazierweg, gesäumt von Bäumen in einer Vorstadtsiedlung",
+  "population": "18.000+",
+  "avgHomePrice": "600.000 $",
+  "tags": [
+    "55+ Gemeinschaft",
+    "Parks",
+    "Vorstadt"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "stadt",
+      "slug": "laguna-hills",
+      "description": "Familienfreundliche Vorstadtstadt mit Parks, Einkaufsmöglichkeiten und bequemer Anbindung im gesamten Orange County.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Nachbarschaftsstraße in Laguna Hills",
+      "distance": "2 Meilen nördlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Aliso Viejo",
+      "type": "stadt",
+      "slug": "aliso-viejo",
+      "description": "Geplante Gemeinde mit Parks, Einkaufszentren und familienfreundlichen Einrichtungen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Park und Häuser in Aliso Viejo",
+      "distance": "4 Meilen westlich",
+      "avgHomePrice": "950.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Beach",
+      "type": "stadt",
+      "slug": "laguna-beach",
+      "description": "Küstenstadt, bekannt für Strände, Kunstgalerien und malerische Buchten.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Meeresbucht bei Laguna Beach",
+      "distance": "7 Meilen südwestlich",
+      "avgHomePrice": "2,5 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "stadt",
+      "slug": "lake-forest",
+      "description": "Vorstadtstadt mit gepflegten Parks, Seen und Gemeindeeinrichtungen.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Baumgesäumte Nachbarschaft in Lake Forest",
+      "distance": "5 Meilen nordöstlich",
+      "avgHomePrice": "850.000 $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Laguna Woods Village Annehmlichkeiten",
+      "description": "Golfplätze, Clubhäuser, Schwimmbäder, Fitnesszentren und hunderte Sozialclubs.",
+      "icon": "🏌️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golfplatz mit grünen Fairways"
+    },
+    {
+      "title": "Parks & Grünanlagen",
+      "description": "Beschattete Spazierwege, Nachbarschaftsparks und nahegelegener Zugang zu regionalen Wanderwegen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Baumgesäumter Spazierweg in einem Park"
+    },
+    {
+      "title": "Nähe zu Stränden",
+      "description": "Kurze Fahrt nach Laguna Beach und Dana Point für Küstenspaziergänge und Meeresblicke.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Küstenlinie bei Sonnenuntergang"
+    },
+    {
+      "title": "Einkaufsmöglichkeiten & Gesundheitsversorgung in der Nähe",
+      "description": "Nahe Einkaufszentren, Märkte und medizinische Einrichtungen für den täglichen Bedarf.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Einkaufszentrum mit Schaufenstern"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Laguna Woods bekannt?",
+      "answer": "Laguna Woods ist bekannt für Laguna Woods Village, eine erstklassige 55+ Gemeinschaft mit Resort-Annehmlichkeiten und einem aktiven Sozialleben.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Laguna Woods?",
+      "answer": "Der Markt besteht hauptsächlich aus Eigentumswohnungen und Genossenschaftswohnungen, die vergleichsweise erschwingliche Optionen im Orange County bieten.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Freizeitmöglichkeiten gibt es in der Nähe?",
+      "answer": "Bewohner genießen vor Ort Annehmlichkeiten sowie schnellen Zugang zu regionalen Parks, Wanderwegen und Küstenstränden.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie praktisch ist der Pendelverkehr von Laguna Woods?",
+      "answer": "Laguna Woods liegt nahe der I-5 und SR-73, mit nahegelegenen Verkehrsanbindungen zu umliegenden Städten im Orange County.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Laguna Woods CA Immobilien & Lebensstil | 55+ Gemeinschaft & Parks",
+    "metaDescription": "Entdecken Sie die Annehmlichkeiten, umliegenden Städte und Immobilienoptionen in einer ruhigen 55+ Gemeinschaft in Orange County.",
+    "keywords": "Laguna Woods Immobilien, 55+ Gemeinschaft Orange County, Wohnen in Laguna Woods, Laguna Woods Village Häuser",
+    "ogTitle": "Entdecken Sie Laguna Woods: Entspanntes 55+ Leben in Orange County",
+    "ogDescription": "Finden Sie Ihr Zuhause in Laguna Woods mit Resort-Annehmlichkeiten, Parks und schnellem Zugang zur Küste.",
+    "ogImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sonniger Spazierweg, gesäumt von Bäumen in einer Vorstadtsiedlung",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Woods",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Laguna Woods, Kalifornien.",
+      "url": "https://example.com/locations/laguna-woods",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sonniger Spazierweg, gesäumt von Bäumen in einer Vorstadtsiedlung"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Woods",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Laguna Woods bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Woods ist bekannt für Laguna Woods Village, eine erstklassige 55+ Gemeinschaft mit Resort-Annehmlichkeiten und einem aktiven Sozialleben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Laguna Woods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt besteht hauptsächlich aus Eigentumswohnungen und Genossenschaftswohnungen, die vergleichsweise erschwingliche Optionen im Orange County bieten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Freizeitmöglichkeiten gibt es in der Nähe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bewohner genießen vor Ort Annehmlichkeiten sowie schnellen Zugang zu regionalen Parks, Wanderwegen und Küstenstränden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie praktisch ist der Pendelverkehr von Laguna Woods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Woods liegt nahe der I-5 und SR-73, mit nahegelegenen Verkehrsanbindungen zu umliegenden Städten im Orange County."
+          }
+        }
+      ]
+    }
+  ]
+}

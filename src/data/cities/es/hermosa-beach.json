@@ -1,0 +1,187 @@
+{
+  "slug": "hermosa-beach",
+  "name": "Hermosa Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad costera vibrante conocida por sus playas de arena, estilo de vida activo y animada zona del muelle en el centro.",
+  "fullDescription": "Hermosa Beach es una pintoresca ciudad costera en la región de South Bay del condado de Los Ángeles. Famosa por su cultura relajada de surf, su escénica senda para bicicletas junto a la playa y su vibrante vida nocturna, Hermosa ofrece una combinación excepcional de actividades al aire libre y eventos comunitarios. La ciudad cuenta con un hermoso muelle, tiendas boutique y numerosos restaurantes, lo que la convierte en un destino popular para residentes y visitantes que buscan vivir junto al mar con un fuerte sentido de comunidad.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Muelle de Hermosa Beach al atardecer con palmeras y océano",
+  "population": "20K+",
+  "avgHomePrice": "$1.9M",
+  "tags": [
+    "Playas",
+    "Surf",
+    "Vida nocturna"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Manhattan Beach",
+      "type": "ciudad",
+      "slug": "manhattan-beach",
+      "description": "Ciudad costera exclusiva conocida por su hermosa costa, tiendas y restaurantes.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Costa y muelle de Manhattan Beach",
+      "distance": "2 millas al sur",
+      "avgHomePrice": "$2.5M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Redondo Beach",
+      "type": "ciudad",
+      "slug": "redondo-beach",
+      "description": "Ciudad costera con un bullicioso puerto deportivo, muelle y restaurantes frente al mar.",
+      "image": "https://images.unsplash.com/photo-1526481280691-6c43c5dffb9a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Puerto deportivo y muelle de Redondo Beach",
+      "distance": "3 millas al norte",
+      "avgHomePrice": "$1.7M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "ciudad",
+      "slug": "torrance",
+      "description": "Ciudad grande con vecindarios diversos, centros comerciales y parques.",
+      "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista de calle en el centro de Torrance",
+      "distance": "5 millas al este",
+      "avgHomePrice": "$850K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "El Segundo",
+      "type": "ciudad",
+      "slug": "el-segundo",
+      "description": "Ciudad costera conocida por su industria aeroespacial y acceso a la playa.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Costa de El Segundo",
+      "distance": "5 millas al norte",
+      "avgHomePrice": "$900K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Muelle de Hermosa Beach",
+      "description": "Muelle icónico con pesca, restaurantes y hermosas vistas al océano.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Muelle de Hermosa Beach al atardecer"
+    },
+    {
+      "title": "La senda para bicicletas The Strand",
+      "description": "Popular senda pavimentada para bicicletas y peatones a lo largo de la playa que conecta con ciudades vecinas.",
+      "icon": "🚴‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ciclistas en senda costera para bicicletas"
+    },
+    {
+      "title": "Centro de Hermosa Beach",
+      "description": "Área vibrante con bares, restaurantes, boutiques y locales de música en vivo.",
+      "icon": "🎸",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle con restaurantes y vida nocturna"
+    },
+    {
+      "title": "Torneo anual de voleibol de playa AVP",
+      "description": "Evento profesional popular de voleibol que atrae a fanáticos y atletas.",
+      "icon": "🏐",
+      "bgImage": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Jugadores de voleibol de playa en acción"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Hermosa Beach?",
+      "answer": "Hermosa Beach es famosa por su animado muelle, cultura de surf y activa vida nocturna.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Hermosa Beach?",
+      "answer": "El mercado es competitivo, con alta demanda de propiedades frente al mar y condominios.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué actividades se pueden hacer en Hermosa Beach?",
+      "answer": "Disfruta de actividades en la playa, paseos en bicicleta por The Strand, cenas en el centro y eventos de voleibol de playa.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Hermosa Beach?",
+      "answer": "Hermosa Beach ofrece fácil acceso a las autopistas 405 y 107 y está cerca de la línea Metro Green.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Hermosa Beach CA | Playas, Surf y Vida Nocturna",
+    "metaDescription": "Descubre el vibrante estilo de vida costero, el impresionante muelle y las oportunidades inmobiliarias en Hermosa Beach, condado de Los Ángeles.",
+    "keywords": "bienes raíces Hermosa Beach, muelle Hermosa Beach, vivir en Hermosa Beach, casas en venta Hermosa Beach",
+    "ogTitle": "Explora Hermosa Beach: Surf, Playas y Vida Nocturna",
+    "ogDescription": "Encuentra tu lugar en Hermosa Beach con su muelle icónico, playas y comunidad vibrante.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Muelle de Hermosa Beach al atardecer con palmeras y océano",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Hermosa Beach",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Hermosa Beach, California.",
+      "url": "https://example.com/locations/hermosa-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Muelle de Hermosa Beach al atardecer con palmeras y océano"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Hermosa Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hermosa Beach es famosa por su animado muelle, cultura de surf y activa vida nocturna."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado es competitivo, con alta demanda de propiedades frente al mar y condominios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades se pueden hacer en Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disfruta de actividades en la playa, paseos en bicicleta por The Strand, cenas en el centro y eventos de voleibol de playa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Hermosa Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hermosa Beach ofrece fácil acceso a las autopistas 405 y 107 y está cerca de la línea Metro Green."
+          }
+        }
+      ]
+    }
+  ]
+}

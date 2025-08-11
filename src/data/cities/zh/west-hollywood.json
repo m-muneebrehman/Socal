@@ -1,0 +1,155 @@
+{
+  "slug": "west-hollywood",
+  "name": "西好莱坞",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个时尚而充满活力的城市，以夜生活、艺术氛围和包容社区闻名。",
+  "fullDescription": "西好莱坞，简称WeHo，是一个充满活力的都市飞地，以热闹的夜生活、前沿的艺术画廊和多样的文化活动著称。位于比佛利山庄和好莱坞之间，拥有便于步行的街道，街道两旁排列着时尚精品店、热门餐厅和标志性音乐场所。以其进步精神和强大的LGBTQ+社区而闻名，西好莱坞融合了娱乐、历史与现代生活的独特魅力。该市还拥有美丽的住宅区、优秀的公共交通选择和蓬勃发展的创意氛围。",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "西好莱坞城市天际线的夕阳景色和棕榈树",
+  "population": "3.6万+",
+  "avgHomePrice": "170万美元",
+  "tags": [
+    "夜生活",
+    "艺术与文化",
+    "LGBTQ+ 友好",
+    "时尚"
+  ],
+  "neighborhoods": [
+    {
+      "name": "比佛利山庄",
+      "type": "城市",
+      "slug": "beverly-hills",
+      "description": "以奢华购物、名人住宅和高档餐饮著称的高端城市。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "比佛利山庄的罗迪欧大道购物街",
+      "distance": "西部1英里",
+      "avgHomePrice": "350万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "夕阳大道",
+      "description": "以夜生活、音乐场所和充满活力的氛围闻名的著名街区。",
+      "icon": "🎸",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "夜晚的夕阳大道霓虹灯"
+    },
+    {
+      "title": "西好莱坞设计区",
+      "description": "一个时尚且适合步行的社区，拥有高端购物和艺术画廊。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "高档精品店和画廊"
+    },
+    {
+      "title": "LGBTQ+ 活动与文化",
+      "description": "一个包容的城市，以骄傲庆典、社区中心和友好氛围闻名。",
+      "icon": "🏳️‍🌈",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "彩虹旗和社区活动"
+    },
+    {
+      "title": "太平洋设计中心",
+      "description": "具有设计展厅、活动和艺术展览的建筑地标。",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "太平洋设计中心建筑外观"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "西好莱坞以什么闻名？",
+      "answer": "西好莱坞以其充满活力的夜生活、艺术氛围和LGBTQ+友好社区闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "西好莱坞的房地产市场怎么样？",
+      "answer": "西好莱坞的市场竞争激烈，涵盖豪华公寓和历史住宅的混合。",
+      "category": "房地产"
+    },
+    {
+      "question": "西好莱坞有哪些热门景点？",
+      "answer": "夕阳大道、太平洋设计中心以及众多剧院和音乐场所在全年吸引游客。",
+      "category": "生活方式"
+    },
+    {
+      "question": "西好莱坞适合步行和公共交通吗？",
+      "answer": "是的，城市布局适合步行，且拥有公共交通和自行车道。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州西好莱坞房地产与生活 | 夜生活、艺术与文化",
+    "metaDescription": "探索西好莱坞充满活力的社区、标志性夜生活、文化氛围和房地产选项。",
+    "keywords": "西好莱坞房地产, 西好莱坞夜生活, 西好莱坞艺术, 生活在西好莱坞",
+    "ogTitle": "发现西好莱坞：夜生活、文化与社区",
+    "ogDescription": "体验西好莱坞多样社区和包容文化的热闹艺术与夜生活。",
+    "ogImage": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "夕阳时分的西好莱坞城市景观",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "西好莱坞",
+      "description": "探索加利福尼亚州西好莱坞的房地产、社区和亮点。",
+      "url": "https://example.com/locations/west-hollywood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "西好莱坞城市天际线的夕阳景色和棕榈树"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "西好莱坞",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "西好莱坞以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "西好莱坞以其充满活力的夜生活、艺术氛围和LGBTQ+友好社区闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "西好莱坞的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "西好莱坞的市场竞争激烈，涵盖豪华公寓和历史住宅的混合。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "西好莱坞有哪些热门景点？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "夕阳大道、太平洋设计中心以及众多剧院和音乐场所在全年吸引游客。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "西好莱坞适合步行和公共交通吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，城市布局适合步行，且拥有公共交通和自行车道。"
+          }
+        }
+      ]
+    }
+  ]
+}

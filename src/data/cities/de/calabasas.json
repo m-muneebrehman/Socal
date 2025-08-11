@@ -1,0 +1,154 @@
+{
+  "slug": "calabasas",
+  "name": "Calabasas",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine gehobene Stadt bekannt für ihre malerische Schönheit, geschlossene Gemeinschaften und Prominentenbewohner.",
+  "fullDescription": "Calabasas ist eine prestigeträchtige Stadt in den Hügeln westlich des San Fernando Valley gelegen. Bekannt für ihre wohlhabenden Nachbarschaften, schöne Landschaften und ein starkes Gemeinschaftsgefühl, bietet sie einen friedlichen vorstädtischen Lebensstil mit einfachem Zugang zu Los Angeles. Calabasas rühmt sich mit erstklassigen Schulen, Luxus-Einkaufszentren wie The Commons, und reichlich Outdoor-Aktivitäten wie Wandern in nahegelegenen Parks und Naturschutzgebieten. Es ist ein Lieblingsort für Familien und Prominente, die Privatsphäre und Qualitätsleben suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "Malerische Hügelansicht in Calabasas mit Bäumen und Häusern",
+  "population": "24K+",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Wohlhabend",
+    "Geschlossene Gemeinschaften",
+    "Outdoor-Lebensstil"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Agoura Hills",
+      "type": "Stadt",
+      "slug": "agoura-hills",
+      "description": "Nachbarstadt, die eine Mischung aus vorstädtischem Komfort und Outdoor-Abenteuer bietet.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hügel und Häuser in Agoura Hills",
+      "distance": "5 Meilen östlich",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Commons at Calabasas",
+      "description": "Gehobenes Einkaufs- und Essensziel im Herzen der Stadt.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Einkaufszentrum bei The Commons"
+    },
+    {
+      "title": "Calabasas Scenic Trails",
+      "description": "Zahlreiche Wander- und Radwege mit atemberaubenden Ausblicken auf die Santa Monica Mountains.",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wanderweg, der sich durch Calabasas Hügel schlängelt"
+    },
+    {
+      "title": "Old Town Calabasas",
+      "description": "Charmanter Bereich mit historischen Gebäuden, Geschäften und lokalen Veranstaltungen.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historische Gebäude in Old Town Calabasas"
+    },
+    {
+      "title": "Calabasas Tennis & Swim Center",
+      "description": "Gemeinschaftszentrum, das Sport, Fitness und Freizeitprogramme anbietet.",
+      "icon": "🎾",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Tennisplätze und Pool im Calabasas Sportzentrum"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Calabasas bekannt?",
+      "answer": "Calabasas ist bekannt für seinen gehobenen Lebensstil, geschlossene Gemeinschaften und malerische Außenbereiche.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Calabasas?",
+      "answer": "Der Immobilienmarkt bietet Luxus-Anwesen, geschlossene Gemeinschaften und hohe Nachfrage nach Privatsphäre.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was sind beliebte Outdoor-Aktivitäten in Calabasas?",
+      "answer": "Wandern, Radfahren und Erkunden malerischer Wanderwege in den Santa Monica Mountains sind beliebte Aktivitäten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist das Pendeln von Calabasas?",
+      "answer": "Calabasas bietet Zugang zur 101 Autobahn und nahegelegene öffentliche Verkehrsmittel für Pendelfahrten nach LA und darüber hinaus.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Calabasas CA Immobilien & Lebensstil | Luxusleben & Malerische Außenbereiche",
+    "metaDescription": "Erkunden Sie Calabasas' gehobene Nachbarschaften, Einkaufsmöglichkeiten, Outdoor-Aktivitäten und Immobilienchancen im Santa Monica Mountains Bereich.",
+    "keywords": "Calabasas Immobilien, Calabasas Luxushäuser, Leben in Calabasas, Calabasas Einkaufen",
+    "ogTitle": "Entdecken Sie Calabasas: Luxusleben & Malerischer Outdoor-Lebensstil",
+    "ogDescription": "Finden Sie Ihr perfektes Zuhause in Calabasas mit seinen exklusiven Gemeinschaften, Wanderwegen und lebendiger lokaler Kultur.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Malerische Hügelansicht in Calabasas mit Bäumen und Häusern",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Calabasas",
+      "description": "Erkunden Sie Immobilien, Nachbarschaften und Höhepunkte in Calabasas, Kalifornien.",
+      "url": "https://example.com/locations/calabasas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Malerische Hügelansicht in Calabasas mit Bäumen und Häusern"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Calabasas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Calabasas bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas ist bekannt für seinen gehobenen Lebensstil, geschlossene Gemeinschaften und malerische Außenbereiche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Immobilienmarkt bietet Luxus-Anwesen, geschlossene Gemeinschaften und hohe Nachfrage nach Privatsphäre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind beliebte Outdoor-Aktivitäten in Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wandern, Radfahren und Erkunden malerischer Wanderwege in den Santa Monica Mountains sind beliebte Aktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas bietet Zugang zur 101 Autobahn und nahegelegene öffentliche Verkehrsmittel für Pendelfahrten nach LA und darüber hinaus."
+          }
+        }
+      ]
+    }
+  ]
+}

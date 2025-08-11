@@ -1,0 +1,154 @@
+{
+  "slug": "palmdale",
+  "name": "Palmdale",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville en croissance dans la vallée de l’Antilope, connue pour son logement abordable, ses activités de plein air et son ambiance familiale.",
+  "fullDescription": "Palmdale, située dans le nord du comté de Los Angeles, offre à ses résidents un style de vie suburbain avec des équipements en expansion. Réputée pour son marché immobilier accessible, sa proximité avec la forêt nationale des Angeles et ses parcs communautaires, Palmdale est idéale pour les familles et les amateurs de plein air. La ville se développe rapidement avec de nouvelles écoles, centres commerciaux et installations récréatives, tout en conservant une ambiance conviviale de petite ville au sein de la grande région de Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue urbaine de Palmdale avec montagnes en arrière-plan",
+  "population": "157K+",
+  "avgHomePrice": "550K$",
+  "tags": [
+    "Logement abordable",
+    "Activités de plein air",
+    "Familial"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lancaster",
+      "type": "ville",
+      "slug": "lancaster",
+      "description": "Ville voisine connue pour ses parcs, ses événements culturels et une économie en croissance.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue urbaine de Lancaster",
+      "distance": "10 miles à l'ouest",
+      "avgHomePrice": "520K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Réserve de coquelicots de la vallée de l’Antilope en Californie",
+      "description": "Une magnifique réserve naturelle mettant en valeur la floraison vibrante des coquelicots au printemps.",
+      "icon": "🌼",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Champ de coquelicots en fleurs"
+    },
+    {
+      "title": "Parc municipal de Palmdale",
+      "description": "Parc communautaire avec terrains de jeux, installations sportives et aires de pique-nique.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc verdoyant avec arbres et aire de jeux"
+    },
+    {
+      "title": "Dry Town Water Park",
+      "description": "Parc aquatique populaire offrant des moments de plaisir en famille et des espaces pour se rafraîchir en été.",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Toboggans aquatiques dans un parc aquatique"
+    },
+    {
+      "title": "California State University, Bakersfield Antelope Valley",
+      "description": "Établissement d’enseignement supérieur local desservant Palmdale et la vallée de l’Antilope.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiments du campus universitaire"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Palmdale est-elle connue ?",
+      "answer": "Palmdale est connue pour son logement abordable, ses activités de plein air et sa communauté familiale.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Palmdale ?",
+      "answer": "Palmdale offre un logement plus abordable comparé à Los Angeles avec un marché en croissance.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités de plein air peut-on faire à Palmdale ?",
+      "answer": "Les résidents apprécient la randonnée, la visite des réserves de coquelicots et les parcs aquatiques dans la région.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Est-ce facile de faire la navette depuis Palmdale ?",
+      "answer": "Palmdale est desservie par l’autoroute 14 et le train Metrolink, offrant un accès à Los Angeles et aux environs.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Palmdale CA | Vie abordable & loisirs en plein air",
+    "metaDescription": "Découvrez les quartiers, parcs et options immobilières de Palmdale dans le nord du comté de Los Angeles.",
+    "keywords": "immobilier Palmdale, parcs Palmdale, vivre à Palmdale, maisons à vendre Palmdale",
+    "ogTitle": "Découvrez Palmdale : vie familiale abordable & loisirs en plein air",
+    "ogDescription": "Trouvez votre maison à Palmdale avec accès à la nature, aux parcs et aux équipements communautaires en développement.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue urbaine de Palmdale avec montagnes en arrière-plan",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Palmdale",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts de Palmdale, Californie.",
+      "url": "https://example.com/locations/palmdale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue urbaine de Palmdale avec montagnes en arrière-plan"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Palmdale",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Palmdale est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale est connue pour son logement abordable, ses activités de plein air et sa communauté familiale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Palmdale ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale offre un logement plus abordable comparé à Los Angeles avec un marché en croissance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air peut-on faire à Palmdale ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents apprécient la randonnée, la visite des réserves de coquelicots et les parcs aquatiques dans la région."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce facile de faire la navette depuis Palmdale ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale est desservie par l’autoroute 14 et le train Metrolink, offrant un accès à Los Angeles et aux environs."
+          }
+        }
+      ]
+    }
+  ]
+}

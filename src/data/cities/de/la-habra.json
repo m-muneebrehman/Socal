@@ -1,0 +1,176 @@
+{
+  "slug": "la-habra",
+  "name": "La Habra",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Stadt, die Vorortleben mit lokalen Parks, Einkaufsmöglichkeiten und Gemeinschaftsveranstaltungen verbindet.",
+  "fullDescription": "La Habra bietet eine einladende Gemeinschaft mit bezahlbarem Wohnraum, gepflegten Parks und einfachem Zugang zu wichtigen Autobahnen. Bekannt für seine familienfreundliche Atmosphäre und vielfältigen Stadtteile, verbindet La Habra den Charme einer Kleinstadt mit der praktischen Nähe zu Orange County und Los Angeles. Die Stadt bietet aktive Gemeindeprogramme, kulturelle Veranstaltungen sowie eine Vielzahl an Einkaufs- und Essensmöglichkeiten.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Stadtstraße und Gemeinschaftspark in La Habra",
+  "population": "62.000+",
+  "avgHomePrice": "700.000 $",
+  "tags": [
+    "Bezahlbar",
+    "Familienfreundlich",
+    "Gemeinschaftsorientiert"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "stadt",
+      "slug": "fullerton",
+      "description": "College-Stadt bekannt für ihre historische Innenstadt, Kunstszene und die Cal State Fullerton.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historische Innenstadt von Fullerton",
+      "distance": "5 Meilen westlich",
+      "avgHomePrice": "850.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "stadt",
+      "slug": "brea",
+      "description": "Bekannt für seine lebendige Innenstadt, Einkaufszentren und Kunstfestivals.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Straßenansicht der Innenstadt von Brea",
+      "distance": "6 Meilen südöstlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "La Mirada",
+      "type": "stadt",
+      "slug": "la-mirada",
+      "description": "Wohnstadt mit Parks, Golfplätzen und familienfreundlichen Vierteln.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Golfplatz in La Mirada",
+      "distance": "4 Meilen südlich",
+      "avgHomePrice": "700.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "La Habra Community Center",
+      "description": "Zentrum für lokale Veranstaltungen, Kurse und Freizeitaktivitäten.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gebäude des La Habra Community Center"
+    },
+    {
+      "title": "La Habra Park",
+      "description": "Beliebter Park mit Sportplätzen, Picknickbereichen und Spielplätzen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grünfläche und Spielplatz im La Habra Park"
+    },
+    {
+      "title": "Historische Innenstadt von La Habra",
+      "description": "Charmantes Viertel mit lokalen Geschäften, Restaurants und kulturellen Veranstaltungen.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Straße in der Innenstadt von La Habra mit Geschäften"
+    },
+    {
+      "title": "La Habra Farmers Market",
+      "description": "Wöchentlicher Markt mit frischen Produkten, handwerklichen Waren und Gemeinschaftsaktivitäten.",
+      "icon": "🥕",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Marktstände mit frischem Obst und Gemüse"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist La Habra bekannt?",
+      "answer": "La Habra ist bekannt für seinen gemeinschaftsorientierten Lebensstil, bezahlbaren Wohnraum und familienfreundliche Einrichtungen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in La Habra?",
+      "answer": "La Habra wird vom La Habra City School District und dem Fullerton Joint Union High School District bedient und bietet qualitativ hochwertige Bildungsangebote.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten gibt es in La Habra?",
+      "answer": "Die Bewohner können Parks, Sportplätze und lokale Gemeinschaftsveranstaltungen das ganze Jahr über genießen.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Arbeitsweg nach Los Angeles und Orange County?",
+      "answer": "La Habra bietet bequemen Zugang zu den Autobahnen 91 und 605, mit Pendelzeiten nach Downtown Los Angeles oder Orange County zwischen 30 und 60 Minuten, abhängig vom Verkehr.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Habra CA Immobilien & Gemeinschaft | Familienfreundliches, bezahlbares Wohnen",
+    "metaDescription": "Entdecken Sie die Stadtteile, Parks, Schulen und bezahlbaren Häuser von La Habra, einer lebendigen Stadt in Orange County.",
+    "keywords": "La Habra Immobilien, Familienleben La Habra, Stadtteile Orange County, La Habra Parks",
+    "ogTitle": "Entdecken Sie La Habra: Bezahlbares Familienleben in Orange County",
+    "ogDescription": "Erfahren Sie mehr über La Habras gemeinschaftsorientierten Lebensstil, Parks und günstige Lage in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Stadtstraße und Park in La Habra",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Habra",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in La Habra, Kalifornien.",
+      "url": "https://example.com/locations/la-habra",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Stadtstraße und Gemeinschaftspark in La Habra"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Habra",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist La Habra bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra ist bekannt für seinen gemeinschaftsorientierten Lebensstil, bezahlbaren Wohnraum und familienfreundliche Einrichtungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra wird vom La Habra City School District und dem Fullerton Joint Union High School District bedient und bietet qualitativ hochwertige Bildungsangebote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten gibt es in La Habra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner können Parks, Sportplätze und lokale Gemeinschaftsveranstaltungen das ganze Jahr über genießen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Arbeitsweg nach Los Angeles und Orange County?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Habra bietet bequemen Zugang zu den Autobahnen 91 und 605, mit Pendelzeiten nach Downtown Los Angeles oder Orange County zwischen 30 und 60 Minuten, abhängig vom Verkehr."
+          }
+        }
+      ]
+    }
+  ]
+}

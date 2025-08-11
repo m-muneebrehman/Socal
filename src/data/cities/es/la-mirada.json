@@ -1,0 +1,154 @@
+{
+  "slug": "la-mirada",
+  "name": "La Mirada",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Un suburbio familiar conocido por sus parques, buenas escuelas y un ambiente comunitario acogedor.",
+  "fullDescription": "La Mirada es una ciudad residencial en el sureste del condado de Los Ángeles que ofrece un estilo de vida suburbano con muchos parques, escuelas de calidad y servicios comunitarios. Conocida por sus vecindarios tranquilos, eventos orientados a la familia y ubicación conveniente cerca de importantes autopistas, La Mirada brinda fácil acceso a Los Ángeles, el condado de Orange y áreas cercanas. La ciudad cuenta con espacios públicos bien mantenidos, un centro cívico vibrante y un fuerte sentido de comunidad, lo que la convierte en un lugar ideal para familias y profesionales por igual.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Área de parque con árboles y senderos para caminar en La Mirada",
+  "population": "49K+",
+  "avgHomePrice": "$730K",
+  "tags": [
+    "Familiar",
+    "Parques",
+    "Buenas escuelas"
+  ],
+  "neighborhoods": [
+    {
+      "name": "La Habra",
+      "type": "ciudad",
+      "slug": "la-habra",
+      "description": "Ciudad que ofrece vecindarios suburbanos, parques y actividades comunitarias.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle suburbana en La Habra",
+      "distance": "7 millas al este",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parque Regional La Mirada",
+      "description": "Un gran parque con senderos para caminar, áreas de picnic y un lago para pescar y pasear en bote.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Lago y área de picnic en el Parque Regional La Mirada"
+    },
+    {
+      "title": "Teatro para las Artes Escénicas de La Mirada",
+      "description": "Un lugar local que alberga conciertos, producciones teatrales y eventos comunitarios.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Escenario de teatro con audiencia"
+    },
+    {
+      "title": "Eventos Comunitarios para Familias",
+      "description": "Eventos y festivales durante todo el año que promueven la participación comunitaria y la diversión para todas las edades.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival comunitario con personas disfrutando actividades al aire libre"
+    },
+    {
+      "title": "Escuelas de Calidad",
+      "description": "Fuertes escuelas públicas y privadas que atienden a La Mirada y comunidades vecinas.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Estudiantes en aula escolar"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué hace que La Mirada sea un buen lugar para vivir?",
+      "answer": "La Mirada ofrece un ambiente familiar con parques, escuelas de calidad y un fuerte sentido de comunidad.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en La Mirada?",
+      "answer": "El mercado es estable con demanda de casas unifamiliares en vecindarios suburbanos.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Qué actividades son populares en La Mirada?",
+      "answer": "Disfrutar del parque regional, asistir a presentaciones teatrales y participar en eventos comunitarios son actividades populares.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Es conveniente el traslado desde La Mirada?",
+      "answer": "Sí, con fácil acceso a las principales autopistas y ciudades cercanas como Norwalk y Whittier, el traslado es sencillo.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en La Mirada CA | Parques y Comunidad Familiar",
+    "metaDescription": "Descubre los parques, escuelas, eventos comunitarios y oportunidades inmobiliarias en La Mirada, condado de Los Ángeles.",
+    "keywords": "bienes raíces La Mirada, parques La Mirada, vivir en La Mirada, casas en La Mirada",
+    "ogTitle": "Explora La Mirada: Vida Familiar y Parques",
+    "ogDescription": "Encuentra tu hogar en La Mirada con su comunidad acogedora, parques y escuelas de calidad.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Parque con senderos para caminar en La Mirada",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Mirada",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en La Mirada, California.",
+      "url": "https://example.com/locations/la-mirada",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parque con senderos para caminar en La Mirada"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Mirada",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué hace que La Mirada sea un buen lugar para vivir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Mirada ofrece un ambiente familiar con parques, escuelas de calidad y un fuerte sentido de comunidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en La Mirada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado es estable con demanda de casas unifamiliares en vecindarios suburbanos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades son populares en La Mirada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disfrutar del parque regional, asistir a presentaciones teatrales y participar en eventos comunitarios son actividades populares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es conveniente el traslado desde La Mirada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, con fácil acceso a las principales autopistas y ciudades cercanas como Norwalk y Whittier, el traslado es sencillo."
+          }
+        }
+      ]
+    }
+  ]
+}

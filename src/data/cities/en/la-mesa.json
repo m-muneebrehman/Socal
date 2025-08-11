@@ -38,17 +38,6 @@
       "county": "San Diego"
     },
     {
-      "name": "Santee",
-      "type": "city",
-      "slug": "santee",
-      "description": "Family-oriented community to the north with parks, lakes, and the West Hills Shopping Center.",
-      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Trail through rolling hills near Santee",
-      "distance": "7 miles north",
-      "avgHomePrice": "$750K",
-      "county": "San Diego"
-    },
-    {
       "name": "Lemon Grove",
       "type": "city",
       "slug": "lemon-grove",

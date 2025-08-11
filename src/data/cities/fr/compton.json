@@ -1,0 +1,176 @@
+{
+  "slug": "compton",
+  "name": "Compton",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville riche en histoire, connue pour ses contributions culturelles, son esprit communautaire et son paysage urbain en évolution.",
+  "fullDescription": "Compton est une ville du sud du comté de Los Angeles connue pour ses racines culturelles profondes, sa scène artistique dynamique et sa forte identité communautaire. Malgré des défis, la ville a vu des efforts de revitalisation axés sur la sécurité publique, l'éducation et le développement économique. Compton offre des quartiers diversifiés, des parcs et des événements culturels qui célèbrent son patrimoine. Elle bénéficie d'un accès pratique au centre-ville de Los Angeles et aux villes environnantes, faisant partie intégrante du tissu urbain de la région.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue de rue à Compton avec des fresques urbaines et une ambiance communautaire",
+  "population": "95K+",
+  "avgHomePrice": "450 K$",
+  "tags": [
+    "Patrimoine culturel",
+    "Communauté",
+    "Renouvellement urbain"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Gardena",
+      "type": "ville",
+      "slug": "gardena",
+      "description": "Ville voisine connue pour sa population diverse et ses quartiers commerciaux.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Paysage urbain de Gardena",
+      "distance": "4 miles au sud-ouest",
+      "avgHomePrice": "600 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Carson",
+      "type": "ville",
+      "slug": "carson",
+      "description": "Ville avec un mélange de zones résidentielles et industrielles, offrant des parcs et des commodités locales.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Paysage urbain de Carson",
+      "distance": "6 miles au sud",
+      "avgHomePrice": "550 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Long Beach",
+      "type": "ville",
+      "slug": "long-beach",
+      "description": "Ville côtière avec un front de mer dynamique, des attractions culturelles et des quartiers diversifiés.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue du port de Long Beach",
+      "distance": "10 miles au sud-ouest",
+      "avgHomePrice": "700 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Compton College",
+      "description": "Collège communautaire offrant des opportunités éducatives et professionnelles aux résidents.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Campus de Compton College"
+    },
+    {
+      "title": "Dominguez Park",
+      "description": "Grand parc communautaire avec terrains de sport, aires de jeux et zones de pique-nique.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Espace de parc ouvert avec arbres et bancs"
+    },
+    {
+      "title": "Piste cyclable Compton Creek",
+      "description": "Sentier populaire pour le vélo, le jogging et les loisirs en plein air.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Piste cyclable le long d’un ruisseau"
+    },
+    {
+      "title": "Centre-ville historique",
+      "description": "Quartier avec des fresques murales, des commerces locaux et des événements communautaires célébrant le patrimoine de Compton.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Art de rue et boutiques dans le centre-ville de Compton"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Compton est-elle connue ?",
+      "answer": "Compton est connue pour son patrimoine culturel, son histoire musicale et la résilience de sa communauté.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Compton ?",
+      "answer": "Le marché est abordable comparé aux villes voisines, avec un intérêt croissant dû aux efforts de réaménagement.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à Compton ?",
+      "answer": "Profitez des parcs locaux, des événements communautaires, des attractions culturelles et explorez les fresques murales du centre-ville historique.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Compton ?",
+      "answer": "Compton est desservie par plusieurs grandes autoroutes et lignes de métro, offrant un accès facile à Los Angeles et Long Beach.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Compton CA | Patrimoine culturel & communauté",
+    "metaDescription": "Découvrez les quartiers, points culturels et opportunités immobilières à Compton, dans le comté de Los Angeles.",
+    "keywords": "immobilier Compton, communauté Compton, vivre à Compton, maisons à vendre à Compton",
+    "ogTitle": "Découvrez Compton : culture, communauté & vie urbaine",
+    "ogDescription": "Trouvez votre maison à Compton avec son riche patrimoine, ses parcs et ses quartiers en pleine revitalisation.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue urbaine de Compton avec fresques murales",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Compton",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Compton, Californie.",
+      "url": "https://example.com/locations/compton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue de rue à Compton avec des fresques urbaines et une ambiance communautaire"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Compton",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Compton est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compton est connue pour son patrimoine culturel, son histoire musicale et la résilience de sa communauté."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Compton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché est abordable comparé aux villes voisines, avec un intérêt croissant dû aux efforts de réaménagement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on faire à Compton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profitez des parcs locaux, des événements communautaires, des attractions culturelles et explorez les fresques murales du centre-ville historique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Compton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Compton est desservie par plusieurs grandes autoroutes et lignes de métro, offrant un accès facile à Los Angeles et Long Beach."
+          }
+        }
+      ]
+    }
+  ]
+}

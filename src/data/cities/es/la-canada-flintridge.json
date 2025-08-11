@@ -1,0 +1,165 @@
+{
+  "slug": "la-canada-flintridge",
+  "name": "La Cañada Flintridge",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una pintoresca ciudad en las estribaciones conocida por sus excelentes escuelas, senderos escénicos para caminatas y un estilo de vida suburbano tranquilo.",
+  "fullDescription": "La Cañada Flintridge está situada en las estribaciones de las montañas San Gabriel, ofreciendo a los residentes un ambiente suburbano pacífico con escuelas de primera categoría y abundantes oportunidades recreativas al aire libre. Conocida por sus propiedades históricas, senderos para caminatas como los del Bosque Nacional Ángeles, y un encantador ambiente de pueblo pequeño, esta ciudad es ideal para familias y amantes de la naturaleza. Ubicada convenientemente cerca de Pasadena y Glendale, La Cañada Flintridge brinda fácil acceso a servicios urbanos mientras mantiene su carácter sereno.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista panorámica de las estribaciones y casas residenciales en La Cañada Flintridge",
+  "population": "20K+",
+  "avgHomePrice": "$1.4M",
+  "tags": [
+    "Escuelas de primera categoría",
+    "Senderismo",
+    "Suburbano"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pasadena",
+      "type": "ciudad",
+      "slug": "pasadena",
+      "description": "Ciudad cercana conocida por instituciones culturales, el Desfile de las Rosas y el histórico Casco Antiguo.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Arquitectura histórica en Pasadena",
+      "distance": "5 millas al sureste",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Glendale",
+      "type": "ciudad",
+      "slug": "glendale",
+      "description": "Ciudad conocida por sus tiendas, restaurantes y las pintorescas montañas Verdugo cercanas.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte del centro de Glendale",
+      "distance": "7 millas al sur",
+      "avgHomePrice": "$900K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parque de la Cuenca Hahamongna",
+      "description": "Gran parque natural con senderos, áreas para picnic y un lago estacional.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Senderos para caminatas en el Parque de la Cuenca Hahamongna"
+    },
+    {
+      "title": "Jardines Descanso",
+      "description": "Hermosos jardines botánicos con flores de temporada, caminos para caminar y exhibiciones educativas.",
+      "icon": "🌸",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Flores coloridas en los Jardines Descanso"
+    },
+    {
+      "title": "Escuelas excelentes",
+      "description": "Escuelas públicas y privadas altamente calificadas que atienden a las familias de la comunidad.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio escolar con estudiantes"
+    },
+    {
+      "title": "Propiedades históricas de La Cañada Flintridge",
+      "description": "Hermosas casas y propiedades históricas situadas en las colinas.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Casa histórica en La Cañada Flintridge"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida La Cañada Flintridge?",
+      "answer": "Es conocida por sus pintorescas estribaciones, escuelas de primera categoría y oportunidades recreativas al aire libre.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en La Cañada Flintridge?",
+      "answer": "El mercado incluye propiedades históricas así como casas más nuevas con alta demanda de calidad de vida suburbana.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué actividades al aire libre son populares en La Cañada Flintridge?",
+      "answer": "El senderismo, visitar jardines botánicos y disfrutar de parques comunitarios son actividades populares al aire libre.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Qué tan conveniente es el traslado desde La Cañada Flintridge?",
+      "answer": "Fácil acceso a ciudades cercanas como Pasadena y Glendale con conexiones a autopistas y opciones de transporte local.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en La Cañada Flintridge CA | Estribaciones Escénicas y Vida de Calidad",
+    "metaDescription": "Descubre las mejores escuelas, senderos para caminatas, propiedades históricas y encanto suburbano de La Cañada Flintridge cerca de Pasadena y Glendale.",
+    "keywords": "Bienes raíces La Cañada Flintridge, senderismo La Cañada Flintridge, escuelas La Cañada, vivir en La Cañada Flintridge",
+    "ogTitle": "Explora La Cañada Flintridge: Vida Escénica y Escuelas de Primera",
+    "ogDescription": "Encuentra tu hogar en La Cañada Flintridge con sus tranquilas estribaciones, escuelas de calidad y estilo de vida al aire libre.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Estribaciones escénicas y casas en La Cañada Flintridge",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Cañada Flintridge",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en La Cañada Flintridge, California.",
+      "url": "https://example.com/locations/la-canada-flintridge",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Estribaciones escénicas y casas en La Cañada Flintridge"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Cañada Flintridge",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es conocida por sus pintorescas estribaciones, escuelas de primera categoría y oportunidades recreativas al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado incluye propiedades históricas así como casas más nuevas con alta demanda de calidad de vida suburbana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre son populares en La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El senderismo, visitar jardines botánicos y disfrutar de parques comunitarios son actividades populares al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué tan conveniente es el traslado desde La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fácil acceso a ciudades cercanas como Pasadena y Glendale con conexiones a autopistas y opciones de transporte local."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "fullerton",
+  "name": "富勒顿",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个充满活力的城市，以其历史悠久的市中心、教育机构和文化活动闻名。",
+  "fullDescription": "富勒顿是橙县一个充满活力的城市，融合了历史魅力和现代便利设施。以热闹的市中心区域著称，这里有众多餐厅、商店和夜生活。富勒顿是加州州立大学富勒顿分校和富勒顿学院的所在地，吸引了大量学生和专业人士。该市拥有多样的社区、优质的学校和丰富的文化场景，包括剧院、艺术画廊和音乐节。",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "历史悠久的富勒顿市中心，街道充满活力，建筑风格独特",
+  "population": "14万+",
+  "avgHomePrice": "85万美元",
+  "tags": [
+    "历史悠久",
+    "教育",
+    "文化"
+  ],
+  "neighborhoods": [
+    {
+      "name": "阿纳海姆",
+      "type": "城市",
+      "slug": "anaheim",
+      "description": "迪士尼乐园度假区所在地，是主要的娱乐和会议中心。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "阿纳海姆的迪士尼乐园入口",
+      "distance": "东南6英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "布雷亚",
+      "type": "城市",
+      "slug": "brea",
+      "description": "高档城市，拥有购物中心、艺术画廊和适合家庭的公园。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "布雷亚购物区",
+      "distance": "东北5英里",
+      "avgHomePrice": "75万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "普莱森提亚",
+      "type": "城市",
+      "slug": "placentia",
+      "description": "安静的郊区社区，拥有公园、学校和历史悠久的市中心。",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "普莱森提亚的公园和住宅区",
+      "distance": "东4英里",
+      "avgHomePrice": "80万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "约巴林达",
+      "type": "城市",
+      "slug": "yorba-linda",
+      "description": "富裕的住宅城市，拥有宽敞的住宅、公园和历史地标。",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "约巴林达的住宅社区",
+      "distance": "东北8英里",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "富勒顿历史市中心",
+      "description": "充满活力的区域，拥有餐饮、购物、剧院和夜生活。",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "富勒顿市中心街道，餐厅和灯光"
+    },
+    {
+      "title": "加州州立大学富勒顿分校",
+      "description": "著名的公立大学，以其强大的学术项目和校园活动闻名。",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "CSUF校园建筑和绿地"
+    },
+    {
+      "title": "富勒顿植物园",
+      "description": "美丽的植物园，提供自然小径和教育项目。",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "富勒顿植物园的茂盛绿地和小径"
+    },
+    {
+      "title": "文化活动",
+      "description": "定期举办节日、音乐会和艺术展览，丰富社区生活。",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "富勒顿的户外文化节"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "富勒顿以什么闻名？",
+      "answer": "富勒顿以其历史悠久的市中心、教育机构和充满活力的文化场景闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "富勒顿的学校怎么样？",
+      "answer": "富勒顿拥有多所优秀的公立和私立学校，以及加州州立大学富勒顿分校。",
+      "category": "教育"
+    },
+    {
+      "question": "有哪些文化活动？",
+      "answer": "居民全年享受剧院、艺术画廊、音乐节和社区活动。",
+      "category": "娱乐"
+    },
+    {
+      "question": "富勒顿的通勤情况如何？",
+      "answer": "富勒顿通过高速公路方便地通往洛杉矶、橙县及周边城市。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "富勒顿房地产与生活方式 | 历史市中心与大学城",
+    "metaDescription": "探索富勒顿的社区、文化景点、学校及橙县的房地产信息。",
+    "keywords": "富勒顿房地产, 历史市中心, CSUF, 橙县生活",
+    "ogTitle": "发现富勒顿：历史魅力与充满活力的社区",
+    "ogDescription": "体验加州富勒顿充满活力的文化、教育和社区生活。",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "黄昏时分的富勒顿市中心",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "富勒顿",
+      "description": "探索加利福尼亚州富勒顿的房地产、社区和亮点。",
+      "url": "https://example.com/locations/fullerton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "历史悠久的富勒顿市中心，街道充满活力，建筑风格独特"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "富勒顿",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "富勒顿以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "富勒顿以其历史悠久的市中心、教育机构和充满活力的文化场景闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "富勒顿的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "富勒顿拥有多所优秀的公立和私立学校，以及加州州立大学富勒顿分校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有哪些文化活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民全年享受剧院、艺术画廊、音乐节和社区活动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "富勒顿的通勤情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "富勒顿通过高速公路方便地通往洛杉矶、橙县及周边城市。"
+          }
+        }
+      ]
+    }
+  ]
+}

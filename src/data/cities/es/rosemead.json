@@ -1,0 +1,180 @@
+{
+  "slug": "rosemead",
+  "name": "Rosemead",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad orientada a la familia con un rico tapiz cultural, conocida por sus parques y espíritu comunitario.",
+  "fullDescription": "Rosemead es una ciudad acogedora ubicada en el Valle de San Gabriel, que ofrece una mezcla de vecindarios residenciales, parques y negocios locales vibrantes. La ciudad es reconocida por su diversidad cultural, excelentes escuelas y eventos comunitarios activos. Ubicada convenientemente cerca de autopistas principales, Rosemead proporciona fácil acceso a Los Ángeles y áreas circundantes. Es un lugar ideal para familias e individuos que buscan un estilo de vida suburbano con comodidades urbanas.",
+  "heroImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Parque de la ciudad de Rosemead con árboles y senderos para caminar",
+  "population": "Más de 54K",
+  "avgHomePrice": "$670K",
+  "tags": [
+    "Orientado a la familia",
+    "Parques",
+    "Comunidad"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Monterey Park",
+      "type": "ciudad",
+      "slug": "monterey-park",
+      "description": "Ciudad celebrada por su auténtica cocina asiática, parques y vida comunitaria orientada a la familia.",
+      "image": "https://images.unsplash.com/photo-1576396376601-54a43f36cdd9?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Detalles arquitectónicos de inspiración asiática en Monterey Park",
+      "distance": "3 millas al oeste",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Monte",
+      "type": "ciudad",
+      "slug": "el-monte",
+      "description": "Ciudad conocida por sus parques, sitios históricos y vecindarios diversos.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Área de parque con vegetación en El Monte",
+      "distance": "5 millas al este",
+      "avgHomePrice": "$610K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Gabriel",
+      "type": "ciudad",
+      "slug": "san-gabriel",
+      "description": "Ciudad vecina conocida por su misión histórica, gastronomía asiática y vecindarios suburbanos.",
+      "image": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Arquitectura de la misión histórica en San Gabriel",
+      "distance": "4 millas al noreste",
+      "avgHomePrice": "$880K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "South San Gabriel",
+      "type": "ciudad",
+      "slug": "south-san-gabriel",
+      "description": "Comunidad al sur de San Gabriel con diversas influencias culturales y áreas residenciales.",
+      "image": "https://images.unsplash.com/photo-1567539983976-b7e31a6f43d1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Casas suburbanas en South San Gabriel",
+      "distance": "2 millas al norte",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parque Rosemead",
+      "description": "Parque comunitario popular que ofrece áreas de juegos, zonas de picnic y instalaciones deportivas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque verde con senderos para caminar y árboles"
+    },
+    {
+      "title": "Festivales culturales",
+      "description": "Eventos anuales que celebran la diversidad de la ciudad con comida, música y arte.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Personas disfrutando de un festival cultural"
+    },
+    {
+      "title": "Centros comunitarios",
+      "description": "Instalaciones que ofrecen programas recreativos y clases para todas las edades.",
+      "icon": "🏫",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior de un centro comunitario"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Rosemead?",
+      "answer": "Rosemead es conocida por su ambiente orientado a la familia, sus parques y su rica diversidad cultural.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Rosemead?",
+      "answer": "Rosemead ofrece opciones de vivienda asequibles con un mercado competitivo enfocado en familias y compradores primerizos.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares en Rosemead?",
+      "answer": "Disfrutar de los parques locales, asistir a festivales culturales y participar en programas comunitarios durante todo el año.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Rosemead?",
+      "answer": "Rosemead ofrece acceso conveniente a autopistas principales como la I-10 y opciones de transporte local para trasladarse a Los Ángeles y ciudades vecinas.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Rosemead CA Bienes Raíces y Estilo de Vida | Familia, Parques y Comunidad",
+    "metaDescription": "Explora los vecindarios, parques, diversidad cultural y opciones inmobiliarias asequibles de Rosemead en el condado de Los Ángeles.",
+    "keywords": "bienes raíces Rosemead, parques Rosemead, vivir en Rosemead, casas en Rosemead en venta",
+    "ogTitle": "Descubre Rosemead: Vida Familiar y Espíritu Comunitario",
+    "ogDescription": "Encuentra tu hogar ideal en Rosemead, conocido por sus vecindarios acogedores, parques y vida comunitaria activa.",
+    "ogImage": "https://images.unsplash.com/photo-1595424719877-fd86033492a6?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Parque de la ciudad de Rosemead con árboles y senderos para caminar",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Rosemead",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Rosemead, California.",
+      "url": "https://example.com/locations/rosemead",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1595424719877-fd86033492a6?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parque de la ciudad de Rosemead con árboles y senderos para caminar"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Rosemead",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Rosemead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rosemead es conocida por su ambiente orientado a la familia, sus parques y su rica diversidad cultural."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Rosemead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rosemead ofrece opciones de vivienda asequibles con un mercado competitivo enfocado en familias y compradores primerizos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares en Rosemead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disfrutar de los parques locales, asistir a festivales culturales y participar en programas comunitarios durante todo el año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Rosemead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rosemead ofrece acceso conveniente a autopistas principales como la I-10 y opciones de transporte local para trasladarse a Los Ángeles y ciudades vecinas."
+          }
+        }
+      ]
+    }
+  ]
+}

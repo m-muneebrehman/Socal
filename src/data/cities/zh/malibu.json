@@ -1,0 +1,165 @@
+{
+  "slug": "malibu",
+  "name": "马里布",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以壮丽海滩、名人豪宅和户外生活方式闻名的风景海滨城市。",
+  "fullDescription": "马里布是一个美丽的海滨城市，以其如画的海岸线、豪华庄园和悠闲的生活方式著称。沿着太平洋海岸公路延伸，马里布拥有世界知名的冲浪点、圣莫尼卡山脉的徒步小径，以及独特的餐饮和购物体验。这个城市将自然美景与高端社区氛围结合起来，成为居民和游客都梦寐以求的地点。马里布还提供优质的学校和紧密的社区氛围，距离洛杉矶市区仅短途车程。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "马里布海岸线日落景色，海浪拍打海滩",
+  "population": "1.3万+",
+  "avgHomePrice": "450万美元",
+  "tags": [
+    "海滩",
+    "奢华",
+    "户外生活"
+  ],
+  "neighborhoods": [
+    {
+      "name": "圣莫尼卡",
+      "type": "城市",
+      "slug": "santa-monica",
+      "description": "受欢迎的海滩城市，拥有著名的码头、购物区和充满活力的都市生活。",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣莫尼卡码头和海滩",
+      "distance": "东南15英里",
+      "avgHomePrice": "250万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "卡拉巴萨斯",
+      "type": "城市",
+      "slug": "calabasas",
+      "description": "富裕城市，以封闭社区、购物和徒步小径著称。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "卡拉巴萨斯住宅区",
+      "distance": "东10英里",
+      "avgHomePrice": "190万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "马里布泻湖州立海滩",
+      "description": "美丽的河口，提供观鸟、步道和海滩通道。",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "日落时分平静的海滩和泻湖"
+    },
+    {
+      "title": "艾尔马塔多州立海滩",
+      "description": "僻静海滩，有壮丽的海蚀洞、悬崖和潮池。",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "艾尔马塔多海滩的崎岖悬崖和海洋"
+    },
+    {
+      "title": "马里布码头",
+      "description": "标志性码头，有钓鱼点、餐厅和海景。",
+      "icon": "🎣",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "马里布码头日落景色"
+    },
+    {
+      "title": "圣莫尼卡山国家休闲区",
+      "description": "拥有壮观海景的广阔徒步和骑行小径。",
+      "icon": "🚶",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "俯瞰海洋的徒步小径"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "马里布有什么特别之处？",
+      "answer": "马里布以其壮丽的海滩、豪华住宅和丰富的户外娱乐活动闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "马里布的房地产市场怎么样？",
+      "answer": "马里布的房地产市场高端且竞争激烈，主要为海滨庄园和豪华物业。",
+      "category": "房地产"
+    },
+    {
+      "question": "在马里布可以进行哪些活动？",
+      "answer": "可以冲浪、在圣莫尼卡山徒步、在海滩放松，以及在高档餐厅用餐。",
+      "category": "生活方式"
+    },
+    {
+      "question": "马里布通勤便利吗？",
+      "answer": "马里布通过太平洋海岸公路和附近高速公路可达，但高峰期交通可能拥堵。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州马里布房地产与生活 | 海滩、奢华与户外生活",
+    "metaDescription": "探索马里布的社区、壮丽海滩和加州海岸线的豪华房地产。",
+    "keywords": "马里布房地产, 马里布海滩, 马里布豪华住宅, 马里布生活, 马里布户外活动",
+    "ogTitle": "发现马里布：海岸奢华与自然美景",
+    "ogDescription": "在马里布找到理想家园，享受令人惊叹的海景和户外探险。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "马里布海岸线日落景色，海浪拍打海滩",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "马里布",
+      "description": "探索加利福尼亚州马里布的房地产、社区和亮点。",
+      "url": "https://example.com/locations/malibu",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "马里布海岸线日落景色，海浪拍打海滩"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "马里布",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "马里布有什么特别之处？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "马里布以其壮丽的海滩、豪华住宅和丰富的户外娱乐活动闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "马里布的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "马里布的房地产市场高端且竞争激烈，主要为海滨庄园和豪华物业。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在马里布可以进行哪些活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以冲浪、在圣莫尼卡山徒步、在海滩放松，以及在高档餐厅用餐。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "马里布通勤便利吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "马里布通过太平洋海岸公路和附近高速公路可达，但高峰期交通可能拥堵。"
+          }
+        }
+      ]
+    }
+  ]
+}

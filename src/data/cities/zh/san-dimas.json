@@ -1,0 +1,169 @@
+{
+  "slug": "san-dimas",
+  "name": "圣迪马斯",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一座坐落在圣加布里埃尔山麓的迷人城市，以小镇氛围和户外活动闻名。",
+  "fullDescription": "圣迪马斯为居民提供宁静的郊区生活方式和强烈的社区感。该市以风景秀丽的山景、公园和历史悠久的市中心区域著称，深受家庭和户外爱好者欢迎。凭借便捷的徒步小径、高尔夫球场和当地活动，圣迪马斯将自然美景与友好的社区氛围完美结合。靠近帕萨迪纳和波莫纳等大城市，使其成为寻求安宁与便利通勤者的理想选择。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "圣迪马斯的山景和郊区住宅风光",
+  "population": "3.4万+",
+  "avgHomePrice": "82万美元",
+  "tags": [
+    "郊区",
+    "户外活动",
+    "历史市中心"
+  ],
+  "neighborhoods": [
+    {
+      "name": "波莫纳",
+      "type": "城市",
+      "slug": "pomona",
+      "description": "一个拥有充满活力的艺术氛围、历史建筑和日益增长的大学影响力的城市。",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "波莫纳市中心街道与历史建筑",
+      "distance": "南部6英里",
+      "avgHomePrice": "70万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "克莱蒙特",
+      "type": "城市",
+      "slug": "claremont",
+      "description": "以大学校园、林荫大道和充满活力的市中心闻名的城市。",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "秋季的克莱蒙特林荫大道",
+      "distance": "西部5英里",
+      "avgHomePrice": "90万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "格伦多拉",
+      "type": "城市",
+      "slug": "glendora",
+      "description": "被称为“山麓的骄傲”，格伦多拉拥有迷人的市中心和适合家庭的环境。",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "格伦多拉市中心商店和咖啡馆",
+      "distance": "东部7英里",
+      "avgHomePrice": "88万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "洛杉矶水上乐园",
+      "description": "南加州最大的水上乐园，适合全家游玩。",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "拥有滑梯和游泳池的水上乐园"
+    },
+    {
+      "title": "圣迪马斯峡谷公园",
+      "description": "一个美丽的自然区，非常适合徒步、野餐和享受户外时光。",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "峡谷公园内有树木和山丘的徒步小径"
+    },
+    {
+      "title": "圣迪马斯历史市中心",
+      "description": "拥有迷人的商店、餐厅和社区活动，呈现小镇风情。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "小镇市中心街道和商店"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣迪马斯以什么闻名？",
+      "answer": "圣迪马斯以户外娱乐、历史市中心和适合家庭的社区著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣迪马斯的房地产市场怎么样？",
+      "answer": "圣迪马斯的房地产市场以家庭和户外生活方式为重点，提供郊区住宅。",
+      "category": "房地产"
+    },
+    {
+      "question": "圣迪马斯有哪些热门活动？",
+      "answer": "可以去洛杉矶水上乐园游玩，在圣迪马斯峡谷公园徒步，或探索历史市中心的商店和餐厅。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从圣迪马斯通勤方便吗？",
+      "answer": "圣迪马斯交通便利，可轻松接入57号和210号高速公路，连接大洛杉矶地区。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "圣迪马斯 加州房地产与生活指南 | 户外活动与社区",
+    "metaDescription": "探索圣迪马斯的社区、公园、历史市中心和圣加布里埃尔谷的房地产。",
+    "keywords": "圣迪马斯房地产, 圣迪马斯公园, 圣迪马斯生活, 圣迪马斯待售房屋",
+    "ogTitle": "发现圣迪马斯：小镇魅力与户外乐趣",
+    "ogDescription": "在圣迪马斯找到您的家，这里有适合家庭的社区和美丽的户外空间。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "圣迪马斯的山景和住宅美景",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣迪马斯",
+      "description": "探索加利福尼亚州圣迪马斯的房地产、社区和亮点。",
+      "url": "https://example.com/locations/san-dimas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "圣迪马斯的山景和郊区住宅风光"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣迪马斯",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣迪马斯以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣迪马斯以户外娱乐、历史市中心和适合家庭的社区著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣迪马斯的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣迪马斯的房地产市场以家庭和户外生活方式为重点，提供郊区住宅。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣迪马斯有哪些热门活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以去洛杉矶水上乐园游玩，在圣迪马斯峡谷公园徒步，或探索历史市中心的商店和餐厅。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从圣迪马斯通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣迪马斯交通便利，可轻松接入57号和210号高速公路，连接大洛杉矶地区。"
+          }
+        }
+      ]
+    }
+  ]
+}

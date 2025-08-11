@@ -1,0 +1,165 @@
+{
+  "slug": "la-canada-flintridge",
+  "name": "La Cañada Flintridge",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Stadt am Fuße der Berge, bekannt für ausgezeichnete Schulen, landschaftlich reizvolle Wanderwege und einen ruhigen Vorort-Lebensstil.",
+  "fullDescription": "La Cañada Flintridge liegt eingebettet in die Ausläufer der San Gabriel Mountains und bietet den Bewohnern eine friedliche Vorort-Umgebung mit erstklassigen Schulen und zahlreichen Möglichkeiten für Outdoor-Freizeitaktivitäten. Bekannt für seine historischen Anwesen, Wanderwege wie im Angeles National Forest und ein charmantes Kleinstadtflair, ist diese Stadt ideal für Familien und Naturliebhaber. Die günstige Lage in der Nähe von Pasadena und Glendale ermöglicht einen einfachen Zugang zu städtischen Annehmlichkeiten bei gleichzeitig ruhigem Charakter.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Landschaftlicher Blick auf Ausläufer und Wohnhäuser in La Cañada Flintridge",
+  "population": "20.000+",
+  "avgHomePrice": "1,4 Mio. $",
+  "tags": [
+    "Erstklassige Schulen",
+    "Wandern",
+    "Vorort"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pasadena",
+      "type": "stadt",
+      "slug": "pasadena",
+      "description": "Nahegelegene Stadt, bekannt für kulturelle Einrichtungen, die Rose Parade und die historische Altstadt.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historische Architektur in Pasadena",
+      "distance": "5 Meilen südöstlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Glendale",
+      "type": "stadt",
+      "slug": "glendale",
+      "description": "Stadt bekannt für Einkaufsmöglichkeiten, Gastronomie und die landschaftlich reizvollen Verdugo Mountains in der Nähe.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Skyline von Downtown Glendale",
+      "distance": "7 Meilen südlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hahamongna Watershed Park",
+      "description": "Großer Naturpark mit Wanderwegen, Picknickplätzen und einem saisonalen See.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wanderwege im Hahamongna Watershed Park"
+    },
+    {
+      "title": "Descanso Gardens",
+      "description": "Wunderschöne botanische Gärten mit saisonalen Blumen, Spazierwegen und lehrreichen Ausstellungen.",
+      "icon": "🌸",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bunte Blumen in den Descanso Gardens"
+    },
+    {
+      "title": "Ausgezeichnete Schulen",
+      "description": "Hoch bewertete öffentliche und private Schulen, die Familien in der Gemeinschaft bedienen.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Schulgebäude mit Schülern"
+    },
+    {
+      "title": "Historische Anwesen in La Cañada Flintridge",
+      "description": "Schöne historische Häuser und Anwesen, eingebettet in die Hügel.",
+      "icon": "🏡",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historisches Anwesen in La Cañada Flintridge"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist La Cañada Flintridge bekannt?",
+      "answer": "Bekannt für seine malerischen Ausläufer, erstklassigen Schulen und Freizeitmöglichkeiten im Freien.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in La Cañada Flintridge?",
+      "answer": "Der Markt bietet historische Anwesen sowie neuere Häuser mit hoher Nachfrage nach hochwertigem Vorortwohnen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind in La Cañada Flintridge beliebt?",
+      "answer": "Wandern, Besuche in botanischen Gärten und das Genießen von Gemeinschaftsparks sind beliebte Aktivitäten im Freien.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie praktisch ist der Arbeitsweg von La Cañada Flintridge?",
+      "answer": "Einfache Anbindung an nahegelegene Städte wie Pasadena und Glendale mit Autobahnverbindungen und lokalen Verkehrsmitteln.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "La Cañada Flintridge CA Immobilien & Lebensstil | Malerische Ausläufer & Qualitätsleben",
+    "metaDescription": "Entdecken Sie die besten Schulen, Wanderwege, historischen Anwesen und den Charme von La Cañada Flintridge in der Nähe von Pasadena und Glendale.",
+    "keywords": "La Cañada Flintridge Immobilien, Wandern La Cañada Flintridge, La Cañada Schulen, Leben in La Cañada Flintridge",
+    "ogTitle": "Erkunden Sie La Cañada Flintridge: Malerisches Wohnen & erstklassige Schulen",
+    "ogDescription": "Finden Sie Ihr Zuhause in La Cañada Flintridge mit seinen friedlichen Ausläufern, hochwertigen Schulen und Outdoor-Lebensstil.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Malerische Ausläufer und Häuser in La Cañada Flintridge",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Cañada Flintridge",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in La Cañada Flintridge, Kalifornien.",
+      "url": "https://example.com/locations/la-canada-flintridge",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Malerische Ausläufer und Häuser in La Cañada Flintridge"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Cañada Flintridge",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist La Cañada Flintridge bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bekannt für seine malerischen Ausläufer, erstklassigen Schulen und Freizeitmöglichkeiten im Freien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt bietet historische Anwesen sowie neuere Häuser mit hoher Nachfrage nach hochwertigem Vorortwohnen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind in La Cañada Flintridge beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wandern, Besuche in botanischen Gärten und das Genießen von Gemeinschaftsparks sind beliebte Aktivitäten im Freien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie praktisch ist der Arbeitsweg von La Cañada Flintridge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Einfache Anbindung an nahegelegene Städte wie Pasadena und Glendale mit Autobahnverbindungen und lokalen Verkehrsmitteln."
+          }
+        }
+      ]
+    }
+  ]
+}

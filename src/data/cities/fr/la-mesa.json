@@ -1,0 +1,152 @@
+{
+  "slug": "la-mesa",
+  "name": "La Mesa",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une charmante ville intérieure connue comme la \"Perle des Collines\" avec un centre-ville historique, des villages piétonniers et un accès facile à San Diego.",
+  "fullDescription": "La Mesa est une communauté dynamique du comté de San Diego, offrant une atmosphère de petite ville avec des rues bordées d'arbres, un centre-ville animé et une proximité avec les principaux centres d'emploi. Les résidents apprécient les boutiques locales, les marchés fermiers et l'accès rapide au parc régional Mission Trails, tout en étant à seulement 15 minutes du centre-ville de San Diego.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+  "heroImageAlt": "Village du centre-ville de La Mesa Boulevard",
+  "population": "60K+",
+  "avgHomePrice": "850 K$+",
+  "tags": [
+    "Centre-ville piétonnier",
+    "Adapté aux familles",
+    "Sentiers de randonnée"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "ville",
+      "slug": "san-diego",
+      "description": "Grand centre métropolitain à l'ouest avec des quartiers diversifiés, des attractions culturelles et des pôles d'emploi.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "Vue de la skyline de San Diego depuis la baie",
+      "distance": "9 miles à l'ouest",
+      "avgHomePrice": "950 K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "El Cajon",
+      "type": "ville",
+      "slug": "el-cajon",
+      "description": "Ville voisine à l'est avec des options de logement abordables et des quartiers commerciaux en expansion.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Scène de rue du centre-ville d'El Cajon",
+      "distance": "5 miles à l'est",
+      "avgHomePrice": "650 K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "ville",
+      "slug": "lemon-grove",
+      "description": "Petite ville adjacente au sud connue pour son arche historique de Lemon Grove et sa communauté soudée.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue résidentielle bordée d'arbres à Lemon Grove",
+      "distance": "3 miles au sud",
+      "avgHomePrice": "700 K$",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Village historique du centre-ville",
+      "description": "Quartier charmant et piétonnier avec boutiques locales, restaurants et événements saisonniers comme l'Oktoberfest.",
+      "icon": "🏘️",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "bgImageAlt": "Rue du village de La Mesa Boulevard"
+    },
+    {
+      "title": "Loisirs de plein air",
+      "description": "Accès au parc régional Mission Trails et au lac Murray pour la randonnée, le vélo et les activités nautiques.",
+      "icon": "🌄",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier de randonnée dans la région de Mission Trails"
+    },
+    {
+      "title": "Emplacement central",
+      "description": "Accès facile aux autoroutes menant au centre-ville de San Diego, aux plages et aux communautés de East County.",
+      "icon": "📍",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Collines vertes et espaces ouverts près de La Mesa"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Marchés fermiers hebdomadaires, concerts d'été et la célèbre Promenade des étoiles de La Mesa.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue en soirée avec guirlandes lumineuses et ambiance de marché"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quels sont les quartiers les plus agréables pour vivre à La Mesa ?",
+      "answer": "Les quartiers populaires incluent la zone Village près du centre-ville, Mount Helix avec ses vues, et les zones plus abordables près d’El Cajon.",
+      "category": "Quartiers"
+    },
+    {
+      "question": "Comment est le trajet vers le centre-ville de San Diego ?",
+      "answer": "Environ 15-20 minutes via l'I-8 ou la ligne Orange du Trolley, ce qui rend La Mesa idéale pour les travailleurs du centre-ville.",
+      "category": "Transport"
+    },
+    {
+      "question": "Qu'est-ce qui rend La Mesa spéciale ?",
+      "answer": "Sa combinaison de charme de petite ville, son centre-ville piétonnier et son emplacement pratique entre San Diego et East County.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Y a-t-il de bonnes écoles à La Mesa ?",
+      "answer": "Oui, La Mesa est desservie par les districts scolaires très bien notés La Mesa-Spring Valley et Grossmont Union High School.",
+      "category": "Éducation"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à La Mesa CA | Village piétonnier & vie en plein air",
+    "metaDescription": "Découvrez les quartiers, le village historique du centre-ville, les loisirs de plein air et l’emplacement pratique de La Mesa près de San Diego.",
+    "keywords": "immobilier La Mesa, village La Mesa, Mission Trails, comté de San Diego, écoles La Mesa",
+    "ogTitle": "Explorez La Mesa : La Perle des Collines",
+    "ogDescription": "Apprenez-en plus sur le centre-ville piétonnier de La Mesa, ses activités de plein air et son emplacement idéal entre San Diego et East County.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+    "ogImageAlt": "Village du centre-ville de La Mesa Boulevard",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Mesa",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de La Mesa, Californie.",
+      "url": "https://example.com/locations/la-mesa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+        "caption": "Village du centre-ville de La Mesa Boulevard"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Mesa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les quartiers les plus agréables pour vivre à La Mesa ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les quartiers populaires incluent la zone Village près du centre-ville, Mount Helix avec ses vues, et les zones plus abordables près d’El Cajon."
+          }
+        }
+      ]
+    }
+  ]
+}

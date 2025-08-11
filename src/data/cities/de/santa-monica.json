@@ -1,0 +1,188 @@
+{
+  "slug": "santa-monica",
+  "name": "Santa Monica",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Küstenstadt, bekannt für ihren ikonischen Pier, schöne Strände und eine lebhafte Innenstadt.",
+  "fullDescription": "Santa Monica bietet eine energiegeladene Mischung aus Strandidylle, erstklassigen Einkaufsmöglichkeiten und kulturellen Attraktionen. Mit dem berühmten Santa Monica Pier, weitläufigen Stränden und einer pulsierenden Innenstadt voller Geschäfte, Restaurants und Unterhaltung ist es ein beliebtes Ziel für Bewohner und Besucher gleichermaßen. Die Stadt verfügt über eine progressive Gemeinschaft mit Fokus auf Nachhaltigkeit und Outdoor-Leben, ausgezeichneten Schulen und vielfältigen Stadtvierteln. Die Nähe zu Los Angeles macht es zu einem idealen urbanen Küstenstandort.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Santa Monica Strand und Pier bei Sonnenuntergang",
+  "population": "90T+",
+  "avgHomePrice": "2,5 Mio. $",
+  "tags": [
+    "Strände",
+    "Pier",
+    "Einkaufen",
+    "Outdoor-Lebensstil"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Venice",
+      "type": "Stadt",
+      "slug": "venice",
+      "description": "Ekletische Strandgemeinschaft, bekannt für ihre Promenade, Kanäle und lebendige Kunstszene.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Venice Beach Promenade",
+      "distance": "3 Meilen südlich",
+      "avgHomePrice": "2,2 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "West Los Angeles",
+      "type": "Stadt",
+      "slug": "west-los-angeles",
+      "description": "Wohn- und Geschäftsgebiet mit Parks, Einkaufszentren und einfachem Zugang zur Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Straßenansicht in West Los Angeles",
+      "distance": "5 Meilen östlich",
+      "avgHomePrice": "1,8 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Brentwood",
+      "type": "Stadt",
+      "slug": "brentwood",
+      "description": "Exklusives Viertel mit malerischen Hügeln, hochwertigem Einkauf und ruhigen Wohnstraßen.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Malersiche Hügel und Häuser in Brentwood",
+      "distance": "6 Meilen nordwestlich",
+      "avgHomePrice": "3,5 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pacific Palisades",
+      "type": "Stadt",
+      "slug": "pacific-palisades",
+      "description": "Küsten-Wohngebiet, bekannt für seine Strände, Parks und familienfreundliche Atmosphäre.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Küstenlinie von Pacific Palisades",
+      "distance": "8 Meilen nordwestlich",
+      "avgHomePrice": "3,8 Mio. $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Santa Monica Pier",
+      "description": "Ikonischer Pier mit einem Vergnügungspark, Aquarium, Restaurants und malerischen Ausblicken.",
+      "icon": "🎡",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Santa Monica Pier bei Sonnenuntergang"
+    },
+    {
+      "title": "Santa Monica State Beach",
+      "description": "Weitläufiger Strand, ideal zum Schwimmen, Sonnenbaden und Beachvolleyball.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Strand und Meereswellen in Santa Monica"
+    },
+    {
+      "title": "Third Street Promenade",
+      "description": "Beliebtes Einkaufs- und Gastronomieviertel im Freien mit Straßenkünstlern und Unterhaltung.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Belebte Einkaufsstraße mit Lichtern"
+    },
+    {
+      "title": "Palisades Park",
+      "description": "Malersicher Park am Ozean mit Spazierwegen, Picknickplätzen und atemberaubenden Sonnenuntergängen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park mit Blick auf den Pazifik"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht Santa Monica einzigartig?",
+      "answer": "Santa Monica bietet einen lebendigen urbanen Strandlebensstil mit ikonischen Wahrzeichen wie dem Pier und einer lebhaften Innenstadt.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Santa Monica?",
+      "answer": "Der Markt ist wettbewerbsintensiv mit hoher Nachfrage nach Strand- und gehobenen Immobilien.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was sind die besten Outdoor-Aktivitäten in Santa Monica?",
+      "answer": "Genießen Sie den Strand, fahren Sie Fahrrad entlang der Strandwege, besuchen Sie den Palisades Park und erkunden Sie nahegelegene Wanderwege.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist Santa Monica familienfreundlich?",
+      "answer": "Ja, mit ausgezeichneten Schulen, Parks und einer sicheren Gemeinschaft ist es ein großartiger Ort für Familien.",
+      "category": "Lebensstil"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Santa Monica CA Immobilien & Lebensstil | Strände, Pier & Innenstadt",
+    "metaDescription": "Entdecken Sie die Stadtviertel, den ikonischen Pier, schöne Strände und Immobilienoptionen in der lebendigen Küstenstadt Santa Monica.",
+    "keywords": "Santa Monica Immobilien, Santa Monica Pier, Santa Monica Strände, Leben in Santa Monica, Santa Monica Häuser zu verkaufen",
+    "ogTitle": "Entdecken Sie Santa Monica: Strandleben & urbaner Charme",
+    "ogDescription": "Finden Sie Ihren Platz in Santa Monica mit seiner Küstenlandschaft, kulturellen Attraktionen und lebendigen Gemeinschaft.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Santa Monica Strand und Pier bei Sonnenuntergang",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Santa Monica",
+      "description": "Entdecken Sie Immobilien, Stadtviertel und Highlights in Santa Monica, Kalifornien.",
+      "url": "https://example.com/locations/santa-monica",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Santa Monica Strand und Pier bei Sonnenuntergang"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Santa Monica",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was macht Santa Monica einzigartig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Monica bietet einen lebendigen urbanen Strandlebensstil mit ikonischen Wahrzeichen wie dem Pier und einer lebhaften Innenstadt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Santa Monica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt ist wettbewerbsintensiv mit hoher Nachfrage nach Strand- und gehobenen Immobilien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Outdoor-Aktivitäten in Santa Monica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genießen Sie den Strand, fahren Sie Fahrrad entlang der Strandwege, besuchen Sie den Palisades Park und erkunden Sie nahegelegene Wanderwege."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Santa Monica familienfreundlich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, mit ausgezeichneten Schulen, Parks und einer sicheren Gemeinschaft ist es ein großartiger Ort für Familien."
+          }
+        }
+      ]
+    }
+  ]
+}

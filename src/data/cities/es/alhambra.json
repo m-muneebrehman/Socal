@@ -1,0 +1,187 @@
+{
+  "slug": "alhambra",
+  "name": "Alhambra",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad vibrante en el Valle de San Gabriel que combina encanto histórico, diversidad cultural y una próspera escena gastronómica.",
+  "fullDescription": "Alhambra, ubicada justo al este del centro de Los Ángeles, es conocida por su rica diversidad cultural, arquitectura histórica y bulliciosa escena gastronómica. La ciudad cuenta con una animada Calle Principal con tiendas, restaurantes y entretenimiento, junto con barrios residenciales tranquilos y calles arboladas. Su ubicación central ofrece acceso conveniente a Pasadena, el centro de LA y las comunidades circundantes del Valle de San Gabriel. Con escuelas sólidas, eventos comunitarios y una mezcla de lo antiguo y lo nuevo, Alhambra es una opción ideal para aquellos que buscan un estilo de vida urbano dinámico pero cómodo.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista de calle en Alhambra con palmeras y fachadas de tiendas",
+  "population": "83K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Diversidad cultural",
+    "Gastronomía",
+    "Encanto histórico"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Gabriel",
+      "type": "ciudad",
+      "slug": "san-gabriel",
+      "description": "Ciudad vecina conocida por su misión histórica, gastronomía asiática y barrios suburbanos.",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Arquitectura de misión histórica en San Gabriel",
+      "distance": "2 millas al este",
+      "avgHomePrice": "$880K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Monterey Park",
+      "type": "ciudad",
+      "slug": "monterey-park",
+      "description": "Ciudad celebrada por su auténtica cocina asiática, parques y vida orientada a la comunidad.",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Detalles arquitectónicos inspirados en Asia en Monterey Park",
+      "distance": "3 millas al sur",
+      "avgHomePrice": "$900K",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "ciudad",
+      "slug": "pasadena",
+      "description": "Famosa por el Desfile de las Rosas, instituciones culturales y el vibrante Old Town.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "imageAlt": "Arquitectura histórica en Pasadena",
+      "distance": "6 millas al norte",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "El Monte",
+      "type": "ciudad",
+      "slug": "el-monte",
+      "description": "Ciudad diversa conocida por parques, escuelas y un fuerte sentido de comunidad.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Parque y área residencial en El Monte",
+      "distance": "5 millas al sureste",
+      "avgHomePrice": "$710K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Calle Principal de Alhambra",
+      "description": "Corredor bullicioso con opciones de compras, gastronomía y entretenimiento.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle Principal al atardecer con tiendas y personas caminando"
+    },
+    {
+      "title": "Teatro Histórico de Alhambra",
+      "description": "Un palacio de cine emblemático que presenta actuaciones en vivo y eventos comunitarios.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio de teatro clásico iluminado por la noche"
+    },
+    {
+      "title": "Capital Gastronómica del Valle de San Gabriel",
+      "description": "Desde dim sum hasta comida callejera mexicana, Alhambra ofrece una experiencia gastronómica global.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Plato de fideos asiáticos en un tazón"
+    },
+    {
+      "title": "Parque Almansor",
+      "description": "Parque comunitario popular con instalaciones deportivas, un lago y senderos para caminar.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero del parque bordeado de árboles con luz del sol filtrándose a través de las hojas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Alhambra?",
+      "answer": "Alhambra es conocida por su diversidad cultural, próspera escena gastronómica y monumentos históricos.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Alhambra?",
+      "answer": "El mercado inmobiliario en Alhambra es competitivo, con demanda tanto para casas históricas como para condominios modernos.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué cosas populares se pueden hacer en Alhambra?",
+      "answer": "Pasear por la Calle Principal, disfrutar de la gastronomía diversa, visitar el Parque Almansor o ver un espectáculo en el Teatro Histórico de Alhambra.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el viaje desde Alhambra?",
+      "answer": "Alhambra ofrece acceso rápido a la I-10 y estaciones cercanas de la Línea Dorada del Metro, haciendo convenientes los viajes al centro de LA y Pasadena.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Alhambra CA | Gastronomía, Cultura y Comunidad",
+    "metaDescription": "Descubre los vecindarios, atracciones culturales y opciones de bienes raíces de Alhambra en el corazón del Valle de San Gabriel.",
+    "keywords": "bienes raíces Alhambra, gastronomía Alhambra, Calle Principal Alhambra, vivir en Alhambra, casas en venta Alhambra",
+    "ogTitle": "Explora Alhambra: Cultura, Gastronomía y Vida Comunitaria",
+    "ogDescription": "Encuentra tu lugar en Alhambra con su rico patrimonio cultural, gastronomía diversa y vecindarios acogedores.",
+    "ogImage": "https://images.unsplash.com/photo-1531287812429-93689a2eb4b4?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle bordeada de palmeras en Alhambra",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Alhambra",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Alhambra, California.",
+      "url": "https://example.com/locations/alhambra",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1531287812429-93689a2eb4b4?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle bordeada de palmeras en Alhambra"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Alhambra",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Alhambra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alhambra es conocida por su diversidad cultural, próspera escena gastronómica y monumentos históricos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Alhambra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario en Alhambra es competitivo, con demanda tanto para casas históricas como para condominios modernos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué cosas populares se pueden hacer en Alhambra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pasear por la Calle Principal, disfrutar de la gastronomía diversa, visitar el Parque Almansor o ver un espectáculo en el Teatro Histórico de Alhambra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje desde Alhambra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alhambra ofrece acceso rápido a la I-10 y estaciones cercanas de la Línea Dorada del Metro, haciendo convenientes los viajes al centro de LA y Pasadena."
+          }
+        }
+      ]
+    }
+  ]
+}

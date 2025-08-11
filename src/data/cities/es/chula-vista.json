@@ -1,0 +1,187 @@
+{
+  "slug": "chula-vista",
+  "name": "Chula Vista",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una vibrante ciudad costera al sur de San Diego, que ofrece atracciones familiares, parques y una escena gastronómica en crecimiento.",
+  "fullDescription": "Chula Vista es la segunda ciudad más grande del condado de San Diego, ubicada en la bahía al sur del centro de San Diego. Conocida por sus marinas costeras, atracciones familiares como Sesame Place y el Living Coast Discovery Center, así como sus parques al aire libre y creciente cultura de cerveza artesanal y gastronomía, Chula Vista combina el encanto suburbano con la vida costera.",
+  "heroImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista aérea de la ciudad de Chula Vista con la bahía de fondo",
+  "population": "275K+",
+  "avgHomePrice": "$700K+",
+  "tags": [
+    "Costa",
+    "Familiar",
+    "Parques"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "ciudad",
+      "slug": "san-diego",
+      "description": "Gran ciudad costera al norte, con playas, centro urbano y atracciones regionales.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "Skyline de San Diego visto desde la bahía",
+      "distance": "11 km al norte",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    },
+    {
+      "name": "National City",
+      "type": "ciudad",
+      "slug": "national-city",
+      "description": "Ciudad histórica directamente al norte con calles transitables y vistas costeras en evolución.",
+      "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Skyline urbano cerca de la Bahía de San Diego",
+      "distance": "6 km al norte",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Imperial Beach",
+      "type": "ciudad",
+      "slug": "imperial-beach",
+      "description": "Ciudad costera más al sur de California — relajada, orientada al surf con una vibra clásica de pueblo costero.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Olas del océano y línea costera",
+      "distance": "16 km al suroeste",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Coronado",
+      "type": "ciudad",
+      "slug": "coronado",
+      "description": "Ciudad isleña al otro lado de la bahía con amplias playas de arena y el icónico Hotel del Coronado.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "imageAlt": "Playa arenosa de Coronado con cielo azul",
+      "distance": "16 km al noroeste",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Puerto de Chula Vista",
+      "description": "Costa escénica con dos marinas, restaurantes, parques y acceso en bote a la Bahía de San Diego.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Marina en el puerto de Chula Vista"
+    },
+    {
+      "title": "Sesame Place San Diego",
+      "description": "Parque temático y acuático de Plaza Sésamo, orientado a familias con atracciones, espectáculos y una piscina de olas.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Familia disfrutando de un parque acuático"
+    },
+    {
+      "title": "Living Coast Discovery Center",
+      "description": "Atracción interactiva de vida silvestre costera en Sweetwater Marsh — ideal para familias y aprendizaje ambiental.",
+      "icon": "🐦",
+      "bgImage": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Marisma costera con pájaros y pasarela"
+    },
+    {
+      "title": "Parques al Aire Libre y Senderos",
+      "description": "Áreas naturales como el Parque Kumeyaay y senderos de camping alrededor del Embalse Sweetwater, perfectos para senderismo y picnic.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero escénico a través de la naturaleza"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuáles son los mejores barrios en Chula Vista?",
+      "answer": "Las áreas costeras cerca del puerto ofrecen vida costera, Eastlake y Otay Ranch ofrecen casas suburbanas más nuevas, y Bonita y National City son excelentes para una vida tranquila y familiar.",
+      "category": "Barrios"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Chula Vista?",
+      "answer": "Chula Vista ofrece opciones relativamente más asequibles en comparación con la costa de San Diego, con precios medianos de vivienda alrededor de $700K, aunque las propiedades costeras y desarrollos más nuevos son más altos.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Qué hay para hacer en Chula Vista?",
+      "answer": "Disfruta del puerto costero, el parque temático Sesame Place, el acuario Living Coast, parques locales y restaurantes y cervecerías regionales.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Chula Vista?",
+      "answer": "Chula Vista está conectada a través de las autopistas I-5 y 805, con acceso a la Línea Azul del Trolley al centro de San Diego. Los tiempos de viaje varían de 20 a 40 minutos dependiendo del tráfico.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Guía de Bienes Raíces y Estilo de Vida de Chula Vista | Vida Costera Suburbana Cerca de San Diego",
+    "metaDescription": "Explora la costa de Chula Vista, atracciones familiares, parques y ambiente de barrio. Aprende por qué esta ciudad de South Bay ofrece una mezcla ideal de vida costera y comodidad suburbana.",
+    "keywords": "bienes raíces Chula Vista, puerto Chula Vista, Sesame Place San Diego, barrios Chula Vista",
+    "ogTitle": "Descubre Chula Vista: Vida Costera y Atracciones Familiares",
+    "ogDescription": "Una guía a los bienes raíces, barrios, parques y atracciones familiares de Chula Vista al sur de San Diego.",
+    "ogImage": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "ogImageAlt": "Vista aérea de Chula Vista",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Chula Vista",
+      "description": "Explora bienes raíces, barrios y destacados en Chula Vista, California.",
+      "url": "https://example.com/locations/chula-vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "caption": "Vista aérea de Chula Vista"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Chula Vista",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores barrios en Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costa, Eastlake/Otay Ranch, Bonita, National City ofrecen una variedad de opciones de vivienda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los precios medianos de vivienda están alrededor de $700K, ligeramente más asequibles que la costa de San Diego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué hay para hacer en Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puerto, parques temáticos como Sesame Place, centros de vida silvestre, parques y restaurantes lo hacen bastante vibrante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ubicado justo al sur del centro de San Diego con acceso a autopistas y trolley; los tiempos de viaje varían pero a menudo están entre 20 a 40 minutos."
+          }
+        }
+      ]
+    }
+  ]
+}

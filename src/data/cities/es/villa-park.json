@@ -1,0 +1,187 @@
+{
+  "slug": "villa-park",
+  "name": "Villa Park",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad tranquila y principalmente residencial del Condado de Orange, conocida por sus grandes terrenos, calles arboladas y escuelas de alta calificación.",
+  "fullDescription": "Villa Park es una pequeña y serena comunidad ubicada dentro de la Ciudad de Orange en el Condado de Orange. Conocida por sus casas espaciosas, exuberante vegetación y fuerte sentido de comunidad, ofrece un estilo de vida suburbano tranquilo con acceso conveniente a tiendas, restaurantes y autopistas principales. Los residentes disfrutan de la cercanía a parques regionales, escuelas de calidad y destinos cercanos en todo el condado.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle residencial arbolada en un vecindario suburbano tranquilo",
+  "population": "Más de 6K",
+  "avgHomePrice": "$1.6M",
+  "tags": [
+    "Tranquilo",
+    "Residencial",
+    "Escuelas"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Orange",
+      "type": "ciudad",
+      "slug": "orange",
+      "description": "Ciudad histórica con un vibrante distrito Old Towne, tiendas y parques; rodea a Villa Park.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle comercial histórica en la Ciudad de Orange",
+      "distance": "Adyacente",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "ciudad",
+      "slug": "anaheim",
+      "description": "Ciudad importante conocida por entretenimiento, distritos comerciales y vecindarios diversos.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Distrito urbano y calle bordeada de palmeras en Anaheim",
+      "distance": "7 millas al oeste",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Tustin",
+      "type": "ciudad",
+      "slug": "tustin",
+      "description": "Ciudad bien ubicada con histórico Old Town, tiendas y parques amigables para familias.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Área de compras y restaurantes en Tustin",
+      "distance": "6 millas al sur",
+      "avgHomePrice": "$1.0M",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "ciudad",
+      "slug": "yorba-linda",
+      "description": "Ciudad suburbana exclusiva con senderos ecuestres, parques y vecindarios espaciosos.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario suburbano y espacio abierto en Yorba Linda",
+      "distance": "8 millas al norte",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centro de Villa Park",
+      "description": "Centro local con tiendas, restaurantes y servicios cotidianos dentro de la comunidad.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Paseo de centro comercial al aire libre"
+    },
+    {
+      "title": "Parques y Espacios Abiertos",
+      "description": "Parques del vecindario y senderos regionales cercanos para caminar, andar en bicicleta y relajación al aire libre.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Camino sombreado por árboles a través de un parque suburbano"
+    },
+    {
+      "title": "Escuelas de Alta Calificación",
+      "description": "Atendido por escuelas muy bien consideradas del Distrito Escolar Unificado de Orange.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio académico y áreas verdes del campus"
+    },
+    {
+      "title": "Acceso Conveniente",
+      "description": "Cercano a las SR-55, SR-91 y destinos principales del Condado de Orange incluyendo tiendas y entretenimiento.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Intercambio de autopistas y horizonte al atardecer"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Villa Park?",
+      "answer": "Villa Park es conocido por su carácter residencial tranquilo, grandes terrenos y proximidad a escuelas y parques de alta calificación.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Villa Park?",
+      "answer": "El mercado está principalmente compuesto por casas unifamiliares en terrenos grandes, con una fuerte demanda de propiedades espaciosas.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Qué se puede hacer cerca?",
+      "answer": "Explora Old Towne Orange, compra y disfruta de la gastronomía en Anaheim y Tustin, y disfruta de parques regionales y senderos cercanos.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el transporte desde Villa Park?",
+      "answer": "Villa Park ofrece acceso rápido a las SR-55 y SR-91, conectando con centros de empleo en todo el Condado de Orange y más allá.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Villa Park CA | Vida Residencial Tranquila",
+    "metaDescription": "Descubre los vecindarios serenos, las mejores escuelas y las comodidades cercanas de Villa Park en el Condado de Orange.",
+    "keywords": "Bienes raíces Villa Park, casas en Villa Park, vivir en Villa Park, residencial Condado de Orange",
+    "ogTitle": "Explora Villa Park: Comunidad Residencial Tranquila en el Condado de Orange",
+    "ogDescription": "Encuentra tu hogar en Villa Park con propiedades espaciosas, parques y acceso conveniente a destinos del Condado de Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle residencial arbolada en un vecindario suburbano tranquilo",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Villa Park",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Villa Park, California.",
+      "url": "https://example.com/locations/villa-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle residencial arbolada en un vecindario suburbano tranquilo"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Villa Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Villa Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Villa Park es conocido por su carácter residencial tranquilo, grandes terrenos y proximidad a escuelas y parques de alta calificación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Villa Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado está principalmente compuesto por casas unifamiliares en terrenos grandes, con una fuerte demanda de propiedades espaciosas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se puede hacer cerca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explora Old Towne Orange, compra y disfruta de la gastronomía en Anaheim y Tustin, y disfruta de parques regionales y senderos cercanos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde Villa Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Villa Park ofrece acceso rápido a las SR-55 y SR-91, conectando con centros de empleo en todo el Condado de Orange y más allá."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -40,34 +40,43 @@ const Footer = () => {
         <div className="footer-col">
           <h3 className="footer-heading">{t('quickLinks')}</h3>
           <ul className="footer-links">
-            <li className="footer-link"><Link href="#services">{t('services')}</Link></li>
-            <li className="footer-link"><Link href="#blog">{t('insights')}</Link></li>
-            <li className="footer-link"><Link href="#about">{t('about')}</Link></li>
-            <li className="footer-link"><Link href="#contact">{t('contact')}</Link></li>
+            <li className="footer-link">
+              <Link href="/cities">Cities - Explore our featured cities and discover premium real estate opportunities in prime locations</Link>
+            </li>
+            <li className="footer-link">
+              <Link href="/blog">Blogs - Stay updated with the latest real estate insights, market trends, and investment tips</Link>
+            </li>
+            <li className="footer-link">
+              <Link href="/contact">Contact - Get in touch with our expert team for personalized real estate consultation and support</Link>
+            </li>
           </ul>
         </div>
-        <div className="footer-col">
-          <h3 className="footer-heading">{t('locations')}</h3>
-          <ul className="footer-links">
-            <li className="footer-link"><Link href="#">{t('northAmerica')}</Link></li>
-            <li className="footer-link"><Link href="#">{t('europe')}</Link></li>
-            <li className="footer-link"><Link href="#">{t('asia')}</Link></li>
-            <li className="footer-link"><Link href="#">{t('middleEast')}</Link></li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h3 className="footer-heading">{t('contact')}</h3>
-          <ul className="footer-links">
-            <li className="footer-link"><Link href="tel:+18005551234">{t('phone')}</Link></li>
-            <li className="footer-link"><Link href="mailto:info@prestigeestates.com">{t('email')}</Link></li>
-            <li className="footer-link" dangerouslySetInnerHTML={{ __html: t('address') }}></li>
-          </ul>
-        </div>
+                       <div className="footer-col partners-column">
+                 <h3 className="footer-heading">Our Partners</h3>
+                 <p className="footer-partners-desc">Trusted by leading real estate professionals and organizations worldwide. Your premium partners for luxury coastal real estates in California.</p>
+                 <div className="footer-partners-grid">
+                   <div className="footer-partner">
+                     <img src="/partners/exp.png" alt="EXP Realty" className="footer-partner-logo" />
+                   </div>
+                   <div className="footer-partner">
+                     <img src="/partners/crmls.png" alt="CRMLS" className="footer-partner-logo" />
+                   </div>
+                 </div>
+               </div>
+               <div className="footer-col">
+                 <h3 className="footer-heading">{t('contact')}</h3>
+                 <ul className="footer-links">
+                   <li className="footer-link"><Link href="tel:+18005551234">+1 (800) 555-1234</Link></li>
+                   <li className="footer-link"><Link href="mailto:info@prestigeestates.com">info@prestigeestates.com</Link></li>
+                   <li className="footer-link">123 Luxury Avenue<br />Beverly Hills, CA 90210</li>
+                 </ul>
+               </div>
       </div>
       <div className="footer-bottom">
         <div>{t('copyright')}</div>
-        <div>
-          <Link href="#">{t('privacyPolicy')}</Link> | <Link href="#">{t('termsOfService')}</Link>
+        <div className="footer-dre">
+          <span className="dre-label">CA DRE #</span>
+          <span className="dre-number">02211952</span>
         </div>
       </div>
     </footer>

@@ -1,0 +1,154 @@
+{
+  "slug": "montebello",
+  "name": "蒙特贝洛",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个历史丰富、多元化的城市，拥有住宅社区、公园和地方文化的结合。",
+  "fullDescription": "蒙特贝洛是洛杉矶县东部的一个充满活力的社区。以友好的邻里氛围、丰富的公园和多元化的人口著称，蒙特贝洛提供郊区生活感，同时方便通达大洛杉矶地区。该市举办各种文化活动，注重家庭生活，是适合各年龄段居民的欢迎之地。",
+  "heroImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "蒙特贝洛住宅区街道",
+  "population": "6.2万+",
+  "avgHomePrice": "65万美元",
+  "tags": [
+    "多元社区",
+    "公园与休闲",
+    "适合家庭"
+  ],
+  "neighborhoods": [
+    {
+      "name": "皮科里维拉",
+      "type": "城市",
+      "slug": "pico-rivera",
+      "description": "注重社区的城市，拥有公园、学校和住宅区。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "皮科里维拉住宅区",
+      "distance": "南边3英里",
+      "avgHomePrice": "60万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "蒙特贝洛乡村俱乐部",
+      "description": "风景优美的高尔夫球场和活动场所，提供娱乐活动。",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "蒙特贝洛高尔夫球场"
+    },
+    {
+      "title": "蒙特贝洛山丘公园",
+      "description": "受欢迎的公园，设有游乐场、野餐区和步行小径。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "公园区域，树木和游乐场"
+    },
+    {
+      "title": "蒙特贝洛历史博物馆",
+      "description": "展示城市丰富的历史和文化遗产。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "历史建筑博物馆外观"
+    },
+    {
+      "title": "社区节庆",
+      "description": "每年举办庆祝地方文化、美食和音乐的活动。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "社区节庆，人群欢聚"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "蒙特贝洛以什么闻名？",
+      "answer": "蒙特贝洛以适合家庭的社区、公园和丰富的文化多样性闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "蒙特贝洛的房地产市场如何？",
+      "answer": "市场提供价格合理的选择，包括独栋住宅和公寓。",
+      "category": "房地产"
+    },
+    {
+      "question": "蒙特贝洛有哪些休闲活动？",
+      "answer": "高尔夫、园区活动和社区节庆在蒙特贝洛很受欢迎。",
+      "category": "生活方式"
+    },
+    {
+      "question": "蒙特贝洛通勤方便吗？",
+      "answer": "是的，拥有通往I-5高速公路和公共交通的便利通道。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州蒙特贝洛房地产与生活 | 适合家庭与公园",
+    "metaDescription": "探索蒙特贝洛的社区、公园及洛杉矶县的房地产选择。",
+    "keywords": "蒙特贝洛房地产, 蒙特贝洛生活, 蒙特贝洛社区, 蒙特贝洛待售住宅",
+    "ogTitle": "发现蒙特贝洛：适合家庭的社区与公园",
+    "ogDescription": "在蒙特贝洛找到您的家，享受友好的社区和丰富的文化遗产。",
+    "ogImage": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "蒙特贝洛住宅区街道",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "蒙特贝洛",
+      "description": "探索加利福尼亚州蒙特贝洛的房地产、社区和亮点。",
+      "url": "https://example.com/locations/montebello",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1591696205602-d89961c6024e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "蒙特贝洛住宅区街道"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "蒙特贝洛",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "蒙特贝洛以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "蒙特贝洛以适合家庭的社区、公园和丰富的文化多样性闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "蒙特贝洛的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "市场提供价格合理的选择，包括独栋住宅和公寓。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "蒙特贝洛有哪些休闲活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "高尔夫、园区活动和社区节庆在蒙特贝洛很受欢迎。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "蒙特贝洛通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，拥有通往I-5高速公路和公共交通的便利通道。"
+          }
+        }
+      ]
+    }
+  ]
+}

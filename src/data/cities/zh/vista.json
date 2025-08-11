@@ -1,0 +1,163 @@
+{
+  "slug": "vista",
+  "name": "维斯塔",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "北县内陆城市，以公园、日益兴盛的精酿啤酒文化、家庭活动和便捷通往海岸社区而闻名。",
+  "fullDescription": "维斯塔是位于圣地亚哥县北部的内陆家庭友好型城市，拥有社区公园、活跃的精酿啤酒文化和季节性活动。居民享受靠近海洋赛德和卡尔斯巴德海滩、邻近圣马科斯的徒步小径和学校，以及埃斯孔迪多的文化景点，提供了郊区舒适与区域便利的平衡生活方式。",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "维斯塔绿树成荫的郊区街道和社区",
+  "population": "10万+",
+  "avgHomePrice": "75万美元以上",
+  "tags": [
+    "公园",
+    "适合家庭",
+    "精酿啤酒"
+  ],
+  "neighborhoods": [
+    {
+      "name": "海洋赛德",
+      "type": "城市",
+      "slug": "oceanside",
+      "description": "位于西部的海滨城市，拥有历史悠久的码头、活跃的港口和海滩社区。",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "海洋赛德码头与日落海岸线",
+      "distance": "西部8英里",
+      "avgHomePrice": "90万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "卡尔斯巴德",
+      "type": "城市",
+      "slug": "carlsbad",
+      "description": "邻近的海滨城市，拥有海滩、卡尔斯巴德村和乐高乐园等家庭景点。",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "卡尔斯巴德海岸线的太平洋波浪",
+      "distance": "西南部7英里",
+      "avgHomePrice": "130万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "圣马科斯",
+      "type": "城市",
+      "slug": "san-marcos",
+      "description": "教育中心，拥有加州州立大学圣马科斯分校、徒步小径及日益丰富的餐饮选择，就在维斯塔东部。",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣马科斯附近的绿意起伏山丘",
+      "distance": "东部6英里",
+      "avgHomePrice": "82万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "埃斯孔迪多",
+      "type": "城市",
+      "slug": "escondido",
+      "description": "内陆城市，有戴利牧场徒步径、格兰大道热闹的市中心和野生动物园。",
+      "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "埃斯孔迪多附近的加州葡萄园排布",
+      "distance": "东南部10英里",
+      "avgHomePrice": "80万美元",
+      "county": "圣地亚哥县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "公园与步道",
+      "description": "社区公园和附近的区域步道全年提供徒步、骑行和野餐场所。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "北县丘陵的风景小径"
+    },
+    {
+      "title": "精酿啤酒与餐饮",
+      "description": "维斯塔日益兴盛的精酿啤酒文化和本地餐馆，营造热闹的夜晚和周末外出体验。",
+      "icon": "🍺",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "市区街道，挂满灯饰，餐馆和露台"
+    },
+    {
+      "title": "家庭活动与艺术",
+      "description": "季节性节日、市集和公共艺术体现维斯塔的社区精神。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "带有商店和社区活动的步行街"
+    },
+    {
+      "title": "海岸通达",
+      "description": "快速前往海洋赛德和卡尔斯巴德海滩，享受冲浪、日落和海港餐饮。",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "日落时分的海岸线和码头"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "维斯塔有哪些最佳社区？",
+      "answer": "受欢迎的社区包括靠近公园和学校的适合家庭居住区域，以及通过78号州际公路便捷通往海岸或内陆的地区。",
+      "category": "社区"
+    },
+    {
+      "question": "维斯塔的房地产市场如何？",
+      "answer": "维斯塔提供从经典牧场风格到新开发社区的多样住宅；价格通常比海滨城市更实惠，同时靠近海滩。",
+      "category": "房地产"
+    },
+    {
+      "question": "在维斯塔能做些什么？",
+      "answer": "享受社区公园、精酿啤酒厂和餐饮、季节性活动，以及短途驾车前往海洋赛德和卡尔斯巴德海滩。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从维斯塔通勤怎么样？",
+      "answer": "维斯塔通过78号州际公路连接5号和15号高速公路走廊，拥有COASTER铁路和区域交通选择，方便通勤至海岸及内陆就业中心。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "维斯塔 加州房地产与生活 | 公园、啤酒厂及海岸通达",
+    "metaDescription": "探索维斯塔的社区、公园、精酿啤酒文化及靠近海洋赛德和卡尔斯巴德海滩的便利，位于圣地亚哥北县。",
+    "keywords": "维斯塔房地产, 维斯塔公园, 维斯塔啤酒厂, 圣地亚哥北县, 维斯塔社区",
+    "ogTitle": "探索维斯塔：靠近海岸的家庭友好型生活",
+    "ogDescription": "了解维斯塔社区、生活方式以及便捷通达海滨城市和区域步道。",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "维斯塔绿树成荫的社区街道",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "维斯塔",
+      "description": "探索加利福尼亚州维斯塔的房地产、社区和亮点。",
+      "url": "https://example.com/locations/vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "维斯塔绿树成荫的社区街道"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "维斯塔",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "维斯塔有哪些最佳社区？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "受欢迎的社区包括靠近公园和学校的适合家庭居住区域，以及通过78号州际公路便捷通往海岸或内陆的地区。"
+          }
+        }
+      ]
+    }
+  ]
+}

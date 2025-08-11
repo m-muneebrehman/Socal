@@ -1,0 +1,169 @@
+{
+  "slug": "yorba-linda",
+  "name": "Yorba Linda",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Vorstadtstadt, bekannt für großzügige Häuser, ausgezeichnete Schulen und zahlreiche Parks.",
+  "fullDescription": "Yorba Linda bietet einen ruhigen Vorstadtlebensstil mit schönen baumgesäumten Straßen, großen Grundstücken und erstklassigen Schulen. Bekannt als Geburtsort von Präsident Richard Nixon, verfügt die Stadt über historische Stätten, weitläufige Parks und Wanderwege, die das Leben im Freien fördern. Familien und Berufstätige werden von Gemeinschaftsveranstaltungen, hochwertigen öffentlichen Dienstleistungen und der bequemen Anbindung an die Autobahnen von Orange County und darüber hinaus angezogen.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Baumgesäumte Vorortstraße in Yorba Linda",
+  "population": "70T+",
+  "avgHomePrice": "1,2 Mio. $",
+  "tags": [
+    "Vorstadt",
+    "Familienfreundlich",
+    "Parks und Wanderwege"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Placentia",
+      "type": "Stadt",
+      "slug": "placentia",
+      "description": "Nachbarstadt mit charmantem historischem Stadtzentrum und guten Schulen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnstraße in Placentia",
+      "distance": "3 Meilen westlich",
+      "avgHomePrice": "950.000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim Hills",
+      "type": "Stadtteil",
+      "slug": "anaheim",
+      "description": "Hügeliges Wohnviertel mit angesehenen Schulen und vielen Parks.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnviertel in Anaheim Hills",
+      "distance": "5 Meilen südlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "Stadt",
+      "slug": "brea",
+      "description": "Stadt bekannt für Einkaufszentren, kulturelle Veranstaltungen und familienfreundliche Wohnviertel.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadt von Brea",
+      "distance": "6 Meilen nordwestlich",
+      "avgHomePrice": "1,0 Mio. $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Nixon Presidential Library",
+      "description": "Museum und Bibliothek zu Ehren des 37. Präsidenten der Vereinigten Staaten mit Ausstellungen und historischen Archiven.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gebäude der Nixon Presidential Library"
+    },
+    {
+      "title": "Parks und Wanderwege",
+      "description": "Großzügige Parks und Wanderwege, darunter der Yorba Regional Park und der Black Gold Golf Club.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park mit Bäumen und offenen Flächen"
+    },
+    {
+      "title": "Familienfreundliche Gemeinschaft",
+      "description": "Ausgezeichnete Schulen, Gemeinschaftsveranstaltungen und Freizeiteinrichtungen, die einen familienorientierten Lebensstil unterstützen.",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Familie, die einen Park in Yorba Linda genießt"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Yorba Linda bekannt?",
+      "answer": "Yorba Linda ist als Geburtsort von Präsident Richard Nixon bekannt und für seine familienfreundliche Vorstadtumgebung mit Parks und qualitativ hochwertigen Schulen.",
+      "category": "Geschichte & Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Yorba Linda?",
+      "answer": "Die Stadt wird vom hoch bewerteten Placentia-Yorba Linda Unified School District bedient, der mehrere preisgekrönte Schulen umfasst.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind beliebt?",
+      "answer": "Die Bewohner genießen Wandern, Radfahren und Picknicken im Yorba Regional Park und anderen örtlichen Grünflächen.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Yorba Linda?",
+      "answer": "Yorba Linda bietet eine bequeme Anbindung an die Autobahnen von Orange County und Los Angeles mit durchschnittlichen Pendelzeiten von 30 bis 45 Minuten.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Yorba Linda CA Immobilien & Lebensstil | Vorstadtleben & Parks",
+    "metaDescription": "Entdecken Sie die Stadtteile, Parks, Schulen und Immobilienmöglichkeiten von Yorba Linda in Orange County, Kalifornien.",
+    "keywords": "Yorba Linda Immobilien, Leben in Yorba Linda CA, Yorba Linda Häuser zum Verkauf, Stadtteile in Orange County",
+    "ogTitle": "Entdecken Sie Yorba Linda: Familienfreundliches Vorstadtleben in Orange County",
+    "ogDescription": "Erleben Sie großzügige Häuser, Top-Schulen und Parks in Yorba Linda, CA, einer einladenden Gemeinde in Orange County.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Baumgesäumte Vorortstraße in Yorba Linda",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Yorba Linda",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Yorba Linda, Kalifornien.",
+      "url": "https://example.com/locations/yorba-linda",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Baumgesäumte Vorortstraße in Yorba Linda"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Yorba Linda",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Yorba Linda bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorba Linda ist als Geburtsort von Präsident Richard Nixon bekannt und für seine familienfreundliche Vorstadtumgebung mit Parks und qualitativ hochwertigen Schulen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Yorba Linda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom hoch bewerteten Placentia-Yorba Linda Unified School District bedient, der mehrere preisgekrönte Schulen umfasst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner genießen Wandern, Radfahren und Picknicken im Yorba Regional Park und anderen örtlichen Grünflächen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Yorba Linda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorba Linda bietet eine bequeme Anbindung an die Autobahnen von Orange County und Los Angeles mit durchschnittlichen Pendelzeiten von 30 bis 45 Minuten."
+          }
+        }
+      ]
+    }
+  ]
+}

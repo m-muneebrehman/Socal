@@ -1,0 +1,187 @@
+{
+  "slug": "buena-park",
+  "name": "布埃纳帕克",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以娱乐、公园和多元社区闻名的适合家庭居住的城市。",
+  "fullDescription": "布埃纳帕克融合了娱乐、购物和郊区生活的活力。以诺茨莓园（Knott’s Berry Farm）等景点闻名，城市提供丰富的家庭活动、公园和社区活动。相比邻近地区，住房价格更为亲民，吸引了众多家庭和年轻专业人士。其位于橙县北部的中心位置，交通便利，靠近主要就业中心和海滩。",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "布埃纳帕克诺茨莓园色彩缤纷的游乐设施",
+  "population": "8万+",
+  "avgHomePrice": "70万美元",
+  "tags": [
+    "娱乐",
+    "适合家庭",
+    "公园"
+  ],
+  "neighborhoods": [
+    {
+      "name": "阿纳海姆",
+      "type": "城市",
+      "slug": "anaheim",
+      "description": "迪士尼乐园度假区和主要体育场馆的所在地，拥有多样的住宅区。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "阿纳海姆迪士尼乐园入口",
+      "distance": "东南4英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "赛普拉斯",
+      "type": "城市",
+      "slug": "cypress",
+      "description": "以公园、优质学校和宁静的居住氛围闻名的郊区城市。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "赛普拉斯的绿色公园区",
+      "distance": "西部5英里",
+      "avgHomePrice": "80万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "拉帕尔马",
+      "type": "城市",
+      "slug": "la-palma",
+      "description": "拥有优秀学校、公园和紧密社区氛围的小型社区。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "拉帕尔马住宅街道",
+      "distance": "西南3英里",
+      "avgHomePrice": "72万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "富勒顿",
+      "type": "城市",
+      "slug": "fullerton",
+      "description": "拥有充满活力的市中心和艺术氛围的历史大学城。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "富勒顿市中心的历史建筑",
+      "distance": "东北7英里",
+      "avgHomePrice": "75万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "诺茨莓园",
+      "description": "著名主题公园，拥有过山车、现场娱乐和家庭游乐设施。",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "诺茨莓园的过山车"
+    },
+    {
+      "title": "布埃纳帕克市中心",
+      "description": "焕发新貌的区域，拥有商铺、餐饮和社区活动。",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "布埃纳帕克市中心街景"
+    },
+    {
+      "title": "克雷格区域公园",
+      "description": "大型公园，设有运动场、野餐区和步道。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "克雷格区域公园的野餐区和树木"
+    },
+    {
+      "title": "适合家庭的活动",
+      "description": "全年举办的社区节庆、农贸市场和假日庆典。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "社区节庆中家庭参与的活动"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "布埃纳帕克以什么闻名？",
+      "answer": "布埃纳帕克以诺茨莓园及其适合家庭的娱乐和社区公园闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "布埃纳帕克的学校怎么样？",
+      "answer": "该市由布埃纳帕克学区和富勒顿联合高中学区部分区域提供教育服务，提供多样化的教育选择。",
+      "category": "教育"
+    },
+    {
+      "question": "有哪些休闲活动？",
+      "answer": "居民可以享受主题公园、社区活动、克雷格区域公园以及本地体育联赛。",
+      "category": "娱乐"
+    },
+    {
+      "question": "前往附近工作中心的通勤如何？",
+      "answer": "布埃纳帕克交通便利，靠近I-5、91和605号高速公路，方便通勤至阿纳海姆、洛杉矶及橙县其他地区。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "布埃纳帕克 加州房地产与生活 | 适合家庭的娱乐与公园",
+    "metaDescription": "探索橙县布埃纳帕克的社区、学校、公园及诺茨莓园等景点。",
+    "keywords": "布埃纳帕克房地产, 诺茨莓园, 生活在布埃纳帕克, 橙县房产",
+    "ogTitle": "发现布埃纳帕克：娱乐、公园与社区生活",
+    "ogDescription": "在加利福尼亚布埃纳帕克享受适合家庭的设施和便捷的橙县顶级景点通达。",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "布埃纳帕克诺茨莓园的过山车",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "布埃纳帕克",
+      "description": "探索加利福尼亚州布埃纳帕克的房地产、社区和亮点。",
+      "url": "https://example.com/locations/buena-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "布埃纳帕克诺茨莓园的过山车"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "布埃纳帕克",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "布埃纳帕克以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "布埃纳帕克以诺茨莓园及其适合家庭的娱乐和社区公园闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "布埃纳帕克的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市由布埃纳帕克学区和富勒顿联合高中学区部分区域提供教育服务，提供多样化的教育选择。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有哪些休闲活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民可以享受主题公园、社区活动、克雷格区域公园以及本地体育联赛。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前往附近工作中心的通勤如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "布埃纳帕克交通便利，靠近I-5、91和605号高速公路，方便通勤至阿纳海姆、洛杉矶及橙县其他地区。"
+          }
+        }
+      ]
+    }
+  ]
+}

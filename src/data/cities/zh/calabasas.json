@@ -1,0 +1,154 @@
+{
+  "slug": "calabasas",
+  "name": "卡拉巴萨斯",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以优美风景、封闭社区和名人居住而闻名的高档城市。",
+  "fullDescription": "卡拉巴萨斯是一座位于圣费尔南多谷西部丘陵的著名城市。以其富裕的社区、美丽的自然景观和强烈的社区感著称，这里提供宁静的郊区生活方式，并且便于前往洛杉矶。卡拉巴萨斯拥有优质学校、The Commons等奢华购物中心，以及丰富的户外活动，如附近公园和自然保护区的徒步旅行。这里是寻求隐私和高质量生活的家庭和名人的热门选择。",
+  "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "卡拉巴萨斯丘陵风景，有树木和住宅",
+  "population": "2.4万+",
+  "avgHomePrice": "250万美元",
+  "tags": [
+    "富裕",
+    "封闭社区",
+    "户外生活"
+  ],
+  "neighborhoods": [
+    {
+      "name": "阿古拉山",
+      "type": "城市",
+      "slug": "agoura-hills",
+      "description": "邻近城市，兼具郊区舒适与户外探险。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "阿古拉山的山丘与住宅",
+      "distance": "东5英里",
+      "avgHomePrice": "180万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "卡拉巴萨斯购物广场（The Commons）",
+      "description": "位于市中心的高档购物和餐饮目的地。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "The Commons购物广场"
+    },
+    {
+      "title": "卡拉巴萨斯风景步道",
+      "description": "拥有众多徒步和自行车道，可欣赏圣莫尼卡山脉的壮丽景色。",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "卡拉巴萨斯丘陵中的蜿蜒小径"
+    },
+    {
+      "title": "卡拉巴萨斯老城区",
+      "description": "充满魅力的区域，拥有历史建筑、商店和本地活动。",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "卡拉巴萨斯老城区的历史建筑"
+    },
+    {
+      "title": "卡拉巴萨斯网球与游泳中心",
+      "description": "社区中心，提供体育、健身和娱乐项目。",
+      "icon": "🎾",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "卡拉巴萨斯体育中心的网球场和游泳池"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "卡拉巴萨斯以什么闻名？",
+      "answer": "卡拉巴萨斯以其高档生活方式、封闭社区和优美的户外环境闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "卡拉巴萨斯的房地产市场如何？",
+      "answer": "房地产市场以豪华庄园、封闭社区为主，对隐私有很高需求。",
+      "category": "房地产"
+    },
+    {
+      "question": "卡拉巴萨斯有哪些受欢迎的户外活动？",
+      "answer": "徒步、自行车骑行以及探索圣莫尼卡山脉的风景步道是热门活动。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从卡拉巴萨斯通勤方便吗？",
+      "answer": "卡拉巴萨斯可通过101号高速公路及附近公共交通便利地通勤到洛杉矶及其他地区。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "卡拉巴萨斯 加州房地产与生活 | 豪华生活与优美户外",
+    "metaDescription": "探索卡拉巴萨斯高档社区、购物、户外活动及圣莫尼卡山脉地区的房地产机会。",
+    "keywords": "卡拉巴萨斯房地产, 卡拉巴萨斯豪华住宅, 生活在卡拉巴萨斯, 卡拉巴萨斯购物",
+    "ogTitle": "发现卡拉巴萨斯：豪华生活与优美户外生活方式",
+    "ogDescription": "在卡拉巴萨斯找到理想家园，享受独特社区、步道和充满活力的本地文化。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "卡拉巴萨斯丘陵风景，有树木和住宅",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "卡拉巴萨斯",
+      "description": "探索加利福尼亚州卡拉巴萨斯的房地产、社区和亮点。",
+      "url": "https://example.com/locations/calabasas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "卡拉巴萨斯丘陵风景，有树木和住宅"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "卡拉巴萨斯",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "卡拉巴萨斯以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "卡拉巴萨斯以其高档生活方式、封闭社区和优美的户外环境闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "卡拉巴萨斯的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "房地产市场以豪华庄园、封闭社区为主，对隐私有很高需求。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "卡拉巴萨斯有哪些受欢迎的户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "徒步、自行车骑行以及探索圣莫尼卡山脉的风景步道是热门活动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从卡拉巴萨斯通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "卡拉巴萨斯可通过101号高速公路及附近公共交通便利地通勤到洛杉矶及其他地区。"
+          }
+        }
+      ]
+    }
+  ]
+}

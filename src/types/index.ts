@@ -232,3 +232,90 @@ export interface HomeData {
     button: string
   }
 }
+
+export interface ContactData {
+  hero: {
+    profileStatus: string
+    profileCompany: string
+    profileTitle: string
+    profileBadges: {
+      topProducer: string
+      fiveStarRated: string
+    }
+    recentSales: {
+      title: string
+      seeAll: string
+      sold: string
+      properties: Array<{
+        address: string
+        price: string
+        year: string
+        imageUrl: string
+      }>
+    }
+  }
+  form: {
+    header: {
+      badge: string
+      title: string
+      subtitle: string
+    }
+    fields: {
+      name: {
+        label: string
+        placeholder: string
+        required: string
+      }
+      phone: {
+        label: string
+        placeholder: string
+        required: string
+      }
+      email: {
+        label: string
+        placeholder: string
+        required: string
+      }
+      message: {
+        label: string
+        placeholder: string
+        required: string
+      }
+    }
+    consent: {
+      title: string
+      text: string
+    }
+    submit: {
+      sending: string
+      send: string
+    }
+    footer: {
+      responseTime: string
+    }
+  }
+  info: {
+    description: {
+      title: string
+      subtitle: string
+      text1: string
+      text2: string
+      text3: string
+    }
+    specialties: {
+      title: string
+      tags: string[]
+      languages: string
+    }
+  }
+  author: {
+    name: string
+    photo: string
+  }
+  newProperty?: {
+    address: string
+    price: string
+    year: string
+    imageUrl: string
+  }
+}

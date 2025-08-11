@@ -25,39 +25,6 @@
       "distance": "7 أميال شمالاً",
       "avgHomePrice": "950 ألف دولار",
       "county": "سان دييغو"
-    },
-    {
-      "name": "ناشيونال سيتي",
-      "type": "مدينة",
-      "slug": "national-city",
-      "description": "مدينة تاريخية تقع مباشرة شمالاً بشوارع قابلة للمشي وإطلالات على الواجهة البحرية في تطور مستمر.",
-      "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "أفق حضري بالقرب من خليج سان دييغو",
-      "distance": "4 أميال شمالاً",
-      "avgHomePrice": "650 ألف دولار",
-      "county": "سان دييغو"
-    },
-    {
-      "name": "إمبيريال بيتش",
-      "type": "مدينة",
-      "slug": "imperial-beach",
-      "description": "المدينة الشاطئية الجنوبية الأبعد في كاليفورنيا — هادئة، موجهة لركوب الأمواج، مع أجواء مدينة شاطئية كلاسيكية.",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "أمواج المحيط وساحل الشاطئ",
-      "distance": "10 أميال جنوب غرب",
-      "avgHomePrice": "800 ألف دولار",
-      "county": "سان دييغو"
-    },
-    {
-      "name": "كورونادو",
-      "type": "مدينة",
-      "slug": "coronado",
-      "description": "مدينة جزيرة عبر الخليج مع شواطئ رملية واسعة وفندق كورونادو الأيقوني.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
-      "imageAlt": "شاطئ كورونادو الرملي مع سماء زرقاء",
-      "distance": "10 أميال شمال غرب",
-      "avgHomePrice": "1.8 مليون دولار",
-      "county": "سان دييغو"
     }
   ],
   "highlights": [

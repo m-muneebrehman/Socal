@@ -1,0 +1,187 @@
+{
+  "slug": "san-fernando",
+  "name": "San Fernando",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad histórica en el Valle de San Fernando con encanto de pueblo pequeño, parques y fuertes lazos comunitarios.",
+  "fullDescription": "San Fernando es una ciudad independiente en el noroeste del área de Los Ángeles, que ofrece una sensación acogedora de pueblo pequeño dentro del gran Valle de San Fernando. La ciudad cuenta con arquitectura histórica, tiendas locales y eventos comunitarios, junto con acceso conveniente a centros de empleo regionales y autopistas. Parques, bibliotecas e instituciones culturales la hacen atractiva para familias y residentes de largo tiempo por igual.",
+  "heroImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle arbolada con edificios bajos en una zona urbana soleada",
+  "population": "Más de 24K",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Histórica",
+    "Comunidad",
+    "Parques"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Burbank",
+      "type": "ciudad",
+      "slug": "burbank",
+      "description": "Centro mediático con estudios, barrios familiares y desplazamientos convenientes.",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle urbana en Burbank",
+      "distance": "14 millas al sureste",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Glendale",
+      "type": "ciudad",
+      "slug": "glendale",
+      "description": "Ciudad vibrante con distritos comerciales, parques y vecindarios diversos.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Distrito comercial en Glendale",
+      "distance": "17 millas al sureste",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Clarita",
+      "type": "ciudad",
+      "slug": "santa-clarita",
+      "description": "Ciudad familiar con parques, senderos y comunidades planificadas.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parques y vecindarios en Santa Clarita",
+      "distance": "12 millas al noroeste",
+      "avgHomePrice": "$800K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Los Angeles",
+      "type": "ciudad",
+      "slug": "los-angeles",
+      "description": "La ciudad principal de la región que ofrece centros de empleo, espacios culturales y acceso al transporte.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte del centro de Los Ángeles",
+      "distance": "23 millas al sureste",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centro Histórico de San Fernando",
+      "description": "Encantadora calle principal con tiendas locales, cafeterías y eventos comunitarios.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle comercial histórica"
+    },
+    {
+      "title": "Parques y Recreación",
+      "description": "Parques vecinales con instalaciones deportivas, áreas de juegos y espacios verdes.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque con árboles y césped abierto"
+    },
+    {
+      "title": "Patrimonio Cultural",
+      "description": "Museos locales y programas culturales que celebran la rica historia de la ciudad.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Interior de museo y exposiciones"
+    },
+    {
+      "title": "Acceso al Valle Central",
+      "description": "Conexiones rápidas a las autopistas I-5, I-210 y destinos clave del Valle de San Fernando.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Intercambio de autopistas al anochecer"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido San Fernando?",
+      "answer": "San Fernando es conocido por su centro histórico, eventos comunitarios y ambiente de pueblo pequeño dentro del Valle.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en San Fernando?",
+      "answer": "El mercado cuenta principalmente con casas unifamiliares y pequeñas propiedades multifamiliares con precios competitivos en el Valle.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Qué se puede hacer en San Fernando?",
+      "answer": "Explora el centro histórico, visita parques locales y disfruta de programas comunitarios y sitios culturales.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde San Fernando?",
+      "answer": "El acceso a las autopistas I-5 y I-210 conecta a los residentes con empleos en todo el Valle de San Fernando y la región metropolitana de Los Ángeles.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en San Fernando CA | Ciudad Histórica del Valle",
+    "metaDescription": "Descubre el centro histórico de San Fernando, parques y acceso central al Valle con opciones inmobiliarias para familias y profesionales.",
+    "keywords": "Bienes raíces San Fernando, ciudad del Valle de San Fernando, vivir en San Fernando, centro histórico San Fernando",
+    "ogTitle": "Explora San Fernando: Encanto de Pueblo Pequeño en el Valle de San Fernando",
+    "ogDescription": "Encuentra tu hogar en San Fernando con parques, cultura y acceso conveniente en todo el Valle.",
+    "ogImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle arbolada con edificios bajos en una zona urbana soleada",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Fernando",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en San Fernando, California.",
+      "url": "https://example.com/locations/san-fernando",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle arbolada con edificios bajos en una zona urbana soleada"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Fernando",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido San Fernando?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Fernando es conocido por su centro histórico, eventos comunitarios y ambiente de pueblo pequeño dentro del Valle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en San Fernando?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado cuenta principalmente con casas unifamiliares y pequeñas propiedades multifamiliares con precios competitivos en el Valle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se puede hacer en San Fernando?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explora el centro histórico, visita parques locales y disfruta de programas comunitarios y sitios culturales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde San Fernando?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El acceso a las autopistas I-5 y I-210 conecta a los residentes con empleos en todo el Valle de San Fernando y la región metropolitana de Los Ángeles."
+          }
+        }
+      ]
+    }
+  ]
+}

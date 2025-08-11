@@ -1,0 +1,187 @@
+{
+  "slug": "dana-point",
+  "name": "Dana Point",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville côtière pittoresque connue pour son port, ses plages et ses activités nautiques en plein air.",
+  "fullDescription": "Dana Point offre de magnifiques vues sur l'océan, un port animé et une riche histoire maritime. Située sur la côte sud du comté d'Orange, c'est une destination populaire pour la navigation de plaisance, le surf et l'observation des baleines. La ville possède des quartiers charmants, d'excellents restaurants et un mode de vie côtier décontracté qui attire familles, retraités et amateurs de plein air.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue côtière panoramique du port et de la plage de Dana Point",
+  "population": "34K+",
+  "avgHomePrice": "1,4 M$",
+  "tags": [
+    "Côtier",
+    "Activités de plein air",
+    "Familial"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Niguel",
+      "type": "ville",
+      "slug": "laguna-niguel",
+      "description": "Communauté huppée avec parcs, terrains de golf et sentiers pittoresques.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc pittoresque à Laguna Niguel",
+      "distance": "5 miles au nord",
+      "avgHomePrice": "1,2 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "ville",
+      "slug": "san-clemente",
+      "description": "Ville côtière avec architecture de style espagnol, plages et jetée.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Plage et jetée à San Clemente",
+      "distance": "7 miles au sud",
+      "avgHomePrice": "1,1 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "ville",
+      "slug": "mission-viejo",
+      "description": "Communauté planifiée avec parcs, lacs et équipements familiaux.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc au bord du lac à Mission Viejo",
+      "distance": "8 miles au nord-est",
+      "avgHomePrice": "900 000 $",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "ville",
+      "slug": "san-juan-capistrano",
+      "description": "Ville historique connue pour la Mission et son centre-ville charmant.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mission de San Juan Capistrano",
+      "distance": "6 miles à l’est",
+      "avgHomePrice": "850 000 $",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Port de Dana Point",
+      "description": "Marina populaire offrant navigation, pêche, restauration en bord de mer et boutiques.",
+      "icon": "⚓",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bateaux amarrés au port de Dana Point"
+    },
+    {
+      "title": "Plage d'État Doheny",
+      "description": "Plage pittoresque avec camping, surf et aires de pique-nique.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Coucher de soleil à la plage Doheny"
+    },
+    {
+      "title": "Observation des baleines",
+      "description": "Tours saisonniers au départ de Dana Point pour observer les baleines migratrices.",
+      "icon": "🐋",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Baleine sautant près de Dana Point"
+    },
+    {
+      "title": "Institut Océanique",
+      "description": "Centre éducatif axé sur la science marine et la conservation des océans.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment de l’Institut Océanique"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Dana Point est-elle célèbre ?",
+      "answer": "Dana Point est célèbre pour son port, l’observation des baleines, ses plages et son style de vie côtier.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Dana Point ?",
+      "answer": "Dana Point est desservie par le district scolaire unifié de Capistrano, reconnu pour ses solides performances académiques.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air sont populaires ?",
+      "answer": "Les activités populaires incluent la navigation, le surf, la randonnée sur les sentiers côtiers et l’observation des baleines.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet vers les villes voisines ?",
+      "answer": "Dana Point offre un accès pratique aux autoroutes vers Laguna Beach, Irvine et d’autres villes du comté d’Orange.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et vie côtière à Dana Point CA | Port et plages",
+    "metaDescription": "Découvrez les quartiers, activités de plein air, écoles et immobilier de Dana Point dans le comté d’Orange.",
+    "keywords": "immobilier Dana Point, vie côtière, port de Dana Point, maisons dans le comté d’Orange",
+    "ogTitle": "Découvrez Dana Point : Ville côtière avec port et plages",
+    "ogDescription": "Vivez la marina, les plages, l’observation des baleines et la communauté familiale de Dana Point.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue côtière du port de Dana Point",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Dana Point",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Dana Point, Californie.",
+      "url": "https://example.com/locations/dana-point",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue côtière panoramique du port et de la plage de Dana Point"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Dana Point",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Dana Point est-elle célèbre ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point est célèbre pour son port, l’observation des baleines, ses plages et son style de vie côtier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Dana Point ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point est desservie par le district scolaire unifié de Capistrano, reconnu pour ses solides performances académiques."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont populaires ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les activités populaires incluent la navigation, le surf, la randonnée sur les sentiers côtiers et l’observation des baleines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet vers les villes voisines ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point offre un accès pratique aux autoroutes vers Laguna Beach, Irvine et d’autres villes du comté d’Orange."
+          }
+        }
+      ]
+    }
+  ]
+}

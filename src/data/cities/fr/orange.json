@@ -1,0 +1,165 @@
+{
+  "slug": "orange",
+  "name": "Orange",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Ville historique connue pour son charmant quartier Old Town, ses rues bordées d'arbres et sa forte ambiance communautaire.",
+  "fullDescription": "Orange est une ville dynamique qui allie charme historique et commodités modernes. Célèbre pour son quartier Old Towne préservé avec ses boutiques d'antiquités, ses cafés et la foire annuelle internationale de la rue d'Orange, la ville offre une atmosphère communautaire accueillante. Avec des écoles de qualité, des parcs et un accès facile aux principales autoroutes du comté d'Orange, Orange séduit autant les familles que les professionnels à la recherche d'un mélange de tradition et de commodité.",
+  "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Old Towne historique d'Orange avec des bâtiments anciens et des arbres",
+  "population": "140K+",
+  "avgHomePrice": "900K$",
+  "tags": [
+    "Historique",
+    "Familial",
+    "Communauté"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "communauté",
+      "slug": "anaheim",
+      "description": "Quartier suburbain avec de grandes maisons, des parcs et des écoles très bien notées.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Entrée de Disneyland à Anaheim",
+      "distance": "5 miles au sud-est",
+      "avgHomePrice": "1,2M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "quartier",
+      "slug": "santa-ana",
+      "description": "Le siège du comté avec un riche patrimoine culturel, un centre-ville animé et des communautés diverses.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Skyline du centre-ville de Santa Ana",
+      "distance": "6 miles au sud",
+      "avgHomePrice": "650K$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Quartier historique Old Towne Orange",
+      "description": "Zone préservée avec boutiques d'antiquités, restaurants et foires de rue annuelles.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Bâtiments historiques et rue dans Old Towne Orange"
+    },
+    {
+      "title": "Parc régional Irvine",
+      "description": "Grand parc avec sentiers de randonnée, aires de pique-nique et un petit zoo.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Paysage verdoyant au parc régional Irvine"
+    },
+    {
+      "title": "Place d'Orange",
+      "description": "Place de la ville accueillant événements communautaires, marchés fermiers et concerts en plein air.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Événement communautaire à la place d'Orange"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Les événements populaires incluent la foire internationale de la rue d'Orange et les défilés de vacances.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Foire de rue avec foule et stands"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Orange est-elle connue ?",
+      "answer": "Orange est connue pour son quartier historique Old Towne, ses événements communautaires et ses quartiers adaptés aux familles.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Orange ?",
+      "answer": "Le district scolaire unifié d'Orange propose plusieurs écoles publiques très bien notées desservant la ville.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quels parcs et activités de loisirs sont disponibles ?",
+      "answer": "Le parc régional Irvine offre des sentiers de randonnée, des aires de pique-nique et un petit zoo, ainsi que divers parcs communautaires dans toute la ville.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet depuis Orange ?",
+      "answer": "Orange est bien connectée par les autoroutes 55 et 22, avec des temps de trajet moyens de 30 à 45 minutes vers les principaux centres d’emploi voisins.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Orange CA | Charme historique et vie familiale",
+    "metaDescription": "Découvrez le quartier historique Old Towne d’Orange, ses quartiers familiaux, ses parcs et ses événements communautaires dans le comté d’Orange, Californie.",
+    "keywords": "immobilier Orange CA, Old Towne Orange, maisons comté d’Orange, quartiers familiaux Orange",
+    "ogTitle": "Explorez Orange : charme historique et communauté familiale",
+    "ogDescription": "Découvrez le mélange unique d’histoire et de vie communautaire à Orange, CA, avec des écoles et parcs de qualité.",
+    "ogImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Old Towne historique d'Orange avec bâtiments anciens et arbres",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Orange",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts d'Orange, Californie.",
+      "url": "https://example.com/locations/orange",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Old Towne historique d'Orange avec bâtiments anciens et arbres"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Orange",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Orange est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange est connue pour son quartier historique Old Towne, ses événements communautaires et ses quartiers adaptés aux familles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Orange ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le district scolaire unifié d'Orange propose plusieurs écoles publiques très bien notées desservant la ville."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels parcs et activités de loisirs sont disponibles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le parc régional Irvine offre des sentiers de randonnée, des aires de pique-nique et un petit zoo, ainsi que divers parcs communautaires dans toute la ville."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Orange ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange est bien connectée par les autoroutes 55 et 22, avec des temps de trajet moyens de 30 à 45 minutes vers les principaux centres d’emploi voisins."
+          }
+        }
+      ]
+    }
+  ]
+}

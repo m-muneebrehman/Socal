@@ -1,0 +1,187 @@
+{
+  "slug": "costa-mesa",
+  "name": "Costa Mesa",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Großstadt bekannt für Kunst, Shopping und eine vielfältige Gemeinschaft.",
+  "fullDescription": "Costa Mesa verbindet kulturellen Reichtum mit suburbanem Leben. Berühmt für das South Coast Plaza Einkaufszentrum und eine blühende Kunstszene mit Theatern und Galerien bietet die Stadt eine Mischung aus Wohnvierteln, Restaurants und Unterhaltungsmöglichkeiten. Ihre zentrale Lage im Orange County ermöglicht einfachen Zugang zu Stränden, Autobahnen und Arbeitszentren und macht sie beliebt bei Fachleuten und Familien gleichermaßen.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Innenstadt von Costa Mesa mit urbanen Geschäften und Theatern",
+  "population": "115K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Kunst & Kultur",
+    "Shopping",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Newport Beach",
+      "type": "Stadt",
+      "slug": "newport-beach",
+      "description": "Luxuriöse Küstenstadt mit Stränden, Bootfahren und exklusivem Shopping.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Strandfront und Marina in Newport Beach",
+      "distance": "8 km südlich",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "Stadt",
+      "slug": "huntington-beach",
+      "description": "Berühmte Surfstadt mit einer lebendigen Innenstadt und ausgedehnten Stränden.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Surfbretter am Strand in Huntington Beach",
+      "distance": "13 km nordwestlich",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "Stadt",
+      "slug": "fountain-valley",
+      "description": "Ruhige Vorstadtgemeinschaft mit Parks und Familienfreizeiteinrichtungen.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorstadtparkbereich in Fountain Valley",
+      "distance": "6 km östlich",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "Stadt",
+      "slug": "santa-ana",
+      "description": "Urbanes Innenstadtzentrum mit kulturellen Einrichtungen und historischen Stätten.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadtskyline von Santa Ana",
+      "distance": "11 km nordöstlich",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "South Coast Plaza",
+      "description": "Eines der größten Einkaufszentren der USA mit Luxusmarken und Restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Außenansicht des South Coast Plaza Einkaufszentrums"
+    },
+    {
+      "title": "Segerstrom Center for the Arts",
+      "description": "Premierenort für Theater-, Musik- und Tanzaufführungen.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Außenansicht des Segerstrom Center for the Arts"
+    },
+    {
+      "title": "Costa Mesa Parks",
+      "description": "Zahlreiche Parks mit Spielplätzen, Sportplätzen und Picknickbereichen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Parkbereich in Costa Mesa"
+    },
+    {
+      "title": "Kunst- & Kulturszene",
+      "description": "Lebendige Galerien, öffentliche Kunstinstallationen und Gemeinschaftsveranstaltungen feiern Kreativität.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Kunstgalerieausstellung in Costa Mesa"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Costa Mesa bekannt?",
+      "answer": "Costa Mesa ist bekannt für seine Kunst und Kultur, Shopping im South Coast Plaza und familienfreundliche Parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Wie sind die Schulen in Costa Mesa?",
+      "answer": "Die Stadt wird vom Newport-Mesa Unified School District betreut, mit einer Vielzahl von öffentlichen und privaten Schuloptionen.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind verfügbar?",
+      "answer": "Bewohner genießen Parks, Gemeinschaftsveranstaltungen und Nähe zu nahegelegenen Stränden zum Surfen und Wandern.",
+      "category": "Freizeit"
+    },
+    {
+      "question": "Wie ist das Pendeln zu Arbeitszentren?",
+      "answer": "Costa Mesa bietet bequemen Autobahnzugang (55, 405) mit Pendelwegen zu Newport Beach, Irvine und Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Costa Mesa CA Immobilien & Lifestyle | Kunst, Shopping & Familienleben",
+    "metaDescription": "Entdecken Sie Costa Mesas Viertel, Kunstszene, Einkaufszentren und Parks im Orange County.",
+    "keywords": "Costa Mesa Immobilien, South Coast Plaza, Leben in Costa Mesa, Orange County Häuser",
+    "ogTitle": "Entdecken Sie Costa Mesa: Kunst, Shopping & Familienfreundliches Leben",
+    "ogDescription": "Erleben Sie lebendige kulturelle Annehmlichkeiten und suburbanen Komfort in Costa Mesa, Kalifornien.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Urbane Innenstadtszene von Costa Mesa",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Costa Mesa",
+      "description": "Entdecken Sie Immobilien, Viertel und Highlights in Costa Mesa, Kalifornien.",
+      "url": "https://example.com/locations/costa-mesa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Urbane Innenstadtszene von Costa Mesa"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Costa Mesa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Costa Mesa bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costa Mesa ist bekannt für seine Kunst und Kultur, Shopping im South Coast Plaza und familienfreundliche Parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Costa Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom Newport-Mesa Unified School District betreut, mit einer Vielzahl von öffentlichen und privaten Schuloptionen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind verfügbar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bewohner genießen Parks, Gemeinschaftsveranstaltungen und Nähe zu nahegelegenen Stränden zum Surfen und Wandern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln zu Arbeitszentren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costa Mesa bietet bequemen Autobahnzugang (55, 405) mit Pendelwegen zu Newport Beach, Irvine und Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

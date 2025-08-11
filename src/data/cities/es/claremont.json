@@ -1,0 +1,154 @@
+{
+  "slug": "claremont",
+  "name": "Claremont",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una encantadora ciudad universitaria conocida por sus calles arboladas, prestigiosos colegios y vibrante escena artística.",
+  "fullDescription": "Claremont es una ciudad pintoresca en el este del condado de Los Angeles, famosa por The Claremont Colleges, hermosos vecindarios y un fuerte sentido de comunidad. Su área histórica del centro cuenta con boutiques, cafés y lugares culturales, convirtiéndola en un centro cultural y educativo. Los residentes disfrutan de abundantes parques, senderos para caminar y eventos locales durante todo el año. Con fácil acceso a ciudades cercanas y autopistas, Claremont ofrece una mezcla perfecta de encanto de pueblo pequeño y conveniencia urbana.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle arbolada en Claremont con cielos soleados",
+  "population": "37K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Ciudad universitaria",
+    "Arte y cultura",
+    "Parques y senderos"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "ciudad",
+      "slug": "pomona",
+      "description": "Ciudad vecina con una rica escena cultural, sitios históricos y un centro en crecimiento.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Paisaje urbano del centro de Pomona",
+      "distance": "8 km al oeste",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Claremont Colleges",
+      "description": "Un consorcio de prestigiosos colegios de artes liberales que contribuyen a un ambiente académico vibrante.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificios del campus en Claremont Colleges"
+    },
+    {
+      "title": "Claremont Village",
+      "description": "Encantador centro con boutiques, restaurantes, mercados de agricultores y festivales estacionales.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle del pueblo con luces de cadena y tiendas"
+    },
+    {
+      "title": "Paraíso del Senderista",
+      "description": "Acceso a senderos cercanos como el Claremont Hills Wilderness Park y pintorescas estribaciones.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero verde de senderismo en las estribaciones"
+    },
+    {
+      "title": "Escena Artística Local",
+      "description": "Galerías, teatros y lugares de música en vivo muestran una vida cultural próspera.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Escenario de teatro con luces"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Claremont?",
+      "answer": "Claremont es mejor conocida por sus colegios, encantador centro del pueblo y oportunidades recreativas al aire libre.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Claremont?",
+      "answer": "El mercado es competitivo, con muchas casas históricas y desarrollos más nuevos que atraen a familias y académicos.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares en Claremont?",
+      "answer": "Los visitantes y residentes disfrutan de compras en el pueblo, senderismo en senderos locales, asistir a eventos del colegio y explorar lugares de arte.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Claremont?",
+      "answer": "Claremont es accesible a través de la Foothill Freeway (I-210) y el servicio de tren Metrolink, facilitando los viajes diarios a Los Angeles y San Bernardino.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Claremont CA Bienes Raíces y Estilo de Vida | Ciudad Universitaria y Arte",
+    "metaDescription": "Descubre los vecindarios de Claremont, prestigiosos colegios, destacados culturales y bienes raíces en el condado de Los Angeles.",
+    "keywords": "bienes raíces Claremont, Claremont Colleges, Claremont Village, vivir en Claremont, casas Claremont en venta",
+    "ogTitle": "Explora Claremont: Vida de Ciudad Universitaria y Centro Cultural",
+    "ogDescription": "Encuentra tu hogar en Claremont con su ambiente académico, escena artística y vecindarios pintorescos.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle arbolada en Claremont",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Claremont",
+      "description": "Explora bienes raíces, vecindarios y destacados en Claremont, California.",
+      "url": "https://example.com/locations/claremont",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle arbolada en Claremont con cielos soleados"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Claremont",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claremont es mejor conocida por sus colegios, encantador centro del pueblo y oportunidades recreativas al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado es competitivo, con muchas casas históricas y desarrollos más nuevos que atraen a familias y académicos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares en Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los visitantes y residentes disfrutan de compras en el pueblo, senderismo en senderos locales, asistir a eventos del colegio y explorar lugares de arte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Claremont?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claremont es accesible a través de la Foothill Freeway (I-210) y el servicio de tren Metrolink, facilitando los viajes diarios a Los Angeles y San Bernardino."
+          }
+        }
+      ]
+    }
+  ]
+}

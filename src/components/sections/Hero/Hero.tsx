@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 
 interface HeroProps {
   heroData?: {
@@ -49,7 +50,9 @@ const Hero = ({ heroData }: HeroProps) => {
         <p className="hero-subtitle">{subtitle}</p>
         <div className="hero-cta">
           <button className="btn-primary">{viewProperties}</button>
-          <button className="btn-secondary">{contactUs}</button>
+          <Link href="/contact" className="btn-secondary">
+            {contactUs}
+          </Link>
         </div>
       </div>
       <button className="swipe-down-btn" onClick={scrollToStats}>

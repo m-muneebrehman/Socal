@@ -1,0 +1,165 @@
+{
+  "slug": "orange",
+  "name": "Orange",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Ciudad histórica conocida por su encantador distrito Old Town, calles arboladas y un fuerte sentido de comunidad.",
+  "fullDescription": "Orange es una ciudad vibrante que combina el encanto histórico con comodidades modernas. Famosa por su preservado distrito Old Towne que cuenta con tiendas de antigüedades, cafés y la feria anual Orange International Street Fair, la ciudad ofrece un ambiente comunitario acogedor. Con escuelas de calidad, parques y fácil acceso a las principales autopistas del Condado de Orange, Orange atrae tanto a familias como a profesionales que buscan una mezcla de tradición y conveniencia.",
+  "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Distrito histórico Old Towne Orange con edificios antiguos y árboles",
+  "population": "Más de 140K",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Histórico",
+    "Familiar",
+    "Comunidad"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "comunidad",
+      "slug": "anaheim",
+      "description": "Zona suburbana con casas espaciosas, parques y escuelas altamente calificadas.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Entrada a Disneyland en Anaheim",
+      "distance": "5 millas al sureste",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "vecindario",
+      "slug": "santa-ana",
+      "description": "La sede del condado con rica herencia cultural, un centro bullicioso y comunidades diversas.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte del centro de Santa Ana",
+      "distance": "6 millas al sur",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Distrito Histórico Old Towne Orange",
+      "description": "Área preservada con tiendas de antigüedades, restaurantes y ferias callejeras anuales.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Edificios históricos y calle en Old Towne Orange"
+    },
+    {
+      "title": "Parque Regional Irvine",
+      "description": "Gran parque con senderos para caminatas, áreas de picnic y un pequeño zoológico.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Paisaje verde en el Parque Regional Irvine"
+    },
+    {
+      "title": "Plaza Orange",
+      "description": "Plaza de la ciudad que alberga eventos comunitarios, mercados de agricultores y música en vivo.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Evento comunitario en la Plaza Orange"
+    },
+    {
+      "title": "Eventos Comunitarios",
+      "description": "Eventos populares incluyen la feria callejera internacional de Orange y desfiles festivos.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Feria callejera con multitudes y puestos"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Orange?",
+      "answer": "Orange es conocida por su histórico distrito Old Towne, eventos comunitarios y vecindarios familiares.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Orange?",
+      "answer": "El Distrito Escolar Unificado de Orange ofrece una variedad de escuelas públicas altamente calificadas que sirven a la ciudad.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué parques y opciones recreativas hay disponibles?",
+      "answer": "El Parque Regional Irvine ofrece senderismo, áreas de picnic y un pequeño zoológico, además de varios parques comunitarios en toda la ciudad.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Orange?",
+      "answer": "Orange está bien conectada por las autopistas 55 y 22, con tiempos promedio de traslado de 30 a 45 minutos hacia centros de trabajo cercanos.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Orange CA Bienes Raíces y Estilo de Vida | Encanto Histórico y Vida Familiar",
+    "metaDescription": "Descubre el histórico Old Towne de Orange, vecindarios familiares, parques y eventos comunitarios en el Condado de Orange, California.",
+    "keywords": "bienes raíces Orange CA, Old Towne Orange, casas en el Condado de Orange, vecindarios familiares Orange",
+    "ogTitle": "Explora Orange: Encanto Histórico y Comunidad Familiar",
+    "ogDescription": "Experimenta la mezcla única de historia y comunidad en Orange, CA, con escuelas y parques de calidad.",
+    "ogImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Distrito histórico Old Towne Orange con edificios antiguos y árboles",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Orange",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Orange, California.",
+      "url": "https://example.com/locations/orange",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Distrito histórico Old Towne Orange con edificios antiguos y árboles"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Orange",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange es conocida por su histórico distrito Old Towne, eventos comunitarios y vecindarios familiares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Distrito Escolar Unificado de Orange ofrece una variedad de escuelas públicas altamente calificadas que sirven a la ciudad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué parques y opciones recreativas hay disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Parque Regional Irvine ofrece senderismo, áreas de picnic y un pequeño zoológico, además de varios parques comunitarios en toda la ciudad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Orange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Orange está bien conectada por las autopistas 55 y 22, con tiempos promedio de traslado de 30 a 45 minutos hacia centros de trabajo cercanos."
+          }
+        }
+      ]
+    }
+  ]
+}

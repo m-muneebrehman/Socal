@@ -1,0 +1,176 @@
+{
+  "slug": "seal-beach",
+  "name": "海豹海滩",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以悠闲的海滩氛围、历史悠久的码头和友好社区闻名的迷人海滨城市。",
+  "fullDescription": "海豹海滩是橙县一个风景如画的海滨社区，拥有小镇般的氛围、美丽的海滩、历史悠久的码头和别致的市中心购物及餐饮区。该市吸引了寻求轻松海滨生活方式的游客和居民，便捷的冲浪、划船和海边休闲活动。以安全、友好的邻里关系和社区活动著称，海豹海滩是家庭、退休人士及任何追求宁静而充满活力海滨生活体验者的理想之地。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "日落时分的海豹海滩码头和海景",
+  "population": "2.5万+",
+  "avgHomePrice": "130万美元",
+  "tags": [
+    "海滨",
+    "适合家庭",
+    "历史悠久"
+  ],
+  "neighborhoods": [
+    {
+      "name": "海豹海滩老城区",
+      "type": "区",
+      "slug": "old-town-seal-beach",
+      "description": "历史悠久的市中心区域，拥有精品店、餐厅和通往码头的通道。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "海豹海滩老城区购物区",
+      "distance": "市中心",
+      "avgHomePrice": "140万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "冲浪区",
+      "type": "住宅区",
+      "slug": "surfside",
+      "description": "靠近海滩的安静社区，拥有独栋住宅和公园。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "冲浪区靠近海滩的住宅",
+      "distance": "西部",
+      "avgHomePrice": "130万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "东学院公园",
+      "type": "住宅区",
+      "slug": "college-park-east",
+      "description": "以家庭为导向的社区，配有学校、公园，且交通便捷。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "东学院公园的社区公园",
+      "distance": "东部",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "海豹海滩码头",
+      "description": "西海岸最长的木制码头之一，非常适合钓鱼和风景散步。",
+      "icon": "🌉",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "海豹海滩码头的日落景色"
+    },
+    {
+      "title": "海豹海滩国家野生动物保护区",
+      "description": "受保护的湿地和野生动物栖息地，设有步道和观鸟机会。",
+      "icon": "🦆",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "海豹海滩保护区的湿地和鸟类"
+    },
+    {
+      "title": "海豹海滩市中心",
+      "description": "充满活力的区域，拥有本地商店、美食餐厅以及频繁的社区活动和节日。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "海豹海滩市中心街景"
+    },
+    {
+      "title": "冲浪与海滩活动",
+      "description": "热门冲浪点和适合家庭的海滩，理想的游泳、日光浴和野餐场所。",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "海豹海滩的冲浪者和海滩游客"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "海豹海滩以什么闻名？",
+      "answer": "海豹海滩以其历史悠久的码头、海滨魅力、适合家庭的氛围和野生动物保护区著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "海豹海滩的学校怎么样？",
+      "answer": "海豹海滩由洛斯阿拉米托斯联合学区服务，该学区以高质量的公立教育闻名。",
+      "category": "教育"
+    },
+    {
+      "question": "我可以在海豹海滩进行哪些户外活动？",
+      "answer": "热门活动包括冲浪、码头钓鱼、沙滩排球、保护区观鸟和徒步步道漫步。",
+      "category": "休闲娱乐"
+    },
+    {
+      "question": "从海豹海滩通勤方便吗？",
+      "answer": "海豹海滩通过高速公路轻松连接长滩、洛杉矶及橙县其他地区，通勤时间通常在30至60分钟之间。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "海豹海滩 加州房地产与海滨生活 | 历史码头与家庭社区",
+    "metaDescription": "探索橙县海豹海滩的社区、户外活动、学校及房地产选项。",
+    "keywords": "海豹海滩房地产, 海豹海滩码头, 海滨生活 海豹海滩, 橙县房屋",
+    "ogTitle": "探索海豹海滩：海滨魅力与户外生活",
+    "ogDescription": "体验海豹海滩加州的家庭友好社区、冲浪和野生动物保护区。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "日落时分的海豹海滩码头和海景",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "海豹海滩",
+      "description": "探索加利福尼亚州海豹海滩的房地产、社区和亮点。",
+      "url": "https://example.com/locations/seal-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "日落时分的海豹海滩码头和海景"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "海豹海滩",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "海豹海滩以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "海豹海滩以其历史悠久的码头、海滨魅力、适合家庭的氛围和野生动物保护区著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "海豹海滩的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "海豹海滩由洛斯阿拉米托斯联合学区服务，该学区以高质量的公立教育闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我可以在海豹海滩进行哪些户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "热门活动包括冲浪、码头钓鱼、沙滩排球、保护区观鸟和徒步步道漫步。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从海豹海滩通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "海豹海滩通过高速公路轻松连接长滩、洛杉矶及橙县其他地区，通勤时间通常在30至60分钟之间。"
+          }
+        }
+      ]
+    }
+  ]
+}

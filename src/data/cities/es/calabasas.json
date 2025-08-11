@@ -1,0 +1,154 @@
+{
+  "slug": "calabasas",
+  "name": "Calabasas",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad de lujo conocida por su belleza escénica, comunidades cerradas y residentes famosos.",
+  "fullDescription": "Calabasas es una ciudad prestigiosa ubicada en las colinas al oeste del Valle de San Fernando. Conocida por sus barrios acomodados, hermosos paisajes y un fuerte sentido de comunidad, ofrece un estilo de vida suburbano pacífico con fácil acceso a Los Ángeles. Calabasas se enorgullece de tener excelentes escuelas, centros comerciales de lujo como The Commons, y amplias actividades al aire libre como senderismo en parques cercanos y reservas naturales. Es un lugar favorito para familias y celebridades que buscan privacidad y calidad de vida.",
+  "heroImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+  "heroImageAlt": "Vista escénica de las colinas en Calabasas con árboles y casas",
+  "population": "24K+",
+  "avgHomePrice": "$2.5M",
+  "tags": [
+    "Acomodado",
+    "Comunidades cerradas",
+    "Estilo de vida al aire libre"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Agoura Hills",
+      "type": "ciudad",
+      "slug": "agoura-hills",
+      "description": "Ciudad vecina que ofrece una mezcla de comodidad suburbana y aventura al aire libre.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Colinas y casas en Agoura Hills",
+      "distance": "5 millas al este",
+      "avgHomePrice": "$1.8M",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Commons at Calabasas",
+      "description": "Destino de compras y restaurantes de lujo en el corazón de la ciudad.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Plaza comercial en The Commons"
+    },
+    {
+      "title": "Calabasas Scenic Trails",
+      "description": "Numerosos senderos para caminar y andar en bicicleta con vistas impresionantes de las Montañas de Santa Mónica.",
+      "icon": "🚶‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero serpenteando a través de las colinas de Calabasas"
+    },
+    {
+      "title": "Old Town Calabasas",
+      "description": "Área encantadora con edificios históricos, tiendas y eventos locales.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificios históricos en Old Town Calabasas"
+    },
+    {
+      "title": "Calabasas Tennis & Swim Center",
+      "description": "Centro comunitario que ofrece deportes, fitness y programas recreativos.",
+      "icon": "🎾",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Canchas de tenis y piscina en el centro deportivo de Calabasas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Calabasas?",
+      "answer": "Calabasas es conocida por su estilo de vida de lujo, comunidades cerradas y espacios exteriores escénicos.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Calabasas?",
+      "answer": "El mercado inmobiliario presenta propiedades de lujo, comunidades cerradas y alta demanda de privacidad.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades al aire libre populares en Calabasas?",
+      "answer": "Senderismo, ciclismo y exploración de senderos escénicos en las Montañas de Santa Mónica son actividades populares.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Calabasas?",
+      "answer": "Calabasas ofrece acceso a la autopista 101 y opciones de transporte público cercanas para viajar diariamente a LA y más allá.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Calabasas CA Bienes Raíces y Estilo de Vida | Vida de Lujo y Exteriores Escénicos",
+    "metaDescription": "Explora los barrios de lujo de Calabasas, compras, actividades al aire libre y oportunidades inmobiliarias en el área de las Montañas de Santa Mónica.",
+    "keywords": "bienes raíces Calabasas, casas de lujo Calabasas, vivir en Calabasas, compras Calabasas",
+    "ogTitle": "Descubre Calabasas: Vida de Lujo y Estilo de Vida Escénico al Aire Libre",
+    "ogDescription": "Encuentra tu hogar perfecto en Calabasas con sus comunidades exclusivas, senderos y vibrante cultura local.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista escénica de las colinas en Calabasas con árboles y casas",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Calabasas",
+      "description": "Explora bienes raíces, barrios y puntos destacados en Calabasas, California.",
+      "url": "https://example.com/locations/calabasas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista escénica de las colinas en Calabasas con árboles y casas"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Calabasas",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas es conocida por su estilo de vida de lujo, comunidades cerradas y espacios exteriores escénicos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario presenta propiedades de lujo, comunidades cerradas y alta demanda de privacidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades al aire libre populares en Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Senderismo, ciclismo y exploración de senderos escénicos en las Montañas de Santa Mónica son actividades populares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Calabasas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Calabasas ofrece acceso a la autopista 101 y opciones de transporte público cercanas para viajar diariamente a LA y más allá."
+          }
+        }
+      ]
+    }
+  ]
+}

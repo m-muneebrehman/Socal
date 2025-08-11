@@ -1,0 +1,165 @@
+{
+  "slug": "monrovia",
+  "name": "Monrovia",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine historische Stadt am Fuße der San Gabriel Mountains, bekannt für ihre charmante Innenstadt und den Gemeinschaftsgeist.",
+  "fullDescription": "Monrovia bietet eine einladende Kleinstadtatmosphäre mit einer lebendigen historischen Innenstadt, die einzigartige Geschäfte, Restaurants und Gemeinschaftsveranstaltungen beherbergt. Eingebettet am Fuße der San Gabriel Mountains, bietet die Stadt einfachen Zugang zu Wanderwegen, Parks und Freizeitmöglichkeiten im Freien. Mit ausgezeichneten Schulen und einer eng verbundenen Gemeinschaft zieht Monrovia Familien und Berufstätige an, die einen ausgewogenen Lebensstil in der Nähe von Los Angeles suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Monrovia Straße mit Geschäften und Bäumen",
+  "population": "37T+",
+  "avgHomePrice": "850.000 $",
+  "tags": [
+    "Historischer Charme",
+    "Gemeinschaft",
+    "Freizeit im Freien"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Arcadia",
+      "type": "Stadt",
+      "slug": "arcadia",
+      "description": "Bekannt für seine malerischen Parks, die Santa Anita Rennbahn und familienfreundliche Wohnviertel.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Arcadia Nachbarschaft mit grünen Parks",
+      "distance": "6 km östlich",
+      "avgHomePrice": "1,2 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pasadena",
+      "type": "Stadt",
+      "slug": "pasadena",
+      "description": "Kulturelle und historische Stadt, bekannt für die Rose Parade und eine lebendige Kunstszene.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historische Architektur in Pasadena",
+      "distance": "8 km nordwestlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Monrovia Old Town",
+      "description": "Historischer Innenstadtbereich mit Geschäften, Restaurants und Gemeinschaftsveranstaltungen.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Monrovia Old Town Straße mit Geschäften"
+    },
+    {
+      "title": "Wandern in den San Gabriel Mountains",
+      "description": "Zugang zu beliebten Wanderwegen mit schönen Aussichten und Outdoor-Aktivitäten.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Weg in den San Gabriel Mountains"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Bauernmärkte, Festivals und lokale Treffen stärken den Gemeinschaftszusammenhalt.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bauernmarkt mit einkaufenden Menschen"
+    },
+    {
+      "title": "Monrovia Canyon Park",
+      "description": "Ein Naturschutzgebiet mit Wanderwegen, Wasserfällen und Picknickplätzen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wasserfall und Bäume im Monrovia Canyon Park"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Monrovia bekannt?",
+      "answer": "Monrovia ist bekannt für seine historische Innenstadt, Freizeitaktivitäten im Freien und die familienfreundliche Gemeinschaft.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Monrovia?",
+      "answer": "Monrovia bietet einen ausgewogenen Markt mit Optionen von historischen Häusern bis zu modernen Wohnungen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind in Monrovia beliebt?",
+      "answer": "Wandern in den San Gabriel Mountains und Besuche im Monrovia Canyon Park sind beliebte Aktivitäten im Freien.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist Monrovia gut für den Pendelverkehr geeignet?",
+      "answer": "Ja, Monrovia wird vom Foothill Freeway (I-210) und der Metro Gold Line bedient und bietet einfachen Zugang zu Pasadena und Downtown LA.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Monrovia CA Immobilien & Lebensstil | Historische Innenstadt & Outdoor-Leben",
+    "metaDescription": "Entdecken Sie Monrovias Stadtteile, historischen Charme, Outdoor-Aktivitäten und Immobilienmöglichkeiten in der Nähe der San Gabriel Mountains.",
+    "keywords": "Monrovia Immobilien, Monrovia CA, Leben in Monrovia, Monrovia Stadtteile, Monrovia Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Monrovia: Historischer Charme & Outdoor-Lifestyle",
+    "ogDescription": "Finden Sie Ihr Zuhause in Monrovia mit einer einladenden Gemeinschaft, Outdoor-Zugang und lebendiger Innenstadt.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Monrovia Straße mit Geschäften und Bäumen",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Monrovia",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Monrovia, Kalifornien.",
+      "url": "https://example.com/locations/monrovia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Monrovia Straße mit Geschäften und Bäumen"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Monrovia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Monrovia bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monrovia ist bekannt für seine historische Innenstadt, Freizeitaktivitäten im Freien und die familienfreundliche Gemeinschaft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Monrovia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monrovia bietet einen ausgewogenen Markt mit Optionen von historischen Häusern bis zu modernen Wohnungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind in Monrovia beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wandern in den San Gabriel Mountains und Besuche im Monrovia Canyon Park sind beliebte Aktivitäten im Freien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Monrovia gut für den Pendelverkehr geeignet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Monrovia wird vom Foothill Freeway (I-210) und der Metro Gold Line bedient und bietet einfachen Zugang zu Pasadena und Downtown LA."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "redondo-beach",
+  "name": "Redondo Beach",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Küstenstadt, bekannt für ihre Strände, Marina und lebendigen Wasserfront-Lifestyle.",
+  "fullDescription": "Redondo Beach bietet eine entspannte Strandgemeinschaft mit schönen Sandstränden, einer belebten Marina und einem lebhaften Stadtzentrum. Bewohner und Besucher genießen den Pier, Wassersportarten und vielfältige Gastronomie. Die Stadt verbindet vorstädtischen Komfort mit einfachem Zugang zu Los Angeles und anderen South Bay Gemeinden. Mit guten Schulen und vielen Parks ist Redondo Beach bei Familien und Outdoor-Fans gleichermaßen beliebt.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sonnenuntergang über dem Pier und der Küste von Redondo Beach",
+  "population": "67T+",
+  "avgHomePrice": "1,2 Mio. $",
+  "tags": [
+    "Strände",
+    "Marina",
+    "Wasserfront-Lifestyle"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hermosa Beach",
+      "type": "Stadt",
+      "slug": "hermosa-beach",
+      "description": "Nachbarstadt am Strand, bekannt für ihren lebhaften Pier, Beachvolleyball und das Nachtleben.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Hermosa Beach Pier bei Sonnenuntergang",
+      "distance": "5 km nördlich",
+      "avgHomePrice": "1,5 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Manhattan Beach",
+      "type": "Stadt",
+      "slug": "manhattan-beach",
+      "description": "Exklusive Strandstadt, berühmt für ihre Sandstrände, den Pier und Einkaufsviertel.",
+      "image": "https://images.unsplash.com/photo-1505594413096-bf4ad02fdf8a?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Manhattan Beach Pier mit Strandbesuchern",
+      "distance": "6 km nördlich",
+      "avgHomePrice": "2,5 Mio. $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Torrance",
+      "type": "Stadt",
+      "slug": "torrance",
+      "description": "Vorstadt mit Einkaufszentren, Parks und einer vielfältigen Wohnbevölkerung.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtzentrum von Torrance mit Geschäften und Palmen",
+      "distance": "8 km östlich",
+      "avgHomePrice": "900.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Segundo",
+      "type": "Stadt",
+      "slug": "el-segundo",
+      "description": "Küstenstadt, bekannt für die Luft- und Raumfahrtindustrie, malerisches Stadtzentrum und Strände.",
+      "image": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Küstenlinie und Stadtbild von El Segundo",
+      "distance": "10 km nördlich",
+      "avgHomePrice": "1,1 Mio. $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Redondo Beach Pier",
+      "description": "Ikonischer Pier mit Geschäften, Restaurants und atemberaubendem Meerblick.",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Redondo Beach Pier bei Sonnenuntergang"
+    },
+    {
+      "title": "King Harbor Marina",
+      "description": "Eine belebte Marina mit Bootsfahrten, Angeln und Speisemöglichkeiten am Wasser.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boote im King Harbor Marina Hafen"
+    },
+    {
+      "title": "Strandaktivitäten",
+      "description": "Beliebt zum Surfen, Beachvolleyball, Paddleboarding und Sonnenbaden.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschen beim Surfen und Volleyball am Strand"
+    },
+    {
+      "title": "Veterans Park",
+      "description": "Ein Wasserpark mit Picknickplätzen, Spielplätzen und Meerblick.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Parkbereich mit Meer im Hintergrund"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Redondo Beach bekannt?",
+      "answer": "Redondo Beach ist bekannt für seine schönen Strände, den lebhaften Pier-Bereich und die Marina am Wasser.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Redondo Beach?",
+      "answer": "Der Immobilienmarkt ist wettbewerbsintensiv und bietet eine Mischung aus Küstenhäusern und Eigentumswohnungen mit hoher Nachfrage.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Aktivitäten kann man in Redondo Beach unternehmen?",
+      "answer": "Genießen Sie Wassersportarten, Essen am Pier, einen Besuch der Marina oder entspannen Sie in den örtlichen Parks.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist die Verkehrsanbindung von Redondo Beach?",
+      "answer": "Redondo Beach hat Zugang zu wichtigen Autobahnen und öffentlichen Verkehrsmitteln mit Verbindungen nach Los Angeles und benachbarten Strandstädten.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Redondo Beach CA Immobilien & Lebensstil | Strände, Marina & Wasserfront",
+    "metaDescription": "Entdecken Sie die Stadtteile, Strände, Marina und Immobilienoptionen von Redondo Beach im South Bay Gebiet.",
+    "keywords": "Redondo Beach Immobilien, Redondo Beach Marina, Redondo Beach Häuser, Leben in Redondo Beach",
+    "ogTitle": "Erkunden Sie Redondo Beach: Küstenleben & Wasserfront-Spaß",
+    "ogDescription": "Finden Sie Ihren Platz in Redondo Beach mit seinen schönen Stränden, dem Pier und der lebendigen Gemeinschaft.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Sonnenuntergang über dem Pier und der Küste von Redondo Beach",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Redondo Beach",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Redondo Beach, Kalifornien.",
+      "url": "https://example.com/locations/redondo-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Sonnenuntergang über dem Pier und der Küste von Redondo Beach"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Redondo Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Redondo Beach bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Redondo Beach ist bekannt für seine schönen Strände, den lebhaften Pier-Bereich und die Marina am Wasser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Redondo Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Immobilienmarkt ist wettbewerbsintensiv und bietet eine Mischung aus Küstenhäusern und Eigentumswohnungen mit hoher Nachfrage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Aktivitäten kann man in Redondo Beach unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genießen Sie Wassersportarten, Essen am Pier, einen Besuch der Marina oder entspannen Sie in den örtlichen Parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist die Verkehrsanbindung von Redondo Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Redondo Beach hat Zugang zu wichtigen Autobahnen und öffentlichen Verkehrsmitteln mit Verbindungen nach Los Angeles und benachbarten Strandstädten."
+          }
+        }
+      ]
+    }
+  ]
+}

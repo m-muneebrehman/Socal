@@ -42,6 +42,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      </head>
       <body className="font-sans bg-white text-charcoal">
         <NextIntlClientProvider messages={messages}>
           <AdminAwareLayout>{children}</AdminAwareLayout>

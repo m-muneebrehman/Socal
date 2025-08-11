@@ -1,0 +1,176 @@
+{
+  "slug": "seal-beach",
+  "name": "Seal Beach",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Charmante ville côtière connue pour son ambiance détendue de plage, sa jetée historique et sa communauté conviviale.",
+  "fullDescription": "Seal Beach est une communauté pittoresque en bord de mer du comté d’Orange, offrant une atmosphère de petite ville avec de belles plages, une jetée historique et un centre-ville charmant avec boutiques et restaurants. La ville attire les visiteurs et les résidents recherchant un style de vie côtier décontracté avec un accès facile au surf, à la navigation de plaisance et aux loisirs en bord de plage. Réputée pour sa sécurité, ses quartiers accueillants et ses événements communautaires, Seal Beach est idéale pour les familles, les retraités et tous ceux qui souhaitent vivre une expérience côtière paisible mais dynamique.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Jetée de Seal Beach avec vue sur l’océan au coucher du soleil",
+  "population": "25K+",
+  "avgHomePrice": "1,3M$",
+  "tags": [
+    "Côtier",
+    "Familial",
+    "Historique"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Town Seal Beach",
+      "type": "quartier",
+      "slug": "old-town-seal-beach",
+      "description": "Centre-ville historique avec boutiques, restaurants et accès à la jetée.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier commerçant d’Old Town Seal Beach",
+      "distance": "Central",
+      "avgHomePrice": "1,4M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Surfside",
+      "type": "résidentiel",
+      "slug": "surfside",
+      "description": "Quartier calme près de la plage avec maisons unifamiliales et parcs.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Maisons résidentielles près de la plage à Surfside",
+      "distance": "Ouest",
+      "avgHomePrice": "1,3M$",
+      "county": "Orange"
+    },
+    {
+      "name": "College Park East",
+      "type": "résidentiel",
+      "slug": "college-park-east",
+      "description": "Communauté familiale avec écoles, parcs et accès facile à l’autoroute.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc de quartier à College Park East",
+      "distance": "Est",
+      "avgHomePrice": "1,2M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Jetée de Seal Beach",
+      "description": "Une des plus longues jetées en bois de la côte Ouest, parfaite pour la pêche et les promenades pittoresques.",
+      "icon": "🌉",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vue au coucher du soleil de la jetée de Seal Beach"
+    },
+    {
+      "title": "Réserve Nationale de la Faune de Seal Beach",
+      "description": "Zones humides protégées et habitat naturel avec sentiers de randonnée et possibilités d’observation des oiseaux.",
+      "icon": "🦆",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Zones humides et oiseaux à la réserve de Seal Beach"
+    },
+    {
+      "title": "Centre-ville de Seal Beach",
+      "description": "Quartier dynamique avec boutiques locales, restaurants, et événements et festivals communautaires fréquents.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scène de rue du centre-ville de Seal Beach"
+    },
+    {
+      "title": "Surf et activités de plage",
+      "description": "Spots de surf populaires et plages familiales idéales pour la baignade, le bronzage et les pique-niques.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfeurs et baigneurs à Seal Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Seal Beach est-elle connue ?",
+      "answer": "Seal Beach est connue pour sa jetée historique, son charme côtier, son ambiance familiale et sa réserve naturelle.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Seal Beach ?",
+      "answer": "Seal Beach est desservie par le district scolaire unifié de Los Alamitos, réputé pour une éducation publique de haute qualité.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air puis-je faire à Seal Beach ?",
+      "answer": "Les activités populaires incluent le surf, la pêche à la jetée, le volley-ball de plage, l’observation des oiseaux à la réserve naturelle et les sentiers de randonnée.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet domicile-travail depuis Seal Beach ?",
+      "answer": "Seal Beach offre un accès facile à l’autoroute vers Long Beach, Los Angeles et d’autres parties du comté d’Orange, avec des temps de trajet généralement compris entre 30 et 60 minutes.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et vie côtière à Seal Beach CA | Jetée historique & communauté familiale",
+    "metaDescription": "Découvrez les quartiers, les loisirs en plein air, les écoles et les options immobilières de Seal Beach, sur la côte du comté d’Orange.",
+    "keywords": "Immobilier Seal Beach, jetée de Seal Beach, vie côtière Seal Beach, maisons comté d’Orange",
+    "ogTitle": "Explorez Seal Beach : charme côtier & style de vie en plein air",
+    "ogDescription": "Découvrez des quartiers familiaux, le surf et la réserve naturelle à Seal Beach, Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Jetée de Seal Beach avec vue sur l’océan au coucher du soleil",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Seal Beach",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Seal Beach, Californie.",
+      "url": "https://example.com/locations/seal-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Jetée de Seal Beach avec vue sur l’océan au coucher du soleil"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Seal Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Seal Beach est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach est connue pour sa jetée historique, son charme côtier, son ambiance familiale et sa réserve naturelle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Seal Beach ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach est desservie par le district scolaire unifié de Los Alamitos, réputé pour une éducation publique de haute qualité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air puis-je faire à Seal Beach ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les activités populaires incluent le surf, la pêche à la jetée, le volley-ball de plage, l’observation des oiseaux à la réserve naturelle et les sentiers de randonnée."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet domicile-travail depuis Seal Beach ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach offre un accès facile à l’autoroute vers Long Beach, Los Angeles et d’autres parties du comté d’Orange, avec des temps de trajet généralement compris entre 30 et 60 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

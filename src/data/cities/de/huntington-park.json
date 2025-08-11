@@ -1,0 +1,187 @@
+{
+  "slug": "huntington-park",
+  "name": "Huntington Park",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine historische Stadt in der Region Gateway Cities, bekannt für ihre starke Gemeinschaft, kulturelle Vielfalt und erschwingliches Leben.",
+  "fullDescription": "Huntington Park ist eine lebendige städtische Gemeinschaft südöstlich der Innenstadt von Los Angeles. Bekannt für ihr reiches Latino-Erbe bietet die Stadt eine Vielzahl von lokalen Geschäften, Parks und Gemeinschaftsveranstaltungen, die eine enge Atmosphäre fördern. Mit bequemen Zugang zu wichtigen Autobahnen und dem öffentlichen Nahverkehr ist Huntington Park eine erschwingliche Option für Familien und junge Berufstätige, die nahe dem Herzen des Los Angeles County leben möchten.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Straßenansicht von Huntington Park mit bunten Wandgemälden und lokalen Geschäften",
+  "population": "58K+",
+  "avgHomePrice": "650.000 $",
+  "tags": [
+    "Kulturelle Vielfalt",
+    "Gemeinschaft",
+    "Erschwingliches Wohnen"
+  ],
+  "neighborhoods": [
+    {
+      "name": "South Gate",
+      "type": "Stadt",
+      "slug": "south-gate",
+      "description": "Nachbarstadt mit einer Mischung aus Wohn- und Geschäftsgebieten sowie Gemeinschaftsparks.",
+      "image": "https://images.unsplash.com/photo-1590080877777-3e9bcdd1c814?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnviertel in South Gate",
+      "distance": "3 Meilen südöstlich",
+      "avgHomePrice": "620.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bell",
+      "type": "Stadt",
+      "slug": "bell",
+      "description": "Kleine Stadt, bekannt für ihre Arbeiterviertel und lokalen Parks.",
+      "image": "https://images.unsplash.com/photo-1562157876-8d244f7b9a1f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gemeinschaftspark in Bell",
+      "distance": "2 Meilen nordwestlich",
+      "avgHomePrice": "580.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cudahy",
+      "type": "Stadt",
+      "slug": "cudahy",
+      "description": "Eine kompakte Stadt mit erschwinglichem Wohnraum und Gemeinschaftseinrichtungen.",
+      "image": "https://images.unsplash.com/photo-1581945729282-633e4be148b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnstraße in Cudahy",
+      "distance": "2 Meilen südlich",
+      "avgHomePrice": "600.000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Vernon",
+      "type": "Stadt",
+      "slug": "vernon",
+      "description": "Industriestadt mit begrenzten Wohngebieten, nahe Huntington Park.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Industriegebäude in Vernon",
+      "distance": "4 Meilen nördlich",
+      "avgHomePrice": "500.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Huntington Park Bauernmarkt",
+      "description": "Wöchentlicher Markt mit frischen Produkten, lokalen Verkäufern und Gemeinschaftsaktivitäten.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Stände des Bauernmarktes mit frischem Obst und Gemüse"
+    },
+    {
+      "title": "Central Park",
+      "description": "Beliebter Gemeinschaftspark mit Sportplätzen, Spielplätzen und Picknickbereichen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Park mit Bäumen und Spielgeräten"
+    },
+    {
+      "title": "Lokale Wandgemälde und Kunst",
+      "description": "Bunte Straßenkunst, die das Erbe der Stadt und den Gemeinschaftsgeist feiert.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Straßenwandgemälde in Huntington Park"
+    },
+    {
+      "title": "Huntington Park Gemeindezentrum",
+      "description": "Zentrum für Kurse, Veranstaltungen und lokale Treffen.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gebäude des Gemeindezentrums"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Huntington Park bekannt?",
+      "answer": "Huntington Park ist bekannt für sein starkes Latino-Erbe, Gemeinschaftsveranstaltungen und erschwingliche Wohnmöglichkeiten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Huntington Park?",
+      "answer": "Der Markt bietet erschwingliche Häuser und Eigentumswohnungen im Vergleich zu vielen Teilen des Los Angeles County.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Aktivitäten sind in Huntington Park beliebt?",
+      "answer": "Der Besuch des Bauernmarktes, der Genuss des Central Parks und das Bewundern lokaler Wandgemälde und Veranstaltungen sind beliebt.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Huntington Park aus?",
+      "answer": "Huntington Park bietet bequemen Zugang zu den Autobahnen 710 und 5 sowie zu lokalen Busverbindungen.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Huntington Park CA Immobilien & Lebensstil | Gemeinschaft & Kultur",
+    "metaDescription": "Entdecken Sie die Stadtteile, kulturelle Vielfalt und erschwingliche Immobilienoptionen in Huntington Park im Los Angeles County.",
+    "keywords": "Huntington Park Immobilien, Huntington Park Gemeinschaft, Leben in Huntington Park, erschwingliche Häuser Huntington Park",
+    "ogTitle": "Entdecken Sie Huntington Park: Gemeinschaftliches Leben & kulturelle Vielfalt",
+    "ogDescription": "Finden Sie Ihr Zuhause in Huntington Park mit seinem reichen Erbe, Parks und lokalen Märkten.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Straßenansicht von Huntington Park mit bunten Wandgemälden und lokalen Geschäften",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Huntington Park",
+      "description": "Erkunden Sie Immobilien, Stadtteile und Highlights in Huntington Park, Kalifornien.",
+      "url": "https://example.com/locations/huntington-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Straßenansicht von Huntington Park mit bunten Wandgemälden und lokalen Geschäften"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Huntington Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Huntington Park bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Park ist bekannt für sein starkes Latino-Erbe, Gemeinschaftsveranstaltungen und erschwingliche Wohnmöglichkeiten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Huntington Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt bietet erschwingliche Häuser und Eigentumswohnungen im Vergleich zu vielen Teilen des Los Angeles County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Aktivitäten sind in Huntington Park beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Besuch des Bauernmarktes, der Genuss des Central Parks und das Bewundern lokaler Wandgemälde und Veranstaltungen sind beliebt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Huntington Park aus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Huntington Park bietet bequemen Zugang zu den Autobahnen 710 und 5 sowie zu lokalen Busverbindungen."
+          }
+        }
+      ]
+    }
+  ]
+}

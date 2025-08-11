@@ -1,0 +1,154 @@
+{
+  "slug": "diamond-bar",
+  "name": "Diamond Bar",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Vorstadtstadt bekannt für ihre malerischen Hügel, familienfreundliche Umgebung und ausgezeichnete Schulen.",
+  "fullDescription": "Diamond Bar bietet einen friedlichen Vorstadtlebensstil mit vielen Parks, Wanderwegen und Gemeinschaftsveranstaltungen. Gelegen im östlichen Los Angeles County, verfügt es über gut gepflegte Nachbarschaften, starke öffentliche Schulen und einfachen Zugang zu den Autobahnen 60 und 57. Die Stadt ist beliebt bei Familien und Fachleuten, die eine ruhigere Umgebung in der Nähe städtischer Annehmlichkeiten suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vorstadt-Nachbarschaftsstraße in Diamond Bar mit Hügeln im Hintergrund",
+  "population": "56K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Vorstadt",
+    "Familienfreundlich",
+    "Wandern"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "Stadt",
+      "slug": "pomona",
+      "description": "Stadt mit einer historischen Innenstadt, kulturellen Veranstaltungsorten und Bildungseinrichtungen.",
+      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadt Pomona Straßenansicht",
+      "distance": "8 km östlich",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Pantera Park",
+      "description": "Beliebter lokaler Park mit Spielplätzen, Sportplätzen und Picknickbereichen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park mit Bäumen und offenem Grünraum"
+    },
+    {
+      "title": "Summit Ridge Park",
+      "description": "Hügelpark mit Wanderwegen und Panoramablick auf die Stadt.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Blick vom Wanderweg im Summit Ridge Park"
+    },
+    {
+      "title": "Diamond Bar Golfplatz",
+      "description": "Öffentlicher Golfplatz mit schöner Landschaftsgestaltung und Annehmlichkeiten.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Golfplatz mit grünen Fairways"
+    },
+    {
+      "title": "Diamond Bar Towne Center",
+      "description": "Einkaufs- und Restaurantzentrum mit verschiedenen Geschäften und Restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Einkaufszentrum Außenansicht"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Diamond Bar bekannt?",
+      "answer": "Diamond Bar ist bekannt für seine familienfreundlichen Nachbarschaften, ausgezeichnete Schulen und Outdoor-Freizeitmöglichkeiten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Diamond Bar?",
+      "answer": "Der Markt bietet eine Mischung aus Vorstadthäusern mit wettbewerbsfähigen Preisen und starker Nachfrage von Familien.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was sind beliebte Outdoor-Aktivitäten in Diamond Bar?",
+      "answer": "Bewohner genießen Wandern im Summit Ridge Park, Golf spielen und Zeit in lokalen Parks wie dem Pantera Park verbringen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist das Pendeln von Diamond Bar?",
+      "answer": "Diamond Bar bietet bequemen Autobahnzugang und vernünftige Pendelzeiten zu Los Angeles und Nachbarstädten.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Diamond Bar CA Immobilien & Lebensstil | Familienfreundliche Vorstadt",
+    "metaDescription": "Entdecken Sie Diamond Bars Nachbarschaften, Parks und Immobilien im Los Angeles County.",
+    "keywords": "Diamond Bar Immobilien, Diamond Bar Parks, Leben in Diamond Bar, Diamond Bar Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Diamond Bar: Vorstadtleben & Outdoor-Leben",
+    "ogDescription": "Finden Sie Ihr Zuhause in Diamond Bar mit seinen familienorientierten Nachbarschaften und malerischen Umgebungen.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vorstadt-Nachbarschaftsstraße in Diamond Bar",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Diamond Bar",
+      "description": "Entdecken Sie Immobilien, Nachbarschaften und Highlights in Diamond Bar, Kalifornien.",
+      "url": "https://example.com/locations/diamond-bar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vorstadt-Nachbarschaftsstraße in Diamond Bar"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Diamond Bar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Diamond Bar bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar ist bekannt für seine familienfreundlichen Nachbarschaften, ausgezeichnete Schulen und Outdoor-Freizeitmöglichkeiten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt bietet eine Mischung aus Vorstadthäusern mit wettbewerbsfähigen Preisen und starker Nachfrage von Familien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind beliebte Outdoor-Aktivitäten in Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bewohner genießen Wandern im Summit Ridge Park, Golf spielen und Zeit in lokalen Parks wie dem Pantera Park verbringen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar bietet bequemen Autobahnzugang und vernünftige Pendelzeiten zu Los Angeles und Nachbarstädten."
+          }
+        }
+      ]
+    }
+  ]
+}

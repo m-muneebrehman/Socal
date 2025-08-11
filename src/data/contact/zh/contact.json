@@ -1,0 +1,100 @@
+{
+  "locale": "zh",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "准备连接",
+      "title": "联系Crown Coastal Concierge",
+      "subtitle": "准备开始您的房地产之旅？今天就联系我们，让我们讨论您在圣地亚哥的梦想房产。"
+    },
+    "fields": {
+      "name": {
+        "label": "全名",
+        "placeholder": "输入您的全名",
+        "required": "*"
+      },
+      "phone": {
+        "label": "电话号码",
+        "placeholder": "输入您的电话号码",
+        "required": "*"
+      },
+      "email": {
+        "label": "电子邮件地址",
+        "placeholder": "输入您的电子邮件地址",
+        "required": "*"
+      },
+      "message": {
+        "label": "消息",
+        "placeholder": "告诉我们您的房地产需求、首选位置、预算和任何特定要求...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "隐私和同意",
+      "text": "通过提交您的信息，您同意上述房地产专业人士可能会就您的搜索致电/发送短信给您，这可能涉及使用自动化方式和预录制/人工语音。您不需要作为购买任何房产、商品或服务的条件而同意。可能会收取消息/数据费用。您还同意我们的使用条款。"
+    },
+    "submit": {
+      "sending": "发送消息中...",
+      "send": "发送消息"
+    },
+    "footer": {
+      "responseTime": "我们通常在营业时间内2小时内回复"
+    }
+  },
+  "hero": {
+    "profileStatus": "现在可用",
+    "profileCompany": "加利福尼亚州eXp",
+    "profileTitle": "Crown Coastal Concierge负责人",
+    "profileBadges": {
+      "topProducer": "顶级生产者",
+      "fiveStarRated": "五星评级"
+    },
+    "recentSales": {
+      "title": "最近销售",
+      "seeAll": "查看全部",
+      "sold": "已售",
+      "properties": [
+        {
+          "address": "1234 Ocean View Dr, La Jolla",
+          "price": "$2,450,000",
+          "year": "2024",
+          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "9012 Sunset Cliffs Rd, Point Loma",
+          "price": "$3,120,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+        },
+        {
+          "address": "3456 Pacific Coast Hwy, Encinitas",
+          "price": "$2,850,000",
+          "year": "2023",
+          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "了解Crown Coastal Concierge",
+      "subtitle": "房地产专业人士",
+      "text1": "通过跨越32个国家和100多个城市的旅程，Reza为圣地亚哥房地产市场带来了丰富的经验和独特的全球视角。他坚信没有地方像圣地亚哥一样，拥有无与伦比的海岸线、充满活力的城市景观和无尽的冒险。",
+      "text2": "利用17年的客户管理和谈判专业知识，Reza已经完善了理解客户需求并超越他们期望的艺术。但对他来说，这不仅仅是交易。无论是指导卖家最大化房屋价值，还是帮助买家找到梦想房产，Reza的真正热情在于为他的客户取得巨大成功。",
+      "text3": "除了房地产，Reza深深植根于圣地亚哥社区的结构中。他通过基层请愿支持正义事业，积极参与海滩清理，并通过各种政府补贴计划不懈努力提升服务不足的社区。对Reza来说，房地产不仅仅是生意——它是进一步服务和丰富他最珍视的社区的平台。"
+    },
+    "specialties": {
+      "title": "专业领域",
+      "tags": [
+        "买家代理",
+        "挂牌代理",
+        "搬迁",
+        "度假/短期租赁"
+      ],
+      "languages": "语言：英语、阿拉伯语、波斯语、土耳其语"
+    }
+  }
+}

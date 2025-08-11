@@ -1,125 +1,5 @@
 [
   {
-    "id": "6897d4e5d030dedaafd97951",
-    "slug": "maisons-avec-charme-vintage-a-los-angeles",
-    "title": "Maisons avec Charme Vintage à Los Angeles : Un Guide pour Acheteurs Internationaux",
-    "subtitle": "Trouver la maison de vos rêves dans les quartiers historiques de Los Angeles.",
-    "category": "Achat",
-    "author": {
-      "name": "Claude",
-      "title": "Expert en immobilier de luxe",
-      "avatar": "CL",
-      "bio": "Claude est un expert en immobilier de luxe avec une connaissance approfondie du marché immobilier de luxe en Californie du Sud, spécialisé dans les propriétés haut de gamme pour une clientèle internationale.  Son expertise couvre tous les aspects de l’investissement immobilier haut de gamme, des tendances du marché aux stratégies d’acquisition pour les clients fortunés. Claude conseille une clientèle internationale exigeante, en les guidant à travers le processus d’achat et en les aidant à trouver la propriété de leurs rêves.",
-      "url": ""
-    },
-    "date": "2024-08-20",
-    "readTime": "10 min de lecture",
-    "status": "Published",
-    "featured": true,
-    "heroImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "heroImageAlt": "Magnifique maison avec charme vintage à Los Angeles, avec piscine et jardin luxuriant.",
-    "canonicalUrl": "www.abc.com/fr/maisons-avec-charme-vintage-a-los-angeles",
-    "language": "fr",
-    "city": "Los Angeles",
-    "topic": "Achat",
-    "keyword": "Maisons_avec_charme_vintage_à_Los_Angeles",
-    "group_id": 109,
-    "seo": {
-      "metaTitle": "Maisons avec Charme Vintage à Los Angeles : Guide d’Investissement",
-      "metaDescription": "Découvrez les maisons avec charme vintage à Los Angeles : un investissement de choix dans un marché immobilier de luxe dynamique. Trouvez votre propriété de rêve avec notre guide expert.",
-      "keywords": "Maisons_avec_charme_vintage_à_Los_Angeles, immobilier de luxe Los Angeles, propriétés de prestige, investissement immobilier, Californie du Sud, maisons historiques, architecture vintage, luxe, prestige, ROI",
-      "ogTitle": "Maisons avec Charme Vintage à Los Angeles : Guide d’Investissement",
-      "ogDescription": "Découvrez les maisons avec charme vintage à Los Angeles : un investissement de choix dans un marché immobilier de luxe dynamique. Trouvez votre propriété de rêve avec notre guide expert.",
-      "ogImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "twitterCard": "summary_large_image"
-    },
-    "hreflang_tags": [
-      {
-        "hreflang": "en",
-        "href": "https://abc.com/en/maisonsaveccharmevintagelosangeles"
-      },
-      {
-        "hreflang": "fr",
-        "href": "https://abc.com/fr/maisonsaveccharmevintagelosangeles"
-      }
-    ],
-    "internal_links": [
-      {
-        "href": "/luxury-properties/los-angeles",
-        "anchor": "Propriétés de luxe à Los Angeles",
-        "context": "Découvrez notre sélection de propriétés de luxe à Los Angeles."
-      },
-      {
-        "href": "/investment-guides/southern-california",
-        "anchor": "Guide d’investissement en Californie du Sud",
-        "context": "Consultez notre guide d’investissement pour la Californie du Sud."
-      }
-    ],
-    "schema_markup": {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Maisons avec Charme Vintage à Los Angeles : Un Guide pour Acheteurs Internationaux",
-      "description": "Découvrez les maisons avec charme vintage à Los Angeles : un investissement de choix dans un marché immobilier de luxe dynamique. Trouvez votre propriété de rêve avec notre guide expert.",
-      "datePublished": "2024-08-20",
-      "dateModified": "2024-08-20",
-      "author": {
-        "@type": "Person",
-        "name": "Claude",
-        "jobTitle": "Expert en immobilier de luxe"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Premier Luxury Estates",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://abc.com/logo.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "www.abc.com/fr/maisons-avec-charme-vintage-a-los-angeles"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        "width": 2340,
-        "height": 1560
-      }
-    },
-    "images": [],
-    "word_count": 1300,
-    "ctaSection": {
-      "title": "Contactez-nous",
-      "subtitle": "Trouvez la propriété de vos rêves à Los Angeles.",
-      "ctaText": "Prêt à passer à l’action ?",
-      "ctaLink": "/downloads/urban-sustainability-guide"
-    },
-    "content": {
-      "lead": "Investir dans l’immobilier de luxe à Los Angeles est une opportunité unique pour les acheteurs internationaux.  La ville offre un mélange inégalé de charme vintage, d’architecture emblématique et d’un style de vie luxueux. Avec des quartiers prestigieux tels que Beverly Hills, Bel Air et Malibu, Los Angeles attire une clientèle internationale à la recherche de propriétés exceptionnelles. Le marché immobilier de luxe à Los Angeles est dynamique, avec des prix qui reflètent la rareté et le prestige des propriétés.  Les maisons avec charme vintage sont particulièrement recherchées, offrant un mélange unique d’histoire, de caractère et de modernité.",
-      "sections": [
-        {
-          "title": "Aperçu du Marché et Tendances",
-          "content": "Los Angeles offre une gamme de propriétés de luxe, dont les maisons avec charme vintage sont très prisées. Ces propriétés allient le charme du passé avec les commodités modernes.  Certaines sont situées dans des quartiers historiques, offrant un aperçu unique du passé de la ville.  Les maisons avec charme vintage sont généralement plus petites que les maisons modernes, mais elles offrent un caractère et un charme uniques.  ",
-          "quote": {
-            "text": "“Les maisons avec charme vintage à Los Angeles représentent un investissement exceptionnel, alliant le prestige d’un emplacement de choix et le caractère d’une propriété unique.”",
-            "author": "Claude, Expert en immobilier de luxe"
-          },
-          "additional": "Le marché des maisons de charme vintage à Los Angeles est très compétitif. La demande dépasse l’offre, ce qui conduit à des prix élevés et une concurrence accrue entre les acheteurs.  Il est essentiel de travailler avec un agent immobilier expérimenté et spécialisé dans ce segment du marché pour maximiser vos chances de succès.  ",
-          "subsections": [
-            {
-              "title": "Recherche et Sélection",
-              "content": "La recherche d’une maison avec charme vintage à Los Angeles nécessite une approche stratégique. Il est conseillé de définir vos critères de recherche avec précision, en tenant compte de votre budget, de l’emplacement désiré et des caractéristiques spécifiques que vous recherchez.  Travailler avec un agent immobilier expérimenté est crucial pour naviguer sur ce marché compétitif."
-            }
-          ]
-        }
-      ]
-    },
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2025-08-10T17:59:27.648Z",
-    "updatedAt": "2025-08-10T05:48:01.197Z"
-  },
-  {
     "id": "6898d55ed030dedaafd97a79",
     "slug": "homes-with-vintage-charm-in-los-angeles",
     "title": "Découvrez des maisons au charme vintage à Los Angeles : un investissement intemporel",
@@ -310,7 +190,7 @@
     },
     "views": 0,
     "likes": 0,
-    "createdAt": "2025-08-10T17:59:27.648Z",
-    "updatedAt": "2025-08-10T17:59:27.237Z"
+    "createdAt": "2025-08-11T23:20:10.570Z",
+    "updatedAt": "2025-08-10T18:21:49.672Z"
   }
 ]

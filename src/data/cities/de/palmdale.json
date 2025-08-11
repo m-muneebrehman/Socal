@@ -1,0 +1,154 @@
+{
+  "slug": "palmdale",
+  "name": "Palmdale",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine wachsende Stadt im Antelope Valley, bekannt für erschwinglichen Wohnraum, Freizeit im Freien und eine familienfreundliche Atmosphäre.",
+  "fullDescription": "Palmdale, im Norden des Los Angeles County gelegen, bietet seinen Bewohnern einen vorstädtischen Lebensstil mit stetig wachsenden Annehmlichkeiten. Bekannt für seinen zugänglichen Wohnungsmarkt, die Nähe zum Angeles National Forest und Gemeinschaftsparks, ist Palmdale ideal für Familien und Outdoor-Begeisterte. Die Stadt entwickelt sich schnell mit neuen Schulen, Einkaufszentren und Freizeiteinrichtungen und bewahrt dabei ein einladendes Kleinstadtgefühl im Großraum Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Stadtbild von Palmdale mit Bergen im Hintergrund",
+  "population": "157T+",
+  "avgHomePrice": "550.000 $",
+  "tags": [
+    "Erschwinglicher Wohnraum",
+    "Freizeit im Freien",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lancaster",
+      "type": "Stadt",
+      "slug": "lancaster",
+      "description": "Nachbarstadt, bekannt für Parks, kulturelle Veranstaltungen und eine wachsende Wirtschaft.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtbild von Lancaster",
+      "distance": "16 km westlich",
+      "avgHomePrice": "520.000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Antelope Valley California Mohn-Reservat",
+      "description": "Ein atemberaubendes Naturschutzgebiet mit lebhaften Wildblumenblüten im Frühling.",
+      "icon": "🌼",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Feld voller blühender Mohnblumen"
+    },
+    {
+      "title": "Palmdale City Park",
+      "description": "Gemeinschaftspark mit Spielplätzen, Sportanlagen und Picknickbereichen.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Parkbereich mit Bäumen und Spielplatz"
+    },
+    {
+      "title": "Dry Town Water Park",
+      "description": "Beliebter Wasserpark, der Familienspaß und Erfrischung im Sommer bietet.",
+      "icon": "💦",
+      "bgImage": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wasserrutschen in einem Wasserpark"
+    },
+    {
+      "title": "California State University, Bakersfield Antelope Valley",
+      "description": "Lokale Hochschuleinrichtung, die Palmdale und dem Antelope Valley dient.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campus-Gebäude der Universität"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Palmdale bekannt?",
+      "answer": "Palmdale ist bekannt für erschwinglichen Wohnraum, Freizeitaktivitäten im Freien und eine familienfreundliche Gemeinschaft.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Palmdale?",
+      "answer": "Palmdale bietet im Vergleich zu Los Angeles erschwinglicheren Wohnraum und einen wachsenden Markt.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten kann man in Palmdale unternehmen?",
+      "answer": "Die Bewohner genießen Wandern, den Besuch von Mohn-Reservaten und Wasserparks in der Umgebung.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Ist das Pendeln von Palmdale aus einfach?",
+      "answer": "Palmdale wird vom Highway 14 und der Metrolink-Bahn bedient und bietet Zugang zu Los Angeles und umliegenden Gebieten.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Palmdale CA Immobilien & Lebensstil | Erschwingliches Wohnen & Freizeit im Freien",
+    "metaDescription": "Entdecken Sie Palmdales Stadtteile, Parks und Immobilienangebote im Norden des Los Angeles County.",
+    "keywords": "Palmdale Immobilien, Palmdale Parks, Leben in Palmdale, Palmdale Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Palmdale: Erschwingliches Familienleben & Freizeit im Freien",
+    "ogDescription": "Finden Sie Ihr Zuhause in Palmdale mit Zugang zur Natur, Parks und wachsenden Gemeinschaftseinrichtungen.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Stadtbild von Palmdale mit Bergen im Hintergrund",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Palmdale",
+      "description": "Entdecken Sie Immobilien, Stadtteile und Highlights in Palmdale, Kalifornien.",
+      "url": "https://example.com/locations/palmdale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Stadtbild von Palmdale mit Bergen im Hintergrund"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Palmdale",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Palmdale bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale ist bekannt für erschwinglichen Wohnraum, Freizeitaktivitäten im Freien und eine familienfreundliche Gemeinschaft."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Palmdale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale bietet im Vergleich zu Los Angeles erschwinglicheren Wohnraum und einen wachsenden Markt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten kann man in Palmdale unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Bewohner genießen Wandern, den Besuch von Mohn-Reservaten und Wasserparks in der Umgebung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist das Pendeln von Palmdale aus einfach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Palmdale wird vom Highway 14 und der Metrolink-Bahn bedient und bietet Zugang zu Los Angeles und umliegenden Gebieten."
+          }
+        }
+      ]
+    }
+  ]
+}

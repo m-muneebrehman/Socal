@@ -1,0 +1,165 @@
+{
+  "slug": "lake-forest",
+  "name": "Lake Forest",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une communauté planifiée reconnue pour ses lacs pittoresques, ses parcs et son atmosphère familiale.",
+  "fullDescription": "Lake Forest est une ville dynamique du comté d’Orange qui comprend de magnifiques lacs artificiels, de nombreux parcs et des quartiers bien entretenus. La ville offre un environnement accueillant pour les familles, avec des écoles de qualité, des centres commerciaux et des opportunités de loisirs. Sa situation stratégique permet un accès pratique aux plages voisines, aux autoroutes et aux pôles d’emploi, ce qui en fait un lieu idéal pour vivre et travailler.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Lac pittoresque et zone de parc à Lake Forest",
+  "population": "85K+",
+  "avgHomePrice": "900 K$",
+  "tags": [
+    "Familial",
+    "Lacs & Parcs",
+    "Banlieue"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Mission Viejo",
+      "type": "ville",
+      "slug": "mission-viejo",
+      "description": "Communauté planifiée voisine avec lacs et parcs.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lac à Mission Viejo",
+      "distance": "5 miles au sud-est",
+      "avgHomePrice": "1,0 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Rancho Santa Margarita",
+      "type": "ville",
+      "slug": "rancho-santa-margarita",
+      "description": "Communauté familiale avec espaces ouverts et équipements.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier à Rancho Santa Margarita",
+      "distance": "6 miles à l’est",
+      "avgHomePrice": "950 K$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parcs de Lake Forest",
+      "description": "Parcs étendus et installations récréatives pour les familles et amateurs de plein air.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Zone de parc avec arbres et aire de jeux à Lake Forest"
+    },
+    {
+      "title": "Lacs artificiels",
+      "description": "Lacs pittoresques offrant sentiers de promenade, espaces pique-nique et événements communautaires.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vue sur un lac avec bancs et arbres"
+    },
+    {
+      "title": "Randonnées et sentiers",
+      "description": "Nombreux sentiers à travers les collines et espaces ouverts à proximité pour tous les niveaux.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier serpentant à travers les collines à Lake Forest"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Événements réguliers et festivals qui favorisent un fort esprit communautaire.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Événement communautaire en plein air dans un parc de Lake Forest"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quelles sont les principales attractions à Lake Forest ?",
+      "answer": "La ville est connue pour ses lacs pittoresques, ses nombreux parcs, ses sentiers de randonnée et ses événements familiaux.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Lake Forest ?",
+      "answer": "Lake Forest est desservie par des districts scolaires très bien notés, dont le Saddleback Valley Unified School District.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air les résidents peuvent-ils pratiquer ?",
+      "answer": "Les résidents apprécient la randonnée, le vélo, les activités sur les lacs et les ligues sportives communautaires dans les nombreux parcs.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Lake Forest est-elle bien située pour les déplacements quotidiens ?",
+      "answer": "Oui, Lake Forest offre un accès facile aux autoroutes I-5 et 241 à péage, facilitant les trajets vers les villes voisines et les centres d’emploi.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Lake Forest CA | Lacs, Parcs & Communauté Familiale",
+    "metaDescription": "Découvrez les parcs, lacs, quartiers, écoles et immobilier de Lake Forest, une ville familiale du comté d’Orange.",
+    "keywords": "immobilier Lake Forest, maisons comté d’Orange, parcs Lake Forest, lacs Lake Forest",
+    "ogTitle": "Découvrez Lake Forest : Parcs, Lacs & Vie Familiale",
+    "ogDescription": "Découvrez des quartiers familiaux et des lacs pittoresques à Lake Forest, Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Lac pittoresque et zone de parc à Lake Forest",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lake Forest",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Lake Forest, Californie.",
+      "url": "https://example.com/locations/lake-forest",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Lac pittoresque et zone de parc à Lake Forest"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lake Forest",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelles sont les principales attractions à Lake Forest ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ville est connue pour ses lacs pittoresques, ses nombreux parcs, ses sentiers de randonnée et ses événements familiaux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Lake Forest ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lake Forest est desservie par des districts scolaires très bien notés, dont le Saddleback Valley Unified School District."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air les résidents peuvent-ils pratiquer ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents apprécient la randonnée, le vélo, les activités sur les lacs et les ligues sportives communautaires dans les nombreux parcs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lake Forest est-elle bien située pour les déplacements quotidiens ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, Lake Forest offre un accès facile aux autoroutes I-5 et 241 à péage, facilitant les trajets vers les villes voisines et les centres d’emploi."
+          }
+        }
+      ]
+    }
+  ]
+}

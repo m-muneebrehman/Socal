@@ -1,0 +1,165 @@
+{
+  "slug": "pico-rivera",
+  "name": "Pico Rivera",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville familiale du sud-est du comté de Los Angeles connue pour ses parcs et son esprit communautaire.",
+  "fullDescription": "Pico Rivera est une ville accueillante située au sud-est du centre-ville de Los Angeles. Réputée pour son fort sens de la communauté, ses nombreux parcs et son environnement familial, elle offre un coût de vie abordable avec un accès facile aux grandes autoroutes et aux villes voisines. La ville organise des événements culturels annuels et est fière de sa population diversifiée et de ses écoles locales. Pico Rivera est idéale pour ceux qui recherchent un style de vie suburbain à proximité de la grande région de Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rue résidentielle dans un quartier de Pico Rivera",
+  "population": "62K+",
+  "avgHomePrice": "600K$",
+  "tags": [
+    "Familial",
+    "Parcs",
+    "Communauté"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Montebello",
+      "type": "ville",
+      "slug": "montebello",
+      "description": "Ville avec des quartiers diversifiés, des commerces et des parcs de loisirs.",
+      "image": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Quartier à Montebello",
+      "distance": "5 miles à l’ouest",
+      "avgHomePrice": "620K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "ville",
+      "slug": "downey",
+      "description": "Connu pour son ambiance de banlieue, ses parcs et ses équipements familiaux.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Zone de parc à Downey",
+      "distance": "6 miles au sud-ouest",
+      "avgHomePrice": "630K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parcs et loisirs",
+      "description": "De nombreux parcs et centres communautaires offrent des sports, des terrains de jeux et des événements pour tous les âges.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Enfants jouant dans un parc de la ville"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Des festivals annuels et des événements culturels célèbrent la population diversifiée et le patrimoine de Pico Rivera.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival communautaire avec décorations colorées"
+    },
+    {
+      "title": "Logements abordables",
+      "description": "Pico Rivera offre des options de logement plus abordables comparées aux villes voisines du comté de Los Angeles.",
+      "icon": "🏠",
+      "bgImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "bgImageAlt": "Maisons résidentielles à Pico Rivera"
+    },
+    {
+      "title": "Trajets faciles",
+      "description": "La proximité des grandes autoroutes permet un accès pratique à Los Angeles et au comté d’Orange.",
+      "icon": "🚗",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Autoroute avec des voitures au coucher du soleil"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Pico Rivera est-elle connue ?",
+      "answer": "Pico Rivera est connue pour son ambiance familiale, ses nombreux parcs et ses événements communautaires.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Pico Rivera ?",
+      "answer": "Le marché offre des options de logement abordables et une demande constante dans une zone suburbaines en croissance.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à Pico Rivera ?",
+      "answer": "Profitez des parcs de la ville, participez aux événements communautaires et explorez les commerces et restaurants des villes voisines.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les trajets depuis Pico Rivera ?",
+      "answer": "L’accès pratique aux grandes autoroutes rend les trajets vers Los Angeles et le comté d’Orange faciles à gérer.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Pico Rivera CA | Familial et parcs",
+    "metaDescription": "Découvrez les quartiers, parcs, événements communautaires et logements abordables de Pico Rivera dans le sud-est du comté de Los Angeles.",
+    "keywords": "immobilier Pico Rivera, parcs Pico Rivera, vivre à Pico Rivera, villes familiales à Los Angeles",
+    "ogTitle": "Découvrez Pico Rivera : vie communautaire et familiale",
+    "ogDescription": "Trouvez votre maison à Pico Rivera avec ses parcs, son esprit communautaire et ses options de logement abordables.",
+    "ogImage": "https://images.unsplash.com/photo-1590957141123-65d2681e2f2e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue résidentielle dans un quartier de Pico Rivera",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pico Rivera",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts de Pico Rivera, Californie.",
+      "url": "https://example.com/locations/pico-rivera",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1590957141123-65d2681e2f2e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rue résidentielle dans un quartier de Pico Rivera"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Pico Rivera",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Pico Rivera est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pico Rivera est connue pour son ambiance familiale, ses nombreux parcs et ses événements communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Pico Rivera ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché offre des options de logement abordables et une demande constante dans une zone suburbaines en croissance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on faire à Pico Rivera ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profitez des parcs de la ville, participez aux événements communautaires et explorez les commerces et restaurants des villes voisines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les trajets depuis Pico Rivera ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L’accès pratique aux grandes autoroutes rend les trajets vers Los Angeles et le comté d’Orange faciles à gérer."
+          }
+        }
+      ]
+    }
+  ]
+}

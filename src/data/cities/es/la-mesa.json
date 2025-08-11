@@ -1,0 +1,152 @@
+{
+  "slug": "la-mesa",
+  "name": "La Mesa",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una encantadora ciudad interior conocida como la \"Joya de las Colinas\" con un centro histórico, pueblos caminables y fácil acceso a San Diego.",
+  "fullDescription": "La Mesa es una comunidad vibrante en el condado de San Diego, que ofrece una sensación de pueblo pequeño con calles arboladas, un próspero pueblo en el centro y proximidad a importantes centros de empleo. Los residentes disfrutan de boutiques locales, mercados de agricultores y acceso rápido al Parque Regional Mission Trails, estando a solo 15 minutos del centro de San Diego.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+  "heroImageAlt": "Pueblo en el centro de La Mesa Boulevard",
+  "population": "60K+",
+  "avgHomePrice": "$850K+",
+  "tags": [
+    "Centro Caminable",
+    "Familiar",
+    "Senderos para Caminatas"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "ciudad",
+      "slug": "san-diego",
+      "description": "Importante centro metropolitano al oeste con vecindarios diversos, atracciones culturales y centros de empleo.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "Horizonte de San Diego visto desde la bahía",
+      "distance": "9 millas al oeste",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    },
+    {
+      "name": "El Cajon",
+      "type": "ciudad",
+      "slug": "el-cajon",
+      "description": "Ciudad vecina al este con opciones de vivienda asequibles y distritos comerciales en crecimiento.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "Escena de calle en el centro de El Cajon",
+      "distance": "5 millas al este",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "ciudad",
+      "slug": "lemon-grove",
+      "description": "Pequeña ciudad adyacente al sur conocida por su histórico Arco de Lemon Grove y su comunidad unida.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle suburbana con árboles en Lemon Grove",
+      "distance": "3 millas al sur",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Pueblo Histórico en el Centro",
+      "description": "Distrito encantador y caminable con tiendas locales, restaurantes y eventos estacionales como el Oktoberfest.",
+      "icon": "🏘️",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "bgImageAlt": "Calle del pueblo en La Mesa Boulevard"
+    },
+    {
+      "title": "Recreación al Aire Libre",
+      "description": "Acceso al Parque Regional Mission Trails y al Lago Murray para senderismo, ciclismo y actividades acuáticas.",
+      "icon": "🌄",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero para caminatas en el área de Mission Trails"
+    },
+    {
+      "title": "Ubicación Central",
+      "description": "Fácil acceso a autopistas hacia el centro de San Diego, playas y comunidades del Este del Condado.",
+      "icon": "📍",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colinas verdes y espacios abiertos cerca de La Mesa"
+    },
+    {
+      "title": "Eventos Comunitarios",
+      "description": "Mercados de agricultores semanales, conciertos de verano y la famosa Pasarela de las Estrellas de La Mesa.",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle en la noche con luces colgantes y ambiente de mercado"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuáles son las mejores áreas para vivir en La Mesa?",
+      "answer": "Los vecindarios populares incluyen el área del Pueblo cerca del centro, Mount Helix con sus vistas, y las áreas más asequibles cerca de El Cajon.",
+      "category": "Vecindarios"
+    },
+    {
+      "question": "¿Cómo es el traslado al centro de San Diego?",
+      "answer": "Aproximadamente 15-20 minutos por la I-8 o la Línea Naranja del Trolley, lo que hace a La Mesa ideal para quienes trabajan en el centro.",
+      "category": "Transporte"
+    },
+    {
+      "question": "¿Qué hace especial a La Mesa?",
+      "answer": "Su combinación de encanto de pueblo pequeño, centro caminable y ubicación conveniente entre San Diego y el Este del Condado.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Hay buenas escuelas en La Mesa?",
+      "answer": "Sí, La Mesa está atendida por el altamente calificado Distrito Escolar La Mesa-Spring Valley y el Distrito de Escuelas Secundarias Grossmont Union.",
+      "category": "Educación"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en La Mesa CA | Pueblo Caminable y Vida al Aire Libre",
+    "metaDescription": "Descubre los vecindarios de La Mesa, su pueblo histórico, recreación al aire libre y ubicación conveniente cerca de San Diego.",
+    "keywords": "bienes raíces La Mesa, La Mesa Pueblo, Mission Trails, Condado de San Diego, escuelas La Mesa",
+    "ogTitle": "Explora La Mesa: La Joya de las Colinas",
+    "ogDescription": "Conoce el centro caminable, actividades al aire libre y la ubicación ideal de La Mesa entre San Diego y el Este del Condado.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+    "ogImageAlt": "Pueblo en el centro de La Mesa Boulevard",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Mesa",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en La Mesa, California.",
+      "url": "https://example.com/locations/la-mesa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+        "caption": "Pueblo en el centro de La Mesa Boulevard"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Mesa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las áreas más caminables de La Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El área del Pueblo en el centro y los vecindarios cerca de la estación de Trolley Grossmont ofrecen los estilos de vida más caminables."
+          }
+        }
+      ]
+    }
+  ]
+}

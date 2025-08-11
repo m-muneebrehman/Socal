@@ -1,0 +1,155 @@
+{
+  "slug": "west-hollywood",
+  "name": "West Hollywood",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad moderna y vibrante conocida por su vida nocturna, escena artística y comunidad inclusiva.",
+  "fullDescription": "West Hollywood, o WeHo, es un enclave urbano dinámico celebrado por su animada vida nocturna, galerías de arte vanguardistas y eventos culturales diversos. Situado entre Beverly Hills y Hollywood, cuenta con calles transitables llenas de boutiques modernas, restaurantes populares y locales de música icónicos. Conocido por su espíritu progresista y su fuerte comunidad LGBTQ+, West Hollywood ofrece una mezcla única de entretenimiento, historia y vida moderna. La ciudad también alberga hermosos vecindarios residenciales, excelentes opciones de transporte público y una escena creativa próspera.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista al atardecer del paisaje urbano de West Hollywood con palmeras",
+  "population": "Más de 36K",
+  "avgHomePrice": "$1.7M",
+  "tags": [
+    "Vida nocturna",
+    "Artes y Cultura",
+    "Amigable con LGBTQ+",
+    "Moderno"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Beverly Hills",
+      "type": "ciudad",
+      "slug": "beverly-hills",
+      "description": "Ciudad exclusiva conocida por sus tiendas de lujo, casas de celebridades y alta gastronomía.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle de compras Rodeo Drive en Beverly Hills",
+      "distance": "1 milla al oeste",
+      "avgHomePrice": "$3.5M",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Sunset Strip",
+      "description": "Tramo famoso por su vida nocturna, locales de música y ambiente vibrante.",
+      "icon": "🎸",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Sunset Strip de noche con luces de neón"
+    },
+    {
+      "title": "Distrito de Diseño de West Hollywood",
+      "description": "Tiendas de alta gama y galerías de arte en un vecindario moderno y caminable.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boutiques y galerías exclusivas"
+    },
+    {
+      "title": "Eventos y Cultura LGBTQ+",
+      "description": "Ciudad acogedora conocida por celebraciones del Orgullo, centros comunitarios y ambiente inclusivo.",
+      "icon": "🏳️‍🌈",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Banderas arcoíris y evento comunitario"
+    },
+    {
+      "title": "Pacific Design Center",
+      "description": "Monumento arquitectónico con salas de exhibición de diseño, eventos y exposiciones de arte.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior del edificio Pacific Design Center"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido West Hollywood?",
+      "answer": "West Hollywood es famoso por su vibrante vida nocturna, escena artística y comunidad amigable con LGBTQ+.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en West Hollywood?",
+      "answer": "West Hollywood tiene un mercado competitivo con una mezcla de condominios de lujo y casas históricas.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las atracciones populares en West Hollywood?",
+      "answer": "El Sunset Strip, Pacific Design Center y numerosos teatros y locales de música atraen visitantes durante todo el año.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Es West Hollywood caminable y amigable con el transporte público?",
+      "answer": "Sí, tiene un diseño caminable con acceso a transporte público y carriles para bicicletas en toda la ciudad.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en West Hollywood CA | Vida Nocturna, Artes y Cultura",
+    "metaDescription": "Explora los vecindarios vibrantes, la vida nocturna icónica, la escena cultural y las opciones inmobiliarias de West Hollywood.",
+    "keywords": "Bienes raíces West Hollywood, vida nocturna West Hollywood, artes West Hollywood, vivir en West Hollywood",
+    "ogTitle": "Descubre West Hollywood: Vida Nocturna, Cultura y Comunidad",
+    "ogDescription": "Experimenta la animada escena artística y de vida nocturna en West Hollywood con vecindarios diversos y cultura inclusiva.",
+    "ogImage": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Panorama de West Hollywood al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "West Hollywood",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en West Hollywood, California.",
+      "url": "https://example.com/locations/west-hollywood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1517991104126-056c56a06d0b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista al atardecer del paisaje urbano de West Hollywood con palmeras"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "West Hollywood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido West Hollywood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood es famoso por su vibrante vida nocturna, escena artística y comunidad amigable con LGBTQ+."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en West Hollywood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood tiene un mercado competitivo con una mezcla de condominios de lujo y casas históricas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las atracciones populares en West Hollywood?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Sunset Strip, Pacific Design Center y numerosos teatros y locales de música atraen visitantes durante todo el año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es West Hollywood caminable y amigable con el transporte público?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, tiene un diseño caminable con acceso a transporte público y carriles para bicicletas en toda la ciudad."
+          }
+        }
+      ]
+    }
+  ]
+}

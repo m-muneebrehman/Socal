@@ -1,0 +1,165 @@
+{
+  "slug": "arcadia",
+  "name": "Arcadia",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad pintoresca en el Valle de San Gabriel conocida por sus excelentes escuelas, parques espaciosos y un ambiente familiar.",
+  "fullDescription": "Arcadia ofrece una mezcla de tranquilidad suburbana y vibrante vida comunitaria. Renombrada por sus escuelas de alto nivel, el Arboreto y Jardín Botánico del Condado de Los Ángeles, y una acogedora área del centro con tiendas y restaurantes, Arcadia es un lugar muy buscado para vivir. Su ubicación conveniente proporciona fácil acceso a Pasadena, Monrovia y otras ciudades circundantes, haciéndola ideal tanto para familias como para profesionales.",
+  "heroImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista panorámica del parque con palmeras y montañas en Arcadia",
+  "population": "58K+",
+  "avgHomePrice": "$1.1M",
+  "tags": [
+    "Familiar",
+    "Parques",
+    "Escuelas de alto nivel"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pasadena",
+      "type": "ciudad",
+      "slug": "pasadena",
+      "description": "Famosa por el Desfile de las Rosas, instituciones culturales y el vibrante Old Town.",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Arquitectura histórica en Pasadena",
+      "distance": "6 millas al oeste",
+      "avgHomePrice": "$1.1M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Monrovia",
+      "type": "ciudad",
+      "slug": "monrovia",
+      "description": "Una ciudad encantadora con centro histórico, senderos para caminar y una comunidad unida.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle del centro de Monrovia con tiendas y montañas",
+      "distance": "6 millas al este",
+      "avgHomePrice": "$750K",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Arboreto y Jardín Botánico del Condado de Los Ángeles",
+      "description": "Un impresionante jardín botánico de 127 acres que presenta plantas raras, pavos reales y monumentos históricos.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Jardín botánico exuberante con flores y vegetación"
+    },
+    {
+      "title": "Santa Anita Park",
+      "description": "Histórico hipódromo de pura sangre que alberga importantes eventos de carreras y actividades comunitarias.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Evento de carreras de caballos en Santa Anita Park"
+    },
+    {
+      "title": "Centro de Arcadia",
+      "description": "Área vibrante con tiendas, restaurantes y festivales estacionales para toda la familia.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle del centro ocupada con personas y tiendas"
+    },
+    {
+      "title": "Escuelas de Alto Nivel",
+      "description": "El Distrito Escolar Unificado de Arcadia es conocido por la excelencia en educación y el logro estudiantil.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Estudiantes caminando por el campus en uniformes escolares"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Arcadia?",
+      "answer": "Arcadia es mejor conocida por sus excelentes escuelas, hermosos parques y fuerte ambiente comunitario.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Arcadia?",
+      "answer": "El mercado es competitivo, con alta demanda de casas unifamiliares y vecindarios bien mantenidos.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Cuáles son las atracciones populares en Arcadia?",
+      "answer": "Las atracciones populares incluyen el Arboreto del Condado de Los Ángeles, Santa Anita Park y el animado centro de Arcadia.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el viaje desde Arcadia?",
+      "answer": "Arcadia ofrece acceso conveniente a la autopista 210 y la Línea Dorada del Metro, haciendo fácil el viaje a Pasadena y Los Ángeles.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Arcadia CA | Familia, Parques y Educación",
+    "metaDescription": "Explora los vecindarios, parques, escuelas y oportunidades de bienes raíces de Arcadia en el Valle de San Gabriel.",
+    "keywords": "bienes raíces Arcadia, parques Arcadia, escuelas Arcadia, vivir en Arcadia, casas en venta Arcadia",
+    "ogTitle": "Descubre Arcadia: Vida Familiar y Hermosos Parques",
+    "ogDescription": "Encuentra tu hogar en Arcadia con escuelas de alto nivel, parques y un acogedor ambiente comunitario.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista panorámica del parque con palmeras y montañas en Arcadia",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Arcadia",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Arcadia, California.",
+      "url": "https://example.com/locations/arcadia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista panorámica del parque con palmeras y montañas en Arcadia"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Arcadia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arcadia es mejor conocida por sus excelentes escuelas, hermosos parques y fuerte ambiente comunitario."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado es competitivo, con alta demanda de casas unifamiliares y vecindarios bien mantenidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las atracciones populares en Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las atracciones populares incluyen el Arboreto del Condado de Los Ángeles, Santa Anita Park y el animado centro de Arcadia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje desde Arcadia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arcadia ofrece acceso conveniente a la autopista 210 y la Línea Dorada del Metro, haciendo fácil el viaje a Pasadena y Los Ángeles."
+          }
+        }
+      ]
+    }
+  ]
+}

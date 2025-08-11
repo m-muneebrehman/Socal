@@ -1,0 +1,176 @@
+{
+  "slug": "seal-beach",
+  "name": "Seal Beach",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Encantadora ciudad costera conocida por su ambiente relajado de playa, su muelle histórico y su comunidad amigable.",
+  "fullDescription": "Seal Beach es una pintoresca comunidad costera en el Condado de Orange, que ofrece una atmósfera de pueblo pequeño con hermosas playas, un muelle histórico y un centro con tiendas y restaurantes pintorescos. La ciudad atrae a visitantes y residentes que buscan un estilo de vida costero relajado con fácil acceso al surf, la navegación y la recreación en la playa. Conocida por su seguridad, vecindarios amigables y eventos comunitarios, Seal Beach es ideal para familias, jubilados y cualquiera que busque una experiencia costera pacífica pero vibrante.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Muelle de Seal Beach con vista al océano al atardecer",
+  "population": "Más de 25K",
+  "avgHomePrice": "$1.3M",
+  "tags": [
+    "Costero",
+    "Familiar",
+    "Histórico"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Old Town Seal Beach",
+      "type": "distrito",
+      "slug": "old-town-seal-beach",
+      "description": "Área histórica del centro con tiendas boutique, restaurantes y acceso al muelle.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Distrito comercial de Old Town Seal Beach",
+      "distance": "Central",
+      "avgHomePrice": "$1.4M",
+      "county": "Orange"
+    },
+    {
+      "name": "Surfside",
+      "type": "residencial",
+      "slug": "surfside",
+      "description": "Barrio tranquilo cerca de la playa con casas unifamiliares y parques.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Casas residenciales cerca de la playa en Surfside",
+      "distance": "Oeste",
+      "avgHomePrice": "$1.3M",
+      "county": "Orange"
+    },
+    {
+      "name": "College Park East",
+      "type": "residencial",
+      "slug": "college-park-east",
+      "description": "Comunidad orientada a familias con escuelas, parques y fácil acceso a la autopista.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque vecinal en College Park East",
+      "distance": "Este",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Muelle de Seal Beach",
+      "description": "Uno de los muelles de madera más largos de la Costa Oeste, perfecto para pescar y paseos panorámicos.",
+      "icon": "🌉",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vista al atardecer del muelle de Seal Beach"
+    },
+    {
+      "title": "Refugio Nacional de Vida Silvestre de Seal Beach",
+      "description": "Humedales protegidos y hábitat de vida silvestre con senderos para caminar y oportunidades para la observación de aves.",
+      "icon": "🦆",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Humedales y aves en el refugio de Seal Beach"
+    },
+    {
+      "title": "Centro de Seal Beach",
+      "description": "Distrito vibrante con tiendas locales, restaurantes y frecuentes eventos y festivales comunitarios.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Escena callejera del centro de Seal Beach"
+    },
+    {
+      "title": "Surf y actividades de playa",
+      "description": "Lugares populares para surfear y playas familiares ideales para nadar, tomar el sol y hacer picnic.",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Surfistas y visitantes en la playa de Seal Beach"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Seal Beach?",
+      "answer": "Seal Beach es conocido por su muelle histórico, encanto costero, ambiente familiar y refugio de vida silvestre.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Seal Beach?",
+      "answer": "Seal Beach está atendido por el Distrito Escolar Unificado de Los Alamitos, conocido por su educación pública de alta calidad.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre puedo hacer en Seal Beach?",
+      "answer": "Las actividades populares incluyen surf, pesca en el muelle, voleibol de playa, observación de aves en el refugio y senderismo.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el transporte desde Seal Beach?",
+      "answer": "Seal Beach ofrece fácil acceso a autopistas hacia Long Beach, Los Ángeles y otras partes del Condado de Orange, con tiempos de traslado típicos de 30 a 60 minutos.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Vida Costera en Seal Beach CA | Muelle Histórico y Comunidad Familiar",
+    "metaDescription": "Descubre los vecindarios, recreación al aire libre, escuelas y opciones inmobiliarias en Seal Beach, a lo largo de la costa del Condado de Orange.",
+    "keywords": "Bienes raíces Seal Beach, muelle Seal Beach, vida costera Seal Beach, casas Condado de Orange",
+    "ogTitle": "Explora Seal Beach: Encanto Costero y Estilo de Vida al Aire Libre",
+    "ogDescription": "Experimenta vecindarios familiares, surf y refugio de vida silvestre en Seal Beach, California.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Muelle de Seal Beach con vista al océano al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Seal Beach",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Seal Beach, California.",
+      "url": "https://example.com/locations/seal-beach",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Muelle de Seal Beach con vista al océano al atardecer"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Seal Beach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach es conocido por su muelle histórico, encanto costero, ambiente familiar y refugio de vida silvestre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach está atendido por el Distrito Escolar Unificado de Los Alamitos, conocido por su educación pública de alta calidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre puedo hacer en Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las actividades populares incluyen surf, pesca en el muelle, voleibol de playa, observación de aves en el refugio y senderismo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el transporte desde Seal Beach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seal Beach ofrece fácil acceso a autopistas hacia Long Beach, Los Ángeles y otras partes del Condado de Orange, con tiempos de traslado típicos de 30 a 60 minutos."
+          }
+        }
+      ]
+    }
+  ]
+}

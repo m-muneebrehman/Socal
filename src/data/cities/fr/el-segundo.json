@@ -1,0 +1,176 @@
+{
+  "slug": "el-segundo",
+  "name": "El Segundo",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville côtière connue pour son industrie aérospatiale, ses plages et son atmosphère communautaire conviviale.",
+  "fullDescription": "El Segundo est située le long de la côte Pacifique, juste au sud de l'aéroport international de Los Angeles. Elle offre un mélange unique d'innovation industrielle et de charme de ville balnéaire, avec un secteur aérospatial florissant et un nombre croissant d'entreprises technologiques. La ville possède de belles plages, des parcs et un centre-ville accessible à pied avec des boutiques et des restaurants. Sa proximité avec LAX et les grandes autoroutes en fait un emplacement privilégié pour les navetteurs et les entreprises.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue côtière de la plage d'El Segundo avec paysage urbain",
+  "population": "17K+",
+  "avgHomePrice": "1,2 M$",
+  "tags": [
+    "Aérospatiale",
+    "Plages",
+    "Pôle technologique"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Manhattan Beach",
+      "type": "ville",
+      "slug": "manhattan-beach",
+      "description": "Ville côtière huppée connue pour ses belles plages, sa jetée et son centre-ville animé.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Jetée de Manhattan Beach au coucher du soleil",
+      "distance": "3 miles au sud",
+      "avgHomePrice": "2,5 M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Hawthorne",
+      "type": "ville",
+      "slug": "hawthorne",
+      "description": "Ville avec une riche histoire dans l'aérospatiale et des communautés résidentielles en croissance.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rues résidentielles à Hawthorne",
+      "distance": "4 miles au nord-est",
+      "avgHomePrice": "800 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Inglewood",
+      "type": "ville",
+      "slug": "inglewood",
+      "description": "Ville dynamique connue pour ses sites sportifs, ses divertissements et ses quartiers diversifiés.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centre-ville d'Inglewood la nuit",
+      "distance": "5 miles à l'est",
+      "avgHomePrice": "750 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Plage d'El Segundo",
+      "description": "Une plage tranquille parfaite pour la baignade, le bronzage et les pique-niques.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Plage d'El Segundo avec vagues et sable"
+    },
+    {
+      "title": "Pôle industriel aérospatial",
+      "description": "Siège de grandes entreprises aérospatiales et centres d'innovation technologique.",
+      "icon": "✈️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiments et technologies aérospatiales"
+    },
+    {
+      "title": "Centre-ville d'El Segundo",
+      "description": "Quartier charmant avec boutiques, restaurants et événements communautaires.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville avec cafés et boutiques"
+    },
+    {
+      "title": "Parcs et loisirs",
+      "description": "Plusieurs parcs et sentiers pour les activités de plein air et les sports.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Zone de parc verdoyante avec sentiers de promenade"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi El Segundo est-il connu ?",
+      "answer": "El Segundo est connu pour son industrie aérospatiale, ses plages et sa communauté familiale.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à El Segundo ?",
+      "answer": "Le marché propose des maisons haut de gamme, avec une forte demande due à son emplacement côtier et son environnement d'affaires.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à El Segundo ?",
+      "answer": "Profitez des plages, explorez les boutiques et restaurants du centre-ville, ou visitez les sites de l'industrie aérospatiale.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis El Segundo ?",
+      "answer": "La proximité de LAX et des principales autoroutes comme la 405 et la 105 rend les déplacements pratiques.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à El Segundo CA | Plages & pôle aérospatial",
+    "metaDescription": "Découvrez le charme côtier d'El Segundo, son industrie aérospatiale et les options immobilières dans le comté de Los Angeles.",
+    "keywords": "immobilier El Segundo, plages El Segundo, industrie aérospatiale, vivre à El Segundo",
+    "ogTitle": "Explorez El Segundo : Vie côtière & industrie aérospatiale",
+    "ogDescription": "Trouvez votre maison à El Segundo avec ses belles plages et une communauté technologique et aérospatiale dynamique.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Plage et paysage urbain d'El Segundo",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Segundo",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts d'El Segundo, Californie.",
+      "url": "https://example.com/locations/el-segundo",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue côtière de la plage d'El Segundo avec paysage urbain"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Segundo",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi El Segundo est-il connu ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Segundo est connu pour son industrie aérospatiale, ses plages et sa communauté familiale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à El Segundo ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché propose des maisons haut de gamme, avec une forte demande due à son emplacement côtier et son environnement d'affaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on faire à El Segundo ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profitez des plages, explorez les boutiques et restaurants du centre-ville, ou visitez les sites de l'industrie aérospatiale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis El Segundo ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La proximité de LAX et des principales autoroutes comme la 405 et la 105 rend les déplacements pratiques."
+          }
+        }
+      ]
+    }
+  ]
+}

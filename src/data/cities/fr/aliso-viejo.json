@@ -1,0 +1,187 @@
+{
+  "slug": "aliso-viejo",
+  "name": "Aliso Viejo",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une communauté planifiée offrant le confort suburbain avec des parcs, des lacs, ainsi que des options animées de shopping et de restauration.",
+  "fullDescription": "Située dans le sud du comté d'Orange, Aliso Viejo est connue pour son ambiance familiale, ses quartiers bien entretenus et ses nombreuses commodités extérieures, notamment des sentiers, des parcs et le pittoresque parc naturel Aliso and Wood Canyons Wilderness. La ville possède d'excellentes écoles, des centres d'affaires dynamiques et divers événements communautaires, ce qui en fait un choix attractif pour les professionnels et les familles.",
+  "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+  "heroImageAlt": "Vue des quartiers suburbains avec collines près d'Aliso Viejo",
+  "population": "50K+",
+  "avgHomePrice": "900 K$",
+  "tags": [
+    "Familial",
+    "Parcs et sentiers",
+    "Suburbain"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Hills",
+      "type": "ville",
+      "slug": "laguna-hills",
+      "description": "Ville voisine avec des communautés établies, des terrains de golf et des centres commerciaux.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rues résidentielles et terrain de golf à Laguna Hills",
+      "distance": "3 miles au nord-ouest",
+      "avgHomePrice": "850 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Lake Forest",
+      "type": "ville",
+      "slug": "lake-forest",
+      "description": "Ville orientée famille avec de nombreux parcs, lacs et un centre communautaire dynamique.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lac et parc à Lake Forest",
+      "distance": "4 miles au nord-est",
+      "avgHomePrice": "800 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "ville",
+      "slug": "mission-viejo",
+      "description": "Grande ville suburbaine avec lacs, parcs, commerces et écoles de premier plan.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc communautaire à Mission Viejo",
+      "distance": "5 miles au sud",
+      "avgHomePrice": "950 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Dana Point",
+      "type": "ville",
+      "slug": "dana-point",
+      "description": "Ville côtière connue pour ses plages, marinas et activités de plein air.",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ligne côtière et marina à Dana Point",
+      "distance": "10 miles au sud-ouest",
+      "avgHomePrice": "1,2 M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc naturel Aliso and Wood Canyons Wilderness",
+      "description": "Grand parc naturel offrant randonnée, vélo et observation de la faune dans un cadre de canyon pittoresque.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier et zone sauvage dans Aliso and Wood Canyons"
+    },
+    {
+      "title": "Centre-ville d'Aliso Viejo",
+      "description": "Centre commercial, restauration et divertissement avec des événements familiaux et des commerces locaux.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Zone de shopping et restauration dans le centre-ville d'Aliso Viejo"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Marchés fermiers réguliers, concerts et festivals saisonniers qui favorisent un esprit communautaire soudé.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Événement communautaire avec familles et activités en plein air"
+    },
+    {
+      "title": "Écoles de premier plan",
+      "description": "Excellentes écoles publiques et privées desservant la ville, contribuant à un environnement familial solide.",
+      "icon": "🏫",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment scolaire et aire de jeux"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quelles activités de plein air sont populaires à Aliso Viejo ?",
+      "answer": "La randonnée, le vélo et les promenades dans le parc naturel Aliso and Wood Canyons Wilderness sont très prisés des résidents.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Quelle est la convivialité familiale d'Aliso Viejo ?",
+      "answer": "La ville offre de nombreux parcs, des écoles de qualité et des événements communautaires qui la rendent très accueillante pour les familles.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Quelles sont les options de shopping locales ?",
+      "answer": "Le centre-ville d'Aliso Viejo est la principale destination pour le shopping et la restauration avec une variété de magasins et de restaurants.",
+      "category": "Shopping"
+    },
+    {
+      "question": "Comment sont les trajets vers les centres d'emploi proches ?",
+      "answer": "Aliso Viejo bénéficie d'un accès facile aux autoroutes majeures et est situé au centre, près d'Irvine, Laguna Hills et Mission Viejo pour les trajets domicile-travail.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Aliso Viejo CA | Communauté familiale & vie en plein air",
+    "metaDescription": "Découvrez les quartiers, les loisirs de plein air, les écoles et les options immobilières d'Aliso Viejo dans le sud du comté d'Orange, Californie.",
+    "keywords": "immobilier Aliso Viejo, vie dans le comté d'Orange, villes familiales, activités de plein air Aliso Viejo",
+    "ogTitle": "Découvrez Aliso Viejo : communauté familiale et style de vie en plein air",
+    "ogDescription": "Vivez les parcs, sentiers et la vie communautaire dynamique d'Aliso Viejo dans le comté d'Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue suburbain d'Aliso Viejo avec collines et maisons",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Aliso Viejo",
+      "description": "Découvrez les quartiers, les activités de plein air, les écoles et les options immobilières d'Aliso Viejo dans le sud du comté d'Orange, Californie.",
+      "url": "https://example.com/locations/aliso-viejo",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue suburbain d'Aliso Viejo avec collines et maisons"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Aliso Viejo",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont populaires à Aliso Viejo ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La randonnée, le vélo et les promenades dans le parc naturel Aliso and Wood Canyons Wilderness sont très prisés des résidents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la convivialité familiale d'Aliso Viejo ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ville offre de nombreux parcs, des écoles de qualité et des événements communautaires qui la rendent très accueillante pour les familles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les options de shopping locales ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le centre-ville d'Aliso Viejo est la principale destination pour le shopping et la restauration avec une variété de magasins et de restaurants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les trajets vers les centres d'emploi proches ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aliso Viejo bénéficie d'un accès facile aux autoroutes majeures et est situé au centre, près d'Irvine, Laguna Hills et Mission Viejo pour les trajets domicile-travail."
+          }
+        }
+      ]
+    }
+  ]
+}

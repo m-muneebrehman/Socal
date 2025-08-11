@@ -1,0 +1,165 @@
+{
+  "slug": "gardena",
+  "name": "Gardena",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville diverse dans la région du South Bay connue pour sa forte communauté, ses parcs et son emplacement pratique.",
+  "fullDescription": "Gardena est une ville dynamique située dans la région du South Bay du comté de Los Angeles. Connue pour sa diversité culturelle et ses quartiers conviviaux, Gardena offre un mélange de communautés résidentielles, de centres commerciaux et de parcs de loisirs. La ville bénéficie de sa proximité avec les grandes autoroutes et l’aéroport international de Los Angeles, ce qui en fait un lieu pratique pour les navetteurs. Gardena est également reconnue pour ses parcs bien entretenus et une variété d’événements locaux qui rassemblent la communauté.",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue d'une rue du centre-ville de Gardena avec des palmiers et un ciel clair",
+  "population": "58K+",
+  "avgHomePrice": "650 K$",
+  "tags": [
+    "Communauté",
+    "Parcs",
+    "Emplacement pratique"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Hawthorne",
+      "type": "ville",
+      "slug": "hawthorne",
+      "description": "Ville avec une riche histoire dans l'aérospatiale et des communautés résidentielles en croissance.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rues résidentielles à Hawthorne",
+      "distance": "3 miles à l'ouest",
+      "avgHomePrice": "800 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "ville",
+      "slug": "compton",
+      "description": "Ville historique avec une culture diversifiée et un riche héritage musical.",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Quartier urbain à Compton",
+      "distance": "5 miles à l'est",
+      "avgHomePrice": "550 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Réserve naturelle Gardena Willows Wetland",
+      "description": "Une zone naturelle avec des sentiers et des opportunités d’observation de la faune.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Verdure luxuriante à la réserve naturelle Gardena Willows Wetland"
+    },
+    {
+      "title": "Centre communautaire Huntington Park",
+      "description": "Propose des programmes récréatifs et des événements communautaires.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment moderne de centre communautaire"
+    },
+    {
+      "title": "Parcs et loisirs locaux",
+      "description": "Gardena possède plusieurs parcs, notamment Rowley Park et Hansen Dam avec des installations sportives et des terrains de jeux.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Espace vert avec terrain de jeux et sentiers pédestres"
+    },
+    {
+      "title": "Centre-ville de Gardena",
+      "description": "Quartier commercial et de restauration en plein essor avec une variété de commerces locaux.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue commerçante animée avec des gens et des vitrines"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Gardena est-elle connue ?",
+      "answer": "Gardena est connue pour sa forte communauté, ses réserves naturelles et son emplacement pratique près de LAX.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Gardena ?",
+      "answer": "Le marché immobilier à Gardena propose des maisons abordables avec un mélange de maisons unifamiliales et de condos.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités récréatives sont disponibles à Gardena ?",
+      "answer": "Les résidents profitent des parcs, des centres communautaires et des plages à proximité pour les activités en plein air.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Gardena ?",
+      "answer": "Gardena dispose d’un bon accès aux autoroutes et d’options de transport en commun, ce qui rend les déplacements vers le centre-ville de Los Angeles et d’autres zones faciles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et communauté à Gardena CA | Parcs, style de vie & emplacement",
+    "metaDescription": "Découvrez les quartiers, parcs et opportunités immobilières de Gardena dans la région du South Bay du comté de Los Angeles.",
+    "keywords": "immobilier Gardena, parcs Gardena, vivre à Gardena, maisons à vendre à Gardena",
+    "ogTitle": "Découvrez Gardena : vie communautaire et beauté naturelle",
+    "ogDescription": "Trouvez votre maison à Gardena avec sa communauté accueillante, ses espaces verts et son emplacement pratique.",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue d'une rue du centre-ville de Gardena avec des palmiers et un ciel clair",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Gardena",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Gardena, Californie.",
+      "url": "https://example.com/locations/gardena",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue d'une rue du centre-ville de Gardena avec des palmiers et un ciel clair"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Gardena",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Gardena est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gardena est connue pour sa forte communauté, ses réserves naturelles et son emplacement pratique près de LAX."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Gardena ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier à Gardena propose des maisons abordables avec un mélange de maisons unifamiliales et de condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités récréatives sont disponibles à Gardena ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent des parcs, des centres communautaires et des plages à proximité pour les activités en plein air."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Gardena ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gardena dispose d’un bon accès aux autoroutes et d’options de transport en commun, ce qui rend les déplacements vers le centre-ville de Los Angeles et d’autres zones faciles."
+          }
+        }
+      ]
+    }
+  ]
+}

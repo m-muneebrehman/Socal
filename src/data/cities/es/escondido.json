@@ -1,0 +1,187 @@
+{
+  "slug": "escondido",
+  "name": "Escondido",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad pintoresca del interior con parques, atracciones culturales y fácil acceso a playas y senderos del Norte del Condado.",
+  "fullDescription": "Escondido combina el encanto suburbano con una rica historia cultural y recreación al aire libre. Ubicada en el Norte del Condado de San Diego, Escondido es conocida por Daley Ranch y el Parque Safari del Zoológico de San Diego, un vibrante centro (Grand Ave) con restaurantes y eventos, y fácil acceso a comunidades costeras cercanas. La ciudad ofrece viviendas diversas, comodidades familiares y espacios abiertos para excursionistas y amantes de la naturaleza.",
+  "heroImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Filas de viñedos en California durante la hora dorada cerca de Escondido",
+  "population": "150K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Colinas",
+    "Parques",
+    "Familiar"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Marcos",
+      "type": "ciudad",
+      "slug": "san-marcos",
+      "description": "Ciudad vecina con escuelas sólidas, el Lago San Marcos y fácil acceso a tiendas regionales y senderos.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Colinas verdes y espacios abiertos cerca de San Marcos",
+      "distance": "8 millas al oeste",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "ciudad",
+      "slug": "vista",
+      "description": "Ciudad interior familiar conocida por sus parques, una activa escena de cerveza artesanal y eventos comunitarios.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Barrio suburbano y calle arbolada en Vista",
+      "distance": "10 millas al suroeste",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "ciudad",
+      "slug": "carlsbad",
+      "description": "Ciudad costera con playas, atracciones familiares (LEGOLAND) y restaurantes, a corta distancia en auto desde Escondido.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Muelle al atardecer y costa cerca de Carlsbad",
+      "distance": "18 millas al suroeste",
+      "avgHomePrice": "$1.1M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Poway",
+      "type": "ciudad",
+      "slug": "poway",
+      "description": "Comunidad suburbana tranquila al sureste de Escondido con senderos, áreas ecuestres y vecindarios familiares.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sendero escénico para caminatas entre colinas de Poway",
+      "distance": "15 millas al sureste",
+      "avgHomePrice": "$900K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Daley Ranch y Senderismo",
+      "description": "Más de 3,000 acres de terreno preservado con senderos para caminatas, ciclismo de montaña y observación de fauna.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero entre colinas y robles"
+    },
+    {
+      "title": "Parque Safari del Zoológico de San Diego",
+      "description": "Parque de vida silvestre de clase mundial con experiencias de safari, programas de conservación y actividades familiares.",
+      "icon": "🦁",
+      "bgImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exhibición estilo sabana en parque de vida silvestre"
+    },
+    {
+      "title": "Centro Grand Avenue",
+      "description": "Centro histórico con restaurantes, cervecerías, música en vivo y las noches semanales Cruisin’ Grand con autos clásicos en temporada.",
+      "icon": "🎶",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Calle del centro con luces de restaurante por la noche"
+    },
+    {
+      "title": "Bodegas Locales y Mercados de Agricultores",
+      "description": "Pequeñas bodegas cercanas y mercados de agricultores regulares ofrecen productos locales y actividades de fin de semana.",
+      "icon": "🍷",
+      "bgImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Filas de viñedos durante la hora dorada"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuáles son los mejores vecindarios en Escondido?",
+      "answer": "Las áreas populares incluyen el centro cerca de Grand Avenue para vida nocturna y restaurantes, vecindarios cerca de Daley Ranch para acceso al aire libre, y zonas residenciales cercanas a los parques Valley y Felicita para familias.",
+      "category": "Vecindarios"
+    },
+    {
+      "question": "¿Cómo es el mercado inmobiliario en Escondido?",
+      "answer": "Escondido ofrece una mezcla de tipos de vivienda — desde cabañas históricas hasta desarrollos nuevos — con precios medianos típicamente más bajos que en la costa del Norte del Condado, pero varían según el vecindario.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué se puede hacer en Escondido?",
+      "answer": "Explorar Daley Ranch, visitar el Parque Safari, asistir a eventos en Grand Avenue o hacer excursiones de un día a playas y áreas para caminatas cercanas.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el traslado desde Escondido?",
+      "answer": "Las autopistas 78 y 15 proporcionan acceso regional; conducir es común y hay conexiones de transporte público hacia otras ciudades del Norte del Condado.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Escondido CA Bienes Raíces y Estilo de Vida | Parques, Safari Park y Centro",
+    "metaDescription": "Conoce los vecindarios de Escondido, la recreación al aire libre en Daley Ranch, el Parque Safari del Zoológico de San Diego y las opciones inmobiliarias en el Norte del Condado de San Diego.",
+    "keywords": "bienes raíces Escondido, Daley Ranch, Parque Safari Zoológico de San Diego, vivir en Escondido, casas en Escondido",
+    "ogTitle": "Descubre Escondido: Parques, Safari Park y Vida en el Centro",
+    "ogDescription": "Explora los vecindarios, parques y atracciones culturales de Escondido. Encuentra el área ideal para vivir en el Norte del Condado de San Diego.",
+    "ogImage": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Colinas del valle de Escondido al atardecer",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Escondido",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Escondido, California.",
+      "url": "https://example.com/locations/escondido",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Colinas ondulantes cerca de Escondido al atardecer"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Escondido",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores vecindarios en Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Centro Grand Avenue, áreas cerca de Daley Ranch y vecindarios alrededor de los parques Valley y Felicita son populares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el mercado inmobiliario en Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Escondido tiene opciones de vivienda variadas con precios generalmente más asequibles que en la costa del Norte del Condado, pero los valores varían según el vecindario."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se puede hacer en Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitar Daley Ranch, el Parque Safari, asistir a eventos locales y hacer excursiones cortas a playas y áreas para caminar cercanas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el traslado desde Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las autopistas 78 y 15 brindan acceso regional; conducir es común y hay enlaces de transporte a otras ciudades del Norte del Condado."
+          }
+        }
+      ]
+    }
+  ]
+}

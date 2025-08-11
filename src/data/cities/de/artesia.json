@@ -1,0 +1,176 @@
+{
+  "slug": "artesia",
+  "name": "Artesia",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine vielfältige Stadt im Südosten des Los Angeles County, bekannt für ihr kulturelles Erbe und Gemeinschaftsveranstaltungen.",
+  "fullDescription": "Artesia ist eine lebendige Gemeinschaft, die für ihre reiche kulturelle Vielfalt gefeiert wird, insbesondere ihren starken indischen und südostasiatischen Einfluss. Die Stadt veranstaltet verschiedene Feste, hat eine florierende lokale Geschäftsszene und bietet eine Vielzahl von Parks und Freizeiteinrichtungen. Praktisch gelegen in der Nähe wichtiger Autobahnen bietet Artesia einfachen Zugang zu nahegelegenen Städten und dem Großraum Los Angeles, was es zu einem attraktiven Ort für Familien und Fachkräfte gleichermaßen macht.",
+  "heroImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Straßenansicht mit Geschäften und Palmen in Artesia",
+  "population": "16K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Kulturelle Vielfalt",
+    "Gemeinschaftsveranstaltungen",
+    "Praktische Lage"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lakewood",
+      "type": "Stadt",
+      "slug": "lakewood",
+      "description": "Familienfreundliche Stadt mit zahlreichen Parks, Schulen und einer vorstädtischen Atmosphäre.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Baumgesäumte Straße und Häuser in Lakewood",
+      "distance": "4 Meilen südwestlich",
+      "avgHomePrice": "$750K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "Stadt",
+      "slug": "bellflower",
+      "description": "Eine Stadt mit vielfältigen Nachbarschaften, Parks und einem wachsenden Geschäftsviertel.",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadtstraße in Bellflower mit Geschäften",
+      "distance": "5 Meilen westlich",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Norwalk",
+      "type": "Stadt",
+      "slug": "norwalk",
+      "description": "Stadt mit Parks, Gemeinschaftszentren und einfachem Autobahnzugang.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Norwalk Stadtpark und Spazierwege",
+      "distance": "6 Meilen östlich",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Jährliches Artesia Festival",
+      "description": "Eine kulturelle Feier, die lokale Kunst, Essen und Musik präsentiert.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Menschenmenge genießt ein Gemeinschaftsfest"
+    },
+    {
+      "title": "Artesia Park",
+      "description": "Beliebter lokaler Park mit Sportplätzen, Spielplätzen und Picknickbereichen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Grüner Parkbereich mit Bäumen und Spielplatz"
+    },
+    {
+      "title": "Kulturelles Einkaufsviertel",
+      "description": "Geschäfte und Restaurants, die authentische indische und südostasiatische Waren und Küche anbieten.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Bunte Marktstände und Geschäfte"
+    },
+    {
+      "title": "Einfacher Autobahnzugang",
+      "description": "Nähe zu den 91er und 605er Autobahnen für praktisches Pendeln.",
+      "icon": "🚗",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Autobahn mit Autos und Verkehr"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Artesia bekannt?",
+      "answer": "Artesia ist bekannt für seine reiche kulturelle Vielfalt, Gemeinschaftsfeste und authentische Essensoptionen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Artesia?",
+      "answer": "Der Markt ist erschwinglich im Vergleich zu nahegelegenen Städten, mit einer Mischung aus Einfamilienhäusern und Apartments.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was sind beliebte Aktivitäten in Artesia?",
+      "answer": "Besuchen Sie den Artesia Park, genießen Sie kulturelle Feste und erkunden Sie das lebendige Einkaufsviertel.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Weg von Artesia?",
+      "answer": "Nahe an wichtigen Autobahnen wie der 91er und 605er bietet Artesia einfachen Zugang für Pendler nach Los Angeles und Orange County.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Artesia CA Immobilien & Lebensstil | Kultur, Gemeinschaft & Bequemlichkeit",
+    "metaDescription": "Entdecken Sie Artesias kulturelle Vielfalt, Gemeinschaftsveranstaltungen und erschwingliche Immobilienoptionen im Südosten des Los Angeles County.",
+    "keywords": "Artesia Immobilien, Artesia Kultur, Artesia Gemeinschaft, Leben in Artesia, Artesia Häuser zum Verkauf",
+    "ogTitle": "Erkunden Sie Artesia: Kultur, Gemeinschaft & Bequemes Leben",
+    "ogDescription": "Finden Sie Ihren Platz in Artesia mit seiner lebendigen Kultur, Gemeinschaftsgeist und einfachem Autobahnzugang.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Straßenansicht mit Geschäften und Palmen in Artesia",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Artesia",
+      "description": "Erkunden Sie Immobilien, Nachbarschaften und Höhepunkte in Artesia, Kalifornien.",
+      "url": "https://example.com/locations/artesia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Straßenansicht mit Geschäften und Palmen in Artesia"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Artesia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Artesia bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Artesia ist bekannt für seine reiche kulturelle Vielfalt, Gemeinschaftsfeste und authentische Essensoptionen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Artesia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt ist erschwinglich im Vergleich zu nahegelegenen Städten, mit einer Mischung aus Einfamilienhäusern und Apartments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind beliebte Aktivitäten in Artesia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Besuchen Sie den Artesia Park, genießen Sie kulturelle Feste und erkunden Sie das lebendige Einkaufsviertel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Weg von Artesia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nahe an wichtigen Autobahnen wie der 91er und 605er bietet Artesia einfachen Zugang für Pendler nach Los Angeles und Orange County."
+          }
+        }
+      ]
+    }
+  ]
+}

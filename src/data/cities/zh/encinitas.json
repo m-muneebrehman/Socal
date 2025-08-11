@@ -1,0 +1,163 @@
+{
+  "slug": "encinitas",
+  "name": "恩西尼塔斯",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "北圣地亚哥县的海滨珍宝，以冲浪文化、精品店和悠闲的海滩社区及充满活力的本地魅力著称。",
+  "fullDescription": "恩西尼塔斯是北圣地亚哥县一个风景如画的海滩城市，以斯瓦米海滩等冲浪胜地、101号公路上的多元化市中心以及郁郁葱葱的植物园闻名。居民享受沿海的悠闲生活与积极的生活方式的结合，轻松通达卡尔斯巴德的景点以及圣马科斯和维斯塔的内陆便利设施。",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "恩西尼塔斯海岸线，冲浪者和日落景色",
+  "population": "6万+",
+  "avgHomePrice": "150万美元以上",
+  "tags": [
+    "海滨小镇",
+    "冲浪",
+    "精品购物"
+  ],
+  "neighborhoods": [
+    {
+      "name": "卡尔斯巴德",
+      "type": "城市",
+      "slug": "carlsbad",
+      "description": "北部邻近的海滨城市，拥有乐高乐园、塔玛拉克海滩和卡尔斯巴德村的餐饮场所。",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "卡尔斯巴德海岸线与海浪",
+      "distance": "北6英里",
+      "avgHomePrice": "130万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "索拉纳海滩",
+      "type": "城市",
+      "slug": "solana-beach",
+      "description": "南部迷人的海滨邻居，拥有塞德罗斯设计区和弗莱彻湾海滩。",
+      "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "索拉纳海滩的海岸悬崖和海洋",
+      "distance": "南4英里",
+      "avgHomePrice": "200万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "圣马科斯",
+      "type": "城市",
+      "slug": "san-marcos",
+      "description": "内陆城市，拥有加州州立大学圣马科斯分校、徒步小径和适合家庭居住的郊区。",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣马科斯的山丘和社区",
+      "distance": "东10英里",
+      "avgHomePrice": "82万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "维斯塔",
+      "type": "城市",
+      "slug": "vista",
+      "description": "附近的内陆城市，拥有酿酒厂、社区公园，与海滨城镇相比住房更为实惠。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "维斯塔郊区街道",
+      "distance": "东北12英里",
+      "avgHomePrice": "75万美元",
+      "county": "圣地亚哥县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "冲浪与海滩",
+      "description": "世界级的冲浪点如斯瓦米海滩和月光海滩，全年可观赏海岸日落。",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "冲浪者在斯瓦米海滩捕捉浪花"
+    },
+    {
+      "title": "101号公路氛围",
+      "description": "沿着历史悠久的101号公路恩西尼塔斯大道的多元精品店、咖啡馆和画廊。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "色彩斑斓的恩西尼塔斯市中心街道和商店"
+    },
+    {
+      "title": "植物奇观",
+      "description": "圣地亚哥植物园占地37英亩的主题花园和海景小径。",
+      "icon": "🌵",
+      "bgImage": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣地亚哥植物园的郁郁葱葱花园"
+    },
+    {
+      "title": "海岸与内陆平衡",
+      "description": "通过I-5和78号州道快速通达卡尔斯巴德的海滩或圣马科斯的学校和徒步小径。",
+      "icon": "⚖️",
+      "bgImage": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "从山丘望向恩西尼塔斯海岸线"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "恩西尼塔斯的社区有什么特别之处？",
+      "answer": "莱卡迪亚和卡迪夫海滨等独特的海滩社区融合了冲浪文化与精品魅力，而内陆地区则提供更实惠的住房选择。",
+      "category": "社区"
+    },
+    {
+      "question": "恩西尼塔斯的房地产市场如何？",
+      "answer": "沿海市场竞争激烈，海景房价格昂贵，但靠近火神大道的内陆房源较为实惠。",
+      "category": "房地产"
+    },
+    {
+      "question": "恩西尼塔斯的生活方式怎样？",
+      "answer": "活跃、热爱户外且注重社区——想象一下冲浪的早晨、农夫市场和海滩日落散步。",
+      "category": "生活方式"
+    },
+    {
+      "question": "去圣地亚哥通勤方便吗？",
+      "answer": "通过I-5高速公路，30至45分钟可达圣地亚哥市中心，恩西尼塔斯车站还有COASTER铁路选择。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "恩西尼塔斯房地产与生活方式 | 海滩、冲浪与精品生活",
+    "metaDescription": "探索恩西尼塔斯的海滨社区、冲浪文化、101号公路魅力以及北圣地亚哥县卡尔斯巴德和圣马科斯附近的便利。",
+    "keywords": "恩西尼塔斯房地产, 恩西尼塔斯冲浪, 卡迪夫海滨, 北圣地亚哥县, 恩西尼塔斯海滩",
+    "ogTitle": "探索恩西尼塔斯：融合冲浪与风格的海滨生活",
+    "ogDescription": "了解恩西尼塔斯的海滨小镇、市中心氛围及对海岸和内陆景点的便利访问。",
+    "ogImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "恩西尼塔斯海岸线与冲浪者",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "恩西尼塔斯",
+      "description": "探索加利福尼亚州恩西尼塔斯的房地产、社区和亮点。",
+      "url": "https://example.com/locations/encinitas",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "caption": "恩西尼塔斯海岸线与冲浪者"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "恩西尼塔斯",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "恩西尼塔斯最受欢迎的地区有哪些？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "莱卡迪亚、卡迪夫海滨以及101号公路沿线的恩西尼塔斯市中心是冲浪文化和本地商铺的标志性地区。"
+          }
+        }
+      ]
+    }
+  ]
+}
