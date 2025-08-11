@@ -1,0 +1,163 @@
+{
+  "slug": "el-cajon",
+  "name": "El Cajon",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine Stadt im East County mit Vorort-Nachbarschaften, Parks, Gemeinschaftsveranstaltungen und bequemem Zugang zu regionalem Einkaufen und Autobahnen.",
+  "fullDescription": "El Cajon ist eine einladende East County Stadt im San Diego County, bekannt für ihre familienfreundlichen Nachbarschaften, Gemeinschaftsparks und regionales Einkaufen. Mit einfachem Autobahnzugang (I-8, SR-67) zu San Diego und den Bergen genießen die Bewohner ein Gleichgewicht zwischen Vorort-Komfort, Outdoor-Freizeit und lokalen Veranstaltungen in einer sonnigen Talumgebung.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+  "heroImageAlt": "Innenstadt-Straßenszene in El Cajon",
+  "population": "105K+",
+  "avgHomePrice": "$650K+",
+  "tags": [
+    "Vorort",
+    "Parks",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "La Mesa",
+      "type": "Stadt",
+      "slug": "la-mesa",
+      "description": "Charmante 'Dorf'-Innenstadt, lokale Festivals und baumgesäumte Nachbarschaften westlich von El Cajon.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "La Mesa Boulevard mit Straßenbahn auf Straßenniveau",
+      "distance": "16 km westlich",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Santee",
+      "type": "Stadt",
+      "slug": "santee",
+      "description": "East County Stadt mit Parks, Santee Lakes und Zugang zu Mission Trails für Wandern und Radfahren.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wanderweg durch sanfte Hügel in der Nähe von Santee",
+      "distance": "11 km nordwestlich",
+      "avgHomePrice": "$700K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "Stadt",
+      "slug": "lemon-grove",
+      "description": "Sonnige Vorortgemeinschaft bekannt für Nachbarschaftsparks und bequemen Straßenbahnzugang.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Baumgesäumte Vorortstraße in Lemon Grove",
+      "distance": "14 km südwestlich",
+      "avgHomePrice": "$680K",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "Stadt",
+      "slug": "san-diego",
+      "description": "Wichtige Küstenstadt mit Stränden, Innenstadtattraktionen und kulturellen Zielen eine kurze Autofahrt entfernt.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego Skyline vom Hafen aus gesehen",
+      "distance": "24-32 km westlich",
+      "avgHomePrice": "$900K+",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parks & Erholung",
+      "description": "Nachbarschaftsparks, Sportplätze und nahegelegene Mission Trails bieten ganzjährige Outdoor-Aktivitäten.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Malerischer Wanderweg durch East County Hügel"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Saisonale Festivals, Auto-Shows und Bauernmärkte bringen Nachbarn im Stadtzentrum zusammen.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Innenstadtstraße mit abendlichen Lichterketten und Cafés"
+    },
+    {
+      "title": "Einkaufen & Essen",
+      "description": "Regionale Einkaufskorridore und familienfreundliche Restaurantoptionen in der ganzen Stadt.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Fußgängerzone mit Geschäften und Restaurants"
+    },
+    {
+      "title": "Tor-Lage",
+      "description": "Bequemer Zugang zu Stränden, Innenstadt San Diego und Bergausflügen über I-8 und SR-67.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüne Hügel und Freiflächenblick vom East County"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Nachbarschaften in El Cajon?",
+      "answer": "Beliebte Wahlmöglichkeiten umfassen Bereiche in der Nähe von Parks und Schulen in Fletcher Hills, Granite Hills und Nachbarschaften mit schnellem Zugang zu I-8 für Pendler.",
+      "category": "Nachbarschaften"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in El Cajon?",
+      "answer": "El Cajon bietet im Allgemeinen erschwinglichere Optionen als das Küsten-North County, mit einer Mischung aus klassischen Ranch-Häusern, Reihenhäusern und neueren Entwicklungen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in El Cajon machen?",
+      "answer": "Lokale Parks genießen, Gemeinschaftsveranstaltungen besuchen, regionales Einkaufen und schnelle Tagesausflüge zu Stränden, Seen und Bergwanderwegen.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist das Pendeln von El Cajon?",
+      "answer": "I-8 und SR-67 bieten regionalen Zugang zu San Diego und East County. Straßenbahn- und Busverbindungen bedienen nahegelegene Städte.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "El Cajon CA Immobilien & Lebensstil | East County Parks & Vorortleben",
+    "metaDescription": "Entdecken Sie El Cajons Nachbarschaften, Parks, Einkaufen und East County Lebensstil mit bequemem Autobahnzugang zu San Diego und Bergausflügen.",
+    "keywords": "El Cajon Immobilien, East County San Diego, El Cajon Parks, El Cajon Nachbarschaften",
+    "ogTitle": "Entdecken Sie El Cajon: East County Parks & Vorortleben",
+    "ogDescription": "Erfahren Sie mehr über El Cajons Nachbarschaften, Outdoor-Freizeit und familienfreundliche Annehmlichkeiten im East County San Diego.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+    "ogImageAlt": "El Cajon Innenstadt-Straßenszene",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Cajon",
+      "description": "Entdecken Sie Immobilien, Nachbarschaften und Highlights in El Cajon, Kalifornien.",
+      "url": "https://example.com/locations/el-cajon",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+        "caption": "Innenstadt-Straßenszene in El Cajon"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Cajon",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Nachbarschaften in El Cajon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fletcher Hills, Granite Hills und Bereiche in der Nähe von Parks und Schulen sind sehr gefragt."
+          }
+        }
+      ]
+    }
+  ]
+}

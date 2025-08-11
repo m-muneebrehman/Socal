@@ -1,0 +1,176 @@
+{
+  "slug": "santa-ana",
+  "name": "圣安娜",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "充满活力的都市，以丰富的文化遗产、艺术氛围和多元社区闻名。",
+  "fullDescription": "圣安娜是橙县的县治所在地，也是该县最大的城市之一。以其历史悠久的市中心、繁荣的艺术文化机构和多元化的人口著称，圣安娜提供了充满活力的都市环境。城市拥有众多博物馆、剧院和社区活动，庆祝其丰富的文化遗产。这里融合了住宅区和商业中心，是橙县沿海城市中一个生机勃勃且价格实惠的替代选择，同时便捷连接周边地区高速公路。",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "夕阳下的圣安娜市中心天际线",
+  "population": "31万+",
+  "avgHomePrice": "70万美元",
+  "tags": [
+    "都市",
+    "文化",
+    "多元"
+  ],
+  "neighborhoods": [
+    {
+      "name": "圣安娜市中心",
+      "type": "区",
+      "slug": "downtown-santa-ana",
+      "description": "历史核心区，拥有剧院、美术馆、餐厅和充满活力的夜生活。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "夜晚灯火通明的圣安娜市中心",
+      "distance": "中心地带",
+      "avgHomePrice": "65万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "圣安娜北区",
+      "type": "住宅区",
+      "slug": "north-santa-ana",
+      "description": "主要为住宅区，配有学校、公园和适合家庭的设施。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣安娜北区的住宅和公园",
+      "distance": "北部",
+      "avgHomePrice": "72万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "圣安娜南区",
+      "type": "混合用途区",
+      "slug": "south-santa-ana",
+      "description": "住宅、商业和轻工业混合区，正在持续开发中。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣安娜南区的混合型城市社区",
+      "distance": "南部",
+      "avgHomePrice": "68万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "鲍尔斯博物馆",
+      "description": "世界级博物馆，展示来自全球的艺术和文化文物。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣安娜鲍尔斯博物馆外观"
+    },
+    {
+      "title": "圣安娜动物园",
+      "description": "受欢迎的家庭景点，展示中美洲和南美洲的本地动物。",
+      "icon": "🐒",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣安娜动物园的动物及其栖息地"
+    },
+    {
+      "title": "艺术家村",
+      "description": "创意区，拥有画廊、壁画、工作室和艺术活动。",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣安娜艺术家村的彩色壁画"
+    },
+    {
+      "title": "橙县探索立方馆",
+      "description": "互动科学博物馆，提供适合儿童和家庭的动手展览。",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "探索立方馆的互动科学展览"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣安娜以什么闻名？",
+      "answer": "圣安娜以充满活力的艺术氛围、历史悠久的市中心、多元文化和适合家庭的景点闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣安娜的学校情况如何？",
+      "answer": "该市主要由圣安娜联合学区服务，提供多种公立和特许学校选择。",
+      "category": "教育"
+    },
+    {
+      "question": "有哪些户外活动？",
+      "answer": "居民可以享受公园、社区活动，以及参观圣安娜动物园和本地徒步小径。",
+      "category": "娱乐"
+    },
+    {
+      "question": "通勤到附近城市怎么样？",
+      "answer": "圣安娜通过I-5、SR-55和SR-22高速公路交通便利，通勤至橙县附近城市和洛杉矶的时间大约为20至60分钟。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "圣安娜 加州房地产与生活指南 | 艺术、文化与都市生活",
+    "metaDescription": "探索圣安娜的多元社区、文化景点、学校和橙县的房地产选项。",
+    "keywords": "圣安娜房地产, 圣安娜艺术与文化, 圣安娜生活, 橙县房屋",
+    "ogTitle": "发现圣安娜：橙县的都市文化与社区",
+    "ogDescription": "体验圣安娜充满活力的艺术氛围、历史街区和适合家庭的环境。",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "夕阳下的圣安娜市中心天际线",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣安娜",
+      "description": "探索加利福尼亚州圣安娜的房地产、社区和亮点。",
+      "url": "https://example.com/locations/santa-ana",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "夕阳下的圣安娜市中心天际线"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣安娜",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣安娜以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣安娜以充满活力的艺术氛围、历史悠久的市中心、多元文化和适合家庭的景点闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣安娜的学校情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市主要由圣安娜联合学区服务，提供多种公立和特许学校选择。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有哪些户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民可以享受公园、社区活动，以及参观圣安娜动物园和本地徒步小径。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "通勤到附近城市怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣安娜通过I-5、SR-55和SR-22高速公路交通便利，通勤至橙县附近城市和洛杉矶的时间大约为20至60分钟。"
+          }
+        }
+      ]
+    }
+  ]
+}

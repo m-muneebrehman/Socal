@@ -1,0 +1,187 @@
+{
+  "slug": "inglewood",
+  "name": "Inglewood",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville dynamique de la région South Bay connue pour ses lieux de divertissement, ses sports et sa communauté diversifiée.",
+  "fullDescription": "Inglewood est une ville vibrante juste au sud-ouest du centre-ville de Los Angeles, célèbre pour le SoFi Stadium et sa riche diversité culturelle. La ville a connu une revitalisation importante avec de nouveaux développements dans les domaines du divertissement, du commerce de détail et du logement. Avec un mélange de quartiers historiques et d’équipements modernes, Inglewood offre à ses habitants un mélange unique de vie urbaine et d’esprit communautaire, avec un accès facile à l’aéroport international de Los Angeles et aux grandes autoroutes.",
+  "heroImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "SoFi Stadium à Inglewood sous un ciel clair",
+  "population": "110K+",
+  "avgHomePrice": "720 K$",
+  "tags": [
+    "Divertissement",
+    "Sports",
+    "Communauté diversifiée"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Ladera Heights",
+      "type": "ville",
+      "slug": "ladera-heights",
+      "description": "Communauté résidentielle huppée connue pour ses maisons spacieuses et ses espaces verts.",
+      "image": "https://images.unsplash.com/photo-1572120360610-d971b9b1e91d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rues bordées d'arbres à Ladera Heights",
+      "distance": "5 miles au nord",
+      "avgHomePrice": "1,2 M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westchester",
+      "type": "ville",
+      "slug": "westchester",
+      "description": "Communauté soudée près de LAX avec parcs, écoles et centres commerciaux.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc à Westchester",
+      "distance": "4 miles au sud-ouest",
+      "avgHomePrice": "800 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Hawthorne",
+      "type": "ville",
+      "slug": "hawthorne",
+      "description": "Ville avec une population diversifiée, une base industrielle solide et des événements communautaires actifs.",
+      "image": "https://images.unsplash.com/photo-1572120360610-d971b9b1e91d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue de la rue du centre-ville de Hawthorne",
+      "distance": "3 miles au sud",
+      "avgHomePrice": "700 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Westmont",
+      "type": "ville",
+      "slug": "westmont",
+      "description": "Quartier résidentiel avec parcs et centres communautaires.",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Maisons suburbaines à Westmont",
+      "distance": "2 miles à l'est",
+      "avgHomePrice": "600 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "SoFi Stadium",
+      "description": "Lieu de sports et de divertissement ultramoderne accueillant des matchs NFL, concerts et grands événements.",
+      "icon": "🏟️",
+      "bgImage": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Façade du SoFi Stadium"
+    },
+    {
+      "title": "The Forum",
+      "description": "Arène historique pour concerts et événements sportifs attirant les meilleurs artistes.",
+      "icon": "🎤",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "The Forum à Inglewood"
+    },
+    {
+      "title": "Centre-ville d'Inglewood",
+      "description": "Zone revitalisée avec commerces, restaurants et lieux culturels.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville à Inglewood"
+    },
+    {
+      "title": "Parc Centinela",
+      "description": "Parc communautaire populaire avec terrains de sport, aires de jeux et sentiers de promenade.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc vert avec aire de jeux"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Inglewood est-elle connue ?",
+      "answer": "Inglewood est connue pour ses lieux de divertissement comme le SoFi Stadium, sa culture diversifiée et ses récents efforts de revitalisation.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Inglewood ?",
+      "answer": "Le marché immobilier propose un mélange de maisons abordables et de nouveaux développements proches des principaux pôles de divertissement et d'affaires.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles sont les activités populaires à Inglewood ?",
+      "answer": "Assister à des matchs et concerts au SoFi Stadium et au Forum, faire du shopping et dîner au centre-ville, et profiter des parcs communautaires.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est la circulation depuis Inglewood ?",
+      "answer": "Inglewood offre un accès pratique aux autoroutes, une proximité avec LAX et des options de transports en commun incluant des lignes de métro léger.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Inglewood CA | Divertissement & communauté",
+    "metaDescription": "Découvrez les quartiers, lieux de divertissement et opportunités immobilières à proximité de l'aéroport international de Los Angeles à Inglewood.",
+    "keywords": "immobilier Inglewood, SoFi Stadium, divertissement Inglewood, vivre à Inglewood, maisons à vendre Inglewood",
+    "ogTitle": "Explorez Inglewood : Divertissement, sports & vie communautaire",
+    "ogDescription": "Trouvez votre place à Inglewood avec sa culture vibrante, ses lieux sportifs et ses quartiers en pleine croissance.",
+    "ogImage": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "SoFi Stadium à Inglewood sous un ciel clair",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Inglewood",
+      "description": "Explorez l'immobilier, les quartiers et les points forts d'Inglewood, Californie.",
+      "url": "https://example.com/locations/inglewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1602524812334-42310e0d35e1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "SoFi Stadium à Inglewood sous un ciel clair"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Inglewood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Inglewood est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inglewood est connue pour ses lieux de divertissement comme le SoFi Stadium, sa culture diversifiée et ses récents efforts de revitalisation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Inglewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier propose un mélange de maisons abordables et de nouveaux développements proches des principaux pôles de divertissement et d'affaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les activités populaires à Inglewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assister à des matchs et concerts au SoFi Stadium et au Forum, faire du shopping et dîner au centre-ville, et profiter des parcs communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est la circulation depuis Inglewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inglewood offre un accès pratique aux autoroutes, une proximité avec LAX et des options de transports en commun incluant des lignes de métro léger."
+          }
+        }
+      ]
+    }
+  ]
+}

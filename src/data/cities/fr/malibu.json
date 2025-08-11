@@ -1,0 +1,165 @@
+{
+  "slug": "malibu",
+  "name": "Malibu",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville côtière pittoresque, célèbre pour ses plages superbes, ses maisons de célébrités et son style de vie en plein air.",
+  "fullDescription": "Malibu est une magnifique ville en bord de mer, réputée pour son littoral pittoresque, ses propriétés luxueuses et son mode de vie détendu. S'étendant le long de la Pacific Coast Highway, Malibu offre des spots de surf mondialement connus, des sentiers de randonnée dans les montagnes de Santa Monica, ainsi que des expériences gastronomiques et de shopping exclusives. La ville combine beauté naturelle et atmosphère haut de gamme, en faisant un lieu très recherché par les résidents et les visiteurs. Malibu bénéficie également d'excellentes écoles et d'un esprit communautaire soudé, tout en restant à quelques minutes en voiture de Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue au coucher du soleil sur le littoral de Malibu avec les vagues s’écrasant sur la plage",
+  "population": "13K+",
+  "avgHomePrice": "4,5 M$",
+  "tags": [
+    "Plages",
+    "Luxe",
+    "Style de vie en plein air"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Santa Monica",
+      "type": "ville",
+      "slug": "santa-monica",
+      "description": "Ville balnéaire populaire avec une jetée célèbre, des boutiques et une vie urbaine animée.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Jetée et plage de Santa Monica",
+      "distance": "24 km au sud-est",
+      "avgHomePrice": "2,5 M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Calabasas",
+      "type": "ville",
+      "slug": "calabasas",
+      "description": "Ville aisée connue pour ses résidences sécurisées, ses commerces et ses sentiers de randonnée.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier résidentiel à Calabasas",
+      "distance": "16 km à l’est",
+      "avgHomePrice": "1,9 M$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Plage d’État du Lagon de Malibu",
+      "description": "Un superbe estuaire offrant de l’observation d’oiseaux, des sentiers pédestres et un accès à la plage.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Plage et lagon calme au coucher du soleil"
+    },
+    {
+      "title": "Plage d’État El Matador",
+      "description": "Plage isolée avec de superbes grottes marines, falaises et bassins de marée.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Falaises escarpées et océan à El Matador Beach"
+    },
+    {
+      "title": "Jetée de Malibu",
+      "description": "Jetée emblématique avec des zones de pêche, des restaurants et des vues sur l’océan.",
+      "icon": "🎣",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Jetée de Malibu au coucher du soleil"
+    },
+    {
+      "title": "Zone de loisirs nationale des montagnes de Santa Monica",
+      "description": "De vastes sentiers de randonnée et de vélo offrant des vues imprenables sur l’océan.",
+      "icon": "🚶",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier de randonnée avec vue sur l’océan"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Qu’est-ce qui rend Malibu spéciale ?",
+      "answer": "Malibu est réputée pour ses plages magnifiques, ses maisons luxueuses et ses nombreuses possibilités de loisirs en plein air.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Malibu ?",
+      "answer": "Le marché immobilier de Malibu est haut de gamme et compétitif, avec des propriétés en bord de mer et des résidences de luxe.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités peut-on faire à Malibu ?",
+      "answer": "Profitez du surf, de la randonnée dans les montagnes de Santa Monica, de moments de détente sur les plages et de repas dans des restaurants haut de gamme.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Malibu est-elle facilement accessible pour les trajets domicile-travail ?",
+      "answer": "Malibu est accessible via la Pacific Coast Highway et les autoroutes voisines, bien que la circulation puisse être dense aux heures de pointe.",
+      "category": "Transports"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Malibu CA | Plages, luxe et vie en plein air",
+    "metaDescription": "Découvrez les quartiers de Malibu, ses plages magnifiques et ses biens immobiliers de luxe le long de la côte californienne.",
+    "keywords": "immobilier Malibu, plages Malibu, maisons de luxe Malibu, vivre à Malibu, activités plein air Malibu",
+    "ogTitle": "Découvrez Malibu : Luxe côtier et beauté naturelle",
+    "ogDescription": "Trouvez la maison de vos rêves à Malibu avec vue imprenable sur l’océan et aventures en plein air.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue au coucher du soleil sur le littoral de Malibu avec les vagues s’écrasant sur la plage",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Malibu",
+      "description": "Découvrez l’immobilier, les quartiers et les points forts de Malibu, Californie.",
+      "url": "https://example.com/locations/malibu",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue au coucher du soleil sur le littoral de Malibu avec les vagues s’écrasant sur la plage"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Malibu",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu’est-ce qui rend Malibu spéciale ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu est réputée pour ses plages magnifiques, ses maisons luxueuses et ses nombreuses possibilités de loisirs en plein air."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Malibu ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier de Malibu est haut de gamme et compétitif, avec des propriétés en bord de mer et des résidences de luxe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités peut-on faire à Malibu ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profitez du surf, de la randonnée dans les montagnes de Santa Monica, de moments de détente sur les plages et de repas dans des restaurants haut de gamme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Malibu est-elle facilement accessible pour les trajets domicile-travail ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Malibu est accessible via la Pacific Coast Highway et les autoroutes voisines, bien que la circulation puisse être dense aux heures de pointe."
+          }
+        }
+      ]
+    }
+  ]
+}

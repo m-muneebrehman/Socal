@@ -1,0 +1,176 @@
+{
+  "slug": "artesia",
+  "name": "阿泰西亚",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "洛杉矶县东南部一个多元文化城市，以其丰富的文化遗产和社区活动闻名。",
+  "fullDescription": "阿泰西亚是一个充满活力的社区，以其丰富的文化多样性著称，尤其是浓厚的印度和东南亚影响力。该市举办各种节庆活动，拥有繁荣的本地商业环境，并提供多样的公园和娱乐设施。阿泰西亚靠近主要高速公路，便于前往邻近城市及大洛杉矶地区，是家庭和专业人士理想的居住地。",
+  "heroImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "阿泰西亚街道景观，有商店和棕榈树",
+  "population": "1.6万+",
+  "avgHomePrice": "70万美元",
+  "tags": [
+    "文化多样性",
+    "社区活动",
+    "便利位置"
+  ],
+  "neighborhoods": [
+    {
+      "name": "莱克伍德",
+      "type": "城市",
+      "slug": "lakewood",
+      "description": "适合家庭居住的城市，拥有众多公园、学校和郊区氛围。",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "莱克伍德街道两旁的树木和房屋",
+      "distance": "西南4英里",
+      "avgHomePrice": "75万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "贝尔弗拉沃",
+      "type": "城市",
+      "slug": "bellflower",
+      "description": "拥有多样社区、公园和不断发展的商业区的城市。",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "贝尔弗拉沃市中心街道和商店",
+      "distance": "西部5英里",
+      "avgHomePrice": "70万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "诺沃克",
+      "type": "城市",
+      "slug": "norwalk",
+      "description": "拥有公园、社区中心和便捷高速公路通达的城市。",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "诺沃克城市公园和步道",
+      "distance": "东部6英里",
+      "avgHomePrice": "72万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "阿泰西亚年度节日",
+      "description": "展示本地艺术、美食和音乐的文化庆典。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "人群享受社区节日"
+    },
+    {
+      "title": "阿泰西亚公园",
+      "description": "受欢迎的本地公园，设有运动场、游乐场和野餐区。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "绿意盎然的公园，带有树木和游乐场"
+    },
+    {
+      "title": "文化购物区",
+      "description": "提供正宗印度和东南亚商品及美食的商店和餐馆。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "色彩丰富的市场摊位和商店"
+    },
+    {
+      "title": "便捷高速公路通达",
+      "description": "靠近91号和605号高速公路，通勤便利。",
+      "icon": "🚗",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "车辆行驶中的高速公路"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "阿泰西亚以什么闻名？",
+      "answer": "阿泰西亚以其丰富的文化多样性、社区节庆和正宗的餐饮选择闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "阿泰西亚的房地产市场怎么样？",
+      "answer": "相比邻近城市，市场较为实惠，拥有独栋住宅和公寓混合的住房类型。",
+      "category": "房地产"
+    },
+    {
+      "question": "阿泰西亚有哪些受欢迎的活动？",
+      "answer": "可以参观阿泰西亚公园，享受文化节庆，并探索充满活力的购物区。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从阿泰西亚通勤方便吗？",
+      "answer": "靠近91号和605号高速公路，阿泰西亚为通勤者提供便捷前往洛杉矶和橙县的通道。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "阿泰西亚 加州房地产与生活 | 文化、社区与便利",
+    "metaDescription": "发现洛杉矶县东南部阿泰西亚的文化多样性、社区活动和实惠的房地产选择。",
+    "keywords": "阿泰西亚房地产, 阿泰西亚文化, 阿泰西亚社区, 生活在阿泰西亚, 阿泰西亚待售房屋",
+    "ogTitle": "探索阿泰西亚：文化、社区与便利生活",
+    "ogDescription": "在阿泰西亚找到您的位置，这里有充满活力的文化、社区精神和便捷的高速公路通达。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "阿泰西亚街道景观，有商店和棕榈树",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "阿泰西亚",
+      "description": "探索加州阿泰西亚的房地产、社区和亮点。",
+      "url": "https://example.com/locations/artesia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "阿泰西亚街道景观，有商店和棕榈树"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "阿泰西亚",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "阿泰西亚以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "阿泰西亚以其丰富的文化多样性、社区节庆和正宗的餐饮选择闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "阿泰西亚的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "相比邻近城市，市场较为实惠，拥有独栋住宅和公寓混合的住房类型。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "阿泰西亚有哪些受欢迎的活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以参观阿泰西亚公园，享受文化节庆，并探索充满活力的购物区。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从阿泰西亚通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "靠近91号和605号高速公路，阿泰西亚为通勤者提供便捷前往洛杉矶和橙县的通道。"
+          }
+        }
+      ]
+    }
+  ]
+}

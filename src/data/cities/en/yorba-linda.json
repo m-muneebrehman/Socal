@@ -4,7 +4,7 @@
   "state": "California",
   "language": "en",
   "shortDescription": "A picturesque suburban city known for its spacious homes, excellent schools, and abundant parks.",
-  "fullDescription": "Yorba Linda offers a peaceful suburban lifestyle with beautiful tree-lined streets, large residential lots, and top-ranked schools. Known as the birthplace of President Richard Nixon, the city features historical sites, extensive parks, and trails that promote outdoor living. Families and professionals alike are drawn to Yorba Linda’s community events, strong public services, and convenient freeway access to Orange County and beyond.",
+  "fullDescription": "Yorba Linda offers a peaceful suburban lifestyle with beautiful tree-lined streets, large residential lots, and top-ranked schools. Known as the birthplace of President Richard Nixon, the city features historic sites, extensive parks, and trails that promote outdoor living. Families and professionals are drawn to community events, quality public services, and convenient access to Orange County highways and beyond.",
   "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
   "heroImageAlt": "Tree-lined suburban street in Yorba Linda",
   "population": "70K+",
@@ -12,53 +12,53 @@
   "tags": [
     "Suburban",
     "Family-friendly",
-    "Parks & Trails"
+    "Parks and Trails"
   ],
   "neighborhoods": [
     {
-      "name": "East Yorba Linda",
-      "type": "district",
-      "slug": "east-yorba-linda",
-      "description": "Quiet residential area with large homes and access to regional parks.",
-      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Residential street in East Yorba Linda",
-      "distance": "East",
-      "avgHomePrice": "$1.3M",
+      "name": "Placentia",
+      "type": "city",
+      "slug": "placentia",
+      "description": "Neighboring city with a charming historic downtown and good schools.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential street in Placentia",
+      "distance": "3 miles west",
+      "avgHomePrice": "$950K",
       "county": "Orange"
     },
     {
-      "name": "West Yorba Linda",
+      "name": "Anaheim Hills",
       "type": "district",
-      "slug": "west-yorba-linda",
-      "description": "Suburban neighborhood near schools, shopping, and recreational facilities.",
+      "slug": "anaheim",
+      "description": "Hilly residential neighborhood with reputable schools and many parks.",
       "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Suburban neighborhood in West Yorba Linda",
-      "distance": "West",
-      "avgHomePrice": "$1.15M",
+      "imageAlt": "Residential neighborhood in Anaheim Hills",
+      "distance": "5 miles south",
+      "avgHomePrice": "$1.1M",
       "county": "Orange"
     },
     {
-      "name": "Historic Yorba Linda",
-      "type": "district",
-      "slug": "historic-yorba-linda",
-      "description": "Area with historic sites including the Nixon Presidential Library and Museum.",
-      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Nixon Presidential Library in Yorba Linda",
-      "distance": "Central",
-      "avgHomePrice": "$1.25M",
+      "name": "Brea",
+      "type": "city",
+      "slug": "brea",
+      "description": "City known for its shopping centers, cultural events, and family neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Brea",
+      "distance": "6 miles northwest",
+      "avgHomePrice": "$1.0M",
       "county": "Orange"
     }
   ],
   "highlights": [
     {
       "title": "Nixon Presidential Library",
-      "description": "Museum and library honoring the 37th U.S. President, featuring exhibits and historical archives.",
+      "description": "Museum and library honoring the 37th President of the United States, with exhibits and historical archives.",
       "icon": "🏛️",
       "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
       "bgImageAlt": "Nixon Presidential Library building"
     },
     {
-      "title": "Parks & Trails",
+      "title": "Parks and Trails",
       "description": "Extensive parks and hiking trails including Yorba Regional Park and Black Gold Golf Club.",
       "icon": "🌳",
       "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
@@ -66,7 +66,7 @@
     },
     {
       "title": "Family-Friendly Community",
-      "description": "Excellent schools, community events, and recreational facilities support a family-oriented lifestyle.",
+      "description": "Excellent schools, community events, and recreational facilities supporting a family-oriented lifestyle.",
       "icon": "👨‍👩‍👧‍👦",
       "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
       "bgImageAlt": "Family enjoying park in Yorba Linda"
@@ -75,12 +75,12 @@
   "faqs": [
     {
       "question": "What is Yorba Linda known for?",
-      "answer": "Yorba Linda is known as the birthplace of President Richard Nixon and for its family-friendly suburban environment with parks and top schools.",
+      "answer": "Yorba Linda is known as the birthplace of President Richard Nixon and for its family-friendly suburban environment with parks and quality schools.",
       "category": "History & Lifestyle"
     },
     {
       "question": "How are the schools in Yorba Linda?",
-      "answer": "The city is served by the highly-rated Placentia-Yorba Linda Unified School District with several award-winning schools.",
+      "answer": "The city is served by the highly rated Placentia-Yorba Linda Unified School District, with several award-winning schools.",
       "category": "Education"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "question": "How is the commute from Yorba Linda?",
-      "answer": "Yorba Linda offers convenient freeway access to Orange County and Los Angeles, with average commute times of 30-45 minutes.",
+      "answer": "Yorba Linda offers convenient freeway access to Orange County and Los Angeles, with average commute times of 30 to 45 minutes.",
       "category": "Transportation"
     }
   ],
@@ -109,7 +109,7 @@
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Yorba Linda",
-      "description": "Explore real estate, neighborhoods, and highlights in Yorba Linda, California.",
+      "description": "Discover real estate, neighborhoods, and highlights in Yorba Linda, California.",
       "url": "https://example.com/locations/yorba-linda",
       "image": {
         "@type": "ImageObject",
@@ -136,7 +136,7 @@
           "name": "What is Yorba Linda known for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yorba Linda is known as the birthplace of President Richard Nixon and for its family-friendly suburban environment with parks and top schools."
+            "text": "Yorba Linda is known as the birthplace of President Richard Nixon and for its family-friendly suburban environment with parks and quality schools."
           }
         },
         {
@@ -144,7 +144,7 @@
           "name": "How are the schools in Yorba Linda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The city is served by the highly-rated Placentia-Yorba Linda Unified School District with several award-winning schools."
+            "text": "The city is served by the highly rated Placentia-Yorba Linda Unified School District, with several award-winning schools."
           }
         },
         {
@@ -160,7 +160,7 @@
           "name": "How is the commute from Yorba Linda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yorba Linda offers convenient freeway access to Orange County and Los Angeles, with average commute times of 30-45 minutes."
+            "text": "Yorba Linda offers convenient freeway access to Orange County and Los Angeles, with average commute times of 30 to 45 minutes."
           }
         }
       ]

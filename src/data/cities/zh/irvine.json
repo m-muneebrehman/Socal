@@ -1,0 +1,187 @@
+{
+  "slug": "irvine",
+  "name": "欧文",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以卓越学校、多元社区和广泛公园著称的规划城市。",
+  "fullDescription": "欧文是橙县一个繁荣的规划城市，以顶级学校、安全环境和多元化社区闻名。这里拥有丰富的公园、小径和娱乐设施，以及繁荣的商业区和科技中心。欧文注重社区和可持续发展，吸引寻求高品质生活的家庭和专业人士在南加州安家。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "欧文，加利福尼亚州的现代建筑和公园",
+  "population": "31万+",
+  "avgHomePrice": "100万美元",
+  "tags": [
+    "规划城市",
+    "适合家庭",
+    "科技中心"
+  ],
+  "neighborhoods": [
+    {
+      "name": "塔斯廷",
+      "type": "城市",
+      "slug": "tustin",
+      "description": "以迷人的老城、购物和餐饮闻名的历史名城。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "塔斯廷老城区的商店和咖啡馆",
+      "distance": "北5英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "纽波特海滩",
+      "type": "城市",
+      "slug": "newport-beach",
+      "description": "拥有海滩、豪华住宅和游艇的高档海滨城市。",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "纽波特海滩港口的游艇",
+      "distance": "西南8英里",
+      "avgHomePrice": "250万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "莱克福里斯特",
+      "type": "城市",
+      "slug": "lake-forest",
+      "description": "以家庭为导向，拥有公园、湖泊和优质学校的城市。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "莱克福里斯特的公园和住宅",
+      "distance": "东南7英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "科斯塔梅萨",
+      "type": "城市",
+      "slug": "costa-mesa",
+      "description": "以艺术、购物和餐饮闻名的都市城市。",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "科斯塔梅萨市中心",
+      "distance": "西南10英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "加州大学欧文分校",
+      "description": "顶尖的研究型大学，为城市的创新和文化做出贡献。",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "加州大学欧文分校校园建筑"
+    },
+    {
+      "title": "欧文光谱购物中心",
+      "description": "受欢迎的户外购物、餐饮和娱乐综合体。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "夜晚灯火通明的欧文光谱购物中心"
+    },
+    {
+      "title": "大型公园和步道",
+      "description": "超过16,000英亩的公园、绿地和自行车道，适合户外爱好者。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "穿过绿色公园的自行车道"
+    },
+    {
+      "title": "科技与商业中心",
+      "description": "众多科技公司和企业总部所在地，促进创新发展。",
+      "icon": "💼",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "欧文的现代办公楼"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "是什么让欧文成为理想居住地？",
+      "answer": "欧文以安全、优质学校、公园和强劲的就业市场闻名，是家庭和专业人士的理想选择。",
+      "category": "生活方式"
+    },
+    {
+      "question": "欧文的学校怎么样？",
+      "answer": "欧文联合学区评价很高，拥有顶级公立学校并且可就读加州大学欧文分校。",
+      "category": "教育"
+    },
+    {
+      "question": "欧文有哪些受欢迎的户外活动？",
+      "answer": "居民喜欢在城市广泛的公园和绿地进行骑行、徒步和户外运动。",
+      "category": "娱乐"
+    },
+    {
+      "question": "前往洛杉矶的通勤情况如何？",
+      "answer": "欧文通过I-5高速公路与洛杉矶连接，通勤时间通常在45分钟到1.5小时之间，视交通情况而定。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州欧文房地产与生活方式 | 适合家庭的规划城市",
+    "metaDescription": "探索橙县顶级社区、学校、公园及商业中心，了解欧文这座首屈一指的规划社区。",
+    "keywords": "欧文房地产, 欧文学校, 橙县生活, 欧文公园和娱乐",
+    "ogTitle": "发现欧文：橙县的家庭生活与创新中心",
+    "ogDescription": "了解为什么欧文是拥有优质学校、公园和繁荣经济的最佳居住地之一。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "欧文的现代建筑和公园",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "欧文",
+      "description": "探索加利福尼亚州欧文的房地产、社区和亮点。",
+      "url": "https://example.com/locations/irvine",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "欧文的现代建筑和公园"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "欧文",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "是什么让欧文成为理想居住地？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "欧文以安全、优质学校、公园和强劲的就业市场闻名，是家庭和专业人士的理想选择。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "欧文的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "欧文联合学区评价很高，拥有顶级公立学校并且可就读加州大学欧文分校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "欧文有哪些受欢迎的户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民喜欢在城市广泛的公园和绿地进行骑行、徒步和户外运动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前往洛杉矶的通勤情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "欧文通过I-5高速公路与洛杉矶连接，通勤时间通常在45分钟到1.5小时之间，视交通情况而定。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "san-clemente",
+  "name": "圣克莱门特",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以西班牙风格建筑、美丽海滩和充满活力的市中心闻名的海滨城市。",
+  "fullDescription": "圣克莱门特融合了迷人的海滨生活与历史建筑。以壮丽的海景、冲浪胜地和地中海风格建筑闻名，这座城市是家庭和户外爱好者的最爱。活跃的市中心拥有精品商店、餐厅和文化活动，结合了小镇的魅力与现代便利。便捷的高速公路通达使这里成为通勤者的理想地点。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "圣克莱门特海岸线和码头的夕阳景色",
+  "population": "6.5万+",
+  "avgHomePrice": "110万美元",
+  "tags": [
+    "海滨",
+    "历史",
+    "户外"
+  ],
+  "neighborhoods": [
+    {
+      "name": "塔莱加",
+      "type": "社区",
+      "slug": "talega",
+      "description": "规划完善的社区，拥有高尔夫球场、公园和适合家庭的设施。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "塔莱加的高尔夫球场和住宅",
+      "distance": "东北5英里",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "北滩",
+      "type": "社区",
+      "slug": "north-beach",
+      "description": "受欢迎的海滨社区，拥有海滩入口、冲浪点和餐厅。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "北滩的海滨和冲浪板",
+      "distance": "西2英里",
+      "avgHomePrice": "150万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "水手里尔",
+      "type": "商业区",
+      "slug": "mariners-mile",
+      "description": "滨水商业区，设有商店、餐饮和码头入口。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "水手里尔的码头和滨水餐厅",
+      "distance": "南3英里",
+      "avgHomePrice": "130万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "圣克莱门特码头",
+      "description": "标志性码头，提供钓鱼、餐饮和全景海景。",
+      "icon": "🌅",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣克莱门特码头的夕阳"
+    },
+    {
+      "title": "浪漫之家（Casa Romantica）",
+      "description": "历史悠久的西班牙风格庄园及文化艺术中心，俯瞰海洋。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "浪漫之家庄园及海景"
+    },
+    {
+      "title": "海滩与冲浪",
+      "description": "世界级的冲浪点和适合日光浴及休闲的沙滩。",
+      "icon": "🏄‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣克莱门特海滩冲浪者"
+    },
+    {
+      "title": "圣克莱门特市中心",
+      "description": "迷人的区域，拥有精品店、餐厅和定期社区活动。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣克莱门特市中心街道和咖啡馆"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣克莱门特以什么闻名？",
+      "answer": "圣克莱门特以其美丽的海滩、西班牙风格建筑和标志性的圣克莱门特码头闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣克莱门特的学校怎么样？",
+      "answer": "该市由卡皮斯特拉诺联合学区服务，包含多所评价很高的学校。",
+      "category": "教育"
+    },
+    {
+      "question": "圣克莱门特有哪些受欢迎的户外活动？",
+      "answer": "居民和游客喜欢冲浪、沿海徒步、钓鱼和海滩活动。",
+      "category": "娱乐"
+    },
+    {
+      "question": "从圣克莱门特通勤方便吗？",
+      "answer": "圣克莱门特方便通达I-5高速公路，通勤时间通常为30到60分钟，前往橙县和洛杉矶主要就业中心。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州圣克莱门特房地产与生活 | 海滨生活与历史魅力",
+    "metaDescription": "探索加利福尼亚橙县圣克莱门特的社区、海滩、学校和文化景点。",
+    "keywords": "圣克莱门特房地产, 圣克莱门特海滨生活, 橙县房屋, 圣克莱门特冲浪",
+    "ogTitle": "发现圣克莱门特：海滨魅力与户外冒险",
+    "ogDescription": "体验圣克莱门特美丽的海滩和充满活力的社区生活。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "圣克莱门特海岸线和码头的夕阳景色",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣克莱门特",
+      "description": "探索加利福尼亚州圣克莱门特的房地产、社区和亮点。",
+      "url": "https://example.com/locations/san-clemente",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "圣克莱门特海岸线和码头的夕阳景色"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣克莱门特",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣克莱门特以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣克莱门特以其美丽的海滩、西班牙风格建筑和标志性的圣克莱门特码头闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣克莱门特的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市由卡皮斯特拉诺联合学区服务，包含多所评价很高的学校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣克莱门特有哪些受欢迎的户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民和游客喜欢冲浪、沿海徒步、钓鱼和海滩活动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从圣克莱门特通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣克莱门特方便通达I-5高速公路，通勤时间通常为30到60分钟，前往橙县和洛杉矶主要就业中心。"
+          }
+        }
+      ]
+    }
+  ]
+}

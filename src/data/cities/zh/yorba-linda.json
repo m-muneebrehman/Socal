@@ -1,0 +1,169 @@
+{
+  "slug": "yorba-linda",
+  "name": "约巴林达",
+  "state": "加利福尼亚",
+  "language": "zh",
+  "shortDescription": "一个以宽敞住宅、优秀学校和丰富公园闻名的风景如画的郊区城市。",
+  "fullDescription": "约巴林达提供宁静的郊区生活方式，拥有美丽的林荫大道、大面积住宅用地和顶级学校。作为第37任美国总统理查德·尼克松的出生地，该市拥有历史遗迹、广阔的公园和促进户外生活的步道。家庭和专业人士都被约巴林达的社区活动、优质公共服务以及通往橘子县及更远地区的便捷高速公路所吸引。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "约巴林达郊区林荫大道",
+  "population": "7万+",
+  "avgHomePrice": "120万美元",
+  "tags": [
+    "郊区",
+    "适合家庭",
+    "公园与步道"
+  ],
+  "neighborhoods": [
+    {
+      "name": "普拉森蒂亚",
+      "type": "城市",
+      "slug": "placentia",
+      "description": "邻近城市，拥有迷人的历史中心和优质学校。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "普拉森蒂亚住宅街道",
+      "distance": "西部3英里",
+      "avgHomePrice": "95万美元",
+      "county": "橘子县"
+    },
+    {
+      "name": "阿纳海姆山丘",
+      "type": "区",
+      "slug": "anaheim",
+      "description": "起伏的住宅区，拥有著名学校和众多公园。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "阿纳海姆山丘住宅区",
+      "distance": "南部5英里",
+      "avgHomePrice": "110万美元",
+      "county": "橘子县"
+    },
+    {
+      "name": "布雷亚",
+      "type": "城市",
+      "slug": "brea",
+      "description": "以购物中心、文化活动和适合家庭的社区闻名的城市。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "布雷亚市中心",
+      "distance": "西北部6英里",
+      "avgHomePrice": "100万美元",
+      "county": "橘子县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "尼克松总统图书馆",
+      "description": "纪念第37任美国总统的博物馆和图书馆，展示展览和历史档案。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "尼克松总统图书馆建筑"
+    },
+    {
+      "title": "公园与步道",
+      "description": "包括约巴区域公园和黑金高尔夫俱乐部的广阔公园和徒步路线。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "树木和开阔空间的公园"
+    },
+    {
+      "title": "适合家庭的社区",
+      "description": "优质学校、社区活动和休闲设施支持家庭友好的生活方式。",
+      "icon": "👨‍👩‍👧‍👦",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "在约巴林达公园中享受时光的家庭"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "约巴林达以什么闻名？",
+      "answer": "约巴林达以理查德·尼克松总统的出生地闻名，以及其适合家庭的郊区环境，拥有公园和优质学校。",
+      "category": "历史与生活方式"
+    },
+    {
+      "question": "约巴林达的学校怎么样？",
+      "answer": "该市由评级很高的普拉森蒂亚-约巴林达联合学区服务，拥有多所获奖学校。",
+      "category": "教育"
+    },
+    {
+      "question": "哪些户外活动受欢迎？",
+      "answer": "居民喜欢在约巴区域公园及其他本地绿地徒步、骑行和野餐。",
+      "category": "休闲"
+    },
+    {
+      "question": "从约巴林达通勤怎么样？",
+      "answer": "约巴林达提供便捷的高速公路通道至橘子县和洛杉矶，平均通勤时间为30至45分钟。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "约巴林达加州房地产与生活方式 | 郊区生活与公园",
+    "metaDescription": "探索约巴林达的社区、公园、学校及加利福尼亚橘子县的房地产机会。",
+    "keywords": "约巴林达房地产, 约巴林达生活, 约巴林达待售房屋, 橘子县社区",
+    "ogTitle": "探索约巴林达：橘子县适合家庭的郊区生活",
+    "ogDescription": "体验宽敞的住宅、顶级学校和约巴林达的公园，欢迎您来到橘子县的社区。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "约巴林达郊区林荫大道",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "约巴林达",
+      "description": "探索加利福尼亚约巴林达的房地产、社区和亮点。",
+      "url": "https://example.com/locations/yorba-linda",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "约巴林达郊区林荫大道"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "约巴林达",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "约巴林达以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "约巴林达以理查德·尼克松总统的出生地闻名，以及其适合家庭的郊区环境，拥有公园和优质学校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "约巴林达的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市由评级很高的普拉森蒂亚-约巴林达联合学区服务，拥有多所获奖学校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "哪些户外活动受欢迎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民喜欢在约巴区域公园及其他本地绿地徒步、骑行和野餐。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从约巴林达通勤怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "约巴林达提供便捷的高速公路通道至橘子县和洛杉矶，平均通勤时间为30至45分钟。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "downey",
+  "name": "Downey",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad familiar con rica historia aeroespacial, parques y una vibrante atmósfera comunitaria.",
+  "fullDescription": "Downey es una ciudad bien establecida en el sureste del condado de Los Angeles, conocida por su herencia aeroespacial y vecindarios acogedores. Ofrece abundantes parques, atracciones culturales y eventos comunitarios que la hacen ideal para familias y profesionales por igual. La ubicación central de la ciudad proporciona fácil acceso a las autopistas y centros de empleo cercanos, mientras que sus sitios históricos y diversas opciones gastronómicas añaden a su encanto.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle residencial en Downey con palmeras y casas",
+  "population": "112K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Familiar",
+    "Parques",
+    "Historia aeroespacial"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Bellflower",
+      "type": "ciudad",
+      "slug": "bellflower",
+      "description": "Una ciudad vecina con vecindarios orientados a la familia y parques comunitarios.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Casas residenciales en Bellflower",
+      "distance": "8 km al suroeste",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Norwalk",
+      "type": "ciudad",
+      "slug": "norwalk",
+      "description": "Una ciudad diversa conocida por sus parques, centros comerciales y ubicación accesible.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Área del centro en Norwalk",
+      "distance": "6 km al sureste",
+      "avgHomePrice": "$680K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "ciudad",
+      "slug": "cerritos",
+      "description": "Comunidad de lujo conocida por compras, parques y escuelas de calidad.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Área residencial moderna en Cerritos",
+      "distance": "10 km al sureste",
+      "avgHomePrice": "$900K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centro Espacial Conmemorativo Columbia",
+      "description": "Un museo dedicado a la exploración espacial y educación STEM.",
+      "icon": "🚀",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exhibición de cohete en el centro espacial"
+    },
+    {
+      "title": "Teatro Downey",
+      "description": "Teatro histórico que alberga presentaciones en vivo y eventos comunitarios.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Marquesina del teatro por la noche"
+    },
+    {
+      "title": "Parque Río San Gabriel",
+      "description": "Parque grande con áreas de picnic, parques infantiles y senderos para caminar.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero con árboles en un parque de la ciudad"
+    },
+    {
+      "title": "Mercado de Agricultores de Downey",
+      "description": "Mercado semanal que ofrece productos frescos, artesanías y productos locales.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Puestos de mercado coloridos con frutas frescas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Downey?",
+      "answer": "Downey es conocido por su historia aeroespacial, ambiente familiar y parques comunitarios.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Downey?",
+      "answer": "El mercado ofrece casas familiares asequibles con demanda estable y precios competitivos.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares en Downey?",
+      "answer": "Visitar el Centro Espacial Conmemorativo Columbia, disfrutar de parques locales y asistir a eventos comunitarios son populares.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Downey?",
+      "answer": "Downey tiene fácil acceso a las autopistas 605 y 5, haciendo convenientes los viajes diarios a Los Angeles y el condado de Orange.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Downey CA Bienes Raíces y Estilo de Vida | Familiar e Histórico",
+    "metaDescription": "Explora los vecindarios, parques y herencia aeroespacial de Downey en el condado de Los Angeles.",
+    "keywords": "bienes raíces Downey, parques Downey, historia aeroespacial Downey, vivir en Downey, casas en venta Downey",
+    "ogTitle": "Descubre Downey: Vida Familiar y Espíritu Comunitario",
+    "ogDescription": "Encuentra tu lugar en Downey con sus vecindarios acogedores, parques y rica historia.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle residencial en Downey con palmeras",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Downey",
+      "description": "Explora bienes raíces, vecindarios y destacados en Downey, California.",
+      "url": "https://example.com/locations/downey",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle residencial en Downey con palmeras"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Downey",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Downey es conocido por su historia aeroespacial, ambiente familiar y parques comunitarios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado ofrece casas familiares asequibles con demanda estable y precios competitivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares en Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitar el Centro Espacial Conmemorativo Columbia, disfrutar de parques locales y asistir a eventos comunitarios son populares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Downey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Downey tiene fácil acceso a las autopistas 605 y 5, haciendo convenientes los viajes diarios a Los Angeles y el condado de Orange."
+          }
+        }
+      ]
+    }
+  ]
+}

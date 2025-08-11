@@ -1,0 +1,165 @@
+{
+  "slug": "pomona",
+  "name": "Pomona",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville historique dans la partie est du comté de Los Angeles, connue pour sa scène artistique et sa communauté diverse.",
+  "fullDescription": "Pomona est une ville dynamique située dans la vallée de Pomona, offrant un mélange de charme historique, d'attractions culturelles et d'une scène artistique en pleine expansion. Accueillant plusieurs collèges et un centre-ville revitalisé, Pomona combine la commodité urbaine au confort de la banlieue. La ville organise de nombreux événements et festivals tout au long de l'année, faisant d'elle un centre de créativité et de vie communautaire. Avec sa population diverse et sa variété d'options de logement, Pomona est un choix attrayant pour les familles, étudiants et professionnels.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue de rue du centre-ville de Pomona avec des bâtiments historiques",
+  "population": "150K+",
+  "avgHomePrice": "550K$",
+  "tags": [
+    "Charme historique",
+    "Arts et culture",
+    "Communauté diverse"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Claremont",
+      "type": "ville",
+      "slug": "claremont",
+      "description": "Connue pour son ambiance de ville universitaire, ses rues bordées d'arbres et son village animé au centre-ville.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centre-ville de Claremont avec boutiques et terrasses extérieures",
+      "distance": "5 miles à l'est",
+      "avgHomePrice": "700K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Dimas",
+      "type": "ville",
+      "slug": "san-dimas",
+      "description": "Petite ville avec un centre-ville historique, des parcs adaptés aux familles et une ambiance semi-rurale.",
+      "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue de rue du centre-ville de San Dimas",
+      "distance": "8 miles au nord-est",
+      "avgHomePrice": "620K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Colonie artistique de Pomona",
+      "description": "Un centre créatif avec galeries, studios et installations d'art public.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Intérieur d'une galerie d'art avec des peintures"
+    },
+    {
+      "title": "Pomona Fairplex",
+      "description": "Organise la foire du comté de Los Angeles et d'autres événements majeurs tout au long de l'année.",
+      "icon": "🎡",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Foire avec grande roue au crépuscule"
+    },
+    {
+      "title": "Centre-ville historique de Pomona",
+      "description": "Quartier revitalisé avec boutiques, restaurants et vie nocturne.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vue de rue du centre-ville de Pomona"
+    },
+    {
+      "title": "Université Western of Health Sciences",
+      "description": "Institution éducative majeure contribuant à l'économie et à la culture locale.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiments du campus universitaire"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Pomona est-elle connue ?",
+      "answer": "Pomona est connue pour sa scène artistique, son centre-ville historique et sa communauté diverse.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Pomona ?",
+      "answer": "Pomona offre des logements abordables avec un mélange de maisons historiques et de nouveaux développements.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à Pomona ?",
+      "answer": "Explorer la colonie artistique, visiter le Fairplex ou profiter des restaurants et divertissements du centre-ville.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le trajet depuis Pomona ?",
+      "answer": "Pomona bénéficie d'un bon accès aux autoroutes et au service Metrolink pour les déplacements vers Los Angeles et l'Inland Empire.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Pomona CA | Arts, culture et communauté",
+    "metaDescription": "Découvrez les quartiers, la scène artistique et les options immobilières de Pomona dans l'est du comté de Los Angeles.",
+    "keywords": "immobilier Pomona, arts Pomona, vivre à Pomona, maisons à vendre Pomona",
+    "ogTitle": "Explorez Pomona : vie artistique et communautaire",
+    "ogDescription": "Trouvez votre maison à Pomona avec sa scène artistique dynamique et ses quartiers diversifiés.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue de rue du centre-ville de Pomona avec bâtiments historiques",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Pomona",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts de Pomona, Californie.",
+      "url": "https://example.com/locations/pomona",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue de rue du centre-ville de Pomona avec des bâtiments historiques"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Pomona",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Pomona est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona est connue pour sa scène artistique, son centre-ville historique et sa communauté diverse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Pomona ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona offre des logements abordables avec un mélange de maisons historiques et de nouveaux développements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on faire à Pomona ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explorer la colonie artistique, visiter le Fairplex ou profiter des restaurants et divertissements du centre-ville."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Pomona ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pomona bénéficie d'un bon accès aux autoroutes et au service Metrolink pour les déplacements vers Los Angeles et l'Inland Empire."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "orange",
+  "name": "奥兰治",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以迷人的老城区、绿树成荫的街道和浓厚的社区氛围闻名的历史名城。",
+  "fullDescription": "奥兰治是一座充满活力的城市，融合了历史魅力和现代便利。以保存完好的老城区而著称，这里有古董店、咖啡馆以及一年一度的奥兰治国际街头嘉年华，营造出热情友好的社区氛围。拥有优质学校、公园，并且便捷通达橙县主要高速公路，吸引了寻求传统与便利结合的家庭和专业人士。",
+  "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "历史悠久的奥兰治老城区，带有复古建筑和树木",
+  "population": "14万+",
+  "avgHomePrice": "90万美元",
+  "tags": [
+    "历史",
+    "适合家庭",
+    "社区"
+  ],
+  "neighborhoods": [
+    {
+      "name": "阿纳海姆",
+      "type": "社区",
+      "slug": "anaheim",
+      "description": "拥有宽敞住宅、公园和高评分学校的郊区地区。",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "阿纳海姆的迪士尼乐园入口",
+      "distance": "东南5英里",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "圣安娜",
+      "type": "社区",
+      "slug": "santa-ana",
+      "description": "县治所在地，拥有丰富的文化遗产、繁华的市中心和多元化社区。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣安娜市中心天际线",
+      "distance": "南边6英里",
+      "avgHomePrice": "65万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "奥兰治老城区历史区",
+      "description": "保存完好的区域，有古董店、餐厅和年度街头嘉年华。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "奥兰治老城区的历史建筑和街道"
+    },
+    {
+      "title": "欧文地区公园",
+      "description": "大型公园，设有徒步小径、野餐区和小型动物园。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "欧文地区公园的绿色景观"
+    },
+    {
+      "title": "奥兰治广场",
+      "description": "举办社区活动、农贸市场和现场音乐的市镇广场。",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "奥兰治广场的社区活动"
+    },
+    {
+      "title": "社区活动",
+      "description": "受欢迎的活动包括奥兰治国际街头嘉年华和节日游行。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "人群和摊位的街头嘉年华"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "奥兰治以什么闻名？",
+      "answer": "奥兰治以其历史悠久的老城区、社区活动和适合家庭居住的社区而闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "奥兰治的学校情况如何？",
+      "answer": "奥兰治联合学区提供多所高评分的公立学校，服务于整个城市。",
+      "category": "教育"
+    },
+    {
+      "question": "有哪些公园和娱乐设施？",
+      "answer": "欧文地区公园提供徒步、野餐和小型动物园，此外全市还有多个社区公园。",
+      "category": "娱乐"
+    },
+    {
+      "question": "从奥兰治通勤方便吗？",
+      "answer": "奥兰治通过55号和22号高速公路连接良好，前往附近工作中心的平均通勤时间为30-45分钟。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州奥兰治房地产与生活 | 历史魅力与家庭生活",
+    "metaDescription": "探索橙县奥兰治的历史老城区、家庭社区、公园及社区活动。",
+    "keywords": "奥兰治加州房地产, 奥兰治老城区, 橙县住宅, 适合家庭的社区奥兰治",
+    "ogTitle": "探索奥兰治：历史魅力与家庭社区",
+    "ogDescription": "体验加州奥兰治独特的历史与社区融合，优质学校与公园环绕。",
+    "ogImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "历史悠久的奥兰治老城区，带有复古建筑和树木",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "奥兰治",
+      "description": "探索加利福尼亚州奥兰治的房地产、社区和亮点。",
+      "url": "https://example.com/locations/orange",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "历史悠久的奥兰治老城区，带有复古建筑和树木"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "奥兰治",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "奥兰治以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "奥兰治以其历史悠久的老城区、社区活动和适合家庭居住的社区而闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "奥兰治的学校情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "奥兰治联合学区提供多所高评分的公立学校，服务于整个城市。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有哪些公园和娱乐设施？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "欧文地区公园提供徒步、野餐和小型动物园，此外全市还有多个社区公园。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从奥兰治通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "奥兰治通过55号和22号高速公路连接良好，前往附近工作中心的平均通勤时间为30-45分钟。"
+          }
+        }
+      ]
+    }
+  ]
+}

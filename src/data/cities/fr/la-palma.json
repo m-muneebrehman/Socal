@@ -1,0 +1,176 @@
+{
+  "slug": "la-palma",
+  "name": "La Palma",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une petite ville calme connue pour ses quartiers adaptés aux familles et ses parcs bien entretenus.",
+  "fullDescription": "La Palma offre un environnement suburbain paisible avec de fortes valeurs communautaires, d’excellents services publics et un accès pratique aux grandes autoroutes. Surnommée la « Ville des arbres et des parcs », elle dispose de nombreuses installations de loisirs, d’écoles très bien notées et de quartiers sûrs. Axée sur la vie familiale et les événements communautaires, La Palma séduit les résidents cherchant un style de vie tranquille mais connecté dans le comté d’Orange.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rue résidentielle bordée d'arbres à La Palma",
+  "population": "16K+",
+  "avgHomePrice": "800 K$",
+  "tags": [
+    "Adapté aux familles",
+    "Parcs et loisirs",
+    "Suburbain"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Cypress",
+      "type": "ville",
+      "slug": "cypress",
+      "description": "Communauté avec des quartiers adaptés aux familles, des parcs et une économie locale dynamique.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier suburbain à Cypress",
+      "distance": "2 miles à l’est",
+      "avgHomePrice": "850 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Buena Park",
+      "type": "ville",
+      "slug": "buena-park",
+      "description": "Ville offrant des attractions de divertissement, du shopping et des quartiers résidentiels variés.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Paysage urbain de Buena Park",
+      "distance": "3 miles au nord",
+      "avgHomePrice": "700 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Seal Beach",
+      "type": "ville",
+      "slug": "seal-beach",
+      "description": "Ville côtière connue pour sa charmante rue principale, ses plages et son style de vie décontracté.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Plage et jetée à Seal Beach",
+      "distance": "5 miles au sud-ouest",
+      "avgHomePrice": "1,1 M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc de La Palma",
+      "description": "Parc communautaire avec installations sportives, aires de pique-nique et terrains de jeux.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Terrain de jeux et espace vert au parc de La Palma"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Événements annuels de la ville incluant concerts d’été, festivals de vacances et marchés de producteurs.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival communautaire avec personnes et décorations"
+    },
+    {
+      "title": "Bibliothèque municipale de La Palma",
+      "description": "Bibliothèque moderne offrant des programmes éducatifs et des ressources pour tous les âges.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Façade de la bibliothèque municipale de La Palma"
+    },
+    {
+      "title": "Sentiers pédestres et cyclables",
+      "description": "Sentiers bien entretenus favorisant l’exercice en plein air et la connexion communautaire.",
+      "icon": "🚴‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Cycliste sur un sentier suburbain"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi La Palma est-elle connue ?",
+      "answer": "La Palma est connue comme la « Ville des arbres et des parcs » pour ses espaces verts, son atmosphère familiale et ses événements communautaires.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les écoles à La Palma ?",
+      "answer": "La Palma est desservie par les districts scolaires très bien notés Centralia et Los Alamitos Unified.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air sont disponibles à La Palma ?",
+      "answer": "Les résidents profitent des parcs, des sentiers pédestres et cyclables, des événements communautaires et des installations sportives.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet depuis La Palma ?",
+      "answer": "La Palma offre un accès facile aux autoroutes 22 et 405, avec des trajets typiques vers les centres d’emploi voisins allant de 20 à 45 minutes.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et communauté à La Palma CA | Vie suburbain adaptée aux familles",
+    "metaDescription": "Découvrez les quartiers, parcs, écoles et maisons de La Palma, cette paisible ville du comté d’Orange.",
+    "keywords": "immobilier La Palma, maisons dans le comté d’Orange, vie familiale La Palma, parcs La Palma",
+    "ogTitle": "Découvrez La Palma : charme suburbain & esprit communautaire",
+    "ogDescription": "Apprenez-en plus sur les quartiers familiaux, les parcs et les événements communautaires de La Palma dans le comté d’Orange.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue résidentielle bordée d'arbres à La Palma",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "La Palma",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de La Palma, Californie.",
+      "url": "https://example.com/locations/la-palma",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rue résidentielle bordée d'arbres à La Palma"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "La Palma",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi La Palma est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma est connue comme la « Ville des arbres et des parcs » pour ses espaces verts, son atmosphère familiale et ses événements communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à La Palma ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma est desservie par les districts scolaires très bien notés Centralia et Los Alamitos Unified."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont disponibles à La Palma ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent des parcs, des sentiers pédestres et cyclables, des événements communautaires et des installations sportives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis La Palma ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Palma offre un accès facile aux autoroutes 22 et 405, avec des trajets typiques vers les centres d’emploi voisins allant de 20 à 45 minutes."
+          }
+        }
+      ]
+    }
+  ]
+}

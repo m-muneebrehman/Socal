@@ -1,0 +1,187 @@
+{
+  "slug": "buena-park",
+  "name": "Buena Park",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad familiar conocida por entretenimiento, parques y vecindarios diversos.",
+  "fullDescription": "Buena Park ofrece una mezcla dinámica de entretenimiento, compras y vida suburbana. Famosa por atracciones como Knott's Berry Farm, la ciudad proporciona muchas actividades familiares, parques y eventos comunitarios. Con opciones de vivienda asequibles comparadas con áreas cercanas, Buena Park atrae a una mezcla de familias y jóvenes profesionales. Su ubicación central en el norte del Condado de Orange ofrece fácil acceso a autopistas y proximidad a principales centros de trabajo y playas.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Atracciones coloridas del parque de diversiones en Knott's Berry Farm en Buena Park",
+  "population": "80K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Entretenimiento",
+    "Familiar",
+    "Parques"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "ciudad",
+      "slug": "anaheim",
+      "description": "Hogar del Disneyland Resort y principales recintos deportivos, con áreas residenciales diversas.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Entrada de Disneyland en Anaheim",
+      "distance": "4 millas al sureste",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "Cypress",
+      "type": "ciudad",
+      "slug": "cypress",
+      "description": "Ciudad suburbana conocida por parques, buenas escuelas y una vibra residencial tranquila.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Área de parque verde en Cypress",
+      "distance": "5 millas al oeste",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "La Palma",
+      "type": "ciudad",
+      "slug": "la-palma",
+      "description": "Pequeña comunidad con excelentes escuelas, parques y una sensación de vecindario unido.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle residencial en La Palma",
+      "distance": "3 millas al suroeste",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "Fullerton",
+      "type": "ciudad",
+      "slug": "fullerton",
+      "description": "Histórica ciudad universitaria con centro vibrante y escena artística.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Centro de Fullerton con edificios históricos",
+      "distance": "7 millas al noreste",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Knott's Berry Farm",
+      "description": "Famoso parque temático con montañas rusas, entretenimiento en vivo y atracciones familiares.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Montaña rusa en Knott's Berry Farm"
+    },
+    {
+      "title": "Centro de Buena Park",
+      "description": "Un área revitalizada con tiendas, restaurantes y eventos comunitarios.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Vista de la calle del centro de Buena Park"
+    },
+    {
+      "title": "Parque Regional Craig",
+      "description": "Parque grande con campos deportivos, áreas de picnic y senderos para caminar.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Área de picnic y árboles en el Parque Regional Craig"
+    },
+    {
+      "title": "Eventos Familiares",
+      "description": "Festivales comunitarios durante todo el año, mercados de agricultores y celebraciones festivas.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Festival comunitario con familias disfrutando actividades"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Buena Park?",
+      "answer": "Buena Park es mejor conocida por Knott's Berry Farm y su entretenimiento familiar y parques comunitarios.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Buena Park?",
+      "answer": "La ciudad es atendida por el Distrito Escolar de Buena Park y partes del Distrito Escolar Conjunto de Fullerton, ofreciendo una variedad de opciones educativas.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades recreativas están disponibles?",
+      "answer": "Los residentes disfrutan de parques temáticos, eventos comunitarios, parques como el Parque Regional Craig y ligas deportivas locales.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el viaje a centros de trabajo cercanos?",
+      "answer": "Buena Park tiene acceso conveniente a autopistas (I-5, 91, 605), haciendo que los viajes a Anaheim, Los Ángeles y otras áreas del Condado de Orange sean manejables.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Buena Park CA | Entretenimiento Familiar y Parques",
+    "metaDescription": "Explora los vecindarios, escuelas, parques y atracciones de Buena Park como Knott's Berry Farm en el Condado de Orange.",
+    "keywords": "bienes raíces Buena Park, Knott's Berry Farm, vivir en Buena Park, casas del Condado de Orange",
+    "ogTitle": "Descubre Buena Park: Entretenimiento, Parques y Vida Comunitaria",
+    "ogDescription": "Disfruta de comodidades familiares y fácil acceso a las principales atracciones del Condado de Orange en Buena Park, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Montaña rusa de Knott's Berry Farm en Buena Park",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Buena Park",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Buena Park, California.",
+      "url": "https://example.com/locations/buena-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Montaña rusa en Knott's Berry Farm en Buena Park"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Buena Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Buena Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buena Park es mejor conocida por Knott's Berry Farm y su entretenimiento familiar y parques comunitarios."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Buena Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ciudad es atendida por el Distrito Escolar de Buena Park y partes del Distrito Escolar Conjunto de Fullerton, ofreciendo una variedad de opciones educativas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades recreativas están disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes disfrutan de parques temáticos, eventos comunitarios, parques como el Parque Regional Craig y ligas deportivas locales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje a centros de trabajo cercanos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buena Park tiene acceso conveniente a autopistas (I-5, 91, 605), haciendo que los viajes a Anaheim, Los Ángeles y otras áreas del Condado de Orange sean manejables."
+          }
+        }
+      ]
+    }
+  ]
+}

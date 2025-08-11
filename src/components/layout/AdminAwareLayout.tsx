@@ -7,6 +7,7 @@ import LoadingScreen from "@/components/common/LoadingScreen";
 export default function AdminAwareLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isAdmin = pathname.includes("/admin");
+  
   return (
     <>
       {!isAdmin && <LoadingScreen />}

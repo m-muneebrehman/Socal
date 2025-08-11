@@ -1,0 +1,187 @@
+{
+  "slug": "placentia",
+  "name": "Placentia",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Charmante ville de banlieue connue pour ses rues bordées d'arbres, son centre-ville historique et son environnement familial.",
+  "fullDescription": "Placentia est une communauté accueillante du comté d'Orange qui offre une ambiance de petite ville avec un accès pratique aux grands centres urbains. Réputée pour ses parcs bien entretenus, ses écoles de qualité et un quartier historique dynamique avec boutiques et restaurants, Placentia est populaire auprès des familles et des professionnels recherchant un style de vie équilibré. Sa proximité des grandes autoroutes facilite les trajets vers les villes voisines.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rue bordée d'arbres à Placentia avec des maisons de banlieue",
+  "population": "52K+",
+  "avgHomePrice": "800K$",
+  "tags": [
+    "Familial",
+    "Historique",
+    "Communauté"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "ville",
+      "slug": "fullerton",
+      "description": "Ville universitaire historique avec un centre-ville animé, une scène artistique et des quartiers établis.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scène de rue au centre-ville représentant Fullerton",
+      "distance": "2 miles à l'ouest",
+      "avgHomePrice": "900K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "ville",
+      "slug": "anaheim",
+      "description": "Grande ville du comté d'Orange connue pour ses divertissements, ses sports et ses quartiers diversifiés.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Boulevard de la ville représentant Anaheim",
+      "distance": "3 miles au sud-ouest",
+      "avgHomePrice": "800K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "ville",
+      "slug": "brea",
+      "description": "Ville de banlieue avec commerces, restaurants et écoles bien notées au nord de Placentia.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de quartier suburbain représentant Brea",
+      "distance": "4 miles au nord-ouest",
+      "avgHomePrice": "950K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "ville",
+      "slug": "yorba-linda",
+      "description": "Communauté résidentielle huppée avec parcs, sentiers et grandes maisons à l'est de Placentia.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Collines verdoyantes et maisons de banlieue représentant Yorba Linda",
+      "distance": "3 miles au nord-est",
+      "avgHomePrice": "1,2M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centre-ville historique de Placentia",
+      "description": "Quartier dynamique avec boutiques, restaurants et événements communautaires.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Boutiques et rues du centre-ville historique de Placentia"
+    },
+    {
+      "title": "Craig Regional Park",
+      "description": "Grand parc avec terrains de jeux, aires de pique-nique et installations sportives.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Terrain de jeux et espaces verts au Craig Regional Park"
+    },
+    {
+      "title": "Bibliothèque de Placentia",
+      "description": "Bibliothèque moderne avec programmes et événements communautaires.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Façade du bâtiment de la bibliothèque de Placentia"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Événements populaires incluant concerts d'été, marchés fermiers et festivals saisonniers.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Foule profitant d'un festival local"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Placentia est-elle connue ?",
+      "answer": "Placentia est connue pour son centre-ville historique, ses quartiers familiaux et ses événements communautaires.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Placentia ?",
+      "answer": "Placentia est desservie par le district scolaire unifié Placentia-Yorba Linda, offrant des écoles très bien notées.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quels parcs sont disponibles à Placentia ?",
+      "answer": "Le Craig Regional Park et plusieurs parcs communautaires offrent des options récréatives aux résidents.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet depuis Placentia ?",
+      "answer": "La ville dispose d'un accès facile aux autoroutes 57 et 91, avec des trajets typiques de 30 à 45 minutes vers les centres d'emploi voisins.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Placentia CA | Charme historique & communauté familiale",
+    "metaDescription": "Découvrez les quartiers, parcs, écoles et événements communautaires de Placentia dans le comté d'Orange, Californie.",
+    "keywords": "immobilier Placentia CA, quartiers Placentia, vie familiale Placentia, maisons comté d'Orange",
+    "ogTitle": "Explorez Placentia : charme historique & vie familiale",
+    "ogDescription": "Découvrez la communauté accueillante et le style de vie dynamique de Placentia, Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue bordée d'arbres à Placentia avec des maisons de banlieue",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Placentia",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts de Placentia, Californie.",
+      "url": "https://example.com/locations/placentia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rue bordée d'arbres à Placentia avec des maisons de banlieue"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Placentia",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Placentia est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Placentia est connue pour son centre-ville historique, ses quartiers familiaux et ses événements communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Placentia ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Placentia est desservie par le district scolaire unifié Placentia-Yorba Linda, offrant des écoles très bien notées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels parcs sont disponibles à Placentia ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le Craig Regional Park et plusieurs parcs communautaires offrent des options récréatives aux résidents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Placentia ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ville dispose d'un accès facile aux autoroutes 57 et 91, avec des trajets typiques de 30 à 45 minutes vers les centres d'emploi voisins."
+          }
+        }
+      ]
+    }
+  ]
+}

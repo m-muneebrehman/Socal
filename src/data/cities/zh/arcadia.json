@@ -1,0 +1,165 @@
+{
+  "slug": "arcadia",
+  "name": "阿卡迪亚",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "圣盖博谷中一个风景如画的城市，以优质学校、宽敞公园和适合家庭的环境著称。",
+  "fullDescription": "阿卡迪亚融合了郊区的宁静与充满活力的社区生活。以其顶级学校、洛杉矶县植物园及植物园，以及拥有商店和餐馆的热情市中心闻名，阿卡迪亚是一个备受青睐的居住地。其便利的位置便于前往帕萨迪纳、蒙罗维亚及其他周边城市，是家庭和专业人士的理想选择。",
+  "heroImage": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "阿卡迪亚棕榈树和群山的公园景观",
+  "population": "5.8万+",
+  "avgHomePrice": "110万美元",
+  "tags": [
+    "适合家庭",
+    "公园",
+    "顶级学校"
+  ],
+  "neighborhoods": [
+    {
+      "name": "帕萨迪纳",
+      "type": "城市",
+      "slug": "pasadena",
+      "description": "以玫瑰游行、文化机构和充满活力的老城区闻名。",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "帕萨迪纳的历史建筑",
+      "distance": "西部6英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "蒙罗维亚",
+      "type": "城市",
+      "slug": "monrovia",
+      "description": "拥有历史悠久的市中心、徒步小径和紧密社区的迷人城市。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "蒙罗维亚市中心街道，商店与群山",
+      "distance": "东部6英里",
+      "avgHomePrice": "75万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "洛杉矶县植物园及植物园",
+      "description": "占地127英亩的壮丽植物园，拥有稀有植物、孔雀和历史地标。",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "郁郁葱葱的植物园，花卉和绿植"
+    },
+    {
+      "title": "圣安妮塔公园",
+      "description": "历史悠久的纯种赛马场，举办大型赛马活动和社区活动。",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣安妮塔公园的赛马赛事"
+    },
+    {
+      "title": "阿卡迪亚市中心",
+      "description": "充满活力的区域，有商店、餐馆及适合全家的季节性节日。",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "繁忙的市中心街道，人群和商店"
+    },
+    {
+      "title": "顶级学校",
+      "description": "阿卡迪亚联合学区以卓越的教育质量和学生成就著称。",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "学生穿着校服在校园内行走"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "阿卡迪亚最著名的是什么？",
+      "answer": "阿卡迪亚以其优质学校、美丽公园和浓厚的社区氛围而闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "阿卡迪亚的房地产市场如何？",
+      "answer": "市场竞争激烈，独栋住宅和维护良好的社区需求旺盛。",
+      "category": "房地产"
+    },
+    {
+      "question": "阿卡迪亚有哪些热门景点？",
+      "answer": "热门景点包括洛杉矶县植物园、圣安妮塔公园以及充满活力的阿卡迪亚市中心。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从阿卡迪亚通勤方便吗？",
+      "answer": "阿卡迪亚交通便利，靠近210号高速公路和地铁金线，通勤到帕萨迪纳和洛杉矶十分便捷。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "阿卡迪亚 加州房地产与生活 | 家庭、公园与教育",
+    "metaDescription": "探索圣盖博谷阿卡迪亚的社区、公园、学校和房地产机会。",
+    "keywords": "阿卡迪亚房地产, 阿卡迪亚公园, 阿卡迪亚学校, 阿卡迪亚生活, 阿卡迪亚待售房屋",
+    "ogTitle": "发现阿卡迪亚：适合家庭生活与美丽公园",
+    "ogDescription": "在阿卡迪亚找到您的家，这里有顶级学校、公园和热情的社区氛围。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "阿卡迪亚棕榈树和群山的公园景观",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "阿卡迪亚",
+      "description": "探索加州阿卡迪亚的房地产、社区和亮点。",
+      "url": "https://example.com/locations/arcadia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "阿卡迪亚棕榈树和群山的公园景观"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "阿卡迪亚",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "阿卡迪亚最著名的是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "阿卡迪亚以其优质学校、美丽公园和浓厚的社区氛围而闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "阿卡迪亚的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "市场竞争激烈，独栋住宅和维护良好的社区需求旺盛。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "阿卡迪亚有哪些热门景点？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "热门景点包括洛杉矶县植物园、圣安妮塔公园以及充满活力的阿卡迪亚市中心。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从阿卡迪亚通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "阿卡迪亚交通便利，靠近210号高速公路和地铁金线，通勤到帕萨迪纳和洛杉矶十分便捷。"
+          }
+        }
+      ]
+    }
+  ]
+}

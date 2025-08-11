@@ -1,0 +1,163 @@
+{
+  "slug": "el-cajon",
+  "name": "El Cajon",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville intérieure du comté Est avec des quartiers suburbains, des parcs, des événements communautaires et un accès pratique aux centres commerciaux régionaux et aux autoroutes.",
+  "fullDescription": "El Cajon est une ville accueillante du comté Est dans le comté de San Diego, connue pour ses quartiers familiaux, ses parcs communautaires et son shopping régional. Avec un accès facile aux autoroutes (I‑8, SR‑67) vers San Diego et les montagnes, les résidents profitent d'un équilibre entre confort suburbain, loisirs en plein air et événements locaux dans un cadre ensoleillé de vallée.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+  "heroImageAlt": "Scène de rue du centre-ville d'El Cajon",
+  "population": "105K+",
+  "avgHomePrice": "650 K$+",
+  "tags": [
+    "Suburbain",
+    "Parcs",
+    "Familial"
+  ],
+  "neighborhoods": [
+    {
+      "name": "La Mesa",
+      "type": "ville",
+      "slug": "la-mesa",
+      "description": "Charmant centre-ville type ‘village’, festivals locaux et quartiers bordés d'arbres juste à l'ouest d'El Cajon.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "Boulevard de La Mesa avec tramway au niveau de la rue",
+      "distance": "10 miles à l'ouest",
+      "avgHomePrice": "700 K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "Santee",
+      "type": "ville",
+      "slug": "santee",
+      "description": "Ville du comté Est avec parcs, lacs de Santee et accès aux sentiers Mission Trails pour randonnée et vélo.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sentier à travers des collines vallonnées près de Santee",
+      "distance": "7 miles au nord-ouest",
+      "avgHomePrice": "700 K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "Lemon Grove",
+      "type": "ville",
+      "slug": "lemon-grove",
+      "description": "Communauté suburbaine ensoleillée connue pour ses parcs de quartier et son accès pratique au tramway.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue suburbaine bordée d'arbres à Lemon Grove",
+      "distance": "9 miles au sud-ouest",
+      "avgHomePrice": "680 K$",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "ville",
+      "slug": "san-diego",
+      "description": "Grande ville côtière avec plages, attractions du centre-ville et destinations culturelles à une courte distance en voiture.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "Horizons de San Diego vus depuis la baie",
+      "distance": "15–20 miles à l'ouest",
+      "avgHomePrice": "900 K$+",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parcs & Loisirs",
+      "description": "Parcs de quartier, terrains de sport et sentiers Mission Trails offrent des activités de plein air toute l'année.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier pittoresque à travers les collines du comté Est"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Festivals saisonniers, expositions automobiles et marchés fermiers rassemblent les voisins au centre-ville.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville avec guirlandes lumineuses et cafés en soirée"
+    },
+    {
+      "title": "Shopping & Restaurants",
+      "description": "Axes commerciaux régionaux et options de restauration familiales dans toute la ville.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue piétonne avec magasins et restaurants"
+    },
+    {
+      "title": "Emplacement stratégique",
+      "description": "Accès pratique aux plages, au centre-ville de San Diego et aux escapades en montagne via I‑8 et SR‑67.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Collines vertes et vue sur des espaces ouverts dans le comté Est"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quels sont les meilleurs quartiers à El Cajon ?",
+      "answer": "Les zones populaires incluent celles proches des parcs et des écoles à Fletcher Hills, Granite Hills, ainsi que les quartiers avec un accès rapide à l'I‑8 pour les trajets domicile-travail.",
+      "category": "Quartiers"
+    },
+    {
+      "question": "Comment est le marché immobilier à El Cajon ?",
+      "answer": "El Cajon offre généralement des options plus abordables que le nord côtier, avec un mélange de maisons ranch classiques, de maisons en rangée et de développements récents.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à El Cajon ?",
+      "answer": "Profitez des parcs locaux, des événements communautaires, du shopping régional et des excursions d'une journée vers les plages, lacs et sentiers de montagne.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis El Cajon ?",
+      "answer": "Les autoroutes I‑8 et SR‑67 assurent un accès régional à San Diego et au comté Est. Les connexions tramway et bus desservent les villes voisines.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à El Cajon CA | Parcs du comté Est & vie suburbaine",
+    "metaDescription": "Découvrez les quartiers, parcs, shopping et mode de vie du comté Est à El Cajon avec un accès pratique aux autoroutes vers San Diego et les montagnes.",
+    "keywords": "immobilier El Cajon, comté Est San Diego, parcs El Cajon, quartiers El Cajon",
+    "ogTitle": "Découvrez El Cajon : Parcs du comté Est & vie suburbaine",
+    "ogDescription": "Apprenez-en plus sur les quartiers, les loisirs en plein air et les équipements familiaux d’El Cajon dans le comté Est de San Diego.",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+    "ogImageAlt": "Scène de rue du centre-ville d'El Cajon",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Cajon",
+      "description": "Explorez l'immobilier, les quartiers et les points forts d'El Cajon, Californie.",
+      "url": "https://example.com/locations/el-cajon",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+        "caption": "Scène de rue du centre-ville d'El Cajon"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Cajon",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les meilleurs quartiers à El Cajon ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les zones populaires incluent celles proches des parcs et des écoles à Fletcher Hills, Granite Hills, ainsi que les quartiers avec un accès rapide à l'I‑8 pour les trajets domicile-travail."
+          }
+        }
+      ]
+    }
+  ]
+}

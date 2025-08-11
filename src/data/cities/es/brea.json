@@ -1,0 +1,187 @@
+{
+  "slug": "brea",
+  "name": "Brea",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad vibrante conocida por su centro animado, centros comerciales y vecindarios familiares.",
+  "fullDescription": "Brea combina una atmósfera encantadora de pueblo pequeño con comodidades modernas y atracciones culturales. Conocida por el Brea Mall, un centro animado con restaurantes, teatros y galerías de arte, la ciudad ofrece un estilo de vida equilibrado con escuelas de calidad, parques y eventos comunitarios. Convenientemente ubicada con fácil acceso a autopistas, Brea atrae a familias, profesionales y jubilados que buscan una comunidad acogedora del Condado de Orange.",
+  "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Centro de Brea con tiendas y calles vibrantes",
+  "population": "45K+",
+  "avgHomePrice": "$850K",
+  "tags": [
+    "Compras",
+    "Familiar",
+    "Arte y Cultura"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "ciudad",
+      "slug": "fullerton",
+      "description": "Ciudad universitaria con centro histórico, escena artística y California State University, Fullerton.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Centro histórico de Fullerton con vida callejera vibrante",
+      "distance": "6 millas al noroeste",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "ciudad",
+      "slug": "placentia",
+      "description": "Pequeña ciudad suburbana con parques, eventos orientados a familias y un centro pintoresco.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle suburbana tranquila en Placentia",
+      "distance": "4 millas al noreste",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "La Habra",
+      "type": "ciudad",
+      "slug": "la-habra",
+      "description": "Comunidad con parques, instalaciones recreativas y un área del centro histórico.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista de la calle del centro de La Habra",
+      "distance": "5 millas al este",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "ciudad",
+      "slug": "yorba-linda",
+      "description": "Ciudad residencial acomodada conocida por casas grandes, parques y la Biblioteca Presidencial Nixon.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario suburbano en Yorba Linda",
+      "distance": "7 millas al sureste",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Brea Mall",
+      "description": "Destino de compras popular con una amplia gama de tiendas minoristas, restaurantes y opciones de entretenimiento.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Compradores dentro del Brea Mall"
+    },
+    {
+      "title": "Centro de Brea",
+      "description": "Área animada con restaurantes, galerías de arte, teatros y eventos comunitarios estacionales.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Tiendas y calles coloridas en el Centro de Brea"
+    },
+    {
+      "title": "Parque Regional Carbon Canyon",
+      "description": "Parque escénico que ofrece senderos para caminar, lagos para pescar y áreas de picnic ideales para salidas familiares.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero forestal en el Parque Regional Carbon Canyon"
+    },
+    {
+      "title": "Programas de Arte y Cultura",
+      "description": "Iniciativas artísticas impulsadas por la comunidad que incluyen presentaciones teatrales, exhibiciones de arte público y festivales.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Presentación teatral al aire libre en Brea"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Brea?",
+      "answer": "Brea es conocida por su centro vibrante, excelentes compras en el Brea Mall y eventos comunitarios familiares.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Brea?",
+      "answer": "Brea es atendida por el Distrito Escolar Unificado Brea Olinda altamente calificado, conocido por su fuerte rendimiento académico y actividades extracurriculares.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades recreativas están disponibles?",
+      "answer": "Los residentes disfrutan de parques como el Parque Regional Carbon Canyon, eventos comunitarios y programas de arte y cultura durante todo el año.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el viaje a los principales centros de trabajo?",
+      "answer": "Brea ofrece acceso conveniente a las autopistas 57 y 91, haciendo que los viajes a áreas cercanas del Condado de Orange y Los Ángeles sean manejables.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Brea CA | Centro Vibrante y Comunidad Familiar",
+    "metaDescription": "Descubre los vecindarios, compras, parques, escuelas y destinos culturales destacados de Brea en el Condado de Orange, California.",
+    "keywords": "bienes raíces Brea, Brea Mall, vivir en Brea, casas del Condado de Orange",
+    "ogTitle": "Explora Brea: Compras, Cultura y Vida Familiar",
+    "ogDescription": "Experimenta el centro vibrante, eventos comunitarios y parques escénicos de Brea, California.",
+    "ogImage": "https://images.unsplash.com/photo-1534308143481-50a0b192a4a1?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Centro de Brea con tiendas y peatones",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Brea",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Brea, California.",
+      "url": "https://example.com/locations/brea",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1534308143481-50a0b192a4a1?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Centro de Brea con tiendas y calles vibrantes"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Brea",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Brea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea es conocida por su centro vibrante, excelentes compras en el Brea Mall y eventos comunitarios familiares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Brea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea es atendida por el Distrito Escolar Unificado Brea Olinda altamente calificado, conocido por su fuerte rendimiento académico y actividades extracurriculares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades recreativas están disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes disfrutan de parques como el Parque Regional Carbon Canyon, eventos comunitarios y programas de arte y cultura durante todo el año."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje a los principales centros de trabajo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brea ofrece acceso conveniente a las autopistas 57 y 91, haciendo que los viajes a áreas cercanas del Condado de Orange y Los Ángeles sean manejables."
+          }
+        }
+      ]
+    }
+  ]
+}

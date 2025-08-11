@@ -1,0 +1,165 @@
+{
+  "slug": "culver-city",
+  "name": "Culver City",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville dynamique connue pour ses racines dans l'industrie du divertissement, sa restauration tendance et sa scène artistique.",
+  "fullDescription": "Culver City combine une riche histoire dans la production cinématographique et télévisuelle avec une ambiance moderne remplie de restaurants vibrants, galeries d'art et boutiques. Située au centre du comté de Los Angeles, elle offre un centre-ville accessible à pied, de beaux parcs et d’excellents transports en commun. Sa communauté diverse et son économie créative florissante en font une destination prisée pour les familles, professionnels et créatifs.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rue du centre-ville de Culver City avec boutiques et passants",
+  "population": "40K+",
+  "avgHomePrice": "1,2 M$",
+  "tags": [
+    "Divertissement",
+    "Arts & Culture",
+    "Centre-ville accessible à pied"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Hollywood",
+      "type": "ville",
+      "slug": "west-hollywood",
+      "description": "Connue pour sa vie nocturne, sa scène artistique et sa communauté LGBTQ+ accueillante.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de West Hollywood la nuit",
+      "distance": "7 miles au nord-est",
+      "avgHomePrice": "1,7 M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "ville",
+      "slug": "santa-monica",
+      "description": "Ville balnéaire célèbre pour sa jetée, ses boutiques et son style de vie dynamique.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Jetée et plage de Santa Monica",
+      "distance": "5 miles à l’ouest",
+      "avgHomePrice": "2,3 M$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Sony Pictures Studios",
+      "description": "Studio de cinéma et télévision historique offrant des visites et événements.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Entrée des Sony Pictures Studios"
+    },
+    {
+      "title": "Centre-ville de Culver City",
+      "description": "Quartier accessible à pied avec restaurants, boutiques, théâtres et galeries.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville de Culver City"
+    },
+    {
+      "title": "Parc de Culver City",
+      "description": "Grand parc communautaire avec installations sportives et espaces verts ouverts.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Espace vert avec arbres"
+    },
+    {
+      "title": "Quartier Helms Bakery",
+      "description": "Quartier tendance pour le shopping et la restauration, logé dans un ancien bâtiment de boulangerie historique.",
+      "icon": "🍽️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boutiques et restaurants dans le quartier Helms Bakery"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Culver City est-elle connue ?",
+      "answer": "Culver City est connue pour son histoire dans l'industrie du divertissement, son centre-ville accessible à pied et sa scène artistique florissante.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Culver City ?",
+      "answer": "Le marché propose des prix compétitifs avec une gamme de condos, appartements et maisons individuelles.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles sont les activités populaires à Culver City ?",
+      "answer": "Explorez les Sony Pictures Studios, visitez les boutiques et théâtres du centre-ville, ou profitez des espaces extérieurs comme le parc de Culver City.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Culver City ?",
+      "answer": "Culver City est desservie par plusieurs lignes de métro et offre un accès facile aux autoroutes principales et à l'aéroport LAX.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Culver City CA | Divertissement & Arts",
+    "metaDescription": "Découvrez les quartiers, studios, parcs et biens immobiliers de Culver City dans le comté de Los Angeles.",
+    "keywords": "immobilier Culver City, divertissement Culver City, vivre à Culver City, maisons à vendre à Culver City",
+    "ogTitle": "Explorez Culver City : Centre créatif & vie communautaire",
+    "ogDescription": "Trouvez votre maison à Culver City avec sa riche histoire du divertissement, son centre-ville vibrant et ses espaces extérieurs.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Rue du centre-ville de Culver City avec boutiques et passants",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Culver City",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Culver City, Californie.",
+      "url": "https://example.com/locations/culver-city",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rue du centre-ville de Culver City avec boutiques et passants"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Culver City",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Culver City est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Culver City est connue pour son histoire dans l'industrie du divertissement, son centre-ville accessible à pied et sa scène artistique florissante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Culver City ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché propose des prix compétitifs avec une gamme de condos, appartements et maisons individuelles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les activités populaires à Culver City ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explorez les Sony Pictures Studios, visitez les boutiques et théâtres du centre-ville, ou profitez des espaces extérieurs comme le parc de Culver City."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Culver City ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Culver City est desservie par plusieurs lignes de métro et offre un accès facile aux autoroutes principales et à l'aéroport LAX."
+          }
+        }
+      ]
+    }
+  ]
+}

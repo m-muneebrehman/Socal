@@ -1,0 +1,187 @@
+{
+  "slug": "placentia",
+  "name": "普莱森西亚",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以绿树成荫的街道、历史悠久的市中心和适合家庭的环境闻名的迷人郊区城市。",
+  "fullDescription": "普莱森西亚是橙县一个热情的社区，拥有小镇氛围，且便捷通达大型城市中心。以维护良好的公园、优质的学校和充满活力的历史街区（拥有商店和餐厅）著称，普莱森西亚深受寻求平衡生活方式的家庭和专业人士欢迎。其靠近主要高速公路的位置使通勤至邻近城市变得轻松。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "普莱森西亚绿树成荫的街道及郊区住宅",
+  "population": "5.2万+",
+  "avgHomePrice": "80万美元",
+  "tags": [
+    "适合家庭",
+    "历史",
+    "社区"
+  ],
+  "neighborhoods": [
+    {
+      "name": "富勒顿",
+      "type": "城市",
+      "slug": "fullerton",
+      "description": "历史悠久的大学城，拥有充满活力的市中心、艺术氛围和成熟社区。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表富勒顿的市中心街景",
+      "distance": "西2英里",
+      "avgHomePrice": "90万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "阿纳海姆",
+      "type": "城市",
+      "slug": "anaheim",
+      "description": "橙县主要城市，以娱乐、体育和多样化社区闻名。",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表阿纳海姆的城市大道景象",
+      "distance": "西南3英里",
+      "avgHomePrice": "80万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "布雷亚",
+      "type": "城市",
+      "slug": "brea",
+      "description": "位于普莱森西亚北部的郊区城市，拥有购物、餐饮及评价良好的学校。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表布雷亚的郊区社区街道",
+      "distance": "西北4英里",
+      "avgHomePrice": "95万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "约巴林达",
+      "type": "城市",
+      "slug": "yorba-linda",
+      "description": "位于普莱森西亚东部的高档住宅社区，拥有公园、小径和宽敞住宅。",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表约巴林达的绿意山丘和郊区住宅",
+      "distance": "东北3英里",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "普莱森西亚历史市中心",
+      "description": "充满活力的区域，拥有精品店、餐饮和社区活动。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "普莱森西亚历史市中心的商店和街道"
+    },
+    {
+      "title": "克雷格区域公园",
+      "description": "大型公园，设有游乐场、野餐区和体育设施。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "克雷格区域公园的游乐场和绿地"
+    },
+    {
+      "title": "普莱森西亚图书馆区",
+      "description": "现代化图书馆，提供社区项目和活动。",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "普莱森西亚图书馆建筑外观"
+    },
+    {
+      "title": "社区活动",
+      "description": "热门活动包括夏季音乐会、农贸市场和季节性节庆。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "参加本地节庆的人群"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "普莱森西亚以什么闻名？",
+      "answer": "普莱森西亚以其历史悠久的市中心、适合家庭的社区和社区活动闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "普莱森西亚的学校怎么样？",
+      "answer": "普莱森西亚由普莱森西亚-约巴林达联合学区服务，拥有高评价的学校。",
+      "category": "教育"
+    },
+    {
+      "question": "普莱森西亚有哪些公园？",
+      "answer": "克雷格区域公园及多个社区公园为居民提供娱乐选择。",
+      "category": "娱乐"
+    },
+    {
+      "question": "普莱森西亚的通勤情况如何？",
+      "answer": "该市便捷连接57号和91号高速公路，通勤到附近工作中心通常需30-45分钟。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州普莱森西亚房地产与生活 | 历史魅力与家庭社区",
+    "metaDescription": "探索橙县加利福尼亚州普莱森西亚的社区、公园、学校和社区活动。",
+    "keywords": "普莱森西亚加州房地产, 普莱森西亚社区, 普莱森西亚家庭生活, 橙县房产",
+    "ogTitle": "探索普莱森西亚：历史魅力与适合家庭的生活",
+    "ogDescription": "体验加利福尼亚州普莱森西亚热情的社区和充满活力的生活方式。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "普莱森西亚绿树成荫的街道及郊区住宅",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "普莱森西亚",
+      "description": "探索加利福尼亚州普莱森西亚的房地产、社区和亮点。",
+      "url": "https://example.com/locations/placentia",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "普莱森西亚绿树成荫的街道及郊区住宅"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "普莱森西亚",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "普莱森西亚以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "普莱森西亚以其历史悠久的市中心、适合家庭的社区和社区活动闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "普莱森西亚的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "普莱森西亚由普莱森西亚-约巴林达联合学区服务，拥有高评价的学校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "普莱森西亚有哪些公园？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "克雷格区域公园及多个社区公园为居民提供娱乐选择。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "普莱森西亚的通勤情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市便捷连接57号和91号高速公路，通勤到附近工作中心通常需30-45分钟。"
+          }
+        }
+      ]
+    }
+  ]
+}

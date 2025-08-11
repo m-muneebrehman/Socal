@@ -1,0 +1,187 @@
+{
+  "slug": "santa-clarita",
+  "name": "圣克拉丽塔",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以公园、优质学校和户外娱乐活动闻名的适合家庭生活的城市。",
+  "fullDescription": "圣克拉丽塔是位于洛杉矶以北的繁荣郊区城市。该市以规划完善的社区、一流的学校以及丰富的公园和步道著称，为家庭和专业人士提供高质量的生活。城市拥有六旗魔法山主题公园等景点，并拥有多样的购物和餐饮选择。其安全的社区和丰富的社区活动使圣克拉丽塔成为寻求贴近自然又兼具都市便利生活的理想之地。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "圣克拉丽塔的风景公园和步道",
+  "population": "22万+",
+  "avgHomePrice": "80万美元",
+  "tags": [
+    "适合家庭",
+    "公园",
+    "休闲娱乐"
+  ],
+  "neighborhoods": [
+    {
+      "name": "格伦代尔",
+      "type": "城市",
+      "slug": "glendale",
+      "description": "充满活力的城市，拥有购物区、公园和繁荣的艺术与餐饮场景。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "格伦代尔市中心街道",
+      "distance": "东南28英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "伯班克",
+      "type": "城市",
+      "slug": "burbank",
+      "description": "以影视制作闻名的媒体中心，拥有家庭社区和便捷的通勤条件。",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "伯班克社区街道",
+      "distance": "南部22英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "卡拉巴萨斯",
+      "type": "城市",
+      "slug": "calabasas",
+      "description": "高档社区，拥有风景秀丽的山丘、购物场所和顶级学校。",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "卡拉巴萨斯的山坡住宅",
+      "distance": "西南24英里",
+      "avgHomePrice": "180万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "棕榈谷",
+      "type": "城市",
+      "slug": "palmdale",
+      "description": "高沙漠城市，提供负担得起的住房和日益完善的设施。",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "棕榈谷的沙漠景观",
+      "distance": "东北38英里",
+      "avgHomePrice": "55万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "六旗魔法山",
+      "description": "备受欢迎的游乐园，拥有刺激的游乐设施和适合家庭的景点。",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "六旗魔法山的过山车"
+    },
+    {
+      "title": "圣克拉丽塔自然公园",
+      "description": "广阔的公园和徒步小径，适合户外爱好者和家庭。",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "带有树木和小径的风景公园"
+    },
+    {
+      "title": "新霍尔老城区",
+      "description": "历史悠久的市中心区域，拥有商店、画廊和社区活动。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "新霍尔老城区的历史街道"
+    },
+    {
+      "title": "圣克拉丽塔公共图书馆",
+      "description": "现代化图书馆，提供社区项目、活动和资源。",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣克拉丽塔公共图书馆外观"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣克拉丽塔以什么闻名？",
+      "answer": "圣克拉丽塔以适合家庭的社区、公园和户外休闲活动著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣克拉丽塔的房地产市场怎么样？",
+      "answer": "圣克拉丽塔的市场竞争激烈，拥有规划社区中的独栋住宅和联排别墅。",
+      "category": "房地产"
+    },
+    {
+      "question": "在圣克拉丽塔可以做什么？",
+      "answer": "可以游览六旗魔法山，探索自然公园，享受附近格伦代尔和伯班克的购物和餐饮。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从圣克拉丽塔通勤方便吗？",
+      "answer": "圣克拉丽塔通过I-5和14号州道可达，并有Metrolink列车通往洛杉矶。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "圣克拉丽塔 加州房地产与生活指南 | 适合家庭与户外活动",
+    "metaDescription": "探索洛杉矶县圣克拉丽塔的社区、公园、景点和房地产信息。",
+    "keywords": "圣克拉丽塔房地产, 圣克拉丽塔公园, 圣克拉丽塔家庭生活, 圣克拉丽塔待售房屋",
+    "ogTitle": "发现圣克拉丽塔：公园、家庭生活与社区",
+    "ogDescription": "在圣克拉丽塔找到理想家园，这里拥有优质学校、公园和社区设施。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "圣克拉丽塔的风景公园和步道",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣克拉丽塔",
+      "description": "探索加利福尼亚州圣克拉丽塔的房地产、社区和亮点。",
+      "url": "https://example.com/locations/santa-clarita",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "圣克拉丽塔的风景公园和步道"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣克拉丽塔",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣克拉丽塔以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣克拉丽塔以适合家庭的社区、公园和户外休闲活动著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣克拉丽塔的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣克拉丽塔的市场竞争激烈，拥有规划社区中的独栋住宅和联排别墅。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在圣克拉丽塔可以做什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以游览六旗魔法山，探索自然公园，享受附近格伦代尔和伯班克的购物和餐饮。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从圣克拉丽塔通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣克拉丽塔通过I-5和14号州道可达，并有Metrolink列车通往洛杉矶。"
+          }
+        }
+      ]
+    }
+  ]
+}

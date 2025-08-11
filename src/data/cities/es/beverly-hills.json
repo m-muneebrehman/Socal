@@ -1,0 +1,165 @@
+{
+  "slug": "beverly-hills",
+  "name": "Beverly Hills",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad icónica de lujo conocida por sus compras exclusivas, casas de celebridades y hermosas calles bordeadas de palmeras.",
+  "fullDescription": "Beverly Hills es sinónimo de glamour, lujo y comodidades de clase mundial. Famosa por las boutiques de diseñadores de Rodeo Drive, impresionantes mansiones y vecindarios con paisajismo exuberante, la ciudad atrae a visitantes y residentes que valoran la privacidad, exclusividad y vida de alto nivel. Más allá del brillo, Beverly Hills ofrece hermosos parques, excelentes escuelas y un centro caminable con restaurantes finos y atracciones culturales. Su ubicación central la convierte en un lugar privilegiado para acceder a los centros de entretenimiento y negocios de Los Ángeles.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Palmeras bordeando una calle en Beverly Hills",
+  "population": "34K+",
+  "avgHomePrice": "$4.5M",
+  "tags": [
+    "Lujo",
+    "Compras",
+    "Casas de Celebridades"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Hollywood",
+      "type": "ciudad",
+      "slug": "west-hollywood",
+      "description": "Área urbana de moda conocida por la vida nocturna, entretenimiento y el Sunset Strip.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sunset Strip en West Hollywood por la noche",
+      "distance": "2 millas al este",
+      "avgHomePrice": "$2.8M",
+      "county": "Los Ángeles"
+    },
+    {
+      "name": "Santa Monica",
+      "type": "ciudad",
+      "slug": "santa-monica",
+      "description": "Ciudad costera famosa por su muelle, playas y centro vibrante.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Muelle de Santa Monica al atardecer",
+      "distance": "8 millas al oeste",
+      "avgHomePrice": "$3.5M",
+      "county": "Los Ángeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Rodeo Drive",
+      "description": "Calle de compras de renombre mundial con boutiques de lujo y marcas de diseñadores.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Distrito comercial de Rodeo Drive"
+    },
+    {
+      "title": "Parque Beverly Gardens",
+      "description": "Hermoso parque con paisajismo que presenta el icónico letrero de Beverly Hills y senderos para caminar.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque Beverly Gardens con flores y palmeras"
+    },
+    {
+      "title": "Tour de Casas de Celebridades",
+      "description": "Tours guiados que muestran las famosas residencias de celebridades en toda la ciudad.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Mansión de lujo en Beverly Hills"
+    },
+    {
+      "title": "The Beverly Hills Hotel",
+      "description": "Histórico hotel de lujo conocido como el 'Palacio Rosa', popular entre celebridades y visitantes.",
+      "icon": "🏨",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Exterior de The Beverly Hills Hotel"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es famosa Beverly Hills?",
+      "answer": "Beverly Hills es famosa por sus compras de lujo, casas de celebridades y sus icónicas calles bordeadas de palmeras.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Beverly Hills?",
+      "answer": "El mercado inmobiliario es de alto nivel, presentando mansiones de varios millones de dólares y condominios de lujo.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Cuáles son los mejores vecindarios cerca de Beverly Hills?",
+      "answer": "West Hollywood, Santa Monica, Century City y Hollywood ofrecen diversas opciones de estilo de vida cerca.",
+      "category": "Vecindarios"
+    },
+    {
+      "question": "¿Cómo es el viaje desde Beverly Hills?",
+      "answer": "Beverly Hills está ubicada centralmente con fácil acceso a autopistas principales y opciones de transporte público en todo Los Ángeles.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Bienes Raíces y Estilo de Vida en Beverly Hills CA | Lujo, Compras y Casas de Celebridades",
+    "metaDescription": "Explora los vecindarios de Beverly Hills, vida de lujo, compras icónicas y destinos culturales destacados en esta famosa ciudad de Los Ángeles.",
+    "keywords": "bienes raíces Beverly Hills, casas de lujo Beverly Hills, compras Rodeo Drive, vivir en Beverly Hills",
+    "ogTitle": "Descubre Beverly Hills: Vida de Lujo y Estilo de Vida Icónico",
+    "ogDescription": "Experimenta el glamour de Beverly Hills con casas exclusivas, compras y vibrante vida comunitaria.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Palmeras bordeando una calle en Beverly Hills",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Beverly Hills",
+      "description": "Explora bienes raíces, vecindarios y destinos destacados en Beverly Hills, California.",
+      "url": "https://example.com/locations/beverly-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Palmeras bordeando una calle en Beverly Hills"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Beverly Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es famosa Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beverly Hills es famosa por sus compras de lujo, casas de celebridades y sus icónicas calles bordeadas de palmeras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado inmobiliario es de alto nivel, presentando mansiones de varios millones de dólares y condominios de lujo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los mejores vecindarios cerca de Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "West Hollywood, Santa Monica, Century City y Hollywood ofrecen diversas opciones de estilo de vida cerca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje desde Beverly Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beverly Hills está ubicada centralmente con fácil acceso a autopistas principales y opciones de transporte público en todo Los Ángeles."
+          }
+        }
+      ]
+    }
+  ]
+}

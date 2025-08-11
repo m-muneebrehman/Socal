@@ -1,0 +1,187 @@
+{
+  "slug": "santa-clarita",
+  "name": "Santa Clarita",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville familiale connue pour ses parcs, ses excellentes écoles et ses possibilités de loisirs en plein air.",
+  "fullDescription": "Santa Clarita est une ville suburbaine prospère située au nord de Los Angeles. Réputée pour ses communautés planifiées, ses écoles de premier ordre, ainsi que ses nombreux parcs et sentiers, elle offre une haute qualité de vie aux familles et aux professionnels. La ville propose des attractions telles que Six Flags Magic Mountain et possède une économie en croissance avec diverses options de shopping et de restauration. Ses quartiers sûrs et ses événements communautaires font de Santa Clarita une destination prisée pour ceux qui recherchent un mode de vie équilibré proche de la nature tout en bénéficiant des commodités urbaines.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Parc pittoresque et sentier de promenade à Santa Clarita",
+  "population": "220K+",
+  "avgHomePrice": "800K$",
+  "tags": [
+    "Familial",
+    "Parcs",
+    "Loisirs"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Glendale",
+      "type": "ville",
+      "slug": "glendale",
+      "description": "Ville dynamique avec quartiers commerçants, parcs et scène artistique et culinaire florissante.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue du centre-ville de Glendale",
+      "distance": "28 miles au sud-est",
+      "avgHomePrice": "1.1M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Burbank",
+      "type": "ville",
+      "slug": "burbank",
+      "description": "Pôle médiatique connu pour ses studios, ses quartiers familiaux et ses trajets domicile-travail pratiques.",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Rue de quartier à Burbank",
+      "distance": "22 miles au sud",
+      "avgHomePrice": "1.1M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Calabasas",
+      "type": "ville",
+      "slug": "calabasas",
+      "description": "Communauté huppée avec collines pittoresques, boutiques et écoles de haute qualité.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Maisons sur la colline à Calabasas",
+      "distance": "24 miles au sud-ouest",
+      "avgHomePrice": "1.8M$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Palmdale",
+      "type": "ville",
+      "slug": "palmdale",
+      "description": "Ville du désert élevé offrant des logements abordables et des équipements en croissance.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Paysage désertique de Palmdale",
+      "distance": "38 miles au nord-est",
+      "avgHomePrice": "550K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Six Flags Magic Mountain",
+      "description": "Parc d’attractions populaire avec des manèges à sensations et des attractions familiales.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Montagnes russes à Six Flags Magic Mountain"
+    },
+    {
+      "title": "Parcs Naturels de Santa Clarita",
+      "description": "Grands parcs et sentiers de randonnée pour les amateurs de plein air et les familles.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Paysage de parc pittoresque avec arbres et sentiers"
+    },
+    {
+      "title": "Old Town Newhall",
+      "description": "Centre-ville historique avec boutiques, galeries et événements communautaires.",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Rue historique dans Old Town Newhall"
+    },
+    {
+      "title": "Bibliothèque Publique de Santa Clarita",
+      "description": "Bibliothèque moderne offrant des programmes communautaires, des événements et des ressources.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Façade de la Bibliothèque Publique de Santa Clarita"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Santa Clarita est-elle connue ?",
+      "answer": "Santa Clarita est connue pour ses quartiers familiaux, ses parcs et ses possibilités de loisirs en plein air.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Santa Clarita ?",
+      "answer": "Santa Clarita offre un marché concurrentiel avec un mélange de maisons individuelles et de maisons en rangée dans des communautés planifiées.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Que peut-on faire à Santa Clarita ?",
+      "answer": "Visitez Six Flags Magic Mountain, explorez les parcs naturels, et profitez du shopping et de la restauration à Glendale et Burbank à proximité.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le trajet depuis Santa Clarita ?",
+      "answer": "Santa Clarita est accessible via l'I-5 et la State Route 14, avec un service de train Metrolink vers Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Santa Clarita CA Immobilier & Style de Vie | Familial & Plein Air",
+    "metaDescription": "Découvrez les quartiers, parcs, attractions et immobilier de Santa Clarita dans le comté de Los Angeles.",
+    "keywords": "immobilier Santa Clarita, parcs Santa Clarita, vie familiale à Santa Clarita, maisons à vendre Santa Clarita",
+    "ogTitle": "Découvrez Santa Clarita : Parcs, vie familiale & communauté",
+    "ogDescription": "Trouvez votre maison idéale à Santa Clarita avec ses excellentes écoles, ses parcs et ses commodités communautaires.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Parc pittoresque et sentier de promenade à Santa Clarita",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Santa Clarita",
+      "description": "Découvrez l’immobilier, les quartiers et les points forts de Santa Clarita, Californie.",
+      "url": "https://example.com/locations/santa-clarita",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parc pittoresque et sentier de promenade à Santa Clarita"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Santa Clarita",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Santa Clarita est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita est connue pour ses quartiers familiaux, ses parcs et ses possibilités de loisirs en plein air."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Santa Clarita ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita offre un marché concurrentiel avec un mélange de maisons individuelles et de maisons en rangée dans des communautés planifiées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que peut-on faire à Santa Clarita ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visitez Six Flags Magic Mountain, explorez les parcs naturels, et profitez du shopping et de la restauration à Glendale et Burbank à proximité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Santa Clarita ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Clarita est accessible via l'I-5 et la State Route 14, avec un service de train Metrolink vers Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

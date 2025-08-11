@@ -1,0 +1,165 @@
+{
+  "slug": "azusa",
+  "name": "Azusa",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville porte d’entrée vers les montagnes San Gabriel offrant un mélange de loisirs en plein air, charme historique et vie communautaire.",
+  "fullDescription": "Azusa est nichée au pied des montagnes San Gabriel et est connue pour sa beauté paysagère, ses sentiers de randonnée, et son centre-ville animé. La ville propose un mélange de quartiers historiques, parcs, et un accès pratique à la fois à Los Angeles et à l’Inland Empire. La communauté d’Azusa organise des événements culturels, des marchés de producteurs et offre une atmosphère familiale avec des écoles et des installations récréatives.",
+  "heroImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue des montagnes San Gabriel au-dessus de la ville d'Azusa",
+  "population": "50K+",
+  "avgHomePrice": "650 000 $",
+  "tags": [
+    "Loisirs en plein air",
+    "Charme historique",
+    "Communauté"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Covina",
+      "type": "ville",
+      "slug": "covina",
+      "description": "Ville axée sur la communauté avec des quartiers historiques, des parcs et une scène commerciale animée.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue principale à Covina avec bâtiments historiques",
+      "distance": "5 miles au sud",
+      "avgHomePrice": "700 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "San Dimas",
+      "type": "ville",
+      "slug": "san-dimas",
+      "description": "Ville connue pour sa culture équestre, ses parcs et son environnement familial.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de banlieue et parc à San Dimas",
+      "distance": "6 miles à l’est",
+      "avgHomePrice": "720 000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Montagnes San Gabriel",
+      "description": "Accès à la randonnée, au vélo et aux sentiers naturels pour les amateurs de plein air.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Chaîne de montagnes pittoresque sous un ciel bleu"
+    },
+    {
+      "title": "Centre-ville d’Azusa",
+      "description": "Zone en pleine croissance avec boutiques, restaurants et événements communautaires.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville avec des gens et des boutiques"
+    },
+    {
+      "title": "Citrus College",
+      "description": "Collège communautaire local offrant des programmes éducatifs et culturels.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiments du campus et étudiants marchant"
+    },
+    {
+      "title": "Marché de producteurs",
+      "description": "Marché hebdomadaire proposant des produits frais locaux et des articles artisanaux.",
+      "icon": "🧺",
+      "bgImage": "https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Marché de producteurs avec fruits et légumes"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quelles activités de plein air sont populaires à Azusa ?",
+      "answer": "La randonnée et le vélo dans les montagnes San Gabriel sont des passe-temps populaires.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Azusa ?",
+      "answer": "Le marché offre des options abordables comparées aux villes voisines avec un mélange de maisons individuelles et de condos.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quels sont les événements communautaires clés à Azusa ?",
+      "answer": "Azusa organise des marchés de producteurs, des festivals culturels et des rassemblements communautaires tout au long de l’année.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Azusa ?",
+      "answer": "Azusa dispose d’un accès à la Metro Gold Line et aux grandes autoroutes, facilitant les trajets vers Los Angeles et au-delà.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Azusa CA | Loisirs en plein air & Communauté",
+    "metaDescription": "Découvrez la beauté paysagère d'Azusa, ses activités de plein air et ses opportunités immobilières près des montagnes San Gabriel.",
+    "keywords": "immobilier Azusa, loisirs en plein air Azusa, vivre à Azusa, maisons à vendre à Azusa",
+    "ogTitle": "Explorez Azusa : Porte d'entrée vers les montagnes San Gabriel",
+    "ogDescription": "Trouvez votre maison à Azusa avec un accès à la nature, aux événements communautaires et à un centre-ville accueillant.",
+    "ogImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue des montagnes San Gabriel au-dessus de la ville d'Azusa",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Azusa",
+      "description": "Explorez l'immobilier, les quartiers et les points forts d'Azusa, Californie.",
+      "url": "https://example.com/locations/azusa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue des montagnes San Gabriel au-dessus de la ville d'Azusa"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Azusa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont populaires à Azusa ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La randonnée et le vélo dans les montagnes San Gabriel sont des passe-temps populaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Azusa ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché offre des options abordables comparées aux villes voisines avec un mélange de maisons individuelles et de condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les événements communautaires clés à Azusa ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Azusa organise des marchés de producteurs, des festivals culturels et des rassemblements communautaires tout au long de l’année."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Azusa ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Azusa dispose d’un accès à la Metro Gold Line et aux grandes autoroutes, facilitant les trajets vers Los Angeles et au-delà."
+          }
+        }
+      ]
+    }
+  ]
+}

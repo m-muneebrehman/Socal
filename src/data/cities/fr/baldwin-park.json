@@ -1,0 +1,176 @@
+{
+  "slug": "baldwin-park",
+  "name": "Baldwin Park",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville historique dans la vallée de San Gabriel avec un fort esprit communautaire, des parcs et des équipements adaptés aux familles.",
+  "fullDescription": "Baldwin Park est une communauté dynamique connue pour sa population diversifiée, ses parcs bien entretenus et son emplacement pratique dans la vallée de San Gabriel. La ville offre des options de logement abordables, des écoles et des programmes communautaires, ce qui la rend populaire auprès des familles et des jeunes professionnels. Baldwin Park est également proche des autoroutes principales, facilitant l’accès à Los Angeles et aux environs.",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue urbaine de Baldwin Park avec parcs et zones résidentielles",
+  "population": "75K+",
+  "avgHomePrice": "580 000 $",
+  "tags": [
+    "Communauté",
+    "Parcs",
+    "Vie abordable"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Covina",
+      "type": "ville",
+      "slug": "covina",
+      "description": "Ville historique avec un centre-ville dynamique et des événements culturels.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Rue principale à Covina",
+      "distance": "5 miles à l’est",
+      "avgHomePrice": "700 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "El Monte",
+      "type": "ville",
+      "slug": "el-monte",
+      "description": "Communauté diversifiée avec des parcs, des écoles et des zones résidentielles en expansion.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Quartier résidentiel à El Monte",
+      "distance": "6 miles à l’ouest",
+      "avgHomePrice": "600 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Irwindale",
+      "type": "ville",
+      "slug": "irwindale",
+      "description": "Petite ville connue pour sa base industrielle et ses espaces ouverts.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Zone industrielle à Irwindale",
+      "distance": "7 miles au nord-est",
+      "avgHomePrice": "650 000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc Vincent Lugo",
+      "description": "Parc communautaire populaire avec des aires de jeux, des sentiers de promenade et des zones de pique-nique.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc avec aire de jeux et arbres"
+    },
+    {
+      "title": "Société Historique de Baldwin Park",
+      "description": "Organisation dédiée à la préservation de la riche histoire de la ville.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Bâtiment historique à Baldwin Park"
+    },
+    {
+      "title": "District Scolaire Unifié de Baldwin Park",
+      "description": "Écoles servant la communauté avec des programmes éducatifs et des activités.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Étudiants marchant sur le campus"
+    },
+    {
+      "title": "Événements Communautaires",
+      "description": "Festivals, marchés de producteurs et rassemblements de quartier tout au long de l’année.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Événement communautaire avec des gens et des décorations"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Baldwin Park est-elle connue ?",
+      "answer": "Baldwin Park est connue pour son fort esprit communautaire, ses parcs et ses options de vie abordables.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Baldwin Park ?",
+      "answer": "Le marché est abordable avec une variété de maisons individuelles et de condos populaires auprès des familles.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités récréatives sont disponibles à Baldwin Park ?",
+      "answer": "Les résidents apprécient les parcs locaux, les centres communautaires et les festivals saisonniers.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Baldwin Park ?",
+      "answer": "Baldwin Park est bien reliée par les autoroutes et les transports en commun aux villes voisines, y compris Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Baldwin Park CA | Communauté & Parcs",
+    "metaDescription": "Découvrez les maisons abordables, les parcs et la communauté dynamique de Baldwin Park dans la vallée de San Gabriel.",
+    "keywords": "immobilier Baldwin Park, parcs Baldwin Park, vivre à Baldwin Park, maisons à vendre Baldwin Park",
+    "ogTitle": "Découvrez Baldwin Park : Vie communautaire & Loisirs",
+    "ogDescription": "Trouvez votre place à Baldwin Park avec son fort esprit communautaire, ses parcs et son emplacement pratique.",
+    "ogImage": "https://images.unsplash.com/photo-1494522331057-1518a92e2b45?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue urbaine de Baldwin Park avec parcs",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Baldwin Park",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Baldwin Park, Californie.",
+      "url": "https://example.com/locations/baldwin-park",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494522331057-1518a92e2b45?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue urbaine de Baldwin Park avec parcs"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Baldwin Park",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Baldwin Park est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baldwin Park est connue pour son fort esprit communautaire, ses parcs et ses options de vie abordables."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Baldwin Park ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché est abordable avec une variété de maisons individuelles et de condos populaires auprès des familles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités récréatives sont disponibles à Baldwin Park ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents apprécient les parcs locaux, les centres communautaires et les festivals saisonniers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Baldwin Park ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baldwin Park est bien reliée par les autoroutes et les transports en commun aux villes voisines, y compris Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

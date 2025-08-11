@@ -1,125 +1,5 @@
 [
   {
-    "id": "6897d4e5d030dedaafd97952",
-    "slug": "los-angeles-retro-charm-homes",
-    "title": "洛杉矶带复古魅力的住宅：投资机遇与奢华生活",
-    "subtitle": "在天使之城寻找您的梦想家园：探索洛杉矶独具魅力的复古住宅，开启您的奢华生活之旅。",
-    "category": "购买",
-    "author": {
-      "name": "Claude",
-      "title": "Luxury Real Estate Expert",
-      "avatar": "CL",
-      "bio": "资深奢侈房地产内容撰稿人和SEO专家，专门从事国际奢侈品市场，尤其擅长南加州房产。拥有丰富的服务超高净值客户的经验，深入了解市场动态和投资策略。",
-      "url": ""
-    },
-    "date": "2024年10月27日",
-    "readTime": "8分钟阅读",
-    "status": "Published",
-    "featured": true,
-    "heroImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "heroImageAlt": "洛杉矶带复古魅力的住宅，体现了独特的建筑风格和奢华生活方式。",
-    "canonicalUrl": "www.abc.com/zh/los-angeles-retro-charm-homes",
-    "language": "zh",
-    "city": "洛杉矶",
-    "topic": "购买",
-    "keyword": "洛杉矶带复古魅力的住宅",
-    "group_id": 109,
-    "seo": {
-      "metaTitle": "洛杉矶带复古魅力的住宅：投资机遇与奢华生活",
-      "metaDescription": "探索洛杉矶迷人的复古住宅，发现其独特的投资潜力和奢华生活方式。",
-      "keywords": "洛杉矶带复古魅力的住宅, 豪华房地产, 洛杉矶房产, 南加州投资, 复古住宅, 豪宅, 别墅, 比弗利山庄, 好莱坞",
-      "ogTitle": "洛杉矶带复古魅力的住宅：投资机遇与奢华生活",
-      "ogDescription": "探索洛杉矶迷人的复古住宅，发现其独特的投资潜力和奢华生活方式。",
-      "ogImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "twitterCard": "summary_large_image"
-    },
-    "hreflang_tags": [
-      {
-        "hreflang": "en",
-        "href": "https://abc.com/en/los-angeles-retro-charm-homes"
-      },
-      {
-        "hreflang": "zh",
-        "href": "https://abc.com/zh/los-angeles-retro-charm-homes"
-      }
-    ],
-    "internal_links": [
-      {
-        "href": "/luxury-properties/los-angeles",
-        "anchor": "洛杉矶豪华房产",
-        "context": "了解更多关于洛杉矶的豪华房产信息"
-      },
-      {
-        "href": "/investment-guides/southern-california",
-        "anchor": "南加州投资指南",
-        "context": "深入了解南加州的投资机会"
-      }
-    ],
-    "schema_markup": {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "洛杉矶带复古魅力的住宅：投资机遇与奢华生活",
-      "description": "探索洛杉矶迷人的复古住宅，发现其独特的投资潜力和奢华生活方式。",
-      "datePublished": "2024年10月27日",
-      "dateModified": "2024年10月27日",
-      "author": {
-        "@type": "Person",
-        "name": "Claude",
-        "jobTitle": "Luxury Real Estate Expert"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Premier Luxury Estates",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://abc.com/logo.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "www.abc.com/zh/los-angeles-retro-charm-homes"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        "width": 2340,
-        "height": 1560
-      }
-    },
-    "images": [],
-    "word_count": 1300,
-    "ctaSection": {
-      "title": "立即联系我们",
-      "subtitle": "准备好开启您的洛杉矶奢华房产之旅了吗？",
-      "ctaText": "准备行动了吗？",
-      "ctaLink": "/downloads/urban-sustainability-guide"
-    },
-    "content": {
-      "lead": "洛杉矶，天使之城，凭借其迷人的阳光海岸线、充满活力的文化和世界一流的设施，吸引着来自世界各地的买家。如果您正在寻找一个既能满足投资需求又能提供奢华生活方式的理想之地，那么洛杉矶带复古魅力的住宅将是您的完美选择。这些房产不仅拥有独特的历史底蕴和建筑风格，还拥有现代化的便利设施，为国际买家提供了无与伦比的投资机会。在洛杉矶，您将发现各种不同风格的住宅，从好莱坞山顶的豪宅到比弗利山庄的优雅别墅，以及太平洋帕利塞德斯壮丽海景房，每处都散发着独特的魅力，等待着您的发现。",
-      "sections": [
-        {
-          "title": "市场概览及趋势",
-          "content": "近年来，洛杉矶带复古魅力的住宅市场经历了显著的增长，吸引了众多国际买家的目光。这些住宅不仅拥有独特的历史价值和建筑特色，而且其位置优越，靠近城市中心和高端设施，为投资者带来了丰厚的回报。",
-          "quote": {
-            "text": "“洛杉矶的复古住宅市场是一个极具潜力的投资领域，其独特的魅力和稳定的增值潜力使其成为国际买家的首选。”",
-            "author": "Claude, Luxury Real Estate Expert"
-          },
-          "additional": "洛杉矶房地产市场一直以来都以其稳定性和高回报率而闻名。",
-          "subsections": [
-            {
-              "title": "比弗利山庄的投资机会",
-              "content": "例如，位于比弗利山庄的许多复古住宅，价格近年来稳步上涨，年均增长率超过8%。"
-            }
-          ]
-        }
-      ]
-    },
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2025-08-10T17:59:29.662Z",
-    "updatedAt": "2025-08-10T05:37:02.268Z"
-  },
-  {
     "id": "6898d55ed030dedaafd97a7a",
     "slug": "homes-with-vintage-charm-in-los-angeles",
     "title": "探索洛杉矶充满复古魅力的住宅：永恒的投资之选",
@@ -310,7 +190,7 @@
     },
     "views": 0,
     "likes": 0,
-    "createdAt": "2025-08-10T17:59:29.662Z",
-    "updatedAt": "2025-08-10T17:59:29.370Z"
+    "createdAt": "2025-08-10T21:25:09.425Z",
+    "updatedAt": "2025-08-10T18:21:52.541Z"
   }
 ]

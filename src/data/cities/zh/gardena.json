@@ -1,0 +1,165 @@
+{
+  "slug": "gardena",
+  "name": "加迪纳",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "南湾地区一个多元化的城市，以其强大的社区、丰富的公园和便利的地理位置著称。",
+  "fullDescription": "加迪纳是位于洛杉矶县南湾地区的充满活力的城市。以文化多样性和友好的社区著称，加迪纳拥有住宅区、购物中心和休闲公园的混合体。该市靠近主要高速公路和洛杉矶国际机场，方便通勤。加迪纳还以其维护良好的公园和各种促进社区凝聚力的本地活动而闻名。",
+  "heroImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "加迪纳市中心街景，棕榈树和晴朗的天空",
+  "population": "5.8万+",
+  "avgHomePrice": "65万美元",
+  "tags": [
+    "社区",
+    "公园",
+    "便利位置"
+  ],
+  "neighborhoods": [
+    {
+      "name": "霍桑",
+      "type": "城市",
+      "slug": "hawthorne",
+      "description": "一个拥有丰富航空航天历史和不断发展的住宅社区的城市。",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "霍桑的住宅街道",
+      "distance": "西3英里",
+      "avgHomePrice": "80万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "康普顿",
+      "type": "城市",
+      "slug": "compton",
+      "description": "历史悠久的城市，拥有多元文化和丰富的音乐遗产。",
+      "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "康普顿的城市社区",
+      "distance": "东5英里",
+      "avgHomePrice": "55万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "加迪纳威洛斯湿地保护区",
+      "description": "一个拥有步道和野生动物观赏机会的自然区域。",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "加迪纳威洛斯湿地保护区的郁郁葱葱绿地"
+    },
+    {
+      "title": "亨廷顿公园社区中心",
+      "description": "提供休闲项目和社区活动。",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "现代社区中心建筑"
+    },
+    {
+      "title": "本地公园与娱乐",
+      "description": "加迪纳拥有多个公园，包括罗利公园和汉森坝，设有体育设施和游乐场。",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "绿意盎然的公园区域，配有游乐场和步道"
+    },
+    {
+      "title": "加迪纳市中心",
+      "description": "一个不断发展的购物和餐饮区，拥有各种本地商铺。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "繁忙的购物街道，有行人和店面"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "加迪纳以什么闻名？",
+      "answer": "加迪纳以其强大的社区、自然保护区和靠近洛杉矶国际机场的便利位置著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "加迪纳的房地产市场如何？",
+      "answer": "加迪纳的房地产市场以价格合理的房屋为主，包括独栋住宅和公寓混合。",
+      "category": "房地产"
+    },
+    {
+      "question": "加迪纳有哪些娱乐活动？",
+      "answer": "居民可以享受公园、社区中心以及附近海滩的户外活动。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从加迪纳通勤怎么样？",
+      "answer": "加迪纳拥有良好的高速公路和公共交通选择，使得通勤到洛杉矶市中心及其他地区相对便利。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加迪纳房地产与社区 | 公园、生活方式与地理位置",
+    "metaDescription": "探索洛杉矶县南湾地区加迪纳的社区、公园及房地产机会。",
+    "keywords": "加迪纳房地产，加迪纳公园，加迪纳生活，加迪纳待售房屋",
+    "ogTitle": "发现加迪纳：社区生活与自然美景",
+    "ogDescription": "在加迪纳找到您的家，这里有热情的社区、绿色空间和便利的位置。",
+    "ogImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "加迪纳市中心街景，棕榈树和晴朗的天空",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "加迪纳",
+      "description": "探索加利福尼亚州加迪纳的房地产、社区和亮点。",
+      "url": "https://example.com/locations/gardena",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+        "caption": "加迪纳市中心街景，棕榈树和晴朗的天空"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "加迪纳",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "加迪纳以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "加迪纳以其强大的社区、自然保护区和靠近洛杉矶国际机场的便利位置著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "加迪纳的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "加迪纳的房地产市场以价格合理的房屋为主，包括独栋住宅和公寓混合。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "加迪纳有哪些娱乐活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民可以享受公园、社区中心以及附近海滩的户外活动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从加迪纳通勤怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "加迪纳拥有良好的高速公路和公共交通选择，使得通勤到洛杉矶市中心及其他地区相对便利。"
+          }
+        }
+      ]
+    }
+  ]
+}

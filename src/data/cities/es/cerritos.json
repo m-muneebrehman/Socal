@@ -1,0 +1,187 @@
+{
+  "slug": "cerritos",
+  "name": "Cerritos",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad suburbana bien planificada conocida por sus centros comerciales, parques, arte público y escuelas de primer nivel.",
+  "fullDescription": "Cerritos, ubicada en el sureste del Condado de Los Ángeles, es reconocida por sus vecindarios cuidadosamente planificados, excelentes escuelas públicas y un fuerte sentido de comunidad. La ciudad cuenta con extensos parques y programas recreativos, un reconocido centro de artes escénicas y el popular centro comercial Los Cerritos Center. Con conveniente acceso a autopistas, Cerritos ofrece un atractivo equilibrio entre comodidad suburbana y conectividad urbana para familias y profesionales.",
+  "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle suburbana arbolada y casas en Cerritos",
+  "population": "49K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Escuelas",
+    "Compras",
+    "Parques"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Norwalk",
+      "type": "ciudad",
+      "slug": "norwalk",
+      "description": "Ciudad orientada a familias con parques, centros comerciales y conveniente acceso a autopistas.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle residencial en Norwalk",
+      "distance": "3 millas al norte",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lakewood",
+      "type": "ciudad",
+      "slug": "lakewood",
+      "description": "Ciudad suburbana conocida por sus parques bien mantenidos y vecindarios familiares.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vecindario arbolado en Lakewood",
+      "distance": "4 millas al suroeste",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "ciudad",
+      "slug": "bellflower",
+      "description": "Ciudad enfocada en la comunidad con parques, centros comerciales y eventos locales.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque de la ciudad y senderos para caminar en Bellflower",
+      "distance": "5 millas al oeste",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "ciudad",
+      "slug": "la-mirada",
+      "description": "Ciudad residencial conocida por parques, escuelas y comodidades familiares.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Calle suburbana en La Mirada",
+      "distance": "4 millas al este",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Los Cerritos Center",
+      "description": "Destino principal de compras con comercio minorista, restaurantes y entretenimiento.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centro comercial interior con compradores"
+    },
+    {
+      "title": "Cerritos Center for the Performing Arts",
+      "description": "Reconocido lugar que alberga conciertos, teatro y presentaciones culturales.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Escenario de artes escénicas con iluminación"
+    },
+    {
+      "title": "Cerritos Sculpture Garden",
+      "description": "Jardín de arte público con esculturas ubicadas entre senderos paisajísticos.",
+      "icon": "🗿",
+      "bgImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Escultura al aire libre en jardín paisajístico"
+    },
+    {
+      "title": "Heritage Park",
+      "description": "Parque comunitario con senderos para caminar, espacios verdes y actividades familiares.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque con árboles y césped abierto"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocida Cerritos?",
+      "answer": "Cerritos es conocida por sus escuelas de primer nivel, arte público, destinos de compras y parques bien mantenidos.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Cerritos?",
+      "answer": "El mercado es competitivo con principalmente casas unifamiliares, reflejando la alta demanda por escuelas y comodidades.",
+      "category": "Bienes raíces"
+    },
+    {
+      "question": "¿Qué puedes hacer en Cerritos?",
+      "answer": "Comprar en Los Cerritos Center, asistir a presentaciones en el Centro de Artes Escénicas y pasear por el Jardín de Esculturas.",
+      "category": "Estilo de vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Cerritos?",
+      "answer": "Cerritos ofrece acceso rápido a I-605, SR-91 e I-5, haciendo convenientes los viajes diarios a LA y el Condado de Orange.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cerritos CA Bienes Raíces y Estilo de Vida | Escuelas, Compras y Parques",
+    "metaDescription": "Descubre los vecindarios de Cerritos, escuelas de primer nivel, compras y opciones inmobiliarias en el Condado de Los Ángeles.",
+    "keywords": "bienes raíces Cerritos, escuelas Cerritos, vivir en Cerritos, casas Cerritos en venta",
+    "ogTitle": "Explora Cerritos: Comodidad Suburbana, Grandes Escuelas y Comodidades",
+    "ogDescription": "Encuentra tu hogar en Cerritos con excelentes escuelas, compras y parques en una comunidad bien planificada.",
+    "ogImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle suburbana arbolada y casas en Cerritos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cerritos",
+      "description": "Explora bienes raíces, vecindarios y puntos destacados en Cerritos, California.",
+      "url": "https://example.com/locations/cerritos",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle suburbana arbolada y casas en Cerritos"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Cerritos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocida Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos es conocida por sus escuelas de primer nivel, arte público, destinos de compras y parques bien mantenidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado es competitivo con principalmente casas unifamiliares, reflejando la alta demanda por escuelas y comodidades."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué puedes hacer en Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comprar en Los Cerritos Center, asistir a presentaciones en el Centro de Artes Escénicas y pasear por el Jardín de Esculturas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos ofrece acceso rápido a I-605, SR-91 e I-5, haciendo convenientes los viajes diarios a LA y el Condado de Orange."
+          }
+        }
+      ]
+    }
+  ]
+}

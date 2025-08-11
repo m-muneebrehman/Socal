@@ -1,0 +1,165 @@
+{
+  "slug": "agoura-hills",
+  "name": "Agoura Hills",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Ein malerisches Tor zu den Santa Monica Mountains, das Outdoor-Abenteuer, Pferdekultur und familienfreundliche Nachbarschaften bietet.",
+  "fullDescription": "Im Conejo Valley gelegen, verbindet Agoura Hills natürliche Schönheit mit vorstädtischem Komfort. Bekannt für seine sanften Hügel, Wanderwege durch die Santa Monica Mountains und pferdefreundliche Gemeinschaften, bietet diese Stadt einen friedlichen Rückzugsort mit einfachem Autobahnzugang. Heimat renommierter Unterhaltungstechnologie-Unternehmen und erstklassiger Schulen, zieht Agoura Hills Familien und Fachkräfte an, die einen ausgewogenen Lebensstil zwischen Natur und urbanen Annehmlichkeiten suchen.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Sanfte Hügel und eine malerische Aussicht in der Nähe von Agoura Hills",
+  "population": "20K+",
+  "avgHomePrice": "$1.5M",
+  "tags": [
+    "Outdoor",
+    "Familienfreundlich",
+    "Pferde"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Calabasas",
+      "type": "Stadt",
+      "slug": "calabasas",
+      "description": "Wohlhabender Nachbar mit Luxus-Anwesen, Prominentenhäusern und dem Commons Einkaufszentrum.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Luxus-Häuser und Einkaufen in Calabasas",
+      "distance": "5 Meilen südwestlich",
+      "avgHomePrice": "$2.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Malibu",
+      "type": "Stadt",
+      "slug": "malibu",
+      "description": "Ikone der Küstenstadt mit Prominentenstränden, Surfspots und Meeresblick-Restaurants.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Malibu Strandküste mit Meerblick",
+      "distance": "12 Meilen südlich",
+      "avgHomePrice": "$3.9M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Santa Monica Mountains",
+      "description": "Geschütztes Wildnisgebiet mit Wander-, Mountainbike- und Reitwegen.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wanderweg mit Bergen und Wildblumen in den Santa Monica Mountains"
+    },
+    {
+      "title": "Paramount Ranch",
+      "description": "Historisches Filmset, das zum Nationalpark mit Westernstadt und Veranstaltungsraum wurde.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Western-Stil Gebäude im Paramount Ranch"
+    },
+    {
+      "title": "Reyes Adobe",
+      "description": "Restauriertes Adobe-Haus aus dem 19. Jahrhundert, das als Kulturzentrum und Museum dient.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historisches Adobe-Gebäude mit Bäumen"
+    },
+    {
+      "title": "Pferdekultur",
+      "description": "Pferdefreundliche Gemeinschaft mit Reitwegen, Unterbringungseinrichtungen und jährlichen Veranstaltungen.",
+      "icon": "🐎",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Reiter auf einem Wanderweg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Agoura Hills bekannt?",
+      "answer": "Tor zu den Santa Monica Mountains, Pferde-Lebensstil und als Drehort für Filme/Fernsehserien.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie sind die Schulen in Agoura Hills?",
+      "answer": "Der erstklassige Las Virgenes Unified School District versorgt die Gemeinschaft, einschließlich der hochrangigen Agoura High School.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind verfügbar?",
+      "answer": "Wandern im Cheeseboro Canyon, Mountainbiking, Reiten und Klettern in den Santa Monicas.",
+      "category": "Erholung"
+    },
+    {
+      "question": "Wie ist das Pendeln nach Los Angeles?",
+      "answer": "Einfacher Zugang über die 101 Autobahn, mit Pendelzeiten von durchschnittlich 45-60 Minuten in die Innenstadt von LA.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Agoura Hills CA Immobilien & Lebensstil | Bergleben & Familien-Gemeinschaft",
+    "metaDescription": "Entdecken Sie Agoura Hills' Nachbarschaften, Outdoor-Erholung, Schulen und Immobilienoptionen in den Santa Monica Mountains.",
+    "keywords": "Agoura Hills Immobilien, Santa Monica Mountains, Leben in Agoura Hills, Conejo Valley Häuser",
+    "ogTitle": "Erkunden Sie Agoura Hills: Bergleben & Outdoor-Abenteuer",
+    "ogDescription": "Entdecken Sie familienfreundliche Gemeinschaften und natürliche Schönheit in Agoura Hills am Tor zu den Santa Monicas.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Panoramablick auf Agoura Hills und Berge",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Agoura Hills",
+      "description": "Erkunden Sie Immobilien, Nachbarschaften und Höhepunkte in Agoura Hills, Kalifornien.",
+      "url": "https://example.com/locations/agoura-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Agoura Hills Landschaft mit Santa Monica Mountains"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Agoura Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Agoura Hills bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agoura Hills ist berühmt als Tor zu den Santa Monica Mountains, seine Pferdekultur und als Drehort für Filme und Fernsehserien."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Stadt wird vom hochbewerteten Las Virgenes Unified School District versorgt, einschließlich der hochrangigen Agoura High School."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind verfügbar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Einwohner genießen Wandern, Mountainbiking, Reiten und Klettern im Santa Monica Mountains National Recreation Area."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln nach Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die 101 Autobahn bietet direkten Zugang zu Los Angeles, mit Pendelzeiten von durchschnittlich 45-60 Minuten in die Innenstadt."
+          }
+        }
+      ]
+    }
+  ]
+}

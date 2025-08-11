@@ -1,0 +1,187 @@
+{
+  "slug": "cypress",
+  "name": "Cypress",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine ruhige Vorstadtstadt bekannt für ihre ausgezeichneten Schulen, Parks und familienfreundliches Leben.",
+  "fullDescription": "Cypress bietet eine friedliche Vorstadtatmosphäre mit gut gepflegten Nachbarschaften, hoch bewerteten Schulen und reichlich Grünflächen. Gelegen im Nordwesten des Orange County, ist es bekannt für seinen starken Gemeinschaftsgeist und bequemen Zugang zu nahegelegenen Arbeitszentren, Stränden und Autobahnen. Familien und Berufstätige schätzen Cypress für seine sichere Umgebung, Gemeinschaftsveranstaltungen und ausgewogenen Lebensstil.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Ruhige Wohngegend in Cypress",
+  "population": "50K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Vorstadt",
+    "Familienfreundlich",
+    "Parks & Erholung"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Los Alamitos",
+      "type": "Stadt",
+      "slug": "los-alamitos",
+      "description": "Kleine Stadt bekannt für Gemeinschaftsveranstaltungen, Schulen und die Naval Weapons Station.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Gemeinschaftspark in Los Alamitos",
+      "distance": "5 km südöstlich",
+      "avgHomePrice": "$800K",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "Stadt",
+      "slug": "garden-grove",
+      "description": "Große Stadt mit vielfältiger Kultur, Einkaufsmöglichkeiten und Unterhaltungsoptionen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadt von Garden Grove",
+      "distance": "8 km östlich",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Anaheim",
+      "type": "Stadt",
+      "slug": "anaheim",
+      "description": "Heimat von Disneyland, Sportstätten und einem wachsenden Technologiesektor.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Innenstadt-Skyline von Anaheim",
+      "distance": "10 km nordöstlich",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    },
+    {
+      "name": "Stanton",
+      "type": "Stadt",
+      "slug": "stanton",
+      "description": "Kleine Stadt mit Wohngegenden und einfachem Autobahnzugang.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohngebiet in Stanton",
+      "distance": "6 km südlich",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Cypress Community Park",
+      "description": "Großer Park mit Sportplätzen, Picknickbereichen, Spielplätzen und Wanderwegen.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Grüner Parkbereich in Cypress"
+    },
+    {
+      "title": "Hochbewertete Schulen",
+      "description": "Teil des Cypress School District, bekannt für hohe akademische Leistung und außerschulische Aktivitäten.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Schulcampus in Cypress"
+    },
+    {
+      "title": "Bequeme Lage",
+      "description": "Nahe an wichtigen Autobahnen (22, 405) mit einfachem Zugang zum Orange County und Los Angeles.",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Autobahneinfahrt in der Nähe von Cypress"
+    },
+    {
+      "title": "Gemeinschaftsveranstaltungen",
+      "description": "Regelmäßige Festivals, Bauernmärkte und Freizeitprogramme fördern das Gemeinschaftsengagement.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Gemeinschaftsveranstaltung mit Familien"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Cypress bekannt?",
+      "answer": "Cypress ist bekannt für seine familienfreundliche Atmosphäre, ausgezeichnete Schulen und reichlich Parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Wie sind die Schulen in Cypress?",
+      "answer": "Der Cypress School District ist hoch bewertet mit starken akademischen und außerschulischen Programmen.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind verfügbar?",
+      "answer": "Bewohner genießen Parks, Sportligen und gemeindliche Freizeitprogramme.",
+      "category": "Erholung"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr von Cypress?",
+      "answer": "Cypress hat einfachen Zugang zu den Autobahnen 22 und 405, mit Pendelverkehr zum Orange County und Los Angeles.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cypress CA Immobilien & Lifestyle | Familienfreundliches Vorstadtleben",
+    "metaDescription": "Entdecke Cypress Nachbarschaften, Parks, Schulen und Gemeinschaftsveranstaltungen im Orange County, Kalifornien.",
+    "keywords": "Cypress Immobilien, Familienleben in Cypress, Orange County Häuser, Cypress Schulen",
+    "ogTitle": "Entdecke Cypress: Familienfreundliche Vorstadtgemeinschaft im Orange County",
+    "ogDescription": "Erfahre mehr über Cypress sichere Nachbarschaften, beste Schulen, Parks und bequeme Lage.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Ruhige Wohngegend in Cypress",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cypress",
+      "description": "Entdecke Immobilien, Nachbarschaften und Highlights in Cypress, Kalifornien.",
+      "url": "https://example.com/locations/cypress",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Ruhige Wohngegend in Cypress"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Cypress",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Cypress bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cypress ist bekannt für seine familienfreundliche Atmosphäre, ausgezeichnete Schulen und reichlich Parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Cypress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Cypress School District ist hoch bewertet mit starken akademischen und außerschulischen Programmen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind verfügbar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bewohner genießen Parks, Sportligen und gemeindliche Freizeitprogramme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr von Cypress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cypress hat einfachen Zugang zu den Autobahnen 22 und 405, mit Pendelverkehr zum Orange County und Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

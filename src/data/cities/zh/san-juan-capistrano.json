@@ -1,0 +1,187 @@
+{
+  "slug": "san-juan-capistrano",
+  "name": "圣胡安卡皮斯特拉诺",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "以西班牙传教站、迷人的市中心和丰富的文化遗产著称的历史名城。",
+  "fullDescription": "圣胡安卡皮斯特拉诺以其丰富的历史闻名，围绕着著名的圣胡安卡皮斯特拉诺传教站，素有“传教站之宝石”美誉。该市拥有古朴迷人的市中心，设有独特的商店、艺术画廊和餐厅，社区积极传承其文化遗产。四周环绕着起伏的山丘，靠近海岸，兼具历史魅力与现代生活，吸引着重视文化、自然和小镇温情的家庭和游客。",
+  "heroImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "晴朗天空下的圣胡安卡皮斯特拉诺传教站",
+  "population": "3.6万+",
+  "avgHomePrice": "100万美元",
+  "tags": [
+    "历史",
+    "文化",
+    "适合家庭"
+  ],
+  "neighborhoods": [
+    {
+      "name": "达纳角",
+      "type": "城市",
+      "slug": "dana-point",
+      "description": "沿海城市，拥有风景如画的港口、海滩和海滨公园，位于圣胡安卡皮斯特拉诺西南方。",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表达纳角的海岸悬崖与海景",
+      "distance": "西南5英里",
+      "avgHomePrice": "150万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "圣克莱门特",
+      "type": "城市",
+      "slug": "san-clemente",
+      "description": "以码头、西班牙殖民建筑和轻松冲浪文化闻名的海滩城市。",
+      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表圣克莱门特的海岸线",
+      "distance": "东南6英里",
+      "avgHomePrice": "130万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "拉古纳尼格尔",
+      "type": "城市",
+      "slug": "laguna-niguel",
+      "description": "高档郊区社区，拥有公园、小径和起伏山丘，位于圣胡安卡皮斯特拉诺西北部。",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表拉古纳尼格尔的绿丘和郊区住宅",
+      "distance": "西北7英里",
+      "avgHomePrice": "120万美元",
+      "county": "橙县"
+    },
+    {
+      "name": "米申维耶霍",
+      "type": "城市",
+      "slug": "mission-viejo",
+      "description": "规划完善的城市，拥有湖滨娱乐、公园和适合家庭的社区，位于圣胡安卡皮斯特拉诺北部。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "代表米申维耶霍的郊区社区街道",
+      "distance": "北8英里",
+      "avgHomePrice": "110万美元",
+      "county": "橙县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "圣胡安卡皮斯特拉诺传教站",
+      "description": "1776年建立的历史西班牙传教站，以其美丽的建筑和年度燕子归来活动闻名。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "圣胡安卡皮斯特拉诺传教站建筑正面"
+    },
+    {
+      "title": "洛斯里奥斯历史街区",
+      "description": "加州最古老的社区之一，保留了历史住宅、商店和餐饮，环境迷人。",
+      "icon": "🏘️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "洛斯里奥斯街区的土坯房屋和街道"
+    },
+    {
+      "title": "圣胡安卡皮斯特拉诺区域图书馆",
+      "description": "现代图书馆，提供丰富资源、社区项目和适合所有年龄段的活动。",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "图书馆建筑和阅读区"
+    },
+    {
+      "title": "户外活动",
+      "description": "徒步小径、公园和附近海滩为居民全年提供丰富的户外活动选择。",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "徒步小径和开阔的自然景观"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣胡安卡皮斯特拉诺以什么闻名？",
+      "answer": "这座城市最著名的是历史悠久的圣胡安卡皮斯特拉诺传教站和年度燕子归来活动。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣胡安卡皮斯特拉诺的学校怎么样？",
+      "answer": "圣胡安卡皮斯特拉诺由卡皮斯特拉诺联合学区管理，拥有高评价的公立和私立学校。",
+      "category": "教育"
+    },
+    {
+      "question": "居民可以享受哪些户外活动？",
+      "answer": "居民可以享受徒步、骑马和附近海滩活动，包括达纳角海岸线。",
+      "category": "娱乐"
+    },
+    {
+      "question": "从圣胡安卡皮斯特拉诺通勤方便吗？",
+      "answer": "该市交通便利，靠近I-5高速公路，通勤至橙县和洛杉矶主要就业中心的时间约为30至60分钟。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "圣胡安卡皮斯特拉诺 加州房地产与生活指南 | 历史传教站与家庭社区",
+    "metaDescription": "探索圣胡安卡皮斯特拉诺的社区、历史遗址、学校和橙县的户外活动。",
+    "keywords": "圣胡安卡皮斯特拉诺房地产, 圣胡安卡皮斯特拉诺传教站, 橙县历史住宅, 圣胡安卡皮斯特拉诺家庭生活",
+    "ogTitle": "发现圣胡安卡皮斯特拉诺：历史、文化与社区",
+    "ogDescription": "体验加州圣胡安卡皮斯特拉诺丰富的文化遗产和海滨魅力。",
+    "ogImage": "https://images.unsplash.com/photo-1518238374233-1954c8aa1f5f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "晴朗天空下的圣胡安卡皮斯特拉诺传教站",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣胡安卡皮斯特拉诺",
+      "description": "探索加利福尼亚州圣胡安卡皮斯特拉诺的房地产、社区和亮点。",
+      "url": "https://example.com/locations/san-juan-capistrano",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1518238374233-1954c8aa1f5f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "晴朗天空下的圣胡安卡皮斯特拉诺传教站"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣胡安卡皮斯特拉诺",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣胡安卡皮斯特拉诺以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "这座城市最著名的是历史悠久的圣胡安卡皮斯特拉诺传教站和年度燕子归来活动。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣胡安卡皮斯特拉诺的学校怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣胡安卡皮斯特拉诺由卡皮斯特拉诺联合学区管理，拥有高评价的公立和私立学校。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "居民可以享受哪些户外活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民可以享受徒步、骑马和附近海滩活动，包括达纳角海岸线。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从圣胡安卡皮斯特拉诺通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "该市交通便利，靠近I-5高速公路，通勤至橙县和洛杉矶主要就业中心的时间约为30至60分钟。"
+          }
+        }
+      ]
+    }
+  ]
+}

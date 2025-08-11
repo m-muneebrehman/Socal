@@ -1,0 +1,154 @@
+{
+  "slug": "diamond-bar",
+  "name": "Diamond Bar",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una ciudad suburbana conocida por sus colinas pintorescas, ambiente familiar y excelentes escuelas.",
+  "fullDescription": "Diamond Bar ofrece un estilo de vida suburbano pacífico con muchos parques, senderos para caminar y eventos comunitarios. Ubicada en el este del condado de Los Angeles, cuenta con vecindarios bien mantenidos, escuelas públicas sólidas y fácil acceso a las autopistas 60 y 57. La ciudad es popular entre familias y profesionales que buscan un entorno más tranquilo cerca de las comodidades urbanas.",
+  "heroImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Calle del vecindario suburbano en Diamond Bar con colinas al fondo",
+  "population": "56K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Suburbano",
+    "Familiar",
+    "Senderismo"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Pomona",
+      "type": "ciudad",
+      "slug": "pomona",
+      "description": "Ciudad con un centro histórico, lugares culturales e instituciones educativas.",
+      "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vista de la calle del centro de Pomona",
+      "distance": "8 km al este",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parque Pantera",
+      "description": "Parque local popular con parques infantiles, campos deportivos y áreas de picnic.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque con árboles y espacio verde abierto"
+    },
+    {
+      "title": "Parque Summit Ridge",
+      "description": "Parque en la cima de la colina con senderos para caminar y vistas panorámicas de la ciudad.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vista desde el sendero para caminar en el Parque Summit Ridge"
+    },
+    {
+      "title": "Campo de Golf Diamond Bar",
+      "description": "Campo de golf público con hermosos paisajes y comodidades.",
+      "icon": "⛳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Campo de golf con calles verdes"
+    },
+    {
+      "title": "Centro Comercial Diamond Bar Towne",
+      "description": "Centro de compras y restaurantes con varias tiendas y restaurantes.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior del centro comercial"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Diamond Bar?",
+      "answer": "Diamond Bar es conocido por sus vecindarios familiares, excelentes escuelas y opciones recreativas al aire libre.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo está el mercado inmobiliario en Diamond Bar?",
+      "answer": "El mercado ofrece una mezcla de casas suburbanas con precios competitivos y fuerte demanda de familias.",
+      "category": "Bienes Raíces"
+    },
+    {
+      "question": "¿Cuáles son las actividades populares al aire libre en Diamond Bar?",
+      "answer": "Los residentes disfrutan del senderismo en el Parque Summit Ridge, jugar golf y pasar tiempo en parques locales como el Parque Pantera.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo es el viaje diario desde Diamond Bar?",
+      "answer": "Diamond Bar proporciona acceso conveniente a las autopistas y viajes diarios razonables a Los Angeles y ciudades vecinas.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Diamond Bar CA Bienes Raíces y Estilo de Vida | Suburbio Familiar",
+    "metaDescription": "Explora los vecindarios, parques y bienes raíces de Diamond Bar en el condado de Los Angeles.",
+    "keywords": "bienes raíces Diamond Bar, parques Diamond Bar, vivir en Diamond Bar, casas en venta Diamond Bar",
+    "ogTitle": "Descubre Diamond Bar: Vida Suburbana y Vida al Aire Libre",
+    "ogDescription": "Encuentra tu hogar en Diamond Bar con sus vecindarios orientados a la familia y alrededores pintorescos.",
+    "ogImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Calle del vecindario suburbano en Diamond Bar",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Diamond Bar",
+      "description": "Explora bienes raíces, vecindarios y destacados en Diamond Bar, California.",
+      "url": "https://example.com/locations/diamond-bar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Calle del vecindario suburbano en Diamond Bar"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Diamond Bar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar es conocido por sus vecindarios familiares, excelentes escuelas y opciones recreativas al aire libre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo está el mercado inmobiliario en Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El mercado ofrece una mezcla de casas suburbanas con precios competitivos y fuerte demanda de familias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las actividades populares al aire libre en Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los residentes disfrutan del senderismo en el Parque Summit Ridge, jugar golf y pasar tiempo en parques locales como el Parque Pantera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario desde Diamond Bar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diamond Bar proporciona acceso conveniente a las autopistas y viajes diarios razonables a Los Angeles y ciudades vecinas."
+          }
+        }
+      ]
+    }
+  ]
+}

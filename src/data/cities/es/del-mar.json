@@ -1,0 +1,187 @@
+{
+  "slug": "del-mar",
+  "name": "Del Mar",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Un enclave costero exclusivo conocido por su estilo de vida de lujo, el histórico hipódromo y playas prístinas en el condado norte de San Diego.",
+  "fullDescription": "Del Mar personifica el sofisticado estilo de vida costero con su famoso hipódromo, playas junto a acantilados y encanto de pueblo. Esta comunidad adinerada ofrece impresionantes vistas al océano, boutiques de lujo y restaurantes gourmet a lo largo de la Carretera Costera. Hogar de la temporada de carreras de verano 'Donde el césped se encuentra con el surf', Del Mar atrae a residentes exigentes que valoran la privacidad, la belleza natural y la proximidad tanto a San Diego como a Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Línea costera de Del Mar con acantilados dramáticos y vista al océano",
+  "population": "4K+",
+  "avgHomePrice": "$3.8M",
+  "tags": [
+    "Lujo",
+    "Playas",
+    "Ecuestre"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Solana Beach",
+      "type": "ciudad",
+      "slug": "solana-beach",
+      "description": "Pueblo costero vecino con el Distrito de Diseño Cedros, Playa Fletcher Cove y una vibrante escena artística.",
+      "image": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Línea costera de Solana Beach y Avenida Cedros",
+      "distance": "3 km al norte",
+      "avgHomePrice": "$2.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "ciudad",
+      "slug": "encinitas",
+      "description": "Comunidad playera bohemia con legendarios puntos de surf, jardines de meditación y restaurantes costeros.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Cultura surf de Encinitas y escena playera",
+      "distance": "10 km al norte",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "ciudad",
+      "slug": "carlsbad",
+      "description": "Ciudad costera familiar que incluye LEGOLAND, playas expansivas y los Campos de Flores.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Línea costera de Carlsbad al atardecer",
+      "distance": "24 km al norte",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "ciudad",
+      "slug": "san-diego",
+      "description": "Centro metropolitano principal con restaurantes de clase mundial, atracciones culturales y playas urbanas.",
+      "image": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizonte de San Diego y puerto",
+      "distance": "24 km al sur",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hipódromo de Del Mar",
+      "description": "Histórico recinto de carreras de pura sangre con temporadas de verano y eventos de entretenimiento durante todo el año.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Carreras de caballos en el Hipódromo de Del Mar"
+    },
+    {
+      "title": "Parque Powerhouse y Playa",
+      "description": "Parque icónico frente al mar con acceso a la playa, parque infantil e impresionantes vistas al atardecer.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parque Powerhouse con vista a la playa de Del Mar"
+    },
+    {
+      "title": "Pueblo de Del Mar",
+      "description": "Centro urbano de lujo con boutiques de diseñador, galerías de arte y establecimientos de comida fina.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Encantadora calle en el Pueblo de Del Mar"
+    },
+    {
+      "title": "Reserva Estatal Torrey Pines",
+      "description": "Desierto costero protegido con senderos para caminar, pinos raros y vistas panorámicas al océano.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sendero para caminar en la Reserva Estatal Torrey Pines"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es conocido Del Mar?",
+      "answer": "El Hipódromo de Del Mar, el lujoso estilo de vida costero, las dramáticas playas junto a acantilados y su exclusiva atmósfera de pueblo.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Hay puntos de acceso público a la playa?",
+      "answer": "Acceso público limitado a través de caminos como la Calle 15 y el Parque Powerhouse. El frente de playa es principalmente residencial.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el sistema escolar en Del Mar?",
+      "answer": "Distrito Escolar Unificado de Del Mar de alta calificación, con estudiantes que ingresan al Distrito de Escuela Secundaria San Dieguito de alto rango.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Cuál es el precio promedio de las casas?",
+      "answer": "Del Mar consistentemente se ubica entre los mercados más caros de California, con precios medianos que superan los $3.5 millones.",
+      "category": "Bienes Raíces"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Del Mar CA Bienes Raíces y Estilo de Vida | Lujo Costero y Hipódromo",
+    "metaDescription": "Descubre las comunidades exclusivas de Del Mar, famoso hipódromo, bienes raíces de lujo y estilo de vida costero en el condado norte de San Diego.",
+    "keywords": "bienes raíces Del Mar, Hipódromo Del Mar, casas de lujo Del Mar, playas Del Mar, vida costera",
+    "ogTitle": "Experimenta Del Mar: Lujo Costero y Herencia Ecuestre",
+    "ogDescription": "Explora la vida exclusiva en Del Mar con su hipódromo, playas y comunidades de lujo.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Línea costera de Del Mar con acantilados dramáticos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Del Mar",
+      "description": "Explora bienes raíces, vecindarios y destacados en Del Mar, California.",
+      "url": "https://example.com/locations/del-mar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Línea costera de Del Mar con acantilados dramáticos"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Del Mar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es conocido Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar es famoso por su histórico hipódromo, lujoso estilo de vida costero, dramáticas playas junto a acantilados y exclusiva atmósfera de pueblo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay puntos de acceso público a la playa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El acceso público está limitado a través de caminos designados como la Calle 15 y el Parque Powerhouse, con la mayoría del frente de playa siendo residencial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el sistema escolar en Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar es atendido por el Distrito Escolar Unificado de Del Mar de alta calificación, con estudiantes que avanzan al Distrito de Escuela Secundaria San Dieguito de alto rango."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es el precio promedio de las casas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar consistentemente se ubica entre los mercados más caros de California, con precios medianos de casas que superan los $3.5 millones."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "bellflower",
+  "name": "Bellflower",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville familiale dans le sud-est du comté de Los Angeles connue pour ses parcs, ses commerces et ses événements communautaires.",
+  "fullDescription": "Bellflower offre une atmosphère de banlieue accueillante avec de nombreux parcs, installations récréatives et commerces pratiques. La ville présente un mélange de quartiers résidentiels et de districts commerciaux, ce qui en fait un choix populaire pour les familles et les navetteurs. Grâce à son emplacement central, Bellflower permet un accès facile à Long Beach, Lakewood et au centre-ville de Los Angeles. Les événements communautaires et les commodités locales contribuent à un fort sentiment d’appartenance pour les résidents.",
+  "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Parc urbain de Bellflower avec sentiers de promenade et espaces verts",
+  "population": "78K+",
+  "avgHomePrice": "620 000 $",
+  "tags": [
+    "Familial",
+    "Parcs",
+    "Communauté"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Lakewood",
+      "type": "ville",
+      "slug": "lakewood",
+      "description": "Ville de banlieue connue pour ses parcs bien entretenus, ses centres commerciaux et ses quartiers familiaux.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de banlieue bordée d'arbres à Lakewood",
+      "distance": "4 miles au sud",
+      "avgHomePrice": "700 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Long Beach",
+      "type": "ville",
+      "slug": "long-beach",
+      "description": "Ville côtière avec un centre-ville animé, des attractions culturelles et des parcs en bord de mer.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizon de Long Beach au coucher du soleil",
+      "distance": "6 miles au sud-ouest",
+      "avgHomePrice": "800 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "ville",
+      "slug": "cerritos",
+      "description": "Communauté connue pour son centre commercial, ses parcs et ses écoles de qualité.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "imageAlt": "Centre commercial et centre-ville de Cerritos",
+      "distance": "7 miles au sud-est",
+      "avgHomePrice": "750 000 $",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Compton",
+      "type": "ville",
+      "slug": "compton",
+      "description": "Ville à l’histoire culturelle riche, avec des programmes communautaires et des commodités urbaines.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue de la rue du centre-ville de Compton",
+      "distance": "8 miles à l’est",
+      "avgHomePrice": "570 000 $",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc du Centre Civique de Bellflower",
+      "description": "Grand parc avec aires de jeux, zones de pique-nique et événements communautaires.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc avec arbres et bancs"
+    },
+    {
+      "title": "Centre-ville de Bellflower",
+      "description": "Quartier commercial avec boutiques, restaurants et commerces locaux.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue principale avec commerces et piétons"
+    },
+    {
+      "title": "Festival annuel de Bellflower",
+      "description": "Événement communautaire avec musique, nourriture et activités familiales.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80",
+      "bgImageAlt": "Foule lors d’un festival avec décorations"
+    },
+    {
+      "title": "Centre aquatique de Bellflower",
+      "description": "Installation publique avec cours de natation et baignade récréative.",
+      "icon": "🏊‍♂️",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Piscine avec lignes de nage et eau claire"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Bellflower est-elle connue ?",
+      "answer": "Bellflower est connue pour ses parcs adaptés aux familles, ses événements locaux et son emplacement pratique dans le comté de Los Angeles.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Bellflower ?",
+      "answer": "Le marché immobilier propose des maisons abordables adaptées aux familles et aux primo-accédants.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quels événements communautaires ont lieu à Bellflower ?",
+      "answer": "Des festivals annuels, des marchés de producteurs et des événements saisonniers rassemblent la communauté tout au long de l’année.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis Bellflower ?",
+      "answer": "Bellflower offre un accès facile aux autoroutes principales et aux transports en commun pour les trajets vers les villes voisines et Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Bellflower CA | Vie familiale & communautaire",
+    "metaDescription": "Découvrez les parcs, les événements communautaires et les maisons abordables de Bellflower dans le comté de Los Angeles.",
+    "keywords": "immobilier Bellflower, parcs Bellflower, vivre à Bellflower, maisons à vendre Bellflower",
+    "ogTitle": "Explorez Bellflower : communauté familiale et parcs",
+    "ogDescription": "Trouvez votre maison à Bellflower avec ses quartiers accueillants, ses parcs et ses commodités locales.",
+    "ogImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Parc urbain de Bellflower avec sentiers de promenade",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Bellflower",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Bellflower, Californie.",
+      "url": "https://example.com/locations/bellflower",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Parc urbain de Bellflower avec sentiers de promenade et espaces verts"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Bellflower",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Bellflower est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bellflower est connue pour ses parcs adaptés aux familles, ses événements locaux et son emplacement pratique dans le comté de Los Angeles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Bellflower ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier propose des maisons abordables adaptées aux familles et aux primo-accédants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels événements communautaires ont lieu à Bellflower ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Des festivals annuels, des marchés de producteurs et des événements saisonniers rassemblent la communauté tout au long de l’année."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis Bellflower ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bellflower offre un accès facile aux autoroutes principales et aux transports en commun pour les trajets vers les villes voisines et Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

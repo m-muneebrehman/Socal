@@ -1,0 +1,187 @@
+{
+  "slug": "san-fernando",
+  "name": "圣费尔南多",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "位于圣费尔南多谷的历史名城，拥有小镇魅力、公园和紧密的社区联系。",
+  "fullDescription": "圣费尔南多是洛杉矶西北部的一个独立城市，拥有欢迎感十足的小镇氛围，坐落于更大的圣费尔南多谷内。该市以历史建筑、本地商铺和社区活动为特色，同时便捷连接区域就业中心和高速公路。公园、图书馆和文化机构使其成为家庭和长期居民的理想选择。",
+  "heroImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "阳光充足的城市中，绿树成荫的街道和低层建筑",
+  "population": "2.4万+",
+  "avgHomePrice": "75万美元",
+  "tags": [
+    "历史",
+    "社区",
+    "公园"
+  ],
+  "neighborhoods": [
+    {
+      "name": "伯班克",
+      "type": "城市",
+      "slug": "burbank",
+      "description": "拥有影视制作工作室、家庭社区和便捷通勤的媒体中心。",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "伯班克的城市街道",
+      "distance": "东南14英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "格伦代尔",
+      "type": "城市",
+      "slug": "glendale",
+      "description": "充满活力的城市，拥有购物区、公园和多元社区。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "格伦代尔的购物区",
+      "distance": "东南17英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "圣克拉丽塔",
+      "type": "城市",
+      "slug": "santa-clarita",
+      "description": "适合家庭居住的城市，拥有公园、小径和规划完善的社区。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "圣克拉丽塔的公园和社区",
+      "distance": "西北12英里",
+      "avgHomePrice": "80万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "洛杉矶",
+      "type": "城市",
+      "slug": "los-angeles",
+      "description": "该地区的主要城市，提供就业中心、文化场所和交通接驳。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "洛杉矶市中心天际线",
+      "distance": "东南23英里",
+      "avgHomePrice": "90万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "圣费尔南多历史市中心",
+      "description": "迷人的主街，拥有本地商店、咖啡馆和社区活动。",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "历史商业街"
+    },
+    {
+      "title": "公园与休闲",
+      "description": "社区公园配有运动设施、游乐场和绿地。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "有树木和开阔草坪的公园"
+    },
+    {
+      "title": "文化遗产",
+      "description": "本地博物馆和文化项目，庆祝这座城市丰富的历史。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "博物馆内部及展览"
+    },
+    {
+      "title": "中央谷区交通便利",
+      "description": "快速连接I-5、I-210高速公路及圣费尔南多谷主要目的地。",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "黄昏时的高速公路互通立交"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "圣费尔南多以什么闻名？",
+      "answer": "圣费尔南多以其历史市中心、社区活动和谷内小镇氛围著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "圣费尔南多的房地产市场怎么样？",
+      "answer": "市场主要以单户住宅和小型多户物业为主，价格在谷区具有竞争力。",
+      "category": "房地产"
+    },
+    {
+      "question": "在圣费尔南多可以做些什么？",
+      "answer": "探索历史市中心，参观本地公园，享受社区项目和文化场所。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从圣费尔南多通勤方便吗？",
+      "answer": "通过I-5和I-210高速公路，居民可以便捷前往圣费尔南多谷及大洛杉矶地区的工作地点。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "圣费尔南多 加州房地产与生活指南 | 历史悠久的谷区城市",
+    "metaDescription": "发现圣费尔南多的历史市中心、公园及便捷的谷区交通，提供适合家庭和专业人士的房地产选择。",
+    "keywords": "圣费尔南多房地产, 圣费尔南多谷城市, 圣费尔南多生活, 圣费尔南多历史市中心",
+    "ogTitle": "探索圣费尔南多：圣费尔南多谷的小镇魅力",
+    "ogDescription": "在圣费尔南多找到您的家，享受公园、文化和便捷的谷区通勤。",
+    "ogImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "阳光充足的城市中，绿树成荫的街道和低层建筑",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "圣费尔南多",
+      "description": "探索加利福尼亚州圣费尔南多的房地产、社区和亮点。",
+      "url": "https://example.com/locations/san-fernando",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+        "caption": "阳光充足的城市中，绿树成荫的街道和低层建筑"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "圣费尔南多",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "圣费尔南多以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "圣费尔南多以其历史市中心、社区活动和谷内小镇氛围著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "圣费尔南多的房地产市场怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "市场主要以单户住宅和小型多户物业为主，价格在谷区具有竞争力。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在圣费尔南多可以做些什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "探索历史市中心，参观本地公园，享受社区项目和文化场所。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从圣费尔南多通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通过I-5和I-210高速公路，居民可以便捷前往圣费尔南多谷及大洛杉矶地区的工作地点。"
+          }
+        }
+      ]
+    }
+  ]
+}

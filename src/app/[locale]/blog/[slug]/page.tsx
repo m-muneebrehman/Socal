@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation'
 import { notFound, useParams } from 'next/navigation'
 import RelatedArticles from '@/components/sections/Blog/RelatedArticles'
 import NewsletterSignup from '@/components/sections/Blog/NewsletterSignup'
+import PrestigeLoading from '@/components/common/PrestigeLoading'
 import type { Blog as BlogType } from '@/types'
 
 const BlogPage = () => {
@@ -37,7 +38,9 @@ const BlogPage = () => {
       } catch {
         if (isMounted) setBlog(null)
       } finally {
-        if (isMounted) setLoading(false)
+        if (isMounted) {
+          setLoading(false)
+        }
       }
     }
     fetchBlog()
@@ -118,7 +121,7 @@ const BlogPage = () => {
   }
 
   if (loading || !blog) {
-    return <main className="blog-post-page" />
+    return <PrestigeLoading />
   }
 
   return (

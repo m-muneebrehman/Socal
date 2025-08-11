@@ -25,39 +25,6 @@
       "distance": "7 miles north",
       "avgHomePrice": "$950K",
       "county": "San Diego"
-    },
-    {
-      "name": "National City",
-      "type": "city",
-      "slug": "national-city",
-      "description": "Historic city directly north with walkable streets and evolving waterfront views.",
-      "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Urban skyline near San Diego Bay",
-      "distance": "4 miles north",
-      "avgHomePrice": "$650K",
-      "county": "San Diego"
-    },
-    {
-      "name": "Imperial Beach",
-      "type": "city",
-      "slug": "imperial-beach",
-      "description": "Southernmost beachfront city in California — relaxed, surf-oriented with a classic beach town vibe.",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      "imageAlt": "Ocean waves and beach shoreline",
-      "distance": "10 miles southwest",
-      "avgHomePrice": "$800K",
-      "county": "San Diego"
-    },
-    {
-      "name": "Coronado",
-      "type": "city",
-      "slug": "coronado",
-      "description": "Island city across the bay with wide sandy beaches and the iconic Hotel del Coronado.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
-      "imageAlt": "Sandy Coronado beach with blue sky",
-      "distance": "10 miles northwest",
-      "avgHomePrice": "$1.8M",
-      "county": "San Diego"
     }
   ],
   "highlights": [

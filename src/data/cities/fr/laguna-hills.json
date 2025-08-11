@@ -1,0 +1,187 @@
+{
+  "slug": "laguna-hills",
+  "name": "Laguna Hills",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville de banlieue familiale connue pour ses parcs, ses commerces et son accès pratique aux attractions du comté d’Orange.",
+  "fullDescription": "Laguna Hills offre un style de vie confortable en banlieue avec de nombreux parcs, des quartiers bien entretenus, ainsi qu’une variété d’options pour le shopping et la restauration. Située dans la vallée de Saddleback, elle permet un accès facile aux plages voisines, aux sentiers de randonnée et aux lieux de divertissement. La ville est réputée pour ses événements communautaires et ses écoles de qualité, ce qui la rend populaire auprès des familles et des professionnels.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Quartier résidentiel verdoyant à Laguna Hills",
+  "population": "31K+",
+  "avgHomePrice": "900 K$",
+  "tags": [
+    "Familial",
+    "Parcs & Loisirs",
+    "Banlieue"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Aliso Viejo",
+      "type": "ville",
+      "slug": "aliso-viejo",
+      "description": "Communauté planifiée avec parcs, commerces et cadre de vie familial.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc de quartier à Aliso Viejo",
+      "distance": "3 miles au sud-ouest",
+      "avgHomePrice": "950 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Laguna Niguel",
+      "type": "ville",
+      "slug": "laguna-niguel",
+      "description": "Communauté aisée connue pour ses parcs, ses parcours de golf et ses centres commerciaux.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier résidentiel à Laguna Niguel",
+      "distance": "4 miles au sud",
+      "avgHomePrice": "1,1 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "ville",
+      "slug": "mission-viejo",
+      "description": "Communauté planifiée avec de vastes parcs, des lacs et des équipements familiaux.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lac et parcs à Mission Viejo",
+      "distance": "5 miles au sud-est",
+      "avgHomePrice": "1,0 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Irvine",
+      "type": "ville",
+      "slug": "irvine",
+      "description": "Grande ville planifiée avec centres d’affaires, écoles et parcs.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier d’affaires et résidentiel à Irvine",
+      "distance": "12 miles au nord-ouest",
+      "avgHomePrice": "1,2 M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parcs et sentiers",
+      "description": "De nombreux parcs et sentiers pédestres offrant des possibilités de loisirs pour tous les âges.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc avec arbres et chemin pédestre à Laguna Hills"
+    },
+    {
+      "title": "Centre communautaire de Laguna Hills",
+      "description": "Offre des installations sportives, des espaces événementiels et des programmes communautaires.",
+      "icon": "🏢",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment du centre communautaire à Laguna Hills"
+    },
+    {
+      "title": "Shopping et restauration",
+      "description": "Accès pratique aux centres commerciaux et à une variété de restaurants.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centre commercial avec restauration en extérieur"
+    },
+    {
+      "title": "Proximité des plages",
+      "description": "Courte distance en voiture des plages populaires du comté d’Orange comme Laguna Beach et Dana Point.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vue sur l’océan près de Laguna Hills"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Quel type de style de vie offre Laguna Hills ?",
+      "answer": "Laguna Hills offre un style de vie en banlieue, familial, avec de nombreux parcs, commerces et événements communautaires.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Laguna Hills ?",
+      "answer": "La ville est desservie par le district scolaire unifié de Capistrano, qui comprend des écoles primaires, secondaires et lycées bien réputés.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air sont populaires à Laguna Hills ?",
+      "answer": "Les résidents apprécient la randonnée, le vélo, les sports dans les parcs locaux et la visite des plages voisines.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Le trajet depuis Laguna Hills est-il pratique ?",
+      "answer": "Laguna Hills offre un accès facile aux routes à péage 73 et 241, facilitant les déplacements dans tout le comté d’Orange et au-delà.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et vie familiale à Laguna Hills CA | Parcs et accès pratique",
+    "metaDescription": "Découvrez les quartiers, parcs, écoles et l’immobilier de Laguna Hills, communauté familiale du comté d’Orange.",
+    "keywords": "immobilier Laguna Hills, vie familiale Laguna Hills, maisons comté d’Orange, parcs Laguna Hills",
+    "ogTitle": "Découvrez Laguna Hills : vie familiale en banlieue dans le comté d’Orange",
+    "ogDescription": "Profitez des parcs, des équipements communautaires et de l’accès pratique aux meilleures attractions du comté d’Orange à Laguna Hills.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Quartier verdoyant de Laguna Hills",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laguna Hills",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Laguna Hills, Californie.",
+      "url": "https://example.com/locations/laguna-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Quartier résidentiel verdoyant à Laguna Hills"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Laguna Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quel type de style de vie offre Laguna Hills ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills offre un style de vie en banlieue, familial, avec de nombreux parcs, commerces et événements communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Laguna Hills ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La ville est desservie par le district scolaire unifié de Capistrano, qui comprend des écoles primaires, secondaires et lycées bien réputés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont populaires à Laguna Hills ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents apprécient la randonnée, le vélo, les sports dans les parcs locaux et la visite des plages voisines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le trajet depuis Laguna Hills est-il pratique ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Laguna Hills offre un accès facile aux routes à péage 73 et 241, facilitant les déplacements dans tout le comté d’Orange et au-delà."
+          }
+        }
+      ]
+    }
+  ]
+}

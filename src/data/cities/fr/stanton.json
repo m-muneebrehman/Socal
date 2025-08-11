@@ -1,0 +1,176 @@
+{
+  "slug": "stanton",
+  "name": "Stanton",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville dynamique mêlant quartiers résidentiels, centres commerciaux et parcs communautaires avec un accès facile aux attractions du comté d’Orange.",
+  "fullDescription": "Stanton est une ville diverse et en pleine croissance dans le comté d’Orange, connue pour son logement abordable, son style de vie axé sur la communauté et son emplacement pratique à proximité des principales autoroutes et destinations commerciales. Les résidents profitent de nombreux parcs, installations récréatives et événements culturels, ce qui en fait un endroit attrayant pour les familles et les jeunes professionnels. Proche de Disneyland, du centre des congrès d’Anaheim et des plages, Stanton offre un mélange de vie suburbaine et un accès facile aux principales attractions du sud de la Californie.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue au coucher du soleil sur le paysage urbain de Stanton",
+  "population": "40K+",
+  "avgHomePrice": "750K$",
+  "tags": [
+    "Abordable",
+    "Familial",
+    "Pratique"
+  ],
+  "neighborhoods": [
+    {
+      "name": "West Stanton",
+      "type": "district",
+      "slug": "west-stanton",
+      "description": "Quartier résidentiel avec des quartiers établis et des parcs à proximité.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Maisons résidentielles et verdure à West Stanton",
+      "distance": "Ouest",
+      "avgHomePrice": "700K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Downtown Stanton",
+      "type": "district",
+      "slug": "downtown-stanton",
+      "description": "Centre commercial et de détail avec boutiques, restaurants et centres communautaires.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier commercial du centre-ville de Stanton",
+      "distance": "Central",
+      "avgHomePrice": "770K$",
+      "county": "Orange"
+    },
+    {
+      "name": "East Stanton",
+      "type": "district",
+      "slug": "east-stanton",
+      "description": "Quartier avec des développements récents et un accès facile à l’autoroute.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Nouvelles maisons à East Stanton",
+      "distance": "Est",
+      "avgHomePrice": "760K$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc central de Stanton",
+      "description": "Grand parc communautaire avec terrains de sport, aires de jeux et zones de pique-nique.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Aire de jeux et arbres au parc central de Stanton"
+    },
+    {
+      "title": "Centre civique de Stanton",
+      "description": "Pôle des services municipaux, événements publics et activités culturelles.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment du centre civique de Stanton"
+    },
+    {
+      "title": "Shopping et restauration",
+      "description": "Différents centres commerciaux et options de restauration variées au service de la communauté locale.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Centre commercial avec restaurants"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Marchés fermiers réguliers, festivals culturels et rassemblements familiaux tout au long de l’année.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival familial à Stanton"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Stanton est-elle connue ?",
+      "answer": "Stanton est connue pour son logement abordable, son environnement familial et sa proximité des attractions du comté d’Orange.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Stanton ?",
+      "answer": "Stanton est desservie par le district scolaire unifié de Stanton, qui propose plusieurs écoles élémentaires, collèges et lycées.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air sont populaires à Stanton ?",
+      "answer": "Les résidents apprécient les parcs communautaires, les ligues sportives et les événements locaux comme les marchés fermiers et les festivals culturels.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet domicile-travail depuis Stanton ?",
+      "answer": "Stanton bénéficie d’un accès facile aux autoroutes 405 et 605, offrant des trajets pratiques vers Anaheim, Long Beach et Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et vie communautaire à Stanton CA | Vie abordable dans le comté d’Orange",
+    "metaDescription": "Découvrez les quartiers, parcs, écoles et options immobilières de Stanton dans le comté d’Orange, Californie.",
+    "keywords": "Immobilier Stanton, vivre à Stanton CA, maisons comté d’Orange, écoles Stanton",
+    "ogTitle": "Découvrez Stanton : vie familiale abordable dans le comté d’Orange",
+    "ogDescription": "Découvrez pourquoi Stanton est un excellent endroit pour vivre avec ses parcs, écoles et un accès facile aux attractions du sud de la Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue au coucher du soleil sur le paysage urbain de Stanton",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Stanton",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Stanton, Californie.",
+      "url": "https://example.com/locations/stanton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue au coucher du soleil sur le paysage urbain de Stanton"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Stanton",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Stanton est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton est connue pour son logement abordable, son environnement familial et sa proximité des attractions du comté d’Orange."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Stanton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton est desservie par le district scolaire unifié de Stanton, qui propose plusieurs écoles élémentaires, collèges et lycées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont populaires à Stanton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents apprécient les parcs communautaires, les ligues sportives et les événements locaux comme les marchés fermiers et les festivals culturels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet domicile-travail depuis Stanton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanton bénéficie d’un accès facile aux autoroutes 405 et 605, offrant des trajets pratiques vers Anaheim, Long Beach et Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

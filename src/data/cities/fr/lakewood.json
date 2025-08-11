@@ -1,0 +1,187 @@
+{
+  "slug": "lakewood",
+  "name": "Lakewood",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville de banlieue bien planifiée connue pour ses parcs, son environnement familial et son emplacement pratique dans le comté de Los Angeles.",
+  "fullDescription": "Lakewood offre un style de vie paisible en banlieue avec un fort accent sur la communauté, les parcs et les installations récréatives. La ville comprend des quartiers résidentiels calmes, des écoles de qualité et un accès facile aux principales autoroutes, ce qui en fait un choix attrayant pour les familles et les navetteurs. Son emplacement central offre un accès pratique à Long Beach, Downey et autres villes voisines. Lakewood organise également de nombreux événements communautaires et propose des équipements publics bien entretenus pour les résidents de tous âges.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Quartier de banlieue et espace vert à Lakewood",
+  "population": "82K+",
+  "avgHomePrice": "720 K$",
+  "tags": [
+    "Familial",
+    "Parcs",
+    "Banlieue"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Long Beach",
+      "type": "ville",
+      "slug": "long-beach",
+      "description": "Ville côtière connue pour son front de mer, ses attractions culturelles et son centre-ville dynamique.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Horizons du centre-ville de Long Beach et front de mer",
+      "distance": "5 miles au sud-ouest",
+      "avgHomePrice": "750 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "ville",
+      "slug": "downey",
+      "description": "Ville de banlieue avec parcs, centres commerciaux et communauté familiale.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de banlieue à Downey",
+      "distance": "3 miles à l’est",
+      "avgHomePrice": "710 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "ville",
+      "slug": "bellflower",
+      "description": "Ville offrant des quartiers diversifiés, du shopping et des parcs communautaires.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Zone résidentielle à Bellflower",
+      "distance": "4 miles au nord",
+      "avgHomePrice": "680 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Cerritos",
+      "type": "ville",
+      "slug": "cerritos",
+      "description": "Communauté connue pour ses centres commerciaux, ses parcs et ses équipements familiaux.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Centre commercial à Cerritos",
+      "distance": "6 miles au sud-est",
+      "avgHomePrice": "730 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centre commercial Lakewood Center",
+      "description": "Un grand centre commercial proposant une grande variété de magasins, options de restauration et divertissements.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Intérieur d’un centre commercial avec des clients"
+    },
+    {
+      "title": "Parcs et loisirs",
+      "description": "Lakewood dispose de nombreux parcs, terrains de sport et sentiers de promenade pour les activités de plein air.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc vert avec sentier de promenade"
+    },
+    {
+      "title": "Événements communautaires",
+      "description": "Des événements tout au long de l’année qui rassemblent la communauté, y compris des festivals, concerts et célébrations de fêtes.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Personnes profitant d’un festival communautaire"
+    },
+    {
+      "title": "Écoles de qualité",
+      "description": "Lakewood est desservie par plusieurs écoles publiques et privées très bien notées, soutenant la vie familiale.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Étudiants en classe"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Qu'est-ce qui fait de Lakewood un endroit agréable à vivre ?",
+      "answer": "Lakewood offre un environnement de banlieue familial avec de nombreux parcs, de bonnes écoles et un fort esprit communautaire.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Lakewood ?",
+      "answer": "Le marché immobilier est stable, avec une demande pour des maisons unifamiliales dans des quartiers calmes.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités récréatives sont disponibles à Lakewood ?",
+      "answer": "Les résidents profitent des parcs, terrains de sport, événements communautaires et du centre commercial Lakewood Center.",
+      "category": "Mode de vie"
+    },
+    {
+      "question": "Est-il facile de faire la navette depuis Lakewood ?",
+      "answer": "Oui, Lakewood bénéficie d’un bon accès aux autoroutes et est proche des villes voisines comme Long Beach et Downey.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et mode de vie à Lakewood CA | Parcs familiaux et communauté",
+    "metaDescription": "Découvrez les parcs, écoles, commerces et options immobilières de Lakewood dans le comté de Los Angeles.",
+    "keywords": "immobilier Lakewood, parcs Lakewood, vivre à Lakewood, maisons à vendre Lakewood",
+    "ogTitle": "Découvrez Lakewood : Vie de banlieue avec charme communautaire",
+    "ogDescription": "Trouvez votre maison à Lakewood avec ses parcs, commerces et quartiers familiaux.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Quartier de banlieue et espace vert à Lakewood",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lakewood",
+      "description": "Explorez l’immobilier, les quartiers et les points forts de Lakewood, Californie.",
+      "url": "https://example.com/locations/lakewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Quartier de banlieue et espace vert à Lakewood"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lakewood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qui fait de Lakewood un endroit agréable à vivre ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lakewood offre un environnement de banlieue familial avec de nombreux parcs, de bonnes écoles et un fort esprit communautaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Lakewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier est stable, avec une demande pour des maisons unifamiliales dans des quartiers calmes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités récréatives sont disponibles à Lakewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent des parcs, terrains de sport, événements communautaires et du centre commercial Lakewood Center."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-il facile de faire la navette depuis Lakewood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, Lakewood bénéficie d’un bon accès aux autoroutes et est proche des villes voisines comme Long Beach et Downey."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "westminster",
+  "name": "Westminster",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville culturellement dynamique connue pour son riche héritage vietnamien, ses communautés diverses et son ambiance familiale.",
+  "fullDescription": "Westminster est une ville dynamique du comté d’Orange reconnue pour son quartier animé de Little Saigon, la plus grande communauté vietnamienne en dehors du Vietnam. La ville allie richesse culturelle et commodités suburbaines, avec d’excellentes écoles, des parcs et des centres communautaires. Les résidents profitent d’une variété de commerces, restaurants et options de divertissement, ainsi que de nombreux festivals culturels annuels. Westminster offre un accès pratique aux autoroutes et un environnement accueillant pour les familles et les professionnels.",
+  "heroImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Centre-ville de Westminster avec des monuments culturels",
+  "population": "90K+",
+  "avgHomePrice": "750 K$",
+  "tags": [
+    "Culturel",
+    "Familial",
+    "Diversité"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Garden Grove",
+      "type": "ville",
+      "slug": "garden-grove",
+      "description": "Ville voisine avec un centre historique, des parcs et une diversité de restaurants à l’est de Westminster.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue de banlieue représentative de Garden Grove",
+      "distance": "2 miles à l’est",
+      "avgHomePrice": "800 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "ville",
+      "slug": "fountain-valley",
+      "description": "Ville de banlieue familiale avec parcs, larges rues et commodités communautaires au sud de Westminster.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc et maisons de banlieue représentatifs de Fountain Valley",
+      "distance": "2 miles au sud",
+      "avgHomePrice": "900 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "ville",
+      "slug": "huntington-beach",
+      "description": "Ville côtière connue pour ses plages, le surf et un centre-ville animé au sud-ouest de Westminster.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vagues océaniques au coucher du soleil représentatives de Huntington Beach",
+      "distance": "6 miles au sud-ouest",
+      "avgHomePrice": "1,2 M$",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "ville",
+      "slug": "santa-ana",
+      "description": "Siège du comté avec musées, centres civiques et quartiers historiques au sud-est de Westminster.",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Boulevard de la ville représentatif de Santa Ana",
+      "distance": "7 miles au sud-est",
+      "avgHomePrice": "800 K$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Little Saigon",
+      "description": "Plus grande communauté vietnamienne hors du Vietnam, connue pour ses marchés animés, ses restaurants et ses festivals culturels.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Scène de marché à Little Saigon"
+    },
+    {
+      "title": "Westminster Mall",
+      "description": "Destination commerciale populaire avec une variété de magasins, restaurants et lieux de divertissement.",
+      "icon": "🛒",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Entrée du Westminster Mall"
+    },
+    {
+      "title": "Parcs communautaires",
+      "description": "Nombreux parcs et espaces récréatifs avec aires de jeux, terrains de sport et sentiers pédestres.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc avec arbres et sentiers de promenade"
+    },
+    {
+      "title": "Festivals culturels",
+      "description": "Festival annuel du Têt et célébrations du Nouvel An lunaire attirant des milliers de visiteurs.",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Foule célébrant le Nouvel An lunaire"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Westminster est-elle connue ?",
+      "answer": "Westminster est surtout connue pour son quartier Little Saigon, la plus grande communauté vietnamienne hors du Vietnam, sa diversité culturelle et ses festivals animés.",
+      "category": "Culture"
+    },
+    {
+      "question": "Comment sont les écoles à Westminster ?",
+      "answer": "Westminster est desservie par les districts scolaires de Westminster et Ocean View, offrant un éventail d’écoles primaires, secondaires et lycées.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités de plein air sont disponibles ?",
+      "answer": "Les résidents profitent de nombreux parcs, terrains de sport, sentiers de promenade et programmes récréatifs communautaires.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet depuis Westminster ?",
+      "answer": "Westminster bénéficie d’un accès pratique aux autoroutes 405 et 22, facilitant les déplacements vers les villes environnantes du comté d’Orange et Los Angeles.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Westminster CA Immobilier & Mode de vie | Communauté culturelle dynamique",
+    "metaDescription": "Découvrez Little Saigon, les quartiers, les écoles et les options immobilières de Westminster dans le comté d’Orange, Californie.",
+    "keywords": "immobilier Westminster, Little Saigon Westminster, vivre à Westminster CA, maisons comté d’Orange",
+    "ogTitle": "Découvrez Westminster : richesse culturelle & vie familiale dans le comté d’Orange",
+    "ogDescription": "Découvrez la culture vietnamienne dynamique et la communauté diversifiée de Westminster, CA, avec de superbes équipements et parcs.",
+    "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Centre-ville de Westminster avec des monuments culturels",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Westminster",
+      "description": "Découvrez l’immobilier, les quartiers et les points forts de Westminster, Californie.",
+      "url": "https://example.com/locations/westminster",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Centre-ville de Westminster avec des monuments culturels"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Westminster",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Westminster est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster est surtout connue pour son quartier Little Saigon, la plus grande communauté vietnamienne hors du Vietnam, sa diversité culturelle et ses festivals animés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Westminster ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster est desservie par les districts scolaires de Westminster et Ocean View, offrant un éventail d’écoles primaires, secondaires et lycées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités de plein air sont disponibles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent de nombreux parcs, terrains de sport, sentiers de promenade et programmes récréatifs communautaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Westminster ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Westminster bénéficie d’un accès pratique aux autoroutes 405 et 22, facilitant les déplacements vers les villes environnantes du comté d’Orange et Los Angeles."
+          }
+        }
+      ]
+    }
+  ]
+}

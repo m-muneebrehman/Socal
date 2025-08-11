@@ -1,0 +1,187 @@
+{
+  "slug": "anaheim",
+  "name": "Anaheim",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Stadt, bekannt für ihre weltberühmten Themenparks, Sportstätten und florierende Unterhaltungs- und Gastgewerbeindustrie.",
+  "fullDescription": "Anaheim ist das Herz der Unterhaltungs- und Tourismus-Szene des Orange County, Heimat des Disneyland Resorts, des Angel Stadiums und des Honda Centers. Die Stadt verbindet Familienspaß mit einer starken Wirtschaft und bietet vielfältige Nachbarschaften, kulturelle Veranstaltungen und praktischen Zugang zu Stränden und wichtigen Autobahnen. Anaheim spricht sowohl Einwohner als auch Besucher mit seiner Mischung aus urbaner Energie und südkalifornischem Charme an.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Anaheim Innenstadt-Skyline mit Disneyland-Feuerwerk",
+  "population": "350K+",
+  "avgHomePrice": "$750K",
+  "tags": [
+    "Unterhaltung",
+    "Familienfreundlich",
+    "Sport"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Fullerton",
+      "type": "Stadt",
+      "slug": "fullerton",
+      "description": "College-Stadt mit historischer Innenstadt, Kunstszene und der California State University, Fullerton.",
+      "image": "https://images.unsplash.com/photo-1468071174046-657d9d351a40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historische Innenstadt von Fullerton mit lebendigem Straßenleben",
+      "distance": "8 Meilen nördlich",
+      "avgHomePrice": "$750K",
+      "county": "Orange"
+    },
+    {
+      "name": "Garden Grove",
+      "type": "Stadt",
+      "slug": "garden-grove",
+      "description": "Vielfältige Gemeinschaft, bekannt für das jährliche Erdbeerfestival und reiches kulturelles Erbe.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Innenstadt von Garden Grove mit kulturellem Festival",
+      "distance": "5 Meilen westlich",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "Orange",
+      "type": "Stadt",
+      "slug": "orange",
+      "description": "Historische Altstadt mit Antiquitätenläden, Restaurants und Gemeinschaftsveranstaltungen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historische Altstadt von Orange Plaza",
+      "distance": "7 Meilen südöstlich",
+      "avgHomePrice": "$780K",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "Stadt",
+      "slug": "placentia",
+      "description": "Kleine Vorstadtstadt mit Parks, familienorientierten Veranstaltungen und einer malerischen Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ruhige Vorstadtstraße in Placentia",
+      "distance": "6 Meilen nordöstlich",
+      "avgHomePrice": "$700K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Disneyland Resort",
+      "description": "Weltberühmter Themenpark, der jährlich Millionen von Besuchern mit Fahrgeschäften, Unterhaltung und Veranstaltungen anzieht.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Disneyland-Schloss nachts beleuchtet"
+    },
+    {
+      "title": "Angel Stadium",
+      "description": "Heimat des Los Angeles Angels MLB-Teams und Veranstaltungsort für Konzerte und große Events.",
+      "icon": "⚾",
+      "bgImage": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Angel Stadium gefüllt mit Fans während eines Spiels"
+    },
+    {
+      "title": "Honda Center",
+      "description": "Indoor-Arena für NHL-Spiele, Konzerte und Familienshows.",
+      "icon": "🏒",
+      "bgImage": "https://images.unsplash.com/photo-1543965175-4a412e5c3334?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Honda Center Arena-Außenansicht in der Dämmerung"
+    },
+    {
+      "title": "Anaheim Packing District",
+      "description": "Trendige Food Hall und Bauernmarkt in einem historischen Zitrus-Verpackungshaus.",
+      "icon": "🍽️",
+      "bgImage": "https://images.unsplash.com/photo-1510626176961-4b12de17dd4b?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Essensstände im Anaheim Packing District"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was macht Anaheim zu einem beliebten Touristenziel?",
+      "answer": "Das Disneyland Resort, Sportstätten und zahlreiche Unterhaltungsmöglichkeiten ziehen jährlich Millionen an.",
+      "category": "Tourismus"
+    },
+    {
+      "question": "Wie familienfreundlich ist Anaheim?",
+      "answer": "Mit Themenparks, Parks und Gemeinschaftsveranstaltungen bietet Anaheim viele familienfreundliche Aktivitäten.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Wohnungsmarkt in Anaheim?",
+      "answer": "Die durchschnittlichen Hauspreise liegen bei etwa $750K, mit einer Mischung aus historischen Nachbarschaften und neuen Entwicklungen.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Wie zugänglich ist Anaheim zu Stränden und Autobahnen?",
+      "answer": "Anaheim ist etwa 15-20 Meilen von Küstenstränden entfernt und gut über wichtige Autobahnen wie die 5er und 91er erreichbar.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Anaheim CA Immobilien & Lebensstil | Disneyland & Unterhaltungszentrum",
+    "metaDescription": "Entdecken Sie Anaheims Nachbarschaften, Attraktionen, Sportstätten und Wohnungsmarkt im Orange County.",
+    "keywords": "Anaheim Immobilien, Disneyland, Anaheim Häuser, Orange County Attraktionen",
+    "ogTitle": "Entdecken Sie Anaheim: Familienspaß & Florierende Unterhaltung",
+    "ogDescription": "Erleben Sie erstklassige Themenparks, Sport und lebendige Nachbarschaften in Anaheim, Kalifornien.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Anaheim Stadt-Skyline bei Sonnenuntergang",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Anaheim",
+      "description": "Erkunden Sie Immobilien, Nachbarschaften und Höhepunkte in Anaheim, Kalifornien.",
+      "url": "https://example.com/locations/anaheim",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Anaheim Stadt-Skyline mit Disneyland-Feuerwerk"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Anaheim",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was macht Anaheim zu einem beliebten Touristenziel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das Disneyland Resort, Sportstätten und zahlreiche Unterhaltungsmöglichkeiten ziehen jährlich Millionen an."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie familienfreundlich ist Anaheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mit Themenparks, Parks und Gemeinschaftsveranstaltungen bietet Anaheim viele familienfreundliche Aktivitäten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Wohnungsmarkt in Anaheim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die durchschnittlichen Hauspreise liegen bei etwa $750K, mit einer Mischung aus historischen Nachbarschaften und neuen Entwicklungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie zugänglich ist Anaheim zu Stränden und Autobahnen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anaheim ist etwa 15-20 Meilen von Küstenstränden entfernt und gut über wichtige Autobahnen wie die 5er und 91er erreichbar."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "lakewood",
+  "name": "莱克伍德",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个规划良好的郊区城市，以公园、适合家庭的环境以及洛杉矶县便利的地理位置而闻名。",
+  "fullDescription": "莱克伍德提供宁静的郊区生活，注重社区、公园和娱乐设施。该市拥有安静的住宅区、优质学校以及便捷通达主要高速公路的交通，是家庭和通勤者的理想选择。其中心位置方便前往长滩、多尼及其他附近城市。莱克伍德还举办众多社区活动，为各年龄段居民提供维护良好的公共设施。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "莱克伍德的郊区社区与绿地公园",
+  "population": "8.2万+",
+  "avgHomePrice": "72万美元",
+  "tags": [
+    "适合家庭",
+    "公园",
+    "郊区"
+  ],
+  "neighborhoods": [
+    {
+      "name": "长滩",
+      "type": "城市",
+      "slug": "long-beach",
+      "description": "以海滨、文化景点和充满活力的市中心闻名的沿海城市。",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "长滩市中心天际线及海滨",
+      "distance": "西南5英里",
+      "avgHomePrice": "75万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "多尼",
+      "type": "城市",
+      "slug": "downey",
+      "description": "拥有公园、购物中心及以家庭为导向社区的郊区城市。",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "多尼的郊区街道",
+      "distance": "东3英里",
+      "avgHomePrice": "71万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "贝尔弗劳尔",
+      "type": "城市",
+      "slug": "bellflower",
+      "description": "拥有多样化社区、购物和社区公园的城市。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "贝尔弗劳尔的住宅区",
+      "distance": "北4英里",
+      "avgHomePrice": "68万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "塞里托斯",
+      "type": "城市",
+      "slug": "cerritos",
+      "description": "以购物中心、公园和家庭设施闻名的社区。",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "塞里托斯的购物中心",
+      "distance": "东南6英里",
+      "avgHomePrice": "73万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "莱克伍德中心购物广场",
+      "description": "大型购物中心，拥有各种商店、餐饮选择和娱乐设施。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "购物中心内部及购物者"
+    },
+    {
+      "title": "公园和娱乐",
+      "description": "莱克伍德拥有众多公园、运动场和步道，适合户外活动。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "绿地公园和步行小径"
+    },
+    {
+      "title": "社区活动",
+      "description": "全年举办活动，将社区成员聚集在一起，包括节日、音乐会和节庆庆典。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "人们享受社区节日"
+    },
+    {
+      "title": "优质学校",
+      "description": "莱克伍德由多所高评价的公立和私立学校服务，支持家庭生活。",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "课堂中的学生"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "是什么让莱克伍德成为居住的好地方？",
+      "answer": "莱克伍德提供适合家庭的郊区环境，拥有众多公园、优质学校和强烈的社区精神。",
+      "category": "生活方式"
+    },
+    {
+      "question": "莱克伍德的房地产市场如何？",
+      "answer": "房地产市场稳定，安静社区中对独栋住宅的需求旺盛。",
+      "category": "房地产"
+    },
+    {
+      "question": "莱克伍德有哪些娱乐活动？",
+      "answer": "居民喜欢公园、运动场、社区活动和莱克伍德中心购物广场的购物体验。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从莱克伍德通勤方便吗？",
+      "answer": "是的，莱克伍德交通便利，靠近长滩和多尼等邻近城市。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州莱克伍德房地产与生活方式 | 适合家庭的公园与社区",
+    "metaDescription": "探索洛杉矶县莱克伍德的公园、学校、购物和房地产选项。",
+    "keywords": "莱克伍德房地产, 莱克伍德公园, 莱克伍德生活, 莱克伍德待售房屋",
+    "ogTitle": "发现莱克伍德：充满社区魅力的郊区生活",
+    "ogDescription": "在莱克伍德找到您的家，这里有公园、购物和适合家庭的社区。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "莱克伍德的郊区社区与绿地公园",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "莱克伍德",
+      "description": "探索加利福尼亚州莱克伍德的房地产、社区和亮点。",
+      "url": "https://example.com/locations/lakewood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "莱克伍德的郊区社区与绿地公园"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "莱克伍德",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "是什么让莱克伍德成为居住的好地方？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "莱克伍德提供适合家庭的郊区环境，拥有众多公园、优质学校和强烈的社区精神。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "莱克伍德的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "房地产市场稳定，安静社区中对独栋住宅的需求旺盛。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "莱克伍德有哪些娱乐活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民喜欢公园、运动场、社区活动和莱克伍德中心购物广场的购物体验。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从莱克伍德通勤方便吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，莱克伍德交通便利，靠近长滩和多尼等邻近城市。"
+          }
+        }
+      ]
+    }
+  ]
+}

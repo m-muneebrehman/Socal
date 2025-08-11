@@ -1,0 +1,187 @@
+{
+  "slug": "fullerton",
+  "name": "Fullerton",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville dynamique connue pour son centre-ville historique, ses institutions éducatives et ses événements culturels.",
+  "fullDescription": "Fullerton est une ville animée du comté d'Orange qui allie charme historique et commodités modernes. Réputée pour son centre-ville animé rempli de restaurants, boutiques et vie nocturne, Fullerton abrite la California State University, Fullerton ainsi que le Fullerton College, attirant étudiants et professionnels. La ville offre des quartiers diversifiés, d’excellentes écoles et une riche scène culturelle comprenant théâtres, galeries d'art et festivals de musique.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Centre-ville historique de Fullerton avec des rues et une architecture vibrantes",
+  "population": "140K+",
+  "avgHomePrice": "850 K$",
+  "tags": [
+    "Historique",
+    "Éducatif",
+    "Culturel"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Anaheim",
+      "type": "ville",
+      "slug": "anaheim",
+      "description": "Lieu du Disneyland Resort et important centre de divertissement et de conventions.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Entrée de Disneyland à Anaheim",
+      "distance": "6 miles au sud-est",
+      "avgHomePrice": "900 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Brea",
+      "type": "ville",
+      "slug": "brea",
+      "description": "Ville huppée avec centres commerciaux, galeries d'art et parcs familiaux.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Zone commerçante de Brea",
+      "distance": "5 miles au nord-est",
+      "avgHomePrice": "750 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Placentia",
+      "type": "ville",
+      "slug": "placentia",
+      "description": "Communauté résidentielle calme avec parcs, écoles et un centre-ville historique.",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parc et maisons à Placentia",
+      "distance": "4 miles à l'est",
+      "avgHomePrice": "800 K$",
+      "county": "Orange"
+    },
+    {
+      "name": "Yorba Linda",
+      "type": "ville",
+      "slug": "yorba-linda",
+      "description": "Ville résidentielle aisée avec de grandes maisons, des parcs et des monuments historiques.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Quartier résidentiel à Yorba Linda",
+      "distance": "8 miles au nord-est",
+      "avgHomePrice": "1,2 M$",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centre-ville historique de Fullerton",
+      "description": "Quartier animé avec restaurants, boutiques, théâtres et vie nocturne.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville de Fullerton avec restaurants et éclairages"
+    },
+    {
+      "title": "California State University, Fullerton",
+      "description": "Grande université publique réputée pour ses programmes académiques solides et ses événements sur le campus.",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiments et espaces verts du campus CSUF"
+    },
+    {
+      "title": "Arboretum de Fullerton",
+      "description": "Magnifique jardin botanique offrant des sentiers naturels et des programmes éducatifs.",
+      "icon": "🌿",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Végétation luxuriante et sentiers dans l'arboretum de Fullerton"
+    },
+    {
+      "title": "Événements culturels",
+      "description": "Festivals réguliers, concerts et expositions artistiques qui enrichissent la vie communautaire.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Festival culturel en plein air à Fullerton"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Fullerton est-elle connue ?",
+      "answer": "Fullerton est connue pour son centre-ville historique, ses institutions éducatives et sa scène culturelle dynamique.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les écoles à Fullerton ?",
+      "answer": "Fullerton possède plusieurs excellentes écoles publiques et privées, ainsi que la California State University, Fullerton.",
+      "category": "Éducation"
+    },
+    {
+      "question": "Quelles activités culturelles sont disponibles ?",
+      "answer": "Les habitants profitent des théâtres, galeries d'art, festivals de musique et événements communautaires toute l'année.",
+      "category": "Loisirs"
+    },
+    {
+      "question": "Comment est le trajet depuis Fullerton ?",
+      "answer": "Fullerton offre un accès pratique aux autoroutes vers Los Angeles, le comté d'Orange et les villes environnantes.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et vie à Fullerton CA | Centre-ville historique & ville universitaire",
+    "metaDescription": "Découvrez les quartiers, attractions culturelles, écoles et immobilier de Fullerton dans le comté d'Orange.",
+    "keywords": "immobilier Fullerton, centre-ville historique Fullerton, CSUF, vie dans le comté d'Orange",
+    "ogTitle": "Découvrez Fullerton : charme historique & communauté dynamique",
+    "ogDescription": "Découvrez la culture animée, l'éducation et les quartiers de Fullerton, Californie.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Centre-ville de Fullerton au crépuscule",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Fullerton",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Fullerton, Californie.",
+      "url": "https://example.com/locations/fullerton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Centre-ville historique de Fullerton avec des rues et une architecture vibrantes"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Fullerton",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Fullerton est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton est connue pour son centre-ville historique, ses institutions éducatives et sa scène culturelle dynamique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les écoles à Fullerton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton possède plusieurs excellentes écoles publiques et privées, ainsi que la California State University, Fullerton."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités culturelles sont disponibles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les habitants profitent des théâtres, galeries d'art, festivals de musique et événements communautaires toute l'année."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le trajet depuis Fullerton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fullerton offre un accès pratique aux autoroutes vers Los Angeles, le comté d'Orange et les villes environnantes."
+          }
+        }
+      ]
+    }
+  ]
+}

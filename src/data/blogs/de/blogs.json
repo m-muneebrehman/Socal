@@ -1,125 +1,5 @@
 [
   {
-    "id": "6897d4e5d030dedaafd97950",
-    "slug": "hauser-mit-vintagem-charme-in-los-angeles",
-    "title": "Luxus-Häuser mit Vintage-Charme in Los Angeles: Ein exklusiver Marktführerbericht",
-    "subtitle": "Entdecken Sie die exklusivsten Häuser mit Vintage-Charme in Los Angeles – Ihr Leitfaden für den Kauf einer Luxusimmobilie in der Stadt der Engel.",
-    "category": "Kauf",
-    "author": {
-      "name": "Claude",
-      "title": "Luxury Real Estate Content Writer & SEO Specialist",
-      "avatar": "CL",
-      "bio": "Claude ist ein Experte für Luxus-Immobilien und SEO-Spezialist mit umfassender Kenntnis des internationalen Marktes, insbesondere des südkalifornischen Luxus-Immobilienmarktes.  Mit Fokus auf vermögende internationale Kunden erstellt Claude anspruchsvolle, datenbasierte Inhalte, die Markteinblicke mit emotionalem Appeal verbinden.  Seine Expertise umfasst die Erstellung von Inhalten für Suchmaschinenoptimierung (SEO) bei gleichzeitiger Beibehaltung eines hochwertigen Tons.",
-      "url": ""
-    },
-    "date": "24.10.2023",
-    "readTime": "10 Minuten Lesezeit",
-    "status": "Published",
-    "featured": true,
-    "heroImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "heroImageAlt": "Ein atemberaubendes Bild eines Luxus-Hauses in Los Angeles mit vintagem Charme.",
-    "canonicalUrl": "www.abc.com/de/hauser-mit-vintagem-charme-in-los-angeles",
-    "language": "de",
-    "city": "Los Angeles",
-    "topic": "Kauf",
-    "keyword": "Häuser mit vintagem Charme in Los Angeles",
-    "group_id": 109,
-    "seo": {
-      "metaTitle": "Häuser mit Vintage-Charme in Los Angeles: Der ultimative Guide",
-      "metaDescription": "Entdecken Sie den Markt für Häuser mit vintagem Charme in Los Angeles.  Dieser Leitfaden bietet Einblicke in  Top-Lagen, Investitionsmöglichkeiten und den Kaufprozess für internationale Kunden.",
-      "keywords": "Häuser mit vintagem Charme in Los Angeles, Luxus Immobilien Los Angeles, Beverly Hills, Malibu, Investition, ROI, Kaufprozess, internationale Käufer",
-      "ogTitle": "Häuser mit Vintage-Charme in Los Angeles: Der ultimative Guide",
-      "ogDescription": "Entdecken Sie den Markt für Häuser mit vintagem Charme in Los Angeles.  Dieser Leitfaden bietet Einblicke in Top-Lagen, Investitionsmöglichkeiten und den Kaufprozess für internationale Kunden.",
-      "ogImage": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "twitterCard": "summary_large_image"
-    },
-    "hreflang_tags": [
-      {
-        "hreflang": "en",
-        "href": "https://abc.com/en/husermitvintagemcharmeinlosangeles"
-      },
-      {
-        "hreflang": "de",
-        "href": "https://abc.com/de/husermitvintagemcharmeinlosangeles"
-      }
-    ],
-    "internal_links": [
-      {
-        "href": "/luxury-properties/los-angeles",
-        "anchor": "Luxusimmobilien in Los Angeles",
-        "context": "Weitere Informationen zu Luxusimmobilien in Los Angeles finden Sie hier."
-      },
-      {
-        "href": "/investment-guides/southern-california",
-        "anchor": "Investitionsleitfaden für Südkalifornien",
-        "context": "Hier finden Sie einen umfassenden Investitionsleitfaden für Südkalifornien."
-      }
-    ],
-    "schema_markup": {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Luxus-Häuser mit Vintage-Charme in Los Angeles: Ein exklusiver Marktführerbericht",
-      "description": "Entdecken Sie den Markt für Häuser mit vintagem Charme in Los Angeles.  Dieser Leitfaden bietet Einblicke in  Top-Lagen, Investitionsmöglichkeiten und den Kaufprozess für internationale Kunden.",
-      "datePublished": "24.10.2023",
-      "dateModified": "24.10.2023",
-      "author": {
-        "@type": "Person",
-        "name": "Claude",
-        "jobTitle": "Luxury Real Estate Content Writer & SEO Specialist"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Premier Luxury Estates",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://abc.com/logo.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "www.abc.com/de/hauser-mit-vintagem-charme-in-los-angeles"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://images.pexels.com/photos/7641830/pexels-photo-7641830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        "width": 2340,
-        "height": 1560
-      }
-    },
-    "images": [],
-    "word_count": 1300,
-    "ctaSection": {
-      "title": "Sind Sie bereit?",
-      "subtitle": "Kontaktieren Sie uns noch heute für eine persönliche Beratung.",
-      "ctaText": "Bereit für den nächsten Schritt?",
-      "ctaLink": "/downloads/urban-sustainability-guide"
-    },
-    "content": {
-      "lead": "Los Angeles, das pulsierende Herz Südkaliforniens, lockt mit einer einzigartigen Mischung aus glamourösem Lebensstil und lukrativen Investitionsmöglichkeiten.  Der Markt für Luxus-Immobilien in der Stadt der Engel boomt, insbesondere für Häuser mit Vintage-Charme, die eine unvergleichliche Eleganz und Geschichte verkörpern.  Für internationale Käufer bietet Los Angeles ein einzigartiges Portfolio an Immobilien, von historischen Villen in Beverly Hills bis hin zu modernen Anwesen mit atemberaubendem Meerblick in Malibu.  Die Nachfrage nach Häusern mit vintagem Charme ist besonders hoch, da sie einen exklusiven und zeitlosen Lebensstil versprechen.  Dieser Marktführerbericht beleuchtet die aktuellen Trends, lukrativen Investitionsmöglichkeiten und den Kaufprozess für internationale Kunden, die den Traum vom Eigenheim in Los Angeles verwirklichen möchten.",
-      "sections": [
-        {
-          "title": "Marktübersicht und Trends",
-          "content": "Der Markt für Häuser mit vintagem Charme in Los Angeles ist dynamisch und wettbewerbsintensiv.  Die Preise sind in den letzten Jahren stetig gestiegen, angetrieben von der starken Nachfrage internationaler Käufer und einem begrenzten Angebot an hochwertigen Immobilien mit historischem Charme.  Im Jahr 2023 beispielsweise verzeichnete der Markt einen Anstieg der durchschnittlichen Preise für Luxusimmobilien um 15%.  Diese Entwicklung zeigt das immense Potenzial für zukünftige Wertsteigerungen.",
-          "quote": {
-            "text": "\"Der Kauf eines Hauses mit vintagem Charme in Los Angeles ist nicht nur eine Investition in eine Immobilie, sondern in einen Lebensstil.  Diese Häuser bieten eine einzigartige Mischung aus Eleganz, Geschichte und modernem Komfort.\"",
-            "author": "Claude, Luxury Real Estate Content Writer & SEO Specialist"
-          },
-          "additional": "Der Markt für Luxus-Immobilien in Los Angeles ist geprägt von hoher Nachfrage und begrenztem Angebot, was zu einem stetigen Wertzuwachs führt.  Investitionen in Häuser mit vintagem Charme bieten nicht nur ein hohes Wertsteigerungspotenzial, sondern auch die Möglichkeit, in eine einzigartige und unverwechselbare Immobilie zu investieren, die einen bleibenden Wert darstellt.",
-          "subsections": [
-            {
-              "title": "Faktoren, die den Markt beeinflussen",
-              "content": "Die Nachfrage nach Häusern mit vintagem Charme wird durch verschiedene Faktoren getrieben, darunter die einzigartige Architektur, die hochwertige Verarbeitung und die exklusive Lage in begehrten Stadtteilen.  Diese Häuser bieten nicht nur einen hohen Wohnkomfort, sondern auch ein hohes Investitionspotenzial und Wertsteigerungsmöglichkeiten.  Die steigende Nachfrage und das begrenzte Angebot an Immobilien dieser Art tragen zu dem anhaltenden Preisanstieg bei."
-            }
-          ]
-        }
-      ]
-    },
-    "views": 0,
-    "likes": 0,
-    "createdAt": "2025-08-10T17:59:41.535Z",
-    "updatedAt": "2025-08-10T05:07:09.282Z"
-  },
-  {
     "id": "6898d55ed030dedaafd97a78",
     "slug": "homes-with-vintage-charm-in-los-angeles",
     "title": "Entdecken Sie Häuser mit Vintage-Charme in Los Angeles: Eine zeitlose Investition",
@@ -310,7 +190,7 @@
     },
     "views": 0,
     "likes": 0,
-    "createdAt": "2025-08-10T17:59:41.535Z",
-    "updatedAt": "2025-08-10T17:59:41.277Z"
+    "createdAt": "2025-08-10T21:25:09.425Z",
+    "updatedAt": "2025-08-10T18:21:49.032Z"
   }
 ]

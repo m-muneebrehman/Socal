@@ -1,0 +1,187 @@
+{
+  "slug": "dana-point",
+  "name": "Dana Point",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine malerische Küstenstadt bekannt für ihren Hafen, Strände und Outdoor-Wasseraktivitäten.",
+  "fullDescription": "Dana Point bietet atemberaubende Meerblick, einen lebendigen Hafenbereich und eine reiche maritime Geschichte. Gelegen an der Südküste des Orange County ist es ein beliebtes Ziel für Bootfahren, Surfen und Walbeobachtung. Die Stadt verfügt über charmante Nachbarschaften, ausgezeichnete Restaurants und einen entspannten Küstenlifestyle, der Familien, Rentner und Outdoor-Enthusiasten gleichermaßen anzieht.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Malarische Küstenansicht des Dana Point Hafens und Strands",
+  "population": "34K+",
+  "avgHomePrice": "$1.4M",
+  "tags": [
+    "Küste",
+    "Outdoor-Aktivitäten",
+    "Familienfreundlich"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Niguel",
+      "type": "Stadt",
+      "slug": "laguna-niguel",
+      "description": "Exklusive Gemeinde mit Parks, Golfplätzen und malerischen Wanderwegen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Malerischer Park in Laguna Niguel",
+      "distance": "8 km nördlich",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "Stadt",
+      "slug": "san-clemente",
+      "description": "Küstenstadt mit spanischer Architektur, Stränden und Pier.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Strand und Pier in San Clemente",
+      "distance": "11 km südlich",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "Stadt",
+      "slug": "mission-viejo",
+      "description": "Geplante Gemeinde mit Parks, Seen und Familieneinrichtungen.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Seepark in Mission Viejo",
+      "distance": "13 km nordöstlich",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "Stadt",
+      "slug": "san-juan-capistrano",
+      "description": "Historische Stadt bekannt für die Mission und charmante Innenstadt.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mission San Juan Capistrano",
+      "distance": "10 km östlich",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Dana Point Hafen",
+      "description": "Beliebte Marina mit Bootfahren, Angeln, Restaurants am Wasser und Geschäften.",
+      "icon": "⚓",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boote im Dana Point Hafen vertäut"
+    },
+    {
+      "title": "Doheny State Beach",
+      "description": "Malerischer Strand mit Camping, Surfen und Picknickeinrichtungen.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sonnenuntergang am Doheny State Beach"
+    },
+    {
+      "title": "Walbeobachtung",
+      "description": "Saisonale Touren von Dana Point aus zur Beobachtung wandernder Wale.",
+      "icon": "🐋",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Wal springt in der Nähe von Dana Point"
+    },
+    {
+      "title": "Ocean Institute",
+      "description": "Bildungszentrum für Meereswissenschaften und Ozeanschutz.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ocean Institute Gebäude"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Dana Point bekannt?",
+      "answer": "Dana Point ist bekannt für seinen Hafen, Walbeobachtung, Strände und Küstenlifestyle.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Wie sind die Schulen in Dana Point?",
+      "answer": "Dana Point wird vom Capistrano Unified School District betreut, bekannt für starke akademische Leistungen.",
+      "category": "Bildung"
+    },
+    {
+      "question": "Welche Outdoor-Aktivitäten sind beliebt?",
+      "answer": "Beliebte Aktivitäten sind Bootfahren, Surfen, Küstenwanderungen und Walbeobachtung.",
+      "category": "Erholung"
+    },
+    {
+      "question": "Wie ist der Pendelverkehr zu nahegelegenen Städten?",
+      "answer": "Dana Point bietet bequemen Autobahnzugang zu Laguna Beach, Irvine und anderen Orange County Städten.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Dana Point CA Immobilien & Küstenleben | Hafen & Strände",
+    "metaDescription": "Entdecke Dana Points Nachbarschaften, Outdoor-Aktivitäten, Schulen und Immobilien im Orange County.",
+    "keywords": "Dana Point Immobilien, Küstenleben, Dana Point Hafen, Orange County Häuser",
+    "ogTitle": "Entdecke Dana Point: Küstenstadt mit Hafen und Stränden",
+    "ogDescription": "Erlebe Dana Points Marina, Strände, Walbeobachtung und familienfreundliche Gemeinschaft.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Dana Point Küstenhafenansicht",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Dana Point",
+      "description": "Entdecke Immobilien, Nachbarschaften und Highlights in Dana Point, Kalifornien.",
+      "url": "https://example.com/locations/dana-point",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Malarische Küstenansicht des Dana Point Hafens und Strands"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Dana Point",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Dana Point bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point ist bekannt für seinen Hafen, Walbeobachtung, Strände und Küstenlifestyle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie sind die Schulen in Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point wird vom Capistrano Unified School District betreut, bekannt für starke akademische Leistungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Outdoor-Aktivitäten sind beliebt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beliebte Aktivitäten sind Bootfahren, Surfen, Küstenwanderungen und Walbeobachtung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Pendelverkehr zu nahegelegenen Städten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point bietet bequemen Autobahnzugang zu Laguna Beach, Irvine und anderen Orange County Städten."
+          }
+        }
+      ]
+    }
+  ]
+}

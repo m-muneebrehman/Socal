@@ -1,0 +1,163 @@
+{
+  "slug": "lemon-grove",
+  "name": "柠檬园",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以历史悠久的柠檬园拱门和紧密社区著称的迷人郊区城市，靠近圣地亚哥。",
+  "fullDescription": "柠檬园提供经济实惠的郊区生活，拥有强烈的社区归属感，以标志性的柠檬园拱门为特色。居民既能方便地享受圣地亚哥和东县的各种便利设施，又能保持独特的小镇氛围，举办本地活动并拥有多个公园。",
+  "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "柠檬园拱门和郊区社区",
+  "population": "2.7万+",
+  "avgHomePrice": "70万美元以上",
+  "tags": [
+    "历史悠久",
+    "适合家庭",
+    "经济实惠"
+  ],
+  "neighborhoods": [
+    {
+      "name": "拉梅萨",
+      "type": "城市",
+      "slug": "la-mesa",
+      "description": "毗邻城市，拥有历史悠久的市中心村庄和步行友好型社区。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "拉梅萨大道市中心村庄",
+      "distance": "东3英里",
+      "avgHomePrice": "85万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "圣地亚哥",
+      "type": "城市",
+      "slug": "san-diego",
+      "description": "大型都市中心，拥有就业枢纽和文化景点。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "从海湾望去的圣地亚哥天际线",
+      "distance": "西10英里",
+      "avgHomePrice": "95万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "埃尔卡洪",
+      "type": "城市",
+      "slug": "el-cajon",
+      "description": "邻近城市，拥有多样化的餐饮选择和经济适用房。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+      "imageAlt": "埃尔卡洪市中心街景",
+      "distance": "东5英里",
+      "avgHomePrice": "65万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "国家城",
+      "type": "城市",
+      "slug": "national-city",
+      "description": "西南方向的城市，拥有海湾滨水区和多样化餐饮。",
+      "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "国家城码头和海湾滨水区",
+      "distance": "西南7英里",
+      "avgHomePrice": "60万美元",
+      "county": "圣地亚哥县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "历史悠久的拱门",
+      "description": "标志性的柠檬园拱门自1928年以来欢迎游客，是社区自豪感的象征。",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "柠檬园拱门"
+    },
+    {
+      "title": "社区活动",
+      "description": "每年举办柠檬节和其他地方聚会，促进小镇情谊。",
+      "icon": "🎪",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "柠檬园社区活动"
+    },
+    {
+      "title": "经济实惠的生活",
+      "description": "相比邻近城市更为实惠，同时提供便利的位置。",
+      "icon": "💰",
+      "bgImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "柠檬园社区"
+    },
+    {
+      "title": "中心位置",
+      "description": "通过I-94和SR-125轻松通往圣地亚哥和东县。",
+      "icon": "📍",
+      "bgImage": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "柠檬园高速公路入口"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "柠檬园有哪些最好的社区？",
+      "answer": "受欢迎的地区包括拱门附近的市中心区域、棕榈牧场和圣米格尔小学附近的社区。",
+      "category": "社区"
+    },
+    {
+      "question": "柠檬园的学校怎么样？",
+      "answer": "由柠檬园学区和格罗斯蒙特联合高中学区服务，拥有多所获奖学校。",
+      "category": "教育"
+    },
+    {
+      "question": "柠檬园有什么活动？",
+      "answer": "可参加柠檬节等社区活动，享受本地公园，并方便前往圣地亚哥景点。",
+      "category": "生活方式"
+    },
+    {
+      "question": "通勤到圣地亚哥市中心方便吗？",
+      "answer": "通过I-94高速公路，大约15-20分钟，交通状况不同，附近拉梅萨有有轨电车可达。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州柠檬园房地产与生活方式 | 历史与经济实惠的生活",
+    "metaDescription": "探索柠檬园社区、历史魅力及靠近圣地亚哥的经济适用生活。",
+    "keywords": "柠檬园房地产, 柠檬园拱门, 圣地亚哥县, 柠檬园房屋",
+    "ogTitle": "探索柠檬园：靠近圣地亚哥的小镇魅力",
+    "ogDescription": "了解柠檬园的社区、社区活动及便利的位置。",
+    "ogImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "柠檬园拱门和社区",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "柠檬园",
+      "description": "探索加利福尼亚州柠檬园的房地产、社区和亮点。",
+      "url": "https://example.com/locations/lemon-grove",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+        "caption": "柠檬园拱门和社区"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "柠檬园",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "柠檬园有什么特别之处？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "柠檬园以其历史悠久的拱门和本地活动营造的小镇社区氛围，以及靠近圣地亚哥的经济实惠生活而闻名。"
+          }
+        }
+      ]
+    }
+  ]
+}

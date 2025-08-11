@@ -1,0 +1,176 @@
+{
+  "slug": "glendale",
+  "name": "格伦代尔",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个繁荣的城市，以购物、公园和多元文化社区著称，位于Verdugos地区。",
+  "fullDescription": "格伦代尔是位于洛杉矶县、圣加布里埃尔山脚下的充满活力的城市。以繁华的购物区（如The Americana at Brand）、强大的亚美尼亚社区以及丰富的公园资源闻名，格伦代尔提供了城市便利设施与户外休闲机会的完美平衡。该市拥有优质的学校、焕然一新的市中心，并且方便前往洛杉矶市中心和帕萨迪纳，是生活和工作的理想之地。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "格伦代尔城市天际线，背景为山脉景色",
+  "population": "20万+",
+  "avgHomePrice": "90万美元",
+  "tags": [
+    "购物",
+    "公园",
+    "文化多样性"
+  ],
+  "neighborhoods": [
+    {
+      "name": "伯班克",
+      "type": "城市",
+      "slug": "burbank",
+      "description": "娱乐之都，拥有大型影视制片厂和适合家庭居住的社区。",
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "伯班克市中心，棕榈树环绕",
+      "distance": "西北4英里",
+      "avgHomePrice": "95万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "拉卡纳达弗林特里奇",
+      "type": "城市",
+      "slug": "la-canada-flintridge",
+      "description": "以其优美的景色和户外活动闻名的高档社区。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "拉卡纳达弗林特里奇的山景住宅街道",
+      "distance": "北6英里",
+      "avgHomePrice": "150万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "帕萨迪纳",
+      "type": "城市",
+      "slug": "pasadena",
+      "description": "因玫瑰碗和文化景点而闻名的历史名城。",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "帕萨迪纳市景和历史建筑",
+      "distance": "东7英里",
+      "avgHomePrice": "110万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Americana at Brand",
+      "description": "顶级的户外购物和娱乐目的地。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "黄昏时分的户外购物中心"
+    },
+    {
+      "title": "格伦代尔购物中心",
+      "description": "大型室内购物中心，拥有多样的商店和餐厅。",
+      "icon": "🏬",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "格伦代尔购物中心"
+    },
+    {
+      "title": "布兰德公园",
+      "description": "历史悠久的公园，拥有步道、植物园和野餐区。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "绿树成荫的公园区，设有小径"
+    },
+    {
+      "title": "文化多样性",
+      "description": "格伦代尔拥有庞大的亚美尼亚社区和丰富的文化混合体。",
+      "icon": "🌏",
+      "bgImage": "https://images.unsplash.com/photo-1563201518-47b8c7c2c865?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "文化节，装饰色彩丰富"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "格伦代尔以什么闻名？",
+      "answer": "格伦代尔以其购物中心、文化多样性以及靠近圣加布里埃尔山脉而著称。",
+      "category": "生活方式"
+    },
+    {
+      "question": "格伦代尔的房地产市场如何？",
+      "answer": "格伦代尔的房地产市场提供历史房屋、公寓和新开发项目的多样选择，价格具有竞争力。",
+      "category": "房地产"
+    },
+    {
+      "question": "格伦代尔有哪些受欢迎的娱乐活动？",
+      "answer": "居民喜欢在附近山脉徒步、在The Americana at Brand购物以及探索本地公园。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从格伦代尔通勤怎么样？",
+      "answer": "格伦代尔交通便利，可轻松访问主要高速公路和公共交通，前往洛杉矶及周边地区。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "加州格伦代尔房地产与生活方式 | 购物、公园与文化",
+    "metaDescription": "探索洛杉矶县Verdugos地区的格伦代尔社区、文化景点及房地产信息。",
+    "keywords": "格伦代尔房地产，格伦代尔购物，格伦代尔生活，格伦代尔待售房屋",
+    "ogTitle": "探索格伦代尔：文化、购物与户外生活",
+    "ogDescription": "在格伦代尔找到您的家，享受多元社区、优质购物和优美景观。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "格伦代尔城市天际线，背景为山脉景色",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "格伦代尔",
+      "description": "探索加利福尼亚州格伦代尔的房地产、社区和亮点。",
+      "url": "https://example.com/locations/glendale",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "格伦代尔城市天际线，背景为山脉景色"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "格伦代尔",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "格伦代尔以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "格伦代尔以其购物中心、文化多样性以及靠近圣加布里埃尔山脉而著称。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "格伦代尔的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "格伦代尔的房地产市场提供历史房屋、公寓和新开发项目的多样选择，价格具有竞争力。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "格伦代尔有哪些受欢迎的娱乐活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "居民喜欢在附近山脉徒步、在The Americana at Brand购物以及探索本地公园。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "从格伦代尔通勤怎么样？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "格伦代尔交通便利，可轻松访问主要高速公路和公共交通，前往洛杉矶及周边地区。"
+          }
+        }
+      ]
+    }
+  ]
+}

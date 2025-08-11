@@ -1,0 +1,187 @@
+{
+  "slug": "carlsbad",
+  "name": "Carlsbad",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Ein Küstenjuwel mit schönen Stränden, Familienattraktionen und einer lebendigen Dorfatmosphäre in North County San Diego.",
+  "fullDescription": "Carlsbad bietet eine perfekte Mischung aus entspanntem Strandleben, familienfreundlichen Attraktionen und einer lebendigen lokalen Wirtschaft. Bekannt für seine malerische Küste, das LEGOLAND California Resort und das charmante Carlsbad Village, ist diese Stadt eine Top-Wahl für alle, die sowohl Freizeit als auch Gemeinschaft schätzen. Carlsbad rühmt sich auch mit erstklassigen Schulen, einem starken Tech- und Biowissenschaftssektor und einfachem Zugang zu sowohl Los Angeles als auch San Diego.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Pazifische Wellen und sandige Küste bei Sonnenuntergang in der Nähe von Carlsbad",
+  "population": "115K+",
+  "avgHomePrice": "$1.3M",
+  "tags": [
+    "Strände",
+    "Familienfreundlich",
+    "Dorf"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Oceanside",
+      "type": "Stadt",
+      "slug": "oceanside",
+      "description": "Nachbarstadt an der Küste mit einem geschäftigen Hafen, langem Pier und einer aufstrebenden Gastronomie- und Kunstszene.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Oceanside Pier und Küste bei Sonnenuntergang",
+      "distance": "5 Meilen nördlich",
+      "avgHomePrice": "$850K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "Stadt",
+      "slug": "vista",
+      "description": "Binnenlandgemeinschaft mit Parks, Brauereien und familienorientierten Nachbarschaften nur wenige Minuten von Carlsbad entfernt.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorstadtnachbarschaft und baumgesäumte Straße in Vista",
+      "distance": "7 Meilen nordöstlich",
+      "avgHomePrice": "$780K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "Stadt",
+      "slug": "encinitas",
+      "description": "Strandstadt bekannt für Surfkultur, botanische Gärten und Küstengastronomie südlich von Carlsbad.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas Surfwellen bei Sonnenaufgang",
+      "distance": "7 Meilen südlich",
+      "avgHomePrice": "$1.4M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Marcos",
+      "type": "Stadt",
+      "slug": "san-marcos",
+      "description": "Bildungszentrum mit Cal State San Marcos, Wanderwegen und wachsender Gastronomieszene.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rollende grüne Hügel in der Nähe von San Marcos",
+      "distance": "10 Meilen östlich",
+      "avgHomePrice": "$820K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "LEGOLAND California Resort",
+      "description": "Ein Top-Familienziel mit Fahrgeschäften, Attraktionen und Wasserpark-Spaß.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Achterbahn im Themenpark"
+    },
+    {
+      "title": "Carlsbad State Beach",
+      "description": "Schöner Sandstrand perfekt zum Surfen, Schwimmen oder Sonnenuntergang beobachten.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Goldener Sonnenuntergang über Pazifikwellen in Carlsbad"
+    },
+    {
+      "title": "The Flower Fields",
+      "description": "Saisonale Farbexplosion mit 50 Hektar blühender Ranunkelblumen.",
+      "icon": "🌸",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Reihen blühender Blumen unter blauem Himmel"
+    },
+    {
+      "title": "Carlsbad Village",
+      "description": "Fußläufige Innenstadt mit Boutiquen, Restaurants, Live-Musik und Gemeinschaftsveranstaltungen.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Dorfstraße mit Lichterketten, Geschäften und Cafés"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Nachbarschaften in Carlsbad?",
+      "answer": "Carlsbad Village, La Costa und Aviara sind beliebt für ihre Annehmlichkeiten, Schulen und Nähe zur Küste.",
+      "category": "Nachbarschaften"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Carlsbad?",
+      "answer": "Carlsbads Immobilienmarkt ist wettbewerbsintensiv, mit hoher Nachfrage nach Küsten- und familienorientierten Nachbarschaften.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Carlsbad machen?",
+      "answer": "Genießen Sie die Strände, erkunden Sie Carlsbad Village, besuchen Sie LEGOLAND oder erleben Sie saisonale Attraktionen wie The Flower Fields.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist das Pendeln von Carlsbad?",
+      "answer": "Carlsbad wird von der I-5, der Coast Highway und dem Coaster-Zugservice bedient, was es bequem macht, nach San Diego oder Orange County zu reisen.",
+      "category": "Verkehr"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Carlsbad CA Immobilien & Lebensstil | Strände, Dorf & Familienspaß",
+    "metaDescription": "Entdecken Sie Carlsbads Nachbarschaften, atemberaubende Strände, Familienattraktionen wie LEGOLAND und Immobilienoptionen in North County San Diego.",
+    "keywords": "Carlsbad Immobilien, Carlsbad Strände, Carlsbad Village, Leben in Carlsbad, Carlsbad Häuser zum Verkauf",
+    "ogTitle": "Erkunden Sie Carlsbad: Küstenleben & Familienspaß",
+    "ogDescription": "Finden Sie Ihren Platz in Carlsbad mit seinen Stränden, Attraktionen und lebendigem Gemeinschaftsleben.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Carlsbad Küste und Wellen bei Sonnenuntergang",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Carlsbad",
+      "description": "Erkunden Sie Immobilien, Nachbarschaften und Höhepunkte in Carlsbad, Kalifornien.",
+      "url": "https://example.com/locations/carlsbad",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1607019249208-b33c7928fe8b?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Carlsbad Strand bei Sonnenuntergang"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Carlsbad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Nachbarschaften in Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carlsbad Village, La Costa und Aviara gehören zu den begehrtesten Nachbarschaften für ihre Annehmlichkeiten, Schulen und Nähe zur Küste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Carlsbad bietet einen wettbewerbsintensiven Markt mit hoher Nachfrage nach sowohl Küstenhäusern als auch familienorientierten Nachbarschaften."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in Carlsbad machen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genießen Sie Carlsbads Strände, erkunden Sie sein charmantes Dorf, besuchen Sie LEGOLAND und sehen Sie The Flower Fields in Blüte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Carlsbad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I-5, Coast Highway und Coaster-Zug machen das Pendeln nach San Diego und Orange County unkompliziert."
+          }
+        }
+      ]
+    }
+  ]
+}

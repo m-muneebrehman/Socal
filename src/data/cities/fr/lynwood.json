@@ -1,0 +1,176 @@
+{
+  "slug": "lynwood",
+  "name": "Lynwood",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville diverse et dynamique du sud-est de Los Angeles connue pour son esprit communautaire et son emplacement pratique.",
+  "fullDescription": "Lynwood est une ville densément peuplée du comté de Los Angeles offrant un fort sentiment de communauté et une grande diversité culturelle. Située près des principales autoroutes et des transports en commun, Lynwood permet un accès facile au centre-ville de Los Angeles et aux quartiers environnants. La ville comprend un mélange de quartiers résidentiels, commerces locaux, parcs et centres communautaires. Lynwood continue de se développer avec de nouveaux projets de logements et des efforts de revitalisation, en faisant un choix pratique pour les familles et les professionnels cherchant un bon rapport qualité-prix et la commodité dans la région de South Bay.",
+  "heroImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vue au coucher du soleil sur la ville de Lynwood avec des palmiers",
+  "population": "70K+",
+  "avgHomePrice": "650 K$",
+  "tags": [
+    "Communauté",
+    "Diversité",
+    "Commodité"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Compton",
+      "type": "ville",
+      "slug": "compton",
+      "description": "Ville voisine connue pour sa riche histoire culturelle et sa scène artistique en plein essor.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Centre-ville de Compton avec art de rue et bâtiments",
+      "distance": "3 miles au sud",
+      "avgHomePrice": "600 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "ville",
+      "slug": "bellflower",
+      "description": "Ville familiale avec des parcs, commerces et événements communautaires.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scène de rue du centre-ville de Bellflower",
+      "distance": "5 miles au sud-ouest",
+      "avgHomePrice": "680 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Downey",
+      "type": "ville",
+      "slug": "downey",
+      "description": "Ville connue pour ses sites historiques, ses parcs et son centre-ville dynamique.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vue de la rue du centre-ville de Downey",
+      "distance": "6 miles au sud-est",
+      "avgHomePrice": "700 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Parc de Lynwood",
+      "description": "Parc communautaire populaire offrant terrains de sport, aires de jeux et zones de pique-nique.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Familles profitant d'une journée ensoleillée au parc"
+    },
+    {
+      "title": "Bibliothèque de Lynwood",
+      "description": "Bibliothèque communautaire avec de nombreuses ressources, événements et programmes éducatifs.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment moderne de bibliothèque avec fenêtres en verre"
+    },
+    {
+      "title": "Parc régional de Lynwood",
+      "description": "Grand parc avec sentiers pédestres, terrains de sport et centre communautaire.",
+      "icon": "🏞️",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sentier pédestre à travers un parc verdoyant"
+    },
+    {
+      "title": "Hôtel de ville de Lynwood",
+      "description": "Centre du gouvernement local avec services communautaires et événements.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment de l'hôtel de ville au crépuscule"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi Lynwood est-elle connue ?",
+      "answer": "Lynwood est connue pour son fort esprit communautaire, sa diversité culturelle et son emplacement pratique près de Los Angeles.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à Lynwood ?",
+      "answer": "Le marché immobilier à Lynwood offre des options abordables avec un mélange de maisons individuelles et de condos.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles activités récréatives sont disponibles à Lynwood ?",
+      "answer": "Les résidents profitent des parcs, des événements communautaires et des attractions culturelles voisines dans toute la région.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Lynwood est-elle bien connectée pour les trajets domicile-travail ?",
+      "answer": "Lynwood offre un accès facile aux principales autoroutes et aux transports en commun vers le centre-ville de Los Angeles et les environs.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à Lynwood CA | Communauté & Commodité",
+    "metaDescription": "Découvrez les quartiers, parcs et options immobilières de Lynwood dans le sud-est du comté de Los Angeles.",
+    "keywords": "immobilier Lynwood, Lynwood CA, vie sud-est LA, maisons abordables Lynwood",
+    "ogTitle": "Découvrez Lynwood : esprit communautaire & vie pratique",
+    "ogDescription": "Trouvez votre maison à Lynwood avec sa diversité culturelle, ses parcs et son emplacement central.",
+    "ogImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vue au coucher du soleil sur la ville de Lynwood avec des palmiers",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lynwood",
+      "description": "Explorez l'immobilier, les quartiers et les points forts de Lynwood, Californie.",
+      "url": "https://example.com/locations/lynwood",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vue au coucher du soleil sur la ville de Lynwood avec des palmiers"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Lynwood",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi Lynwood est-elle connue ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynwood est connue pour son fort esprit communautaire, sa diversité culturelle et son emplacement pratique près de Los Angeles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à Lynwood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier à Lynwood offre des options abordables avec un mélange de maisons individuelles et de condos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles activités récréatives sont disponibles à Lynwood ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les résidents profitent des parcs, des événements communautaires et des attractions culturelles voisines dans toute la région."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lynwood est-elle bien connectée pour les trajets domicile-travail ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lynwood offre un accès facile aux principales autoroutes et aux transports en commun vers le centre-ville de Los Angeles et les environs."
+          }
+        }
+      ]
+    }
+  ]
+}

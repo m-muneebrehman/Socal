@@ -1,0 +1,154 @@
+{
+  "slug": "chula-vista",
+  "name": "丘拉维斯塔",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "圣地亚哥以南充满活力的滨水城市，提供家庭景点、公园和不断发展的餐饮文化。",
+  "fullDescription": "丘拉维斯塔是圣地亚哥县第二大城市，位于圣地亚哥市中心以南的海湾边。该市以滨水码头、适合家庭的景点如芝麻街乐园和活海岸发现中心，以及户外公园和日益兴盛的精酿啤酒与餐饮文化而闻名，融合了郊区魅力与海岸生活。",
+  "heroImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "丘拉维斯塔城市鸟瞰图，背景为海湾",
+  "population": "27.5万+",
+  "avgHomePrice": "70万美元以上",
+  "tags": [
+    "滨水",
+    "适合家庭",
+    "公园"
+  ],
+  "neighborhoods": [
+    {
+      "name": "圣地亚哥",
+      "type": "城市",
+      "slug": "san-diego",
+      "description": "主要海岸城市，位于北部，拥有海滩、市中心及区域景点。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "从海湾望向圣地亚哥天际线",
+      "distance": "北7英里",
+      "avgHomePrice": "95万美元",
+      "county": "圣地亚哥县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "丘拉维斯塔港",
+      "description": "风景优美的滨水区，有两个码头、餐饮、公园及通往圣地亚哥湾的船只通道。",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "丘拉维斯塔港口的码头"
+    },
+    {
+      "title": "圣地亚哥芝麻街乐园",
+      "description": "以芝麻街为主题的游乐及水上乐园，适合家庭，有游乐设施、表演和浪池。",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "家庭在水上乐园玩耍"
+    },
+    {
+      "title": "活海岸发现中心",
+      "description": "位于斯威特沃特沼泽的互动海岸野生动物景点，适合家庭及环保学习。",
+      "icon": "🐦",
+      "bgImage": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "沼泽区的鸟类和木板路"
+    },
+    {
+      "title": "户外公园与步道",
+      "description": "自然区如库梅亚公园和斯威特沃特水库周边的露营步道，非常适合徒步和野餐。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "穿越自然的风景徒步小径"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "丘拉维斯塔有哪些最佳社区？",
+      "answer": "港口附近的滨水区提供海滨生活，东湖和奥泰牧场有较新的郊区住宅，博尼塔和国家市适合安静、适合家庭的生活。",
+      "category": "社区"
+    },
+    {
+      "question": "丘拉维斯塔的房地产市场如何？",
+      "answer": "相较圣地亚哥海岸，丘拉维斯塔的房价更为实惠，中位价约70万美元，滨水和新开发区域价格较高。",
+      "category": "房地产"
+    },
+    {
+      "question": "丘拉维斯塔有哪些活动？",
+      "answer": "享受滨水港口、芝麻街乐园、活海岸水族馆、本地公园以及地区餐饮和啤酒厂。",
+      "category": "生活方式"
+    },
+    {
+      "question": "丘拉维斯塔通勤情况如何？",
+      "answer": "位于圣地亚哥市中心以南，拥有I-5和805高速公路连接及蓝线轻轨，通勤时间通常为20至40分钟，视交通情况而定。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "丘拉维斯塔房地产与生活指南 | 圣地亚哥附近的滨海郊区生活",
+    "metaDescription": "探索丘拉维斯塔的滨水区、家庭景点、公园及社区氛围。了解为什么这座南湾城市是海岸生活与郊区舒适的理想结合。",
+    "keywords": "丘拉维斯塔房地产, 丘拉维斯塔港口, 圣地亚哥芝麻街乐园, 丘拉维斯塔社区",
+    "ogTitle": "发现丘拉维斯塔：滨水生活与家庭景点",
+    "ogDescription": "丘拉维斯塔房地产、社区、公园及适合家庭的景点指南，位于圣地亚哥南部。",
+    "ogImage": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "ogImageAlt": "丘拉维斯塔鸟瞰图",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "丘拉维斯塔",
+      "description": "探索加利福尼亚州丘拉维斯塔的房地产、社区和亮点。",
+      "url": "https://example.com/locations/chula-vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "caption": "丘拉维斯塔鸟瞰图"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "丘拉维斯塔",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "丘拉维斯塔有哪些最佳社区？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "港口附近的滨水区提供海滨生活，东湖和奥泰牧场有较新的郊区住宅，博尼塔和国家市适合安静、适合家庭的生活。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "丘拉维斯塔的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "相较圣地亚哥海岸，丘拉维斯塔的房价更为实惠，中位价约70万美元，滨水和新开发区域价格较高。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "丘拉维斯塔有哪些活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "享受滨水港口、芝麻街乐园、活海岸水族馆、本地公园以及地区餐饮和啤酒厂。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "丘拉维斯塔通勤情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "位于圣地亚哥市中心以南，拥有I-5和805高速公路连接及蓝线轻轨，通勤时间通常为20至40分钟，视交通情况而定。"
+          }
+        }
+      ]
+    }
+  ]
+}

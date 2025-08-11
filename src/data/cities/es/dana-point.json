@@ -1,0 +1,187 @@
+{
+  "slug": "dana-point",
+  "name": "Dana Point",
+  "state": "California",
+  "language": "es",
+  "shortDescription": "Una pintoresca ciudad costera conocida por su puerto, playas y actividades acuáticas al aire libre.",
+  "fullDescription": "Dana Point ofrece impresionantes vistas al océano, una vibrante zona portuaria y una rica historia marítima. Ubicada en la costa sur del condado de Orange, es un destino popular para navegación, surf y avistamiento de ballenas. La ciudad cuenta con encantadores vecindarios, excelente gastronomía y un estilo de vida costero relajado que atrae a familias, jubilados y entusiastas del aire libre por igual.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Vista costera panorámica del puerto y playa de Dana Point",
+  "population": "34K+",
+  "avgHomePrice": "$1.4M",
+  "tags": [
+    "Costero",
+    "Actividades al Aire Libre",
+    "Familiar"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Niguel",
+      "type": "ciudad",
+      "slug": "laguna-niguel",
+      "description": "Comunidad de lujo con parques, campos de golf y senderos panorámicos.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque panorámico en Laguna Niguel",
+      "distance": "8 km al norte",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "ciudad",
+      "slug": "san-clemente",
+      "description": "Ciudad costera con arquitectura de estilo español, playas y muelle.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Playa y muelle en San Clemente",
+      "distance": "11 km al sur",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "ciudad",
+      "slug": "mission-viejo",
+      "description": "Comunidad planificada con parques, lagos y comodidades familiares.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Parque junto al lago en Mission Viejo",
+      "distance": "13 km al noreste",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "ciudad",
+      "slug": "san-juan-capistrano",
+      "description": "Ciudad histórica conocida por la Misión y el encantador centro.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Misión San Juan Capistrano",
+      "distance": "10 km al este",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Puerto de Dana Point",
+      "description": "Marina popular que ofrece navegación, pesca, restaurantes con vista al agua y tiendas.",
+      "icon": "⚓",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Barcos atracados en el Puerto de Dana Point"
+    },
+    {
+      "title": "Playa Estatal Doheny",
+      "description": "Playa panorámica con camping, surf e instalaciones para picnic.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Atardecer en la Playa Estatal Doheny"
+    },
+    {
+      "title": "Avistamiento de Ballenas",
+      "description": "Tours estacionales que parten desde Dana Point para ver ballenas migratorias.",
+      "icon": "🐋",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ballena saltando cerca de Dana Point"
+    },
+    {
+      "title": "Instituto del Océano",
+      "description": "Centro educativo enfocado en ciencias marinas y conservación oceánica.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Edificio del Instituto del Océano"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué es famosa Dana Point?",
+      "answer": "Dana Point es famosa por su puerto, avistamiento de ballenas, playas y estilo de vida costero.",
+      "category": "Estilo de Vida"
+    },
+    {
+      "question": "¿Cómo son las escuelas en Dana Point?",
+      "answer": "Dana Point es atendida por el Distrito Escolar Unificado de Capistrano, conocido por su fuerte académico.",
+      "category": "Educación"
+    },
+    {
+      "question": "¿Qué actividades al aire libre son populares?",
+      "answer": "Las actividades populares incluyen navegación, surf, senderismo en senderos costeros y avistamiento de ballenas.",
+      "category": "Recreación"
+    },
+    {
+      "question": "¿Cómo es el viaje diario a ciudades cercanas?",
+      "answer": "Dana Point ofrece acceso conveniente a autopistas para Laguna Beach, Irvine y otras ciudades del condado de Orange.",
+      "category": "Transporte"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Dana Point CA Bienes Raíces y Vida Costera | Puerto y Playas",
+    "metaDescription": "Explora los vecindarios de Dana Point, actividades al aire libre, escuelas y bienes raíces en el condado de Orange.",
+    "keywords": "bienes raíces Dana Point, vida costera, puerto Dana Point, casas condado Orange",
+    "ogTitle": "Descubre Dana Point: Ciudad Costera con Puerto y Playas",
+    "ogDescription": "Experimenta la marina de Dana Point, playas, avistamiento de ballenas y comunidad familiar.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Vista costera del puerto de Dana Point",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Dana Point",
+      "description": "Explora bienes raíces, vecindarios y destacados en Dana Point, California.",
+      "url": "https://example.com/locations/dana-point",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Vista costera panorámica del puerto y playa de Dana Point"
+      },
+      "inLanguage": "es",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Dana Point",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué es famosa Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point es famosa por su puerto, avistamiento de ballenas, playas y estilo de vida costero."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las escuelas en Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point es atendida por el Distrito Escolar Unificado de Capistrano, conocido por su fuerte académico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué actividades al aire libre son populares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las actividades populares incluyen navegación, surf, senderismo en senderos costeros y avistamiento de ballenas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo es el viaje diario a ciudades cercanas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point ofrece acceso conveniente a autopistas para Laguna Beach, Irvine y otras ciudades del condado de Orange."
+          }
+        }
+      ]
+    }
+  ]
+}

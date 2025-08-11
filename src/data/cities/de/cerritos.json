@@ -1,0 +1,187 @@
+{
+  "slug": "cerritos",
+  "name": "Cerritos",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine gut geplante Vorstadtstadt bekannt für ihr Einkaufen, Parks, öffentliche Kunst und erstklassige Schulen.",
+  "fullDescription": "Cerritos, gelegen im südöstlichen Los Angeles County, ist bekannt für seine durchdacht geplanten Nachbarschaften, ausgezeichnete öffentliche Schulen und ein starkes Gemeinschaftsgefühl. Die Stadt bietet umfangreiche Parks und Freizeitprogramme, ein renommiertes Zentrum für darstellende Künste und das beliebte Los Cerritos Center Einkaufszentrum. Mit günstigem Autobahnzugang bietet Cerritos eine attraktive Balance aus vorstädtischem Komfort und städtischer Verbindung für Familien und Berufstätige.",
+  "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Baumgesäumte Vorstadtstraße und Häuser in Cerritos",
+  "population": "49K+",
+  "avgHomePrice": "$950K",
+  "tags": [
+    "Schulen",
+    "Einkaufen",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Norwalk",
+      "type": "Stadt",
+      "slug": "norwalk",
+      "description": "Familienorientierte Stadt mit Parks, Einkaufsmöglichkeiten und günstigem Autobahnzugang.",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Wohnstraße in Norwalk",
+      "distance": "3 Meilen nördlich",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Lakewood",
+      "type": "Stadt",
+      "slug": "lakewood",
+      "description": "Vorstadtstadt bekannt für gut gepflegte Parks und familienfreundliche Nachbarschaften.",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Baumgesäumte Nachbarschaft in Lakewood",
+      "distance": "4 Meilen südwestlich",
+      "avgHomePrice": "$700K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Bellflower",
+      "type": "Stadt",
+      "slug": "bellflower",
+      "description": "Gemeinschaftsorientierte Stadt mit Parks, Einkaufsmöglichkeiten und lokalen Veranstaltungen.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Stadtpark und Wanderwege in Bellflower",
+      "distance": "5 Meilen westlich",
+      "avgHomePrice": "$620K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "La Mirada",
+      "type": "Stadt",
+      "slug": "la-mirada",
+      "description": "Wohnstadt bekannt für Parks, Schulen und Familienannehmlichkeiten.",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Vorstadtstraße in La Mirada",
+      "distance": "4 Meilen östlich",
+      "avgHomePrice": "$720K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Los Cerritos Center",
+      "description": "Hauptziel für Einkäufe mit Einzelhandel, Gastronomie und Unterhaltung.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Indoor-Einkaufszentrum mit Einkäufern"
+    },
+    {
+      "title": "Cerritos Center for the Performing Arts",
+      "description": "Renommierter Veranstaltungsort für Konzerte, Theater und kulturelle Aufführungen.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bühne für darstellende Künste mit Beleuchtung"
+    },
+    {
+      "title": "Cerritos Sculpture Garden",
+      "description": "Öffentlicher Kunstgarten mit Skulpturen zwischen gestalteten Wegen.",
+      "icon": "🗿",
+      "bgImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Außenskulptur in gestaltetem Garten"
+    },
+    {
+      "title": "Heritage Park",
+      "description": "Gemeinschaftspark mit Wanderwegen, Grünflächen und Familienaktivitäten.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Park mit Bäumen und offenem Rasen"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wofür ist Cerritos bekannt?",
+      "answer": "Cerritos ist bekannt für seine erstklassigen Schulen, öffentliche Kunst, Einkaufsziele und gut gepflegte Parks.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Cerritos?",
+      "answer": "Der Markt ist wettbewerbsintensiv mit hauptsächlich Einfamilienhäusern, was die hohe Nachfrage nach Schulen und Annehmlichkeiten widerspiegelt.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Cerritos machen?",
+      "answer": "Im Los Cerritos Center einkaufen, Aufführungen im Performing Arts Center besuchen und durch den Sculpture Garden schlendern.",
+      "category": "Lebensstil"
+    },
+    {
+      "question": "Wie ist das Pendeln von Cerritos?",
+      "answer": "Cerritos bietet schnellen Zugang zu I-605, SR-91 und I-5, was Pendelfahrten nach LA und Orange County bequem macht.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Cerritos CA Immobilien & Lebensstil | Schulen, Einkaufen & Parks",
+    "metaDescription": "Entdecken Sie Cerritos' Nachbarschaften, erstklassige Schulen, Einkaufsmöglichkeiten und Immobilienoptionen im Los Angeles County.",
+    "keywords": "Cerritos Immobilien, Cerritos Schulen, Leben in Cerritos, Cerritos Häuser zum Verkauf",
+    "ogTitle": "Entdecken Sie Cerritos: Vorstädtischer Komfort, großartige Schulen & Annehmlichkeiten",
+    "ogDescription": "Finden Sie Ihr Zuhause in Cerritos mit ausgezeichneten Schulen, Einkaufsmöglichkeiten und Parks in einer gut geplanten Gemeinschaft.",
+    "ogImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Baumgesäumte Vorstadtstraße und Häuser in Cerritos",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Cerritos",
+      "description": "Entdecken Sie Immobilien, Nachbarschaften und Höhepunkte in Cerritos, Kalifornien.",
+      "url": "https://example.com/locations/cerritos",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Baumgesäumte Vorstadtstraße und Häuser in Cerritos"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Cerritos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wofür ist Cerritos bekannt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos ist bekannt für seine erstklassigen Schulen, öffentliche Kunst, Einkaufsziele und gut gepflegte Parks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Markt ist wettbewerbsintensiv mit hauptsächlich Einfamilienhäusern, was die hohe Nachfrage nach Schulen und Annehmlichkeiten widerspiegelt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in Cerritos machen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Im Los Cerritos Center einkaufen, Aufführungen im Performing Arts Center besuchen und durch den Sculpture Garden schlendern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Cerritos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerritos bietet schnellen Zugang zu I-605, SR-91 und I-5, was Pendelfahrten nach LA und Orange County bequem macht."
+          }
+        }
+      ]
+    }
+  ]
+}

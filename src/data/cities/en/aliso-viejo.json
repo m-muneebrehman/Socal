@@ -122,5 +122,66 @@
     "ogImageAlt": "Aliso Viejo suburban view with hills and homes",
     "twitterCard": "summary_large_image"
   },
-  "schema_markup": []
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Aliso Viejo",
+      "description": "Explore Aliso Viejo's neighborhoods, outdoor recreation, schools, and real estate options in southern Orange County, California.",
+      "url": "https://example.com/locations/aliso-viejo",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Aliso Viejo suburban view with hills and homes"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Aliso Viejo",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular in Aliso Viejo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking, biking, and nature walks in the Aliso and Wood Canyons Wilderness Park are very popular among residents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How family-friendly is Aliso Viejo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city offers numerous parks, quality schools, and community events that make it very welcoming for families."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the local shopping options?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aliso Viejo Town Center is the primary shopping and dining destination with a variety of retail stores and restaurants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to nearby employment centers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aliso Viejo has easy access to major highways and is centrally located near Irvine, Laguna Hills, and Mission Viejo for work commutes."
+          }
+        }
+      ]
+    }
+  ]
 }

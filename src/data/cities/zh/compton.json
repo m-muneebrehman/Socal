@@ -1,0 +1,176 @@
+{
+  "slug": "compton",
+  "name": "康普顿",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个以丰富的文化贡献、社区精神和不断发展的城市景观著称的历史悠久的城市。",
+  "fullDescription": "康普顿是位于洛杉矶县南部的一座城市，以其深厚的文化根基、充满活力的艺术氛围和强烈的社区认同感闻名。尽管面临挑战，该市通过聚焦公共安全、教育和经济发展，进行了复兴努力。康普顿拥有多样化的社区、公园和庆祝其文化遗产的文化活动。它便捷连接洛杉矶市中心及周边城市，是该地区城市格局的重要组成部分。",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "康普顿街景，带有城市壁画和社区氛围",
+  "population": "9.5万+",
+  "avgHomePrice": "45万美元",
+  "tags": [
+    "文化遗产",
+    "社区",
+    "城市更新"
+  ],
+  "neighborhoods": [
+    {
+      "name": "加迪纳",
+      "type": "城市",
+      "slug": "gardena",
+      "description": "邻近城市，以多元化人口和购物区闻名。",
+      "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "加迪纳城市街景",
+      "distance": "西南4英里",
+      "avgHomePrice": "60万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "卡森",
+      "type": "城市",
+      "slug": "carson",
+      "description": "拥有住宅区和工业区的城市，提供公园和本地设施。",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "卡森城市景观",
+      "distance": "南6英里",
+      "avgHomePrice": "55万美元",
+      "county": "洛杉矶县"
+    },
+    {
+      "name": "长滩",
+      "type": "城市",
+      "slug": "long-beach",
+      "description": "沿海城市，拥有充满活力的海滨、文化景点和多样化社区。",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "长滩港口景观",
+      "distance": "西南10英里",
+      "avgHomePrice": "70万美元",
+      "county": "洛杉矶县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "康普顿学院",
+      "description": "为居民提供教育和职业机会的社区学院。",
+      "icon": "🎓",
+      "bgImage": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "康普顿学院校园"
+    },
+    {
+      "title": "多明格斯公园",
+      "description": "拥有运动场、游乐场和野餐区的大型社区公园。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "树木和长椅环绕的开放公园空间"
+    },
+    {
+      "title": "康普顿溪自行车道",
+      "description": "适合骑行、慢跑和户外娱乐的热门小径。",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "沿溪流的自行车道"
+    },
+    {
+      "title": "历史市中心",
+      "description": "拥有壁画、本地商铺和庆祝康普顿文化遗产的社区活动区域。",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "康普顿市中心的街头艺术和商店"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "康普顿以什么闻名？",
+      "answer": "康普顿以其文化遗产、音乐历史和社区韧性闻名。",
+      "category": "生活方式"
+    },
+    {
+      "question": "康普顿的房地产市场如何？",
+      "answer": "相比邻近城市，房地产市场较为实惠，且由于重建努力吸引了越来越多的关注。",
+      "category": "房地产"
+    },
+    {
+      "question": "康普顿有哪些活动？",
+      "answer": "可以享受本地公园、社区活动、文化景点，探索历史悠久的市中心壁画。",
+      "category": "生活方式"
+    },
+    {
+      "question": "康普顿的通勤情况如何？",
+      "answer": "康普顿有多条主要高速公路和地铁线路，方便前往洛杉矶和长滩。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "康普顿房地产与生活 | 文化遗产与社区",
+    "metaDescription": "探索康普顿的社区、文化亮点及洛杉矶县的房地产机会。",
+    "keywords": "康普顿房地产, 康普顿社区, 康普顿生活, 康普顿房屋出售",
+    "ogTitle": "发现康普顿：文化、社区与城市生活",
+    "ogDescription": "在康普顿找到您的家，感受丰富的文化遗产、公园和复兴中的社区。",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "康普顿带壁画的城市街道",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "康普顿",
+      "description": "探索加利福尼亚州康普顿的房地产、社区和亮点。",
+      "url": "https://example.com/locations/compton",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "康普顿街景，带有城市壁画和社区氛围"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "康普顿",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "康普顿以什么闻名？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "康普顿以其文化遗产、音乐历史和社区韧性闻名。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "康普顿的房地产市场如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "相比邻近城市，房地产市场较为实惠，且由于重建努力吸引了越来越多的关注。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "康普顿有哪些活动？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以享受本地公园、社区活动、文化景点，探索历史悠久的市中心壁画。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "康普顿的通勤情况如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "康普顿有多条主要高速公路和地铁线路，方便前往洛杉矶和长滩。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1055,6 +1055,91 @@ body {
   color: var(--gold);
 }
 
+/* Footer Partners Section */
+.footer-partners-desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.footer-partners-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.footer-partner {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-partner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.footer-partner:hover::before {
+  opacity: 1;
+}
+
+.footer-partner:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.footer-partner-logo {
+  width: 100%;
+  height: auto;
+  max-width: 90px;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+}
+
+.footer-partner-logo:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(212, 175, 55, 0.3));
+}
+
+/* Partners column specific styling */
+.partners-column {
+  min-width: 280px;
+}
+
+.partners-column .footer-heading {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.partners-column .footer-partners-desc {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
 .footer-bottom {
   max-width: 1200px;
   margin: 0 auto;
@@ -1065,6 +1150,41 @@ body {
   align-items: center;
   font-size: 12px;
   opacity: 0.6;
+}
+
+/* Footer DRE Number Styling */
+.footer-dre {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer-dre:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.08) 100%);
+  border-color: rgba(212, 175, 55, 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+}
+
+.dre-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.dre-number {
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
 }
 
 /* Animations */

@@ -1,0 +1,163 @@
+{
+  "slug": "el-cajon",
+  "name": "埃尔卡洪",
+  "state": "加利福尼亚州",
+  "language": "zh",
+  "shortDescription": "一个内陆东县城市，拥有郊区社区、公园、社区活动，并便捷通达区域购物和高速公路。",
+  "fullDescription": "埃尔卡洪是圣地亚哥县东县一个热情好客的城市，以适合家庭居住的社区、公园和区域购物闻名。通过I‑8和SR‑67高速公路轻松通达圣地亚哥和山地，居民在阳光明媚的山谷环境中享受郊区舒适、户外休闲和本地活动的平衡生活。",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+  "heroImageAlt": "埃尔卡洪市中心街景",
+  "population": "10.5万+",
+  "avgHomePrice": "65万美元以上",
+  "tags": [
+    "郊区",
+    "公园",
+    "适合家庭"
+  ],
+  "neighborhoods": [
+    {
+      "name": "拉梅萨",
+      "type": "城市",
+      "slug": "la-mesa",
+      "description": "迷人的“村庄”市中心，举办本地节日，街区绿树成荫，就在埃尔卡洪以西。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/La_Mesa_Boulevard.jpg",
+      "imageAlt": "拉梅萨大道及街面电车",
+      "distance": "西10英里",
+      "avgHomePrice": "70万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "桑蒂",
+      "type": "城市",
+      "slug": "santee",
+      "description": "东县城市，拥有公园、桑蒂湖，且便于前往使命小径进行徒步和骑行。",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "桑蒂附近丘陵中的步道",
+      "distance": "西北7英里",
+      "avgHomePrice": "70万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "柠檬谷",
+      "type": "城市",
+      "slug": "lemon-grove",
+      "description": "阳光充足的郊区社区，以社区公园和便利的电车交通著称。",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "柠檬谷街区绿树成荫的街道",
+      "distance": "西南9英里",
+      "avgHomePrice": "68万美元",
+      "county": "圣地亚哥县"
+    },
+    {
+      "name": "圣地亚哥",
+      "type": "城市",
+      "slug": "san-diego",
+      "description": "主要海滨城市，拥有海滩、市中心景点和文化目的地，驾车即可到达。",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "从海湾望去的圣地亚哥天际线",
+      "distance": "西15–20英里",
+      "avgHomePrice": "90万美元以上",
+      "county": "圣地亚哥县"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "公园与休闲",
+      "description": "社区公园、运动场和附近的使命小径全年提供户外活动。",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "东县丘陵的风景步道"
+    },
+    {
+      "title": "社区活动",
+      "description": "季节性节庆、汽车展和农贸市场将邻居聚集在市中心。",
+      "icon": "🎉",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "装饰有灯串和咖啡馆的市中心街道"
+    },
+    {
+      "title": "购物与餐饮",
+      "description": "区域购物走廊和适合家庭的餐饮选择遍布全城。",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "行人街道，两侧有商店和餐厅"
+    },
+    {
+      "title": "门户位置",
+      "description": "通过I‑8和SR‑67便捷通往海滩、圣地亚哥市区和山地度假区。",
+      "icon": "🛣️",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "东县的绿丘与开阔空间景观"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "埃尔卡洪最好的社区有哪些？",
+      "answer": "弗莱彻山、花岗岩山以及靠近公园和学校的区域常受欢迎。",
+      "category": "社区"
+    },
+    {
+      "question": "埃尔卡洪的房地产市场怎么样？",
+      "answer": "相比北县沿海地区，埃尔卡洪通常提供更实惠的选项，涵盖经典牧场房、联排别墅和新开发社区。",
+      "category": "房地产"
+    },
+    {
+      "question": "在埃尔卡洪可以做些什么？",
+      "answer": "享受当地公园、社区活动、区域购物，以及快速一日游海滩、湖泊和山地小径。",
+      "category": "生活方式"
+    },
+    {
+      "question": "从埃尔卡洪通勤方便吗？",
+      "answer": "I‑8和SR‑67高速公路提供通往圣地亚哥和东县的区域通路。电车和公交连接附近城市。",
+      "category": "交通"
+    }
+  ],
+  "seo": {
+    "metaTitle": "埃尔卡洪房地产与生活方式 | 东县公园与郊区生活",
+    "metaDescription": "探索埃尔卡洪的社区、公园、购物和东县生活方式，便捷通达圣地亚哥及山地度假区。",
+    "keywords": "埃尔卡洪房地产, 圣地亚哥东县, 埃尔卡洪公园, 埃尔卡洪社区",
+    "ogTitle": "发现埃尔卡洪：东县公园与郊区生活",
+    "ogDescription": "了解埃尔卡洪的社区、户外休闲和适合家庭的设施，位于圣地亚哥东县。",
+    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+    "ogImageAlt": "埃尔卡洪市中心街景",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "埃尔卡洪",
+      "description": "探索加利福尼亚州埃尔卡洪的房地产、社区和亮点。",
+      "url": "https://example.com/locations/el-cajon",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/El_cajon.jpg",
+        "caption": "埃尔卡洪市中心街景"
+      },
+      "inLanguage": "zh",
+      "mainEntity": {
+        "@type": "City",
+        "name": "埃尔卡洪",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "埃尔卡洪最好的社区有哪些？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "弗莱彻山、花岗岩山以及靠近公园和学校的区域常受欢迎。"
+          }
+        }
+      ]
+    }
+  ]
+}

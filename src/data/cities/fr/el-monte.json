@@ -1,0 +1,165 @@
+{
+  "slug": "el-monte",
+  "name": "El Monte",
+  "state": "Californie",
+  "language": "fr",
+  "shortDescription": "Une ville dynamique avec un riche patrimoine culturel, des communautés diverses et un accès pratique à la grande région de Los Angeles.",
+  "fullDescription": "El Monte est située dans la vallée de San Gabriel et offre un mélange de quartiers résidentiels, de parcs et de zones commerciales prospères. Connue pour ses événements communautaires et sa population diversifiée, El Monte propose un environnement familial avec un accès facile aux autoroutes principales et aux options de transport en commun. La ville connaît une économie en croissance avec diverses entreprises de détail et de fabrication, ce qui en fait un lieu dynamique où vivre et travailler.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Centre-ville d'El Monte avec paysage urbain et arbres",
+  "population": "115K+",
+  "avgHomePrice": "650 K$",
+  "tags": [
+    "Communautés diverses",
+    "Parcs",
+    "Emplacement pratique"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Monterey Park",
+      "type": "ville",
+      "slug": "monterey-park",
+      "description": "Ville diverse célèbre pour sa cuisine asiatique, ses parcs et ses événements communautaires.",
+      "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Centre-ville de Monterey Park",
+      "distance": "7 miles à l'ouest",
+      "avgHomePrice": "900 K$",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Pico Rivera",
+      "type": "ville",
+      "slug": "pico-rivera",
+      "description": "Une ville avec un fort héritage latino, des parcs et des centres commerciaux locaux.",
+      "image": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rue suburbaine à Pico Rivera",
+      "distance": "5 miles au sud",
+      "avgHomePrice": "650 K$",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Centre communautaire d'El Monte",
+      "description": "Un centre pour les événements locaux, les cours et les programmes communautaires.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bâtiment du centre communautaire"
+    },
+    {
+      "title": "Zone récréative de Whittier Narrows",
+      "description": "Grand parc offrant des terrains de sport, des aires de pique-nique et des sentiers de promenade.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Parc avec espace vert ouvert et arbres"
+    },
+    {
+      "title": "Sentier Santa Fe",
+      "description": "Sentier historique avec des chemins pittoresques pour la marche et le vélo à travers la ville.",
+      "icon": "🚴",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Piste cyclable le long du sentier historique"
+    },
+    {
+      "title": "Centre-ville d'El Monte",
+      "description": "Quartier animé avec commerces, restaurants et entreprises locales.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Rue du centre-ville avec devantures de magasins"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Pour quoi El Monte est-il connu ?",
+      "answer": "El Monte est connu pour ses communautés diverses, ses parcs et son accès pratique à la grande région de Los Angeles.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment est le marché immobilier à El Monte ?",
+      "answer": "Le marché immobilier propose des maisons abordables avec une demande croissante des familles et des professionnels.",
+      "category": "Immobilier"
+    },
+    {
+      "question": "Quelles sont les activités populaires à El Monte ?",
+      "answer": "Profitez des événements communautaires, des parcs comme Whittier Narrows et du shopping dans le centre-ville d'El Monte.",
+      "category": "Style de vie"
+    },
+    {
+      "question": "Comment sont les déplacements depuis El Monte ?",
+      "answer": "El Monte bénéficie d'un bon accès aux autoroutes 10 et 60 ainsi qu'à des options de transport en commun, facilitant les déplacements.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Immobilier et style de vie à El Monte CA | Communautés diverses & parcs",
+    "metaDescription": "Découvrez les quartiers, parcs et emplacement pratique d'El Monte dans le comté de Los Angeles.",
+    "keywords": "immobilier El Monte, parcs El Monte, vivre à El Monte, maisons à vendre à El Monte",
+    "ogTitle": "Découvrez El Monte : Vie communautaire & accès pratique",
+    "ogDescription": "Trouvez votre place à El Monte avec ses quartiers diversifiés et ses commodités familiales.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Paysage urbain du centre-ville d'El Monte",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "El Monte",
+      "description": "Découvrez l'immobilier, les quartiers et les points forts d'El Monte, Californie.",
+      "url": "https://example.com/locations/el-monte",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Centre-ville d'El Monte avec paysage urbain et arbres"
+      },
+      "inLanguage": "fr",
+      "mainEntity": {
+        "@type": "City",
+        "name": "El Monte",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pour quoi El Monte est-il connu ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Monte est connu pour ses communautés diverses, ses parcs et son accès pratique à la grande région de Los Angeles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment est le marché immobilier à El Monte ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le marché immobilier propose des maisons abordables avec une demande croissante des familles et des professionnels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les activités populaires à El Monte ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profitez des événements communautaires, des parcs comme Whittier Narrows et du shopping dans le centre-ville d'El Monte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sont les déplacements depuis El Monte ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Monte bénéficie d'un bon accès aux autoroutes 10 et 60 ainsi qu'à des options de transport en commun, facilitant les déplacements."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "chula-vista",
+  "name": "Chula Vista",
+  "state": "Kalifornien",
+  "language": "de",
+  "shortDescription": "Eine lebendige Küstenstadt südlich von San Diego, die Familienattraktionen, Parks und eine wachsende Restaurant-Szene bietet.",
+  "fullDescription": "Chula Vista ist die zweitgrößte Stadt im San Diego County, gelegen an der Bucht südlich der Innenstadt von San Diego. Bekannt für ihre Küstenmarinas, familienfreundliche Attraktionen wie Sesame Place und das Living Coast Discovery Center, sowie ihre Außenparks und wachsende Craft-Bier- und Restaurantkultur, verbindet Chula Vista suburbanen Charme mit Küstenleben.",
+  "heroImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Luftaufnahme der Stadt Chula Vista mit Bucht im Hintergrund",
+  "population": "275K+",
+  "avgHomePrice": "$700K+",
+  "tags": [
+    "Küste",
+    "Familienfreundlich",
+    "Parks"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Diego",
+      "type": "Stadt",
+      "slug": "san-diego",
+      "description": "Große Küstenstadt im Norden mit Stränden, Innenstadt und regionalen Attraktionen.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Skyline_of_San_Diego.jpg",
+      "imageAlt": "San Diego Skyline von der Bucht aus gesehen",
+      "distance": "11 km nördlich",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    },
+    {
+      "name": "National City",
+      "type": "Stadt",
+      "slug": "national-city",
+      "description": "Historische Stadt direkt im Norden mit begehbaren Straßen und sich entwickelnden Küstenaussichten.",
+      "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Städtische Skyline in der Nähe der San Diego Bay",
+      "distance": "6 km nördlich",
+      "avgHomePrice": "$650K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Imperial Beach",
+      "type": "Stadt",
+      "slug": "imperial-beach",
+      "description": "Südlichste Strandstadt in Kalifornien — entspannt, surf-orientiert mit einer klassischen Strandstadt-Atmosphäre.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Ozeanwellen und Strandlinie",
+      "distance": "16 km südwestlich",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Coronado",
+      "type": "Stadt",
+      "slug": "coronado",
+      "description": "Inselstadt auf der anderen Seite der Bucht mit breiten Sandstränden und dem ikonischen Hotel del Coronado.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Coronado_beach.jpg",
+      "imageAlt": "Sandiger Coronado-Strand mit blauem Himmel",
+      "distance": "16 km nordwestlich",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Chula Vista Hafen",
+      "description": "Malerische Küste mit zwei Marinas, Restaurants, Parks und Bootszugang zur San Diego Bay.",
+      "icon": "⛵",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Marina im Chula Vista Hafen"
+    },
+    {
+      "title": "Sesame Place San Diego",
+      "description": "Sesamstraße-thematischer Vergnügungs- und Wasserpark, familienorientiert mit Fahrgeschäften, Shows und einem Wellenbecken.",
+      "icon": "🎢",
+      "bgImage": "https://images.unsplash.com/photo-1594484208280-efa00f96fc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "bgImageAlt": "Familie genießt einen Wasserpark"
+    },
+    {
+      "title": "Living Coast Discovery Center",
+      "description": "Interaktive Küstenwildtier-Attraktion im Sweetwater Marsh — ideal für Familien und Umweltbildung.",
+      "icon": "🐦",
+      "bgImage": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Küstenmoor mit Vögeln und Steg"
+    },
+    {
+      "title": "Außenparks & Wanderwege",
+      "description": "Natürliche Gebiete wie der Kumeyaay Park und Camping-Wanderwege um den Sweetwater Reservoir, perfekt zum Wandern und Picknicken.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Malersicher Wanderweg durch die Natur"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Was sind die besten Viertel in Chula Vista?",
+      "answer": "Küstengebiete in der Nähe des Hafens bieten Küstenleben, Eastlake und Otay Ranch bieten neuere Vorstadthäuser, und Bonita und National City sind großartig für ruhiges, familienfreundliches Leben.",
+      "category": "Viertel"
+    },
+    {
+      "question": "Wie ist der Immobilienmarkt in Chula Vista?",
+      "answer": "Chula Vista bietet relativ erschwinglichere Optionen im Vergleich zur Küste von San Diego, mit durchschnittlichen Hauspreisen um $700K, obwohl Küsten- und neuere Entwicklungen höher sind.",
+      "category": "Immobilien"
+    },
+    {
+      "question": "Was kann man in Chula Vista unternehmen?",
+      "answer": "Genießen Sie den Küstenhafen, den Sesame Place Themenpark, das Living Coast Aquarium, lokale Parks und regionale Restaurants und Brauereien.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Wie ist das Pendeln von Chula Vista?",
+      "answer": "Chula Vista ist über die I-5 und 805 Autobahnen verbunden, mit Trolley Blue Line Zugang zur Innenstadt von San Diego. Pendelzeiten reichen von 20–40 Minuten je nach Verkehr.",
+      "category": "Transport"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Chula Vista Immobilien & Lifestyle Guide | Küsten-Vorstadtleben in der Nähe von San Diego",
+    "metaDescription": "Entdecken Sie Chula Vistas Küste, Familienattraktionen, Parks und Viertel-Atmosphäre. Erfahren Sie, warum diese South Bay Stadt eine ideale Mischung aus Küstenleben und suburbanem Komfort bietet.",
+    "keywords": "Chula Vista Immobilien, Chula Vista Hafen, Sesame Place San Diego, Chula Vista Viertel",
+    "ogTitle": "Entdecken Sie Chula Vista: Küstenleben & Familienattraktionen",
+    "ogDescription": "Ein Guide zu Chula Vistas Immobilien, Vierteln, Parks und familienfreundlichen Attraktionen südlich von San Diego.",
+    "ogImage": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "ogImageAlt": "Luftaufnahme von Chula Vista",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Chula Vista",
+      "description": "Entdecken Sie Immobilien, Viertel und Highlights in Chula Vista, Kalifornien.",
+      "url": "https://example.com/locations/chula-vista",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1608152915938-94f73f3201d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "caption": "Luftaufnahme von Chula Vista"
+      },
+      "inLanguage": "de",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Chula Vista",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was sind die besten Viertel in Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Küste, Eastlake/Otay Ranch, Bonita, National City bieten eine Reihe von Wohnoptionen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist der Immobilienmarkt in Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Durchschnittliche Hauspreise liegen bei etwa $700K, etwas erschwinglicher als die Küste von San Diego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann man in Chula Vista unternehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hafen, Themenparks wie Sesame Place, Wildtierzentren, Parks und Restaurants machen es ziemlich lebendig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ist das Pendeln von Chula Vista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gelegen südlich der Innenstadt von San Diego mit Autobahn- und Trolley-Zugang; Reisezeiten variieren, liegen aber oft zwischen 20–40 Minuten."
+          }
+        }
+      ]
+    }
+  ]
+}
