@@ -1,6 +1,6 @@
 "use client"
 
-import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart, FileText, Image, Filter, Zap, ToggleLeft, ToggleRight, Loader2 } from "lucide-react"
+import { Plus, Edit2, Trash2, User, Calendar, Clock, Eye, Heart, FileText, Filter, Zap, ToggleLeft, ToggleRight, Loader2 } from "lucide-react"
 import { Blog as BlogType } from "@/types"
 import { useState, useMemo } from "react"
 
@@ -80,7 +80,7 @@ export default function BlogManager({
   }, [blogs])
 
   const groupIds = useMemo(() => {
-    const groups = [...new Set(blogs.map(blog => blog.group_id || 0))]
+    const groups = [...new Set(blogs.map(blog => Number(blog.group_id ?? 0)))]
     return groups.sort((a, b) => a - b)
   }, [blogs])
 
@@ -90,7 +90,7 @@ export default function BlogManager({
       const matchesStatus = statusFilter === 'all' || (blog.status || 'Draft') === statusFilter
       const matchesCategory = categoryFilter === 'all' || blog.category === categoryFilter
       const matchesLanguage = languageFilter === 'all' || (blog.language || 'en') === languageFilter
-      const matchesGroup = groupFilter === 'all' || (blog.group_id || 0) === parseInt(groupFilter, 10)
+      const matchesGroup = groupFilter === 'all' || Number(blog.group_id ?? 0) === Number(groupFilter)
       const matchesSearch = searchTerm === '' || 
         blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (blog.subtitle || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -264,7 +264,7 @@ export default function BlogManager({
               >
                 <option value="all">All Groups</option>
                 {groupIds.map(groupId => (
-                  <option key={groupId} value={groupId}>Group {groupId}</option>
+                  <option key={groupId} value={String(groupId)}>Group {groupId}</option>
                 ))}
               </select>
             </div>
