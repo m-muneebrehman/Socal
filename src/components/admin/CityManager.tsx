@@ -8,7 +8,7 @@ interface CityManagerProps {
   cities: CityType[]
   setShowCityModal: (show: boolean) => void
   setEditingCity: (id: string | null) => void
-  setCityForm: (form: any) => void
+  setCityForm: (form: Record<string, any>) => void
   deleteCity: (id: string) => void
   handleAddCity: (preferredLanguage?: string) => void
 }
@@ -49,7 +49,7 @@ export default function CityManager({
       const inName = city.name?.toLowerCase().includes(normalizedQuery)
       const inState = city.state?.toLowerCase().includes(normalizedQuery)
       const inSlug = city.slug?.toLowerCase().includes(normalizedQuery)
-      const inTags = (city.tags || []).some((t) => t.toLowerCase().includes(normalizedQuery))
+      const inTags = (city.tags || []).some((t: string) => t.toLowerCase().includes(normalizedQuery))
       const inDesc = city.shortDescription?.toLowerCase().includes(normalizedQuery)
 
       return inName || inState || inSlug || inTags || inDesc

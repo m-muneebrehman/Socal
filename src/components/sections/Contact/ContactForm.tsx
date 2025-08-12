@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 import emailjs from '@emailjs/browser'
 
 /*
@@ -25,7 +25,7 @@ import emailjs from '@emailjs/browser'
  */
 
 interface ContactFormProps {
-  contactData: any
+  contactData: Record<string, any>
 }
 
 const ContactForm = ({ contactData }: ContactFormProps) => {

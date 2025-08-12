@@ -3,13 +3,13 @@
 import React, { useState } from 'react'
 
 interface ContactFormSimpleProps {
-  contactData: any
+  contactData: Record<string, any>
 }
 
 const ContactFormSimple = ({ contactData }: ContactFormSimpleProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (_e: React.FormEvent) => {
     setIsSubmitting(true)
     // Formspree handles the submission automatically
     // The form will redirect to Formspree's success page

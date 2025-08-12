@@ -9,10 +9,10 @@ import BlogGridCard from '@/components/sections/Blog/BlogGridCard'
 const BlogPage = () => {
   const t = useTranslations('blog')
   const params = useParams()
-  const locale = (params as any)?.locale || 'en'
+  const locale = (params as Record<string, any>)?.locale || 'en'
   const [currentPage, setCurrentPage] = useState(1)
   const blogsPerPage = 8
-  const [blogs, setBlogs] = useState<any[]>([])
+  const [blogs, setBlogs] = useState<Record<string, any>[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {

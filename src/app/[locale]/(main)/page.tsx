@@ -13,9 +13,9 @@ import PrestigeLoading from '@/components/common/PrestigeLoading'
 
 const Home = () => {
   const params = useParams()
-  const [homeData, setHomeData] = useState<any>(null)
+  const [homeData, setHomeData] = useState<Record<string, any> | null>(null)
   const [loading, setLoading] = useState(true)
-  const locale = (params as any).locale || 'en'
+      const locale = (params as Record<string, any>).locale || 'en'
 
   const fetchHomeData = async () => {
     try {

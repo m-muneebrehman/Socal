@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Edit2, Save, X, Globe, Upload, User, Home, MapPin, Plus, Trash2 } from "lucide-react"
+import { Edit2, Save, X, Globe, Upload, User, MapPin, Plus, Trash2 } from "lucide-react"
 import { ContactData } from "@/types"
 
 interface ContactManagerProps {
