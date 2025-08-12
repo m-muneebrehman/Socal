@@ -17,7 +17,7 @@ interface CityData {
   population: string
   avgHomePrice: string
   tags: string[]
-  neighborhoods: any[]
+  neighborhoods: string[]
 }
 
 const CitiesPage = () => {
@@ -32,7 +32,7 @@ const CitiesPage = () => {
   useEffect(() => {
     const fetchCities = async () => {
       try {
-        const locale = (params as any).locale || 'en'
+        const locale = (params as Record<string, any>).locale || 'en'
         const response = await fetch(`/api/cities/${locale}`)
         
         if (response.ok) {
@@ -57,7 +57,7 @@ const CitiesPage = () => {
     }
 
     fetchCities()
-  }, [(params as any).locale])
+  }, [(params as Record<string, any>).locale])
 
   // Filter cities based on search term
   const filteredCities = useMemo(() => {

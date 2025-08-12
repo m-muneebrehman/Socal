@@ -13,7 +13,7 @@ const ContactPage = () => {
   const params = useParams()
   const [contactData, setContactData] = useState<ContactData | null>(null)
   const [loading, setLoading] = useState(true)
-  const locale = (params as any).locale || 'en'
+  const locale = (params as Record<string, any>).locale || 'en'
 
   const fetchContactData = async () => {
     try {

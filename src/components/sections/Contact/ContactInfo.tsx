@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 
 interface ContactInfoProps {
-  contactData: any
+  contactData: Record<string, any>
 }
 
 const ContactInfo = ({ contactData }: ContactInfoProps) => {

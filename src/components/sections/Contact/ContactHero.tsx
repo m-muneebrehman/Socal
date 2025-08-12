@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 
 interface ContactHeroProps {
-  contactData: any
+  contactData: Record<string, any>
 }
 
 const ContactHero = ({ contactData }: ContactHeroProps) => {
@@ -76,7 +76,7 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
                 <h3>{contactData?.hero?.recentSales?.title || 'Recent Sales'} ({totalProperties})</h3>
               </div>
               <div className="sales-preview-grid-compact">
-                {currentProperties.map((property: any, index: number) => (
+                {currentProperties.map((property: Record<string, any>, index: number) => (
                   <div key={index} className="sale-preview-card-compact" style={{
                     transition: 'all 0.3s ease',
                     opacity: 1,
