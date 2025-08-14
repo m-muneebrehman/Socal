@@ -15,11 +15,16 @@ export async function generateMetadata({ params }: { params: { locale: string; s
 
   if (!city) return {}
 
-  const title = city.seo?.metaTitle || `${city.name} Real Estate & Lifestyle Guide - Luxury Living in ${city.name}`
-  const description = city.seo?.metaDescription || `Explore luxury real estate, top neighborhoods, and cultural highlights in ${city.name}.`
+  // Use new meta_title and meta_description fields for better SEO
+  const title = city.meta_title || city.seo?.metaTitle || `${city.name} Real Estate & Lifestyle Guide - Luxury Living in ${city.name}`
+  const description = city.meta_description || city.seo?.metaDescription || `Explore luxury real estate, top neighborhoods, and cultural highlights in ${city.name}.`
   const ogImage = city.seo?.ogImage || city.heroImage
   const ogImageAlt = city.seo?.ogImageAlt || `${city.name} city skyline`
-  const canonical = `${siteUrl}/${params.locale}/cities/${params.slug}`
+  
+  // Use new url_slug if available, otherwise fallback to original structure
+  const canonical = city.url_slug 
+    ? `${siteUrl}${city.url_slug}`
+    : `${siteUrl}/${params.locale}/cities/${params.slug}`
 
   return {
     title,
@@ -36,7 +41,14 @@ export async function generateMetadata({ params }: { params: { locale: string; s
       },
     },
     robots: { index: true, follow: true },
-    keywords: city.seo?.keywords?.split(',').map((s: string) => s.trim()).filter(Boolean),
+    // Use new keywords structure if available
+    keywords: [
+      ...(city.primary_keywords || []),
+      ...(city.secondary_keywords || []),
+      ...(city.express_keywords || []),
+      ...(city.agent_keywords || []),
+      ...(city.seo?.keywords?.split(',').map((s: string) => s.trim()).filter(Boolean) || [])
+    ],
     openGraph: {
       type: 'website',
       url: canonical,
