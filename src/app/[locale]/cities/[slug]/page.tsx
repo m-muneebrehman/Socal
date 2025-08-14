@@ -68,28 +68,10 @@ interface CityData {
   secondary_keywords?: string[]
   express_keywords?: string[]
   agent_keywords?: string[]
-  landing_page_text?: Array<{
-    title: string
-    subtitle: string
-    icon: string
-    content: string
-  }>
-  express_service?: Array<{
-    title: string
-    subtitle: string
-    icon: string
-    content: string
-  }>
-  neighborhood_guide?: Array<{
-    title: string
-    icon: string
-    description: string
-  }>
-  market_analysis?: Array<{
-    title: string
-    description: string
-    icon: string
-  }>
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
   agent_name?: string
   company_name?: string
   contact_phone?: string
@@ -320,21 +302,17 @@ const CityPage = () => {
         </section>
 
         {/* New Landing Page Text Section - Beautiful Design */}
-        {city.landing_page_text && city.landing_page_text.length > 0 && (
+        {city.landing_page_text && (
           <section className="city-landing-section">
             <div className="neighborhood-guide-container">
               <div className="section-header-center">
                 <span className="section-eyebrow">Welcome to {city.name}</span>
                 <h2 className="section-title-large">Your Real Estate Journey Starts Here</h2>
               </div>
-              <div className="neighborhood-guide-content">
-                {city.landing_page_text.map((item, index) => (
-                  <div key={index} className="neighborhood-guide-item">
-                    <div className="guide-icon">
-                      <span className="guide-icon-text">{item.icon}</span>
-                    </div>
-                    <h3 className="guide-title">{item.title}</h3>
-                    <p className="guide-description">{item.content}</p>
+              <div className="cities-grid-beautiful">
+                {city.landing_page_text.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
                   </div>
                 ))}
               </div>
@@ -343,21 +321,17 @@ const CityPage = () => {
         )}
 
         {/* New Express Service Section - Beautiful Design */}
-        {city.express_service && city.express_service.length > 0 && (
+        {city.express_service && (
           <section className="city-express-section">
             <div className="neighborhood-guide-container">
               <div className="section-header-center">
                 <span className="section-eyebrow">Express Service</span>
                 <h2 className="section-title-large">When Time is of the Essence</h2>
               </div>
-              <div className="neighborhood-guide-content">
-                {city.express_service.map((item, index) => (
-                  <div key={index} className="neighborhood-guide-item">
-                    <div className="guide-icon">
-                      <span className="guide-icon-text">{item.icon}</span>
-                    </div>
-                    <h3 className="guide-title">{item.title}</h3>
-                    <p className="guide-description">{item.content}</p>
+              <div className="cities-grid-beautiful">
+                {city.express_service.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
                   </div>
                 ))}
               </div>
@@ -373,7 +347,7 @@ const CityPage = () => {
               <h2 className="section-title-large">{t('cityPage.whatMakesSpecial', { cityName: city.name })}</h2>
             </div>
             
-            <div className="highlights-grid">
+            <div className="cities-grid-beautiful">
               {city.highlights && city.highlights.length > 0 ? (
                 city.highlights.map((highlight, index) => (
                   <div key={index} className="highlight-card-enhanced">
@@ -400,7 +374,7 @@ const CityPage = () => {
         </section>
 
         {/* New Market Analysis Section - Simple Card Design */}
-        {city.market_analysis && city.market_analysis.length > 0 && (
+        {city.market_analysis && (
           <section className="city-market-analysis-section">
             <div className="neighborhood-guide-container">
               <div className="section-header-center">
@@ -408,14 +382,10 @@ const CityPage = () => {
                 <h2 className="section-title-large">Current {city.name} Real Estate Trends</h2>
               </div>
               
-              <div className="neighborhood-guide-content">
-                {city.market_analysis.map((item, index) => (
-                  <div key={index} className="neighborhood-guide-item">
-                    <div className="guide-icon">
-                      <span className="guide-icon-text">{item.icon}</span>
-                    </div>
-                    <h3 className="guide-title">{item.title}</h3>
-                    <p className="guide-description">{item.description}</p>
+              <div className="cities-grid-beautiful">
+                {city.market_analysis.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
                   </div>
                 ))}
               </div>
@@ -431,14 +401,10 @@ const CityPage = () => {
                 <span className="section-eyebrow">Neighborhood Guide</span>
                 <h2 className="section-title-large">Discover {city.name}'s Best Areas</h2>
               </div>
-              <div className="neighborhood-guide-content">
-                {city.neighborhood_guide.map((guide, index) => (
-                  <div key={index} className="neighborhood-guide-item">
-                    <div className="guide-icon">
-                      <span className="guide-icon-text">{guide.icon}</span>
-                    </div>
-                    <h3 className="guide-title">{guide.title}</h3>
-                    <p className="guide-description">{guide.description}</p>
+              <div className="cities-grid-beautiful">
+                {city.neighborhood_guide.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
                   </div>
                 ))}
               </div>
