@@ -1,5 +1,6 @@
 import { Inter, Playfair_Display } from 'next/font/google'
 import '../globals.css'
+import '../../styles/custom.css'
 import Navigation from '@/components/layout/Navigation'
 import Footer from '@/components/layout/Footer'
 import { NextIntlClientProvider } from 'next-intl';

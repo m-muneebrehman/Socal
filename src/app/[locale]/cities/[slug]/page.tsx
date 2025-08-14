@@ -1,4 +1,8 @@
 // Keep as client for UI, but move SEO to server via generateMetadata in adjacent file
+// ⚠️ WARNING: DO NOT MODIFY THE CONSULTATION SECTION BELOW - IT IS WORKING PERFECTLY! ⚠️
+// The consultation section has been carefully crafted with FULL SECTION FLIP and should not be changed.
+// Any modifications will break the beautiful flip animation and design.
+
 'use client'
 
 import React, { useState, useEffect } from 'react'
@@ -7,6 +11,7 @@ import { Link } from '@/i18n/navigation'
 import { notFound } from 'next/navigation'
 import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
+import emailjs from '@emailjs/browser'
 
 // using useParams in client to avoid accessing Promise-based params prop
 
@@ -55,6 +60,24 @@ interface CityData {
     twitterCard?: string
   }
   schema_markup?: any[]
+  // New fields from updated structure
+  url_slug?: string
+  meta_title?: string
+  meta_description?: string
+  h1_title?: string
+  primary_keywords?: string[]
+  secondary_keywords?: string[]
+  express_keywords?: string[]
+  agent_keywords?: string[]
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
+  agent_name?: string
+  company_name?: string
+  contact_phone?: string
+  contact_email?: string
+  cta_text?: string
 }
 
 const CityPage = () => {
@@ -65,6 +88,16 @@ const CityPage = () => {
   const [city, setCity] = useState<CityData | null>(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState('all')
+  const [showConsultation, setShowConsultation] = useState(false)
+  const [contactFormData, setContactFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    message: ''
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const [statusMessage, setStatusMessage] = useState('')
 
   useEffect(() => {
     const fetchCityData = async () => {
@@ -94,6 +127,18 @@ const CityPage = () => {
     }
 
     fetchCityData()
+
+    // Initialize EmailJS
+    try {
+      if (process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY) {
+        emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+        console.log('EmailJS initialized successfully')
+      } else {
+        console.error('EmailJS public key not found in environment variables')
+      }
+    } catch (error) {
+      console.error('EmailJS initialization failed:', error)
+    }
   }, [slug, locale])
 
   if (loading) {
@@ -107,52 +152,80 @@ const CityPage = () => {
   const categories = ['all', ...new Set(city.faqs.map(faq => faq.category))]
   const filteredFaqs = activeTab === 'all' ? city.faqs : city.faqs.filter(faq => faq.category === activeTab)
 
-  // SEO Meta Tags - with fallbacks for missing data
-  const seoData = {
-    title: city.seo?.metaTitle || `${city.name} Real Estate & Lifestyle Guide - Luxury Living in ${city.name}`,
-    description: city.seo?.metaDescription || `Explore luxury real estate, top neighborhoods, and cultural highlights in ${city.name}. Discover why ${city.name} is a top destination for living, investing, and lifestyle.`,
-    keywords: city.seo?.keywords || `${city.name} real estate, ${city.name} lifestyle, luxury homes, neighborhoods, cultural attractions`,
-    ogTitle: city.seo?.ogTitle || `Discover ${city.name}: Luxury Real Estate & Lifestyle Guide`,
-    ogDescription: city.seo?.ogDescription || `Explore diverse neighborhoods, real estate insights, and highlights of ${city.name}. Find your dream home in the heart of ${city.state}.`,
-    ogImage: city.seo?.ogImage || city.heroImage,
-    ogImageAlt: city.seo?.ogImageAlt || `${city.name} city skyline`,
-    canonicalUrl: `https://example.com/locations/${city.slug}`,
-    structuredData: city.schema_markup || [
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": city.name,
-        "description": `Explore real estate, neighborhoods, and highlights in ${city.name}, ${city.state}.`,
-        "url": `https://example.com/locations/${city.slug}`,
-        "image": {
-          "@type": "ImageObject",
-          "url": city.heroImage,
-          "caption": `${city.name} city skyline`
-        },
-        "inLanguage": locale,
-        "mainEntity": {
-          "@type": "City",
-          "name": city.name,
-          "address": {
-            "@type": "PostalAddress",
-            "addressRegion": city.state,
-            "addressCountry": "USA"
-          }
-        }
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": city.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
+  // Use new URL slug if available, otherwise fallback to original slug
+  const cityUrlSlug = city.url_slug || `/cities/${city.slug}`
+
+  const handleContactFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setContactFormData({
+      ...contactFormData,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  const handleContactSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    
+    // Validation
+    if (!contactFormData.name.trim() || !contactFormData.email.trim()) {
+      setSubmitStatus('error')
+      setStatusMessage('Please fill in both name and email fields.')
+      return
+    }
+    
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+    setStatusMessage('')
+    
+    try {
+      // EmailJS template parameters - using standard EmailJS variables
+      const templateParams = {
+        to_name: 'Crown Coastal Concierge',
+        from_name: contactFormData.name,
+        from_email: contactFormData.email,
+        from_phone: contactFormData.phone,
+        message: contactFormData.message,
+        reply_to: contactFormData.email,
+        city: city?.name || 'Unknown City'
       }
-    ]
+
+      // Check if all required environment variables are set
+      if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID) {
+        throw new Error('EmailJS configuration not found in environment variables')
+      }
+
+      // Send email using EmailJS with environment variables
+      const result = await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams
+      )
+
+      if (result.status === 200) {
+        setSubmitStatus('success')
+        setStatusMessage('Message sent successfully! We\'ll get back to you soon.')
+        
+        // Reset form
+        setContactFormData({
+          name: '',
+          phone: '',
+          email: '',
+          message: ''
+        })
+      } else {
+        throw new Error('Failed to send message')
+      }
+    } catch (error: any) {
+      console.error('Email sending failed:', error)
+      setSubmitStatus('error')
+      setStatusMessage(`Failed to send message: ${error?.message || 'Unknown error'}. Please try again or contact us directly.`)
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
+  const resetStatus = () => {
+    setSubmitStatus('idle')
+    setStatusMessage('')
   }
 
   return (
@@ -205,7 +278,7 @@ const CityPage = () => {
                 </div>
               </div>
 
-              {/* Main Title Section */}
+              {/* Main Title Section - Using new h1_title with proper layout */}
               <div className="hero-title-section">
                 <div className="hero-eyebrow">
                   <span className="eyebrow-text">{t('cityPage.premiumDestination')}</span>
@@ -213,8 +286,14 @@ const CityPage = () => {
                 </div>
                 
                 <h1 className="hero-main-title">
-                  <span className="title-line-1">{t('cityPage.discoverMagicOf')}</span>
-                  <span className="title-line-2">{city.name}</span>
+                  {city.h1_title ? (
+                    <span className="title-line-2">{city.h1_title}</span>
+                  ) : (
+                    <>
+                      <span className="title-line-1">{t('cityPage.discoverMagicOf')}</span>
+                      <span className="title-line-2">{city.name}</span>
+                    </>
+                  )}
                 </h1>
                 
                 <p className="hero-description">{city.shortDescription}</p>
@@ -317,6 +396,44 @@ const CityPage = () => {
           </div>
         </section>
 
+        {/* New Landing Page Text Section - Beautiful Design */}
+        {city.landing_page_text && (
+          <section className="city-landing-section">
+            <div className="neighborhood-guide-container">
+              <div className="section-header-center">
+                <span className="section-eyebrow">Welcome to {city.name}</span>
+                <h2 className="section-title-large">Your Real Estate Journey Starts Here</h2>
+              </div>
+              <div className="cities-grid-beautiful">
+                {city.landing_page_text.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* New Express Service Section - Beautiful Design */}
+        {city.express_service && (
+          <section className="city-express-section">
+            <div className="neighborhood-guide-container">
+              <div className="section-header-center">
+                <span className="section-eyebrow">Express Service</span>
+                <h2 className="section-title-large">When Time is of the Essence</h2>
+              </div>
+              <div className="cities-grid-beautiful">
+                {city.express_service.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* City Highlights Section */}
         <section className="city-highlights-enhanced">
           <div className="highlights-container">
@@ -325,7 +442,7 @@ const CityPage = () => {
               <h2 className="section-title-large">{t('cityPage.whatMakesSpecial', { cityName: city.name })}</h2>
             </div>
             
-            <div className="highlights-grid">
+            <div className="cities-grid-beautiful">
               {city.highlights && city.highlights.length > 0 ? (
                 city.highlights.map((highlight, index) => (
                   <div key={index} className="highlight-card-enhanced">
@@ -350,6 +467,45 @@ const CityPage = () => {
             </div>
           </div>
         </section>
+
+        {/* New Market Analysis Section - Simple Card Design */}
+        {city.market_analysis && (
+          <section className="city-market-analysis-section">
+            <div className="neighborhood-guide-container">
+              <div className="section-header-center">
+                <span className="section-eyebrow">Market Analysis</span>
+                <h2 className="section-title-large">Current {city.name} Real Estate Trends</h2>
+              </div>
+              
+              <div className="cities-grid-beautiful">
+                {city.market_analysis.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* New Neighborhood Guide Section - Beautiful Design */}
+        {city.neighborhood_guide && (
+          <section className="city-neighborhood-guide-section">
+            <div className="neighborhood-guide-container">
+              <div className="section-header-center">
+                <span className="section-eyebrow">Neighborhood Guide</span>
+                <h2 className="section-title-large">Discover {city.name}'s Best Areas</h2>
+              </div>
+              <div className="cities-grid-beautiful">
+                {city.neighborhood_guide.split('\n\n').map((paragraph, index) => (
+                  <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <p className="guide-description-large">{paragraph}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Beautiful Neighborhood Cities Section */}
         <section className="cities-section-beautiful" id="neighborhoods">
@@ -441,6 +597,152 @@ const CityPage = () => {
             </div>
           </div>
         </section>
+
+        {/* Schedule Consultation Section - EXACTLY like Home Page */}
+        <div className={`consultation-section-wrapper ${showConsultation ? 'flipped' : ''}`}>
+          {/* Front Side - Schedule Consultation */}
+          <section className="consultation-section-front">
+            <div className="cta-container">
+              <h2 className="cta-title">Ready to Find Your Dream Property?</h2>
+              <p className="cta-text">
+                Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.
+              </p>
+              <button 
+                className="cta-btn"
+                onClick={() => setShowConsultation(true)}
+              >
+                Schedule Consultation
+              </button>
+            </div>
+          </section>
+          
+          {/* Back Side - Contact Form and Agent Info */}
+          <section className="consultation-section-back">
+            <div className="consultation-back-content">
+              <div className="consultation-grid">
+                {/* Left Side - Agent Information */}
+                <div className="agent-info-section">
+                  <div className="agent-info">
+                    <h3 className="agent-name">Reza Barghlameno</h3>
+                    <p className="company-name">Prime Local Homes</p>
+                    <div className="contact-details">
+                      <div className="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                        <span>+1-XXX-XXX-XXXX</span>
+                      </div>
+                      <div className="contact-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                          <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                          <polyline points="22,6 12,13 2,6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                        <span>reza@primelocalhomes.com</span>
+                      </div>
+                    </div>
+                    <p className="consultation-cta-text">Ready to buy or sell in {city?.name}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.</p>
+                  </div>
+                </div>
+                
+                {/* Right Side - Content Area */}
+                <div className="right-content-section">
+                  <div className="contact-form-container">
+                    <form className="contact-form-simple" onSubmit={handleContactSubmit}>
+                      {/* First Row - Name and Phone */}
+                      <div className="form-row">
+                        <div className="form-field">
+                          <label htmlFor="name" className="form-label">Name</label>
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            className="form-input-field"
+                            placeholder="Enter your name"
+                            value={contactFormData.name}
+                            onChange={handleContactFormChange}
+                            required
+                          />
+                        </div>
+                        <div className="form-field">
+                          <label htmlFor="phone" className="form-label">Phone</label>
+                          <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            className="form-input-field"
+                            placeholder="Enter your phone"
+                            value={contactFormData.phone}
+                            onChange={handleContactFormChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      
+                      {/* Second Row - Email */}
+                      <div className="form-row">
+                        <div className="form-field full-width">
+                          <label htmlFor="email" className="form-label">Email</label>
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            className="form-input-field"
+                            placeholder="Enter your email"
+                            value={contactFormData.email}
+                            onChange={handleContactFormChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      
+                      {/* Third Row - Message */}
+                      <div className="form-row">
+                        <div className="form-field full-width">
+                          <label htmlFor="message" className="form-label">Message</label>
+                          <textarea
+                            id="message"
+                            name="message"
+                            className="form-textarea-field"
+                            placeholder="Enter your message"
+                            rows={4}
+                            value={contactFormData.message}
+                            onChange={handleContactFormChange}
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      
+                      {/* Submit Button */}
+                      <div className="form-row">
+                        <div className="form-field full-width">
+                          <button type="submit" className="submit-button" disabled={isSubmitting}>
+                            {isSubmitting ? 'Sending...' : 'Send Message'}
+                          </button>
+                          {submitStatus === 'success' && (
+                            <p className="form-status-message success">{statusMessage}</p>
+                          )}
+                          {submitStatus === 'error' && (
+                            <p className="form-status-message error">{statusMessage}</p>
+                          )}
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              
+              <button 
+                className="consultation-back-btn"
+                onClick={() => setShowConsultation(false)}
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                Back
+              </button>
+            </div>
+          </section>
+        </div>
 
         {/* Back to Cities Link */}
         <section className="city-back-enhanced">
