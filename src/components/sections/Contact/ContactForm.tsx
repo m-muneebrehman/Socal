@@ -43,8 +43,12 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
   // Initialize EmailJS
   useEffect(() => {
     try {
-      emailjs.init("LKwO9HNb9mCd6spYX")
-      console.log('EmailJS initialized successfully')
+      if (process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY) {
+        emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+        console.log('EmailJS initialized successfully')
+      } else {
+        console.error('EmailJS public key not found in environment variables')
+      }
     } catch (error) {
       console.error('EmailJS initialization failed:', error)
     }
@@ -74,10 +78,15 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
         reply_to: formData.email
       }
 
+      // Check if all required environment variables are set
+      if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID) {
+        throw new Error('EmailJS configuration not found in environment variables')
+      }
+
       // Send email using EmailJS
       const result = await emailjs.send(
-        'service_bebl82d',
-        'template_l51cn48',
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         templateParams
       )
 
