@@ -67,6 +67,27 @@ export interface CityDocForFile {
     anchor: string
     context?: string
   }>
+  // New fields from the updated structure
+  city?: string
+  county?: string
+  url_slug?: string
+  meta_title?: string
+  meta_description?: string
+  h1_title?: string
+  primary_keywords?: string[]
+  secondary_keywords?: string[]
+  express_keywords?: string[]
+  agent_keywords?: string[]
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
+  agent_name?: string
+  cta_text?: string
+  contact_phone?: string
+  contact_email?: string
+  company_name?: string
+  updatedAt?: string
 }
 
 function ensureDirSync(dirPath: string) {
@@ -97,7 +118,28 @@ export async function writeCityFile(city: CityDocForFile) {
     highlights: Array.isArray(city.highlights) ? city.highlights : [],
     faqs: Array.isArray(city.faqs) ? city.faqs : [],
     seo: city.seo ?? {},
-    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : []
+    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : [],
+    // New fields
+    city: city.city || city.name,
+    county: city.county || city.state,
+    url_slug: city.url_slug || `/real-estate-${city.slug}`,
+    meta_title: city.meta_title || `Buy & Sell Homes in ${city.name} | Prime Local Homes - Reza Barghlameno`,
+    meta_description: city.meta_description || `Expert ${city.name} real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.`,
+    h1_title: city.h1_title || `${city.name} Real Estate Expert - Buy & Sell with Reza Barghlameno`,
+    primary_keywords: Array.isArray(city.primary_keywords) ? city.primary_keywords : [`${city.name} real estate`, `homes for sale in ${city.name}`, `buy house in ${city.name}`, `sell home in ${city.name}`, `Prime Local Homes ${city.name}`, `Reza Barghlameno ${city.name}`],
+    secondary_keywords: Array.isArray(city.secondary_keywords) ? city.secondary_keywords : [`best realtor in ${city.name}`, `luxury homes in ${city.name}`, `condos for sale in ${city.name}`, `single family homes in ${city.name}`, `townhomes in ${city.name}`, `new listings ${city.name}`, `property market ${city.name}`, `real estate trends ${city.name}`],
+    express_keywords: Array.isArray(city.express_keywords) ? city.express_keywords : [`fast home buying ${city.name}`, `urgent house search ${city.name}`, `express real estate service ${city.name}`, `same day home finding ${city.name}`, `quick house purchase ${city.name}`, `emergency realtor ${city.name}`, `weekend home buying ${city.name}`, `family emergency home search ${city.name}`],
+    agent_keywords: Array.isArray(city.agent_keywords) ? city.agent_keywords : [`Reza Barghlameno`, `Reza Barghlameno realtor`, `Reza Barghlameno ${city.name}`, `Reza Barghlameno real estate agent`, `Reza Barghlameno Prime Local Homes`, `top realtor ${city.name} Reza Barghlameno`],
+    landing_page_text: city.landing_page_text || `Welcome to ${city.name}, ${city.state} - one of ${city.county || city.state} County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted ${city.name} real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey.`,
+    express_service: city.express_service || `When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in ${city.name}. Understanding that time is often of the essence, especially in today's fast-paced world, Reza offers a dedicated 48-72 hour home finding service.`,
+    neighborhood_guide: city.neighborhood_guide || `${city.name} is home to several distinct neighborhoods, each offering unique benefits for different types of buyers. Reza Barghlameno's insights into these neighborhoods can help you find the perfect fit for your lifestyle and needs.`,
+    market_analysis: city.market_analysis || `The ${city.name} real estate market is currently thriving, with a noticeable increase in home values over the past year. This growth is driven by a combination of low inventory and high demand, making it a competitive market for buyers.`,
+    agent_name: city.agent_name || 'Reza Barghlameno',
+    cta_text: city.cta_text || `Ready to buy or sell in ${city.name}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.`,
+    contact_phone: city.contact_phone || '+1 858-305-4362',
+    contact_email: city.contact_email || 'reza@socalprimehomes.com',
+    company_name: city.company_name || 'socalprimehomes.com',
+    updatedAt: new Date().toISOString()
   }
   fs.writeFileSync(filePath, JSON.stringify(dataToWrite, null, 2))
   console.log(`✅ Wrote city file: ${filePath}`)
@@ -418,7 +460,28 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
         hreflang_tags: city.hreflang_tags || [],
         seo: city.seo || {},
         schema_markup: city.schema_markup || [],
-        internal_links: city.internal_links || []
+        internal_links: city.internal_links || [],
+        // New fields
+        city: city.city || city.name,
+        county: city.county || city.state,
+        url_slug: city.url_slug || `/real-estate-${city.slug}`,
+        meta_title: city.meta_title || `Buy & Sell Homes in ${city.name} | Prime Local Homes - Reza Barghlameno`,
+        meta_description: city.meta_description || `Expert ${city.name} real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.`,
+        h1_title: city.h1_title || `${city.name} Real Estate Expert - Buy & Sell with Reza Barghlameno`,
+        primary_keywords: city.primary_keywords || [`${city.name} real estate`, `homes for sale in ${city.name}`, `buy house in ${city.name}`, `sell home in ${city.name}`, `Prime Local Homes ${city.name}`, `Reza Barghlameno ${city.name}`],
+        secondary_keywords: city.secondary_keywords || [`best realtor in ${city.name}`, `luxury homes in ${city.name}`, `condos for sale in ${city.name}`, `single family homes in ${city.name}`, `townhomes in ${city.name}`, `new listings ${city.name}`, `property market ${city.name}`, `real estate trends ${city.name}`],
+        express_keywords: city.express_keywords || [`fast home buying ${city.name}`, `urgent house search ${city.name}`, `express real estate service ${city.name}`, `same day home finding ${city.name}`, `quick house purchase ${city.name}`, `emergency realtor ${city.name}`, `weekend home buying ${city.name}`, `family emergency home search ${city.name}`],
+        agent_keywords: city.agent_keywords || [`Reza Barghlameno`, `Reza Barghlameno realtor`, `Reza Barghlameno ${city.name}`, `Reza Barghlameno real estate agent`, `Reza Barghlameno Prime Local Homes`, `top realtor ${city.name} Reza Barghlameno`],
+        landing_page_text: city.landing_page_text || `Welcome to ${city.name}, ${city.state} - one of ${city.county || city.state} County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted ${city.name} real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey.`,
+        express_service: city.express_service || `When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in ${city.name}. Understanding that time is often of the essence, especially in today's fast-paced world, Reza offers a dedicated 48-72 hour home finding service.`,
+        neighborhood_guide: city.neighborhood_guide || `${city.name} is home to several distinct neighborhoods, each offering unique benefits for different types of buyers. Reza Barghlameno's insights into these neighborhoods can help you find the perfect fit for your lifestyle and needs.`,
+        market_analysis: city.market_analysis || `The ${city.name} real estate market is currently thriving, with a noticeable increase in home values over the past year. This growth is driven by a combination of low inventory and high demand, making it a competitive market for buyers.`,
+        agent_name: city.agent_name || 'Reza Barghlameno',
+        cta_text: city.cta_text || `Ready to buy or sell in ${city.name}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.`,
+        contact_phone: city.contact_phone || '+1 858-305-4362',
+        contact_email: city.contact_email || 'reza@socalprimehomes.com',
+        company_name: city.company_name || 'socalprimehomes.com',
+        updatedAt: new Date().toISOString()
       }
       
       await writeCityFile(cityData)
@@ -519,7 +582,28 @@ export async function updateIndividualCityFiles() {
           hreflang_tags: city.hreflang_tags || [],
           seo: city.seo || {},
           schema_markup: city.schema_markup || [],
-          internal_links: city.internal_links || []
+          internal_links: city.internal_links || [],
+          // New fields
+          city: city.city || city.name,
+          county: city.county || city.state,
+          url_slug: city.url_slug || `/real-estate-${city.slug}`,
+          meta_title: city.meta_title || `Buy & Sell Homes in ${city.name} | Prime Local Homes - Reza Barghlameno`,
+          meta_description: city.meta_description || `Expert ${city.name} real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.`,
+          h1_title: city.h1_title || `${city.name} Real Estate Expert - Buy & Sell with Reza Barghlameno`,
+          primary_keywords: city.primary_keywords || [`${city.name} real estate`, `homes for sale in ${city.name}`, `buy house in ${city.name}`, `sell home in ${city.name}`, `Prime Local Homes ${city.name}`, `Reza Barghlameno ${city.name}`],
+          secondary_keywords: city.secondary_keywords || [`best realtor in ${city.name}`, `luxury homes in ${city.name}`, `condos for sale in ${city.name}`, `single family homes in ${city.name}`, `townhomes in ${city.name}`, `new listings ${city.name}`, `property market ${city.name}`, `real estate trends ${city.name}`],
+          express_keywords: city.express_keywords || [`fast home buying ${city.name}`, `urgent house search ${city.name}`, `express real estate service ${city.name}`, `same day home finding ${city.name}`, `quick house purchase ${city.name}`, `emergency realtor ${city.name}`, `weekend home buying ${city.name}`, `family emergency home search ${city.name}`],
+          agent_keywords: city.agent_keywords || [`Reza Barghlameno`, `Reza Barghlameno realtor`, `Reza Barghlameno ${city.name}`, `Reza Barghlameno real estate agent`, `Reza Barghlameno Prime Local Homes`, `top realtor ${city.name} Reza Barghlameno`],
+          landing_page_text: city.landing_page_text || `Welcome to ${city.name}, ${city.state} - one of ${city.county || city.state} County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted ${city.name} real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey.`,
+          express_service: city.express_service || `When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in ${city.name}. Understanding that time is often of the essence, especially in today's fast-paced world, Reza offers a dedicated 48-72 hour home finding service.`,
+          neighborhood_guide: city.neighborhood_guide || `${city.name} is home to several distinct neighborhoods, each offering unique benefits for different types of buyers. Reza Barghlameno's insights into these neighborhoods can help you find the perfect fit for your lifestyle and needs.`,
+          market_analysis: city.market_analysis || `The ${city.name} real estate market is currently thriving, with a noticeable increase in home values over the past year. This growth is driven by a combination of low inventory and high demand, making it a competitive market for buyers.`,
+          agent_name: city.agent_name || 'Reza Barghlameno',
+          cta_text: city.cta_text || `Ready to buy or sell in ${city.name}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.`,
+          contact_phone: city.contact_phone || '+1 858-305-4362',
+          contact_email: city.contact_email || 'reza@socalprimehomes.com',
+          company_name: city.company_name || 'socalprimehomes.com',
+          updatedAt: new Date().toISOString()
         }
         
         await writeCityFile(cityData)

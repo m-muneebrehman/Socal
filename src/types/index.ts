@@ -101,27 +101,37 @@ export interface City {
   population: string
   avgHomePrice: string
   tags: string[]
-  neighborhoods: string[]
-  highlights: {
+  neighborhoods: Array<{
+    name: string
+    type: 'neighborhood' | 'city'
+    slug: string
+    description: string
+    image: string
+    imageAlt?: string
+    distance: string
+    avgHomePrice: string
+    county: string
+  }>
+  highlights: Array<{
     title: string
     description: string
     icon: string
     bgImage: string
     bgImageAlt?: string
-  }[]
-  faqs: {
+  }>
+  faqs: Array<{
     question: string
     answer: string
     category: string
-  }[]
-  clients?: {
+  }>
+  clients?: Array<{
     name: string
     description: string
     image: string
     imageAlt?: string
     rating: number
     review: string
-  }[]
+  }>
   canonicalUrl?: string
   hreflang_tags?: Array<{
     hreflang: string
@@ -143,6 +153,27 @@ export interface City {
     anchor: string
     context?: string
   }>
+  // New fields from the updated structure
+  city?: string
+  county?: string
+  url_slug?: string
+  meta_title?: string
+  meta_description?: string
+  h1_title?: string
+  primary_keywords?: string[]
+  secondary_keywords?: string[]
+  express_keywords?: string[]
+  agent_keywords?: string[]
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
+  agent_name?: string
+  cta_text?: string
+  contact_phone?: string
+  contact_email?: string
+  company_name?: string
+  updatedAt?: string
 }
 
 export interface DashboardStats {

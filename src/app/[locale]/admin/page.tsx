@@ -169,22 +169,26 @@ export default function AdminDashboard() {
           {
             address: "1234 Ocean View Dr, La Jolla",
             price: "$2,450,000",
-            year: "2024"
+            year: "2024",
+            imageUrl: "/raza.jpg"
           },
           {
             address: "5678 Coastal Blvd, Del Mar",
             price: "$1,890,000",
-            year: "2024"
+            year: "2024",
+            imageUrl: "/raza.jpg"
           },
           {
             address: "9012 Sunset Cliffs Rd, Point Loma",
             price: "$3,120,000",
-            year: "2023"
+            year: "2023",
+            imageUrl: "/raza.jpg"
           },
           {
             address: "3456 Pacific Coast Hwy, Encinitas",
             price: "$2,850,000",
-            year: "2023"
+            year: "2023",
+            imageUrl: "/raza.jpg"
           }
         ]
       }
@@ -340,6 +344,26 @@ export default function AdminDashboard() {
     seo?: { metaTitle: string; metaDescription: string; keywords?: string; ogTitle?: string; ogDescription?: string; ogImage?: string; ogImageAlt?: string; twitterCard?: string }
     schema_markup?: any[]
     language?: string
+    // New fields from the updated structure
+    city?: string
+    county?: string
+    url_slug?: string
+    meta_title?: string
+    meta_description?: string
+    h1_title?: string
+    primary_keywords?: string[] | string
+    secondary_keywords?: string[] | string
+    express_keywords?: string[] | string
+    agent_keywords?: string[] | string
+    landing_page_text?: string
+    express_service?: string
+    neighborhood_guide?: string
+    market_analysis?: string
+    agent_name?: string
+    cta_text?: string
+    contact_phone?: string
+    contact_email?: string
+    company_name?: string
   }
 
   const [blogForm, setBlogForm] = useState<Blog>(emptyBlog)
@@ -368,7 +392,27 @@ export default function AdminDashboard() {
     ],
     highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
     faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-    fullDescription: ''
+    fullDescription: '',
+    // New fields initialization
+    city: '',
+    county: '',
+    url_slug: '',
+    meta_title: '',
+    meta_description: '',
+    h1_title: '',
+    primary_keywords: [],
+    secondary_keywords: [],
+    express_keywords: [],
+    agent_keywords: [],
+    landing_page_text: '',
+    express_service: '',
+    neighborhood_guide: '',
+    market_analysis: '',
+    agent_name: '',
+    cta_text: '',
+    contact_phone: '',
+    contact_email: '',
+    company_name: ''
   })
   
   const [loadingData, setLoadingData] = useState(false)
@@ -2497,6 +2541,222 @@ export default function AdminDashboard() {
                   </div>
                 </div>
 
+                {/* New Real Estate Fields */}
+                <div className="form-section">
+                  <h3 className="form-section-title">Real Estate & Agent Information</h3>
+                  
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">City</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Agoura Hills"
+                        value={cityForm.city || ''}
+                        onChange={(e) => setCityForm({...cityForm, city: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">County</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Los Angeles"
+                        value={cityForm.county || ''}
+                        onChange={(e) => setCityForm({...cityForm, county: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">URL Slug</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="/real-estate-agoura-hills"
+                      value={cityForm.url_slug || ''}
+                      onChange={(e) => setCityForm({...cityForm, url_slug: e.target.value})}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Meta Title</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Buy & Sell Homes in Agoura Hills | Prime Local Homes - Reza Barghlameno"
+                      value={cityForm.meta_title || ''}
+                      onChange={(e) => setCityForm({...cityForm, meta_title: e.target.value})}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Meta Description</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="Expert Agoura Hills real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers."
+                      value={cityForm.meta_description || ''}
+                      onChange={(e) => setCityForm({...cityForm, meta_description: e.target.value})}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">H1 Title</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Agoura Hills Real Estate Expert - Buy & Sell with Reza Barghlameno"
+                      value={cityForm.h1_title || ''}
+                      onChange={(e) => setCityForm({...cityForm, h1_title: e.target.value})}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Primary Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Agoura Hills real estate, homes for sale in Agoura Hills, buy house in Agoura Hills"
+                      value={Array.isArray(cityForm.primary_keywords) ? cityForm.primary_keywords.join(', ') : cityForm.primary_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, primary_keywords: e.target.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Secondary Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="best realtor in Agoura Hills, luxury homes in Agoura Hills, condos for sale in Agoura Hills"
+                      value={Array.isArray(cityForm.secondary_keywords) ? cityForm.secondary_keywords.join(', ') : cityForm.secondary_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, secondary_keywords: e.target.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Express Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="fast home buying Agoura Hills, urgent house search Agoura Hills, express real estate service Agoura Hills"
+                      value={Array.isArray(cityForm.express_keywords) ? cityForm.express_keywords.join(', ') : cityForm.express_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, express_keywords: e.target.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Agent Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno Agoura Hills"
+                      value={Array.isArray(cityForm.agent_keywords) ? cityForm.agent_keywords.join(', ') : cityForm.agent_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, agent_keywords: e.target.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Landing Page Text</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="Welcome to Agoura Hills, California - one of Los Angeles County's most sought-after communities..."
+                      value={cityForm.landing_page_text || ''}
+                      onChange={(e) => setCityForm({...cityForm, landing_page_text: e.target.value})}
+                      rows={6}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Express Service</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results..."
+                      value={cityForm.express_service || ''}
+                      onChange={(e) => setCityForm({...cityForm, express_service: e.target.value})}
+                      rows={6}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Neighborhood Guide</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="Agoura Hills is home to several distinct neighborhoods, each offering unique benefits..."
+                      value={cityForm.neighborhood_guide || ''}
+                      onChange={(e) => setCityForm({...cityForm, neighborhood_guide: e.target.value})}
+                      rows={6}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Market Analysis</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="The Agoura Hills real estate market is currently thriving, with a noticeable increase in home values..."
+                      value={cityForm.market_analysis || ''}
+                      onChange={(e) => setCityForm({...cityForm, market_analysis: e.target.value})}
+                      rows={6}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">Agent Name</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Reza Barghlameno"
+                        value={cityForm.agent_name || ''}
+                        onChange={(e) => setCityForm({...cityForm, agent_name: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">CTA Text</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Ready to buy or sell in Agoura Hills? Contact Reza Barghlameno today..."
+                        value={cityForm.cta_text || ''}
+                        onChange={(e) => setCityForm({...cityForm, cta_text: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">Contact Phone</label>
+                      <input 
+                        type="tel" 
+                        className="form-input" 
+                        placeholder="+1 858-305-4362"
+                        value={cityForm.contact_phone || ''}
+                        onChange={(e) => setCityForm({...cityForm, contact_phone: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">Contact Email</label>
+                      <input 
+                        type="email" 
+                        className="form-input" 
+                        placeholder="reza@socalprimehomes.com"
+                        value={cityForm.contact_email || ''}
+                        onChange={(e) => setCityForm({...cityForm, contact_email: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Company Name</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="socalprimehomes.com"
+                      value={cityForm.company_name || ''}
+                      onChange={(e) => setCityForm({...cityForm, company_name: e.target.value})}
+                    />
+                  </div>
+                </div>
+
                 {/* Hreflang Tags removed */}
                 
 
@@ -2523,7 +2783,26 @@ export default function AdminDashboard() {
                   highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
                   fullDescription: '',
-                   
+                  // Reset new fields
+                  city: '',
+                  county: '',
+                  url_slug: '',
+                  meta_title: '',
+                  meta_description: '',
+                  h1_title: '',
+                  primary_keywords: [],
+                  secondary_keywords: [],
+                  express_keywords: [],
+                  agent_keywords: [],
+                  landing_page_text: '',
+                  express_service: '',
+                  neighborhood_guide: '',
+                  market_analysis: '',
+                  agent_name: '',
+                  cta_text: '',
+                  contact_phone: '',
+                  contact_email: '',
+                  company_name: ''
                 })
               }} className="btn btn-secondary">Cancel</button>
               <button type="button" onClick={() => {
