@@ -67,18 +67,98 @@
       "population": "السكان",
       "avgHomePrice": "متوسط سعر المنزل",
       "neighborhoods": "الأحياء",
-      "highlights": "الأبرز",
+      "highlights": "النقاط البارزة",
       "about": "حول",
-      "whatMakesSpecial": "ما يجعل {cityName} مميزة",
-      "noHighlightsAvailable": "لا توجد أبرز متاحة لـ {cityName}",
+      "whatMakesSpecial": "ما الذي يجعل {cityName} مميزة",
+      "noHighlightsAvailable": "لا توجد نقاط بارزة متاحة لـ {cityName}",
       "nearbyCities": "المدن القريبة",
       "exploreSurroundingAreas": "استكشف المناطق المحيطة",
       "discoverDiverseNeighborhoods": "اكتشف الأحياء والمدن المتنوعة حول {cityName}",
-      "county": "مقاطعة",
+      "county": "المقاطعة",
       "faq": "الأسئلة الشائعة",
       "everythingYouNeedToKnow": "كل ما تحتاج لمعرفته",
       "allQuestions": "جميع الأسئلة",
       "exploreAllCities": "استكشف جميع المدن"
+    },
+    "countyPage": {
+      "cities": "المدن",
+      "avgPrice": "متوسط السعر",
+      "premiumDestination": "وجهة مميزة",
+      "discoverMagicOf": "اكتشف سحر",
+      "exploreProperties": "استكشف العقارات",
+      "contactAgent": "اتصل بالوكيل",
+      "about": "حول",
+      "welcomeTo": "مرحباً بك في",
+      "yourRealEstateJourney": "رحلة العقارات الخاصة بك تبدأ من هنا",
+      "expressService": "خدمة سريعة",
+      "whenTimeIsEssence": "عندما يكون الوقت جوهرياً",
+      "whatMakesSpecial": "ما الذي يجعل {countyName} مميزة",
+      "marketAnalysis": "تحليل السوق",
+      "currentRealEstateTrends": "اتجاهات العقارات الحالية في {countyName}",
+      "countyGuide": "دليل المقاطعة",
+      "discoverBestAreas": "اكتشف أفضل المناطق في {countyName}",
+      "citiesInCounty": "المدن في {countyName}",
+      "exploreCitiesInCounty": "استكشف المدن في {countyName}",
+      "discoverDiverseCities": "اكتشف المدن والمجتمعات المتنوعة داخل {countyName}",
+      "searchCities": "البحث في المدن...",
+      "citiesFound": "مدينة",
+      "noCitiesFound": "لم يتم العثور على مدن في {countyName}",
+      "citiesInfoUpdating": "معلومات المدن قيد التحديث حالياً. يرجى التحقق لاحقاً.",
+      "citiesInfoEnglishOnly": "معلومات المدن متاحة باللغة الإنجليزية حالياً. نحن نعمل على الترجمة.",
+      "viewInEnglish": "عرض باللغة الإنجليزية",
+      "previous": "السابق",
+      "next": "التالي",
+      "backToHome": "العودة إلى الصفحة الرئيسية",
+      "highlights": "النقاط البارزة",
+      "faqs": "الأسئلة الشائعة",
+      "population": "السكان",
+      "readyToFindDreamProperty": "هل أنت مستعد للعثور على عقارك المثالي؟",
+      "contactExpertTeam": "اتصل بفريقنا الخبير اليوم للحصول على استشارة شخصية وابدأ رحلتك للعثور على المنزل المثالي أو عقار الاستثمار.",
+      "scheduleConsultation": "جدولة استشارة",
+      "readyToBuyOrSell": "هل أنت مستعد للشراء أو البيع في {countyName}؟ اتصل بـ Reza Barghlameno اليوم للحصول على التوجيه الخبير والخدمة السريعة عندما تحتاجها أكثر.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "الاسم",
+      "enterYourName": "أدخل اسمك",
+      "phone": "الهاتف",
+      "enterYourPhone": "أدخل هاتفك",
+      "email": "البريد الإلكتروني",
+      "enterYourEmail": "أدخل بريدك الإلكتروني",
+      "message": "الرسالة",
+      "enterYourMessage": "أدخل رسالتك",
+      "sendMessage": "إرسال الرسالة",
+      "sending": "جاري الإرسال..."
+    },
+    "countyCards": {
+      "destinations": "الوجهات",
+      "loadingCounties": "جاري تحميل المقاطعات...",
+      "noCountiesAvailable": "لا توجد مقاطعات متاحة في الوقت الحالي.",
+      "seeAllCities": "عرض جميع المدن",
+      "cities": "مدن",
+      "orangeCounty": {
+        "name": "مقاطعة أورانج",
+        "description": "منطقة ساحلية معروفة بشواطئها الخلابة والأحياء الراقية والمجتمعات الصديقة للعائلة، مع مطاعم وتسوق من الطراز العالمي.",
+        "tags": {
+          "coastalLiving": "الحياة الساحلية",
+          "familyFriendly": "صديق للعائلة"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "مقاطعة لوس أنجلوس",
+        "description": "مركز ثقافي متنوع يقدم كل شيء من الترفيه والفنون إلى المناطق التجارية النابضة بالحياة والهروب الساحلي الخلاب.",
+        "tags": {
+          "culturalDiversity": "التنوع الثقافي",
+          "entertainment": "الترفيه"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "مقاطعة سان دييغو",
+        "description": "جنة هادئة مع شواطئ جميلة ومشهد تكنولوجي وحيوي للتكنولوجيا الحيوية وطقس مثالي على مدار العام.",
+        "tags": {
+          "beaches": "الشواطئ",
+          "outdoorLiving": "الحياة في الهواء الطلق"
+        }
+      }
     }
   },
   "blog": {

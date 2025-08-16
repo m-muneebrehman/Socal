@@ -7,6 +7,21 @@ interface ConsultationFormProps {
   button?: string
   cityName?: string
   showCitySpecific?: boolean
+  // Translation props
+  rezaBarghlameno?: string
+  primeLocalHomes?: string
+  readyToBuyOrSell?: string
+  name?: string
+  enterYourName?: string
+  phone?: string
+  enterYourPhone?: string
+  email?: string
+  enterYourEmail?: string
+  message?: string
+  enterYourMessage?: string
+  sendMessage?: string
+  back?: string
+  sending?: string
 }
 
 const ConsultationForm = ({ 
@@ -14,7 +29,22 @@ const ConsultationForm = ({
   text = "Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.",
   button = "Schedule Consultation",
   cityName,
-  showCitySpecific = false
+  showCitySpecific = false,
+  // Translation props
+  rezaBarghlameno,
+  primeLocalHomes,
+  readyToBuyOrSell,
+  name,
+  enterYourName,
+  phone,
+  enterYourPhone,
+  email,
+  enterYourEmail,
+  message,
+  enterYourMessage,
+  sendMessage,
+  back,
+  sending
 }: ConsultationFormProps) => {
   const [showConsultation, setShowConsultation] = useState(false)
   const [contactFormData, setContactFormData] = useState({
@@ -137,8 +167,8 @@ const ConsultationForm = ({
             {/* Left Side - Agent Information */}
             <div className="agent-info-section">
               <div className="agent-info">
-                <h3 className="agent-name">Reza Barghlameno</h3>
-                <p className="company-name">Prime Local Homes</p>
+                <h3 className="agent-name">{rezaBarghlameno || "Reza Barghlameno"}</h3>
+                <p className="company-name">{primeLocalHomes || "Prime Local Homes"}</p>
                 <div className="contact-details">
                   <div className="contact-item">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -156,8 +186,8 @@ const ConsultationForm = ({
                 </div>
                 <p className="consultation-cta-text">
                   {showCitySpecific && cityName 
-                    ? `Ready to buy or sell in ${cityName}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.`
-                    : "Ready to buy or sell in Southern California? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+                    ? readyToBuyOrSell?.replace('{countyName}', cityName) || `Ready to buy or sell in ${cityName}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.`
+                    : readyToBuyOrSell?.replace('{countyName}', 'Southern California') || "Ready to buy or sell in Southern California? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
                   }
                 </p>
               </div>
@@ -170,26 +200,26 @@ const ConsultationForm = ({
                   {/* First Row - Name and Phone */}
                   <div className="form-row">
                     <div className="form-field">
-                      <label htmlFor="name" className="form-label">Name</label>
+                      <label htmlFor="name" className="form-label">{name || "Name"}</label>
                       <input
                         type="text"
                         id="name"
                         name="name"
                         className="form-input-field"
-                        placeholder="Enter your name"
+                        placeholder={enterYourName || "Enter your name"}
                         value={contactFormData.name}
                         onChange={handleContactFormChange}
                         required
                       />
                     </div>
                     <div className="form-field">
-                      <label htmlFor="phone" className="form-label">Phone</label>
+                      <label htmlFor="phone" className="form-label">{phone || "Phone"}</label>
                       <input
                         type="tel"
                         id="phone"
                         name="phone"
                         className="form-input-field"
-                        placeholder="Enter your phone"
+                        placeholder={enterYourPhone || "Enter your phone"}
                         value={contactFormData.phone}
                         onChange={handleContactFormChange}
                         required
@@ -200,13 +230,13 @@ const ConsultationForm = ({
                   {/* Second Row - Email */}
                   <div className="form-row">
                     <div className="form-field full-width">
-                      <label htmlFor="email" className="form-label">Email</label>
+                      <label htmlFor="email" className="form-label">{email || "Email"}</label>
                       <input
                         type="email"
                         id="email"
                         name="email"
                         className="form-input-field"
-                        placeholder="Enter your email"
+                        placeholder={enterYourEmail || "Enter your email"}
                         value={contactFormData.email}
                         onChange={handleContactFormChange}
                         required
@@ -217,12 +247,12 @@ const ConsultationForm = ({
                   {/* Third Row - Message */}
                   <div className="form-row">
                     <div className="form-field full-width">
-                      <label htmlFor="message" className="form-label">Message</label>
+                      <label htmlFor="message" className="form-label">{message || "Message"}</label>
                       <textarea
                         id="message"
                         name="message"
                         className="form-textarea-field"
-                        placeholder="Enter your message"
+                        placeholder={enterYourMessage || "Enter your message"}
                         rows={4}
                         value={contactFormData.message}
                         onChange={handleContactFormChange}
@@ -235,7 +265,7 @@ const ConsultationForm = ({
                   <div className="form-row">
                     <div className="form-field full-width">
                       <button type="submit" className="submit-button" disabled={isSubmitting}>
-                        {isSubmitting ? 'Sending...' : 'Send Message'}
+                        {isSubmitting ? (sending || 'Sending...') : (sendMessage || 'Send Message')}
                       </button>
                       {submitStatus === 'success' && (
                         <p className="form-status-message success">{statusMessage}</p>
@@ -257,7 +287,7 @@ const ConsultationForm = ({
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            Back
+            {back || "Back"}
           </button>
         </div>
       </section>
