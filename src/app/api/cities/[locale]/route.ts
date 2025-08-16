@@ -10,14 +10,18 @@ export async function GET(
     const { locale } = params
     
     // Construct the directory path for the locale
-    const localeDir = path.join(process.cwd(), 'src', 'data', 'cities', locale)
+    let localeDir = path.join(process.cwd(), 'src', 'data', 'cities', locale)
     
-    // Check if the directory exists
+    // If the requested locale doesn't exist, fall back to English
     if (!fs.existsSync(localeDir)) {
-      return NextResponse.json(
-        { error: 'Locale not found' },
-        { status: 404 }
-      )
+      console.log(`Cities locale ${locale} not found, falling back to English`)
+      localeDir = path.join(process.cwd(), 'src', 'data', 'cities', 'en')
+      
+      // If English also doesn't exist, return empty array
+      if (!fs.existsSync(localeDir)) {
+        console.log('English cities directory not found, returning empty array')
+        return NextResponse.json([])
+      }
     }
     
     // Read all JSON files in the directory
@@ -53,6 +57,7 @@ export async function GET(
       }
     }
     
+    console.log(`Returning ${cities.length} cities for locale ${locale} (from ${localeDir})`)
     return NextResponse.json(cities)
   } catch (error) {
     console.error('Error reading cities:', error)
