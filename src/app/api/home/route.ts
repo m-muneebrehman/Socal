@@ -12,7 +12,25 @@ export async function GET(request: NextRequest) {
     const locale = searchParams.get('locale') || 'en'
     console.log('🌍 Requested locale:', locale)
     
-    // First try to get data from MongoDB
+    // First try to get data from JSON files (faster)
+    const jsonPath = path.join(process.cwd(), 'src', 'data', 'home', locale, 'home.json')
+    if (fs.existsSync(jsonPath)) {
+      console.log('✅ Returning data from JSON file for locale:', locale)
+      const jsonData = fs.readFileSync(jsonPath, 'utf8')
+      return NextResponse.json(JSON.parse(jsonData))
+    }
+
+    // Fallback to English if requested locale doesn't exist
+    if (locale !== 'en') {
+      const englishPath = path.join(process.cwd(), 'src', 'data', 'home', 'en', 'home.json')
+      if (fs.existsSync(englishPath)) {
+        console.log('⚠️ Locale not found, falling back to English JSON file')
+        const jsonData = fs.readFileSync(englishPath, 'utf8')
+        return NextResponse.json(JSON.parse(jsonData))
+      }
+    }
+
+    // Only try MongoDB if JSON files are not available
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected')
@@ -25,28 +43,10 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(cleanHomeData)
       }
     } catch (dbError) {
-      console.log('⚠️ Database not available, falling back to JSON file:', dbError)
+      console.log('⚠️ Database not available:', dbError)
     }
 
-    // Fallback to JSON file based on locale
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'home', locale, 'home.json')
-    if (fs.existsSync(jsonPath)) {
-      console.log('✅ Returning data from JSON file for locale:', locale)
-      const jsonData = fs.readFileSync(jsonPath, 'utf8')
-      return NextResponse.json(JSON.parse(jsonData))
-    }
-
-    // Fallback to English if requested locale doesn't exist
-    if (locale !== 'en') {
-      const englishPath = path.join(process.cwd(), 'src', 'data', 'home', 'en', 'home.json')
-      if (fs.existsSync(englishPath)) {
-        console.log('⚠️ Locale not found, falling back to English')
-        const jsonData = fs.readFileSync(englishPath, 'utf8')
-        return NextResponse.json(JSON.parse(jsonData))
-      }
-    }
-
-    // Return default structure if no data exists
+    // Return default structure if no data exists anywhere
     console.log('✅ Returning default data structure')
     return NextResponse.json({
       hero: {

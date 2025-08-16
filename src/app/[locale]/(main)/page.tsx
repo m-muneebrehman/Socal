@@ -15,65 +15,43 @@ const Home = () => {
   const params = useParams()
   const [homeData, setHomeData] = useState<Record<string, any> | null>(null)
   const [loading, setLoading] = useState(true)
-      const locale = (params as Record<string, any>).locale || 'en'
+  const locale = (params as Record<string, any>).locale || 'en'
 
   const fetchHomeData = async () => {
     try {
-      // Try to fetch from the API first with locale
+      console.log('🌍 Fetching home data for locale:', locale)
+      
+      // Use the API route which can access src/data files and prioritizes JSON over MongoDB
       const response = await fetch(`/api/home?locale=${locale}`, {
-        cache: 'no-store' // Disable caching
+        cache: 'no-store'
       })
       
       if (response.ok) {
         const data = await response.json()
-        console.log('✅ Home page received API data:', data)
+        console.log('✅ Home page loaded successfully for locale:', locale)
         setHomeData(data)
       } else {
-        // Fallback to local JSON file based on locale
-        const localResponse = await fetch(`/data/home/${locale}/home.json`, {
-          cache: 'no-store' // Disable caching
-        })
-        if (localResponse.ok) {
-          const localData = await localResponse.json()
-          console.log('✅ Home page received localized JSON data:', localData)
-          setHomeData(localData)
-        } else {
-          // Final fallback to English
-          const englishResponse = await fetch('/data/home/en/home.json', {
-            cache: 'no-store' // Disable caching
+        // Fallback to English if requested locale doesn't exist
+        if (locale !== 'en') {
+          console.log('⚠️ Locale not found, falling back to English...')
+          const englishResponse = await fetch('/api/home?locale=en', {
+            cache: 'no-store'
           })
           if (englishResponse.ok) {
             const englishData = await englishResponse.json()
-            console.log('✅ Home page received English fallback data:', englishData)
+            console.log('✅ Fallback to English successful')
             setHomeData(englishData)
+          } else {
+            throw new Error('Neither requested locale nor English fallback found')
           }
+        } else {
+          throw new Error('English home data not found')
         }
       }
     } catch (error) {
-      console.error('❌ Error fetching home data:', error)
-      // Fallback to local JSON file based on locale
-      try {
-        const localResponse = await fetch(`/data/home/${locale}/home.json`, {
-          cache: 'no-store' // Disable caching
-        })
-        if (localResponse.ok) {
-          const localData = await localResponse.json()
-          console.log('✅ Home page received fallback localized JSON data:', localData)
-          setHomeData(localData)
-        } else {
-          // Final fallback to English
-          const englishResponse = await fetch('/data/home/en/home.json', {
-            cache: 'no-store' // Disable caching
-          })
-          if (englishResponse.ok) {
-            const englishData = await englishResponse.json()
-            console.log('✅ Home page received English fallback data:', englishData)
-            setHomeData(englishData)
-          }
-        }
-      } catch (localError) {
-        console.error('❌ Error fetching local home data:', localError)
-      }
+      console.error('❌ Error loading home data:', error)
+      // Show error state
+      setHomeData(null)
     } finally {
       setLoading(false)
     }
@@ -88,29 +66,6 @@ const Home = () => {
     setLoading(true)
     fetchHomeData()
   }
-
-  // Listen for storage events (when admin updates data)
-  useEffect(() => {
-    const handleStorageChange = (e: StorageEvent) => {
-      if (e.key === 'homeDataUpdated') {
-        console.log('🔄 Home data updated via storage, refreshing...')
-        refreshData()
-      }
-    }
-
-    const handleCustomEvent = () => {
-      console.log('🔄 Home data updated via custom event, refreshing...')
-      refreshData()
-    }
-
-    window.addEventListener('storage', handleStorageChange)
-    window.addEventListener('homeDataUpdated', handleCustomEvent)
-    
-    return () => {
-      window.removeEventListener('storage', handleStorageChange)
-      window.removeEventListener('homeDataUpdated', handleCustomEvent)
-    }
-  }, [])
 
   if (loading) {
     return <PrestigeLoading />

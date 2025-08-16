@@ -1,9 +1,9 @@
 {
   "navigation": {
     "cities": "Ciudades",
+    "blogs": "Blogs",
     "services": "Servicios",
-    "insights": "Perspectivas",
-    "reviews": "Reseñas"
+    "contact": "Contacto"
   },
   "hero": {
     "badge": "Bienes Raíces de Lujo Globales",
@@ -90,7 +90,7 @@
     "readArticle": "Leer Artículo",
     "exploreMore": "Explorar Más Perspectivas",
     "meta": {
-      "title": "Perspectivas y Noticias de Bienes Raíces de Lujo | Prestige Estates",
+      "title": "Perspectivas y Noticias de Bienes Raíces de Lujo | SoCal Prime Homes",
       "description": "Mantente informado con análisis experto, tendencias del mercado y perspectivas exclusivas del mundo de las inversiones en bienes raíces de lujo."
     },
     "featured": "Destacado",
@@ -126,7 +126,7 @@
     "button": "Programar Consulta"
   },
   "footer": {
-    "about": "Con más de dos décadas de experiencia, Prestige Estates es una empresa líder global de consultoría inmobiliaria especializada en bienes raíces de lujo y servicios de reubicación personalizados.",
+    "about": "Con más de dos décadas de experiencia, SoCal Prime Homes es una empresa líder global de consultoría inmobiliaria especializada en bienes raíces de lujo y servicios de reubicación personalizados.",
     "quickLinks": "Enlaces Rápidos",
     "locations": "Ubicaciones",
     "contact": "Contacto",
@@ -139,7 +139,12 @@
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
     "address": "123 Avenida del Lujo<br />Beverly Hills, CA 90210",
-    "copyright": "© 2023 Prestige Estates. Todos los derechos reservados.",
+    "copyright": "© 2025, hecho con amor en California",
+    "citiesDescription": "Ciudades - Explora nuestras ciudades destacadas y descubre oportunidades inmobiliarias premium en ubicaciones privilegiadas",
+    "blogsDescription": "Blogs - Mantente actualizado con las últimas perspectivas inmobiliarias, tendencias del mercado y consejos de inversión",
+    "contactDescription": "Contacto - Ponte en contacto con nuestro equipo experto para consultas inmobiliarias personalizadas y apoyo",
+    "partnersTitle": "Nuestros Socios",
+    "partnersDescription": "Confiado por profesionales y organizaciones inmobiliarias líderes en todo el mundo. Sus socios premium para bienes raíces costeros de lujo en California.",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio"
   }

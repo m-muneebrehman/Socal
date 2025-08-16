@@ -12,9 +12,10 @@ interface HeroProps {
     scrollDown: string
     backgroundImage?: string
   }
+  currentLocale?: string
 }
 
-const Hero = ({ heroData }: HeroProps) => {
+const Hero = ({ heroData, currentLocale = 'en' }: HeroProps) => {
   const t = useTranslations('hero');
   
   const scrollToStats = () => {
@@ -32,7 +33,7 @@ const Hero = ({ heroData }: HeroProps) => {
   const viewProperties = heroData?.viewProperties || t('viewProperties')
   const contactUs = heroData?.contactUs || t('contactUs')
   const scrollDown = heroData?.scrollDown || t('scrollDown')
-  const backgroundImage = heroData?.backgroundImage || 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'
+  const backgroundImage = heroData?.backgroundImage || '/home/hero.jpg'
 
   return (
     <section 
@@ -46,10 +47,12 @@ const Hero = ({ heroData }: HeroProps) => {
     >
       <div className="hero-content">
         <div className="hero-badge">{badge}</div>
-        <h1 className="hero-title">{title}</h1>
-        <p className="hero-subtitle">{subtitle}</p>
+        <h1 className="hero-title" lang={currentLocale}>{title}</h1>
+        <p className="hero-subtitle" lang={currentLocale}>{subtitle}</p>
         <div className="hero-cta">
-          <button className="btn-primary">{viewProperties}</button>
+          <Link href="/cities" className="btn-primary">
+            {viewProperties}
+          </Link>
           <Link href="/contact" className="btn-secondary">
             {contactUs}
           </Link>

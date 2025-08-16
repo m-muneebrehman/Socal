@@ -184,7 +184,28 @@ export default function CityManager({
                         href: '', 
                         anchor: '', 
                         context: '' 
-                      }]
+                      }],
+                      
+                      // Additional fields to preserve
+                      city: city.city || '',
+                      county: city.county || '',
+                      url_slug: city.url_slug || '',
+                      meta_title: city.meta_title || '',
+                      meta_description: city.meta_description || '',
+                      h1_title: city.h1_title || '',
+                      primary_keywords: city.primary_keywords || [],
+                      secondary_keywords: city.secondary_keywords || [],
+                      express_keywords: city.express_keywords || [],
+                      agent_keywords: city.agent_keywords || [],
+                      landing_page_text: city.landing_page_text || '',
+                      express_service: city.express_service || '',
+                      neighborhood_guide: city.neighborhood_guide || '',
+                      market_analysis: city.market_analysis || '',
+                      agent_name: city.agent_name || '',
+                      company_name: city.company_name || '',
+                      contact_phone: city.contact_phone || '',
+                      contact_email: city.contact_email || '',
+                      cta_text: city.cta_text || ''
                     })
                     setShowCityModal(true)
                   }}

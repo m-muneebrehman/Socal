@@ -455,19 +455,21 @@ body {
   height: 100vh;
   min-height: 800px;
   background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
-              url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+              url('/home/hero.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
-  padding: 0 40px;
+  padding: 120px 40px 40px 40px; /* Increased top padding to avoid navbar overlap */
   color: var(--white);
+  overflow: hidden; /* Prevent text overflow */
 }
 
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  padding-top: 20px; /* Additional top spacing */
 }
 
 .hero-badge {
@@ -491,6 +493,8 @@ body {
   line-height: 1.1;
   margin-bottom: 30px;
   max-width: 700px;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
 }
 
 .hero-subtitle {
@@ -501,11 +505,36 @@ body {
   max-width: 600px;
   opacity: 0.9;
   line-height: 1.6;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
+}
+
+/* Responsive text sizing for different languages */
+.hero-title[lang="de"],
+.hero-title[lang="de"] {
+  font-size: 64px; /* Smaller font for German */
+}
+
+.hero-subtitle[lang="de"],
+.hero-subtitle[lang="de"] {
+  font-size: 18px; /* Smaller font for German */
+  max-width: 650px; /* Allow slightly wider text */
+}
+
+.hero-title[lang="ar"],
+.hero-title[lang="ar"] {
+  font-size: 68px; /* Medium font for Arabic */
+}
+
+.hero-subtitle[lang="ar"],
+.hero-subtitle[lang="ar"] {
+  font-size: 19px; /* Medium font for Arabic */
 }
 
 .hero-cta {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
 }
 
 /* Swipe Down Button */
@@ -629,13 +658,17 @@ body {
 
 .stat-card {
   text-align: center;
-  padding: 50px 20px;
+  padding: 35px 20px;
   background: var(--white);
   border-radius: 4px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .stat-card::after {
@@ -662,17 +695,19 @@ body {
 
 .stat-number {
   font-family: 'Playfair Display', serif;
-  font-size: 56px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
   color: var(--gold);
-  margin-bottom: 10px;
-  line-height: 1;
+  margin-bottom: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 .stat-label {
   font-size: 14px;
   color: var(--charcoal);
-  letter-spacing: 1px;
   text-transform: uppercase;
   opacity: 0.8;
 }
@@ -693,7 +728,7 @@ body {
   }
   
   .stat-number {
-    font-size: 48px;
+    font-size: 11px;
   }
 }
 
@@ -717,7 +752,7 @@ body {
   }
   
   .stat-number {
-    font-size: 44px;
+    font-size: 10px;
     margin-bottom: 12px;
   }
   
@@ -745,13 +780,13 @@ body {
   }
   
   .stat-number {
-    font-size: 36px;
-    line-height: 1.1;
+    font-size: 11px;
+    line-height: 1.3;
     margin-bottom: 10px;
   }
   
   .stat-label {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.3;
     letter-spacing: 0.5px;
   }
@@ -3627,19 +3662,21 @@ body {
   height: 100vh;
   min-height: 800px;
   background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
-              url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+              url('/home/hero.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
-  padding: 0 40px;
+  padding: 120px 40px 40px 40px; /* Increased top padding to avoid navbar overlap */
   color: var(--white);
+  overflow: hidden; /* Prevent text overflow */
 }
 
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  padding-top: 20px; /* Additional top spacing */
 }
 
 .hero-badge {
@@ -3663,6 +3700,8 @@ body {
   line-height: 1.1;
   margin-bottom: 30px;
   max-width: 700px;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
 }
 
 .hero-subtitle {
@@ -3673,11 +3712,36 @@ body {
   max-width: 600px;
   opacity: 0.9;
   line-height: 1.6;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
+}
+
+/* Responsive text sizing for different languages */
+.hero-title[lang="de"],
+.hero-title[lang="de"] {
+  font-size: 64px; /* Smaller font for German */
+}
+
+.hero-subtitle[lang="de"],
+.hero-subtitle[lang="de"] {
+  font-size: 18px; /* Smaller font for German */
+  max-width: 650px; /* Allow slightly wider text */
+}
+
+.hero-title[lang="ar"],
+.hero-title[lang="ar"] {
+  font-size: 68px; /* Medium font for Arabic */
+}
+
+.hero-subtitle[lang="ar"],
+.hero-subtitle[lang="ar"] {
+  font-size: 19px; /* Medium font for Arabic */
 }
 
 .hero-cta {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
 }
 
 /* Swipe Down Button */
@@ -14996,6 +15060,444 @@ body {
   
   .sales-grid-modal {
     gap: 12px;
+  }
+}
+
+/* Form Section Styles */
+.form-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.form-section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f59e0b;
+}
+
+/* Admin Dashboard Form Label Styles - Ensure visibility */
+.admin-dashboard .form-label {
+  display: block !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #374151 !important;
+  margin-bottom: 8px !important;
+  line-height: 1.4 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+
+
+.admin-dashboard .form-group {
+  margin-bottom: 16px;
+}
+
+.admin-dashboard .form-input,
+.admin-dashboard .form-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.admin-dashboard .form-input:focus,
+.admin-dashboard .form-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.admin-dashboard .form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.admin-dashboard .form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Consultation Form Styles - Keep existing design, just add responsive */
+.right-content-section {
+  /* Keep existing styles - don't change design */
+}
+
+.contact-form-container {
+  /* Keep existing styles - don't change design */
+}
+
+.contact-form-simple {
+  /* Keep existing styles - don't change design */
+}
+
+.form-row {
+  /* Keep existing styles - don't change design */
+}
+
+.form-field {
+  /* Keep existing styles - don't change design */
+}
+
+.form-field.full-width {
+  /* Keep existing styles - don't change design */
+}
+
+.form-input-field,
+.form-textarea-field {
+  /* Keep existing styles - don't change design */
+}
+
+.form-input-field:focus,
+.form-textarea-field:focus {
+  /* Keep existing styles - don't change design */
+}
+
+.form-textarea-field {
+  /* Keep existing styles - don't change design */
+}
+
+.submit-button {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.3);
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%) !important;
+}
+
+.submit-button:disabled {
+  /* Keep existing styles - don't change design */
+}
+
+.form-status-message {
+  /* Keep existing styles - don't change design */
+}
+
+.form-status-message.success {
+  /* Keep existing styles - don't change design */
+}
+
+.form-status-message.error {
+  /* Keep existing styles - don't change design */
+}
+
+/* Responsive Design for Consultation Form - Only add responsive behavior */
+@media (max-width: 768px) {
+  .right-content-section {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .contact-form-container {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .form-field {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-content-section {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .contact-form-container {
+    padding: 0 0.25rem;
+  }
+  
+  .form-input-field,
+  .form-textarea-field {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-textarea-field {
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 360px) {
+  .right-content-section {
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+  }
+  
+  .contact-form-container {
+    padding: 0;
+  }
+  
+  .form-input-field,
+  .form-textarea-field {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  
+  .submit-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .right-content-section {
+    padding: 0.15rem;
+    margin: 0.15rem 0;
+  }
+  
+  .contact-form-container {
+    padding: 0;
+  }
+  
+  .form-row {
+    gap: 0.5rem;
+  }
+  
+  .form-input-field,
+  .form-textarea-field {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border-width: 1px;
+  }
+  
+  .submit-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .form-textarea-field {
+    min-height: 60px;
+  }
+  
+  .form-label {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .right-content-section {
+    padding: 0.1rem;
+    margin: 0.1rem 0;
+  }
+  
+  .form-input-field,
+  .form-textarea-field {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.75rem;
+  }
+  
+  .submit-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+  }
+  
+  .form-textarea-field {
+    min-height: 50px;
+  }
+  
+  .form-label {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
+
+
+/* Consultation Form Responsive - Original Design */
+@media (max-width: 768px) {
+  /* Make the consultation grid stack vertically on small screens */
+  .consultation-grid {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  
+  /* Ensure form inputs are properly sized */
+  .form-input-field,
+  .form-textarea-field {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Adjust form row layout for small screens */
+  .form-row {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  
+  .form-field {
+    width: 100% !important;
+  }
+}
+
+/* Medium screens - gradual transition */
+@media (max-width: 900px) and (min-width: 770px) {
+  .consultation-grid {
+    gap: 1.5rem !important;
+  }
+  
+  .agent-info-section,
+  .right-content-section {
+    padding: 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .consultation-section-wrapper {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+  
+  .consultation-section-back {
+    padding: 1rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .consultation-back-content {
+    padding: 1rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .consultation-grid {
+    gap: 0.75rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .agent-info-section {
+    padding: 1rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .right-content-section {
+    padding: 1rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .consultation-section-wrapper {
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+  
+  .consultation-section-back {
+    padding: 0.75rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .consultation-back-content {
+    padding: 0.75rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .consultation-grid {
+    gap: 0.5rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+  }
+  
+  .agent-info-section {
+    padding: 0.75rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .right-content-section {
+    padding: 0.75rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+    transform: none !important;
   }
 }
 

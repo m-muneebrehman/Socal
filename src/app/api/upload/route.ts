@@ -1,64 +1,69 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { writeFile, mkdir } from 'fs/promises'
+import { writeFile, unlink, mkdir } from 'fs/promises'
 import { join } from 'path'
 import { existsSync } from 'fs'
 
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
-    const file = formData.get('image') as File
-    const name = formData.get('name') as string
+    const file = formData.get('file') as File
+    const type = formData.get('type') as string // 'hero', 'logo', etc.
 
     if (!file) {
-      return NextResponse.json(
-        { error: 'No file uploaded' },
-        { status: 400 }
-      )
+      return NextResponse.json({ error: 'No file provided' }, { status: 400 })
+    }
+
+    if (!type) {
+      return NextResponse.json({ error: 'No type specified' }, { status: 400 })
     }
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      return NextResponse.json(
-        { error: 'File must be an image' },
-        { status: 400 }
-      )
+      return NextResponse.json({ error: 'Only image files are allowed' }, { status: 400 })
     }
 
-    // Validate file size (max 5MB)
-    if (file.size > 5 * 1024 * 1024) {
-      return NextResponse.json(
-        { error: 'File size must be less than 5MB' },
-        { status: 400 }
-      )
+    // Get file extension
+    const fileExtension = file.name.split('.').pop()
+    const fileName = `${type}.${fileExtension}`
+    
+    // Define upload directory - save in public/home/ for hero images
+    const uploadDir = type === 'hero' 
+      ? join(process.cwd(), 'public', 'home')
+      : join(process.cwd(), 'public')
+    
+    // Create directory if it doesn't exist
+    if (!existsSync(uploadDir)) {
+      await mkdir(uploadDir, { recursive: true })
     }
+    
+    const filePath = join(uploadDir, fileName)
 
-    // Create public directory if it doesn't exist
-    const publicDir = join(process.cwd(), 'public')
-    if (!existsSync(publicDir)) {
-      await mkdir(publicDir, { recursive: true })
+    // Remove old file if it exists
+    try {
+      await unlink(filePath)
+    } catch (error) {
+      // File doesn't exist, which is fine
     }
 
     // Convert file to buffer
     const bytes = await file.arrayBuffer()
     const buffer = Buffer.from(bytes)
 
-    // Write file to public directory
-    const filePath = join(publicDir, name)
+    // Write new file
     await writeFile(filePath, buffer)
 
-    // Return success response with file URL
-    return NextResponse.json({
-      message: 'File uploaded successfully',
-      url: `/${name}`,
-      filename: name
+    // Return the file path that can be used in the frontend
+    const fileUrl = type === 'hero' ? `/home/${fileName}` : `/${fileName}`
+
+    return NextResponse.json({ 
+      success: true, 
+      fileUrl,
+      fileName 
     })
 
   } catch (error) {
-    console.error('Error uploading file:', error)
-    return NextResponse.json(
-      { error: 'Failed to upload file' },
-      { status: 500 }
-    )
+    console.error('Upload error:', error)
+    return NextResponse.json({ error: 'Upload failed' }, { status: 500 })
   }
 }
 

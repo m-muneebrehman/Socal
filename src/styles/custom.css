@@ -1,4 +1,11 @@
 /* Add any custom utility classes here */
+
+/* Spinner animation for uploads */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .gold-leaf {
   background-image: url('/golden-leaves.png');
   background-size: contain;

@@ -19,6 +19,7 @@ export default function HomeManager({
 }: HomeManagerProps) {
   const [editingSection, setEditingSection] = useState<string | null>(null)
   const [editData, setEditData] = useState<HomeData>(homeData)
+  const [uploading, setUploading] = useState(false)
 
   // Update editData whenever homeData changes (e.g., when locale changes)
   useEffect(() => {
@@ -244,7 +245,8 @@ export default function HomeManager({
               </div>
 
               <div className="form-group">
-                <label className="form-label">Background Image URL</label>
+                <label className="form-label">Background Image</label>
+                <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
                 <input
                   type="text"
                   className="form-input"
@@ -254,8 +256,107 @@ export default function HomeManager({
                     ...prev,
                     hero: { ...prev.hero, backgroundImage: e.target.value }
                   }))}
-                />
-                <small className="form-help">Enter a valid image URL or leave empty for default</small>
+                    style={{ flex: 1 }}
+                  />
+                  <input
+                    type="file"
+                    accept="image/*"
+                    onChange={async (e) => {
+                      const file = e.target.files?.[0]
+                      if (file) {
+                        setUploading(true)
+                        try {
+                          const formData = new FormData()
+                          formData.append('file', file)
+                          formData.append('type', 'hero')
+
+                          const response = await fetch('/api/upload', {
+                            method: 'POST',
+                            body: formData
+                          })
+
+                          if (response.ok) {
+                            const result = await response.json()
+                            // Update the backgroundImage with the new file URL
+                            setEditData(prev => ({
+                              ...prev,
+                              hero: { ...prev.hero, backgroundImage: result.fileUrl }
+                            }))
+                            alert('Image uploaded successfully!')
+                          } else {
+                            console.error('Upload failed')
+                            alert('Failed to upload image')
+                          }
+                        } catch (error) {
+                          console.error('Upload error:', error)
+                          alert('Error uploading image')
+                        } finally {
+                          setUploading(false)
+                        }
+                      }
+                    }}
+                    style={{
+                      padding: '8px',
+                      border: '1px solid #d2d6dc',
+                      borderRadius: '6px',
+                      cursor: uploading ? 'not-allowed' : 'pointer',
+                      opacity: uploading ? 0.6 : 1
+                    }}
+                    disabled={uploading}
+                  />
+                  {uploading && (
+                    <div style={{ 
+                      fontSize: '12px', 
+                      color: '#64748b',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '5px'
+                    }}>
+                      <div style={{
+                        width: '12px',
+                        height: '12px',
+                        border: '2px solid #e2e8f0',
+                        borderTop: '2px solid #d4af37',
+                        borderRadius: '50%',
+                        animation: 'spin 1s linear infinite'
+                      }}></div>
+                      Uploading...
+                    </div>
+                  )}
+                </div>
+                <small className="form-help">Enter a valid image URL or upload an image file (will replace existing hero image)</small>
+                
+                {/* Current Image Preview */}
+                {editData.hero.backgroundImage && (
+                  <div style={{ marginTop: '15px' }}>
+                    <label style={{ fontSize: '12px', color: '#64748b', marginBottom: '8px', display: 'block' }}>
+                      Current Background Image:
+                    </label>
+                    <div style={{
+                      width: '200px',
+                      height: '120px',
+                      backgroundImage: `url('${editData.hero.backgroundImage}')`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      borderRadius: '8px',
+                      border: '1px solid #e2e8f0',
+                      position: 'relative'
+                    }}>
+                      <div style={{
+                        position: 'absolute',
+                        bottom: '5px',
+                        right: '5px',
+                        background: 'rgba(0,0,0,0.7)',
+                        color: 'white',
+                        padding: '2px 6px',
+                        borderRadius: '4px',
+                        fontSize: '10px'
+                      }}>
+                        Preview
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           ) : (
@@ -263,7 +364,7 @@ export default function HomeManager({
               <div className="hero-preview" style={{
                 position: 'relative',
                 height: '300px',
-                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('${homeData.hero.backgroundImage || 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80'}')`,
+                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), url('${homeData.hero.backgroundImage || '/home/hero.jpg'}')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',

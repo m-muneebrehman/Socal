@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { useParams, useRouter } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import LanguageSelector from '../common/LanguageSelector';
+import Image from 'next/image';
 
 const Navigation = () => {
   const t = useTranslations('navigation');
@@ -30,21 +31,17 @@ const Navigation = () => {
     if (event) event.preventDefault();
     const currentPath = window.location.pathname;
 
-    if (target === 'cities' || target === 'blog') {
-      if (currentPath === `/${locale}` || currentPath === `/${locale}/`) {
-        // Already on homepage → smooth scroll to section
-        const el = document.getElementById(target);
-        if (el) {
-          setTimeout(() => {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 100); // small delay to ensure DOM paints
-        }
-      } else {
-        // Navigate to standalone page
-        router.push(`/${locale}/${target}`);
-      }
+    if (target === 'cities') {
+      // Always navigate to cities page
+      router.push(`/${locale}/cities`);
+    } else if (target === 'blog') {
+      // Always navigate to blog page
+      router.push(`/${locale}/blog`);
+    } else if (target === 'contact') {
+      // Always navigate to contact page
+      router.push(`/${locale}/contact`);
     } else {
-      // Services & Testimonials are only sections on homepage
+      // Services are only sections on homepage
       if (currentPath === `/${locale}` || currentPath === `/${locale}/`) {
         const el = document.getElementById(target);
         if (el) {
@@ -103,16 +100,26 @@ const Navigation = () => {
     <nav className={`navigation ${scrolled ? 'py-3 bg-[rgba(26,26,26,0.98)] backdrop-blur-[15px]' : 'py-5 bg-[rgba(26,26,26,0.95)] backdrop-blur-[10px]'}`}>
       <div className="nav-container">
         <Link href="/" locale={locale} className="logo-container">
-          <div className="logo-icon">P</div>
-          <div className="logo-text">Prestige Estates</div>
+          <Image
+            src="/home/logo.jpg"
+            alt="SoCal Prime Homes Logo"
+            width={40}
+            height={40}
+            className="logo-image rounded-lg"
+            style={{
+              transform: 'scale(1.3)',
+              objectFit: 'cover',
+              objectPosition: 'center'
+            }}
+          />
+          <div className="logo-text">SoCal Prime Homes</div>
         </Link>
 
         {/* Desktop Navigation */}
         <ul className="nav-menu">
           <li><button onClick={(e) => handleNavClick('cities', e)} className="nav-link">{t('cities')}</button></li>
-          <li><button onClick={(e) => handleNavClick('blog', e)} className="nav-link">{t('insights')}</button></li>
-          <li><button onClick={(e) => handleNavClick('services', e)} className="nav-link">{t('services')}</button></li>
-          <li><button onClick={(e) => handleNavClick('testimonials', e)} className="nav-link">{t('reviews')}</button></li>
+          <li><button onClick={(e) => handleNavClick('blog', e)} className="nav-link">{t('blogs')}</button></li>
+          <li><button onClick={(e) => handleNavClick('contact', e)} className="nav-link">{t('contact')}</button></li>
         </ul>
 
         {/* Mobile Menu Button */}
@@ -132,9 +139,8 @@ const Navigation = () => {
         <div className="mobile-nav-menu">
           <ul className="mobile-nav-list">
             <li><button onClick={(e) => handleNavClick('cities', e)} className="mobile-nav-link">{t('cities')}</button></li>
-            <li><button onClick={(e) => handleNavClick('blog', e)} className="mobile-nav-link">{t('insights')}</button></li>
-            <li><button onClick={(e) => handleNavClick('services', e)} className="mobile-nav-link">{t('services')}</button></li>
-            <li><button onClick={(e) => handleNavClick('testimonials', e)} className="mobile-nav-link">{t('reviews')}</button></li>
+            <li><button onClick={(e) => handleNavClick('blog', e)} className="mobile-nav-link">{t('blogs')}</button></li>
+            <li><button onClick={(e) => handleNavClick('contact', e)} className="mobile-nav-link">{t('contact')}</button></li>
           </ul>
         </div>
       )}

@@ -340,6 +340,27 @@ export default function AdminDashboard() {
     seo?: { metaTitle: string; metaDescription: string; keywords?: string; ogTitle?: string; ogDescription?: string; ogImage?: string; ogImageAlt?: string; twitterCard?: string }
     schema_markup?: any[]
     language?: string
+    
+    // Additional fields
+    city?: string
+    county?: string
+    url_slug?: string
+    meta_title?: string
+    meta_description?: string
+    h1_title?: string
+    primary_keywords?: string[]
+    secondary_keywords?: string[]
+    express_keywords?: string[]
+    agent_keywords?: string[]
+    landing_page_text?: string
+    express_service?: string
+    neighborhood_guide?: string
+    market_analysis?: string
+    agent_name?: string
+    company_name?: string
+    contact_phone?: string
+    contact_email?: string
+    cta_text?: string
   }
 
   const [blogForm, setBlogForm] = useState<Blog>(emptyBlog)
@@ -351,7 +372,9 @@ export default function AdminDashboard() {
     population: '',
     avgHomePrice: '',
     heroImage: '',
+    heroImageAlt: '',
     shortDescription: '',
+    fullDescription: '',
     tags: [],
     neighborhoods: [
       {
@@ -366,9 +389,42 @@ export default function AdminDashboard() {
         county: ''
       }
     ],
-    highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
+    highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
     faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-    fullDescription: ''
+    
+    // Additional fields
+    city: '',
+    county: '',
+    url_slug: '',
+    meta_title: '',
+    meta_description: '',
+    h1_title: '',
+    primary_keywords: [],
+    secondary_keywords: [],
+    express_keywords: [],
+    agent_keywords: [],
+    landing_page_text: '',
+    express_service: '',
+    neighborhood_guide: '',
+    market_analysis: '',
+    agent_name: '',
+    company_name: '',
+    contact_phone: '',
+    contact_email: '',
+    cta_text: '',
+    
+    // SEO and schema fields
+    seo: {
+      metaTitle: '',
+      metaDescription: '',
+      keywords: '',
+      ogTitle: '',
+      ogDescription: '',
+      ogImage: '',
+      ogImageAlt: '',
+      twitterCard: 'summary_large_image'
+    },
+    schema_markup: []
   })
   
   const [loadingData, setLoadingData] = useState(false)
@@ -677,7 +733,28 @@ export default function AdminDashboard() {
         
         seo: cityData.seo,
         schema_markup: cityData.schema_markup,
-        language: cityData.language || selectedLang
+        language: cityData.language || selectedLang,
+        
+        // Additional fields to preserve
+        city: cityData.city,
+        county: cityData.county,
+        url_slug: cityData.url_slug,
+        meta_title: cityData.meta_title,
+        meta_description: cityData.meta_description,
+        h1_title: cityData.h1_title,
+        primary_keywords: cityData.primary_keywords,
+        secondary_keywords: cityData.secondary_keywords,
+        express_keywords: cityData.express_keywords,
+        agent_keywords: cityData.agent_keywords,
+        landing_page_text: cityData.landing_page_text,
+        express_service: cityData.express_service,
+        neighborhood_guide: cityData.neighborhood_guide,
+        market_analysis: cityData.market_analysis,
+        agent_name: cityData.agent_name,
+        company_name: cityData.company_name,
+        contact_phone: cityData.contact_phone,
+        contact_email: cityData.contact_email,
+        cta_text: cityData.cta_text
       }
 
       console.log('Sending city data:', cityPayload)
@@ -720,7 +797,29 @@ export default function AdminDashboard() {
             ogImageAlt: '',
             twitterCard: 'summary_large_image'
           },
-          schema_markup: []
+          schema_markup: [],
+          language: 'en',
+          
+          // Additional fields
+          city: '',
+          county: '',
+          url_slug: '',
+          meta_title: '',
+          meta_description: '',
+          h1_title: '',
+          primary_keywords: [],
+          secondary_keywords: [],
+          express_keywords: [],
+          agent_keywords: [],
+          landing_page_text: '',
+          express_service: '',
+          neighborhood_guide: '',
+          market_analysis: '',
+          agent_name: '',
+          company_name: '',
+          contact_phone: '',
+          contact_email: '',
+          cta_text: ''
         })
         addToast('success', 'City created successfully!')
       } else {
@@ -903,7 +1002,28 @@ export default function AdminDashboard() {
         
         seo: cityData.seo,
         schema_markup: cityData.schema_markup,
-        language: cityData.language || selectedLang
+        language: cityData.language || selectedLang,
+        
+        // Additional fields to preserve
+        city: cityData.city,
+        county: cityData.county,
+        url_slug: cityData.url_slug,
+        meta_title: cityData.meta_title,
+        meta_description: cityData.meta_description,
+        h1_title: cityData.h1_title,
+        primary_keywords: cityData.primary_keywords,
+        secondary_keywords: cityData.secondary_keywords,
+        express_keywords: cityData.express_keywords,
+        agent_keywords: cityData.agent_keywords,
+        landing_page_text: cityData.landing_page_text,
+        express_service: cityData.express_service,
+        neighborhood_guide: cityData.neighborhood_guide,
+        market_analysis: cityData.market_analysis,
+        agent_name: cityData.agent_name,
+        company_name: cityData.company_name,
+        contact_phone: cityData.contact_phone,
+        contact_email: cityData.contact_email,
+        cta_text: cityData.cta_text
       }
 
       console.log('Updating city data:', cityPayload)
@@ -947,7 +1067,28 @@ export default function AdminDashboard() {
             ogImageAlt: '',
             twitterCard: 'summary_large_image'
           },
-          schema_markup: []
+          schema_markup: [],
+          
+          // Additional fields
+          city: '',
+          county: '',
+          url_slug: '',
+          meta_title: '',
+          meta_description: '',
+          h1_title: '',
+          primary_keywords: [],
+          secondary_keywords: [],
+          express_keywords: [],
+          agent_keywords: [],
+          landing_page_text: '',
+          express_service: '',
+          neighborhood_guide: '',
+          market_analysis: '',
+          agent_name: '',
+          company_name: '',
+          contact_phone: '',
+          contact_email: '',
+          cta_text: ''
         })
         addToast('success', 'City updated successfully!')
       } else {
@@ -2501,6 +2642,225 @@ export default function AdminDashboard() {
                 
 
                 {/* Internal Links removed */}
+
+                {/* Additional Fields Section */}
+                <div className="form-section">
+                  <h3 className="form-section-title">Additional City Information</h3>
+                  
+
+                  {/* Debug label to test if form is rendering */}
+                  <div className="form-group">
+                    <label style={{display: 'block', color: 'blue', fontSize: '18px', fontWeight: 'bold', backgroundColor: 'yellow', padding: '10px', border: '3px solid blue'}}>DEBUG: This label should be visible</label>
+                  </div>
+                  
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label" style={{display: 'block', color: 'red', fontSize: '16px', fontWeight: 'bold', marginBottom: '8px'}}>City</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="City name"
+                        value={cityForm.city || ''}
+                        onChange={(e) => setCityForm({...cityForm, city: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label" style={{display: 'block', color: 'red', fontSize: '16px', fontWeight: 'bold', marginBottom: '8px'}}>County</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="County name"
+                        value={cityForm.county || ''}
+                        onChange={(e) => setCityForm({...cityForm, county: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label" style={{display: 'block', color: 'red', fontSize: '16px', fontWeight: 'bold', marginBottom: '8px'}}>URL Slug</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="/real-estate-cityname"
+                      value={cityForm.url_slug || ''}
+                      onChange={(e) => setCityForm({...cityForm, url_slug: e.target.value})}
+                    />
+                  </div>
+
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">Meta Title</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Buy & Sell Homes in City | Prime Local Homes - Reza Barghlameno"
+                        value={cityForm.meta_title || ''}
+                        onChange={(e) => setCityForm({...cityForm, meta_title: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">H1 Title</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="City Real Estate Expert - Buy & Sell with Reza Barghlameno"
+                        value={cityForm.h1_title || ''}
+                        onChange={(e) => setCityForm({...cityForm, h1_title: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Meta Description</label>
+                      <textarea 
+                        className="form-textarea" 
+                        placeholder="Expert city real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers."
+                        value={cityForm.meta_description || ''}
+                        onChange={(e) => setCityForm({...cityForm, meta_description: e.target.value})}
+                      ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Primary Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="city real estate, homes for sale in city, buy house in city"
+                      value={Array.isArray(cityForm.primary_keywords) ? cityForm.primary_keywords.join(', ') : cityForm.primary_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, primary_keywords: e.target.value.split(',').map(keyword => keyword.trim()).filter(keyword => keyword !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Secondary Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="best realtor in city, luxury homes in city, condos for sale in city"
+                      value={Array.isArray(cityForm.secondary_keywords) ? cityForm.secondary_keywords.join(', ') : cityForm.secondary_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, secondary_keywords: e.target.value.split(',').map(keyword => keyword.trim()).filter(keyword => keyword !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Express Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="fast home buying city, urgent house search city, express real estate service city"
+                      value={Array.isArray(cityForm.express_keywords) ? cityForm.express_keywords.join(', ') : cityForm.express_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, express_keywords: e.target.value.split(',').map(keyword => keyword.trim()).filter(keyword => keyword !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Agent Keywords (comma separated)</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno city"
+                      value={Array.isArray(cityForm.agent_keywords) ? cityForm.agent_keywords.join(', ') : cityForm.agent_keywords || ''}
+                      onChange={(e) => setCityForm({ ...cityForm, agent_keywords: e.target.value.split(',').map(keyword => keyword.trim()).filter(keyword => keyword !== '') })}
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Landing Page Text</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="Welcome to City, California - one of County's most sought-after communities for homebuyers and sellers..."
+                      value={cityForm.landing_page_text || ''}
+                      onChange={(e) => setCityForm({...cityForm, landing_page_text: e.target.value})}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Express Service Description</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in City..."
+                      value={cityForm.express_service || ''}
+                      onChange={(e) => setCityForm({...cityForm, express_service: e.target.value})}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Neighborhood Guide</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="City is home to several vibrant neighborhoods, each offering unique benefits for different types of buyers..."
+                      value={cityForm.neighborhood_guide || ''}
+                      onChange={(e) => setCityForm({...cityForm, neighborhood_guide: e.target.value})}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Market Analysis</label>
+                    <textarea 
+                      className="form-textarea" 
+                      placeholder="The City real estate market is currently experiencing a period of growth, with property values steadily increasing over the past few years..."
+                      value={cityForm.market_analysis || ''}
+                      onChange={(e) => setCityForm({...cityForm, market_analysis: e.target.value})}
+                    ></textarea>
+                  </div>
+
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">Agent Name</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Reza Barghlameno"
+                        value={cityForm.agent_name || ''}
+                        onChange={(e) => setCityForm({...cityForm, agent_name: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">Company Name</label>
+                      <input 
+                        type="text" 
+                        className="form-input" 
+                        placeholder="Prime Local Homes"
+                        value={cityForm.company_name || ''}
+                        onChange={(e) => setCityForm({...cityForm, company_name: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-grid">
+                    <div className="form-group">
+                      <label className="form-label">Contact Phone</label>
+                      <input 
+                        type="tel" 
+                        className="form-input" 
+                        placeholder="+1-XXX-XXX-XXXX"
+                        value={cityForm.contact_phone || ''}
+                        onChange={(e) => setCityForm({...cityForm, contact_phone: e.target.value})}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label className="form-label">Contact Email</label>
+                      <input 
+                        type="email" 
+                        className="form-input" 
+                        placeholder="reza@primelocalhomes.com"
+                        value={cityForm.contact_email || ''}
+                        onChange={(e) => setCityForm({...cityForm, contact_email: e.target.value})}
+                      />
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">CTA Text</label>
+                    <input 
+                      type="text" 
+                      className="form-input" 
+                      placeholder="Ready to buy or sell in City? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+                      value={cityForm.cta_text || ''}
+                      onChange={(e) => setCityForm({...cityForm, cta_text: e.target.value})}
+                    />
+                  </div>
+                </div>
               </form>
             </div>
             <div className="form-actions">
@@ -2515,15 +2875,48 @@ export default function AdminDashboard() {
                   population: '',
                   avgHomePrice: '',
                   heroImage: '',
+                  heroImageAlt: '',
                   shortDescription: '',
+                  fullDescription: '',
                   tags: [],
                   neighborhoods: [
                     { name: '', type: 'neighborhood', slug: '', description: '', image: '', imageAlt: '', distance: '', avgHomePrice: '', county: '' }
                   ],
-                  highlights: [{ title: '', description: '', icon: '', bgImage: '' }],
+                  highlights: [{ title: '', description: '', icon: '', bgImage: '', bgImageAlt: '' }],
                   faqs: [{ question: '', answer: '', category: 'Neighborhoods' }],
-                  fullDescription: '',
-                   
+                  seo: {
+                    metaTitle: '',
+                    metaDescription: '',
+                    keywords: '',
+                    ogTitle: '',
+                    ogDescription: '',
+                    ogImage: '',
+                    ogImageAlt: '',
+                    twitterCard: 'summary_large_image'
+                  },
+                  schema_markup: [],
+                  language: 'en',
+                  
+                  // Additional fields
+                  city: '',
+                  county: '',
+                  url_slug: '',
+                  meta_title: '',
+                  meta_description: '',
+                  h1_title: '',
+                  primary_keywords: [],
+                  secondary_keywords: [],
+                  express_keywords: [],
+                  agent_keywords: [],
+                  landing_page_text: '',
+                  express_service: '',
+                  neighborhood_guide: '',
+                  market_analysis: '',
+                  agent_name: '',
+                  company_name: '',
+                  contact_phone: '',
+                  contact_email: '',
+                  cta_text: ''
                 })
               }} className="btn btn-secondary">Cancel</button>
               <button type="button" onClick={() => {

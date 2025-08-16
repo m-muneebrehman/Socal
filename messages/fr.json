@@ -1,9 +1,9 @@
 {
   "navigation": {
     "cities": "Villes",
+    "blogs": "Blogs",
     "services": "Services",
-    "insights": "Perspectives",
-    "reviews": "Avis"
+    "contact": "Contact"
   },
   "hero": {
     "badge": "Immobilier de Luxe Mondial",
@@ -90,7 +90,7 @@
     "readArticle": "Lire l'Article",
     "exploreMore": "Explorer Plus de Perspectives",
     "meta": {
-      "title": "Perspectives et Actualités Immobilières de Luxe | Prestige Estates",
+      "title": "Perspectives et Actualités Immobilières de Luxe | SoCal Prime Homes",
       "description": "Restez informé avec notre analyse d'experts, les tendances du marché et les perspectives exclusives du monde des investissements immobiliers de luxe."
     },
     "featured": "En Vedette",
@@ -126,7 +126,7 @@
     "button": "Planifier une Consultation"
   },
   "footer": {
-    "about": "Avec plus de deux décennies d'expérience, Prestige Estates est une entreprise leader mondiale de conseil immobilier spécialisée dans l'immobilier de luxe et les services de relocalisation personnalisés.",
+    "about": "Avec plus de deux décennies d'expérience, SoCal Prime Homes est une entreprise leader mondiale de conseil immobilier spécialisée dans l'immobilier de luxe et les services de relocalisation personnalisés.",
     "quickLinks": "Liens Rapides",
     "locations": "Emplacements",
     "contact": "Contact",
@@ -139,7 +139,12 @@
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
     "address": "123 Avenue du Luxe<br />Beverly Hills, CA 90210",
-    "copyright": "© 2023 Prestige Estates. Tous droits réservés.",
+    "copyright": "© 2025, fait avec amour en Californie",
+    "citiesDescription": "Villes - Explorez nos villes en vedette et découvrez des opportunités immobilières premium dans des emplacements privilégiés",
+    "blogsDescription": "Blogs - Restez à jour avec les dernières perspectives immobilières, tendances du marché et conseils d'investissement",
+    "contactDescription": "Contact - Contactez notre équipe d'experts pour des consultations immobilières personnalisées et un soutien",
+    "partnersTitle": "Nos Partenaires",
+    "partnersDescription": "Approuvé par des professionnels et organisations immobilières de premier plan dans le monde entier. Vos partenaires premium pour les biens immobiliers côtiers de luxe en Californie.",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions de Service"
   }

@@ -1,55 +1,49 @@
 {
-  "locale": "fr",
-  "blog": {
-    "title": "Dernières Perspectives",
-    "subtitle": "Découvrez nos perspectives d'experts sur les marchés immobiliers de luxe dans le monde entier."
-  },
-  "cities": {
-    "title": "Explorez les Villes de Californie",
-    "subtitle": "Découvrez les emplacements les plus désirables de l'État Doré, chacun offrant des opportunités de style de vie uniques et un potentiel d'investissement."
-  },
-  "cta": {
-    "title": "Prêt à Trouver Votre Propriété de Rêve ?",
-    "text": "Contactez notre équipe d'experts aujourd'hui pour une consultation personnalisée et commencez votre voyage pour trouver la maison parfaite ou la propriété d'investissement idéale.",
-    "button": "Programmer une Consultation"
-  },
   "hero": {
     "badge": "Immobilier de Luxe Global",
     "title": "Propriétés Exclusives pour des Clients Exigeants",
-    "subtitle": "Avec plus de 20 ans d'expérience, nous connectons les acheteurs internationaux avec les meilleures propriétés dans les emplacements les plus désirables du monde.",
-    "viewProperties": "Voir les Propriétés",
+    "subtitle": "Nous servons fièrement une clientèle internationale, offrant des services immobiliers sur mesure dans chaque ville du sud de la Californie. Des retraites côtières aux résidences urbaines animées, nous vous mettons en relation avec des propriétés extraordinaires dans les emplacements les plus prisés de la région.",
+    "viewProperties": "Voir les villes",
     "contactUs": "Nous Contacter",
     "scrollDown": "Défiler Vers le Bas",
-    "backgroundImage": "https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80"
+    "backgroundImage": "/home/hero.jpg"
+  },
+  "stats": {
+    "yearsExperience": "Réponse rapide",
+    "billionInSales": "Focus sur le sud de la Californie",
+    "countriesServed": "Portée mondiale",
+    "clientSatisfaction": "Engagement qualité",
+    "yearsExperienceLabel": "Exécution rapide pour chaque projet",
+    "billionInSalesLabel": "Forte présence locale & expertise",
+    "countriesServedLabel": "Au service de partenaires dans tous les secteurs",
+    "clientSatisfactionLabel": "Dépasser les attentes à chaque fois"
   },
   "services": {
-    "title": "Nos Services",
-    "subtitle": "Solutions immobilières complètes adaptées à vos besoins uniques.",
+    "title": "Nos Services – Prime Local Homes",
+    "subtitle": "Solutions immobilières complètes de Prime Local Homes, adaptées à votre style de vie, à vos objectifs d’investissement et à vos besoins de relocalisation.",
     "propertyAcquisition": {
-      "title": "Acquisition de Propriétés",
-      "description": "Notre réseau global et notre expertise du marché garantissent que vous trouviez la propriété parfaite qui répond à tous vos besoins.",
+      "title": "Acquisition de biens immobiliers",
+      "description": "Chez Prime Local Homes, nous nous spécialisons dans la recherche de la propriété idéale pour chaque client. Grâce à notre réseau immobilier mondial et notre expertise locale en Californie du Sud, nous vous aidons à acheter des maisons de luxe, des biens d’investissement et des résidences familiales répondant à toutes vos exigences. De la recherche de biens à la conclusion de la transaction, nous vous accompagnons à chaque étape.",
       "icon": "🏡"
     },
     "investmentAdvisory": {
-      "title": "Conseil en Investissement",
-      "description": "Orientations stratégiques pour maximiser les retours sur vos investissements immobiliers avec notre approche basée sur les données.",
+      "title": "Conseil en investissement",
+      "description": "Augmentez vos rendements avec les stratégies d’investissement basées sur les données de Prime Local Homes. Nos conseillers immobiliers fournissent des analyses de marché, une optimisation du ROI et une diversification de portefeuille pour garantir que vos investissements immobiliers offrent une rentabilité maximale. Que vous soyez un investisseur débutant ou un acheteur expérimenté, nous vous aidons à prendre des décisions éclairées et rentables.",
       "icon": "💰"
     },
     "relocationServices": {
-      "title": "Services de Relocalisation",
-      "description": "Support complet pour les clients internationaux qui déménagent vers de nouveaux pays, incluant l'assistance légale et logistique.",
+      "title": "Services de relocalisation",
+      "description": "Déménagez en toute confiance grâce aux services de relocalisation internationale de Prime Local Homes. Nous offrons un soutien complet pour les visas et l’immigration, une aide à la recherche de logement et une planification logistique afin de rendre votre installation aux États-Unis et en Californie du Sud fluide et sans stress. De l’assistance juridique à l’intégration dans votre nouvelle communauté, nous gérons tous les détails pour que vous puissiez vous concentrer sur votre nouvelle vie.",
       "icon": "🌎"
     }
   },
-  "stats": {
-    "yearsExperience": "22+",
-    "billionInSales": "4.1B",
-    "countriesServed": "50+",
-    "clientSatisfaction": "90%",
-    "yearsExperienceLabel": "Années d'Expérience",
-    "billionInSalesLabel": "Milliards de Ventes",
-    "countriesServedLabel": "Pays Servis",
-    "clientSatisfactionLabel": "Satisfaction Client"
+  "cities": {
+    "title": "Explorez les comtés du sud de la Californie",
+    "subtitle": "Découvrez les comtés les plus dynamiques et recherchés du sud de la Californie, chacun offrant des communautés, des modes de vie et des opportunités d’investissement uniques."
+  },
+  "blog": {
+    "title": "Dernières Perspectives",
+    "subtitle": "Découvrez nos perspectives d’experts sur les marchés de l’immobilier de luxe aux États-Unis et dans le sud de la Californie."
   },
   "testimonials": {
     "title": "Ce que disent nos clients",
@@ -98,5 +92,10 @@
         "image": "/clients/client6.png"
       }
     ]
+  },
+  "cta": {
+    "title": "Prêt à Trouver Votre Propriété de Rêve ?",
+    "text": "Contactez dès aujourd’hui notre équipe d’experts pour une consultation personnalisée et commencez votre parcours vers la maison idéale ou la propriété d’investissement parfaite dans le comté d’Orange, San Diego ou Los Angeles.",
+    "button": "Programmer une Consultation"
   }
 }

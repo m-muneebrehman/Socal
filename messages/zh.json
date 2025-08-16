@@ -1,9 +1,9 @@
 {
   "navigation": {
     "cities": "城市",
+    "blogs": "博客",
     "services": "服务",
-    "insights": "洞察",
-    "reviews": "评价"
+    "contact": "联系我们"
   },
   "hero": {
     "badge": "全球豪华房地产",
@@ -126,7 +126,7 @@
     "button": "安排咨询"
   },
   "footer": {
-    "about": "拥有超过二十年的经验，威望地产是一家领先的全球房地产咨询公司，专门从事豪华房地产和定制搬迁服务。",
+    "about": "拥有超过二十年的经验，SoCal Prime Homes是一家领先的全球房地产咨询公司，专门从事豪华房地产和定制搬迁服务。",
     "quickLinks": "快速链接",
     "locations": "位置",
     "contact": "联系我们",
@@ -139,7 +139,12 @@
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
     "address": "123豪华大道<br />比佛利山庄，加利福尼亚州 90210",
-    "copyright": "© 2023 威望地产。保留所有权利。",
+    "copyright": "© 2025，在加利福尼亚州用心制作",
+    "citiesDescription": "城市 - 探索我们的特色城市，在黄金地段发现优质房地产机会",
+    "blogsDescription": "博客 - 了解最新的房地产洞察、市场趋势和投资技巧",
+    "contactDescription": "联系我们 - 联系我们的专家团队，获得个性化房地产咨询和支持",
+    "partnersTitle": "我们的合作伙伴",
+    "partnersDescription": "受到全球领先房地产专业人士和组织的信赖。您在加利福尼亚州豪华沿海房地产的优质合作伙伴。",
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款"
   }

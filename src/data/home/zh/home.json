@@ -1,55 +1,49 @@
 {
-  "locale": "zh",
-  "blog": {
-    "title": "最新见解",
-    "subtitle": "发现我们对全球豪华房地产市场专家视角。"
-  },
-  "cities": {
-    "title": "探索加利福尼亚城市",
-    "subtitle": "发现金州最理想的地点，每个都提供独特的生活方式机会和投资潜力。"
-  },
-  "cta": {
-    "title": "准备好找到您的梦想房产了吗？",
-    "text": "今天就联系我们的专家团队，获得个性化咨询，开始您寻找完美家园或投资房产的旅程。",
-    "button": "安排咨询"
-  },
   "hero": {
-    "badge": "全球豪华房地产",
+    "badge": "SoCal Prime Homes",
     "title": "为挑剔客户提供的独家房产",
-    "subtitle": "凭借超过20年的经验，我们将国际买家与世界最理想地点的最优质房产连接起来。",
-    "viewProperties": "查看房产",
+    "subtitle": "我们自豪地为国际客户提供服务，在南加州的每一座城市提供定制的房地产服务。从海滨度假屋到充满活力的城市住宅，我们为您连接该地区最受追捧位置的卓越房产。",
+    "viewProperties": "查看城市",
     "contactUs": "联系我们",
     "scrollDown": "向下滚动",
-    "backgroundImage": "https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80"
+    "backgroundImage": "/home/hero.jpg"
+  },
+  "stats": {
+    "yearsExperience": "快速响应",
+    "billionInSales": "聚焦南加州",
+    "countriesServed": "全球覆盖",
+    "clientSatisfaction": "质量承诺",
+    "yearsExperienceLabel": "每个项目都能迅速完成",
+    "billionInSalesLabel": "强大的本地影响力与专业知识",
+    "countriesServedLabel": "服务于各行业的合作伙伴",
+    "clientSatisfactionLabel": "每一次都超越期望"
   },
   "services": {
-    "title": "我们的服务",
-    "subtitle": "专为您独特需求定制的全面房地产解决方案。",
+    "title": "我们的服务 – Prime Local Homes",
+    "subtitle": "Prime Local Homes 为您提供全面的房地产解决方案，量身定制以满足您的生活方式、投资目标和搬迁需求。",
     "propertyAcquisition": {
       "title": "房产收购",
-      "description": "我们的全球网络和市场专业知识确保您找到满足所有要求的完美房产。",
+      "description": "在 Prime Local Homes，我们专注于为每位客户找到理想的房产。凭借我们的全球房地产网络和南加州本地市场专业知识，我们帮助您购买豪宅、投资房产和家庭住宅，满足您的一切需求。从房产搜索到交易完成，我们全程陪伴指导。",
       "icon": "🏡"
     },
     "investmentAdvisory": {
       "title": "投资咨询",
-      "description": "通过我们基于数据的方法，为您的房地产投资最大化回报提供战略指导。",
+      "description": "通过 Prime Local Homes 的数据驱动投资策略提升您的回报。我们的房地产顾问提供市场分析、投资回报率优化和投资组合多元化，确保您的房产投资实现最大盈利。无论您是首次投资者还是经验丰富的买家，我们都帮助您做出明智且有利可图的决策。",
       "icon": "💰"
     },
     "relocationServices": {
       "title": "搬迁服务",
-      "description": "为搬到新国家的国际客户提供全面支持，包括法律和后勤援助。",
+      "description": "通过 Prime Local Homes 的国际搬迁服务，您可以放心迁居。我们提供全面的签证与移民支持、住房搜索协助和后勤规划，让您搬迁到美国和南加州的过程顺利且无压力。从法律协助到融入新社区，我们处理所有细节，让您专注于新生活。",
       "icon": "🌎"
     }
   },
-  "stats": {
-    "yearsExperience": "22+",
-    "billionInSales": "4.1B",
-    "countriesServed": "50+",
-    "clientSatisfaction": "90%",
-    "yearsExperienceLabel": "年经验",
-    "billionInSalesLabel": "销售额十亿",
-    "countriesServedLabel": "服务国家",
-    "clientSatisfactionLabel": "客户满意度"
+  "cities": {
+    "title": "探索南加州的各县",
+    "subtitle": "发现南加州最具活力和吸引力的县份，每一个都提供独特的社区、生活方式和投资机会。"
+  },
+  "blog": {
+    "title": "最新见解",
+    "subtitle": "探索我们对全美及南加州豪华房地产市场的专业见解。"
   },
   "testimonials": {
     "title": "客户评价",
@@ -98,5 +92,10 @@
         "image": "/clients/client6.png"
       }
     ]
+  },
+  "cta": {
+    "title": "准备好找到您的梦想房产了吗？",
+    "text": "今天就联系我们的专家团队，获取个性化咨询，开启您在橙县、圣迭戈或洛杉矶寻找理想住宅或投资房产的旅程。",
+    "button": "安排咨询"
   }
 }

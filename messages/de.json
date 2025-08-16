@@ -1,9 +1,9 @@
 {
   "navigation": {
     "cities": "Städte",
+    "blogs": "Blogs",
     "services": "Dienstleistungen",
-    "insights": "Einblicke",
-    "reviews": "Bewertungen"
+    "contact": "Kontakt"
   },
   "hero": {
     "badge": "Weltweite Luxusimmobilien",
@@ -90,7 +90,7 @@
     "readArticle": "Artikel lesen",
     "exploreMore": "Weitere Einblicke erkunden",
     "meta": {
-      "title": "Luxusimmobilien Einblicke & Nachrichten | Prestige Estates",
+      "title": "Luxusimmobilien Einblicke & Nachrichten | SoCal Prime Homes",
       "description": "Bleiben Sie auf dem Laufenden mit Expertenanalyse, Markttrends und exklusiven Einblicken aus der Welt der Luxusimmobilieninvestitionen."
     },
     "featured": "Empfohlen",
@@ -126,7 +126,7 @@
     "button": "Beratung planen"
   },
   "footer": {
-    "about": "Mit über zwei Jahrzehnten Erfahrung ist Prestige Estates ein führendes globales Immobilienberatungsunternehmen, das sich auf Luxusimmobilien und maßgeschneiderte Umzugsservices spezialisiert hat.",
+    "about": "Mit über zwei Jahrzehnten Erfahrung ist SoCal Prime Homes ein führendes globales Immobilienberatungsunternehmen, das sich auf Luxusimmobilien und maßgeschneiderte Umzugsservices spezialisiert hat.",
     "quickLinks": "Schnelllinks",
     "locations": "Standorte",
     "contact": "Kontakt",
@@ -139,7 +139,12 @@
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
     "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
-    "copyright": "© 2023 Prestige Estates. Alle Rechte vorbehalten.",
+    "copyright": "© 2025, mit Liebe in Kalifornien gemacht",
+    "citiesDescription": "Städte - Entdecken Sie unsere ausgewählten Städte und finden Sie Premium-Immobilienmöglichkeiten in erstklassigen Lagen",
+    "blogsDescription": "Blogs - Bleiben Sie auf dem Laufenden mit den neuesten Immobilien-Einblicken, Markttrends und Investment-Tipps",
+    "contactDescription": "Kontakt - Treten Sie in Kontakt mit unserem Expertenteam für personalisierte Immobilienberatung und Unterstützung",
+    "partnersTitle": "Unsere Partner",
+    "partnersDescription": "Vertraut von führenden Immobilienfachleuten und -organisationen weltweit. Ihre Premium-Partner für Luxusimmobilien an der Küste Kaliforniens.",
     "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen"
   }

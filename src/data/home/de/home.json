@@ -1,55 +1,49 @@
 {
-  "locale": "de",
-  "blog": {
-    "title": "Neueste Einblicke",
-    "subtitle": "Entdecken Sie unsere Expertenperspektiven auf Luxusimmobilienmärkte weltweit."
-  },
-  "cities": {
-    "title": "Entdecken Sie kalifornische Städte",
-    "subtitle": "Entdecken Sie die begehrtesten Standorte im Goldenen Staat, jeder bietet einzigartige Lebensstil-Möglichkeiten und Investitionspotenzial."
-  },
-  "cta": {
-    "title": "Bereit, Ihre Traumimmobilie zu finden?",
-    "text": "Kontaktieren Sie unser Expertenteam heute für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die ideale Investitionsimmobilie zu finden.",
-    "button": "Beratung vereinbaren"
-  },
   "hero": {
-    "badge": "Globaler Luxusimmobilien",
+    "badge": "SoCal Prime Homes",
     "title": "Exklusive Immobilien für anspruchsvolle Kunden",
-    "subtitle": "Mit über 20 Jahren Erfahrung verbinden wir internationale Käufer mit den feinsten Immobilien an den begehrtesten Standorten der Welt.",
-    "viewProperties": "Immobilien anzeigen",
+    "subtitle": "Wir bedienen stolz eine internationale Kundschaft und bieten maßgeschneiderte Immobiliendienstleistungen in jeder Stadt in Südkalifornien an. Von Küstenrefugien bis hin zu lebendigen Stadtdomizilen verbinden wir Sie mit außergewöhnlichen Immobilien in den begehrtesten Lagen der Region.",
+    "viewProperties": "Städte anzeigen",
     "contactUs": "Kontaktieren Sie uns",
     "scrollDown": "Nach unten scrollen",
-    "backgroundImage": "https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80"
+    "backgroundImage": "/home/hero.jpg"
+  },
+  "stats": {
+    "yearsExperience": "Schnelle Reaktion",
+    "billionInSales": "Südkalifornien-Fokus",
+    "countriesServed": "Globale Reichweite",
+    "clientSatisfaction": "Qualitätsversprechen",
+    "yearsExperienceLabel": "Schnelle Umsetzung für jedes Projekt",
+    "billionInSalesLabel": "Starke lokale Präsenz & Expertise",
+    "countriesServedLabel": "Betreuung von Partnern in allen Branchen",
+    "clientSatisfactionLabel": "Erwartungen jedes Mal übertreffen"
   },
   "services": {
-    "title": "Unsere Dienstleistungen",
-    "subtitle": "Umfassende Immobilienservices, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind.",
+    "title": "Unsere Dienstleistungen – Prime Local Homes",
+    "subtitle": "Umfassende Immobilienlösungen von Prime Local Homes, maßgeschneidert für Ihren Lebensstil, Ihre Investitionsziele und Ihre Umzugsbedürfnisse.",
     "propertyAcquisition": {
       "title": "Immobilienerwerb",
-      "description": "Unser globales Netzwerk und unsere Marktkenntnisse stellen sicher, dass Sie die perfekte Immobilie finden, die alle Ihre Anforderungen erfüllt.",
+      "description": "Bei Prime Local Homes sind wir darauf spezialisiert, für jeden Kunden die perfekte Immobilie zu finden. Mit unserem globalen Immobiliennetzwerk und unserer lokalen Expertise in Südkalifornien helfen wir Ihnen, Luxusimmobilien, Investitionsobjekte und Familienhäuser zu kaufen, die all Ihren Anforderungen entsprechen. Vom Objektsuche bis zum Abschluss begleiten wir Sie bei jedem Schritt.",
       "icon": "🏡"
     },
     "investmentAdvisory": {
       "title": "Investmentberatung",
-      "description": "Strategische Beratung zur Maximierung der Renditen Ihrer Immobilieninvestitionen mit unserem datengestützten Ansatz.",
+      "description": "Steigern Sie Ihre Rendite mit den datengesteuerten Investmentstrategien von Prime Local Homes. Unsere Immobilienberater bieten Marktanalysen, ROI-Optimierung und Portfoliodiversifizierung, um sicherzustellen, dass Ihre Immobilieninvestitionen maximale Rentabilität erzielen. Ob Sie ein Erstinvestor oder ein erfahrener Käufer sind – wir helfen Ihnen, fundierte und profitable Entscheidungen zu treffen.",
       "icon": "💰"
     },
     "relocationServices": {
       "title": "Umzugsservices",
-      "description": "Umfassende Unterstützung für internationale Kunden, die in neue Länder ziehen, einschließlich rechtlicher und logistischer Hilfe.",
+      "description": "Ziehen Sie mit Vertrauen um – mit den internationalen Umzugsdiensten von Prime Local Homes. Wir bieten umfassende Visa- und Einwanderungsunterstützung, Hilfe bei der Wohnungssuche und logistische Planung, um Ihren Umzug in die Vereinigten Staaten und nach Südkalifornien reibungslos und stressfrei zu gestalten. Von rechtlicher Unterstützung bis zur Eingewöhnung in Ihre neue Gemeinschaft kümmern wir uns um alle Details, damit Sie sich auf Ihr neues Leben konzentrieren können.",
       "icon": "🌎"
     }
   },
-  "stats": {
-    "yearsExperience": "22+",
-    "billionInSales": "4.1B",
-    "countriesServed": "50+",
-    "clientSatisfaction": "90%",
-    "yearsExperienceLabel": "Jahre Erfahrung",
-    "billionInSalesLabel": "Milliarden Umsatz",
-    "countriesServedLabel": "Bediente Länder",
-    "clientSatisfactionLabel": "Kundenzufriedenheit"
+  "cities": {
+    "title": "Entdecken Sie die Bezirke Südkaliforniens",
+    "subtitle": "Entdecken Sie die lebendigsten und begehrtesten Bezirke Südkaliforniens, die jeweils einzigartige Gemeinschaften, Lebensstile und Investitionsmöglichkeiten bieten."
+  },
+  "blog": {
+    "title": "Neueste Einblicke",
+    "subtitle": "Entdecken Sie unsere fachkundigen Perspektiven zu Luxusimmobilienmärkten in den gesamten Vereinigten Staaten und Südkalifornien."
   },
   "testimonials": {
     "title": "Was unsere Kunden sagen",
@@ -98,5 +92,10 @@
         "image": "/clients/client6.png"
       }
     ]
+  },
+  "cta": {
+    "title": "Bereit, Ihre Traumimmobilie zu finden?",
+    "text": "Kontaktieren Sie noch heute unser Expertenteam für eine persönliche Beratung und beginnen Sie Ihre Reise, das perfekte Zuhause oder die ideale Investitionsimmobilie in Orange County, San Diego oder Los Angeles zu finden.",
+    "button": "Beratung vereinbaren"
   }
 }

@@ -67,6 +67,28 @@ export interface CityDocForFile {
     anchor: string
     context?: string
   }>
+  // Additional fields that were missing
+  city?: string
+  county?: string
+  url_slug?: string
+  meta_title?: string
+  meta_description?: string
+  h1_title?: string
+  primary_keywords?: string[]
+  secondary_keywords?: string[]
+  express_keywords?: string[]
+  agent_keywords?: string[]
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
+  agent_name?: string
+  company_name?: string
+  contact_phone?: string
+  contact_email?: string
+  cta_text?: string
+  bgImage?: string
+  bgImageAlt?: string
 }
 
 function ensureDirSync(dirPath: string) {
@@ -96,8 +118,33 @@ export async function writeCityFile(city: CityDocForFile) {
     neighborhoods: Array.isArray(city.neighborhoods) ? city.neighborhoods : [],
     highlights: Array.isArray(city.highlights) ? city.highlights : [],
     faqs: Array.isArray(city.faqs) ? city.faqs : [],
+    clients: city.clients || [],
+    canonicalUrl: city.canonicalUrl || '',
+    hreflang_tags: city.hreflang_tags || [],
     seo: city.seo ?? {},
-    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : []
+    schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : [],
+    internal_links: city.internal_links || [],
+    city: city.city,
+    county: city.county,
+    url_slug: city.url_slug,
+    meta_title: city.meta_title,
+    meta_description: city.meta_description,
+    h1_title: city.h1_title,
+    primary_keywords: Array.isArray(city.primary_keywords) ? city.primary_keywords : [],
+    secondary_keywords: Array.isArray(city.secondary_keywords) ? city.secondary_keywords : [],
+    express_keywords: Array.isArray(city.express_keywords) ? city.express_keywords : [],
+    agent_keywords: Array.isArray(city.agent_keywords) ? city.agent_keywords : [],
+    landing_page_text: city.landing_page_text,
+    express_service: city.express_service,
+    neighborhood_guide: city.neighborhood_guide,
+    market_analysis: city.market_analysis,
+    agent_name: city.agent_name,
+    company_name: city.company_name,
+    contact_phone: city.contact_phone,
+    contact_email: city.contact_email,
+    cta_text: city.cta_text,
+    bgImage: city.bgImage,
+    bgImageAlt: city.bgImageAlt
   }
   fs.writeFileSync(filePath, JSON.stringify(dataToWrite, null, 2))
   console.log(`✅ Wrote city file: ${filePath}`)
@@ -346,7 +393,7 @@ export async function updateAllJsonFiles() {
     // Update individual city files for each language
     await updateIndividualCityFiles()
     
-    // Update home data for each language
+    // Update home data for each locale
     await updateHomeDataForAllLanguages()
     
     console.log('✅ All language-specific JSON files updated successfully')
@@ -418,7 +465,28 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
         hreflang_tags: city.hreflang_tags || [],
         seo: city.seo || {},
         schema_markup: city.schema_markup || [],
-        internal_links: city.internal_links || []
+        internal_links: city.internal_links || [],
+        city: city.city,
+        county: city.county,
+        url_slug: city.url_slug,
+        meta_title: city.meta_title,
+        meta_description: city.meta_description,
+        h1_title: city.h1_title,
+        primary_keywords: Array.isArray(city.primary_keywords) ? city.primary_keywords : [],
+        secondary_keywords: Array.isArray(city.secondary_keywords) ? city.secondary_keywords : [],
+        express_keywords: Array.isArray(city.express_keywords) ? city.express_keywords : [],
+        agent_keywords: Array.isArray(city.agent_keywords) ? city.agent_keywords : [],
+        landing_page_text: city.landing_page_text,
+        express_service: city.express_service,
+        neighborhood_guide: city.neighborhood_guide,
+        market_analysis: city.market_analysis,
+        agent_name: city.agent_name,
+        company_name: city.company_name,
+        contact_phone: city.contact_phone,
+        contact_email: city.contact_email,
+        cta_text: city.cta_text,
+        bgImage: city.bgImage,
+        bgImageAlt: city.bgImageAlt
       }
       
       await writeCityFile(cityData)
@@ -432,23 +500,23 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
 }
 
 // Function to update home data for a specific language
-export async function updateHomeDataForLanguage(language: string) {
+export async function updateHomeDataForLanguage(locale: string) {
   try {
-    console.log(`🔄 Starting updateHomeDataForLanguage for: ${language}`)
+    console.log(`🔄 Starting updateHomeDataForLanguage for: ${locale}`)
     const { db } = await connectToDatabase()
     
-    // Get home data for this specific language
-    const homeData = await db.collection('home').findOne({ language: language })
+    // Get home data for this specific locale (MongoDB uses 'locale' field)
+    const homeData = await db.collection('home').findOne({ locale: locale })
     
     if (!homeData) {
-      console.log(`⚠️ No home data found for language: ${language}`)
+      console.log(`⚠️ No home data found for locale: ${locale}`)
       return
     }
     
-    const languageDir = path.join(process.cwd(), 'src', 'data', 'home', language)
-    ensureDirSync(languageDir)
+    const localeDir = path.join(process.cwd(), 'src', 'data', 'home', locale)
+    ensureDirSync(localeDir)
     
-    const jsonPath = path.join(languageDir, 'home.json')
+    const jsonPath = path.join(localeDir, 'home.json')
     
     // Clean up the data to match the expected format
     const cleanHomeData = {
@@ -462,9 +530,9 @@ export async function updateHomeDataForLanguage(language: string) {
     }
     
     fs.writeFileSync(jsonPath, JSON.stringify(cleanHomeData, null, 2))
-    console.log(`✅ Updated home.json for language: ${language}`)
+    console.log(`✅ Updated home.json for locale: ${locale}`)
   } catch (error) {
-    console.error(`❌ Error updating home data for language ${language}:`, error)
+    console.error(`❌ Error updating home data for locale ${locale}:`, error)
     throw error
   }
 }
@@ -519,7 +587,28 @@ export async function updateIndividualCityFiles() {
           hreflang_tags: city.hreflang_tags || [],
           seo: city.seo || {},
           schema_markup: city.schema_markup || [],
-          internal_links: city.internal_links || []
+          internal_links: city.internal_links || [],
+          city: city.city,
+          county: city.county,
+          url_slug: city.url_slug,
+          meta_title: city.meta_title,
+          meta_description: city.meta_description,
+          h1_title: city.h1_title,
+          primary_keywords: Array.isArray(city.primary_keywords) ? city.primary_keywords : [],
+          secondary_keywords: Array.isArray(city.secondary_keywords) ? city.secondary_keywords : [],
+          express_keywords: Array.isArray(city.express_keywords) ? city.express_keywords : [],
+          agent_keywords: Array.isArray(city.agent_keywords) ? city.agent_keywords : [],
+          landing_page_text: city.landing_page_text,
+          express_service: city.express_service,
+          neighborhood_guide: city.neighborhood_guide,
+          market_analysis: city.market_analysis,
+          agent_name: city.agent_name,
+          company_name: city.company_name,
+          contact_phone: city.contact_phone,
+          contact_email: city.contact_email,
+          cta_text: city.cta_text,
+          bgImage: city.bgImage,
+          bgImageAlt: city.bgImageAlt
         }
         
         await writeCityFile(cityData)
@@ -545,22 +634,22 @@ export async function updateHomeDataForAllLanguages() {
     const homeDataCollection = await db.collection('home').find({}).toArray()
     console.log(`📊 Found ${homeDataCollection.length} home data entries in database`)
     
-    // Group home data by language
-    const homeDataByLanguage: { [key: string]: any } = {}
+    // Group home data by locale (MongoDB uses 'locale' field)
+    const homeDataByLocale: { [key: string]: any } = {}
     
     homeDataCollection.forEach(homeDoc => {
-      const language = homeDoc.language || 'en'
-      homeDataByLanguage[language] = homeDoc
+      const locale = homeDoc.locale || 'en'
+      homeDataByLocale[locale] = homeDoc
     })
     
-    // Update home.json files for each language only
-    for (const [language, homeData] of Object.entries(homeDataByLanguage)) {
-      console.log(`🏠 Processing home data for language: ${language}`)
+    // Update home.json files for each locale only
+    for (const [locale, homeData] of Object.entries(homeDataByLocale)) {
+      console.log(`🏠 Processing home data for locale: ${locale}`)
       
-      const languageDir = path.join(process.cwd(), 'src', 'data', 'home', language)
-      ensureDirSync(languageDir)
+      const localeDir = path.join(process.cwd(), 'src', 'data', 'home', locale)
+      ensureDirSync(localeDir)
       
-      const jsonPath = path.join(languageDir, 'home.json')
+      const jsonPath = path.join(localeDir, 'home.json')
       
       // Clean up the data to match the expected format
       const cleanHomeData = {
@@ -574,10 +663,10 @@ export async function updateHomeDataForAllLanguages() {
       }
       
       fs.writeFileSync(jsonPath, JSON.stringify(cleanHomeData, null, 2))
-      console.log(`✅ Updated home.json for language: ${language}`)
+      console.log(`✅ Updated home.json for locale: ${locale}`)
     }
     
-    console.log('✅ All language-specific home data files updated successfully')
+    console.log('✅ All locale-specific home data files updated successfully')
   } catch (error) {
     console.error('❌ Error updating home data files:', error)
     throw error

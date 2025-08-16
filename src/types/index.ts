@@ -101,7 +101,17 @@ export interface City {
   population: string
   avgHomePrice: string
   tags: string[]
-  neighborhoods: string[]
+  neighborhoods: Array<{
+    name: string
+    type: 'neighborhood' | 'city'
+    slug: string
+    description: string
+    image: string
+    imageAlt?: string
+    distance: string
+    avgHomePrice: string
+    county: string
+  }>
   highlights: {
     title: string
     description: string
@@ -143,6 +153,28 @@ export interface City {
     anchor: string
     context?: string
   }>
+  // Additional fields that were missing
+  city?: string
+  county?: string
+  url_slug?: string
+  meta_title?: string
+  meta_description?: string
+  h1_title?: string
+  primary_keywords?: string[]
+  secondary_keywords?: string[]
+  express_keywords?: string[]
+  agent_keywords?: string[]
+  landing_page_text?: string
+  express_service?: string
+  neighborhood_guide?: string
+  market_analysis?: string
+  agent_name?: string
+  company_name?: string
+  contact_phone?: string
+  contact_email?: string
+  cta_text?: string
+  bgImage?: string
+  bgImageAlt?: string
 }
 
 export interface DashboardStats {

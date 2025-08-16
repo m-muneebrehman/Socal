@@ -1,9 +1,9 @@
 {
   "navigation": {
     "cities": "Cities",
+    "blogs": "Blogs",
     "services": "Services",
-    "insights": "Insights",
-    "reviews": "Reviews"
+    "contact": "Contact"
   },
   "hero": {
     "badge": "Global Luxury Real Estate",
@@ -90,7 +90,7 @@
     "readArticle": "Read Article",
     "exploreMore": "Explore More Insights",
     "meta": {
-      "title": "Luxury Real Estate Insights & News | Prestige Estates",
+      "title": "Luxury Real Estate Insights & News | SoCal Prime Homes",
       "description": "Stay informed with expert analysis, market trends, and exclusive insights from the world of luxury real estate investments."
     },
     "featured": "Featured",
@@ -126,7 +126,7 @@
     "button": "Schedule Consultation"
   },
   "footer": {
-    "about": "With over two decades of experience, Prestige Estates is a leading global real estate consulting company specializing in luxury real estate and customized relocation services.",
+    "about": "With over two decades of experience, SoCal Prime Homes is a leading global real estate consulting company specializing in luxury real estate and customized relocation services.",
     "quickLinks": "Quick Links",
     "locations": "Locations",
     "contact": "Contact",
@@ -139,7 +139,12 @@
     "phone": "+1 (800) 555-1234",
     "email": "info@prestigeestates.com",
     "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
-    "copyright": "© 2023 Prestige Estates. All rights reserved.",
+    "copyright": "© 2025, made with love in California",
+    "citiesDescription": "Cities - Explore our featured cities and discover premium real estate opportunities in prime locations",
+    "blogsDescription": "Blogs - Stay updated with the latest real estate insights, market trends, and investment tips",
+    "contactDescription": "Contact - Get in touch with our expert team for personalized real estate consultation and support",
+    "partnersTitle": "Our Partners",
+    "partnersDescription": "Trusted by leading real estate professionals and organizations worldwide. Your premium partners for luxury coastal real estates in California.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

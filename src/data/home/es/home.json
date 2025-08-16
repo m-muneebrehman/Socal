@@ -1,55 +1,49 @@
 {
-  "locale": "es",
-  "blog": {
-    "title": "Últimas Perspectivas",
-    "subtitle": "Descubre nuestras perspectivas expertas sobre mercados inmobiliarios de lujo en todo el mundo."
-  },
-  "cities": {
-    "title": "Explora Ciudades de California",
-    "subtitle": "Descubre las ubicaciones más deseables del Estado Dorado, cada una ofreciendo oportunidades de estilo de vida únicas y potencial de inversión."
-  },
-  "cta": {
-    "title": "¿Listo para Encontrar tu Propiedad Soñada?",
-    "text": "Contacta a nuestro equipo de expertos hoy para una consulta personalizada y comienza tu viaje para encontrar el hogar perfecto o la propiedad de inversión ideal.",
-    "button": "Programar Consulta"
-  },
   "hero": {
     "badge": "Bienes Raíces de Lujo Globales",
     "title": "Propiedades Exclusivas para Clientes Exigentes",
-    "subtitle": "Con más de 20 años de experiencia, conectamos a compradores internacionales con las mejores propiedades en las ubicaciones más deseables del mundo.",
-    "viewProperties": "Ver Propiedades",
+    "subtitle": "Atendemos con orgullo a una clientela internacional, ofreciendo servicios inmobiliarios a medida en cada ciudad del sur de California. Desde retiros costeros hasta vibrantes residencias urbanas, lo conectamos con propiedades extraordinarias en las ubicaciones más codiciadas de la región.",
+    "viewProperties": "Ver ciudades",
     "contactUs": "Contáctanos",
     "scrollDown": "Desplázate Abajo",
-    "backgroundImage": "https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80"
+    "backgroundImage": "/home/hero.jpg"
+  },
+  "stats": {
+    "yearsExperience": "Respuesta rápida",
+    "billionInSales": "Enfoque en el sur de California",
+    "countriesServed": "Alcance global",
+    "clientSatisfaction": "Compromiso con la calidad",
+    "yearsExperienceLabel": "Entrega ágil para cada proyecto",
+    "billionInSalesLabel": "Fuerte presencia local y experiencia",
+    "countriesServedLabel": "Atendiendo a socios en diversas industrias",
+    "clientSatisfactionLabel": "Superando expectativas en todo momento"
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Soluciones inmobiliarias integrales adaptadas a tus necesidades únicas.",
+    "title": "Nuestros Servicios – Prime Local Homes",
+    "subtitle": "Soluciones inmobiliarias integrales de Prime Local Homes, adaptadas a tu estilo de vida, metas de inversión y necesidades de reubicación.",
     "propertyAcquisition": {
-      "title": "Adquisición de Propiedades",
-      "description": "Nuestra red global y experiencia en el mercado asegura que encuentres la propiedad perfecta que cumpla con todos tus requisitos.",
+      "title": "Adquisición de propiedades",
+      "description": "En Prime Local Homes nos especializamos en encontrar la propiedad perfecta para cada cliente. Con nuestra red global de bienes raíces y experiencia local en el sur de California, te ayudamos a comprar casas de lujo, propiedades de inversión y residencias familiares que cumplan con todos tus requisitos. Desde la búsqueda de la propiedad hasta el cierre, te guiamos en cada paso del camino.",
       "icon": "🏡"
     },
     "investmentAdvisory": {
-      "title": "Asesoría de Inversión",
-      "description": "Orientación estratégica para maximizar los retornos de tus inversiones inmobiliarias con nuestro enfoque basado en datos.",
+      "title": "Asesoría de inversión",
+      "description": "Aumenta tus rendimientos con las estrategias de inversión basadas en datos de Prime Local Homes. Nuestros asesores inmobiliarios brindan análisis de mercado, optimización del ROI y diversificación de portafolio para asegurar que tus inversiones inmobiliarias generen la máxima rentabilidad. Seas un inversionista principiante o un comprador experimentado, te ayudamos a tomar decisiones informadas y rentables.",
       "icon": "💰"
     },
     "relocationServices": {
-      "title": "Servicios de Reubicación",
-      "description": "Soporte integral para clientes internacionales que se mudan a nuevos países, incluyendo asistencia legal y logística.",
+      "title": "Servicios de reubicación",
+      "description": "Reubícate con confianza gracias a los servicios de reubicación internacional de Prime Local Homes. Ofrecemos apoyo completo en visas e inmigración, asistencia en la búsqueda de vivienda y planificación logística para que tu mudanza a Estados Unidos y el sur de California sea fluida y sin estrés. Desde asistencia legal hasta la integración en tu nueva comunidad, manejamos todos los detalles para que te concentres en tu nueva vida.",
       "icon": "🌎"
     }
   },
-  "stats": {
-    "yearsExperience": "22+",
-    "billionInSales": "4.1B",
-    "countriesServed": "50+",
-    "clientSatisfaction": "90%",
-    "yearsExperienceLabel": "Años de Experiencia",
-    "billionInSalesLabel": "Mil Millones en Ventas",
-    "countriesServedLabel": "Países Atendidos",
-    "clientSatisfactionLabel": "Satisfacción del Cliente"
+  "cities": {
+    "title": "Explore los condados del sur de California",
+    "subtitle": "Descubra los condados más vibrantes y deseados del sur de California, cada uno con comunidades únicas, estilos de vida e interesantes oportunidades de inversión."
+  },
+  "blog": {
+    "title": "Últimas Perspectivas",
+    "subtitle": "Descubra nuestras perspectivas expertas sobre los mercados inmobiliarios de lujo en todo Estados Unidos y el sur de California."
   },
   "testimonials": {
     "title": "Lo que dicen nuestros clientes",
@@ -98,5 +92,10 @@
         "image": "/clients/client6.png"
       }
     ]
+  },
+  "cta": {
+    "title": "¿Listo para Encontrar tu Propiedad Soñada?",
+    "text": "Contacte hoy a nuestro equipo de expertos para una consulta personalizada y comience su camino hacia la compra de la casa perfecta o propiedad de inversión en el Condado de Orange, San Diego o Los Ángeles.",
+    "button": "Programar Consulta"
   }
 }

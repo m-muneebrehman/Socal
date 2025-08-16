@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 const Footer = () => {
   const t = useTranslations('footer');
@@ -10,8 +11,19 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-col">
           <div className="footer-logo">
-            <div className="footer-logo-icon">P</div>
-            Prestige Estates
+            <Image
+              src="/home/logo.jpg"
+              alt="SoCal Prime Homes Logo"
+              width={40}
+              height={40}
+              className="footer-logo-image rounded-lg"
+              style={{
+                transform: 'scale(1.3)',
+                objectFit: 'cover',
+                objectPosition: 'center'
+              }}
+            />
+            <span className="footer-logo-text">SoCal Prime Homes</span>
           </div>
           <p className="footer-about">{t('about')}</p>
           <div className="footer-social">
@@ -41,39 +53,51 @@ const Footer = () => {
           <h3 className="footer-heading">{t('quickLinks')}</h3>
           <ul className="footer-links">
             <li className="footer-link">
-              <Link href="/cities">Cities - Explore our featured cities and discover premium real estate opportunities in prime locations</Link>
+              <Link href="/cities">{t('citiesDescription')}</Link>
             </li>
             <li className="footer-link">
-              <Link href="/blog">Blogs - Stay updated with the latest real estate insights, market trends, and investment tips</Link>
+              <Link href="/blog">{t('blogsDescription')}</Link>
             </li>
             <li className="footer-link">
-              <Link href="/contact">Contact - Get in touch with our expert team for personalized real estate consultation and support</Link>
+              <Link href="/contact">{t('contactDescription')}</Link>
             </li>
           </ul>
         </div>
-                       <div className="footer-col partners-column">
-                 <h3 className="footer-heading">Our Partners</h3>
-                 <p className="footer-partners-desc">Trusted by leading real estate professionals and organizations worldwide. Your premium partners for luxury coastal real estates in California.</p>
-                 <div className="footer-partners-grid">
-                   <div className="footer-partner">
-                     <img src="/partners/exp.png" alt="EXP Realty" className="footer-partner-logo" />
-                   </div>
-                   <div className="footer-partner">
-                     <img src="/partners/crmls.png" alt="CRMLS" className="footer-partner-logo" />
-                   </div>
-                 </div>
-               </div>
-               <div className="footer-col">
-                 <h3 className="footer-heading">{t('contact')}</h3>
-                 <ul className="footer-links">
-                   <li className="footer-link"><Link href="tel:+18005551234">+1 (800) 555-1234</Link></li>
-                   <li className="footer-link"><Link href="mailto:info@prestigeestates.com">info@prestigeestates.com</Link></li>
-                   <li className="footer-link">123 Luxury Avenue<br />Beverly Hills, CA 90210</li>
-                 </ul>
-               </div>
+        <div className="footer-col partners-column">
+          <h3 className="footer-heading">{t('partnersTitle')}</h3>
+          <p className="footer-partners-desc">{t('partnersDescription')}</p>
+          <div className="footer-partners-grid">
+            <div className="footer-partner">
+              <img src="/partners/exp.png" alt="EXP Realty" className="footer-partner-logo" />
+            </div>
+            <div className="footer-partner">
+              <img src="/partners/crmls.png" alt="CRMLS" className="footer-partner-logo" />
+            </div>
+            <div className="footer-partner">
+              <img 
+                src="/partners/crown coastal.png" 
+                alt="Crown Coastal" 
+                className="footer-partner-logo" 
+                style={{
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  transform: 'scale(1.4)'
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="footer-col">
+          <h3 className="footer-heading">{t('contact')}</h3>
+          <ul className="footer-links">
+            <li className="footer-link"><Link href="tel:+15551234567">+1 (555) 123-4567</Link></li>
+            <li className="footer-link"><Link href="mailto:info@socalprimehomes.com">info@socalprimehomes.com</Link></li>
+            <li className="footer-link">123 Main Street, Los Angeles, CA 90210</li>
+          </ul>
+        </div>
       </div>
       <div className="footer-bottom">
-        <div>{t('copyright')}</div>
+        <p>{t('copyright')}</p>
         <div className="footer-dre">
           <span className="dre-label">CA DRE #</span>
           <span className="dre-number">02211952</span>
