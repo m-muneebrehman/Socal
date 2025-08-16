@@ -67,7 +67,7 @@ export interface CityDocForFile {
     anchor: string
     context?: string
   }>
-  // Additional fields that were missing
+
   city?: string
   county?: string
   url_slug?: string
@@ -83,12 +83,14 @@ export interface CityDocForFile {
   neighborhood_guide?: string
   market_analysis?: string
   agent_name?: string
+
   company_name?: string
   contact_phone?: string
   contact_email?: string
   cta_text?: string
   bgImage?: string
   bgImageAlt?: string
+
 }
 
 function ensureDirSync(dirPath: string) {
@@ -123,6 +125,7 @@ export async function writeCityFile(city: CityDocForFile) {
     hreflang_tags: city.hreflang_tags || [],
     seo: city.seo ?? {},
     schema_markup: Array.isArray(city.schema_markup) ? city.schema_markup : [],
+
     internal_links: city.internal_links || [],
     city: city.city,
     county: city.county,
@@ -145,6 +148,7 @@ export async function writeCityFile(city: CityDocForFile) {
     cta_text: city.cta_text,
     bgImage: city.bgImage,
     bgImageAlt: city.bgImageAlt
+
   }
   fs.writeFileSync(filePath, JSON.stringify(dataToWrite, null, 2))
   console.log(`✅ Wrote city file: ${filePath}`)
@@ -466,6 +470,7 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
         seo: city.seo || {},
         schema_markup: city.schema_markup || [],
         internal_links: city.internal_links || [],
+
         city: city.city,
         county: city.county,
         url_slug: city.url_slug,
@@ -487,6 +492,8 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
         cta_text: city.cta_text,
         bgImage: city.bgImage,
         bgImageAlt: city.bgImageAlt
+
+
       }
       
       await writeCityFile(cityData)
@@ -588,6 +595,7 @@ export async function updateIndividualCityFiles() {
           seo: city.seo || {},
           schema_markup: city.schema_markup || [],
           internal_links: city.internal_links || [],
+
           city: city.city,
           county: city.county,
           url_slug: city.url_slug,
@@ -609,6 +617,7 @@ export async function updateIndividualCityFiles() {
           cta_text: city.cta_text,
           bgImage: city.bgImage,
           bgImageAlt: city.bgImageAlt
+
         }
         
         await writeCityFile(cityData)

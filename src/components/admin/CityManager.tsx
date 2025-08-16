@@ -8,7 +8,7 @@ interface CityManagerProps {
   cities: CityType[]
   setShowCityModal: (show: boolean) => void
   setEditingCity: (id: string | null) => void
-  setCityForm: (form: Record<string, any>) => void
+  setCityForm: (form: any) => void
   deleteCity: (id: string) => void
   handleAddCity: (preferredLanguage?: string) => void
 }
@@ -164,7 +164,7 @@ export default function CityManager({
                         rating: 5, 
                         review: '' 
                       }],
-                      hreflang_tags: city.hreflang_tags?.length > 0 ? city.hreflang_tags : [{ 
+                      hreflang_tags: (city.hreflang_tags && city.hreflang_tags.length > 0) ? city.hreflang_tags : [{ 
                         hreflang: 'en', 
                         href: '' 
                       }],
@@ -179,8 +179,28 @@ export default function CityManager({
                         ogImageAlt: '',
                         twitterCard: 'summary_large_image'
                       },
-                      schema_markup: city.schema_markup?.length > 0 ? city.schema_markup : [],
-                      internal_links: city.internal_links?.length > 0 ? city.internal_links : [{ 
+                      landing_page_text: city.landing_page_text || '',
+                      express_service: city.express_service || '',
+                      neighborhood_guide: city.neighborhood_guide || '',
+                      market_analysis: city.market_analysis || '',
+                      // New fields
+                      city: city.city || '',
+                      county: city.county || '',
+                      url_slug: city.url_slug || '',
+                      meta_title: city.meta_title || '',
+                      meta_description: city.meta_description || '',
+                      h1_title: city.h1_title || '',
+                      primary_keywords: city.primary_keywords || [],
+                      secondary_keywords: city.secondary_keywords || [],
+                      express_keywords: city.express_keywords || [],
+                      agent_keywords: city.agent_keywords || [],
+                      agent_name: city.agent_name || '',
+                      cta_text: city.cta_text || '',
+                      contact_phone: city.contact_phone || '',
+                      contact_email: city.contact_email || '',
+                      company_name: city.company_name || '',
+                      schema_markup: (city.schema_markup && city.schema_markup.length > 0) ? city.schema_markup : [],
+                      internal_links: (city.internal_links && city.internal_links.length > 0) ? city.internal_links : [{ 
                         href: '', 
                         anchor: '', 
                         context: '' 
