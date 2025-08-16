@@ -79,6 +79,86 @@
       "everythingYouNeedToKnow": "您需要知道的一切",
       "allQuestions": "所有问题",
       "exploreAllCities": "探索所有城市"
+    },
+    "countyPage": {
+      "cities": "城市",
+      "avgPrice": "平均价格",
+      "premiumDestination": "优质目的地",
+      "discoverMagicOf": "发现的神奇",
+      "exploreProperties": "探索房产",
+      "contactAgent": "联系代理",
+      "about": "关于",
+      "welcomeTo": "欢迎来到",
+      "yourRealEstateJourney": "您的房地产之旅从这里开始",
+      "expressService": "快速服务",
+      "whenTimeIsEssence": "当时间至关重要时",
+      "whatMakesSpecial": "什么让{countyName}特别",
+      "marketAnalysis": "市场分析",
+      "currentRealEstateTrends": "当前{countyName}房地产趋势",
+      "countyGuide": "县指南",
+      "discoverBestAreas": "发现{countyName}的最佳地区",
+      "citiesInCounty": "{countyName}的城市",
+      "exploreCitiesInCounty": "探索{countyName}的城市",
+      "discoverDiverseCities": "发现{countyName}内多样化的城市和社区",
+      "searchCities": "搜索城市...",
+      "citiesFound": "个城市",
+      "noCitiesFound": "在{countyName}中未找到城市",
+      "citiesInfoUpdating": "城市信息正在更新中。请稍后再查看。",
+      "citiesInfoEnglishOnly": "城市信息目前仅提供英文版本。我们正在努力翻译。",
+      "viewInEnglish": "查看英文版本",
+      "previous": "上一页",
+      "next": "下一页",
+      "backToHome": "返回首页",
+      "highlights": "亮点",
+      "faqs": "常见问题",
+      "population": "人口",
+      "readyToFindDreamProperty": "准备找到您的梦想房产？",
+      "contactExpertTeam": "今天就联系我们的专家团队进行个性化咨询，开始您寻找完美家园或投资房产的旅程。",
+      "scheduleConsultation": "安排咨询",
+      "readyToBuyOrSell": "准备在{countyName}购买或出售？今天就联系Reza Barghlameno，在您最需要的时候获得专家指导和快速服务。",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "姓名",
+      "enterYourName": "输入您的姓名",
+      "phone": "电话",
+      "enterYourPhone": "输入您的电话",
+      "email": "电子邮件",
+      "enterYourEmail": "输入您的电子邮件",
+      "message": "留言",
+      "enterYourMessage": "输入您的留言",
+      "sendMessage": "发送留言",
+      "sending": "发送中..."
+    },
+    "countyCards": {
+      "destinations": "目的地",
+      "loadingCounties": "正在加载县...",
+      "noCountiesAvailable": "目前没有可用的县。",
+      "seeAllCities": "查看所有城市",
+      "cities": "个城市",
+      "orangeCounty": {
+        "name": "橙县",
+        "description": "一个沿海地区，以其令人惊叹的海滩、高档社区和家庭友好社区而闻名，拥有世界级的餐饮和购物。",
+        "tags": {
+          "coastalLiving": "沿海生活",
+          "familyFriendly": "家庭友好"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "洛杉矶县",
+        "description": "一个多元化的文化中心，提供从娱乐艺术到繁华商业区和风景如画的海岸度假胜地的一切。",
+        "tags": {
+          "culturalDiversity": "文化多样性",
+          "entertainment": "娱乐"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "圣地亚哥县",
+        "description": "一个悠闲的天堂，拥有美丽的海滩、蓬勃发展的科技和生物技术产业，以及全年完美的天气。",
+        "tags": {
+          "beaches": "海滩",
+          "outdoorLiving": "户外生活"
+        }
+      }
     }
   },
   "blog": {

@@ -259,21 +259,21 @@ const CountyPage = () => {
         alignItems: 'center',
         justifyContent: 'center'
       }}>
-        <h1 style={{ color: '#ef4444', marginBottom: '1rem' }}>Error Loading County</h1>
-        <p style={{ color: '#6b7280', marginBottom: '2rem' }}>{error}</p>
-        <p style={{ color: '#9ca3af', marginBottom: '1rem', fontSize: '14px' }}>
-          Debug info: locale={locale}, slug={countySlug}
-        </p>
-        <Link href="/" locale={locale} style={{
-          padding: '12px 24px',
-          backgroundColor: '#3b82f6',
-          color: 'white',
-          borderRadius: '8px',
-          textDecoration: 'none',
-          fontWeight: '600'
-        }}>
-          Back to Home
-        </Link>
+                 <h1 style={{ color: '#ef4444', marginBottom: '1rem' }}>Error Loading County</h1>
+         <p style={{ color: '#6b7280', marginBottom: '2rem' }}>{error}</p>
+         <p style={{ color: '#9ca3af', marginBottom: '1rem', fontSize: '14px' }}>
+           Debug info: locale={locale}, slug={countySlug}
+         </p>
+         <Link href="/" locale={locale} style={{
+           padding: '12px 24px',
+           backgroundColor: '#3b82f6',
+           color: 'white',
+           borderRadius: '8px',
+           textDecoration: 'none',
+           fontWeight: '600'
+         }}>
+           {t('countyPage.backToHome')}
+         </Link>
       </div>
     )
   }
@@ -310,21 +310,21 @@ const CountyPage = () => {
         alignItems: 'center',
         justifyContent: 'center'
       }}>
-        <h1 style={{ color: '#6b7280', marginBottom: '1rem' }}>County Not Found</h1>
-        <p style={{ color: '#9ca3af', marginBottom: '2rem' }}>The county you're looking for doesn't exist.</p>
-        <p style={{ color: '#9ca3af', marginBottom: '1rem', fontSize: '14px' }}>
-          Debug info: locale={locale}, slug={countySlug}
-        </p>
-        <Link href="/" locale={locale} style={{
-          padding: '12px 24px',
-          backgroundColor: '#3b82f6',
-          color: 'white',
-          borderRadius: '8px',
-          textDecoration: 'none',
-          fontWeight: '600'
-        }}>
-          Back to Home
-        </Link>
+                 <h1 style={{ color: '#6b7280', marginBottom: '1rem' }}>County Not Found</h1>
+         <p style={{ color: '#9ca3af', marginBottom: '2rem' }}>The county you're looking for doesn't exist.</p>
+         <p style={{ color: '#9ca3af', marginBottom: '1rem', fontSize: '14px' }}>
+           Debug info: locale={locale}, slug={countySlug}
+         </p>
+         <Link href="/" locale={locale} style={{
+           padding: '12px 24px',
+           backgroundColor: '#3b82f6',
+           color: 'white',
+           borderRadius: '8px',
+           textDecoration: 'none',
+           fontWeight: '600'
+         }}>
+           {t('countyPage.backToHome')}
+         </Link>
       </div>
     )
   }
@@ -366,34 +366,34 @@ const CountyPage = () => {
                   <span className="location-text">{county.state}</span>
                 </div>
                 
-                <div className="hero-quick-stats">
-                  <div className="quick-stat">
-                    <span className="stat-number">{county.cityCount}</span>
-                    <span className="stat-label">Cities</span>
-                  </div>
-                  <div className="stat-divider"></div>
-                  <div className="quick-stat">
-                    <span className="stat-number">{county.avgHomePrice || 'N/A'}</span>
-                    <span className="stat-label">Avg Price</span>
-                  </div>
-                </div>
+                                 <div className="hero-quick-stats">
+                   <div className="quick-stat">
+                     <span className="stat-number">{county.cityCount}</span>
+                     <span className="stat-label">{t('countyPage.cities')}</span>
+                   </div>
+                   <div className="stat-divider"></div>
+                   <div className="quick-stat">
+                     <span className="stat-number">{county.avgHomePrice || 'N/A'}</span>
+                     <span className="stat-label">{t('countyPage.avgPrice')}</span>
+                   </div>
+                 </div>
               </div>
 
               {/* Main Title Section - Using new h1_title with proper layout */}
               <div className="hero-title-section">
-                <div className="hero-eyebrow">
-                  <span className="eyebrow-text">Premium Destination</span>
-                  <div className="eyebrow-line"></div>
-                </div>
+                                 <div className="hero-eyebrow">
+                   <span className="eyebrow-text">{t('countyPage.premiumDestination')}</span>
+                   <div className="eyebrow-line"></div>
+                 </div>
                 
                 <h1 className="hero-main-title">
                   {county.h1_title ? (
                     <span className="title-line-2">{county.h1_title}</span>
                   ) : (
-                    <>
-                      <span className="title-line-1">Discover the Magic of</span>
-                      <span className="title-line-2">{county.name}</span>
-                    </>
+                                         <>
+                       <span className="title-line-1">{t('countyPage.discoverMagicOf')}</span>
+                       <span className="title-line-2">{county.name}</span>
+                     </>
                   )}
                 </h1>
                 
@@ -402,28 +402,28 @@ const CountyPage = () => {
 
               {/* Interactive Buttons */}
               <div className="hero-actions">
-                <button className="hero-btn-primary">
-                  <div className="btn-content">
-                    <span className="btn-text">Explore Properties</span>
-                    <div className="btn-icon">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="btn-glow"></div>
-                </button>
-                
-                <Link href="/contact" locale={locale} className="hero-btn-secondary">
-                  <div className="btn-content">
-                    <span className="btn-text">Contact Agent</span>
-                    <div className="btn-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                        <path d="M22 2H2L10 12.46V19L14 17V12.46L22 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
-                  </div>
-                </Link>
+                                 <button className="hero-btn-primary">
+                   <div className="btn-content">
+                     <span className="btn-text">{t('countyPage.exploreProperties')}</span>
+                     <div className="btn-icon">
+                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                       </svg>
+                     </div>
+                   </div>
+                   <div className="btn-glow"></div>
+                 </button>
+                 
+                 <Link href="/contact" locale={locale} className="hero-btn-secondary">
+                   <div className="btn-content">
+                     <span className="btn-text">{t('countyPage.contactAgent')}</span>
+                     <div className="btn-icon">
+                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                         <path d="M22 2H2L10 12.46V19L14 17V12.46L22 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                       </svg>
+                     </div>
+                   </div>
+                 </Link>
               </div>
             </div>
           </div>
@@ -442,20 +442,20 @@ const CountyPage = () => {
                     <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0148 6.11883 19.0148 7.005C19.0148 7.89117 18.7122 8.75608 18.1676 9.45768C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <div className="stat-number">{county.cityCount}</div>
-                <div className="stat-label">Cities</div>
-              </div>
-              
-              <div className="stat-card">
-                <div className="stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <polyline points="9,22 9,12 15,12 15,22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="stat-number">{county.avgHomePrice || 'N/A'}</div>
-                <div className="stat-label">Avg Home Price</div>
-              </div>
+                                 <div className="stat-number">{county.cityCount}</div>
+                 <div className="stat-label">{t('countyPage.cities')}</div>
+               </div>
+               
+               <div className="stat-card">
+                 <div className="stat-icon">
+                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                     <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                     <polyline points="9,22 9,12 15,12 15,22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                   </svg>
+                 </div>
+                 <div className="stat-number">{county.avgHomePrice || 'N/A'}</div>
+                 <div className="stat-label">{t('countyPage.avgPrice')}</div>
+               </div>
               
               <div className="stat-card">
                 <div className="stat-icon">
@@ -464,21 +464,21 @@ const CountyPage = () => {
                     <circle cx="12" cy="9" r="2.5" stroke="currentColor" strokeWidth="2"/>
                   </svg>
                 </div>
-                <div className="stat-number">{county.highlights?.length || 0}</div>
-                <div className="stat-label">Highlights</div>
-              </div>
-              
-              <div className="stat-card">
-                <div className="stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-                <div className="stat-number">{county.faqs?.length || 0}</div>
-                <div className="stat-label">FAQs</div>
-              </div>
+                                 <div className="stat-number">{county.highlights?.length || 0}</div>
+                 <div className="stat-label">{t('countyPage.highlights')}</div>
+               </div>
+               
+               <div className="stat-card">
+                 <div className="stat-icon">
+                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                     <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                     <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                     <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                   </svg>
+                 </div>
+                 <div className="stat-number">{county.faqs?.length || 0}</div>
+                 <div className="stat-label">{t('countyPage.faqs')}</div>
+               </div>
             </div>
           </div>
         </section>
@@ -486,7 +486,7 @@ const CountyPage = () => {
         {/* County About Section */}
         <section className="city-about-section">
           <div className="city-about-container">
-            <h2 className="section-title-large">About {county.name}</h2>
+                         <h2 className="section-title-large">{t('countyPage.about')} {county.name}</h2>
             <p className="about-description">{county.fullDescription}</p>
             
             <div className="city-tags-enhanced">
@@ -501,10 +501,10 @@ const CountyPage = () => {
         {county.landing_page_text && (
           <section className="city-landing-section">
             <div className="neighborhood-guide-container">
-              <div className="section-header-center">
-                <span className="section-eyebrow">Welcome to {county.name}</span>
-                <h2 className="section-title-large">Your Real Estate Journey Starts Here</h2>
-              </div>
+                             <div className="section-header-center">
+                 <span className="section-eyebrow">{t('countyPage.welcomeTo')} {county.name}</span>
+                 <h2 className="section-title-large">{t('countyPage.yourRealEstateJourney')}</h2>
+               </div>
               <div className="cities-grid-beautiful">
                 {county.landing_page_text.split('\n\n').map((paragraph, index) => (
                   <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -520,10 +520,10 @@ const CountyPage = () => {
         {county.express_service && (
           <section className="city-express-section">
             <div className="neighborhood-guide-container">
-              <div className="section-header-center">
-                <span className="section-eyebrow">Express Service</span>
-                <h2 className="section-title-large">When Time is of the Essence</h2>
-              </div>
+                             <div className="section-header-center">
+                 <span className="section-eyebrow">{t('countyPage.expressService')}</span>
+                 <h2 className="section-title-large">{t('countyPage.whenTimeIsEssence')}</h2>
+               </div>
               <div className="cities-grid-beautiful">
                 {county.express_service.split('\n\n').map((paragraph, index) => (
                   <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -540,7 +540,7 @@ const CountyPage = () => {
           <div className="highlights-container">
             <div className="section-header-center">
               <span className="section-eyebrow">{t('cityPage.highlights')}</span>
-              <h2 className="section-title-large">What Makes {county.name} Special</h2>
+                             <h2 className="section-title-large">{t('countyPage.whatMakesSpecial', { countyName: county.name })}</h2>
             </div>
             
             <div className="cities-grid-beautiful">
@@ -573,10 +573,10 @@ const CountyPage = () => {
         {county.market_analysis && (
           <section className="city-market-analysis-section">
             <div className="neighborhood-guide-container">
-              <div className="section-header-center">
-                <span className="section-eyebrow">Market Analysis</span>
-                <h2 className="section-title-large">Current {county.name} Real Estate Trends</h2>
-              </div>
+                             <div className="section-header-center">
+                 <span className="section-eyebrow">{t('countyPage.marketAnalysis')}</span>
+                 <h2 className="section-title-large">{t('countyPage.currentRealEstateTrends', { countyName: county.name })}</h2>
+               </div>
               
               <div className="cities-grid-beautiful">
                 {county.market_analysis.split('\n\n').map((paragraph, index) => (
@@ -593,10 +593,10 @@ const CountyPage = () => {
         {county.neighborhood_guide && (
           <section className="city-neighborhood-guide-section">
             <div className="neighborhood-guide-container">
-              <div className="section-header-center">
-                <span className="section-eyebrow">County Guide</span>
-                <h2 className="section-title-large">Discover {county.name}'s Best Areas</h2>
-              </div>
+                             <div className="section-header-center">
+                 <span className="section-eyebrow">{t('countyPage.countyGuide')}</span>
+                 <h2 className="section-title-large">{t('countyPage.discoverBestAreas', { countyName: county.name })}</h2>
+               </div>
               <div className="cities-grid-beautiful">
                 {county.neighborhood_guide.split('\n\n').map((paragraph, index) => (
                   <div key={index} className="neighborhood-guide-item" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -611,11 +611,11 @@ const CountyPage = () => {
         {/* Beautiful Cities Section - Replaces Neighborhoods */}
         <section className="cities-section-beautiful" id="cities">
           <div className="cities-container-beautiful">
-            <div className="section-header-beautiful">
-              <span className="section-eyebrow">Cities in {county.name}</span>
-              <h2 className="section-title-beautiful">Explore Cities in {county.name}</h2>
-              <p className="section-subtitle-beautiful">Discover the diverse cities and communities within {county.name}</p>
-            </div>
+                         <div className="section-header-beautiful">
+               <span className="section-eyebrow">{t('countyPage.citiesInCounty', { countyName: county.name })}</span>
+               <h2 className="section-title-beautiful">{t('countyPage.exploreCitiesInCounty', { countyName: county.name })}</h2>
+               <p className="section-subtitle-beautiful">{t('countyPage.discoverDiverseCities', { countyName: county.name })}</p>
+             </div>
 
             {/* Show message if cities couldn't be loaded */}
             {allCities.length === 0 && (
@@ -628,27 +628,27 @@ const CountyPage = () => {
                 borderRadius: '12px',
                 marginBottom: '2rem'
               }}>
-                <p style={{ marginBottom: '1rem' }}>
-                  {locale === 'en' 
-                    ? 'Cities information is currently being updated. Please check back soon.'
-                    : 'Cities information is currently available in English. We are working on translations.'
-                  }
-                </p>
-                {locale !== 'en' && (
-                  <Link 
-                    href={`/en/county/${countySlug}`}
-                    style={{
-                      padding: '8px 16px',
-                      backgroundColor: '#3b82f6',
-                      color: 'white',
-                      borderRadius: '6px',
-                      textDecoration: 'none',
-                      fontSize: '14px'
-                    }}
-                  >
-                    View in English
-                  </Link>
-                )}
+                                 <p style={{ marginBottom: '1rem' }}>
+                   {locale === 'en' 
+                     ? t('countyPage.citiesInfoUpdating')
+                     : t('countyPage.citiesInfoEnglishOnly')
+                   }
+                 </p>
+                 {locale !== 'en' && (
+                   <Link 
+                     href={`/en/county/${countySlug}`}
+                     style={{
+                       padding: '8px 16px',
+                       backgroundColor: '#3b82f6',
+                       color: 'white',
+                       borderRadius: '6px',
+                       textDecoration: 'none',
+                       fontSize: '14px'
+                     }}
+                   >
+                     {t('countyPage.viewInEnglish')}
+                   </Link>
+                 )}
               </div>
             )}
 
@@ -677,12 +677,12 @@ const CountyPage = () => {
                       <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
-                  <input
-                    type="text"
-                    placeholder="Search cities..."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="search-input"
+                                     <input
+                     type="text"
+                     placeholder={t('countyPage.searchCities')}
+                     value={searchTerm}
+                     onChange={(e) => setSearchTerm(e.target.value)}
+                     className="search-input"
                     style={{
                       width: '100%',
                       padding: '16px 20px 16px 50px',
@@ -724,15 +724,15 @@ const CountyPage = () => {
                     </button>
                   )}
                 </div>
-                <div className="search-results-info" style={{ 
-                  textAlign: 'center', 
-                  marginTop: '12px', 
-                  color: '#6b7280',
-                  fontSize: '14px',
-                  fontWeight: '500'
-                }}>
-                  {filteredCities.length} cities found
-                </div>
+                                 <div className="search-results-info" style={{ 
+                   textAlign: 'center', 
+                   marginTop: '12px', 
+                   color: '#6b7280',
+                   fontSize: '14px',
+                   fontWeight: '500'
+                 }}>
+                   {filteredCities.length} {t('countyPage.citiesFound')}
+                 </div>
               </div>
             )}
             
@@ -760,9 +760,9 @@ const CountyPage = () => {
                         <div className="city-content-beautiful">
                           <div className="city-header-beautiful">
                             <h3 className="city-name-beautiful">{city.name}</h3>
-                            <div className="city-neighborhoods-count-beautiful">
-                              Population: {city.population}
-                            </div>
+                                                       <div className="city-neighborhoods-count-beautiful">
+                             {t('countyPage.population')}: {city.population}
+                           </div>
                           </div>
                           
                           <p className="city-description-beautiful">{city.shortDescription}</p>
@@ -784,11 +784,11 @@ const CountyPage = () => {
                       </div>
                     </Link>
                   ))
-                ) : (
-                  <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#666' }}>
-                    <p>No cities found in {county.name}.</p>
-                  </div>
-                )}
+                                 ) : (
+                   <div style={{ gridColumn: '1 / -1', textAlign: 'center', padding: '40px', color: '#666' }}>
+                     <p>{t('countyPage.noCitiesFound', { countyName: county.name })}</p>
+                   </div>
+                 )}
               </div>
             )}
 
@@ -855,7 +855,7 @@ const CountyPage = () => {
                     }}>
                       <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    Previous
+                                         {t('countyPage.previous')}
                   </button>
                   
                   {/* Page Numbers */}
@@ -993,7 +993,7 @@ const CountyPage = () => {
                       }
                     }}
                   >
-                    Next
+                    {t('countyPage.next')}
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{
                       transition: 'transform 0.2s ease'
                     }}>
@@ -1041,13 +1041,27 @@ const CountyPage = () => {
         </section>
 
         {/* Schedule Consultation Section - EXACTLY like Home Page */}
-        <ConsultationForm
-          title="Ready to Find Your Dream Property?"
-          text="Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property."
-          button="Schedule Consultation"
-          cityName={county?.name}
-          showCitySpecific={true}
-        />
+                 <ConsultationForm
+           title={t('countyPage.readyToFindDreamProperty')}
+           text={t('countyPage.contactExpertTeam')}
+           button={t('countyPage.scheduleConsultation')}
+           cityName={county?.name}
+           showCitySpecific={true}
+           rezaBarghlameno={t('countyPage.rezaBarghlameno')}
+           primeLocalHomes={t('countyPage.primeLocalHomes')}
+           readyToBuyOrSell={t('countyPage.readyToBuyOrSell', { countyName: county?.name || 'Southern California' })}
+           name={t('countyPage.name')}
+           enterYourName={t('countyPage.enterYourName')}
+           phone={t('countyPage.phone')}
+           enterYourPhone={t('countyPage.enterYourPhone')}
+           email={t('countyPage.email')}
+           enterYourEmail={t('countyPage.enterYourEmail')}
+           message={t('countyPage.message')}
+           enterYourMessage={t('countyPage.enterYourMessage')}
+           sendMessage={t('countyPage.sendMessage')}
+           back={t('countyPage.backToHome')}
+           sending={t('countyPage.sending')}
+         />
 
         {/* Back to Counties Link */}
         <section className="city-back-enhanced">
@@ -1056,7 +1070,7 @@ const CountyPage = () => {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span>Back to Home</span>
+                             <span>{t('countyPage.backToHome')}</span>
             </Link>
           </div>
         </section>

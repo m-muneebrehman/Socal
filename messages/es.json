@@ -69,7 +69,7 @@
       "neighborhoods": "Vecindarios",
       "highlights": "Destacados",
       "about": "Acerca de",
-      "whatMakesSpecial": "Qué hace especial a {cityName}",
+      "whatMakesSpecial": "Qué Hace Especial a {cityName}",
       "noHighlightsAvailable": "No hay destacados disponibles para {cityName}",
       "nearbyCities": "Ciudades Cercanas",
       "exploreSurroundingAreas": "Explorar Áreas Circundantes",
@@ -79,6 +79,86 @@
       "everythingYouNeedToKnow": "Todo lo que Necesitas Saber",
       "allQuestions": "Todas las Preguntas",
       "exploreAllCities": "Explorar Todas las Ciudades"
+    },
+    "countyPage": {
+      "cities": "Ciudades",
+      "avgPrice": "Precio Promedio",
+      "premiumDestination": "Destino Premium",
+      "discoverMagicOf": "Descubre la Magia de",
+      "exploreProperties": "Explorar Propiedades",
+      "contactAgent": "Contactar Agente",
+      "about": "Acerca de",
+      "welcomeTo": "Bienvenido a",
+      "yourRealEstateJourney": "Tu Viaje Inmobiliario Comienza Aquí",
+      "expressService": "Servicio Express",
+      "whenTimeIsEssence": "Cuando el Tiempo es de la Esencia",
+      "whatMakesSpecial": "Qué Hace Especial a {countyName}",
+      "marketAnalysis": "Análisis del Mercado",
+      "currentRealEstateTrends": "Tendencias Inmobiliarias Actuales en {countyName}",
+      "countyGuide": "Guía del Condado",
+      "discoverBestAreas": "Descubre las Mejores Áreas en {countyName}",
+      "citiesInCounty": "Ciudades en {countyName}",
+      "exploreCitiesInCounty": "Explorar Ciudades en {countyName}",
+      "discoverDiverseCities": "Descubre las diversas ciudades y comunidades dentro de {countyName}",
+      "searchCities": "Buscar ciudades...",
+      "citiesFound": "ciudades encontradas",
+      "noCitiesFound": "No se encontraron ciudades en {countyName}",
+      "citiesInfoUpdating": "La información de las ciudades se está actualizando actualmente. Por favor, vuelve a revisar pronto.",
+      "citiesInfoEnglishOnly": "La información de las ciudades está disponible actualmente solo en inglés. Estamos trabajando en las traducciones.",
+      "viewInEnglish": "Ver en Inglés",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "backToHome": "Volver al Inicio",
+      "highlights": "Destacados",
+      "faqs": "Preguntas Frecuentes",
+      "population": "Población",
+      "readyToFindDreamProperty": "¿Listo para Encontrar tu Propiedad Soñada?",
+      "contactExpertTeam": "Contacta a nuestro equipo experto hoy para una consulta personalizada y comienza tu viaje para encontrar el hogar perfecto o la propiedad de inversión.",
+      "scheduleConsultation": "Programar Consulta",
+      "readyToBuyOrSell": "¿Listo para comprar o vender en {countyName}? Contacta a Reza Barghlameno hoy para orientación experta y servicio express cuando más lo necesites.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Nombre",
+      "enterYourName": "Ingresa tu nombre",
+      "phone": "Teléfono",
+      "enterYourPhone": "Ingresa tu teléfono",
+      "email": "Correo Electrónico",
+      "enterYourEmail": "Ingresa tu correo electrónico",
+      "message": "Mensaje",
+      "enterYourMessage": "Ingresa tu mensaje",
+      "sendMessage": "Enviar Mensaje",
+      "sending": "Enviando..."
+    },
+    "countyCards": {
+      "destinations": "Destinos",
+      "loadingCounties": "Cargando condados...",
+      "noCountiesAvailable": "No hay condados disponibles en este momento.",
+      "seeAllCities": "Ver Todas las Ciudades",
+      "cities": "ciudades",
+      "orangeCounty": {
+        "name": "Condado de Orange",
+        "description": "Una región costera conocida por sus impresionantes playas, barrios exclusivos y comunidades amigables para familias, con restaurantes y compras de clase mundial.",
+        "tags": {
+          "coastalLiving": "Vida Costera",
+          "familyFriendly": "Amigable para Familias"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "Condado de Los Ángeles",
+        "description": "Un centro cultural diverso que ofrece todo, desde entretenimiento y artes hasta distritos comerciales bulliciosos y escapes costeros pintorescos.",
+        "tags": {
+          "culturalDiversity": "Diversidad Cultural",
+          "entertainment": "Entretenimiento"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "Condado de San Diego",
+        "description": "Un paraíso relajado con hermosas playas, una próspera escena de tecnología y biotecnología, y clima perfecto durante todo el año.",
+        "tags": {
+          "beaches": "Playas",
+          "outdoorLiving": "Vida al Aire Libre"
+        }
+      }
     }
   },
   "blog": {
