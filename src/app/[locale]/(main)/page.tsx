@@ -4,11 +4,11 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import Hero from '@/components/sections/Hero/Hero'
 import Stats from '@/components/sections/Stats/Stats'
-import Cities from '@/components/sections/Cities/Cities'
+import Counties from '@/components/sections/Counties/Counties'
 import Blog from '@/components/sections/Blog/Blog'
 import Services from '@/components/sections/Services/Services'
-import CTA from '@/components/sections/CTA/CTA'
 import Testimonials from '@/components/sections/Testimonials/Testimonials'
+import CTA from '@/components/sections/CTA/CTA'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 
 const Home = () => {
@@ -92,7 +92,7 @@ const Home = () => {
     <main>
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
-      <Cities citiesData={homeData.cities} locale={locale} />
+      <Counties countiesData={homeData.cities} locale={locale} />
       <Blog blogData={homeData.blog} />
       <Services servicesData={homeData.services} />
       <Testimonials 

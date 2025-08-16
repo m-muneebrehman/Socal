@@ -222,7 +222,7 @@ const CityPage = () => {
                   <div className="btn-glow"></div>
                 </button>
                 
-                <button className="hero-btn-secondary">
+                <Link href="/contact" locale={locale} className="hero-btn-secondary">
                   <div className="btn-content">
                     <span className="btn-text">{t('cityPage.contactAgent')}</span>
                     <div className="btn-icon">
@@ -231,7 +231,7 @@ const CityPage = () => {
                       </svg>
                     </div>
                   </div>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

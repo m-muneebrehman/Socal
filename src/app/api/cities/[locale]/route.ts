@@ -42,7 +42,8 @@ export async function GET(
           population: cityData.population,
           avgHomePrice: cityData.avgHomePrice,
           tags: cityData.tags || [],
-          neighborhoods: cityData.neighborhoods || []
+          neighborhoods: cityData.neighborhoods || [],
+          county: cityData.county || null
         }
         
         cities.push(cityListing)
