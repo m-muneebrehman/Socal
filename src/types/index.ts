@@ -112,26 +112,27 @@ export interface City {
     avgHomePrice: string
     county: string
   }>
-  highlights: {
+
+  highlights: Array<{
     title: string
     description: string
     icon: string
     bgImage: string
     bgImageAlt?: string
-  }[]
-  faqs: {
+  }>
+  faqs: Array<{
     question: string
     answer: string
     category: string
-  }[]
-  clients?: {
+  }>
+  clients?: Array<{
     name: string
     description: string
     image: string
     imageAlt?: string
     rating: number
     review: string
-  }[]
+  }>
   canonicalUrl?: string
   hreflang_tags?: Array<{
     hreflang: string
@@ -153,7 +154,7 @@ export interface City {
     anchor: string
     context?: string
   }>
-  // Additional fields that were missing
+
   city?: string
   county?: string
   url_slug?: string
@@ -175,6 +176,7 @@ export interface City {
   cta_text?: string
   bgImage?: string
   bgImageAlt?: string
+
 }
 
 export interface DashboardStats {
