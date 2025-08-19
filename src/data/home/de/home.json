@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "SoCal Prime Homes",
-    "title": "Exklusive Immobilien für anspruchsvolle Kunden",
+    "title": "Exklusive Immobilien mit erstklassigem Service für höchste Ansprüche",
     "subtitle": "Wir bedienen stolz eine internationale Kundschaft und bieten maßgeschneiderte Immobiliendienstleistungen in jeder Stadt in Südkalifornien an. Von Küstenrefugien bis hin zu lebendigen Stadtdomizilen verbinden wir Sie mit außergewöhnlichen Immobilien in den begehrtesten Lagen der Region.",
     "viewProperties": "Städte anzeigen",
     "contactUs": "Kontaktieren Sie uns",
@@ -11,12 +11,12 @@
   "stats": {
     "yearsExperience": "Schnelle Reaktion",
     "billionInSales": "Südkalifornien-Fokus",
-    "countriesServed": "Globale Reichweite",
-    "clientSatisfaction": "Qualitätsversprechen",
+    "countriesServed": "Partner von Weltklasse",
+    "clientSatisfaction": "Unübertroffene Hingabe",
     "yearsExperienceLabel": "Schnelle Umsetzung für jedes Projekt",
     "billionInSalesLabel": "Starke lokale Präsenz & Expertise",
-    "countriesServedLabel": "Betreuung von Partnern in allen Branchen",
-    "clientSatisfactionLabel": "Erwartungen jedes Mal übertreffen"
+    "countriesServedLabel": "Zusammenarbeit mit Partnern aus verschiedensten Branchen",
+    "clientSatisfactionLabel": "Getrieben von Leidenschaft. Inspirierend mit bleibender Wirkung."
   },
   "services": {
     "title": "Unsere Dienstleistungen – Prime Local Homes",

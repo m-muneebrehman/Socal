@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Bienes Raíces de Lujo Globales",
-    "title": "Propiedades Exclusivas para Clientes Exigentes",
+    "title": "Propiedades Exclusivas con un Servicio de máxima Distinción",
     "subtitle": "Atendemos con orgullo a una clientela internacional, ofreciendo servicios inmobiliarios a medida en cada ciudad del sur de California. Desde retiros costeros hasta vibrantes residencias urbanas, lo conectamos con propiedades extraordinarias en las ubicaciones más codiciadas de la región.",
     "viewProperties": "Ver ciudades",
     "contactUs": "Contáctanos",
@@ -11,12 +11,12 @@
   "stats": {
     "yearsExperience": "Respuesta rápida",
     "billionInSales": "Enfoque en el sur de California",
-    "countriesServed": "Alcance global",
-    "clientSatisfaction": "Compromiso con la calidad",
+    "countriesServed": "Afiliados de clase mundial",
+    "clientSatisfaction": "Dedicación inigualable",
     "yearsExperienceLabel": "Entrega ágil para cada proyecto",
     "billionInSalesLabel": "Fuerte presencia local y experiencia",
-    "countriesServedLabel": "Atendiendo a socios en diversas industrias",
-    "clientSatisfactionLabel": "Superando expectativas en todo momento"
+    "countriesServedLabel": "Colaborando con socios de múltiples sectores",
+    "clientSatisfactionLabel": "Impulsados por la pasión. Inspirando un impacto duradero."
   },
   "services": {
     "title": "Nuestros Servicios – Prime Local Homes",

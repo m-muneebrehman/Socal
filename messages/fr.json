@@ -130,7 +130,7 @@
       "sending": "Envoi en cours..."
     },
     "countyCards": {
-      "destinations": "Destinations",
+      "destinations": "Où nos services sont disponibles",
       "loadingCounties": "Chargement des comtés...",
       "noCountiesAvailable": "Aucun comté disponible pour le moment.",
       "seeAllCities": "Voir Toutes les Villes",

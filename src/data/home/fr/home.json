@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Immobilier de Luxe Global",
-    "title": "Propriétés Exclusives pour des Clients Exigeants",
+    "title": "Propriétés Exclusives avec un Service d’exception pour une clientèle Exigeante",
     "subtitle": "Nous servons fièrement une clientèle internationale, offrant des services immobiliers sur mesure dans chaque ville du sud de la Californie. Des retraites côtières aux résidences urbaines animées, nous vous mettons en relation avec des propriétés extraordinaires dans les emplacements les plus prisés de la région.",
     "viewProperties": "Voir les villes",
     "contactUs": "Nous Contacter",
@@ -11,12 +11,12 @@
   "stats": {
     "yearsExperience": "Réponse rapide",
     "billionInSales": "Focus sur le sud de la Californie",
-    "countriesServed": "Portée mondiale",
-    "clientSatisfaction": "Engagement qualité",
+    "countriesServed": "Partenaires de classe mondiale",
+    "clientSatisfaction": "Dévouement inégalé",
     "yearsExperienceLabel": "Exécution rapide pour chaque projet",
     "billionInSalesLabel": "Forte présence locale & expertise",
-    "countriesServedLabel": "Au service de partenaires dans tous les secteurs",
-    "clientSatisfactionLabel": "Dépasser les attentes à chaque fois"
+    "countriesServedLabel": "En collaboration avec des partenaires de divers secteurs",
+    "clientSatisfactionLabel": "Portés par la passion. Inspirant un impact durable."
   },
   "services": {
     "title": "Nos Services – Prime Local Homes",

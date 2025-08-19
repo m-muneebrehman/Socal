@@ -130,7 +130,7 @@
       "sending": "جاري الإرسال..."
     },
     "countyCards": {
-      "destinations": "الوجهات",
+      "destinations": "المناطق التي تتوفر فيها خدماتنا",
       "loadingCounties": "جاري تحميل المقاطعات...",
       "noCountiesAvailable": "لا توجد مقاطعات متاحة في الوقت الحالي.",
       "seeAllCities": "عرض جميع المدن",

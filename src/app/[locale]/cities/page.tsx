@@ -132,7 +132,6 @@ const CitiesPage = () => {
             </>
           ) : (
             <div className="no-results">
-              <div className="no-results-icon">🔍</div>
               <h3 className="no-results-title">{t('noResults.title')}</h3>
               <p className="no-results-text">
                 {t('noResults.text')}
