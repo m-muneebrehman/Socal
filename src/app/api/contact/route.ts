@@ -12,25 +12,7 @@ export async function GET(request: NextRequest) {
     const locale = searchParams.get('locale') || 'en'
     console.log('🌍 Requested locale:', locale)
     
-    // First try to get data from JSON file (prioritize over MongoDB)
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'contact', locale, 'contact.json')
-    if (fs.existsSync(jsonPath)) {
-      console.log('✅ Returning data from JSON file for locale:', locale)
-      const jsonData = fs.readFileSync(jsonPath, 'utf8')
-      return NextResponse.json(JSON.parse(jsonData))
-    }
-    
-    // Fallback to English JSON if requested locale doesn't exist
-    if (locale !== 'en') {
-      const englishPath = path.join(process.cwd(), 'src', 'data', 'contact', 'en', 'contact.json')
-      if (fs.existsSync(englishPath)) {
-        console.log('⚠️ Locale not found, falling back to English JSON')
-        const jsonData = fs.readFileSync(englishPath, 'utf8')
-        return NextResponse.json(JSON.parse(jsonData))
-      }
-    }
-    
-    // Then try to get data from MongoDB as fallback
+    // First try to get data from MongoDB (restore original working flow)
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected')
@@ -43,7 +25,25 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(cleanContactData)
       }
     } catch (dbError) {
-      console.log('⚠️ Database not available:', dbError)
+      console.log('⚠️ Database not available, falling back to JSON file:', dbError)
+    }
+
+    // Fallback to JSON file based on locale
+    const jsonPath = path.join(process.cwd(), 'src', 'data', 'contact', locale, 'contact.json')
+    if (fs.existsSync(jsonPath)) {
+      console.log('✅ Returning data from JSON file for locale:', locale)
+      const jsonData = fs.readFileSync(jsonPath, 'utf8')
+      return NextResponse.json(JSON.parse(jsonData))
+    }
+
+    // Fallback to English if requested locale doesn't exist
+    if (locale !== 'en') {
+      const englishPath = path.join(process.cwd(), 'src', 'data', 'contact', 'en', 'contact.json')
+      if (fs.existsSync(englishPath)) {
+        console.log('⚠️ Locale not found, falling back to English')
+        const jsonData = fs.readFileSync(englishPath, 'utf8')
+        return NextResponse.json(JSON.parse(jsonData))
+      }
     }
 
 

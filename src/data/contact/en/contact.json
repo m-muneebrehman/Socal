@@ -1,7 +1,7 @@
 {
   "locale": "en",
   "author": {
-    "name": "Reza Barghlameno",
+    "name": "Reza Barghlamen",
     "photo": "/raza.jpg"
   },
   "form": {
@@ -110,6 +110,12 @@
           "price": "$865,000",
           "year": "2024",
           "imageUrl": "/contact/property_9.png"
+        },
+        {
+          "address": "s",
+          "price": "ss",
+          "year": "s",
+          "imageUrl": ""
         }
       ]
     }

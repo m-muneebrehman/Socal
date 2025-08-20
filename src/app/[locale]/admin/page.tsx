@@ -598,13 +598,12 @@ export default function AdminDashboard() {
         }
         
         // Also refresh the home data to ensure consistency
-        await fetchHomeData(locale)
       } else {
         addToast('error', 'Failed to update home data')
       }
     } catch (error) {
-      console.error('Error updating home data:', error)
-      addToast('error', 'Failed to update home data')
+      console.error('❌ Error updating home data:', error)
+      addToast('error', 'Error updating home data')
     }
   }
 
