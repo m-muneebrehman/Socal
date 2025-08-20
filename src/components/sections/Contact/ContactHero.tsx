@@ -37,7 +37,7 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
         <div className="profile-hero-card">
           <div className="profile-hero-left">
             <div className="profile-image-container">
-              <div className="profile-image">
+              <div className="profile-image" style={{ width: '140px', height: '140px', overflow: 'hidden' }}>
                 {contactData?.author?.photo ? (
                   <img 
                     src={contactData.author.photo} 
@@ -46,7 +46,8 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
                       width: '100%',
                       height: '100%',
                       borderRadius: '50%',
-                      objectFit: 'cover'
+                      objectFit: 'cover',
+                      objectPosition: 'center top'
                     }}
                   />
                 ) : (
@@ -60,22 +61,12 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
             </div>
             
             <div className="profile-details">
-              <h2 className="profile-name">{contactData?.author?.name || 'Reza Barghlameno'}</h2>
+              <h2 className="profile-name">
+                {contactData?.author?.name || 'Reza Barghlameno'}
+              </h2>
+              <span className="form-badge dre-badge">CA DRE # 02211952</span>
               <p className="profile-company">{contactData?.hero?.profileCompany || 'eXp of California'}</p>
               <p className="profile-title">{contactData?.hero?.profileTitle || 'Lead of Crown Coastal Concierge'}</p>
-              <div className="profile-badges">{contactData?.hero?.profileBadges?.topProducer && (
-  <span className="profile-badge">
-    {contactData.hero.profileBadges.topProducer}
-  </span>
-)}
-
-{contactData?.hero?.profileBadges?.fiveStarRated && (
-  <span className="profile-badge">
-    {contactData.hero.profileBadges.fiveStarRated}
-  </span>
-)}
-
-              </div>
             </div>
           </div>
 

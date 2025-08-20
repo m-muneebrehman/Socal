@@ -78,7 +78,25 @@
       "faq": "FAQ",
       "everythingYouNeedToKnow": "Alles was Sie wissen müssen",
       "allQuestions": "Alle Fragen",
-      "exploreAllCities": "Alle Städte erkunden"
+      "exploreAllCities": "Alle Städte erkunden",
+      "readyToFindDreamProperty": "Bereit, Ihre Traumimmobilie zu finden?",
+      "contactExpertTeam": "Kontaktieren Sie noch heute unser Expertenteam für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die perfekte Investitionsimmobilie zu finden.",
+      "scheduleConsultation": "Beratung vereinbaren",
+      "readyToBuyOrSell": "Bereit, in {cityName} zu kaufen oder zu verkaufen? Kontaktieren Sie noch heute Reza Barghlameno für fachkundige Beratung und Express-Service, wenn Sie ihn am meisten brauchen.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Name",
+      "enterYourName": "Geben Sie Ihren Namen ein",
+      "phone": "Telefon",
+      "enterYourPhone": "Geben Sie Ihre Telefonnummer ein",
+      "email": "E-Mail",
+      "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+      "message": "Nachricht",
+      "enterYourMessage": "Geben Sie Ihre Nachricht ein",
+      "sendMessage": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "backToHome": "Zurück zur Startseite",
+      "title": "Titel"
     },
     "countyPage": {
       "cities": "Städte",
@@ -127,7 +145,8 @@
       "message": "Nachricht",
       "enterYourMessage": "Geben Sie Ihre Nachricht ein",
       "sendMessage": "Nachricht senden",
-      "sending": "Wird gesendet..."
+      "sending": "Wird gesendet...",
+      "title": "Titel"
     },
     "countyCards": {
       "destinations": "Wo unsere Dienstleistungen verfügbar sind",
@@ -203,7 +222,22 @@
   "cta": {
     "title": "Bereit, Ihre Traumimmobilie zu finden?",
     "text": "Kontaktieren Sie unser Expertenteam noch heute für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die perfekte Investitionsimmobilie zu finden.",
-    "button": "Beratung planen"
+    "button": "Beratung planen",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "Bereit, in Südkalifornien zu kaufen oder zu verkaufen? Kontaktieren Sie noch heute Reza Barghlameno für fachkundige Beratung und Express-Service, wenn Sie ihn am meisten brauchen.",
+    "salutationLabel": "Titel",
+    "name": "Name",
+    "enterYourName": "Geben Sie Ihren Namen ein",
+    "phone": "Telefon",
+    "enterYourPhone": "Geben Sie Ihre Telefonnummer ein",
+    "email": "E-Mail",
+    "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+    "message": "Nachricht",
+    "enterYourMessage": "Geben Sie Ihre Nachricht ein",
+    "sendMessage": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "back": "Zurück"
   },
   "footer": {
     "about": "Mit über zwei Jahrzehnten Erfahrung ist SoCal Prime Homes ein führendes globales Immobilienberatungsunternehmen, das sich auf Luxusimmobilien und maßgeschneiderte Umzugsservices spezialisiert hat.",

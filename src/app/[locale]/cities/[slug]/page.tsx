@@ -509,11 +509,26 @@ const CityPage = () => {
 
         {/* Schedule Consultation Section - EXACTLY like Home Page */}
         <ConsultationForm
-          title="Ready to Find Your Dream Property?"
-          text="Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property."
-          button="Schedule Consultation"
+          title={t('cityPage.readyToFindDreamProperty')}
+          text={t('cityPage.contactExpertTeam')}
+          button={t('cityPage.scheduleConsultation')}
           cityName={city?.name}
           showCitySpecific={true}
+          salutationLabel={t('cityPage.title')}
+          rezaBarghlameno={t('cityPage.rezaBarghlameno')}
+          primeLocalHomes={t('cityPage.primeLocalHomes')}
+          readyToBuyOrSell={t('cityPage.readyToBuyOrSell', { cityName: city?.name || 'Southern California' })}
+          name={t('cityPage.name')}
+          enterYourName={t('cityPage.enterYourName')}
+          phone={t('cityPage.phone')}
+          enterYourPhone={t('cityPage.enterYourPhone')}
+          email={t('cityPage.email')}
+          enterYourEmail={t('cityPage.enterYourEmail')}
+          message={t('cityPage.message')}
+          enterYourMessage={t('cityPage.enterYourMessage')}
+          sendMessage={t('cityPage.sendMessage')}
+          back={t('cityPage.backToHome')}
+          sending={t('cityPage.sending')}
         />
 
         {/* Back to Cities Link */}

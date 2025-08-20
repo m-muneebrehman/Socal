@@ -1,12 +1,12 @@
 {
   "hero": {
-    "badge": "SoCal Prime Homes",
+    "badge": "独家豪华房地产服务",
     "title": "臻选独家房产，尊享卓越服务",
     "subtitle": "我们自豪地为国际客户提供服务，在南加州的每一座城市提供定制的房地产服务。从海滨度假屋到充满活力的城市住宅，我们为您连接该地区最受追捧位置的卓越房产。",
     "viewProperties": "查看城市",
     "contactUs": "联系我们",
     "scrollDown": "向下滚动",
-    "backgroundImage": "/home/hero.jpg"
+    "backgroundImage": "/home/hero.png"
   },
   "stats": {
     "yearsExperience": "快速响应",

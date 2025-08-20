@@ -76,9 +76,27 @@
       "discoverDiverseNeighborhoods": "发现{cityName}周围多样化的社区和城市",
       "county": "县",
       "faq": "常见问题",
-      "everythingYouNeedToKnow": "您需要知道的一切",
+      "everythingYouNeedToKnow": "您需要了解的一切",
       "allQuestions": "所有问题",
-      "exploreAllCities": "探索所有城市"
+      "exploreAllCities": "探索所有城市",
+      "readyToFindDreamProperty": "准备找到您的梦想房产？",
+      "contactExpertTeam": "今天就联系我们的专家团队进行个性化咨询，开始您寻找完美家园或投资房产的旅程。",
+      "scheduleConsultation": "安排咨询",
+      "readyToBuyOrSell": "准备在{cityName}买卖房产？今天就联系Reza Barghlameno，获得专业指导，在您最需要的时候提供快速服务。",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "姓名",
+      "enterYourName": "输入您的姓名",
+      "phone": "电话",
+      "enterYourPhone": "输入您的电话",
+      "email": "邮箱",
+      "enterYourEmail": "输入您的邮箱",
+      "message": "留言",
+      "enterYourMessage": "输入您的留言",
+      "sendMessage": "发送留言",
+      "sending": "发送中...",
+      "backToHome": "返回首页",
+      "title": "称谓"
     },
     "countyPage": {
       "cities": "城市",
@@ -127,7 +145,8 @@
       "message": "留言",
       "enterYourMessage": "输入您的留言",
       "sendMessage": "发送留言",
-      "sending": "发送中..."
+      "sending": "发送中...",
+      "title": "称谓"
     },
     "countyCards": {
       "destinations": "我们的服务覆盖地区",
@@ -203,7 +222,22 @@
   "cta": {
     "title": "准备找到您的梦想房产？",
     "text": "今天就联系我们的专家团队进行个人咨询，开始您寻找完美家园或投资房产的旅程。",
-    "button": "安排咨询"
+    "button": "安排咨询",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "准备在南加州买卖房产？今天就联系Reza Barghlameno，获得专业指导，在您最需要的时候提供快速服务。",
+    "salutationLabel": "称谓",
+    "name": "姓名",
+    "enterYourName": "输入您的姓名",
+    "phone": "电话",
+    "enterYourPhone": "输入您的电话",
+    "email": "邮箱",
+    "enterYourEmail": "输入您的邮箱",
+    "message": "留言",
+    "enterYourMessage": "输入您的留言",
+    "sendMessage": "发送留言",
+    "sending": "发送中...",
+    "back": "返回"
   },
   "footer": {
     "about": "拥有超过二十年的经验，SoCal Prime Homes是一家领先的全球房地产咨询公司，专门从事豪华房地产和定制搬迁服务。",

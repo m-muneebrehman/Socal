@@ -15,6 +15,9 @@ interface TestimonialsProps {
   items?: Testimonial[]
   title?: string
   subtitle?: string
+  forcePageSize?: number
+  showHeader?: boolean
+  arrowInset?: number
 }
 
 const defaultItems: Testimonial[] = [
@@ -73,19 +76,25 @@ const Testimonials: React.FC<TestimonialsProps> = ({
   items = defaultItems,
   title = 'What Our Clients Say',
   subtitle = 'Real stories from families who found their dream homes with us',
+  forcePageSize,
+  showHeader = true,
+  arrowInset,
 }) => {
   const [page, setPage] = React.useState(0)
   const [direction, setDirection] = React.useState<'left' | 'right' | null>(null)
   const [anim, setAnim] = React.useState<'outLeft' | 'inRight' | 'outRight' | 'inLeft' | ''>('')
-  const [pageSize, setPageSize] = React.useState(3)
+  const [pageSize, setPageSize] = React.useState(1)
+  const quoteRefs = React.useRef<Record<string, HTMLDivElement | null>>({})
+  const [overflowing, setOverflowing] = React.useState<Record<string, boolean>>({})
 
   const computePageSize = React.useCallback(() => {
+    if (forcePageSize && forcePageSize > 0) return forcePageSize
     if (typeof window === 'undefined') return 3
     const width = window.innerWidth
     if (width <= 640) return 1
     if (width <= 1024) return 2
     return 3
-  }, [])
+  }, [forcePageSize])
 
   React.useEffect(() => {
     setPageSize(computePageSize())
@@ -124,8 +133,6 @@ const Testimonials: React.FC<TestimonialsProps> = ({
 
   const startIndex = page * pageSize
   const current = items.slice(startIndex, startIndex + pageSize)
-
-  // If fewer than pageSize remain, optionally wrap to show a full page
   const display = current.length < pageSize
     ? [...current, ...items.slice(0, pageSize - current.length)]
     : current
@@ -141,17 +148,37 @@ const Testimonials: React.FC<TestimonialsProps> = ({
 
   const navDisabled = items.length <= pageSize
 
+  // Detect if quotes overflow to decide showing scroll hint/fade
+  React.useEffect(() => {
+    const map: Record<string, boolean> = {}
+    display.forEach((t) => {
+      const el = quoteRefs.current[t.id]
+      if (el) {
+        map[t.id] = el.scrollHeight > el.clientHeight + 2
+      }
+    })
+    // Shallow compare to avoid unnecessary state updates
+    let changed = false
+    const keys = new Set([...Object.keys(overflowing), ...Object.keys(map)])
+    for (const k of keys) {
+      if (overflowing[k] !== map[k]) { changed = true; break }
+    }
+    if (changed) setOverflowing(map)
+  }, [display, pageSize])
+
   return (
     <section id="testimonials" className={styles.testimonialsSection}>
       <div className={styles.container}>
-        <div className="section-header">
-          <h2 className="section-title">{title}</h2>
-          <p className="section-subtitle">{subtitle}</p>
-        </div>
+        {showHeader && (
+          <div className="section-header">
+            <h2 className="section-title">{title}</h2>
+            <p className="section-subtitle">{subtitle}</p>
+          </div>
+        )}
 
-        {/* Left Arrow */}
         <button
           className={`${styles.navBtn} ${styles.navLeft}`}
+          style={arrowInset !== undefined ? ({ left: arrowInset } as React.CSSProperties) : undefined}
           aria-label="Previous"
           onClick={handlePrev}
           disabled={navDisabled}
@@ -161,13 +188,11 @@ const Testimonials: React.FC<TestimonialsProps> = ({
           </svg>
         </button>
 
-        {/* Cards Grid */}
         <div className={`${styles.slider}`}>
           <div className={`${styles.stage}`}>
-            <div className={`${styles.grid} ${styles.stack} ${animationClass}`}>
+            <div className={`${styles.grid} ${styles.stack} ${animationClass}`} style={{ gridTemplateColumns: `repeat(${pageSize}, minmax(0, 1fr))` }}>
               {display.map((t) => (
                 <div key={t.id} className={styles.card}>
-                  {/* Stars */}
                   {t.rating ? (
                     <div className={styles.stars}>
                       {Array.from({ length: t.rating }).map((_, i) => (
@@ -176,7 +201,6 @@ const Testimonials: React.FC<TestimonialsProps> = ({
                     </div>
                   ) : null}
 
-                  {/* Client */}
                   <div className={styles.client}>
                     <div className={styles.avatar}>
                       {t.image ? (
@@ -193,16 +217,19 @@ const Testimonials: React.FC<TestimonialsProps> = ({
                     </div>
                   </div>
 
-                  {/* Quote */}
                   <div className={styles.quoteWrap}>
-                    <div className={`${styles.glass} ${styles.quoteScroll}`}>
+                    <div ref={(el) => (quoteRefs.current[t.id] = el)} className={`${styles.glass} ${styles.quoteScroll}`}>
                       <p className={styles.quote}>{t.quote}</p>
                     </div>
-                    <div className={styles.fadeBottom} />
-                    <div className={styles.scrollHint}>
-                      <span className={styles.chevron}>↑</span>
-                      <span className={styles.scrollText}>Scroll</span>
-                    </div>
+                    {overflowing[t.id] && (
+                      <>
+                        <div className={styles.fadeBottom} />
+                        <div className={styles.scrollHint}>
+                          <span className={styles.chevron}>↑</span>
+                          <span className={styles.scrollText}>Scroll</span>
+                        </div>
+                      </>
+                    )}
                   </div>
                 </div>
               ))}
@@ -210,9 +237,9 @@ const Testimonials: React.FC<TestimonialsProps> = ({
           </div>
         </div>
 
-        {/* Right Arrow */}
         <button
           className={`${styles.navBtn} ${styles.navRight}`}
+          style={arrowInset !== undefined ? ({ right: arrowInset } as React.CSSProperties) : undefined}
           aria-label="Next"
           onClick={handleNext}
           disabled={navDisabled}

@@ -75,10 +75,28 @@
       "exploreSurroundingAreas": "Explorar Áreas Circundantes",
       "discoverDiverseNeighborhoods": "Descubre los diversos vecindarios y ciudades alrededor de {cityName}",
       "county": "Condado",
-      "faq": "Preguntas Frecuentes",
-      "everythingYouNeedToKnow": "Todo lo que Necesitas Saber",
-      "allQuestions": "Todas las Preguntas",
-      "exploreAllCities": "Explorar Todas las Ciudades"
+      "faq": "FAQ",
+      "everythingYouNeedToKnow": "Todo lo que necesitas saber",
+      "allQuestions": "Todas las preguntas",
+      "exploreAllCities": "Explorar todas las ciudades",
+      "readyToFindDreamProperty": "¿Listo para encontrar tu propiedad soñada?",
+      "contactExpertTeam": "Contacta a nuestro equipo de expertos hoy para una consulta personalizada y comienza tu viaje para encontrar la casa o propiedad de inversión perfecta.",
+      "scheduleConsultation": "Programar consulta",
+      "readyToBuyOrSell": "¿Listo para comprar o vender en {cityName}? Contacta a Reza Barghlameno hoy para orientación experta y servicio express cuando más lo necesites.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Nombre",
+      "enterYourName": "Ingresa tu nombre",
+      "phone": "Teléfono",
+      "enterYourPhone": "Ingresa tu teléfono",
+      "email": "Email",
+      "enterYourEmail": "Ingresa tu email",
+      "message": "Mensaje",
+      "enterYourMessage": "Ingresa tu mensaje",
+      "sendMessage": "Enviar mensaje",
+      "sending": "Enviando...",
+      "backToHome": "Volver al inicio",
+      "title": "Título"
     },
     "countyPage": {
       "cities": "Ciudades",
@@ -127,7 +145,8 @@
       "message": "Mensaje",
       "enterYourMessage": "Ingresa tu mensaje",
       "sendMessage": "Enviar Mensaje",
-      "sending": "Enviando..."
+      "sending": "Enviando...",
+      "title": "Título"
     },
     "countyCards": {
       "destinations": "Dónde están disponibles nuestros servicios",
@@ -203,7 +222,22 @@
   "cta": {
     "title": "¿Listo para encontrar tu Propiedad de Ensueño?",
     "text": "Contacta a nuestro equipo de expertos hoy para una consulta personalizada y comienza tu viaje para encontrar el hogar o propiedad de inversión perfecta.",
-    "button": "Programar Consulta"
+    "button": "Programar Consulta",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "¿Listo para comprar o vender en el Sur de California? Contacta a Reza Barghlameno hoy para orientación experta y servicio express cuando más lo necesites.",
+    "salutationLabel": "Título",
+    "name": "Nombre",
+    "enterYourName": "Ingresa tu nombre",
+    "phone": "Teléfono",
+    "enterYourPhone": "Ingresa tu teléfono",
+    "email": "Email",
+    "enterYourEmail": "Ingresa tu email",
+    "message": "Mensaje",
+    "enterYourMessage": "Ingresa tu mensaje",
+    "sendMessage": "Enviar mensaje",
+    "sending": "Enviando...",
+    "back": "Volver"
   },
   "footer": {
     "about": "Con más de dos décadas de experiencia, SoCal Prime Homes es una empresa líder global de consultoría inmobiliaria especializada en bienes raíces de lujo y servicios de reubicación personalizados.",

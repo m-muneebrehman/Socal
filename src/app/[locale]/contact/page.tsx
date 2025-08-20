@@ -8,10 +8,12 @@ import ContactInfo from '@/components/sections/Contact/ContactInfo'
 import SalesModal from '@/components/sections/Contact/SalesModal'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 import { ContactData } from '@/types'
+import Testimonials from '@/components/sections/Testimonials/Testimonials'
 
 const ContactPage = () => {
   const params = useParams()
   const [contactData, setContactData] = useState<ContactData | null>(null)
+  const [testimonials, setTestimonials] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const locale = (params as Record<string, any>).locale || 'en'
 
@@ -77,8 +79,28 @@ const ContactPage = () => {
     }
   }
 
+  const fetchTestimonials = async () => {
+    try {
+      const response = await fetch(`/api/home?locale=${locale}`, { cache: 'no-store' })
+      if (response.ok) {
+        const data = await response.json()
+        setTestimonials(data?.testimonials?.items || [])
+        return
+      }
+    } catch (_) {
+      try {
+        const english = await fetch('/data/home/en/home.json', { cache: 'no-store' })
+        if (english.ok) {
+          const en = await english.json()
+          setTestimonials(en?.testimonials?.items || [])
+        }
+      } catch {}
+    }
+  }
+
   useEffect(() => {
     fetchContactData()
+    fetchTestimonials()
   }, [locale])
 
   // Add a refresh function that can be called
@@ -133,7 +155,14 @@ const ContactPage = () => {
       <div className="contact-content">
         <div className="contact-container">
           <div className="contact-grid">
-            <ContactInfo contactData={contactData} />
+            <div>
+              <ContactInfo contactData={contactData} />
+              {testimonials.length > 0 && (
+                <div style={{ marginTop: 24 }}>
+                  <Testimonials items={testimonials} showHeader={false} forcePageSize={1} arrowInset={14} />
+                </div>
+              )}
+            </div>
             <ContactForm contactData={contactData} />
           </div>
         </div>

@@ -550,11 +550,8 @@ const CountyPage = () => {
                     <div className="highlight-bg" style={{ backgroundImage: `url('${highlight.bgImage}')` }}>
                       <div className="highlight-overlay">
                         <div className="highlight-content">
-                          <div className="highlight-icon-large">
-                            <span className="highlight-icon-text">{highlight.icon}</span>
-                          </div>
-                          <h3 className="highlight-title">{highlight.title}</h3>
-                          <p className="highlight-description">{highlight.description}</p>
+                           <h3 className="highlight-title">{highlight.title}</h3>
+                           <p className="highlight-description">{highlight.description}</p>
                         </div>
                       </div>
                     </div>
@@ -1047,6 +1044,7 @@ const CountyPage = () => {
            button={t('countyPage.scheduleConsultation')}
            cityName={county?.name}
            showCitySpecific={true}
+           salutationLabel={t('countyPage.title')}
            rezaBarghlameno={t('countyPage.rezaBarghlameno')}
            primeLocalHomes={t('countyPage.primeLocalHomes')}
            readyToBuyOrSell={t('countyPage.readyToBuyOrSell', { countyName: county?.name || 'Southern California' })}

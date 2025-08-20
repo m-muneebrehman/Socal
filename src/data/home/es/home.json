@@ -1,12 +1,12 @@
 {
   "hero": {
-    "badge": "Bienes Raíces de Lujo Globales",
+    "badge": "Servicio Exclusivo de Bienes Raíces de Lujo",
     "title": "Propiedades Exclusivas con un Servicio de máxima Distinción",
     "subtitle": "Atendemos con orgullo a una clientela internacional, ofreciendo servicios inmobiliarios a medida en cada ciudad del sur de California. Desde retiros costeros hasta vibrantes residencias urbanas, lo conectamos con propiedades extraordinarias en las ubicaciones más codiciadas de la región.",
     "viewProperties": "Ver ciudades",
     "contactUs": "Contáctanos",
     "scrollDown": "Desplázate Abajo",
-    "backgroundImage": "/home/hero.jpg"
+    "backgroundImage": "/home/hero.png"
   },
   "stats": {
     "yearsExperience": "Respuesta rápida",

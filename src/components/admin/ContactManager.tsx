@@ -109,11 +109,19 @@ export default function ContactManager({
     const file = event.target.files?.[0]
     if (!file) return
 
+    // Immediate preview using object URL
+    const previewUrl = URL.createObjectURL(file)
+    setEditData(prev => ({
+      ...prev,
+      author: { ...prev.author, photo: previewUrl }
+    }))
+
     setIsUploading(true)
     try {
       const formData = new FormData()
-      formData.append('image', file)
-      formData.append('name', 'raza.jpg')
+      // API expects 'file' and a 'type' to build file name `${type}.ext`
+      formData.append('file', file)
+      formData.append('type', 'raza')
 
       const response = await fetch('/api/upload', {
         method: 'POST',
@@ -122,18 +130,19 @@ export default function ContactManager({
 
       if (response.ok) {
         const result = await response.json()
+        const newPhotoUrl = result.fileUrl || result.url || previewUrl
         setEditData(prev => ({
           ...prev,
           author: {
             ...prev.author,
-            photo: result.url
+            photo: newPhotoUrl
           }
         }))
         updateContactData({
           ...contactData,
           author: {
             ...contactData.author,
-            photo: result.url
+            photo: newPhotoUrl
           }
         }, currentLocale)
       }
@@ -406,42 +415,7 @@ export default function ContactManager({
                     }))}
                   />
                 </div>
-                <div className="form-group">
-                  <label className="form-label">Top Producer Badge</label>
-                  <input
-                    type="text"
-                    className="form-input"
-                    value={editData.hero?.profileBadges?.topProducer || ''}
-                    onChange={(e) => setEditData(prev => ({
-                      ...prev,
-                      hero: { 
-                        ...prev.hero, 
-                        profileBadges: { 
-                          ...prev.hero?.profileBadges, 
-                          topProducer: e.target.value 
-                        } 
-                      }
-                    }))}
-                  />
-                </div>
-                <div className="form-group">
-                  <label className="form-label">Rating Badge</label>
-                  <input
-                    type="text"
-                    className="form-input"
-                    value={editData.hero?.profileBadges?.fiveStarRated || ''}
-                    onChange={(e) => setEditData(prev => ({
-                      ...prev,
-                      hero: { 
-                        ...prev.hero, 
-                        profileBadges: { 
-                          ...prev.hero?.profileBadges, 
-                          fiveStarRated: e.target.value 
-                        } 
-                      }
-                    }))}
-                  />
-                </div>
+				{/* Remove badges controls - no longer used */}
               </div>
             </div>
           ) : (
@@ -502,28 +476,6 @@ export default function ContactManager({
                   <p style={{ fontSize: '14px', color: '#3b82f6', margin: '0 0 20px 0', textAlign: 'center' }}>
                     {hero.profileTitle || 'Lead of Crown Coastal Concierge'}
                   </p>
-                  <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
-                    <span style={{
-                      background: '#d4af37',
-                      color: 'black',
-                      padding: '6px 12px',
-                      borderRadius: '20px',
-                      fontSize: '12px',
-                      fontWeight: '600'
-                    }}>
-                      {hero.profileBadges?.topProducer || 'Top Producer'}
-                    </span>
-                    <span style={{
-                      background: '#d4af37',
-                      color: 'black',
-                      padding: '6px 12px',
-                      borderRadius: '20px',
-                      fontSize: '12px',
-                      fontWeight: '600'
-                    }}>
-                      {hero.profileBadges?.fiveStarRated || '5-Star Rated'}
-                    </span>
-                  </div>
                 </div>
 
                 {/* Right Panel - Properties Preview */}
