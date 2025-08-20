@@ -22,14 +22,25 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Only image files are allowed' }, { status: 400 })
     }
 
-    // Get file extension
-    const fileExtension = file.name.split('.').pop()
+    // Get file extension and enforce PNG for property_* uploads
+    const originalExt = (file.name.split('.').pop() || '').toLowerCase()
+    const isPropertyImage = type.startsWith('property_')
+    if (isPropertyImage && file.type !== 'image/png') {
+      return NextResponse.json({ error: 'Please upload PNG images for properties' }, { status: 400 })
+    }
+    const fileExtension = isPropertyImage ? 'png' : originalExt
     const fileName = `${type}.${fileExtension}`
     
-    // Define upload directory - save in public/home/ for hero images
-    const uploadDir = type === 'hero' 
+    // Define upload directory
+    // - hero -> public/home
+    // - property_* -> public/contact
+    // - default -> public
+    // NOTE: isPropertyImage declared above
+    const uploadDir = type === 'hero'
       ? join(process.cwd(), 'public', 'home')
-      : join(process.cwd(), 'public')
+      : isPropertyImage
+        ? join(process.cwd(), 'public', 'contact')
+        : join(process.cwd(), 'public')
     
     // Create directory if it doesn't exist
     if (!existsSync(uploadDir)) {
@@ -45,6 +56,15 @@ export async function POST(request: NextRequest) {
       // File doesn't exist, which is fine
     }
 
+    // For property images, proactively delete any previous variants to avoid duplicates (jpg, jpeg, webp, png)
+    if (isPropertyImage) {
+      const variants = ['png', 'jpg', 'jpeg', 'webp']
+      await Promise.all(variants.map(async (ext) => {
+        const variantPath = join(uploadDir, `${type}.${ext}`)
+        try { await unlink(variantPath) } catch {}
+      }))
+    }
+
     // Convert file to buffer
     const bytes = await file.arrayBuffer()
     const buffer = Buffer.from(bytes)
@@ -53,7 +73,11 @@ export async function POST(request: NextRequest) {
     await writeFile(filePath, buffer)
 
     // Return the file path that can be used in the frontend
-    const fileUrl = type === 'hero' ? `/home/${fileName}` : `/${fileName}`
+    const fileUrl = type === 'hero'
+      ? `/home/${fileName}`
+      : isPropertyImage
+        ? `/contact/${fileName}`
+        : `/${fileName}`
 
     return NextResponse.json({ 
       success: true, 

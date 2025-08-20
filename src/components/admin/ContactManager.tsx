@@ -176,6 +176,45 @@ export default function ContactManager({
     ))
   }
 
+  const uploadPropertyImage = async (id: string, index: number, file: File) => {
+    const previewUrl = URL.createObjectURL(file)
+    setProperties(prev => prev.map(p => p.id === id ? { ...p, imageUrl: previewUrl } : p))
+
+    try {
+      const formData = new FormData()
+      formData.append('file', file)
+      formData.append('type', `property_${index + 1}`)
+
+      const response = await fetch('/api/upload', { method: 'POST', body: formData })
+      if (response.ok) {
+        const result = await response.json()
+        // Use the fileUrl from the API response (e.g., "/contact/property_1.png")
+        const newUrl = result.fileUrl || previewUrl
+        setProperties(prev => prev.map(p => p.id === id ? { ...p, imageUrl: newUrl } : p))
+
+        // Persist into editData and backend immediately
+        const updated = {
+          ...editData,
+          hero: {
+            ...editData.hero,
+            recentSales: {
+              ...editData.hero?.recentSales,
+              properties: properties.map((prop, i) => ({
+                address: prop.address,
+                price: prop.price,
+                year: prop.year,
+                imageUrl: i === index ? newUrl : prop.imageUrl
+              }))
+            }
+          }
+        }
+        updateContactData(updated, currentLocale)
+      }
+    } catch (e) {
+      console.error('Failed to upload property image', e)
+    }
+  }
+
   const deleteProperty = (id: string) => {
     const updatedProperties = properties.filter(prop => prop.id !== id)
     setProperties(updatedProperties)
@@ -797,21 +836,51 @@ export default function ContactManager({
                       />
                     </div>
                     <div className="form-group">
-                      <label className="form-label">Image URL</label>
+                      <label className="form-label">Image</label>
                       <input
-                        type="text"
+                        type="file"
+                        accept="image/*"
                         className="form-input"
-                        placeholder="Enter property image URL"
-                        value={editData.newProperty?.imageUrl || ''}
-                        onChange={(e) => setEditData(prev => ({
-                          ...prev,
-                          newProperty: { 
-                            address: prev.newProperty?.address || '',
-                            price: prev.newProperty?.price || '',
-                            year: prev.newProperty?.year || '',
-                            imageUrl: e.target.value
+                        onChange={async (e) => {
+                          const file = e.target.files?.[0]
+                          if (!file) return
+                          
+                          // Show preview immediately
+                          const preview = URL.createObjectURL(file)
+                          setEditData(prev => ({
+                            ...prev,
+                            newProperty: {
+                              address: prev.newProperty?.address || '',
+                              price: prev.newProperty?.price || '',
+                              year: prev.newProperty?.year || '',
+                              imageUrl: preview
+                            }
+                          }))
+                          
+                          // Upload the image and get the proper filename
+                          try {
+                            const formData = new FormData()
+                            formData.append('file', file)
+                            formData.append('type', `property_${properties.length + 1}`)
+                            
+                            const response = await fetch('/api/upload', { method: 'POST', body: formData })
+                            if (response.ok) {
+                              const result = await response.json()
+                              const newUrl = result.fileUrl || preview
+                              setEditData(prev => ({
+                                ...prev,
+                                newProperty: {
+                                  address: prev.newProperty?.address || '',
+                                  price: prev.newProperty?.price || '',
+                                  year: prev.newProperty?.year || '',
+                                  imageUrl: newUrl
+                                }
+                              }))
+                            }
+                          } catch (error) {
+                            console.error('Failed to upload new property image:', error)
                           }
-                        }))}
+                        }}
                       />
                     </div>
                   </div>
@@ -922,14 +991,27 @@ export default function ContactManager({
                         </div>
                         <div style={{ marginBottom: '16px' }}>
                           <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#374151' }}>
-                            Image URL
+                            Image
                           </label>
-                          <input
-                            type="text"
-                            value={property.imageUrl}
-                            onChange={(e) => updateProperty(property.id, 'imageUrl', e.target.value)}
-                            className="form-input"
-                          />
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                            <div style={{ width: '80px', height: '60px', borderRadius: '8px', overflow: 'hidden', background: '#e5e7eb' }}>
+                              {property.imageUrl && (
+                                <img src={property.imageUrl} alt="preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                              )}
+                            </div>
+                            <label style={{
+                              background: '#3b82f6', color: '#fff', padding: '8px 12px', borderRadius: '8px', cursor: 'pointer', fontSize: '12px', fontWeight: 600
+                            }}>
+                              <Upload size={14} /> Upload
+                              <input type="file" accept="image/*" style={{ display: 'none' }} onChange={(e) => {
+                                const file = e.target.files?.[0]
+                                if (file) {
+                                  const index = properties.findIndex(p => p.id === property.id)
+                                  uploadPropertyImage(property.id, index, file)
+                                }
+                              }} />
+                            </label>
+                          </div>
                         </div>
                       </div>
                     ))}

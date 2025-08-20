@@ -58,10 +58,58 @@
       "sold": "Sold",
       "properties": [
         {
-          "address": " 4632 Kensington Dr San Diego, CA, 92116",
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
           "price": "$1,695,000",
           "year": "2025",
-          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_5.png"
+        },
+        {
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
+        },
+        {
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
         }
       ]
     }

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 interface ContactHeroProps {
   contactData: Record<string, any>
@@ -11,6 +11,22 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
   
   const properties = contactData?.hero?.recentSales?.properties || []
   const totalProperties = properties.length
+  
+  // Debug: Log the properties to see what imageUrl values we have
+  console.log('ContactHero properties:', properties)
+  console.log('ContactHero imageUrls:', properties.map((p: any) => p.imageUrl))
+  
+  // Test image loading
+  useEffect(() => {
+    properties.forEach((property: any, index: number) => {
+      if (property.imageUrl) {
+        const img = new Image()
+        img.onload = () => console.log(`✅ Image ${index} loaded successfully:`, property.imageUrl)
+        img.onerror = () => console.log(`❌ Image ${index} failed to load:`, property.imageUrl)
+        img.src = property.imageUrl
+      }
+    })
+  }, [properties])
   
   const nextProperties = () => {
     if (totalProperties > 4) {
@@ -76,33 +92,47 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
                 <h3>{contactData?.hero?.recentSales?.title || 'Recent Sales'} ({totalProperties})</h3>
               </div>
               <div className="sales-preview-grid-compact">
-                {currentProperties.map((property: Record<string, any>, index: number) => (
-                  <div key={index} className="sale-preview-card-compact" style={{
-                    transition: 'all 0.3s ease',
-                    opacity: 1,
-                    transform: 'translateX(0)'
-                  }}>
-                    <div className="sale-preview-image-compact">
-                      <div style={{ position: 'relative' }}>
-                        <img
-                          src={property.imageUrl || "/raza.jpg"}
-                          alt="Property"
-                          style={{
-                            width: '100%',
-                            height: '80px',
-                            objectFit: 'cover'
-                          }}
-                        />
+                {currentProperties.map((property: Record<string, any>, index: number) => {
+                  // Debug: Log each property's imageUrl
+                  console.log(`Property ${index}:`, property.address, 'Image URL:', property.imageUrl);
+                  
+                  return (
+                    <div key={index} className="sale-preview-card-compact" style={{
+                      transition: 'all 0.3s ease',
+                      opacity: 1,
+                      transform: 'translateX(0)'
+                    }}>
+                      <div className="sale-preview-image-compact">
+                        <div style={{ position: 'relative' }}>
+                          <img
+                            src={property.imageUrl || "/raza.jpg"}
+                            alt="Property"
+                            style={{
+                              width: '100%',
+                              height: '160px',
+                              objectFit: 'cover'
+                            }}
+                            onError={(e) => {
+                              // Fallback to default image if property image fails to load
+                              const target = e.target as HTMLImageElement;
+                              console.log('Image failed to load:', property.imageUrl, 'falling back to /raza.jpg');
+                              target.src = "/raza.jpg";
+                            }}
+                            onLoad={() => {
+                              console.log('Image loaded successfully:', property.imageUrl);
+                            }}
+                          />
+                        </div>
+                        <span className="sale-preview-type-compact">{contactData?.hero?.recentSales?.sold || 'Sold'}</span>
                       </div>
-                      <span className="sale-preview-type-compact">{contactData?.hero?.recentSales?.sold || 'Sold'}</span>
+                      <div className="sale-preview-content-compact">
+                        <h4>{property.address}</h4>
+                        <p className="sale-preview-price">{property.price}</p>
+                        <span className="sale-preview-date">{property.year}</span>
+                      </div>
                     </div>
-                    <div className="sale-preview-content-compact">
-                      <h4>{property.address}</h4>
-                      <p className="sale-preview-price">{property.price}</p>
-                      <span className="sale-preview-date">{property.year}</span>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
               
               {/* Carousel Navigation */}
