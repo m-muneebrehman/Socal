@@ -48,9 +48,11 @@ const ConsultationForm = ({
 }: ConsultationFormProps) => {
   const [showConsultation, setShowConsultation] = useState(false)
   const [contactFormData, setContactFormData] = useState({
+    salutation: '',   // <-- NEW field
     name: '',
     phone: '',
     email: '',
+    purpose: '',      // <-- NEW field
     message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -71,7 +73,7 @@ const ConsultationForm = ({
     }
   }, [])
 
-  const handleContactFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleContactFormChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setContactFormData({
       ...contactFormData,
       [e.target.name]: e.target.value
@@ -93,23 +95,23 @@ const ConsultationForm = ({
     setStatusMessage('')
     
     try {
-      // EmailJS template parameters - using standard EmailJS variables
+      // EmailJS template parameters
       const templateParams = {
         to_name: 'Crown Coastal Concierge',
+        from_salutation: contactFormData.salutation, // <-- NEW
         from_name: contactFormData.name,
         from_email: contactFormData.email,
         from_phone: contactFormData.phone,
+        purpose: contactFormData.purpose,            // <-- NEW
         message: contactFormData.message,
         reply_to: contactFormData.email,
         city: cityName || 'Southern California'
       }
 
-      // Check if all required environment variables are set
       if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID) {
         throw new Error('EmailJS configuration not found in environment variables')
       }
 
-      // Send email using EmailJS with environment variables
       const result = await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
@@ -120,11 +122,12 @@ const ConsultationForm = ({
         setSubmitStatus('success')
         setStatusMessage('Message sent successfully! We\'ll get back to you soon.')
         
-        // Reset form
         setContactFormData({
+          salutation: '',
           name: '',
           phone: '',
           email: '',
+          purpose: '',
           message: ''
         })
       } else {
@@ -139,14 +142,9 @@ const ConsultationForm = ({
     }
   }
 
-  const resetStatus = () => {
-    setSubmitStatus('idle')
-    setStatusMessage('')
-  }
-
   return (
     <div className={`consultation-section-wrapper ${showConsultation ? 'flipped' : ''}`}>
-      {/* Front Side - Schedule Consultation */}
+      {/* Front Side */}
       <section className="consultation-section-front">
         <div className="cta-container">
           <h2 className="cta-title">{title}</h2>
@@ -160,14 +158,17 @@ const ConsultationForm = ({
         </div>
       </section>
       
-      {/* Back Side - Contact Form and Agent Info */}
+      {/* Back Side */}
       <section className="consultation-section-back">
         <div className="consultation-back-content">
           <div className="consultation-grid">
-            {/* Left Side - Agent Information */}
+            {/* Agent Info */}
             <div className="agent-info-section">
               <div className="agent-info">
-                <h3 className="agent-name">{rezaBarghlameno || "Reza Barghlameno"}</h3>
+                <h3 className="agent-name">
+                  {rezaBarghlameno || "Reza Barghlameno"}
+                </h3>
+                <li className="footer-link">CA DRE # 02211952</li> {/* DRE number */}
                 <p className="company-name">{primeLocalHomes || "Prime Local Homes"}</p>
                 <div className="contact-details">
                   <div className="contact-item">
@@ -183,6 +184,14 @@ const ConsultationForm = ({
                     </svg>
                     <span>reza@primelocalhomes.com</span>
                   </div>
+                  {/* Address */}
+                  <div className="contact-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <circle cx="12" cy="9" r="2.5" stroke="currentColor" strokeWidth="2"/>
+                    </svg>
+                    <span>702 Broadway, San Diego, CA, 92101</span>
+                  </div>
                 </div>
                 <p className="consultation-cta-text">
                   {showCitySpecific && cityName 
@@ -193,11 +202,32 @@ const ConsultationForm = ({
               </div>
             </div>
             
-            {/* Right Side - Content Area (City Page Design) */}
+            {/* Contact Form */}
             <div className="right-content-section">
               <div className="contact-form-container">
                 <form className="contact-form-simple" onSubmit={handleContactSubmit}>
-                  {/* First Row - Name and Phone */}
+                  
+                  {/* Row - Salutation */}
+                  <div className="form-row">
+                    <div className="form-field full-width">
+                      <label htmlFor="salutation" className="form-label">Title</label>
+                      <select
+                        id="salutation"
+                        name="salutation"
+                        className="form-input-field"
+                        value={contactFormData.salutation}
+                        onChange={handleContactFormChange}
+                      >
+                        <option value="">Select...</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Dr.">Dr.</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  {/* Row - Name and Phone */}
                   <div className="form-row">
                     <div className="form-field">
                       <label htmlFor="name" className="form-label">{name || "Name"}</label>
@@ -227,7 +257,7 @@ const ConsultationForm = ({
                     </div>
                   </div>
                   
-                  {/* Second Row - Email */}
+                  {/* Row - Email */}
                   <div className="form-row">
                     <div className="form-field full-width">
                       <label htmlFor="email" className="form-label">{email || "Email"}</label>
@@ -243,8 +273,27 @@ const ConsultationForm = ({
                       />
                     </div>
                   </div>
+
+                  {/* Row - Purpose */}
+                  <div className="form-row">
+                    <div className="form-field full-width">
+                      <label htmlFor="purpose" className="form-label">Purpose</label>
+                      <select
+                        id="purpose"
+                        name="purpose"
+                        className="form-input-field"
+                        value={contactFormData.purpose}
+                        onChange={handleContactFormChange}
+                      >
+                        <option value="">Select...</option>
+                        <option value="Buying">Buying</option>
+                        <option value="Selling">Selling</option>
+                        <option value="Renting">Renting</option>
+                      </select>
+                    </div>
+                  </div>
                   
-                  {/* Third Row - Message */}
+                  {/* Row - Message */}
                   <div className="form-row">
                     <div className="form-field full-width">
                       <label htmlFor="message" className="form-label">{message || "Message"}</label>
@@ -261,7 +310,7 @@ const ConsultationForm = ({
                     </div>
                   </div>
                   
-                  {/* Submit Button */}
+                  {/* Submit */}
                   <div className="form-row">
                     <div className="form-field full-width">
                       <button type="submit" className="submit-button" disabled={isSubmitting}>

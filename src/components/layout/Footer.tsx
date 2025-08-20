@@ -91,6 +91,7 @@ const Footer = () => {
           <h3 className="footer-heading">{t('contact')}</h3>
           <ul className="footer-links">
             <li className="footer-link">Reza Barghlameno</li>
+            <li className="footer-link">CA DRE # 02211952</li>
             <li className="footer-link"><Link href="tel:+18583054362">+1 (858) 305-4362</Link></li>
             <li className="footer-link"><Link href="mailto:info@socalprimehomes.com">info@socalprimehomes.com</Link></li>
             <li className="footer-link">702 Broadway, San Diego, CA, 92101</li>
@@ -99,10 +100,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>{t('copyright')}</p>
-        <div className="footer-dre">
-          <span className="dre-label">CA DRE #</span>
-          <span className="dre-number">02211952</span>
-        </div>
+        
       </div>
     </footer>
   )
