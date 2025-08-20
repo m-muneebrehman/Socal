@@ -22,9 +22,9 @@ const ServiceCard = ({ icon, title, description }: ServiceCardProps) => {
       
       {/* Content */}
       <div className="relative z-10">
-        <div className="text-5xl mb-6 transition-all duration-400 group-hover:scale-110">
+        {/* <div className="text-5xl mb-6 transition-all duration-400 group-hover:scale-110">
           {icon}
-        </div>
+        </div> */}
         <h3 className="font-serif text-2xl mb-4 text-charcoal group-hover:text-charcoal">
           {title}
         </h3>

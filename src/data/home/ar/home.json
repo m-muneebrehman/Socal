@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "SoCal Prime Homes",
-    "title": "عقارات حصرية للعملاء المميزين",
+    "title": "عقارات حصرية بخدمة استثنائية تلبي تطلعات النخبة",
     "subtitle": "مع أكثر من 20 عامًا من الخبرة، نربط المشترين الدوليين بأفضل العقارات في أكثر المواقع المرغوبة في العالم.",
     "viewProperties": "عرض العقارات",
     "contactUs": "اتصل بنا",
@@ -11,12 +11,12 @@
   "stats": {
     "yearsExperience": "الاستجابة السريعة",
     "billionInSales": "التركيز على جنوب كاليفورنيا",
-    "countriesServed": "الوصول العالمي",
-    "clientSatisfaction": "الالتزام بالجودة",
+    "countriesServed": "شركاء من الطراز العالمي",
+    "clientSatisfaction": "تفانٍ لا مثيل له",
     "yearsExperienceLabel": "تنفيذ سريع لكل مشروع",
     "billionInSalesLabel": "حضور محلي قوي وخبرة متميزة",
-    "countriesServedLabel": "خدمة الشركاء عبر مختلف الصناعات",
-    "clientSatisfactionLabel": "تجاوز التوقعات في كل مرة"
+    "countriesServedLabel": "نتعاون مع شركاء عبر مختلف القطاعات",
+    "clientSatisfactionLabel": "مدفوعون بالشغف. نلهم أثراً دائماً"
   },
   "services": {
     "title": "خدماتنا – Prime Local Homes",

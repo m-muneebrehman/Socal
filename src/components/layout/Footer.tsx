@@ -90,9 +90,10 @@ const Footer = () => {
         <div className="footer-col">
           <h3 className="footer-heading">{t('contact')}</h3>
           <ul className="footer-links">
-            <li className="footer-link"><Link href="tel:+15551234567">+1 (555) 123-4567</Link></li>
+            <li className="footer-link">Reza Barghlameno</li>
+            <li className="footer-link"><Link href="tel:+18583054362">+1 (858) 305-4362</Link></li>
             <li className="footer-link"><Link href="mailto:info@socalprimehomes.com">info@socalprimehomes.com</Link></li>
-            <li className="footer-link">123 Main Street, Los Angeles, CA 90210</li>
+            <li className="footer-link">702 Broadway, San Diego, CA, 92101</li>
           </ul>
         </div>
       </div>

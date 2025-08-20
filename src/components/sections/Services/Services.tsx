@@ -32,17 +32,17 @@ const Services = ({ servicesData }: ServicesProps) => {
   const propertyAcquisition = servicesData?.propertyAcquisition || {
     title: t('propertyAcquisition.title'),
     description: t('propertyAcquisition.description'),
-    icon: '🏡'
+    icon: ''
   }
   const investmentAdvisory = servicesData?.investmentAdvisory || {
     title: t('investmentAdvisory.title'),
-    description: t('investmentAdvisory.description'),
-    icon: '💰'
+    descripton: t('investmentAdvisory.description'),
+    icon: ''
   }
   const relocationServices = servicesData?.relocationServices || {
     title: t('relocationServices.title'),
     description: t('relocationServices.description'),
-    icon: '🌎'
+    icon: ''
   }
 
   return (
@@ -64,7 +64,7 @@ const Services = ({ servicesData }: ServicesProps) => {
           />
           {/* Content */}
           <div className="relative z-10">
-            <div className="service-icon">{propertyAcquisition.icon}</div>
+            {/* <div className="service-icon">{propertyAcquisition.icon}</div> */}
             <h3 className="service-title">{propertyAcquisition.title}</h3>
             <p className="service-description">{propertyAcquisition.description}</p>
           </div>
@@ -80,7 +80,7 @@ const Services = ({ servicesData }: ServicesProps) => {
             }}
           />
           <div className="relative z-10">
-            <div className="service-icon">{investmentAdvisory.icon}</div>
+            {/* <div className="service-icon">{investmentAdvisory.icon}</div> */}
             <h3 className="service-title">{investmentAdvisory.title}</h3>
             <p className="service-description">{investmentAdvisory.description}</p>
           </div>
@@ -96,7 +96,7 @@ const Services = ({ servicesData }: ServicesProps) => {
             }}
           />
           <div className="relative z-10">
-            <div className="service-icon">{relocationServices.icon}</div>
+            {/* <div className="service-icon">{relocationServices.icon}</div> */}
             <h3 className="service-title">{relocationServices.title}</h3>
             <p className="service-description">{relocationServices.description}</p>
           </div>

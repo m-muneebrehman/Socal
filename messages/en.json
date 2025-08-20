@@ -130,7 +130,7 @@
       "sending": "Sending..."
     },
     "countyCards": {
-      "destinations": "Destinations",
+      "destinations": "Where our services are available",
       "loadingCounties": "Loading counties...",
       "noCountiesAvailable": "No counties available at the moment.",
       "seeAllCities": "See All Cities",
