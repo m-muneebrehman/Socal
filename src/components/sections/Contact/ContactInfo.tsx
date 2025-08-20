@@ -13,7 +13,7 @@ const ContactInfo = ({ contactData }: ContactInfoProps) => {
       {/* Profile Description Card */}
       <div className="profile-description-card">
         <div className="profile-description">
-          <h3 className="description-title">{contactData?.info?.description?.title || 'Get to know Crown Coastal Concierge'}</h3>
+          <h3 className="description-title">{contactData?.info?.description?.title || 'Get to know about Reza'}</h3>
           <p className="description-subtitle">{contactData?.info?.description?.subtitle || 'Real Estate Professional'}</p>
           
           <p className="description-text">
@@ -37,7 +37,6 @@ const ContactInfo = ({ contactData }: ContactInfoProps) => {
             ))}
           </div>
           <div className="languages-section">
-            <span className="languages-icon">🌍</span>
             <p className="languages">{contactData?.info?.specialties?.languages || 'Speaks: English, Arabic, Farsi, Turkish'}</p>
           </div>
         </div>

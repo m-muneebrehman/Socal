@@ -359,7 +359,7 @@ const CityPage = () => {
                       <div className="highlight-overlay">
                         <div className="highlight-content">
                           <div className="highlight-icon-large">
-                            <span className="highlight-icon-text">{highlight.icon}</span>
+                            {/* <span className="highlight-icon-text">{highlight.icon}</span> */}
                           </div>
                           <h3 className="highlight-title">{highlight.title}</h3>
                           <p className="highlight-description">{highlight.description}</p>
