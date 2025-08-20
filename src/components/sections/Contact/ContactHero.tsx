@@ -63,9 +63,18 @@ const ContactHero = ({ contactData }: ContactHeroProps) => {
               <h2 className="profile-name">{contactData?.author?.name || 'Reza Barghlameno'}</h2>
               <p className="profile-company">{contactData?.hero?.profileCompany || 'eXp of California'}</p>
               <p className="profile-title">{contactData?.hero?.profileTitle || 'Lead of Crown Coastal Concierge'}</p>
-              <div className="profile-badges">
-                <span className="profile-badge">{contactData?.hero?.profileBadges?.topProducer || 'Top Producer'}</span>
-                <span className="profile-badge">{contactData?.hero?.profileBadges?.fiveStarRated || '5-Star Rated'}</span>
+              <div className="profile-badges">{contactData?.hero?.profileBadges?.topProducer && (
+  <span className="profile-badge">
+    {contactData.hero.profileBadges.topProducer}
+  </span>
+)}
+
+{contactData?.hero?.profileBadges?.fiveStarRated && (
+  <span className="profile-badge">
+    {contactData.hero.profileBadges.fiveStarRated}
+  </span>
+)}
+
               </div>
             </div>
           </div>

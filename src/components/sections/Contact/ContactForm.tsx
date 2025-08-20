@@ -208,8 +208,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
               <span className="label-text">{contactData?.form?.fields?.name?.label || 'Full Name'}</span>
               <span className="required">{contactData?.form?.fields?.name?.required || '*'}</span>
             </label>
-            <div className="input-wrapper">
-              <div className="input-icon">👤</div>
               <input
                 type="text"
                 id="name"
@@ -221,7 +219,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
                 required
                 disabled={isSubmitting}
               />
-            </div>
           </div>
 
           <div className="form-group">
@@ -229,8 +226,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
               <span className="label-text">{contactData?.form?.fields?.phone?.label || 'Phone Number'}</span>
               <span className="required">{contactData?.form?.fields?.phone?.required || '*'}</span>
             </label>
-            <div className="input-wrapper">
-              <div className="input-icon">📞</div>
               <input
                 type="tel"
                 id="phone"
@@ -242,7 +237,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
                 required
                 disabled={isSubmitting}
               />
-            </div>
           </div>
 
           <div className="form-group">
@@ -250,8 +244,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
               <span className="label-text">{contactData?.form?.fields?.email?.label || 'Email Address'}</span>
               <span className="required">{contactData?.form?.fields?.email?.required || '*'}</span>
             </label>
-            <div className="input-wrapper">
-              <div className="input-icon">✉️</div>
               <input
                 type="email"
                 id="email"
@@ -263,7 +255,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
                 required
                 disabled={isSubmitting}
               />
-            </div>
           </div>
 
           <div className="form-group full-width">
@@ -271,8 +262,6 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
               <span className="label-text">{contactData?.form?.fields?.message?.label || 'Message'}</span>
               <span className="required">{contactData?.form?.fields?.message?.required || '*'}</span>
             </label>
-            <div className="input-wrapper">
-              <div className="input-icon">💬</div>
               <textarea
                 id="message"
                 name="message"
@@ -284,13 +273,11 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
                 required
                 disabled={isSubmitting}
               ></textarea>
-            </div>
           </div>
         </div>
 
         <div className="form-consent">
           <div className="consent-header">
-            <div className="consent-icon">🔒</div>
             <h4>{contactData?.form?.consent?.title || 'Privacy & Consent'}</h4>
           </div>
           <p className="consent-text">

@@ -49,8 +49,8 @@
     "profileCompany": "eXp of California",
     "profileTitle": "Lead of Crown Coastal Concierge",
     "profileBadges": {
-      "topProducer": "Top Producer",
-      "fiveStarRated": "5-Star Rated"
+      "topProducer": "",
+      "fiveStarRated": ""
     },
     "recentSales": {
       "title": "Recent Sales",
@@ -80,7 +80,7 @@
   },
   "info": {
     "description": {
-      "title": "Get to know Crown Coastal Concierge",
+      "title": "Get to know about Reza",
       "subtitle": "Real Estate Professional",
       "text1": "With a journey that has taken him across 32 countries and over a hundred cities, Reza brings a world of experience and a unique global perspective to San Diego's real estate market. He firmly believes there's no place like San Diego, with its unparalleled coastal lines, vibrant cityscape, and endless adventures.",
       "text2": "Utilizing 17 years of client management & negotiation expertise, Reza has perfected the art of understanding his clients' needs and exceeding their expectations. But it's not just about transactions for him. Whether guiding sellers to maximize their home's value or helping buyers find their dream property, Reza's true passion lies in scoring big for his clients.",
