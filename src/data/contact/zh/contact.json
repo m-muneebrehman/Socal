@@ -132,11 +132,5 @@
       ],
       "languages": "会说：英语、阿拉伯语、波斯语、土耳其语"
     }
-  },
-  "newProperty": {
-    "address": "",
-    "price": "",
-    "year": "",
-    "imageUrl": ""
   }
 }
