@@ -1,12 +1,12 @@
 {
   "hero": {
-    "badge": "SoCal Prime Homes",
+    "badge": "Exklusiver Luxusimmobilienservice",
     "title": "Exklusive Immobilien mit erstklassigem Service für höchste Ansprüche",
     "subtitle": "Wir bedienen stolz eine internationale Kundschaft und bieten maßgeschneiderte Immobiliendienstleistungen in jeder Stadt in Südkalifornien an. Von Küstenrefugien bis hin zu lebendigen Stadtdomizilen verbinden wir Sie mit außergewöhnlichen Immobilien in den begehrtesten Lagen der Region.",
     "viewProperties": "Städte anzeigen",
     "contactUs": "Kontaktieren Sie uns",
     "scrollDown": "Nach unten scrollen",
-    "backgroundImage": "/home/hero.jpg"
+    "backgroundImage": "/home/hero.png"
   },
   "stats": {
     "yearsExperience": "Schnelle Reaktion",

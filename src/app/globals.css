@@ -9,6 +9,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Final spacing overrides */
+.cities-section-beautiful { padding: 64px 32px !important; }
+.section-header-beautiful { margin-bottom: 32px !important; }
+.cities-grid-beautiful { margin-bottom: 24px !important; }
+.blog-section { padding: 64px 32px !important; }
+.section-header { margin-bottom: 36px !important; }
+.see-more { margin-top: 20px !important; }
+.services-section { padding: 64px 32px !important; }
+
+/* Font consistency overrides - ensure all headers use same font family */
+.section-title-large,
+.section-title-beautiful,
+.hero-main-title,
+.section-header h2,
+.section-header-beautiful h2 {
+  font-family: 'Playfair Display', serif !important;
+  letter-spacing: 1.5px !important;
+}
+
 /* Custom colors - exact match from index2.html */
 :root {
   --charcoal: #1A1A1A;
@@ -18,6 +37,62 @@ html {
   --light-gray: #F5F5F5;
   --dark-gray: #2A2A2A;
   --cream: #F8F4E9;
+}
+
+/* Custom utility classes for Hero component */
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+.bg-gold\/15 {
+  background-color: rgba(212, 175, 55, 0.15);
+}
+
+.bg-gold\/90 {
+  background-color: rgba(212, 175, 55, 0.9);
+}
+
+.text-charcoal {
+  color: var(--charcoal);
+}
+
+.text-white\/90 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hero scroll button animations */
+@keyframes swipeDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
 }
 
 /* Base styles */
@@ -189,7 +264,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 8px 0;
   background: rgba(26, 26, 26, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(212, 175, 55, 0.2);
@@ -245,6 +320,11 @@ body {
   font-weight: 500;
   color: var(--white);
   letter-spacing: 1.5px;
+}
+
+.navigation .logo-text {
+  font-size: 26px;
+  font-weight: 500;
 }
 
 .nav-menu {
@@ -449,143 +529,7 @@ body {
   }
 }
 
-/* Hero Section Styles - Exact match */
-.hero-section {
-  position: relative;
-  height: 100vh;
-  min-height: 800px;
-  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
-              url('/home/hero.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding: 120px 40px 40px 40px; /* Increased top padding to avoid navbar overlap */
-  color: var(--white);
-  overflow: hidden; /* Prevent text overflow */
-}
-
-.hero-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 40px; /* Increased top spacing to avoid navbar overlap */
-  margin-top: 20px; /* Additional top margin for extra clearance */
-}
-
-.hero-badge {
-  display: inline-block;
-  background: rgba(212, 175, 55, 0.15);
-  border: 1px solid var(--gold);
-  padding: 12px 30px;
-  border-radius: 50px;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--gold);
-  letter-spacing: 2px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-
-.hero-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 72px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: 30px;
-  max-width: 700px;
-  word-wrap: break-word; /* Handle long words */
-  hyphens: auto; /* Enable hyphenation for long words */
-}
-
-.hero-subtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 40px;
-  max-width: 600px;
-  opacity: 0.9;
-  line-height: 1.6;
-  word-wrap: break-word; /* Handle long words */
-  hyphens: auto; /* Enable hyphenation for long words */
-}
-
-/* Responsive text sizing for different languages */
-.hero-title[lang="de"],
-.hero-title[lang="de"] {
-  font-size: 64px; /* Smaller font for German */
-}
-
-.hero-subtitle[lang="de"],
-.hero-subtitle[lang="de"] {
-  font-size: 18px; /* Smaller font for German */
-  max-width: 650px; /* Allow slightly wider text */
-}
-
-.hero-title[lang="ar"],
-.hero-title[lang="ar"] {
-  font-size: 68px; /* Medium font for Arabic */
-}
-
-.hero-subtitle[lang="ar"],
-.hero-subtitle[lang="ar"] {
-  font-size: 19px; /* Medium font for Arabic */
-}
-
-.hero-cta {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
-}
-
-/* Swipe Down Button */
-.swipe-down-btn {
-  position: absolute;
-  bottom: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-  border: none;
-  color: var(--white);
-  cursor: pointer;
-  padding: 20px;
-  transition: all 0.3s ease;
-  z-index: 10;
-}
-
-.swipe-down-btn:hover {
-  transform: translateX(-50%) translateY(5px);
-}
-
-.swipe-arrow {
-  width: 2px;
-  height: 30px;
-  background: var(--gold);
-  position: relative;
-  margin: 0 auto 10px;
-  animation: swipeDown 2s ease-in-out infinite;
-}
-
-.swipe-arrow::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 8px solid var(--gold);
-}
-
-.swipe-text {
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  opacity: 0.8;
-  animation: fadeInOut 2s ease-in-out infinite;
-}
+/* Hero Section - Now using Tailwind classes for better language support */
 
 /* Button Styles */
 .btn-primary {
@@ -920,14 +864,14 @@ body {
 
 /* Home Page Blog Section - Original Design */
 .blog-section {
-  padding: 100px 40px;
+  padding: 64px 40px;
   background: var(--white);
 }
 
 /* Section headers - matching the HTML file exactly */
 .section-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .section-title {
@@ -1030,7 +974,7 @@ body {
 
 .see-more {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 24px;
 }
 
 .see-more-link {
@@ -1151,7 +1095,7 @@ body {
 
 /* Services Section - Premium Redesign */
 .services-section {
-  padding: 100px 40px;
+  padding: 64px 40px;
   background: var(--white);
 }
 
@@ -2357,7 +2301,7 @@ body {
   margin: 0 auto;
   padding: 0 40px;
   text-align: center;
-  margin-top: 80px; /* Increased margin to push content down from navbar */
+  margin-top: 60px; /* Reduced margin to move content up */
 }
 
 .hero-content-container {
@@ -2671,7 +2615,7 @@ body {
 
 /* Beautiful Cities Section Styles */
 .cities-section-beautiful {
-  padding: 120px 40px;
+  padding: 72px 40px;
   background: var(--white);
   position: relative;
 }
@@ -2683,7 +2627,7 @@ body {
 
 .section-header-beautiful {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .section-eyebrow-beautiful {
@@ -2720,7 +2664,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 
 .city-card-beautiful {
@@ -3452,8 +3396,8 @@ body {
 
 .logo-text {
   font-family: 'Playfair Display', serif;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   color: var(--white);
   letter-spacing: 1.5px;
 }
@@ -11515,18 +11459,37 @@ body {
 .form-title {
   font-size: 32px;
   font-weight: 700;
-  color: var(--dark-gray);
+  color: var(--charcoal);
   margin: 0 0 16px 0;
   line-height: 1.3;
 }
 
 .form-subtitle {
   font-size: 18px;
-  color: var(--medium-gray);
+  color: var(--charcoal);
   margin: 0;
   line-height: 1.5;
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Small capsule badge for DRE number next to the name */
+/* Size tweak to match form-badge but smaller */
+.dre-badge {
+  padding: 8px 12px 0px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 10px;
+  margin-inline-start: 10px;
+  vertical-align: middle;
+  line-height: 1;
+  position: relative;
+  top: 2px;
+  width: auto;
+  max-width: 100%;
+  white-space: nowrap;
 }
 
 .contact-form {
@@ -13327,7 +13290,7 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: var(--charcoal);
-  margin-bottom: 8px;
+  margin: 0 0 8px 0;
   font-family: 'Playfair Display', serif;
 }
 
@@ -13335,14 +13298,14 @@ body {
   font-size: 16px;
   color: var(--gold);
   font-weight: 600;
-  margin-bottom: 4px;
+  margin: 0 0 6px 0;
 }
 
 .profile-title {
   font-size: 14px;
   color: var(--blue);
   font-weight: 500;
-  margin-bottom: 15px;
+  margin: 0;
 }
 
 .profile-badges {
@@ -15335,8 +15298,8 @@ body {
 
 .logo-text {
   font-family: 'Playfair Display', serif;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   color: var(--white);
   letter-spacing: 1.5px;
 }
@@ -18543,8 +18506,8 @@ body {
 
 .logo-text {
   font-family: 'Playfair Display', serif;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   color: var(--white);
   letter-spacing: 1.5px;
 }

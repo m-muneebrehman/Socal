@@ -1,12 +1,12 @@
 {
   "hero": {
-    "badge": "Immobilier de Luxe Global",
+    "badge": "Service Immobilier de Luxe Exclusif",
     "title": "Propriétés Exclusives avec un Service d’exception pour une clientèle Exigeante",
     "subtitle": "Nous servons fièrement une clientèle internationale, offrant des services immobiliers sur mesure dans chaque ville du sud de la Californie. Des retraites côtières aux résidences urbaines animées, nous vous mettons en relation avec des propriétés extraordinaires dans les emplacements les plus prisés de la région.",
     "viewProperties": "Voir les villes",
     "contactUs": "Nous Contacter",
     "scrollDown": "Défiler Vers le Bas",
-    "backgroundImage": "/home/hero.jpg"
+    "backgroundImage": "/home/hero.png"
   },
   "stats": {
     "yearsExperience": "Réponse rapide",

@@ -76,9 +76,27 @@
       "discoverDiverseNeighborhoods": "Découvrez les divers quartiers et villes autour de {cityName}",
       "county": "Comté",
       "faq": "FAQ",
-      "everythingYouNeedToKnow": "Tout ce que Vous Devez Savoir",
-      "allQuestions": "Toutes les Questions",
-      "exploreAllCities": "Explorer Toutes les Villes"
+      "everythingYouNeedToKnow": "Tout ce que vous devez savoir",
+      "allQuestions": "Toutes les questions",
+      "exploreAllCities": "Explorer toutes les villes",
+      "readyToFindDreamProperty": "Prêt à trouver votre propriété de rêve ?",
+      "contactExpertTeam": "Contactez notre équipe d'experts dès aujourd'hui pour une consultation personnalisée et commencez votre voyage pour trouver la maison ou la propriété d'investissement parfaite.",
+      "scheduleConsultation": "Planifier une consultation",
+      "readyToBuyOrSell": "Prêt à acheter ou vendre à {cityName} ? Contactez Reza Barghlameno dès aujourd'hui pour des conseils d'expert et un service express quand vous en avez le plus besoin.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Nom",
+      "enterYourName": "Entrez votre nom",
+      "phone": "Téléphone",
+      "enterYourPhone": "Entrez votre téléphone",
+      "email": "Email",
+      "enterYourEmail": "Entrez votre email",
+      "message": "Message",
+      "enterYourMessage": "Entrez votre message",
+      "sendMessage": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "backToHome": "Retour à l'accueil",
+      "title": "Titre"
     },
     "countyPage": {
       "cities": "Villes",
@@ -127,7 +145,8 @@
       "message": "Message",
       "enterYourMessage": "Entrez votre message",
       "sendMessage": "Envoyer le Message",
-      "sending": "Envoi en cours..."
+      "sending": "Envoi en cours...",
+      "title": "Titre"
     },
     "countyCards": {
       "destinations": "Où nos services sont disponibles",
@@ -203,7 +222,22 @@
   "cta": {
     "title": "Prêt à Trouver votre Propriété de Rêve ?",
     "text": "Contactez notre équipe d'experts aujourd'hui pour une consultation personnalisée et commencez votre voyage pour trouver la maison ou propriété d'investissement parfaite.",
-    "button": "Planifier une Consultation"
+    "button": "Planifier une Consultation",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "Prêt à acheter ou vendre en Californie du Sud ? Contactez Reza Barghlameno dès aujourd'hui pour des conseils d'expert et un service express quand vous en avez le plus besoin.",
+    "salutationLabel": "Titre",
+    "name": "Nom",
+    "enterYourName": "Entrez votre nom",
+    "phone": "Téléphone",
+    "enterYourPhone": "Entrez votre téléphone",
+    "email": "Email",
+    "enterYourEmail": "Entrez votre email",
+    "message": "Message",
+    "enterYourMessage": "Entrez votre message",
+    "sendMessage": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "back": "Retour"
   },
   "footer": {
     "about": "Avec plus de deux décennies d'expérience, SoCal Prime Homes est une entreprise leader mondiale de conseil immobilier spécialisée dans l'immobilier de luxe et les services de relocalisation personnalisés.",

@@ -127,8 +127,10 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
     <div className="contact-form-section">
       <div className="form-header">
         <div className="form-badge">{contactData?.form?.header?.badge || 'Ready to Connect'}</div>
-        <h2 className="form-title">{contactData?.form?.header?.title || 'Contact Crown Coastal Concierge'}</h2>
-        <p className="form-subtitle">
+        <h2 className="form-title" style={{ color: 'var(--charcoal)' }}>
+          {contactData?.form?.header?.title || 'Contact Crown Coastal Concierge'}
+        </h2>
+        <p className="form-subtitle" style={{ color: 'var(--charcoal)' }}>
           {contactData?.form?.header?.subtitle || 'Ready to start your real estate journey? Get in touch today and let\'s discuss your dream property in San Diego.'}
         </p>
       </div>

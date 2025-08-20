@@ -7,7 +7,7 @@
   "form": {
     "header": {
       "badge": "Listo para Conectar",
-      "title": "Contactar Crown Coastal Concierge",
+      "title": "Contacta Crown Coastal Concierge",
       "subtitle": "¿Listo para comenzar tu viaje inmobiliario? Ponte en contacto hoy y hablemos de tu propiedad soñada en San Diego."
     },
     "fields": {
@@ -41,7 +41,7 @@
       "send": "Enviar Mensaje"
     },
     "footer": {
-      "responseTime": "Típicamente respondemos dentro de 2 horas durante el horario comercial"
+      "responseTime": "Típicamente respondemos dentro de 2 horas durante el horario laboral"
     }
   },
   "hero": {
@@ -49,8 +49,8 @@
     "profileCompany": "eXp de California",
     "profileTitle": "Líder de Crown Coastal Concierge",
     "profileBadges": {
-      "topProducer": "Productor Principal",
-      "fiveStarRated": "Calificado 5 Estrellas"
+      "topProducer": "",
+      "fiveStarRated": ""
     },
     "recentSales": {
       "title": "Ventas Recientes",
@@ -58,22 +58,58 @@
       "sold": "Vendido",
       "properties": [
         {
-          "address": "1234 Ocean View Dr, La Jolla",
-          "price": "$2,450,000",
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
           "year": "2024",
-          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+          "imageUrl": "/contact/property_5.png"
         },
         {
-          "address": "9012 Sunset Cliffs Rd, Point Loma",
-          "price": "$3,120,000",
-          "year": "2023",
-          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
         },
         {
-          "address": "3456 Pacific Coast Hwy, Encinitas",
-          "price": "$2,850,000",
-          "year": "2023",
-          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
         }
       ]
     }
@@ -82,19 +118,25 @@
     "description": {
       "title": "Conoce a Reza",
       "subtitle": "Profesional Inmobiliario",
-      "text1": "Con un viaje que lo ha llevado a través de 32 países y más de cien ciudades, Reza trae un mundo de experiencia y una perspectiva global única al mercado inmobiliario de San Diego. Él cree firmemente que no hay lugar como San Diego, con sus líneas costeras sin igual, paisaje urbano vibrante y aventuras infinitas.",
+      "text1": "Con un viaje que lo ha llevado a través de 32 países y más de cien ciudades, Reza aporta un mundo de experiencia y una perspectiva global única al mercado inmobiliario de San Diego. Él cree firmemente que no hay lugar como San Diego, con sus líneas costeras sin igual, paisaje urbano vibrante y aventuras infinitas.",
       "text2": "Utilizando 17 años de experiencia en gestión de clientes y negociación, Reza ha perfeccionado el arte de entender las necesidades de sus clientes y superar sus expectativas. Pero para él no se trata solo de transacciones. Ya sea guiando a vendedores para maximizar el valor de su hogar o ayudando a compradores a encontrar su propiedad soñada, la verdadera pasión de Reza radica en lograr grandes resultados para sus clientes.",
-      "text3": "Más allá del sector inmobiliario, Reza está profundamente integrado en el tejido de la comunidad de San Diego. Ha defendido causas justas a través de peticiones de base, participado activamente en limpiezas de playas, y trabajado incansablemente para elevar comunidades desatendidas a través de varios programas subsidiados por el gobierno. Para Reza, el sector inmobiliario no es solo un negocio, es una plataforma para servir y enriquecer aún más a la comunidad que más aprecia."
+      "text3": "Más allá del sector inmobiliario, Reza está profundamente integrado en el tejido de la comunidad de San Diego. Ha defendido causas justas a través de peticiones de base, participado activamente en limpiezas de playas y trabajado incansablemente para elevar comunidades desatendidas a través de varios programas subsidiados por el gobierno. Para Reza, el sector inmobiliario no es solo un negocio, es una plataforma para servir y enriquecer aún más a la comunidad que más aprecia."
     },
     "specialties": {
       "title": "Especialidades",
       "tags": [
-        "Agente del Comprador",
-        "Agente de Listado",
+        "Agente de Compradores",
+        "Agente de Listados",
         "Reubicación",
-        "Vacaciones / Alquileres a Corto Plazo"
+        "Alquileres de Vacaciones / Corto Plazo"
       ],
-      "languages": "Habla: Inglés, Árabe, Farsi, Turco"
+      "languages": "Habla: Inglés, Árabe, Persa, Turco"
     }
+  },
+  "newProperty": {
+    "address": "",
+    "price": "",
+    "year": "",
+    "imageUrl": ""
   }
 }

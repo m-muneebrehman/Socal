@@ -1,12 +1,12 @@
 {
   "hero": {
-    "badge": "Global Luxury Real Estate",
+    "badge": "Exclusive Luxury Real Estate Service",
     "title": "Exclusive Properties for Discerning Service",
     "subtitle": "We proudly serve an international clientele, offering bespoke real estate services in every city across \nSouthern California. From coastal retreats to vibrant city residences, we connect you with \nextraordinary properties in the region’s most coveted locations.",
     "viewProperties": "View Cities",
     "contactUs": "Contact Us",
     "scrollDown": "Scroll Down",
-    "backgroundImage": "/home/hero.jpg"
+    "backgroundImage": "/home/hero.png"
   },
   "stats": {
     "yearsExperience": "Fast Response",

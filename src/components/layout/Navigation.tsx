@@ -97,22 +97,22 @@ const Navigation = () => {
   }, [isMobileMenuOpen]);
 
   return (
-    <nav className={`navigation ${scrolled ? 'py-3 bg-[rgba(26,26,26,0.98)] backdrop-blur-[15px]' : 'py-5 bg-[rgba(26,26,26,0.95)] backdrop-blur-[10px]'}`}>
+    <nav className={`navigation ${scrolled ? 'bg-[rgba(26,26,26,0.98)] backdrop-blur-[15px]' : 'bg-[rgba(26,26,26,0.95)] backdrop-blur-[10px]'}`}>
       <div className="nav-container">
         <Link href="/" locale={locale} className="logo-container">
           <Image
-            src="/home/logo.jpg"
+            src="/logo.png"
             alt="SoCal Prime Homes Logo"
-            width={40}
-            height={40}
+            width={48}
+            height={48}
             className="logo-image rounded-lg"
             style={{
-              transform: 'scale(1.3)',
-              objectFit: 'cover',
-              objectPosition: 'center'
+              objectFit: 'contain',
+              objectPosition: 'center',
+              filter: 'brightness(0) invert(1)'
             }}
           />
-          <div className="logo-text">SoCal Prime Homes</div>
+          <div className="logo-text" style={{ lineHeight: 1 }}>SoCal Prime Homes</div>
         </Link>
 
         {/* Desktop Navigation */}

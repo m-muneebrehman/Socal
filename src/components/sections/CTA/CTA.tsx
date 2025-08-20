@@ -24,6 +24,21 @@ const CTA = ({ ctaData }: CTAProps) => {
       text={text}
       button={button}
       showCitySpecific={false}
+      salutationLabel={t('salutationLabel')}
+      rezaBarghlameno={t('rezaBarghlameno')}
+      primeLocalHomes={t('primeLocalHomes')}
+      readyToBuyOrSell={t('readyToBuyOrSell')}
+      name={t('name')}
+      enterYourName={t('enterYourName')}
+      phone={t('phone')}
+      enterYourPhone={t('enterYourPhone')}
+      email={t('email')}
+      enterYourEmail={t('enterYourEmail')}
+      message={t('message')}
+      enterYourMessage={t('enterYourMessage')}
+      sendMessage={t('sendMessage')}
+      back={t('back')}
+      sending={t('sending')}
     />
   )
 }

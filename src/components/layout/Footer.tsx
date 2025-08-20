@@ -12,15 +12,15 @@ const Footer = () => {
         <div className="footer-col">
           <div className="footer-logo">
             <Image
-              src="/home/logo.jpg"
+              src="/logo.png"
               alt="SoCal Prime Homes Logo"
-              width={40}
-              height={40}
+              width={72}
+              height={72}
               className="footer-logo-image rounded-lg"
               style={{
-                transform: 'scale(1.3)',
-                objectFit: 'cover',
-                objectPosition: 'center'
+                objectFit: 'contain',
+                objectPosition: 'center',
+                filter: 'brightness(0) invert(1)'
               }}
             />
             <span className="footer-logo-text">SoCal Prime Homes</span>

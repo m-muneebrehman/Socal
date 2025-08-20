@@ -6,74 +6,110 @@
   },
   "form": {
     "header": {
-      "badge": "准备连接",
-      "title": "联系Crown Coastal Concierge",
-      "subtitle": "准备开始您的房地产之旅？今天就联系我们，让我们讨论您在圣地亚哥的梦想房产。"
+      "badge": "准备联系",
+      "title": "联系 Crown Coastal Concierge",
+      "subtitle": "准备开始您的置业之旅？今天就联系我们，一起聊聊您在圣迭戈的梦想房产。"
     },
     "fields": {
       "name": {
         "label": "全名",
-        "placeholder": "输入您的全名",
+        "placeholder": "请输入您的全名",
         "required": "*"
       },
       "phone": {
         "label": "电话号码",
-        "placeholder": "输入您的电话号码",
+        "placeholder": "请输入您的电话号码",
         "required": "*"
       },
       "email": {
-        "label": "电子邮件地址",
-        "placeholder": "输入您的电子邮件地址",
+        "label": "电子邮箱",
+        "placeholder": "请输入您的电子邮箱",
         "required": "*"
       },
       "message": {
-        "label": "消息",
-        "placeholder": "告诉我们您的房地产需求、首选位置、预算和任何特定要求...",
+        "label": "信息",
+        "placeholder": "请告诉我们您的置业需求、意向区域、预算以及任何具体要求...",
         "required": "*"
       }
     },
     "consent": {
-      "title": "隐私和同意",
-      "text": "通过提交您的信息，您同意上述房地产专业人士可能会就您的搜索致电/发送短信给您，这可能涉及使用自动化方式和预录制/人工语音。您不需要作为购买任何房产、商品或服务的条件而同意。可能会收取消息/数据费用。您还同意我们的使用条款。"
+      "title": "隐私与同意",
+      "text": "提交信息即表示您同意上述房地产专业人士就您的搜索致电/短信联系您，可能使用自动化方式和预录/人工语音。您无需作为购买任何房产、商品或服务的前提而给出同意。可能会产生短信/数据费用。您也同意我们的使用条款。"
     },
     "submit": {
-      "sending": "发送消息中...",
+      "sending": "正在发送消息...",
       "send": "发送消息"
     },
     "footer": {
-      "responseTime": "我们通常在营业时间内2小时内回复"
+      "responseTime": "我们通常会在工作时间的 2 小时内回复"
     }
   },
   "hero": {
     "profileStatus": "现在可用",
-    "profileCompany": "加利福尼亚州eXp",
-    "profileTitle": "Crown Coastal Concierge负责人",
+    "profileCompany": "加州 eXp",
+    "profileTitle": "Crown Coastal Concierge 负责人",
     "profileBadges": {
-      "topProducer": "顶级生产者",
-      "fiveStarRated": "五星评级"
+      "topProducer": "",
+      "fiveStarRated": ""
     },
     "recentSales": {
-      "title": "最近销售",
+      "title": "最近成交",
       "seeAll": "查看全部",
       "sold": "已售",
       "properties": [
         {
-          "address": "1234 Ocean View Dr, La Jolla",
-          "price": "$2,450,000",
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
           "year": "2024",
-          "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+          "imageUrl": "/contact/property_5.png"
         },
         {
-          "address": "9012 Sunset Cliffs Rd, Point Loma",
-          "price": "$3,120,000",
-          "year": "2023",
-          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
         },
         {
-          "address": "3456 Pacific Coast Hwy, Encinitas",
-          "price": "$2,850,000",
-          "year": "2023",
-          "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
         }
       ]
     }
@@ -82,19 +118,25 @@
     "description": {
       "title": "了解 Reza",
       "subtitle": "房地产专业人士",
-      "text1": "通过跨越32个国家和100多个城市的旅程，Reza为圣地亚哥房地产市场带来了丰富的经验和独特的全球视角。他坚信没有地方像圣地亚哥一样，拥有无与伦比的海岸线、充满活力的城市景观和无尽的冒险。",
-      "text2": "利用17年的客户管理和谈判专业知识，Reza已经完善了理解客户需求并超越他们期望的艺术。但对他来说，这不仅仅是交易。无论是指导卖家最大化房屋价值，还是帮助买家找到梦想房产，Reza的真正热情在于为他的客户取得巨大成功。",
-      "text3": "除了房地产，Reza深深植根于圣地亚哥社区的结构中。他通过基层请愿支持正义事业，积极参与海滩清理，并通过各种政府补贴计划不懈努力提升服务不足的社区。对Reza来说，房地产不仅仅是生意——它是进一步服务和丰富他最珍视的社区的平台。"
+      "text1": "Reza 的足迹遍布 32 个国家和一百多座城市，为圣迭戈房地产市场带来了丰富的国际经验和独特的全球视野。他坚信，世界上没有任何地方能与圣迭戈相比，这里拥有无与伦比的海岸线、充满活力的城市风貌和无尽的探险。",
+      "text2": "凭借 17 年的客户管理与谈判经验，Reza 已经将洞察客户需求并超越期望的能力打磨得炉火纯青。但对他来说，这不仅仅是交易。无论是指导卖家最大化房屋价值，还是帮助买家找到梦想之家，Reza 真正的热忱在于为客户创造非凡成果。",
+      "text3": "在房地产之外，Reza 深深扎根于圣迭戈社区。他通过基层请愿推动正义事业，积极参与海滩清洁，并通过多种政府资助项目不懈地帮助弱势群体。对 Reza 而言，房地产不仅是一门生意，更是一种服务并丰富他最珍视的社区的平台。"
     },
     "specialties": {
-      "title": "专业领域",
+      "title": "专长",
       "tags": [
-        "买家代理",
+        "买方代理",
         "挂牌代理",
-        "搬迁",
-        "度假/短期租赁"
+        "异地安置",
+        "度假/短租"
       ],
-      "languages": "语言：英语、阿拉伯语、波斯语、土耳其语"
+      "languages": "会说：英语、阿拉伯语、波斯语、土耳其语"
     }
+  },
+  "newProperty": {
+    "address": "",
+    "price": "",
+    "year": "",
+    "imageUrl": ""
   }
 }
