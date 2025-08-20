@@ -93,13 +93,14 @@ const Home = () => {
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
       <Counties countiesData={homeData.cities} locale={locale} />
-      <Blog blogData={homeData.blog} />
-      <Services servicesData={homeData.services} />
       <Testimonials 
         title={homeData.testimonials?.title}
         subtitle={homeData.testimonials?.subtitle}
         items={homeData.testimonials?.items}
       />
+      <Blog blogData={homeData.blog} />
+      <Services servicesData={homeData.services} />
+      
       <CTA ctaData={homeData.cta} />
     </main>
   )
