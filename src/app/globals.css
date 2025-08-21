@@ -33969,3 +33969,62 @@ body {
   }
 }
 
+/* ========================================
+   MOBILE LOADING SCREEN FIXES
+   ======================================== */
+/* Fix for loading screen text centering on mobile */
+@media (max-width: 768px) {
+  .loading-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .loading-screen .prestige-logo {
+    text-align: center !important;
+    width: 100% !important;
+    padding: 0 20px;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin: 0 auto 20px auto;
+  }
+  
+  .loading-screen .prestige-text {
+    text-align: center !important;
+    width: 100% !important;
+    padding: 0 20px;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin: 0 auto 30px auto;
+  }
+  
+  .loading-screen .prestige-bar {
+    margin: 0 auto !important;
+    max-width: 90% !important;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-screen {
+    padding: 16px;
+  }
+  
+  .loading-screen .prestige-logo {
+    padding: 0 16px;
+    font-size: 24px !important;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  
+  .loading-screen .prestige-text {
+    padding: 0 16px;
+    font-size: 13px !important;
+    margin-bottom: 24px;
+  }
+  
+  .loading-screen .prestige-bar {
+    max-width: 85% !important;
+    width: 200px !important;
+  }
+}
+
