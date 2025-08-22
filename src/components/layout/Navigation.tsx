@@ -6,6 +6,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import LanguageSelector from '../common/LanguageSelector';
 import Image from 'next/image';
+import '@/styles/Navigation.css';
 
 const Navigation = () => {
   const t = useTranslations('navigation');

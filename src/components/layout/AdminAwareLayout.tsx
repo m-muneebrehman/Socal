@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
-import LoadingScreen from "@/components/common/LoadingScreen";
+import Loading from "@/components/common/PrestigeLoading";
 
 export default function AdminAwareLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -10,7 +10,7 @@ export default function AdminAwareLayout({ children }: { children: React.ReactNo
   
   return (
     <>
-      {!isAdmin && <LoadingScreen />}
+      {!isAdmin && <Loading />}
       {!isAdmin && <Navigation />}
       {children}
       {!isAdmin && <Footer />}

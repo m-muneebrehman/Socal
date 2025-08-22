@@ -1,6 +1,11 @@
+'use client'
+
 import React, { useState, useEffect } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useParams } from 'next/navigation'
+
+// Blog CSS imports
+import '@/styles/Blog/Blog_Components.css'
 
 interface RelatedArticlesProps {
   currentBlogId: string

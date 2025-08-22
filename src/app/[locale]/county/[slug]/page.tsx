@@ -8,6 +8,11 @@ import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 import ConsultationForm from '@/components/common/ConsultationForm'
 
+// City CSS imports
+import '@/styles/City/City_Beautiful.css'
+import '@/styles/City/City_Stats.css'
+import '@/styles/City/City_About.css'
+
 interface CountyData {
   slug: string
   name: string

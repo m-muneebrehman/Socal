@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { useTranslations } from 'next-intl'
 import { toast } from 'sonner'
+import '@/styles/Consultation.css'
 
 interface ConsultationFormProps {
 	title?: string

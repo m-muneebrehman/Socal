@@ -11,8 +11,16 @@ import { Link } from '@/i18n/navigation'
 import { notFound } from 'next/navigation'
 import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
-
 import ConsultationForm from '@/components/common/ConsultationForm'
+
+// City CSS imports
+import '@/styles/City/City_Hero.css'
+import '@/styles/City/City_Stats.css'
+import '@/styles/City/City_About.css'
+import '@/styles/City/City_Highlights.css'
+import '@/styles/City/City_FAQ.css'
+import '@/styles/City/City_Clients.css'
+import '@/styles/City/City_Back.css'
 
 // using useParams in client to avoid accessing Promise-based params prop
 

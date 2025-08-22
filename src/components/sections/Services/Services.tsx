@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import '@/styles/Services.css'
 
 interface ServicesProps {
   servicesData?: {
@@ -36,7 +37,7 @@ const Services = ({ servicesData }: ServicesProps) => {
   }
   const investmentAdvisory = servicesData?.investmentAdvisory || {
     title: t('investmentAdvisory.title'),
-    descripton: t('investmentAdvisory.description'),
+    description: t('investmentAdvisory.description'),
     icon: ''
   }
   const relocationServices = servicesData?.relocationServices || {

@@ -1,0 +1,384 @@
+/* Beautiful Cities Section Styles - Home Page */
+.cities-section-beautiful {
+  padding: 120px 40px;
+  background: var(--white);
+  position: relative;
+}
+
+.cities-container-beautiful {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header-beautiful {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-eyebrow-beautiful {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gold) 0%, #b8941f 100%);
+  color: var(--charcoal);
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-title-beautiful {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.section-subtitle-beautiful {
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.cities-grid-beautiful {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.city-card-beautiful {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--white);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  animation: slideInUp 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.city-card-beautiful:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.city-card-inner-beautiful {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-image-beautiful {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.city-gradient-overlay-beautiful {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.city-badges-beautiful {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-state-badge-beautiful {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--charcoal);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.city-price-badge-beautiful {
+  background: var(--gold);
+  color: var(--charcoal);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.city-distance-badge-beautiful {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--charcoal);
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.distance-icon {
+  display: flex;
+  align-items: center;
+  color: var(--gold);
+}
+
+.distance-text {
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.city-content-beautiful {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-header-beautiful {
+  margin-bottom: 15px;
+}
+
+.city-name-beautiful {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.city-neighborhoods-count-beautiful {
+  font-size: 14px;
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 500;
+}
+
+.city-description-beautiful {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(26, 26, 26, 0.8);
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.city-tags-row-beautiful {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.city-tag-beautiful {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold);
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  transition: all 0.3s ease;
+}
+
+.city-tag-beautiful:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.city-card-footer-beautiful {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.explore-arrow-beautiful {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--gold);
+  border-radius: 50%;
+  color: var(--charcoal);
+  transition: all 0.3s ease;
+}
+
+.city-card-beautiful:hover .explore-arrow-beautiful {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+.cities-section-footer-beautiful {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.see-more-btn-beautiful {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, var(--gold) 0%, #b8941f 100%);
+  color: var(--charcoal);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+}
+
+.see-more-btn-beautiful:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.3);
+}
+
+.see-more-btn-beautiful svg {
+  transition: transform 0.3s ease;
+}
+
+.see-more-btn-beautiful:hover svg {
+  transform: translateX(5px);
+}
+
+/* Beautiful Cities Responsive Design */
+@media (max-width: 1024px) {
+  .cities-grid-beautiful {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cities-section-beautiful {
+    padding: 80px 20px;
+  }
+  
+  .section-title-beautiful {
+    font-size: 36px;
+  }
+  
+  .cities-grid-beautiful {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .city-content-beautiful {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title-beautiful {
+    font-size: 28px;
+  }
+  
+  .section-subtitle-beautiful {
+    font-size: 16px;
+  }
+  
+  .city-image-beautiful {
+    height: 180px;
+  }
+  
+  .city-content-beautiful {
+    padding: 20px;
+  }
+  
+  .cities-grid-beautiful {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .city-distance-badge-beautiful {
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+  
+  .distance-icon svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Responsive Cities Section */
+@media (max-width: 1024px) {
+  .cities-section {
+    padding: 80px 0;
+  }
+  
+  .cities-container {
+    padding: 0 40px;
+  }
+  
+  .cities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cities-section {
+    padding: 60px 0;
+  }
+  
+  .cities-container {
+    padding: 0 24px;
+  }
+  
+  .cities-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .city-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cities-section {
+    padding: 40px 0;
+  }
+  
+  .cities-container {
+    padding: 0 20px;
+  }
+  
+  .city-card {
+    padding: 16px;
+  }
+}

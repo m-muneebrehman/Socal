@@ -1,16 +1,23 @@
 'use client'
 import React from 'react'
+import '@/styles/animations.css'
+import '@/styles/Loading.css'
 
-const PrestigeLoading = () => {
+interface LoadingProps {
+  title?: string;
+}
+
+const Loading = ({ 
+  title = 'SOCAL PRIME HOMES'
+}: LoadingProps) => {
   return (
     <div className="loading-screen">
-      <div className="loading-logo prestige-logo">SOCAL PRIME HOMES</div>
-      <div className="loading-text prestige-text">Loading your premium experience...</div>
-      <div className="loading-bar prestige-bar">
+      <div className="loading-logo">{title}</div>
+      <div className="loading-bar">
         <div className="loading-progress"></div>
       </div>
     </div>
   )
 }
 
-export default PrestigeLoading
+export default Loading

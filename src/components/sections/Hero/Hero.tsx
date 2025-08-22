@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
+import '@/styles/Hero.css'
 
 interface HeroProps {
   heroData?: {

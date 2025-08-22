@@ -8,6 +8,10 @@ import RelatedArticles from '@/components/sections/Blog/RelatedArticles'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 import type { Blog as BlogType } from '@/types'
 
+// Blog CSS imports
+import '@/styles/Blog/Blog_Post.css'
+import '@/styles/Blog/Blog_Components.css'
+
 const BlogPage = () => {
   const t = useTranslations('blog')
   const routeParams = useParams() as any

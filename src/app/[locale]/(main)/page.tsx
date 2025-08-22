@@ -11,6 +11,9 @@ import Testimonials from '@/components/sections/Testimonials/Testimonials'
 import CTA from '@/components/sections/CTA/CTA'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 
+// City CSS imports
+import '@/styles/City.css'
+
 const Home = () => {
   const params = useParams()
   const [homeData, setHomeData] = useState<Record<string, any> | null>(null)

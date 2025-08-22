@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import '@/styles/Stats.css'
 
 interface StatsProps {
   statsData?: {
