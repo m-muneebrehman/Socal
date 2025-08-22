@@ -21,6 +21,14 @@ import '@/styles/City/City_Highlights.css'
 import '@/styles/City/City_FAQ.css'
 import '@/styles/City/City_Clients.css'
 import '@/styles/City/City_Back.css'
+import '@/styles/City/City_Beautiful.css'
+
+// County CSS imports (for shared landing sections)
+import '@/styles/County/CountyContent.css'
+import '@/styles/County/CountyCities.css'
+
+// Ensure proper CSS loading order - add this to prevent conflicts
+import '@/app/globals.css'
 
 // using useParams in client to avoid accessing Promise-based params prop
 
@@ -433,6 +441,21 @@ const CityPage = () => {
               <p className="section-subtitle-beautiful">{t('cityPage.discoverDiverseNeighborhoods', { cityName: city.name })}</p>
             </div>
             
+            {/* Debug Info */}
+            <div style={{ 
+              padding: '20px', 
+              margin: '20px 0', 
+              backgroundColor: '#f0f0f0', 
+              borderRadius: '8px',
+              fontSize: '14px',
+              fontFamily: 'monospace'
+            }}>
+              <p><strong>Debug Info:</strong></p>
+              <p>City Name: {city.name}</p>
+              <p>Neighborhoods Length: {city.neighborhoods?.length || 0}</p>
+              <p>City Data: {JSON.stringify(city.neighborhoods?.slice(0, 2) || [], null, 2)}</p>
+            </div>
+
             <div className="cities-grid-beautiful">
               {city.neighborhoods.map((neighborhood, index) => (
                 <Link 
