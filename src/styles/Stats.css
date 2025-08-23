@@ -1,15 +1,33 @@
 /* ========================================
-   STATS SECTION - HOME PAGE
+   STATS SECTION - HOME PAGE (SCOPED TO PREVENT CONFLICTS)
    ======================================== */
+/* 
+   CSS CONFLICT SOLUTION:
+   
+   PROBLEM: When navigating from city/county pages back to home, CSS classes
+   like .stat-card, .stat-number, .stat-label from City_Stats.css remain
+   applied, causing inconsistent styling on the home page.
+   
+   SOLUTION: 
+   1. Added home-stats- prefix to all home page stats classes
+   2. Removed original classes to prevent conflicts with city/county pages
+   3. This ensures home page stats are completely isolated from city/county stats
+   
+   USAGE:
+   - Home page: Use home-stats-* classes (e.g., home-stat-card)
+   - City/County pages: Use city-stats-* classes (e.g., city-stat-card)
+   - No more CSS conflicts when navigating between pages!
+*/
 
-.stats-section {
+/* ===== HOME STATS SECTION (SCOPED) ===== */
+.home-stats-section {
   padding: 120px 40px;
   background: var(--cream);
   position: relative;
   overflow: hidden;
 }
 
-.stats-section::before {
+.home-stats-section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -20,7 +38,7 @@
   z-index: 1;
 }
 
-.stats-container {
+.home-stats-container {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -30,7 +48,7 @@
   z-index: 2;
 }
 
-.stat-card {
+.home-stat-card {
   text-align: center;
   padding: 20px 30px;
   background: var(--white);
@@ -41,7 +59,7 @@
   overflow: hidden;
 }
 
-.stat-card::after {
+.home-stat-card::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -51,19 +69,19 @@
   background: var(--gold);
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+  transition: transform 0.6s cubic-bezier(0.65, 0, 0, 0.35, 1);
 }
 
-.stat-card:hover {
+.home-stat-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.stat-card:hover::after {
+.home-stat-card:hover::after {
   transform: scaleX(1);
 }
 
-.stat-number {
+.home-stat-number {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   font-weight: 600;
@@ -72,7 +90,7 @@
   line-height: 1;
 }
 
-.stat-label {
+.home-stat-label {
   font-size: 14px;
   color: var(--charcoal);
   letter-spacing: 1px;
@@ -81,40 +99,40 @@
 }
 
 /* ========================================
-   STATS RESPONSIVE DESIGN
+   RESPONSIVE DESIGN - HOME STATS (SCOPED)
    ======================================== */
 
 @media (max-width: 1200px) {
-  .stats-section {
+  .home-stats-section {
     padding: 100px 32px;
   }
   
-  .stats-container {
+  .home-stats-container {
     max-width: 1000px;
     gap: 32px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 44px 18px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 48px;
   }
 }
 
 @media (max-width: 1024px) {
-  .stats-section {
+  .home-stats-section {
     padding: 80px 24px;
   }
   
-  .stats-container {
+  .home-stats-container {
     max-width: 900px;
     grid-template-columns: repeat(2, 1fr);
     gap: 28px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 40px 20px;
     min-height: 160px;
     display: flex;
@@ -122,41 +140,41 @@
     justify-content: center;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 44px;
     margin-bottom: 12px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 13px;
     line-height: 1.3;
   }
 }
 
 @media (max-width: 768px) {
-  .stats-section {
+  .home-stats-section {
     padding: 60px 20px;
     overflow: hidden;
   }
   
-  .stats-container {
+  .home-stats-container {
     max-width: 100%;
     gap: 20px;
     padding: 0;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 32px 16px;
     min-height: 140px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 36px;
     line-height: 1.1;
     margin-bottom: 10px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 12px;
     line-height: 1.3;
     letter-spacing: 0.5px;
@@ -164,51 +182,51 @@
 }
 
 @media (max-width: 640px) {
-  .stats-section {
+  .home-stats-section {
     padding: 50px 16px;
   }
   
-  .stats-container {
+  .home-stats-container {
     gap: 16px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 28px 14px;
     min-height: 120px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 32px;
     margin-bottom: 8px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 11px;
     line-height: 1.2;
   }
 }
 
 @media (max-width: 480px) {
-  .stats-section {
+  .home-stats-section {
     padding: 40px 12px;
   }
   
-  .stats-container {
+  .home-stats-container {
     grid-template-columns: 1fr;
     gap: 16px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 24px 16px;
     min-height: 100px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 28px;
     margin-bottom: 6px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 10px;
     line-height: 1.2;
     letter-spacing: 0.3px;
@@ -216,83 +234,87 @@
 }
 
 @media (max-width: 360px) {
-  .stats-section {
+  .home-stats-section {
     padding: 32px 8px;
   }
   
-  .stats-container {
+  .home-stats-container {
     gap: 12px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 20px 12px;
     min-height: 90px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 24px;
     margin-bottom: 4px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 9px;
     line-height: 1.1;
     letter-spacing: 0.2px;
   }
 }
 
+/* ========================================
+   SPECIAL CASES - HOME STATS ONLY
+   ======================================== */
+
 /* Landscape orientation adjustments for mobile */
 @media (max-height: 500px) and (orientation: landscape) {
-  .stats-section {
+  .home-stats-section {
     padding: 40px 20px;
   }
   
-  .stats-container {
+  .home-stats-container {
     gap: 16px;
   }
   
-  .stat-card {
+  .home-stat-card {
     padding: 24px 16px;
     min-height: 80px;
   }
   
-  .stat-number {
+  .home-stat-number {
     font-size: 28px;
     margin-bottom: 6px;
   }
   
-  .stat-label {
+  .home-stat-label {
     font-size: 10px;
   }
 }
 
 /* High DPI displays */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .stat-card {
+  .home-stat-card {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
   }
   
-  .stat-card:hover {
+  .home-stat-card:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
   }
 }
 
 /* Touch device optimizations */
 @media (hover: none) and (pointer: coarse) {
-  .stat-card:hover {
+  .home-stat-card:hover {
     transform: none;
   }
   
-  .stat-card:active {
+  .home-stat-card:active {
     transform: translateY(-5px);
   }
 }
 
 /* ========================================
-   ADDITIONAL STATS STYLES (MERGED FROM DUPLICATE)
+   ADDITIONAL STATS STYLES (FOR COMPATIBILITY)
    ======================================== */
 
-/* Support for .stats-grid class (alternative to .stats-container) */
+/* Support for .stats-grid class (alternative to .home-stats-container) */
 .stats-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -317,3 +339,4 @@
     gap: 20px;
   }
 }
+

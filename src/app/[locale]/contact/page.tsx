@@ -10,12 +10,8 @@ import PrestigeLoading from '@/components/common/PrestigeLoading'
 import { ContactData } from '@/types'
 import Testimonials from '@/components/sections/Testimonials/Testimonials'
 
-// Import Contact CSS files
+// Import consolidated Contact CSS file
 import "@/styles/Contact/Contact.css"
-import "@/styles/Contact/ContactHero.css"
-import "@/styles/Contact/ContactForm.css"
-import "@/styles/Contact/ContactInfo.css"
-import "@/styles/Contact/SalesModal.css"
 
 const ContactPage = () => {
   const params = useParams()
