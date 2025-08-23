@@ -104,8 +104,8 @@ const Navigation = () => {
           <Image
             src="/logo.png"
             alt="SoCal Prime Homes Logo"
-            width={48}
-            height={48}
+            width={64}
+            height={64}
             className="logo-image rounded-lg"
             style={{
               objectFit: 'contain',

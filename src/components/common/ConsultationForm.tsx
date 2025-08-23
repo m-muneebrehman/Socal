@@ -226,6 +226,17 @@ const ConsultationForm = ({
 										: readyToBuyOrSell?.replace('{countyName}', 'Southern California') || "Ready to buy or sell in Southern California? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
 									}
 								</p>
+								
+								{/* Back Button - Moved here below the CTA text */}
+								<button 
+									className="consultation-back-btn"
+									onClick={() => setShowConsultation(false)}
+								>
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+										<path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+									</svg>
+									{back || "Back"}
+								</button>
 							</div>
 						</div>
 					
@@ -372,16 +383,6 @@ const ConsultationForm = ({
 						</div>
 					</div>
 				</div>
-				
-				<button 
-					className="consultation-back-btn"
-					onClick={() => setShowConsultation(false)}
-				>
-					<svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-						<path d="M19 12H5M12 19L5 12L12 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-					</svg>
-					{back || "Back"}
-				</button>
 				</div>
 			</section>
 		</div>

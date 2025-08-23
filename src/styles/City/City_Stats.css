@@ -30,12 +30,6 @@
   border-color: rgba(212, 175, 55, 0.3);
 }
 
-.stat-icon {
-  font-size: 32px;
-  margin-bottom: 15px;
-  display: block;
-}
-
 .stat-number {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
