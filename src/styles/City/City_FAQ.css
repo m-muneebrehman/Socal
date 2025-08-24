@@ -1,0 +1,136 @@
+/* City FAQ Styles - Individual City Pages */
+.city-faqs-enhanced {
+  padding: 120px 40px;
+  background: linear-gradient(135deg, var(--cream) 0%, rgba(248, 246, 240, 0.9) 100%);
+}
+
+.faqs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+
+.faq-category-btn {
+  background: transparent;
+  color: rgba(26, 26, 26, 0.6);
+  border: 2px solid rgba(26, 26, 26, 0.1);
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.faq-category-btn:hover {
+  color: var(--charcoal);
+  border-color: rgba(212, 175, 55, 0.3);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.faq-category-btn.active {
+  background: var(--gold);
+  color: var(--charcoal);
+  border-color: var(--gold);
+  font-weight: 600;
+}
+
+.faqs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.faq-card-enhanced {
+  background: var(--white);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-card-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold), rgba(212, 175, 55, 0.3));
+}
+
+.faq-card-enhanced:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.faq-category-tag {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold);
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.faq-answer {
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(26, 26, 26, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .city-faqs-enhanced {
+    padding: 80px 20px;
+  }
+  
+  .faqs-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .faq-categories {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .city-faqs-enhanced {
+    padding: 60px 20px;
+  }
+  
+  .faq-card-enhanced {
+    padding: 25px;
+  }
+  
+  .faq-question {
+    font-size: 20px;
+  }
+}

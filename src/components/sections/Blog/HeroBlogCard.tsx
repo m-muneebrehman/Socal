@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from '@/i18n/navigation'
 import { useParams } from 'next/navigation'
 
+// Blog CSS imports
+import '@/styles/Blog/Blog_Listing.css'
+
 interface Blog {
   id: string
   slug: string

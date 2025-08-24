@@ -23,6 +23,12 @@ import {
   Clock
 } from "lucide-react"
 
+// Import admin CSS files
+import "@/styles/Admin/admin_navbar.css"
+import "@/styles/Admin/admin_components.css"
+import "@/styles/Admin/admin_page.css"
+import "@/styles/Admin/admin_footer.css"
+
 // Import types
 import { User, Blog, City, DashboardStats, HomeSection, Toast, HomeData, ContactData } from "@/types"
 

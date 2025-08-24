@@ -6,6 +6,9 @@ import { useParams } from 'next/navigation'
 import HeroBlogCard from '@/components/sections/Blog/HeroBlogCard'
 import BlogGridCard from '@/components/sections/Blog/BlogGridCard'
 
+// Blog CSS imports
+import '@/styles/Blog/Blog_Listing.css'
+
 const BlogPage = () => {
   const t = useTranslations('blog')
   const params = useParams()

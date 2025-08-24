@@ -1,7 +1,13 @@
+"use client"
+
 import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { useParams } from 'next/navigation'
+import '@/styles/Blog.css'
+
+// Blog CSS imports
+import '@/styles/Blog/Blog_Components.css'
 
 interface BlogProps {
   blogData?: {
@@ -55,7 +61,7 @@ const Blog = ({ blogData }: BlogProps) => {
             <div className="blog-image" style={{ backgroundImage: `url('${firstBlog.heroImage}')` }}></div>
             <div className="blog-content">
               <div className="blog-date">{firstBlog.date}</div>
-              <h3 className="blog-title">{firstBlog.title}</h3>
+              <h3 className="home-blog-title">{firstBlog.title}</h3>
               <p className="blog-excerpt">{firstBlog.subtitle}</p>
               <Link href={`/blog/${firstBlog.slug}`} locale={locale} className="blog-link">{t('readArticle')}</Link>
             </div>
@@ -65,7 +71,7 @@ const Blog = ({ blogData }: BlogProps) => {
             <div className="blog-image" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2940&q=80')" }}></div>
             <div className="blog-content">
               <div className="blog-date">{t('date')}</div>
-              <h3 className="blog-title">{t('articleTitle')}</h3>
+              <h3 className="home-blog-title">{t('articleTitle')}</h3>
               <p className="blog-excerpt">{t('excerpt')}</p>
               <Link href="/blog" locale={locale} className="blog-link">{t('readArticle')}</Link>
             </div>

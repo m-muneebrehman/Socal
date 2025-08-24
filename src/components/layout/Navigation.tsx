@@ -6,6 +6,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import LanguageSelector from '../common/LanguageSelector';
 import Image from 'next/image';
+import '@/styles/Navigation.css';
 
 const Navigation = () => {
   const t = useTranslations('navigation');
@@ -103,8 +104,8 @@ const Navigation = () => {
           <Image
             src="/logo.png"
             alt="SoCal Prime Homes Logo"
-            width={48}
-            height={48}
+            width={64}
+            height={64}
             className="logo-image rounded-lg"
             style={{
               objectFit: 'contain',

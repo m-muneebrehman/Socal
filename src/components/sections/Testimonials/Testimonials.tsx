@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import styles from './Testimonials.module.css'
+import styles from '@/styles/Testimonials.module.css'
 
 type Testimonial = {
   id: string
@@ -218,7 +218,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({
                   </div>
 
                   <div className={styles.quoteWrap}>
-                    <div ref={(el) => (quoteRefs.current[t.id] = el)} className={`${styles.glass} ${styles.quoteScroll}`}>
+                    <div ref={(el) => { quoteRefs.current[t.id] = el }} className={`${styles.glass} ${styles.quoteScroll}`}>
                       <p className={styles.quote}>{t.quote}</p>
                     </div>
                     {overflowing[t.id] && (

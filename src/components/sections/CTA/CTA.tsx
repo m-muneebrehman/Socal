@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import ConsultationForm from '@/components/common/ConsultationForm'
+import '@/styles/Consultation.css'
 
 interface CTAProps {
   ctaData?: {

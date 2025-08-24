@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from '@/i18n/navigation'
 
+// Blog CSS imports
+import '@/styles/Blog/Blog_Components.css'
+
 type BlogCardProps = {
   date: string
   title: string

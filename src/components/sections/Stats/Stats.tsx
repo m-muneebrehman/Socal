@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { useTranslations } from 'next-intl'
+import '@/styles/Stats.css'
 
 interface StatsProps {
   statsData?: {
@@ -30,23 +31,23 @@ const Stats = ({ statsData }: StatsProps) => {
   const clientSatisfactionLabel = statsData?.clientSatisfactionLabel || t('clientSatisfaction')
 
   return (
-    <section className="stats-section">
-      <div className="stats-container">
-        <div className="stat-card">
-          <div className="stat-number">{yearsExperience}</div>
-          <div className="stat-label">{yearsExperienceLabel}</div>
+    <section className="home-stats-section">
+      <div className="home-stats-container">
+        <div className="home-stat-card">
+          <div className="home-stat-number">{yearsExperience}</div>
+          <div className="home-stat-label">{yearsExperienceLabel}</div>
         </div>
-        <div className="stat-card">
-          <div className="stat-number">{billionInSales}</div>
-          <div className="stat-label">{billionInSalesLabel}</div>
+        <div className="home-stat-card">
+          <div className="home-stat-number">{billionInSales}</div>
+          <div className="home-stat-label">{billionInSalesLabel}</div>
         </div>
-        <div className="stat-card">
-          <div className="stat-number">{countriesServed}</div>
-          <div className="stat-label">{countriesServedLabel}</div>
+        <div className="home-stat-card">
+          <div className="home-stat-number">{countriesServed}</div>
+          <div className="home-stat-label">{countriesServedLabel}</div>
         </div>
-        <div className="stat-card">
-          <div className="stat-number">{clientSatisfaction}</div>
-          <div className="stat-label">{clientSatisfactionLabel}</div>
+        <div className="home-stat-card">
+          <div className="home-stat-number">{clientSatisfaction}</div>
+          <div className="home-stat-label">{clientSatisfactionLabel}</div>
         </div>
       </div>
     </section>

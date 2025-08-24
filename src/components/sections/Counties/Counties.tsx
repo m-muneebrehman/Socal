@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import '@/styles/City/City_Beautiful.css'
 
 interface CountiesProps {
   countiesData?: {
