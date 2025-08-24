@@ -70,7 +70,8 @@ const ContactForm = ({ contactData }: ContactFormProps) => {
     try {
       // EmailJS template parameters - using standard EmailJS variables
       const templateParams = {
-        to_name: 'Crown Coastal Concierge',
+        to_name: 'Reza Barghlameno',
+        to_email: 'Reza@socalprimehomes.com',
         from_name: formData.name,
         from_email: formData.email,
         from_phone: formData.phone,
