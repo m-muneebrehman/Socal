@@ -18,13 +18,6 @@ const CitySearch: React.FC<CitySearchProps> = ({
 
   return (
     <div className="city-search-container">
-      <div className="search-header">
-        <h2 className="search-title">{t('search.title')}</h2>
-        <p className="search-subtitle">
-          {t('search.subtitle')}
-        </p>
-      </div>
-      
       <div className="search-input-container">
         <div className="search-input-wrapper">
           <div className="search-icon">
