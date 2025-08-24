@@ -8,25 +8,11 @@ import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 import ConsultationForm from '@/components/common/ConsultationForm'
 
-// Base CSS first (contains CSS variables)
+// Single Landing CSS import - NO MORE CONFLICTS!
+import '@/styles/Landing.css'
+
+// Base CSS for variables
 import '@/app/globals.css'
-
-// County CSS imports
-import '@/styles/County/County.css'
-import '@/styles/County/CountyHero.css'
-import '@/styles/County/CountyContent.css'
-import '@/styles/County/CountyHighlights.css'
-import '@/styles/County/CountyCities.css'
-
-// City CSS imports (for shared components)
-import '@/styles/City/City_Hero.css'
-import '@/styles/City/City_Stats.css'
-import '@/styles/City/City_About.css'
-import '@/styles/City/City_Highlights.css'
-import '@/styles/City/City_FAQ.css'
-import '@/styles/City/City_Back.css'
-import '@/styles/City.css' // For animations like slideInUp
-// Note: City_Beautiful.css removed to prevent conflicts with CountyCities.css
 
 interface CountyData {
   slug: string

@@ -13,21 +13,10 @@ import { useParams } from 'next/navigation'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
 import ConsultationForm from '@/components/common/ConsultationForm'
 
-// City CSS imports
-import '@/styles/City/City_Hero.css'
-import '@/styles/City/City_Stats.css'
-import '@/styles/City/City_About.css'
-import '@/styles/City/City_Highlights.css'
-import '@/styles/City/City_FAQ.css'
-import '@/styles/City/City_Clients.css'
-import '@/styles/City/City_Back.css'
-import '@/styles/City/City_Beautiful.css'
+// Single Landing CSS import - NO MORE CONFLICTS!
+import '@/styles/Landing.css'
 
-// County CSS imports (for shared landing sections)
-import '@/styles/County/CountyContent.css'
-import '@/styles/County/CountyCities.css'
-
-// Ensure proper CSS loading order - add this to prevent conflicts
+// Base CSS for variables
 import '@/app/globals.css'
 
 // using useParams in client to avoid accessing Promise-based params prop
