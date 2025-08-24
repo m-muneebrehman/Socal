@@ -7,7 +7,7 @@ import CitySearch from '@/components/sections/Cities/CitySearch'
 import CityGrid from '@/components/sections/Cities/CityGrid'
 import Pagination from '@/components/sections/Cities/Pagination'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
-import '@/styles/City/City_Page.css'
+import '@/styles/Landing.css'
 
 interface CityData {
   slug: string
