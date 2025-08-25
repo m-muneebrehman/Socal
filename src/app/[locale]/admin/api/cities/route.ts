@@ -151,38 +151,51 @@ export async function PUT(request: NextRequest) {
     const body = await request.json()
     const { _id, ...updateData } = body
     console.log('Updating city with ID:', _id)
-    
+
     if (!_id) {
       return NextResponse.json({ error: 'City ID is required' }, { status: 400 })
     }
 
-    // Validate ObjectId format
-    if (!ObjectId.isValid(_id)) {
-      console.error('Invalid ObjectId format:', _id)
-      return NextResponse.json({ 
-        error: 'Invalid city ID format',
-        details: 'The provided ID is not a valid MongoDB ObjectId'
-      }, { status: 400 })
+    const { db } = await connectToDatabase()
+
+    let result
+
+    // Case 1: Try with ObjectId
+    if (ObjectId.isValid(_id)) {
+      result = await db.collection('cities').updateOne(
+        { _id: new ObjectId(_id) },
+        { 
+          $set: {
+            ...updateData,
+            updatedAt: new Date()
+          }
+        }
+      )
     }
 
-    const { db } = await connectToDatabase()
-    
-    const result = await db.collection('cities').updateOne(
-      { _id: new ObjectId(_id) },
-      { 
-        $set: {
-          ...updateData,
-          updatedAt: new Date()
+    // Case 2: If not valid ObjectId OR no match, try with string
+    if (!result || result.matchedCount === 0) {
+      result = await db.collection('cities').updateOne(
+        { _id: _id }, // keep as string
+        { 
+          $set: {
+            ...updateData,
+            updatedAt: new Date()
+          }
         }
-      }
-    )
+      )
+    }
 
-    if (result.matchedCount === 0) {
+    if (!result || result.matchedCount === 0) {
+      console.error('City not found:', _id)
       return NextResponse.json({ error: 'City not found' }, { status: 404 })
     }
 
-    // Read updated doc to write its JSON file
-    const updated = await db.collection('cities').findOne({ _id: new ObjectId(_id) })
+    // ✅ Fetch updated city
+    const updated = await db.collection('cities').findOne({ 
+      _id: ObjectId.isValid(_id) ? new ObjectId(_id) : _id 
+    })
+
     if (updated) {
       await writeCityFile(updated as any)
     }
@@ -197,6 +210,7 @@ export async function PUT(request: NextRequest) {
     }, { status: 500 })
   }
 }
+
 
 export async function DELETE(request: NextRequest) {
   try {

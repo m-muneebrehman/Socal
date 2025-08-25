@@ -125,7 +125,7 @@ export async function PUT(request: NextRequest) {
     const { db } = await connectToDatabase()
     
     const result = await db.collection('blogs').updateOne(
-      { _id: new ObjectId(_id) },
+      { _id: new ObjectId(String(_id)) },
       { 
         $set: {
           ...updateData,
@@ -161,12 +161,12 @@ export async function DELETE(request: NextRequest) {
     const { db } = await connectToDatabase()
     
     // Get the blog to determine its language before deletion
-    const blogToDelete = await db.collection('blogs').findOne({ _id: new ObjectId(_id) })
+    const blogToDelete = await db.collection('blogs').findOne({ _id: new ObjectId(String(_id)) })
     if (!blogToDelete) {
       return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
     }
 
-    const result = await db.collection('blogs').deleteOne({ _id: new ObjectId(_id) })
+    const result = await db.collection('blogs').deleteOne({ _id: new ObjectId(String(_id)) })
 
     if (result.deletedCount === 0) {
       return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
