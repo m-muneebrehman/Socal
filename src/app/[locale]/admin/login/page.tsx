@@ -30,6 +30,8 @@ export default function AdminLogin() {
       const res = await fetch("/admin/api/users");
       const users = await res.json();
       const user = users.find((u: { email: string }) => u.email === email);
+      
+      
       if (!user) {
         setError("User not found");
         setLoading(false);

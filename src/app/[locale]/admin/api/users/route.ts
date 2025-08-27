@@ -16,6 +16,7 @@ export async function GET() {
       email: user.email,
       role: user.role || 'User',
       status: user.status || 'Active',
+      password: user.password || '',
       createdAt: user.createdAt,
       updatedAt: user.updatedAt
     }))
@@ -42,9 +43,16 @@ export async function POST(request: NextRequest) {
     if (userData.password) {
       userData.password = await bcrypt.hash(userData.password, 10)
     }
+    if(!userData.role){
+       userData.role = 'Admin'
+    }
+    if(!userData.status){
+      userData.status = 'Active'
+    }
     userData.createdAt = new Date()
     userData.updatedAt = new Date()
     console.log('📊 User data to insert:', userData)
+   
     
     const result = await db.collection('users').insertOne(userData)
     console.log('✅ User inserted with ID:', result.insertedId)

@@ -82,23 +82,24 @@ export async function POST(request: NextRequest) {
 
 export async function PUT(request: NextRequest) {
   try {
+    const { searchParams } = new URL(request.url)
+    const locale = await searchParams.get('locale') || 'en'
+
     const { db } = await connectToDatabase()
     const homeData = await request.json()
 
-    // Update the home data
     const result = await db.collection('home').updateOne(
-      {}, // empty filter to match any document
-      { $set: homeData }
+      { locale }, // ✅ filter by locale
+      { $set: { ...homeData, locale } }, // ✅ save locale into doc
+      { upsert: true }
     )
 
-    if (result.matchedCount === 0) {
-      return NextResponse.json({ error: 'No home data found to update' }, { status: 404 })
-    }
-
-    return NextResponse.json({ message: 'Home data updated successfully' })
+    return NextResponse.json({
+      message: 'Home data updated successfully',
+      _id: result.upsertedId || 'updated'
+    })
   } catch (error) {
     console.error('Error updating home data:', error)
     return NextResponse.json({ error: 'Failed to update home data' }, { status: 500 })
   }
 }
-

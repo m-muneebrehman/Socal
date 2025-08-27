@@ -358,6 +358,7 @@ export async function updateUsersJsonFile() {
       const transformedUser = {
         id: user._id.toString(),
         email: user.email,
+        password: user.password || '',
         role: user.role || 'User',
         status: user.status || 'Active',
         createdAt: user.createdAt,

@@ -1,20 +1,26 @@
 import { NextRequest, NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import { connectToDatabase } from "@/lib/mongodb";
 import bcrypt from "bcryptjs";
-import fs from 'fs';
-import path from 'path';
 
 export async function POST(req: NextRequest) {
   const { email, password } = await req.json();
   if (!email || !password) {
     return NextResponse.json({ error: "Email and password required" }, { status: 400 });
   }
+  const normalizedEmail = String(email).trim().toLowerCase();
+  console.log("email", normalizedEmail);
 
   try {
-    // First try MongoDB authentication
-    const client = await clientPromise;
-    const db = client.db();
+    // First try MongoDB authentication (ensure same DB as other admin APIs)
+    const { db } = await connectToDatabase();
     const user = await db.collection("users").findOne({ email });
+    if(!user){
+      console.log("User not found", normalizedEmail);
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+
+    }
+    console.log("user info after login")
+    console.log(user);
     
     if (user && user.password) {
       const match = await bcrypt.compare(password, user.password);
@@ -22,7 +28,7 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ success: true, email, role: user.role });
       }
     }
-  } catch (error) {
+  } catch {
     console.log("MongoDB authentication failed, trying JSON fallback...");
   }
 
